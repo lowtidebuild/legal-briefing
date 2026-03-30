@@ -9,3 +9,7 @@ dist/
 build/
 .pytest_cache/
 
+# Local planning / working notes
+DESIGN.md
+office-hours-log-*.md
+docs/superpowers/plans/
