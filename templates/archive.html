@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archive | Game Legal Briefing</title>
+  <link rel="stylesheet" href="{{ base_url }}/static/style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero hero-compact">
+      <p class="eyebrow">Archive</p>
+      <div class="hero-row">
+        <div>
+          <h1>Briefing Archive</h1>
+          <p class="hero-copy">발행 이력과 기사 수를 날짜별로 빠르게 탐색할 수 있습니다.</p>
+        </div>
+        <div class="hero-meta">
+          <a href="{{ base_url }}/">Latest</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="archive-list">
+        {% for entry in entries %}
+        <a class="archive-row" href="{{ base_url }}/archive/{{ entry.date }}.html">
+          <span>{{ entry.date }}</span>
+          <span>{{ entry.count }} items</span>
+        </a>
+        {% endfor %}
+      </section>
+    </main>
+  </div>
+</body>
+</html>
+

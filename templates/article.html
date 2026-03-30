@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ node.title }} | Game Legal Briefing</title>
+  <link rel="stylesheet" href="{{ base_url }}/static/style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero hero-compact">
+      <p class="eyebrow">Briefing Detail</p>
+      <div class="hero-row">
+        <div>
+          <h1>Game Legal Briefing</h1>
+          <p class="hero-copy">구조화된 메타데이터로 본 개별 규제 이벤트.</p>
+        </div>
+        <div class="hero-meta">
+          <a href="{{ base_url }}/">Latest</a>
+          <a href="{{ base_url }}/archive/">Archive</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <article class="briefing-card briefing-card-detail">
+        <div class="meta-row">
+          <span class="chip chip-category">{{ node.category }}</span>
+          <span class="chip">{{ node.event.jurisdiction.value }}</span>
+          <span class="badge">{{ node.event.regulatory_phase.value }}</span>
+        </div>
+        <h2>{{ node.title }}</h2>
+        <p class="source-line">{{ node.source }} · {{ node.pub_date }}</p>
+        <ul class="summary-list">
+          {% for line in node.summary_ko %}
+          <li>{{ line }}</li>
+          {% endfor %}
+        </ul>
+
+        <div class="detail-stack">
+          <p><strong>Event Type</strong> {{ node.event.event_type.value }}</p>
+          {% if node.event.actors %}<p><strong>Actors</strong> {{ node.event.actors | join(", ") }}</p>{% endif %}
+          {% if node.event.object %}<p><strong>Object</strong> {{ node.event.object }}</p>{% endif %}
+          {% if node.event.action %}<p><strong>Action</strong> {{ node.event.action }}</p>{% endif %}
+          {% if node.event.game_mechanic %}<p><strong>Game Mechanic</strong> {{ node.event.game_mechanic }}</p>{% endif %}
+          {% if node.event.time_hint %}<p><strong>Timeline</strong> {{ node.event.time_hint }}</p>{% endif %}
+          <p><strong>Event Key</strong> {{ node.event_key }}</p>
+        </div>
+
+        <p class="read-through">
+          <a href="{{ node.url }}" target="_blank" rel="noreferrer">Open original source</a>
+        </p>
+      </article>
+    </main>
+  </div>
+</body>
+</html>
+

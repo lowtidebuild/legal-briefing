@@ -1,0 +1,163 @@
+llm:
+  provider: gemini
+  model: gemini-3.1-flash-lite
+  max_retries: 2
+  request_timeout_seconds: 30
+  max_input_chars: 8000
+
+sources:
+  tier_a:
+    - name: "GamesIndustry.biz"
+      url: "https://www.gamesindustry.biz/feed"
+    - name: "GameDeveloper"
+      url: "https://www.gamedeveloper.com/rss.xml"
+    - name: "PocketGamer.biz"
+      url: "https://www.pocketgamer.biz/rss/"
+    - name: "Eurogamer"
+      url: "https://www.eurogamer.net/feed"
+    - name: "PC Gamer"
+      url: "https://www.pcgamer.com/rss/"
+    - name: "VGC"
+      url: "https://www.videogameschronicle.com/feed"
+    - name: "gamesradar+"
+      url: "https://www.gamesradar.com/rss/"
+    - name: "IGN"
+      url: "https://feeds.feedburner.com/ign/all"
+    - name: "Kotaku"
+      url: "https://kotaku.com/rss"
+    - name: "GameSpot"
+      url: "https://www.gamespot.com/feeds/mashup/"
+    - name: "Game Rant"
+      url: "https://gamerant.com/feed/"
+    - name: "VentureBeat - GamesBeat"
+      url: "https://venturebeat.com/category/games/feed/"
+    - name: "DLA Piper"
+      url: "https://www.dlapiper.com/rss/insights"
+    - name: "Wiggin"
+      url: "https://www.wiggin.co.uk/feed/"
+    - name: "fieldfisher"
+      url: "https://www.fieldfisher.com/en/rss"
+    - name: "Osborne Clarke"
+      url: "https://www.osborneclarke.com/rss"
+    - name: "IT Chosun"
+      url: "https://it.chosun.com/rss/"
+    - name: "ZDNet Korea"
+      url: "https://zdnet.co.kr/rss/"
+    - name: "ETNews"
+      url: "https://www.etnews.com/rss/"
+    - name: "Hogan Lovells - Privacy & Cybersecurity"
+      url: "https://www.hoganlovells.com/rss/rss?id=195163f6-1e2b-4d72-b710-0da441e2d972"
+    - name: "Hogan Lovells - Technology & Telecoms"
+      url: "https://www.hoganlovells.com/rss/rss?id=4c14988c-2327-4ed2-8523-a7cc2e2a69c7"
+    - name: "Hogan Lovells - Consumer"
+      url: "https://www.hoganlovells.com/rss/rss?id=4d6207ee-165f-4423-b40d-2c6de53dad70"
+    - name: "Hogan Lovells - Antitrust & Competition"
+      url: "https://www.hoganlovells.com/rss/rss?id=1ce6fe3c-034e-4dd6-80c1-0c5fce5e71b6"
+    - name: "Hogan Lovells - Employment"
+      url: "https://www.hoganlovells.com/rss/rss?id=21ec13af-acde-4b4a-af4b-309b1a7f2c7c"
+    - name: "Baker McKenzie - Intellectual Property"
+      url: "https://www.bakermckenzie.com/en/rss-landing/expertise/intellectual-property"
+    - name: "Baker McKenzie - IT & Communications"
+      url: "https://www.bakermckenzie.com/en/rss-landing/expertise/information-technology-and-communications"
+    - name: "Baker McKenzie - Employment & Compensation"
+      url: "https://www.bakermckenzie.com/en/rss-landing/expertise/employment-and-compensation"
+    - name: "Baker McKenzie - Antitrust & Competition"
+      url: "https://www.bakermckenzie.com/en/rss-landing/expertise/antitrust-and-competition"
+    - name: "Cooley - Media (Newsroom)"
+      url: "https://www.cooley.com/corporate-content/rss-feeds/media-rss-feed"
+    - name: "Clifford Chance - Publications & News"
+      url: "https://www.cliffordchance.com/rss/main.xml"
+    - name: "TechCrunch - Policy"
+      url: "https://techcrunch.com/tag/policy/feed/"
+    - name: "WIRED - Business"
+      url: "https://www.wired.com/feed/category/business/latest/rss"
+    - name: "WIRED - AI"
+      url: "https://www.wired.com/feed/tag/ai/latest/rss"
+    - name: "WIRED - Security"
+      url: "https://www.wired.com/feed/category/security/latest/rss"
+    - name: "The Verge - Policy"
+      url: "https://www.theverge.com/rss/index.xml"
+    - name: "The Verge - CyberSecurity"
+      url: "https://www.theverge.com/rss/cyber-security/index.xml"
+    - name: "The Register - Security"
+      url: "https://www.theregister.com/security/headlines.atom"
+    - name: "The Register - Policy"
+      url: "https://www.theregister.com/policy/headlines.atom"
+    - name: "The Register - Legal"
+      url: "https://www.theregister.com/offbeat/legal/headlines.atom"
+    - name: "EDPB - News"
+      url: "https://www.edpb.europa.eu/feed/news_en"
+  tier_b:
+    - name: "GameDiscoverCo newsletter (Substack)"
+      url: "https://newsletter.gamediscover.co/feed"
+    - name: "The mobilegamer.biz newsletter (Substack)"
+      url: "https://mobilegamerbiz.substack.com/feed"
+    - name: "The Game Business (Substack)"
+      url: "https://www.thegamebusiness.com/feed"
+    - name: "게임메카"
+      url: "https://www.gamemeca.com/rss.xml"
+    - name: "디스이즈게임"
+      url: "https://www.thisisgame.com/rss"
+    - name: "인벤"
+      url: "https://www.inven.co.kr/webzine/rss"
+    - name: "게임톡"
+      url: "https://www.gametoc.co.kr/rss/"
+    - name: "DDaily"
+      url: "https://www.ddaily.co.kr/rss/"
+    - name: "GameChosun"
+      url: "https://www.gamechosun.co.kr/rss/"
+    - name: "dtf"
+      url: "https://dtf.ru/rss"
+    - name: "4gamers"
+      url: "https://www.4gamers.com.tw/rss/latest-news"
+    - name: "바하무트"
+      url: "https://gnn.gamer.com.tw/rss.xml"
+    - name: "파미통"
+      url: "https://www.famitsu.com/feed/"
+    - name: "Norton Rose Fulbright - Regulation Tomorrow"
+      url: "https://www.regulationtomorrow.com/feed/"
+
+pipeline:
+  top_n: 10
+  categories:
+    - IP
+    - CONSUMER_MONETIZATION
+    - CONTENT_AGE
+    - PRIVACY_SECURITY
+    - PLATFORM_PUBLISHING
+    - AI_EMERGING
+    - MA_CORP_ANTITRUST
+    - ESPORTS_MARKETING
+    - LABOR_EMPLOYMENT
+    - ETC
+  keywords:
+    - game
+    - gaming
+    - loot box
+    - microtransaction
+    - esports
+    - age rating
+    - PEGI
+    - ESRB
+    - CERO
+    - Nintendo
+    - Sony
+    - Microsoft
+    - Epic Games
+    - Steam
+    - Valve
+    - regulation
+    - FTC
+    - privacy
+    - data protection
+    - GDPR
+    - COPPA
+
+dedup:
+  retention_days: 30
+
+site:
+  base_url: "/game-legal-briefing"
+
+email:
+  subject_prefix: "[Game Legal Briefing]"
