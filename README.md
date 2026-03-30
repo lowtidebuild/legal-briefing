@@ -9,10 +9,9 @@
   <img src="https://img.shields.io/badge/Python-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.11+" />
   <img src="https://img.shields.io/badge/RSS_Feeds-54-15803D?style=for-the-badge" alt="54 RSS feeds" />
   <img src="https://img.shields.io/badge/LLM-Gemini_%2B_Claude-8B5CF6?style=for-the-badge" alt="Gemini and Claude" />
-  <img src="https://img.shields.io/badge/Delivery-Static_Site_%2B_Email_%2B_Sheets-B45309?style=for-the-badge" alt="Static site, email, and sheets" />
 </p>
 
-**[Quick Start](#quick-start)** · **[Architecture](#architecture)** · **[Deployment](#deployment-model)** · **[Roadmap](#roadmap)**
+**[Quick Start](#quick-start)** · **[Architecture](#architecture)** · **[Deployment](#deployment)** · **[Roadmap](#roadmap)**
 
 **Language:** [**English**](README.md) | [한국어](docs/ko/README.md)
 
@@ -20,65 +19,52 @@
 
 ---
 
-## Overview
+## What This Does
 
-`Game Legal Briefing` tracks legal, regulatory, platform-policy, privacy, competition, and enforcement developments that matter to game companies, legal teams, and policy watchers.
-
-It starts with RSS collection across industry media, tech-policy coverage, Korean tech press, and BigLaw feeds. Each article is filtered, deduplicated, enriched into structured legal metadata, persisted as JSON, and then rendered into a static briefing site that can also be sent by email or logged to Google Sheets.
+Collects articles from 54 RSS feeds across game industry media, tech policy outlets, Korean tech press, and BigLaw blogs. Filters for legal and regulatory relevance, deduplicates, classifies each article with structured metadata using AI (Gemini), summarizes in Korean, and publishes as a static briefing site with email delivery.
 
 > [!IMPORTANT]
-> This repository is not a law firm product, and it is not legal advice. It is an open-source workflow for structured monitoring and briefing.
+> This is not legal advice. It is an open-source tool for structured regulatory monitoring.
 
-## Why This Exists
+## Why
 
-Most open-source news briefers stop at headlines and summaries. `Game Legal Briefing` is built around a different primitive: a **structured legal event node**.
+Enterprise RegTech (CUBE, Regology, Compliance.ai) costs $50k-$500k+/year and targets banks and pharma. No open-source tool exists for game industry lawyers tracking regulatory changes across jurisdictions.
 
-That means each story can become something queryable:
+Most news briefers stop at headlines and summaries. This project attaches **structured legal metadata** to every article:
 
-- jurisdiction
-- category
-- regulatory phase
-- event type
-- actors
-- regulated object
-- action
-- game mechanic
+| Field | Example |
+|-------|---------|
+| Jurisdiction | EU, KR, US, JP, UK, AU, CN |
+| Category | Consumer monetization, age rating, privacy, IP |
+| Regulatory phase | Proposed, public comment, enacted, enforced, litigation |
+| Actors | EU Commission, Nintendo, FTC |
+| Game mechanic | Loot box, age rating, data collection |
 
-Over time, that turns a mailing list into a browsable regulatory memory for the game industry.
+Over time, this turns a mailing list into a searchable regulatory archive for the game industry.
 
-## What It Produces
-
-| Layer | Output | Purpose |
-|:------|:-------|:--------|
-| **Collection** | Raw RSS articles | Gather candidate stories from 54 feeds |
-| **Intelligence** | Structured legal metadata | Convert article text into reusable briefing nodes |
-| **Storage** | `output/data/daily/*.json` | Preserve a day-level archive and dedup history |
-| **Publishing** | Latest page, archive, detail pages | Create a static site for GitHub Pages |
-| **Delivery** | Email HTML + Sheets rows | Push the same briefing into operational channels with BCC-safe recipient delivery |
-
-## Project Status
+## Status
 
 > [!NOTE]
-> The MVP foundation is in place and locally runnable today.
+> The MVP is complete and locally runnable.
 >
-> Completed:
-> config loading, data models, feed ingestion, keyword filtering, dedup, LLM abstraction, classification, summarization, JSON storage, static rendering, email/sheets seams, GitHub Actions workflow, English/Korean docs split, and a sample-data path for local development.
+> **Done:** Config, data models, feed ingestion, keyword filtering, dedup, LLM abstraction (Gemini/Claude), classification, summarization, JSON storage, static rendering, email/Sheets delivery, GitHub Actions workflow, sample data mode.
 >
-> Still pending for full live operation:
-> one real secrets-backed production run, GitHub repo publishing, and future `tier_c` non-RSS source scraping.
+> **Remaining:** First secrets-backed production run, GitHub repo publish, tier_c non-RSS scrapers.
 
-## Feature Snapshot
+## Pipeline
 
-| Capability | Current State |
-|:-----------|:--------------|
-| **Feed universe** | 54 feeds ported from v1 (`tier_a` 40 + `tier_b` 14) |
-| **Dedup model** | URL hash, topic-token similarity, cross-run index, event-key dedup |
-| **Metadata model** | `Jurisdiction`, `EventType`, `RegulatoryPhase`, `LegalEvent`, `BriefingNode` |
-| **LLM providers** | Gemini via `google-genai`, Claude fallback |
-| **Rendering** | Latest page, dated archive pages, article detail pages |
-| **Delivery** | Gmail SMTP HTML email with BCC-safe delivery, Google Sheets append |
-| **Automation** | Mon/Wed/Fri GitHub Actions workflow + GitHub Pages artifact deploy |
-| **Local dev** | `--sample-data` mode works without live API keys |
+```mermaid
+flowchart LR
+    A["54 RSS feeds"] --> B["Keyword filter"]
+    B --> C["Rolling dedup"]
+    C --> D["LLM selection"]
+    D --> E["Classification + summarization"]
+    E --> F["BriefingNode JSON"]
+    F --> G["Static site"]
+    F --> H["Email"]
+    F --> I["Google Sheets"]
+    G --> J["GitHub Pages"]
+```
 
 ## Sample Briefing Node
 
@@ -104,154 +90,113 @@ Over time, that turns a mailing list into a browsable regulatory memory for the 
 
 ## Quick Start
 
-### 1. Create a virtual environment
+### 1. Install
 
 ```bash
 python3 -m venv .venv
 ./.venv/bin/pip install -r requirements.txt
 ```
 
-### 2. Prepare environment variables
+### 2. Environment variables
 
 ```bash
 cp .env.example .env
+# Fill in your API keys, or skip this and use sample mode first
 ```
 
-Fill `.env` with the keys you want to use. For a first look, you can skip this and use sample mode.
-
-### 3. Generate a local sample briefing
+### 3. Generate a sample briefing
 
 ```bash
 ./.venv/bin/python main.py --dry-run --sample-data
 ```
 
-### 4. Open the generated output
+### 4. View the output
 
-Key artifacts:
+- `output/index.html` — Latest briefing
+- `output/archive/index.html` — Date-based archive
+- `output/article/*.html` — Article detail pages
+- `output/data/daily/*.json` — Structured data
 
-- `output/index.html`
-- `output/archive/index.html`
-- `output/article/*.html`
-- `output/data/daily/*.json`
+### Running the real pipeline
 
-## Running the Real Pipeline
-
-Once your environment variables are set:
+With environment variables set:
 
 ```bash
-./.venv/bin/python main.py
-```
-
-Useful variants:
-
-```bash
-./.venv/bin/python main.py --dry-run
-./.venv/bin/python main.py --dry-run --sample-data
+./.venv/bin/python main.py          # Full run (email + Sheets)
+./.venv/bin/python main.py --dry-run # Site only, no email/Sheets
 ```
 
 ## Configuration
 
-### Non-secret config
+**config.yaml** — Committed to repo (no secrets):
+- LLM provider/model, RSS feed lists, keyword allowlist
+- Dedup retention window, site base URL, email subject prefix
 
-`config.yaml` stores:
+**Environment variables** — `.env` or GitHub Secrets:
 
-- LLM provider and model
-- feed lists
-- keyword allowlist
-- dedup retention window
-- site base URL
-- email subject prefix
-
-### Secrets
-
-`.env.example` documents the environment variables used by the pipeline:
-
-- `GOOGLE_API_KEY`
-- `ANTHROPIC_API_KEY`
-- `SMTP_USER`
-- `SMTP_PASS`
-- `RECIPIENTS`
-- `GOOGLE_SHEETS_CREDENTIALS`
-- `GOOGLE_SHEETS_ID`
+| Variable | Purpose |
+|----------|---------|
+| `GOOGLE_API_KEY` | Gemini API |
+| `ANTHROPIC_API_KEY` | Claude API (optional fallback) |
+| `SMTP_USER` / `SMTP_PASS` | Gmail delivery |
+| `RECIPIENTS` | Comma-separated email list |
+| `GOOGLE_SHEETS_CREDENTIALS` | Sheets service account JSON |
+| `GOOGLE_SHEETS_ID` | Sheets spreadsheet ID |
 
 ## Architecture
 
-```mermaid
-flowchart LR
-    A["54 RSS feeds"] --> B["Keyword filter"]
-    B --> C["Rolling dedup"]
-    C --> D["LLM selection"]
-    D --> E["Classification + summarization"]
-    E --> F["BriefingNode JSON"]
-    F --> G["Static site renderer"]
-    F --> H["Email renderer"]
-    F --> I["Google Sheets sync"]
-    G --> J["GitHub Pages"]
-```
-
-### Repository Shape
-
 ```text
 game-legal-briefing/
-├── main.py
-├── config.yaml
+├── main.py                 # Pipeline entry point
+├── config.yaml             # Non-secret config
 ├── pipeline/
-│   ├── sources/        # RSS collection + filters
-│   ├── intelligence/   # selector, classifier, summarizer, dedup
-│   ├── llm/            # provider interface + Gemini/Claude
-│   ├── store/          # daily JSON, dedup index, querying
-│   ├── render/         # site + email rendering
-│   ├── deliver/        # SMTP delivery
-│   └── admin/          # Google Sheets sync
-├── templates/
-├── static/
-├── tests/
-└── output/
+│   ├── sources/            # RSS collection, keyword filter
+│   ├── intelligence/       # Selection, classification, summarization, dedup
+│   ├── llm/                # Provider abstraction (Gemini/Claude)
+│   ├── store/              # JSON storage, dedup index, query
+│   ├── render/             # Site + email rendering
+│   ├── deliver/            # SMTP delivery
+│   └── admin/              # Google Sheets sync
+├── templates/              # Jinja2 templates
+├── static/                 # CSS
+├── tests/                  # pytest
+└── output/                 # Generated site + data
 ```
 
-## Deployment Model
+## Deployment
 
-The repository includes a GitHub Actions workflow that:
+A GitHub Actions workflow runs automatically on **Mon/Wed/Fri**:
 
-1. runs on **Mon/Wed/Fri**
-2. executes the pipeline
-3. commits `output/data/` back to `main`
-4. deploys rendered `output/` as a GitHub Pages artifact
+1. Runs the pipeline
+2. Commits structured JSON data to `main`
+3. Deploys rendered HTML to GitHub Pages via artifact upload
 
-This keeps structured archives versioned in the repository while keeping rendered pages out of git history.
+JSON archives stay in git history. HTML is only deployed to Pages, keeping the repo lean.
 
-## Design Direction
+## Design
 
-The project intentionally avoids generic dashboard aesthetics. The generated site is meant to feel closer to an editorial briefing surface than a SaaS admin panel:
+Editorial briefing aesthetic, not a SaaS dashboard:
+- Warm ivory background (#FAFAF8)
+- Clean typography, mobile-first (720px max)
+- Category chips, jurisdiction tags, regulatory phase badges
+- Archive-first navigation
 
-- warm neutral backgrounds
-- strong serif headlines
-- compact metadata chips
-- archive-first structure
-- mobile-readable article cards
+## Tests
 
-## Development Notes
-
-- The Gemini provider has already been migrated to the official `google-genai` SDK.
-- The sample-data path uses a local heuristic fallback so the project can be demonstrated without secrets.
-- The sample mode is repeatable on the same date and does not poison the rolling dedup index.
+```bash
+./.venv/bin/python -m pytest tests -q               # Unit tests
+./.venv/bin/python main.py --dry-run --sample-data   # Integration check
+```
 
 ## Roadmap
 
 | Stage | Focus |
 |:------|:------|
-| **Now** | Real GitHub repo publish, secrets wiring, first live run |
-| **Next** | `tier_c` government and regulator scrapers without RSS |
-| **Later** | English summaries, richer archive pages, topic timelines, jurisdiction pulse |
-| **Future** | Cross-jurisdiction event linking and feed views by topic or phase |
+| **Now** | GitHub publish, secrets wiring, first live run |
+| **Next** | Tier_c scrapers for government sites without RSS |
+| **Later** | English summaries, topic timelines, Jurisdiction Pulse dashboard |
+| **Future** | Cross-jurisdiction event linking, per-topic/phase feeds |
 
-## Verification
+## License
 
-Current local verification:
-
-```bash
-./.venv/bin/python -m pytest tests -q
-./.venv/bin/python main.py --dry-run --sample-data
-```
-
-The test suite currently passes, and the sample command generates a complete briefing site locally.
+Apache 2.0

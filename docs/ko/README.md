@@ -2,17 +2,16 @@
 
 # Game Legal Briefing
 
-**게임 산업을 위한 오픈소스 규제 인텔리전스 플랫폼**
+**게임 업계 법률·규제 동향을 자동으로 수집하고 정리하는 오픈소스 브리핑 도구**
 
 <p>
   <img src="https://img.shields.io/badge/License-Apache_2.0-1F6FEB?style=for-the-badge" alt="Apache 2.0" />
   <img src="https://img.shields.io/badge/Python-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.11+" />
-  <img src="https://img.shields.io/badge/RSS_Feeds-54-15803D?style=for-the-badge" alt="54 RSS feeds" />
+  <img src="https://img.shields.io/badge/RSS-54개_피드-15803D?style=for-the-badge" alt="54 RSS feeds" />
   <img src="https://img.shields.io/badge/LLM-Gemini_%2B_Claude-8B5CF6?style=for-the-badge" alt="Gemini and Claude" />
-  <img src="https://img.shields.io/badge/Delivery-Static_Site_%2B_Email_%2B_Sheets-B45309?style=for-the-badge" alt="Static site, email, and sheets" />
 </p>
 
-**[빠른 시작](#빠른-시작)** · **[아키텍처](#아키텍처)** · **[배포 모델](#배포-모델)** · **[로드맵](#로드맵)**
+**[시작하기](#시작하기)** · **[구조](#구조)** · **[배포](#배포)** · **[로드맵](#로드맵)**
 
 **Language:** [English](../../README.md) | [**한국어**](README.md)
 
@@ -20,67 +19,54 @@
 
 ---
 
-## 개요
+## 이 프로젝트가 하는 일
 
-`Game Legal Briefing`은 게임 회사, 사내 법무팀, 정책 담당자, 업계 관찰자가 필요로 하는 법률·규제·플랫폼 정책·개인정보·경쟁법·집행 이슈를 추적하기 위해 만든 오픈소스 프로젝트입니다.
-
-이 프로젝트는 게임 업계 미디어, 테크 정책 매체, 국내 IT/게임 언론, 글로벌 로펌 피드를 포함한 RSS 소스에서 후보 기사를 수집한 뒤, 필터링하고, 중복 제거하고, 구조화된 법률 메타데이터로 변환합니다. 그 결과는 JSON으로 저장되고, 정적 브리핑 사이트로 렌더링되며, 필요하면 이메일과 Google Sheets로도 전달할 수 있습니다.
+게임 업계 미디어, 테크 정책 매체, 국내 IT/게임 언론, 글로벌 로펌 블로그 등 54개 RSS 피드에서 기사를 수집합니다. 수집된 기사 중 게임 법률·규제와 관련 있는 것만 골라서 AI(Gemini)로 분류하고 한국어로 요약한 뒤, 정적 웹사이트와 이메일로 전달합니다.
 
 > [!IMPORTANT]
-> 이 저장소는 법률 자문을 제공하는 서비스가 아닙니다. 구조화된 모니터링과 브리핑을 위한 오픈소스 워크플로입니다.
+> 이 프로젝트는 법률 자문이 아닙니다. 규제 동향 모니터링을 위한 오픈소스 도구입니다.
 
-## 왜 이 프로젝트인가
+## 왜 만들었나
 
-대부분의 오픈소스 뉴스 브리퍼는 헤드라인과 요약에서 끝납니다. `Game Legal Briefing`은 그보다 한 단계 더 나아가, 각 기사를 **구조화된 규제 이벤트 노드**로 다룹니다.
+기존 RegTech 솔루션(CUBE, Regology 등)은 금융·제약 중심이고, 연 수천만 원 이상입니다. 게임 업계 법무팀을 위한 전문 도구는 없었습니다.
 
-그래서 기사 하나가 아래처럼 남습니다.
+이 프로젝트는 단순 뉴스 요약을 넘어서, 기사마다 **구조화된 메타데이터**를 붙입니다:
 
-- 관할
-- 카테고리
-- 규제 단계
-- 이벤트 유형
-- 주요 행위자
-- 규제 대상 객체
-- 발생한 조치
-- 관련 게임 메커닉
+| 필드 | 예시 |
+|------|------|
+| 관할권 | EU, KR, US, JP 등 |
+| 카테고리 | 소비자 과금, 연령 등급, 개인정보, IP 등 |
+| 규제 단계 | 발의, 공개 의견 수렴, 확정, 집행, 소송 |
+| 관련 주체 | EU Commission, Nintendo, FTC 등 |
+| 게임 메커닉 | 루트박스, 연령 등급, 데이터 수집 등 |
 
-시간이 지나면 단순 메일링이 아니라, 게임 산업 규제 변화를 추적하는 검색 가능한 기록이 됩니다.
-
-## 무엇을 만드는가
-
-| 레이어 | 산출물 | 역할 |
-|:-------|:-------|:-----|
-| **수집** | 원시 RSS 기사 | 54개 피드에서 후보 기사 확보 |
-| **인텔리전스** | 구조화된 법률 메타데이터 | 기사 텍스트를 재사용 가능한 브리핑 노드로 변환 |
-| **저장** | `output/data/daily/*.json` | 날짜별 아카이브와 dedup 기록 유지 |
-| **퍼블리싱** | 최신 페이지, 아카이브, 상세 페이지 | GitHub Pages용 정적 사이트 생성 |
-| **전달** | 이메일 HTML + Sheets 행 | 같은 브리핑을 운영 채널로 푸시하고, 메일은 수신자 주소가 서로 보이지 않게 전달 |
+시간이 쌓이면 단순 메일링이 아니라, 게임 산업 규제 변화의 검색 가능한 아카이브가 됩니다.
 
 ## 현재 상태
 
 > [!NOTE]
-> MVP 기반은 이미 만들어졌고, 로컬에서 실행 가능한 상태입니다.
+> MVP 구현이 완료되어 로컬에서 실행 가능한 상태입니다.
 >
-> 완료된 것:
-> 설정 로딩, 데이터 모델, 피드 수집, 키워드 필터, dedup, LLM 추상화, 분류, 요약, JSON 저장, 정적 렌더링, 이메일/Sheets 연동 지점, GitHub Actions 워크플로, 영문/국문 README 분리, 샘플 데이터 모드.
+> **완료:** 설정, 데이터 모델, RSS 수집, 키워드 필터, 중복 제거, LLM 추상화(Gemini/Claude), 분류, 요약, JSON 저장, 정적 사이트 렌더링, 이메일/Sheets 연동, GitHub Actions, 샘플 데이터 모드
 >
-> 아직 남은 것:
-> 실제 비밀값을 넣고 한 번 운영 실행하기, GitHub 공개 저장소로 푸시하기, 그리고 향후 `tier_c` 비RSS 소스 스크래퍼 구현.
+> **남은 작업:** 실제 시크릿 연결 후 운영 실행, GitHub 공개 저장소 퍼블리시, tier_c 비RSS 소스 스크래퍼
 
-## 기능 요약
+## 파이프라인 흐름
 
-| 기능 | 현재 상태 |
-|:-----|:----------|
-| **피드 규모** | v1에서 가져온 54개 피드 (`tier_a` 40 + `tier_b` 14) |
-| **중복 제거** | URL 해시, 토픽 토큰 유사도, cross-run index, event-key dedup |
-| **메타데이터 모델** | `Jurisdiction`, `EventType`, `RegulatoryPhase`, `LegalEvent`, `BriefingNode` |
-| **LLM 제공자** | `google-genai` 기반 Gemini, Claude fallback |
-| **렌더링** | 최신 페이지, 날짜별 아카이브, 기사 상세 페이지 |
-| **전달 채널** | 수신자 비노출(BCC-safe) Gmail SMTP HTML 메일, Google Sheets append |
-| **자동화** | 주 3회 GitHub Actions + GitHub Pages artifact 배포 |
-| **로컬 개발** | API 키 없이 `--sample-data` 모드 사용 가능 |
+```mermaid
+flowchart LR
+    A["54개 RSS 피드"] --> B["키워드 필터"]
+    B --> C["중복 제거"]
+    C --> D["AI 선별"]
+    D --> E["분류 + 요약"]
+    E --> F["BriefingNode JSON"]
+    F --> G["정적 사이트"]
+    F --> H["이메일"]
+    F --> I["Google Sheets"]
+    G --> J["GitHub Pages"]
+```
 
-## Sample Briefing Node
+## 브리핑 노드 예시
 
 ```json
 {
@@ -102,22 +88,22 @@
 }
 ```
 
-## 빠른 시작
+## 시작하기
 
-### 1. 가상환경 만들기
+### 1. 설치
 
 ```bash
 python3 -m venv .venv
 ./.venv/bin/pip install -r requirements.txt
 ```
 
-### 2. 환경 변수 준비
+### 2. 환경 변수
 
 ```bash
 cp .env.example .env
+# .env 파일에 API 키 등을 채워 넣으세요
+# 먼저 구조만 확인하고 싶다면 비워둔 채로 샘플 모드를 쓸 수 있습니다
 ```
-
-`.env`에 필요한 키를 채우면 됩니다. 먼저 구조만 보고 싶다면 비워둔 채 샘플 모드로 시작해도 됩니다.
 
 ### 3. 샘플 브리핑 생성
 
@@ -125,133 +111,93 @@ cp .env.example .env
 ./.venv/bin/python main.py --dry-run --sample-data
 ```
 
-### 4. 생성 결과 확인
+### 4. 결과 확인
 
-주요 결과물:
+- `output/index.html` — 최신 브리핑
+- `output/archive/index.html` — 날짜별 아카이브
+- `output/article/*.html` — 기사 상세
+- `output/data/daily/*.json` — 구조화된 데이터
 
-- `output/index.html`
-- `output/archive/index.html`
-- `output/article/*.html`
-- `output/data/daily/*.json`
+### 실제 운영 실행
 
-## 실제 파이프라인 실행
-
-환경 변수를 채운 뒤에는 아래처럼 실행합니다.
+환경 변수를 채운 뒤:
 
 ```bash
-./.venv/bin/python main.py
-```
-
-자주 쓰는 변형:
-
-```bash
-./.venv/bin/python main.py --dry-run
-./.venv/bin/python main.py --dry-run --sample-data
+./.venv/bin/python main.py          # 전체 실행 (이메일 + Sheets 포함)
+./.venv/bin/python main.py --dry-run # 이메일/Sheets 없이 사이트만 생성
 ```
 
 ## 설정
 
-### 비밀값이 아닌 설정
+**config.yaml** — 코드에 커밋되는 설정 (시크릿 없음):
+- LLM 프로바이더/모델명, RSS 피드 목록, 키워드 목록
+- 중복 제거 보존 기간, 사이트 base URL, 이메일 제목
 
-`config.yaml`에는 아래가 들어갑니다.
+**환경 변수** — `.env` 또는 GitHub Secrets:
 
-- LLM provider와 model
-- 피드 목록
-- 키워드 allowlist
-- dedup 보존 기간
-- 사이트 base URL
-- 이메일 제목 prefix
+| 변수 | 용도 |
+|------|------|
+| `GOOGLE_API_KEY` | Gemini API |
+| `ANTHROPIC_API_KEY` | Claude API (선택) |
+| `SMTP_USER` / `SMTP_PASS` | Gmail 발송 |
+| `RECIPIENTS` | 수신자 목록 (쉼표 구분) |
+| `GOOGLE_SHEETS_CREDENTIALS` | Sheets 서비스 계정 JSON |
+| `GOOGLE_SHEETS_ID` | Sheets 스프레드시트 ID |
 
-### 비밀값
-
-`.env.example`에 아래 환경 변수들이 정리되어 있습니다.
-
-- `GOOGLE_API_KEY`
-- `ANTHROPIC_API_KEY`
-- `SMTP_USER`
-- `SMTP_PASS`
-- `RECIPIENTS`
-- `GOOGLE_SHEETS_CREDENTIALS`
-- `GOOGLE_SHEETS_ID`
-
-## 아키텍처
-
-```mermaid
-flowchart LR
-    A["54 RSS feeds"] --> B["Keyword filter"]
-    B --> C["Rolling dedup"]
-    C --> D["LLM selection"]
-    D --> E["Classification + summarization"]
-    E --> F["BriefingNode JSON"]
-    F --> G["Static site renderer"]
-    F --> H["Email renderer"]
-    F --> I["Google Sheets sync"]
-    G --> J["GitHub Pages"]
-```
-
-### 저장소 구조
+## 구조
 
 ```text
 game-legal-briefing/
-├── main.py
-├── config.yaml
+├── main.py                 # 파이프라인 실행 진입점
+├── config.yaml             # 설정 (시크릿 없음)
 ├── pipeline/
-│   ├── sources/        # RSS 수집 + 필터
-│   ├── intelligence/   # selector, classifier, summarizer, dedup
-│   ├── llm/            # provider interface + Gemini/Claude
-│   ├── store/          # daily JSON, dedup index, query
-│   ├── render/         # site + email rendering
-│   ├── deliver/        # SMTP delivery
-│   └── admin/          # Google Sheets sync
-├── templates/
-├── static/
-├── tests/
-└── output/
+│   ├── sources/            # RSS 수집, 키워드 필터
+│   ├── intelligence/       # AI 선별, 분류, 요약, 중복 제거
+│   ├── llm/                # LLM 추상화 (Gemini/Claude)
+│   ├── store/              # JSON 저장, 중복 인덱스, 쿼리
+│   ├── render/             # 사이트 + 이메일 렌더링
+│   ├── deliver/            # SMTP 발송
+│   └── admin/              # Google Sheets 동기화
+├── templates/              # Jinja2 템플릿
+├── static/                 # CSS
+├── tests/                  # pytest
+└── output/                 # 생성된 사이트 + 데이터
 ```
 
-## 배포 모델
+## 배포
 
-저장소에는 GitHub Actions 워크플로가 포함되어 있고, 이 워크플로는:
+GitHub Actions 워크플로가 **월/수/금** 자동으로:
 
-1. **월/수/금**에 실행되고
-2. 파이프라인을 돌린 다음
-3. `output/data/`는 `main`에 커밋하고
-4. 렌더된 `output/`은 GitHub Pages artifact로 배포합니다
+1. 파이프라인 실행
+2. 분류/요약된 JSON 데이터를 `main` 브랜치에 커밋
+3. 렌더링된 HTML을 GitHub Pages로 배포
 
-즉, 구조화된 아카이브는 git 히스토리에 남기고, 렌더된 HTML은 Pages 쪽으로만 배포하는 모델입니다.
+JSON 아카이브는 git 히스토리에 남고, HTML은 Pages에만 배포되어 레포가 불필요하게 커지지 않습니다.
 
-## 디자인 방향
+## 디자인
 
-생성 사이트는 흔한 SaaS 대시보드 느낌보다 에디토리얼 브리핑 감각에 가깝게 설계했습니다.
+SaaS 대시보드가 아닌, 에디토리얼 브리핑 느낌으로 만들었습니다:
+- 따뜻한 아이보리 배경 (#FAFAF8)
+- 깔끔한 타이포그래피, 모바일 우선 (720px)
+- 카테고리 칩, 관할권 태그, 규제 단계 뱃지
+- 아카이브 중심 네비게이션
 
-- 따뜻한 뉴트럴 배경
-- 강한 serif 헤드라인
-- 밀도 높은 메타데이터 칩
-- archive-first 구조
-- 모바일에서도 읽히는 기사 카드
+## 테스트
 
-## 개발 메모
-
-- Gemini provider는 이미 공식 `google-genai` SDK로 옮겨둔 상태입니다.
-- 샘플 모드는 로컬 heuristic fallback을 사용해서 비밀값 없이도 데모가 가능합니다.
-- 샘플 모드는 같은 날짜에 반복 실행해도 dedup index에 오염되지 않도록 처리했습니다.
+```bash
+./.venv/bin/python -m pytest tests -q               # 단위 테스트
+./.venv/bin/python main.py --dry-run --sample-data   # 통합 확인
+```
 
 ## 로드맵
 
-| 단계 | 초점 |
+| 단계 | 내용 |
 |:-----|:-----|
-| **지금** | 실제 GitHub 저장소 publish, secrets 연결, 첫 live run |
-| **다음** | RSS가 없는 `tier_c` 정부/규제기관 스크래퍼 |
-| **그 다음** | 영문 요약, 더 풍부한 archive 페이지, topic timeline, jurisdiction pulse |
-| **장기** | 관할 간 이벤트 연결, 토픽/단계별 피드 뷰 |
+| **현재** | GitHub 공개, 시크릿 연결, 첫 운영 실행 |
+| **다음** | RSS 없는 정부/규제기관 사이트 스크래퍼 (tier_c) |
+| **이후** | 영문 요약, 토픽 타임라인, Jurisdiction Pulse 대시보드 |
+| **장기** | 관할권 간 규제 연관 관계, 토픽/단계별 피드 |
 
-## 검증
+## 라이선스
 
-현재 로컬 검증 명령:
-
-```bash
-./.venv/bin/python -m pytest tests -q
-./.venv/bin/python main.py --dry-run --sample-data
-```
-
-테스트는 현재 통과 상태이고, 샘플 명령으로 전체 브리핑 사이트를 로컬 생성할 수 있습니다.
+Apache 2.0
