@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import time
 from types import SimpleNamespace
 
 try:  # pragma: no cover - import availability depends on environment
@@ -45,18 +46,33 @@ class GeminiProvider(LLMProvider):
             system_instruction=system,
             response_mime_type="application/json",
         )
-        response = self._client.models.generate_content(
-            model=self._model_name,
-            contents=prompt,
-            config=config,
-        )
-        if getattr(response, "parsed", None) is not None:
-            return response.parsed
+        last_error: Exception | None = None
+        for attempt in range(self.max_retries + 1):
+            try:
+                response = self._client.models.generate_content(
+                    model=self._model_name,
+                    contents=prompt,
+                    config=config,
+                )
+            except Exception as exc:
+                last_error = exc
+                if attempt == self.max_retries:
+                    break
+                time.sleep(min(2**attempt, 4))
+                continue
 
-        try:
-            return json.loads(response.text)
-        except json.JSONDecodeError:
-            extracted = extract_json_from_text(response.text)
-            if extracted is not None:
-                return extracted
-            raise ValueError(f"Could not parse JSON from Gemini response: {response.text[:200]}")
+            if getattr(response, "parsed", None) is not None:
+                return response.parsed
+            try:
+                return json.loads(response.text)
+            except json.JSONDecodeError:
+                extracted = extract_json_from_text(response.text)
+                if extracted is not None:
+                    return extracted
+                last_error = ValueError(f"Could not parse JSON from Gemini response: {response.text[:200]}")
+                if attempt == self.max_retries:
+                    break
+                time.sleep(min(2**attempt, 4))
+
+        assert last_error is not None
+        raise last_error

@@ -23,15 +23,22 @@ def select_top_articles(
     articles: list[RawArticle],
     llm: LLMProvider,
     top_n: int = 10,
+    max_input_chars: int = 8000,
 ) -> list[RawArticle]:
     """Use the LLM to narrow the article list, with a deterministic fallback."""
     if len(articles) <= top_n:
         return articles
 
-    articles_text = "\n".join(
-        f"[{index}] {article.title} | {article.source} | {article.description[:180]}"
-        for index, article in enumerate(articles)
-    )
+    lines: list[str] = []
+    total_chars = 0
+    for index, article in enumerate(articles):
+        line = f"[{index}] {article.title} | {article.source} | {article.description[:180]}"
+        if total_chars + len(line) > max_input_chars and lines:
+            break
+        lines.append(line)
+        total_chars += len(line) + 1
+
+    articles_text = "\n".join(lines)
     prompt = SELECTOR_PROMPT.format(top_n=top_n, articles_text=articles_text)
 
     try:

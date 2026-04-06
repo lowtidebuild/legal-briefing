@@ -5,7 +5,11 @@ from pipeline.sources.rss import RawArticle, fetch_all_feeds, fetch_feed
 
 
 def test_fetch_feed_parses_entries():
-    with patch("pipeline.sources.rss.feedparser.parse") as mock_parse:
+    mock_response = MagicMock()
+    mock_response.read.return_value = b"<rss>mock</rss>"
+
+    with patch("pipeline.sources.rss.urllib.request.urlopen", return_value=mock_response), \
+         patch("pipeline.sources.rss.feedparser.parse") as mock_parse:
         mock_parse.return_value = MagicMock(
             entries=[
                 MagicMock(
@@ -39,4 +43,3 @@ def test_fetch_all_feeds_combines_tiers():
     with patch("pipeline.sources.rss.fetch_feed", side_effect=mock_fetch):
         articles = fetch_all_feeds(tier_a=[source_a], tier_b=[source_b])
         assert len(articles) == 2
-

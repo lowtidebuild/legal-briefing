@@ -6,6 +6,10 @@ on:
     - cron: "7 1 * * 1,3,5"
   workflow_dispatch:
 
+concurrency:
+  group: briefing
+  cancel-in-progress: false
+
 permissions:
   contents: write
   pages: write

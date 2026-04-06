@@ -2,7 +2,9 @@ from __future__ import annotations
 
 import logging
 import time
+import urllib.request
 from dataclasses import dataclass
+from io import BytesIO
 from types import SimpleNamespace
 
 try:  # pragma: no cover - import availability depends on environment
@@ -11,6 +13,8 @@ except ImportError:  # pragma: no cover - handled at runtime
     feedparser = SimpleNamespace(parse=None)
 
 from pipeline.config import SourceEntry
+
+FEED_TIMEOUT_SECONDS = 30
 
 logger = logging.getLogger(__name__)
 
@@ -37,17 +41,21 @@ def fetch_feed(source: SourceEntry) -> list[RawArticle]:
         return []
 
     try:
-        feed = feedparser.parse(source.url)
+        response = urllib.request.urlopen(source.url, timeout=FEED_TIMEOUT_SECONDS)
+        feed = feedparser.parse(BytesIO(response.read()))
     except Exception as exc:
         logger.warning("Failed to fetch %s: %s", source.name, exc)
         return []
 
     articles: list[RawArticle] = []
     for entry in getattr(feed, "entries", []):
+        url = getattr(entry, "link", "").strip()
+        if not url:
+            continue
         articles.append(
             RawArticle(
                 title=getattr(entry, "title", "").strip(),
-                url=getattr(entry, "link", "").strip(),
+                url=url,
                 source=source.name,
                 description=(entry.get("summary", "") if hasattr(entry, "get") else ""),
                 pub_date=_format_date(getattr(entry, "published_parsed", None)),

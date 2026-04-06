@@ -52,18 +52,27 @@ def save_dedup_index(index: DedupIndex, path: str) -> None:
     logger.info("Saved dedup index with %d entries", len(index.entries))
 
 
-def prune_old_entries(index: DedupIndex, today: str | None = None) -> DedupIndex:
+def prune_old_entries(
+    index: DedupIndex,
+    today: str | None = None,
+    retention_days: int | None = None,
+) -> DedupIndex:
     """Drop dedup entries outside the retention window."""
     today_str = today or datetime.now().strftime("%Y-%m-%d")
-    cutoff = datetime.strptime(today_str, "%Y-%m-%d") - timedelta(days=index.retention_days)
-    retained = [
-        entry
-        for entry in index.entries
-        if datetime.strptime(entry.date, "%Y-%m-%d") >= cutoff
-    ]
+    days = retention_days if retention_days is not None else index.retention_days
+    cutoff = datetime.strptime(today_str, "%Y-%m-%d") - timedelta(days=days)
+    retained: list[DedupEntry] = []
+    for entry in index.entries:
+        try:
+            entry_date = datetime.strptime(entry.date, "%Y-%m-%d")
+        except (ValueError, TypeError):
+            logger.warning("Skipping dedup entry with invalid date: %s", entry.date)
+            continue
+        if entry_date >= cutoff:
+            retained.append(entry)
     return DedupIndex(
         entries=retained,
         schema_version=index.schema_version,
-        retention_days=index.retention_days,
+        retention_days=days,
     )
 
