@@ -3,6 +3,7 @@ __pycache__/
 .env
 output/
 !output/.gitkeep
+!output/data/dedup_index.json
 .venv/
 *.egg-info/
 dist/
