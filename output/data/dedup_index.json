@@ -3,136 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "e97991f8b1f434d5",
-      "url_hash": "6e975c076668937c",
-      "date": "2026-03-02"
-    },
-    {
-      "event_key": "a4c18829524bb729",
-      "url_hash": "82236b0af7dccb78",
-      "date": "2026-03-02"
-    },
-    {
-      "event_key": "a2f83c626a6328a8",
-      "url_hash": "f856cb0f3c7a35f6",
-      "date": "2026-03-02"
-    },
-    {
-      "event_key": "5cfbeb4ce9a6d395",
-      "url_hash": "147acdcc0c47696b",
-      "date": "2026-03-03"
-    },
-    {
-      "event_key": "ba254eed65c1442d",
-      "url_hash": "71131b09ed24bb35",
-      "date": "2026-03-03"
-    },
-    {
-      "event_key": "9ffc525757291e47",
-      "url_hash": "a6d9b900d4983116",
-      "date": "2026-03-03"
-    },
-    {
-      "event_key": "b767dfd4b3703431",
-      "url_hash": "3e831d094296679e",
-      "date": "2026-03-03"
-    },
-    {
-      "event_key": "1b82283da609ffaa",
-      "url_hash": "a69d841ae47aa84c",
-      "date": "2026-03-03"
-    },
-    {
-      "event_key": "c72856d95112c7ae",
-      "url_hash": "1094dd768ae53bc6",
-      "date": "2026-03-03"
-    },
-    {
-      "event_key": "e88df570e081d5ec",
-      "url_hash": "8dc6fc1c732a2f88",
-      "date": "2026-03-03"
-    },
-    {
-      "event_key": "2e22fd4e8a157875",
-      "url_hash": "b2ce003a57cae629",
-      "date": "2026-03-03"
-    },
-    {
-      "event_key": "048da4a5c67559a6",
-      "url_hash": "376692d479aec61b",
-      "date": "2026-03-04"
-    },
-    {
-      "event_key": "3183c0a0cc499694",
-      "url_hash": "0a9b5c9248b005a5",
-      "date": "2026-03-04"
-    },
-    {
-      "event_key": "f2556346d017f87f",
-      "url_hash": "eedd59db39479338",
-      "date": "2026-03-04"
-    },
-    {
-      "event_key": "1ed9bb363f6a56e7",
-      "url_hash": "61f9bcef2836a556",
-      "date": "2026-03-05"
-    },
-    {
-      "event_key": "5eefd2f99e68bb3e",
-      "url_hash": "1db7f04a08b489dc",
-      "date": "2026-03-05"
-    },
-    {
-      "event_key": "098cce74c7167433",
-      "url_hash": "5be8c82b3b6c7893",
-      "date": "2026-03-05"
-    },
-    {
-      "event_key": "6a518f4eb98dcf0d",
-      "url_hash": "097a03d1d91d0819",
-      "date": "2026-03-05"
-    },
-    {
-      "event_key": "507b6f68bfffcfdc",
-      "url_hash": "966486bc36ad2e2a",
-      "date": "2026-03-06"
-    },
-    {
-      "event_key": "b8cc832e5c4050c0",
-      "url_hash": "e96744f86d55c671",
-      "date": "2026-03-06"
-    },
-    {
-      "event_key": "f6dea3400000fe03",
-      "url_hash": "b03db7539c6a0345",
-      "date": "2026-03-06"
-    },
-    {
-      "event_key": "29cfe6a7bc5134fa",
-      "url_hash": "bb987a274392c54c",
-      "date": "2026-03-06"
-    },
-    {
-      "event_key": "0e743ec6ac3752ce",
-      "url_hash": "8082b11ad03073ee",
-      "date": "2026-03-06"
-    },
-    {
-      "event_key": "54f897699054f0a1",
-      "url_hash": "83785bbd2a847505",
-      "date": "2026-03-06"
-    },
-    {
-      "event_key": "04d3114aeddb5221",
-      "url_hash": "b84e80669225ccc4",
-      "date": "2026-03-06"
-    },
-    {
-      "event_key": "11216a3cd37a6309",
-      "url_hash": "f5a60cea7f3decbd",
-      "date": "2026-03-06"
-    },
-    {
       "event_key": "dc05ee39aea426ca",
       "url_hash": "dfb3180dfe27cd02",
       "date": "2026-03-08"
@@ -725,6 +595,31 @@
     {
       "event_key": "us_epic_layoffs_2023",
       "url_hash": "4c101d8053ae3172",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "us_ip_patent_rejection_2025",
+      "url_hash": "2969015a4d01cba7",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "kr_ma_shiftup_unbound_acquisition_2024",
+      "url_hash": "5ac93345d0ea1250",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_publishing_agreement_termination_2024",
+      "url_hash": "94c8de92dab527c7",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_eidos_layoffs_2024",
+      "url_hash": "5d85849a4e6bc576",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "us_appstore_payment_antitrust_litigation_2024",
+      "url_hash": "093b33a286ae218d",
       "date": "2026-04-07"
     }
   ]
