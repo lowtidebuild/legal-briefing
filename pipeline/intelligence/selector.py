@@ -9,14 +9,17 @@ logger = logging.getLogger(__name__)
 
 SELECTOR_PROMPT = """You are a legal analyst specializing in the game industry.
 
-From the article list below, select the {top_n} entries most relevant to game law,
+From the article list below, select EXACTLY {top_n} entries most relevant to game law,
 regulation, platform rules, privacy, antitrust, consumer protection, or policy.
+
+You MUST return exactly {top_n} indices. If fewer than {top_n} are directly relevant,
+include the most related ones to fill the list.
 
 Articles:
 {articles_text}
 
 Return JSON only:
-{{"selected_indices": [0, 2, 4]}}"""
+{{"selected_indices": [0, 2, 4, ...]}}"""
 
 
 def select_top_articles(
@@ -46,7 +49,18 @@ def select_top_articles(
         indices = result.get("selected_indices", []) if isinstance(result, dict) else []
         selected = [articles[index] for index in indices if 0 <= index < len(articles)]
         if selected:
-            logger.info("Selector kept %d of %d articles", len(selected), len(articles))
+            # If LLM returned fewer than top_n, fill with remaining articles
+            if len(selected) < top_n:
+                selected_set = set(id(a) for a in selected)
+                for article in articles:
+                    if len(selected) >= top_n:
+                        break
+                    if id(article) not in selected_set:
+                        selected.append(article)
+                logger.info("Selector kept %d (LLM %d + fill %d) of %d articles",
+                            len(selected), len(indices), len(selected) - len(indices), len(articles))
+            else:
+                logger.info("Selector kept %d of %d articles", len(selected), len(articles))
             return selected[:top_n]
     except Exception as exc:
         logger.warning("Selector failed, falling back to first %d articles: %s", top_n, exc)

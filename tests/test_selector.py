@@ -37,7 +37,8 @@ def test_handles_out_of_range_indices():
     llm = MagicMock()
     llm.generate_json.return_value = {"selected_indices": [0, 99, -1, 2]}
     result = select_top_articles(articles, llm, top_n=3)
-    assert len(result) == 2
+    # LLM returned 2 valid indices, fill adds 1 more to reach top_n=3
+    assert len(result) == 3
     assert result[0].title == "Art0"
     assert result[1].title == "Art2"
 
@@ -56,7 +57,8 @@ def test_respects_max_input_chars():
     llm = MagicMock()
     llm.generate_json.return_value = {"selected_indices": [0, 1]}
     result = select_top_articles(articles, llm, top_n=5, max_input_chars=500)
-    assert len(result) == 2
+    # LLM returned 2, fill adds 3 more to reach top_n=5
+    assert len(result) == 5
     # Verify the prompt was truncated (not all 100 articles included)
     call_args = llm.generate_json.call_args[0][0]
     assert len(call_args) < 1000
