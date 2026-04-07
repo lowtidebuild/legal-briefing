@@ -16,48 +16,47 @@
   </noscript>
   <![endif]-->
 </head>
-<body style="margin:0; padding:0; background-color:#F0F0EE; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; font-family:'Helvetica Neue', Helvetica, Arial, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;">
+<body style="margin:0; padding:0; background-color:#F5F2ED; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; font-family:Georgia, 'Noto Serif', 'Apple SD Gothic Neo', serif;">
 
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#F0F0EE;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#F5F2ED;">
   <tr>
-    <td align="center" style="padding:24px 16px;">
+    <td align="center" style="padding:32px 16px;">
 
       <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; width:100%; background-color:#FFFFFF;">
 
         <!-- HEADER -->
         <tr>
-          <td style="padding:32px 32px 16px 32px; border-bottom:3px solid #1c5d8f;">
+          <td style="padding:40px 40px 20px 40px;">
             <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
               <tr>
-                <td style="font-family:Georgia, 'Noto Serif', serif; font-size:26px; font-weight:700; color:#1c5d8f; line-height:1.2;">
+                <td style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:11px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:#8A6742;">
                   Game Legal Briefing
                 </td>
               </tr>
               <tr>
-                <td style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:15px; color:#6B7280; padding-top:8px; line-height:1.4;">
-                  {{ date }} · {{ nodes|length }}건의 규제 동향
+                <td style="padding-top:6px; font-family:Georgia, 'Noto Serif', serif; font-size:24px; font-weight:700; color:#1A1A1A; line-height:1.2;">
+                  {{ date }}
+                </td>
+              </tr>
+              <tr>
+                <td style="padding-top:4px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:13px; color:#9CA3AF;">
+                  {{ nodes|length }}건의 게임 산업 규제 동향
                 </td>
               </tr>
             </table>
           </td>
         </tr>
+
+        <!-- DIVIDER -->
+        <tr><td style="padding:0 40px;"><div style="border-top:1px solid #E5E5E5;"></div></td></tr>
 
         <!-- CTA -->
         <tr>
-          <td style="padding:20px 32px 8px 32px;" align="center">
-            <table role="presentation" cellpadding="0" cellspacing="0" border="0">
-              <tr>
-                <td align="center" style="border:1px solid #C4B5A0; border-radius:8px; background-color:#FAFAF8;">
-                  <a href="https://lowtidebuild.github.io/game-legal-briefing/" target="_blank" style="display:inline-block; padding:11px 28px; font-family:Georgia, 'Noto Serif', serif; font-size:14px; font-weight:400; color:#1A1A1A; text-decoration:none; letter-spacing:0.2px;">
-                    웹에서 보기 &rarr;
-                  </a>
-                </td>
-              </tr>
-            </table>
+          <td style="padding:20px 40px;" align="center">
+            <a href="https://lowtidebuild.github.io/game-legal-briefing/" target="_blank" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:13px; color:#8A6742; text-decoration:none; letter-spacing:0.3px;">웹에서 보기 &rarr;</a>
           </td>
         </tr>
 
-        <!-- BRIEFING ITEMS GROUPED BY CATEGORY -->
         {% set cat_labels = {
           'AI_EMERGING': 'AI / 신기술',
           'CONSUMER_MONETIZATION': '소비자 / 과금',
@@ -70,6 +69,8 @@
           'PRIVACY_SECURITY': '개인정보 / 보안',
           'ETC': '기타',
         } %}
+
+        <!-- BRIEFING ITEMS GROUPED BY CATEGORY -->
         {% set ns = namespace(current_cat='') %}
         {% for node in nodes|sort(attribute='category') %}
 
@@ -77,10 +78,10 @@
         {% set ns.current_cat = node.category %}
         <!-- Category Header -->
         <tr>
-          <td style="padding:28px 32px 8px 32px;">
-            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-bottom:3px solid #1c5d8f;">
+          <td style="padding:32px 40px 0 40px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
               <tr>
-                <td style="padding-bottom:10px; font-family:Georgia, 'Noto Serif', serif; font-size:18px; font-weight:700; color:#1A1A1A; line-height:1.3;">
+                <td style="padding-bottom:12px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:11px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#8A6742; border-bottom:2px solid #E5DDD0;">
                   {{ cat_labels.get(node.category, node.category) }}
                 </td>
               </tr>
@@ -91,63 +92,45 @@
 
         <!-- Article -->
         <tr>
-          <td style="padding:16px 32px 0 32px;">
-            <!-- Tags -->
-            <table role="presentation" cellpadding="0" cellspacing="0" border="0">
-              <tr>
-                <td style="padding:3px 8px; background-color:#f0e5d6; border-radius:4px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:11px; font-weight:700; color:#5c4020;">
-                  {{ node.event.jurisdiction.value }}
-                </td>
-              </tr>
-            </table>
-
-            <!-- Title (Korean + English) -->
+          <td style="padding:20px 40px 0 40px;">
+            <!-- Title with jurisdiction prefix -->
             <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
               <tr>
-                <td style="padding-top:10px; font-family:Georgia, 'Noto Serif', serif; font-size:18px; font-weight:700; color:#1A1A1A; line-height:1.4;">
+                <td style="font-family:Georgia, 'Noto Serif', serif; font-size:17px; font-weight:700; color:#1A1A1A; line-height:1.45;">
+                  <span style="color:#8A6742;">[{{ node.event.jurisdiction.value }}]</span>
                   {% if node.title_ko %}{{ node.title_ko }}{% else %}{{ node.title }}{% endif %}
                 </td>
               </tr>
               {% if node.title_ko %}
               <tr>
-                <td style="padding-top:2px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:13px; color:#9CA3AF; line-height:1.4;">
+                <td style="padding-top:3px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:12px; color:#B0B0B0; line-height:1.4;">
                   {{ node.title }}
                 </td>
               </tr>
               {% endif %}
               <tr>
-                <td style="padding-top:4px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:13px; color:#6B7280; line-height:1.4;">
+                <td style="padding-top:3px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:11px; color:#B0B0B0;">
                   {{ node.source }} · {{ node.pub_date }}
                 </td>
               </tr>
             </table>
 
-            <!-- Summary -->
-            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:12px;">
-              {% for line in node.summary_ko %}
+            <!-- Summary as paragraphs -->
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:10px;">
               <tr>
-                <td style="width:14px; vertical-align:top; padding-top:8px;">
-                  <div style="width:4px; height:4px; border-radius:50%; background:#C4B5A0; margin-top:6px;"></div>
-                </td>
-                <td style="padding:4px 0; font-family:Georgia, 'Noto Serif', serif; font-size:15px; color:#1A1A1A; line-height:1.7;">
-                  {{ line }}
+                <td style="font-family:Georgia, 'Noto Serif', serif; font-size:15px; color:#3D3D3D; line-height:1.75;">
+                  {{ node.summary_ko | join(' ') }}
                 </td>
               </tr>
-              {% endfor %}
             </table>
 
             <!-- Link -->
-            <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin-top:10px;">
+            <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin-top:8px;">
               <tr>
                 <td>
-                  <a href="{{ node.url }}" target="_blank" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:13px; font-weight:600; color:#1c5d8f; text-decoration:none;">원문 보기 &rarr;</a>
+                  <a href="{{ node.url }}" target="_blank" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:12px; color:#8A6742; text-decoration:none;">원문 &rarr;</a>
                 </td>
               </tr>
-            </table>
-
-            <!-- Divider -->
-            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:16px;">
-              <tr><td style="border-top:1px solid #F0F0EE;"></td></tr>
             </table>
           </td>
         </tr>
@@ -156,14 +139,16 @@
 
         <!-- FOOTER -->
         <tr>
-          <td style="padding:24px 32px 32px 32px; border-top:1px solid #E5E5E5;">
+          <td style="padding:40px 40px 32px 40px;">
             <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+              <tr><td style="border-top:1px solid #E5E5E5; padding-top:20px;"></td></tr>
               <tr>
-                <td align="center" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:12px; color:#9CA3AF; line-height:1.6;">
-                  Game Legal Briefing · Open Source Regulatory Intelligence for Games<br>
-                  <a href="https://lowtidebuild.github.io/game-legal-briefing/archive/" target="_blank" style="color:#6B7280; text-decoration:underline;">Archive</a>
-                  &nbsp;·&nbsp;
-                  <a href="https://github.com/lowtidebuild/game-legal-briefing" target="_blank" style="color:#6B7280; text-decoration:underline;">GitHub</a>
+                <td align="center" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:11px; color:#B0B0B0; line-height:1.8;">
+                  Game Legal Briefing<br>
+                  Open Source Regulatory Intelligence for Games<br>
+                  <a href="https://lowtidebuild.github.io/game-legal-briefing/archive/" target="_blank" style="color:#8A6742; text-decoration:none;">Archive</a>
+                  &nbsp;&middot;&nbsp;
+                  <a href="https://github.com/lowtidebuild/game-legal-briefing" target="_blank" style="color:#8A6742; text-decoration:none;">GitHub</a>
                 </td>
               </tr>
             </table>
