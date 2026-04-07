@@ -98,6 +98,34 @@ hr.divider {
   margin-left: 8px;
 }
 
+/* Category divider — bold line + large label */
+.category-divider {
+  margin: 32px 0 0;
+  padding: 0 0 12px;
+  border-bottom: 3px solid var(--accent);
+}
+
+.category-divider:first-of-type {
+  margin-top: 20px;
+}
+
+.category-label {
+  font-family: var(--font-serif);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.category-count {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text-secondary);
+  margin-left: 10px;
+}
+
 /* ── Briefing Cards ────────────────────────────────────── */
 .briefing-list {
   display: grid;

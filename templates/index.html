@@ -26,15 +26,19 @@
 
     {% if nodes %}
     {% set ns = namespace(current_cat='') %}
-    {% for node in nodes|sort(attribute='category') %}
+    {% set sorted_nodes = nodes|sort(attribute='category') %}
+    {% for node in sorted_nodes %}
 
     {% if node.category != ns.current_cat %}
-    {% set ns.current_cat = node.category %}
-    <div class="section-title">{{ node.category.replace('_', ' · ') }}</div>
-    {% endif %}
+      {% set ns.current_cat = node.category %}
+      {% if not loop.first %}</section>{% endif %}
 
-    {% if loop.first or node.category != (nodes|sort(attribute='category'))[loop.index0 - 1].category %}
-    <section class="briefing-list">
+      <div class="category-divider">
+        <span class="category-label">{{ node.category.replace('_', ' / ') }}</span>
+        <span class="category-count">{{ sorted_nodes|selectattr('category','equalto',node.category)|list|length }}건</span>
+      </div>
+
+      <section class="briefing-list">
     {% endif %}
 
       <article class="briefing-card">
@@ -59,11 +63,7 @@
         <a class="card-link" href="{{ node.url }}" target="_blank" rel="noreferrer">원문 보기 &rarr;</a>
       </article>
 
-    {% set next_idx = loop.index0 + 1 %}
-    {% if loop.last or node.category != (nodes|sort(attribute='category'))[next_idx].category %}
-    </section>
-    {% endif %}
-
+    {% if loop.last %}</section>{% endif %}
     {% endfor %}
     {% else %}
     <section class="empty-state">
