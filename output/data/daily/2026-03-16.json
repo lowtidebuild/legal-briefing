@@ -1,5 +1,130 @@
 [
   {
+    "title": "Meta is reportedly laying off up to 20 percent of its staff",
+    "url": "https://theverge.com/business/895026/meta-laying-off-20-percent",
+    "source": "The Verge - Policy",
+    "pub_date": "2026-03-14",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "Meta이 AI 및 데이터센터 투자 비용을 상쇄하기 위해 직원의 최대 20%에 해당하는 약 15,800명을 감원할 계획인 것으로 보도되었습니다.",
+      "이는 2022년 11월부터 2023년 초 사이 22,000명을 감원한 이후 Meta 역사상 최대 규모의 감원입니다.",
+      "Meta는 VR 및 메타버스 사업을 축소하고 AI 인재 확보, 데이터센터 구축, 스마트 글래스 및 챗봇 개발에 집중하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "6f3962fa8248feb5",
+    "is_primary": true,
+    "title_ko": ""
+  },
+  {
+    "title": "Creator of acclaimed retro-style RPG Chained Echoes prepares a lawsuit against physical game publisher, and looks to compensate Kickstarter backers",
+    "url": "https://gamesradar.com/games/rpg/creator-of-acclaimed-retro-style-rpg-chained-echoes-prepares-a-lawsuit-against-physical-game-publisher-and-looks-to-compensate-kickstarter-backers",
+    "source": "gamesradar+",
+    "pub_date": "2026-03-15",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "Chained Echoes 개발사 Matthias Linda가 물리 게임 퍼블리셔 First Press Games를 상대로 소송을 준비 중입니다. 킥스타터 펀딩으로 약속된 물리 버전이 2년 이상 지연되었습니다.",
+      "Linda는 영향받은 킥스타터 후원자들에게 환불 신청 또는 새로운 퍼블리셔를 통한 재출판 대기 중 선택지를 제공하고 있으며, 보상 방안을 모색 중입니다.",
+      "소송이 진행되는 동안 새로운 물리 버전 제작이 지연될 수 있으며, 개발사는 킥스타터 바우처로 업그레이드한 주문에 대한 보상도 제공할 계획입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "77984fec402973ea",
+    "is_primary": true,
+    "title_ko": ""
+  },
+  {
+    "title": "AI companies want to harvest improv actors’ skills to train AI on human emotion",
+    "url": "https://theverge.com/ai-artificial-intelligence/893931/ai-companies-handshake-improv-actors-training-data",
+    "source": "The Verge - Policy",
+    "pub_date": "2026-03-15",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "Handshake AI가 OpenAI 등 주요 AI 기업을 위해 즉흥극 배우들을 모집하여 인간의 감정 표현과 음성 상호작용 학습 데이터 수집을 진행 중입니다.",
+      "AI 기업들은 음성 기능이 포함된 멀티모달 모델 개발을 위해 전문 배우들의 감정 표현, 톤, 자연스러운 상호작용 데이터를 필요로 하고 있습니다.",
+      "시간당 평균 74달러의 보수를 제시하고 있으나, 배우 커뮤니티에서는 자신들의 기술이 AI 학습에 악용되어 직업 대체로 이어질 수 있다는 우려를 제기하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "cf05034a62c346c0",
+    "is_primary": true,
+    "title_ko": ""
+  },
+  {
+    "title": "Outsourcer Telus admits to attack – may have lost a petabyte of data to ShinyHunters",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/15/telus_breach_starbucks_attack",
+    "source": "The Register - Security",
+    "pub_date": "2026-03-15",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "캐나다 아웃소싱 업체 Telus Digital이 사이버공격을 인정했으며, ShinyHunters 범죄조직이 Salesloft 침해로 획득한 Google Cloud Platform 자격증명을 이용해 1페타바이트 이상의 데이터를 유출한 것으로 보도되고 있습니다.",
+      "Starbucks는 HR 포털 Partner Central에 대한 피싱 공격으로 889명의 직원 개인정보(주민등록번호, 생년월일, 금융계좌정보)가 유출되었음을 공시했습니다.",
+      "게임사 관련 직접적 영향은 제한적이나, 클라우드 인프라 및 아웃소싱 서비스 이용 시 공급망 보안 리스크 증가 및 직원 데이터 보호 의무 강화 추세를 반영합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "c3885ce0915f2c83",
+    "is_primary": true,
+    "title_ko": ""
+  },
+  {
+    "title": "Arc Raiders CEO says studio has \"re-recorded\" AI lines: \"A real professional actor is better than AI; that's just how it is\"",
+    "url": "https://eurogamer.net/arc-raiders-ceo-says-studio-has-re-recorded-ai-lines-a-real-professional-actor-is-better-than-ai-thats-just-how-it-is",
+    "source": "Eurogamer",
+    "pub_date": "2026-03-15",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "Arc Raiders 개발사 Embark Studios는 AI 생성 음성 라인 일부를 재녹음했으며, 인간 성우와 AI 생성 음성 간의 품질 차이를 인정했습니다.",
+      "CEO Patrick Söderlund는 성우들에게 부스 작업 시간에 대한 전액 보수를 지급하고, 필수적이지 않은 핑 시스템 오디오 등 선별된 용도에 한해 음성 라이선스 승인에 대한 보수를 추가로 지급한다고 밝혔습니다.",
+      "스튜디오는 AI를 제작 도구로 활용하되 성우 대체가 아닌 보조 수단으로 사용하며, 내부 테스트 및 프리프로덕션 목적으로 활용하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "434a67739006b70d",
+    "is_primary": true,
+    "title_ko": ""
+  },
+  {
     "title": "Adobe「訂閱陷阱」以台幣48億達成和解 但否認合約有不妥之處",
     "url": "https://4gamers.com.tw/news/detail/77686/adobe-pay-to-settlement-fot-subscription-trap",
     "source": "4gamers",

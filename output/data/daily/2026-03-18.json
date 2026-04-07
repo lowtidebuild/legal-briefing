@@ -1,5 +1,55 @@
 [
   {
+    "title": "PUBG maker Krafton is an AI defense company now, signs deal with Korean aerospace firm that includes investment of up to $1 billion aiming 'to expand the physical AI ecosystem'",
+    "url": "https://pcgamer.com/software/ai/pubg-maker-krafton-is-an-ai-defense-company-now-signs-deal-with-korean-aerospace-firm-that-includes-investment-of-up-to-usd1-billion-aiming-to-expand-the-physical-ai-ecosystem",
+    "source": "PC Gamer",
+    "pub_date": "2026-03-17",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "크래프톤이 한화에어로스페이스와 전략적 동맹을 체결하고 최대 10억 달러 규모의 투자 펀드에 참여하여 방위산업 분야의 '물리적 AI' 기술 개발 및 상용화를 추진합니다.",
+      "크래프톤은 게임 운영 경험과 물리 기반 가상 세계 구축 역량을 활용하여 자율 AI 소프트웨어 개발에 집중하며, 한화는 우주발사체, 항공기 엔진, 포병, 장갑차, 방공 시스템 등 방위 하드웨어를 담당합니다.",
+      "크래프톤 CEO는 이 파트너십이 자율 무기 시스템 전문 기업 '안두릴'과 같은 글로벌 방위 기술 회사 창출을 기대하고 있으며, 이는 게임사의 방위산업 진출과 자율 무기 개발 관련 규제 리스크를 야기할 수 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "f8c594a7d90950b0",
+    "is_primary": true,
+    "title_ko": ""
+  },
+  {
+    "title": "Gartner suggests Friday afternoon Copilot ban because tired users may be too lazy to check its mistakes",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/17/gartner_copilot_security_mitigations",
+    "source": "The Register - Security",
+    "pub_date": "2026-03-17",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "Gartner 분석가 Dennis Xu는 Microsoft 365 Copilot의 보안 위험 5가지를 제시하며, 금요일 오후 사용 제한을 반농담으로 제안했습니다.",
+      "주요 위험으로는 과도하게 공유된 문서 노출, 악성 프롬프트를 통한 원격 실행, 민감 데이터 접근, 프롬프트 인젝션, 그리고 문화적으로 부적절한 독성 콘텐츠 생성이 포함됩니다.",
+      "조직은 Microsoft의 필터 활성화, 사용자 교육, 접근 제어 모니터링, 그리고 제3자 SaaS 연동 제한을 통해 이러한 위험을 완화할 수 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "db956f90130e766c",
+    "is_primary": true,
+    "title_ko": ""
+  },
+  {
     "title": "Justice Department Says Anthropic Can’t Be Trusted With Warfighting Systems",
     "url": "https://wired.com/story/department-of-defense-responds-to-anthropic-lawsuit",
     "source": "WIRED - Business",

@@ -1,5 +1,205 @@
 [
   {
+    "title": "AI-generated images still can't be copyrighted as US Supreme Court declines to hear case",
+    "url": "https://pcgamer.com/software/ai/ai-generated-images-still-cant-be-copyrighted-as-us-supreme-court-declines-to-hear-case",
+    "source": "PC Gamer",
+    "pub_date": "2026-03-03",
+    "category": "IP",
+    "summary_ko": [
+      "미국 대법원이 AI 생성 이미지의 저작권 보호를 거부한 사건 상고를 기각함으로써, 순수 AI 생성 이미지는 저작권 등록이 불가능하다는 미국 저작권청의 입장을 재확인했습니다.",
+      "컴퓨터 과학자 스티븐 탈러가 'A Recent Entrance to Paradise'라는 AI 생성 이미지의 저작권 보호를 요청했으나, 저작권청과 연방법원 모두 '인간 저작성' 요건 미충족을 이유로 거부했으며, 대법원의 기각으로 미국 내 최종 판단이 확정되었습니다.",
+      "다만 AI 생성 이미지를 수작업으로 수정하거나 충분한 인간 저작성을 포함할 경우 저작권 등록이 가능하며, 저작권청은 AI 생성 이미지 적발의 어려움으로 인해 사후 검증 체계에 의존하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "5cfbeb4ce9a6d395",
+    "is_primary": true,
+    "title_ko": ""
+  },
+  {
+    "title": "\"An aggressive copyright troll\" spent years abusing DMCAs to turn a bizarre Japanese PC game into lost media, until \"they f***ed with\" preservation-focused historians with a legal team",
+    "url": "https://gamesradar.com/games/an-aggressive-copyright-troll-spent-years-abusing-dmcas-to-turn-a-bizarre-japanese-pc-game-into-lost-media-until-they-f-ed-with-preservation-focused-historians-with-a-legal-team",
+    "source": "gamesradar+",
+    "pub_date": "2026-03-03",
+    "category": "IP",
+    "summary_ko": [
+      "Video Game History Foundation이 1999년 일본 PC 게임 'Cookie's Bustle'의 보존 활동 중 Graceware와 Brandon White로부터 부당한 DMCA 삭제 요청을 받았습니다.",
+      "Graceware는 게임 다운로드 링크뿐 아니라 게임 소유 사실을 기술한 웹페이지, 유튜브 영상, 팬아트, 번역 모드 등에 대해 광범위한 삭제 요청을 진행했으나 저작권 소유권을 입증하지 못했습니다.",
+      "VGHF의 법적 대응으로 Ukie가 Graceware에 대한 DMCA 삭제 서비스를 중단했으며, 이는 고아 저작물(orphan work)의 게임 역사 보존 권리와 저작권 악용 방지의 중요성을 부각시킵니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "ba254eed65c1442d",
+    "is_primary": true,
+    "title_ko": ""
+  },
+  {
+    "title": "Star Citizen studio suffered a data breach in January, and some players aren't happy with the very quiet disclosure that only happened this week",
+    "url": "https://pcgamer.com/games/sim/star-citizen-studio-suffered-a-data-breach-in-january-and-some-players-arent-happy-with-the-very-quiet-disclosure-that-only-happened-this-week",
+    "source": "PC Gamer",
+    "pub_date": "2026-03-03",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "Cloud Imperium Games는 2026년 1월 21일 발생한 데이터 유출 사건을 6주 후인 이번 주에 공개했으며, 기본 계정 정보(메타데이터, 연락처, 사용자명, 생년월일, 이름)가 유출되었으나 금융 정보와 비밀번호는 포함되지 않았다고 밝혔습니다.",
+      "회사는 로그인 팝업을 통해서만 공지했으며 이메일 알림이나 공식 소셜 미디어 공지를 하지 않아 플레이어들의 비판을 받고 있습니다.",
+      "플레이어들은 유출된 메타데이터의 구체적 내용이 명시되지 않았으며, 이메일과 개인정보 조합이 피싱 공격에 악용될 수 있다는 점을 우려하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "9ffc525757291e47",
+    "is_primary": true,
+    "title_ko": ""
+  },
+  {
+    "title": "Leon Kennedy's voice actor doesn't believe AI can replace human performances, and paying 'for an actor's voice session is not that big of a deal' for games as big as Arc Raiders",
+    "url": "https://pcgamer.com/games/resident-evil/leon-kennedys-voice-actor-doesnt-believe-ai-can-replace-human-performances-and-paying-for-an-actors-voice-session-is-not-that-big-of-a-deal-for-games-as-big-as-arc-raiders",
+    "source": "PC Gamer",
+    "pub_date": "2026-03-03",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "레지던트 이블 시리즈의 레온 케네디 성우 닉 아포스톨리데스는 AI가 인간 성우를 완전히 대체할 수 없다고 주장하며, 1,500만 장 이상 판매되는 대작 게임의 경우 성우 녹음 비용 지출이 큰 부담이 아니라고 지적했습니다.",
+      "아포스톨리데스는 AI가 대사를 읽을 수는 있지만 인간의 감정과 진정성을 담을 수 없으며, 게임의 매력은 인간적인 스토리텔링과 감정 표현에 있다고 강조했습니다.",
+      "AI 기술의 확산은 피할 수 없지만, 창작 산업은 이에 적응하면서도 인간 성우의 가치를 유지하는 방향으로 진화해야 한다는 입장을 제시했습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "b767dfd4b3703431",
+    "is_primary": true,
+    "title_ko": ""
+  },
+  {
+    "title": "Chat at your own risk! Data brokers are selling deeply personal bot transcripts",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/03/chatbot_data_harvesting_personal_info",
+    "source": "The Register - Security",
+    "pub_date": "2026-03-03",
+    "category": "ETC",
+    "summary_ko": [
+      "The Register - Security 보도 기준 핵심 이슈는 'Chat at your own risk! Data brokers are selling deeply personal bot transcripts' 관련 사안입니다.",
+      "원문 구조 또는 응답 형식 문제로 자동 정밀 요약에 실패해, 제목/설명 기반으로 대체 요약을 제공합니다.",
+      "AI conversations for sale include sensitive health and legal details Your latest chat transcript could be bought and sold. Data brokers are selling access to sensitive personal dat"
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "1b82283da609ffaa",
+    "is_primary": true,
+    "title_ko": ""
+  },
+  {
+    "title": "Chrome Gemini panel became privilege escalator for rogue extensions",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/03/google_chrome_bug_gemini",
+    "source": "The Register - Security",
+    "pub_date": "2026-03-03",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "Google Chrome의 Gemini Live AI 패널에서 발견된 고위험도 취약점(CVE-2026-0628)으로 인해 악의적인 확장 프로그램이 브라우저의 시스템 리소스에 무단 접근할 수 있었습니다.",
+      "악성 확장 프로그램이 Gemini 패널의 네트워크 요청을 조작하여 카메라, 마이크, 로컬 파일 접근 등 본래 허용되지 않은 권한을 상속받을 수 있었으며, Google은 2026년 1월 초 Chrome 143.0.7499.192/193 버전으로 패치를 배포했습니다.",
+      "AI 기능의 깊은 시스템 통합이 브라우저의 위협 모델을 근본적으로 변경하고 있으며, Gartner는 기업들에게 '에이전트형' 브라우저 사용을 피할 것을 권고하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "c72856d95112c7ae",
+    "is_primary": true,
+    "title_ko": ""
+  },
+  {
+    "title": "Scientists warn against crappy age verification: 'if implemented without careful consideration… the new regulation might cause more harm than good'",
+    "url": "https://pcgamer.com/hardware/scientists-warn-against-crappy-age-verification-if-implemented-without-careful-consideration-the-new-regulation-might-cause-more-harm-than-good",
+    "source": "PC Gamer",
+    "pub_date": "2026-03-03",
+    "category": "ETC",
+    "summary_ko": [
+      "PC Gamer 보도 기준 핵심 이슈는 'Scientists warn against crappy age verification: 'if implemented without careful consideration… the new regulation might cause more harm than good'' 관련 사안입니다",
+      "원문 구조 또는 응답 형식 문제로 자동 정밀 요약에 실패해, 제목/설명 기반으로 대체 요약을 제공합니다.",
+      "Scientists and researchers from respected institutions lay out the case against age verification as we're beginning to know it."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "e88df570e081d5ec",
+    "is_primary": true,
+    "title_ko": ""
+  },
+  {
+    "title": "Gamers furious as indie studio Cloud Imperium quietly admits to data breach",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/03/brit_games_studio_cloud_imperium",
+    "source": "The Register - Security",
+    "pub_date": "2026-03-03",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "클라우드 임페리움(Cloud Imperium)이 2026년 1월 21일 발생한 데이터 유출 사건을 수주 후 조용히 공개했으며, 사용자 개인정보(이름, 연락처, 생년월일 등)가 노출되었습니다.",
+      "회사는 금융정보와 비밀번호는 영향을 받지 않았다고 주장하지만, 노출된 기본 정보만으로도 피싱 공격에 악용될 수 있어 사용자들의 우려가 큽니다.",
+      "지연된 공시와 미흡한 공지 방식으로 인해 게이머 커뮤니티의 강한 반발을 초래했으며, 규제 당국의 조치 가능성에 대한 논의가 진행 중입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "2e22fd4e8a157875",
+    "is_primary": true,
+    "title_ko": ""
+  },
+  {
     "title": "Trump administration debates getting Chinese Tencent money out of US gaming over feared security risks",
     "url": "https://eurogamer.net/trump-administration-debates-getting-chinese-tencent-money-out-of-us-gaming",
     "source": "Eurogamer",

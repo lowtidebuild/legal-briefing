@@ -1,5 +1,80 @@
 [
   {
+    "title": "A folk musician became a target for AI fakes and a copyright troll",
+    "url": "https://theverge.com/entertainment/907111/murphy-campbell-folk-music-ai-copyright",
+    "source": "The Verge - Policy",
+    "pub_date": "2026-04-04",
+    "category": "IP",
+    "summary_ko": [
+      "포크 뮤지션 머피 캠벨이 자신의 유튜브 영상에서 추출한 음성으로 생성된 AI 커버곡이 스포티파이 등 스트리밍 플랫폼에 무단 업로드되는 피해를 입었습니다.",
+      "캠벨의 공개 도메인 곡들에 대해 제3자가 유디아(Vydia) 배포자를 통해 유튜브 콘텐츠 ID 클레임을 제출하여 수익 공유 통지를 받았으며, 해당 곡들은 1870년대 이상의 저작권 만료 곡입니다.",
+      "현재 스트리밍 플랫폼의 검증 체계 부재, AI 생성 음악의 확산, 그리고 저작권 클레임 시스템의 악용이 복합적으로 작용하는 구조적 문제가 드러났습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "1be786224c719a53",
+    "is_primary": true,
+    "title_ko": ""
+  },
+  {
+    "title": "Call Of Duty Pro Gets Dropped From His Team After Unsolicited Sexts Leak: ‘Sorry I Have A Real Life’",
+    "url": "https://kotaku.com/call-duty-sexting-leak-nero-esports-carolina-2000684923",
+    "source": "Kotaku",
+    "pub_date": "2026-04-04",
+    "category": "ESPORTS_MARKETING",
+    "summary_ko": [
+      "콜 오브 듀티 프로 선수 Dylan Koch(닉네임 Nero)가 Carolina Royal Ravens에서 방출되었습니다.",
+      "유출된 Discord DM에서 Koch가 상대방에게 동의 없이 성적 내용의 메시지를 보낸 것으로 드러났습니다.",
+      "팀은 공식 이유를 명시하지 않았으나, Koch의 해명 성명과 유출된 DM 내용으로 보아 부적절한 온라인 행동이 해고 사유로 판단됩니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "1c798f258301ee15",
+    "is_primary": true,
+    "title_ko": ""
+  },
+  {
+    "title": "Really, you made this without AI? Prove it",
+    "url": "https://theverge.com/tech/906453/human-made-ai-free-logo-creative-content",
+    "source": "The Verge - Policy",
+    "pub_date": "2026-04-04",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "인간이 만든 콘텐츠를 인증하기 위한 라벨 및 배지 솔루션이 12개 이상 난립하고 있으며, 업계 표준화 부재로 인해 광범위한 채택이 어려운 상황입니다.",
+      "C2PA 같은 기존 표준은 업계 지지를 받았으나 실효성이 낮으며, 블록체인 기반 솔루션과 수동 감시 방식이 더 신뢰할 수 있는 대안으로 제시되고 있습니다.",
+      "AI 도구가 창작 과정에 광범위하게 통합되면서 '인간이 만든' 콘텐츠의 정의 자체가 모호해지고 있으며, 규제 기관의 명확한 정의와 검증 체계 수립이 필요합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "e8daaf076ee58bc7",
+    "is_primary": true,
+    "title_ko": ""
+  },
+  {
     "title": "Suno is a music copyright nightmare",
     "url": "https://theverge.com/ai-artificial-intelligence/906896/sunos-copyright-ai-music-covers",
     "source": "The Verge - Policy",

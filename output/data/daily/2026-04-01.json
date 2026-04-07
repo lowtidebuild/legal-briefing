@@ -1,5 +1,80 @@
 [
   {
+    "title": "Understanding the updated COPPA rules and their impact on child safety",
+    "url": "https://gamesbeat.com/understanding-the-updated-coppa-rules-and-their-impact-on-child-safety",
+    "source": "VentureBeat - GamesBeat",
+    "pub_date": "2026-03-31",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "미국 FTC의 COPPA(아동온라인개인정보보호법) 규칙 개정안이 2025년 4월 22일 발효될 예정입니다.",
+      "게임 업계를 대상으로 한 청소년 개인정보 보호 규제의 새로운 단계가 시작되며, 게임사들은 규정 준수를 위한 즉각적인 대응이 필요합니다.",
+      "업데이트된 COPPA 규칙은 게임 내 데이터 수집, 광고, 사용자 추적 등 다양한 영역에서 아동 보호 기준을 강화할 것으로 예상됩니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "c69fd9db6176193f",
+    "is_primary": true,
+    "title_ko": ""
+  },
+  {
+    "title": "The video game payment processor crisis may be getting better, thanks to the American Federal Trade Commission",
+    "url": "https://eurogamer.net/the-video-game-payment-processor-crisis-may-be-getting-better-thanks-to-the-american-federal-trade-commission",
+    "source": "Eurogamer",
+    "pub_date": "2026-03-31",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "미국 연방거래위원회(FTC)가 Mastercard, Visa, Stripe, PayPal 등 결제 처리업체들에 '정치적 또는 종교적 견해'를 이유로 서비스 거부를 금지하는 강력한 경고를 발표했습니다.",
+      "FTC 의장은 트럼프 행정부의 2025년 8월 7일 행정명령을 인용하며, 법을 준수하는 시민이 정치적 신념이나 종교적 신앙을 이유로 금융 시스템 접근이 거부되는 것은 미국 가치에 부합하지 않는다고 명시했습니다.",
+      "이 조치는 Itch.io의 성인 콘텐츠 제거, Steam의 게임 표시 변경 등으로 인해 피해를 입은 게임 개발자들의 상황 개선에 긍정적 영향을 미칠 가능성이 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "59c8cb700f45fb32",
+    "is_primary": true,
+    "title_ko": ""
+  },
+  {
+    "title": "In the long list of awful things AI might lead to we can also add killing open-source software",
+    "url": "https://pcgamer.com/software/ai/in-the-long-list-of-awful-things-ai-might-lead-to-we-can-also-add-killing-open-source-software",
+    "source": "PC Gamer",
+    "pub_date": "2026-03-31",
+    "category": "IP",
+    "summary_ko": [
+      "AI를 활용한 오픈소스 소프트웨어의 자동 복제 및 상용화 기술이 현행 저작권법상 합법적으로 가능함이 입증되었습니다.",
+      "Dylan Ayrey와 Mike Nolan 연구자들은 'malus.sh' AI 서비스를 통해 오픈소스 프로젝트를 법적으로 구별되는 상용 코드로 변환할 수 있음을 시연했습니다.",
+      "현행 저작권법이 표현(expression)만 보호하고 아이디어는 보호하지 않는 원칙에 기반한 이 기술은 게임 엔진, 게임 개발 도구 등 오픈소스 기반 게임 개발 생태계에 심각한 위협이 될 수 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "428f25196722a429",
+    "is_primary": true,
+    "title_ko": ""
+  },
+  {
     "title": "French consumer group sues Ubisoft over shutdown of The Crew",
     "url": "https://gamedeveloper.com/business/french-consumer-group-sues-ubisoft-over-shutdown-of-the-crew",
     "source": "GameDeveloper",
