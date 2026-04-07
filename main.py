@@ -24,7 +24,7 @@ from pipeline.llm.base import LLMProvider
 from pipeline.llm.offline import OfflineLLMProvider
 from pipeline.render.email import render_email
 from pipeline.render.site import copy_static, render_archive, render_article_pages, render_index
-from pipeline.sources.filters import keyword_filter
+from pipeline.sources.filters import keyword_filter, recency_filter
 from pipeline.sources.rss import fetch_all_feeds, sample_articles
 from pipeline.store.daily import load_daily, save_daily
 from pipeline.store.dedup_index import load_dedup_index, prune_old_entries, save_dedup_index
@@ -72,6 +72,8 @@ def run_pipeline(
         tier_b=cfg.sources.tier_b,
     )
     articles = keyword_filter(articles, keywords=cfg.pipeline.keywords)
+    if not use_sample_data:
+        articles = recency_filter(articles, max_age_days=7)
 
     dedup_index = DedupIndex() if use_sample_data else prune_old_entries(
         load_dedup_index(dedup_path), today=today, retention_days=cfg.dedup.retention_days,
