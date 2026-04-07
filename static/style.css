@@ -98,11 +98,15 @@ hr.divider {
   margin-left: 8px;
 }
 
-/* Category divider — bold line + large label */
+/* Category divider — colored bar with label */
 .category-divider {
-  margin: 32px 0 0;
-  padding: 0 0 12px;
-  border-bottom: 3px solid var(--accent);
+  margin: 36px 0 0;
+  padding: 14px 20px;
+  background: var(--accent);
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
 }
 
 .category-divider:first-of-type {
@@ -110,20 +114,18 @@ hr.divider {
 }
 
 .category-label {
-  font-family: var(--font-serif);
-  font-size: 18px;
+  font-family: var(--font-sans);
+  font-size: 15px;
   font-weight: 700;
-  color: var(--text);
-  letter-spacing: 0;
-  text-transform: none;
+  color: #FFFFFF;
+  letter-spacing: 0.04em;
 }
 
 .category-count {
   font-family: var(--font-sans);
-  font-size: 13px;
-  font-weight: 400;
-  color: var(--text-secondary);
-  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(255,255,255,0.7);
 }
 
 /* ── Briefing Cards ────────────────────────────────────── */
@@ -132,7 +134,8 @@ hr.divider {
   gap: 1px;
   background: var(--border);
   border: 1px solid var(--border);
-  border-radius: 12px;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
   overflow: hidden;
 }
 
