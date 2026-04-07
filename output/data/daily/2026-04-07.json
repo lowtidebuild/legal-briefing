@@ -1,265 +1,270 @@
 [
   {
-    "title": "Reddit posts can be more important than data, and other lessons from maintaining Candy Crush as a forever game",
-    "url": "https://www.gamesindustry.biz/reddit-posts-can-be-more-important-than-data-and-other-lessons-from-maintaining-candy-crush-as-a-forever-game",
+    "title": "A Game Pass for indie games: meet Indie Pass, a $6.99-a-month subscription launching with 70 titles",
+    "url": "https://www.gamesindustry.biz/a-game-pass-for-indie-games-meet-indie-pass-a-7-a-month-subscription-that-brings-new-titles-every-month",
     "source": "GamesIndustry.biz",
-    "pub_date": "2026-04-03",
+    "pub_date": "2026-04-02",
     "category": "CONSUMER_MONETIZATION",
     "summary_ko": [
-      "캔디 크러쉬 사가는 2012년 출시 이후 누적 매출 200억 달러를 돌파하며 장수 게임의 성공 사례로 자리매김했습니다.",
-      "개발사 킹(King)은 데이터 분석뿐만 아니라 레딧과 같은 커뮤니티의 이용자 의견을 적극 수용하여 지속적인 서비스 운영의 핵심 동력으로 삼고 있습니다.",
-      "성공적인 게임 라이브 서비스 유지를 위해서는 수치화된 데이터와 더불어 커뮤니티의 생생한 반응을 종합적으로 반영하는 전략이 필수적입니다."
+      "게임 퍼블리셔 Indie.io가 월 6.99달러의 인디 게임 구독 서비스 'Indie Pass'를 출시합니다.",
+      "해당 서비스는 70여 개의 인디 게임 타이틀을 시작으로 매달 새로운 라인업을 제공할 예정입니다.",
+      "구독 모델을 통해 인디 개발사들은 수익 창출 경로를 넓히고, 이용자들은 다양한 게임에 저렴하게 접근할 수 있게 됩니다."
     ],
     "event": {
       "jurisdiction": "Global",
       "event_type": "business",
-      "regulatory_phase": "proposed",
+      "regulatory_phase": "enacted",
       "actors": [
-        "King"
+        "Indie.io"
       ],
-      "object": "Candy Crush Saga",
-      "action": "revenue generation and live operations maintenance",
-      "game_mechanic": "tile-matching",
-      "time_hint": "2012-2023"
-    },
-    "event_key": "de20f92d35d7c972",
-    "is_primary": true
-  },
-  {
-    "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
-    "url": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
-    "source": "GamesIndustry.biz",
-    "pub_date": "2026-04-02",
-    "category": "IP",
-    "summary_ko": [
-      "미국 특허청(USPTO)이 닌텐도가 출원한 '게임 내 서브 캐릭터 소환 및 전투 지원' 관련 특허를 거절했습니다.",
-      "해당 기술은 캐릭터가 보조 캐릭터를 불러 전투를 수행하는 메커니즘에 관한 것으로, 특허의 독창성이나 진보성 부족 등이 거절 사유로 추정됩니다.",
-      "이번 결정으로 향후 유사한 전투 시스템을 도입하려는 게임사들의 특허 분쟁 부담이 다소 완화될 것으로 보입니다."
-    ],
-    "event": {
-      "jurisdiction": "US",
-      "event_type": "enforcement",
-      "regulatory_phase": "enforced",
-      "actors": [
-        "United States Patent and Trademark Office",
-        "Nintendo"
-      ],
-      "object": "patent application for summoning sub-character mechanic",
-      "action": "rejection of patent",
-      "game_mechanic": "summoning sub-character",
+      "object": "Indie Pass",
+      "action": "launching subscription service",
+      "game_mechanic": "subscription",
       "time_hint": "current"
     },
-    "event_key": "84d01fd3d56895b5",
+    "event_key": "5658a16e0399dfa8",
     "is_primary": true
   },
   {
-    "title": "Build a Rocket Boy CEO responds to end of publishing agreement with IOI Partners",
-    "url": "https://www.gamesindustry.biz/build-a-rocket-boy-ceo-responds-to-end-of-publishing-agreement-with-ioi-partners",
+    "title": "VR platform Rec Room to shut down in June 2026",
+    "url": "https://www.gamesindustry.biz/vr-platform-rec-room-to-shut-down-in-june-2026",
     "source": "GamesIndustry.biz",
     "pub_date": "2026-04-01",
     "category": "PLATFORM_PUBLISHING",
     "summary_ko": [
-      "빌드 어 로켓 보이(Build a Rocket Boy)가 IOI 파트너스와의 퍼블리싱 계약을 종료했습니다.",
-      "마크 게르하르트 CEO는 독립 스튜디오로서 개발 및 서비스의 주도권을 유지하기 위한 결정이라고 밝혔습니다.",
-      "이번 계약 종료로 인해 향후 자사 타이틀 '마인즈 아이(MindsEye)'의 독자적인 행보가 예상됩니다."
+      "소셜 VR 게임 플랫폼인 Rec Room이 2026년 6월 1일 서비스를 종료한다고 공식 발표했습니다.",
+      "이번 결정은 장기간 운영된 메타버스 플랫폼의 시장성 변화와 사업 전략 재편에 따른 것으로 분석됩니다.",
+      "업계 관계자들은 이번 서비스 종료가 VR 시장 내 플랫폼 지속 가능성에 대한 중요한 시사점을 던질 것으로 보고 있습니다."
     ],
     "event": {
       "jurisdiction": "Global",
       "event_type": "business",
       "regulatory_phase": "enacted",
       "actors": [
-        "Build a Rocket Boy",
-        "IOI Partners"
+        "Rec Room"
       ],
-      "object": "publishing agreement",
-      "action": "termination",
+      "object": "VR gaming platform",
+      "action": "shut down",
       "game_mechanic": null,
-      "time_hint": "recent"
+      "time_hint": "June 1, 2026"
     },
-    "event_key": "7a4d4e18bd54dc6b",
+    "event_key": "17ebe741b58a81e2",
     "is_primary": true
   },
   {
-    "title": "Kingdom Come: Deliverance 2 studio allegedly fires \"obsolete\" translator to replace them with AI",
-    "url": "https://www.gamesindustry.biz/kingdom-come-deliverance-2-studio-allegedly-fires-obsolete-translator-to-replace-them-with-ai",
+    "title": "Eidos-Montréal announces 124 job cuts; studio head David Anfossi departs after 19 years at developer",
+    "url": "https://www.gamesindustry.biz/eidos-montreal-announces-124-job-cuts-studio-head-david-anfossi-departs-after-19-years-at-developer",
     "source": "GamesIndustry.biz",
-    "pub_date": "2026-03-30",
-    "category": "AI_EMERGING",
-    "summary_ko": [
-      "킹덤 컴: 딜리버런스 2의 개발사 워호스 스튜디오가 소속 번역가를 해고하고 해당 업무를 AI로 대체했다는 논란이 제기되었습니다.",
-      "해고된 번역가는 스튜디오 측이 자신을 '구식'이라 표현하며 AI로 대체했다고 주장해 업계의 주목을 받고 있습니다.",
-      "게임 제작 과정에서 생성형 AI 도입에 따른 인력 대체 문제와 고용 윤리에 대한 논쟁이 심화될 것으로 보입니다."
-    ],
-    "event": {
-      "jurisdiction": "Global",
-      "event_type": "business",
-      "regulatory_phase": "proposed",
-      "actors": [
-        "Warhorse Studios",
-        "Former Translator"
-      ],
-      "object": "Employment contract",
-      "action": "Termination of employment and replacement with AI tools",
-      "game_mechanic": "Localization",
-      "time_hint": "Recent"
-    },
-    "event_key": "e27f912bdfa02b34",
-    "is_primary": true
-  },
-  {
-    "title": "Krafton shutters free-to-play PUBG spin-off after two months, in line with policy of using Early Access to \"quickly validate a game’s potential\"",
-    "url": "https://www.gamesindustry.biz/krafton-shutters-free-to-play-pubg-spin-off-after-two-months-in-line-with-policy-of-using-early-access-to-quickly-validate-a-games-potential",
-    "source": "GamesIndustry.biz",
-    "pub_date": "2026-03-30",
-    "category": "PLATFORM_PUBLISHING",
-    "summary_ko": [
-      "크래프톤이 출시 2개월 만에 PUBG 스핀오프 게임인 'PUBG 블라인드스팟'의 서비스를 종료했습니다.",
-      "이번 결정은 얼리 액세스를 통해 게임의 시장성을 빠르게 검증하고 리소스를 효율적으로 배분하겠다는 경영 전략에 따른 것입니다.",
-      "전체 매출은 사상 최대치를 기록하고 있으나, 선택과 집중을 통해 신작 개발 리스크를 관리하려는 기업 정책이 반영되었습니다."
-    ],
-    "event": {
-      "jurisdiction": "Global",
-      "event_type": "business",
-      "regulatory_phase": "enacted",
-      "actors": [
-        "Krafton"
-      ],
-      "object": "PUBG Blindspot",
-      "action": "server shutdown",
-      "game_mechanic": "Early Access",
-      "time_hint": "two months after release"
-    },
-    "event_key": "834a4b25af1ffb51",
-    "is_primary": true
-  },
-  {
-    "title": "Unity sees growth in engine revenue, shuts down IronSource ad network in favour of Vector AI user-acquisition platform",
-    "url": "https://www.gamesindustry.biz/unity-sees-growth-in-engine-revenue-shuts-down-ironsource-ad-network-in-favour-of-vector-ai-user-acquisition-platform",
-    "source": "GamesIndustry.biz",
-    "pub_date": "2026-03-30",
-    "category": "MA_CORP_ANTITRUST",
-    "summary_ko": [
-      "유니티가 사업 단순화와 핵심 역량 강화를 위해 아이언소스(IronSource) 광고 네트워크를 종료합니다.",
-      "기존 모바일 게임 퍼블리싱 사업부인 슈퍼소닉(Supersonic)을 매각하고 AI 기반의 광고 플랫폼 '벡터(Vector)'에 집중할 계획입니다.",
-      "이번 구조 개편을 통해 유니티는 엔진 사업의 매출 성장에 주력하며 수익 구조를 개선할 방침입니다."
-    ],
-    "event": {
-      "jurisdiction": "Global",
-      "event_type": "business",
-      "regulatory_phase": "enacted",
-      "actors": [
-        "Unity Technologies"
-      ],
-      "object": "['IronSource', 'Supersonic']",
-      "action": "['divestment', 'business restructuring']",
-      "game_mechanic": null,
-      "time_hint": "Q1 2026"
-    },
-    "event_key": "35f3cd72c5cdfa11",
-    "is_primary": true
-  },
-  {
-    "title": "It turns out Fortnite isn't the forever game after all | Opinion",
-    "url": "https://www.gamesindustry.biz/it-turns-out-fortnite-isnt-the-forever-game-after-all-opinion",
-    "source": "GamesIndustry.biz",
-    "pub_date": "2026-03-27",
+    "pub_date": "2026-03-31",
     "category": "LABOR_EMPLOYMENT",
     "summary_ko": [
-      "게임 업계 내 지속적인 대규모 정리해고가 일상화되면서 업계의 불안정성이 심화되고 있습니다.",
-      "포트나이트조차 '영원한 게임'이 될 수 없다는 사실이 드러나며 라이브 서비스 모델의 한계가 제기되었습니다.",
-      "이번 사례는 게임사들이 변화하는 시장 환경 속에서 지속 가능한 성장 동력을 찾는 데 어려움을 겪고 있음을 시사합니다."
+      "엠브레이서 그룹 산하의 에이도스 몬트리올이 경영 효율화를 위해 124명의 직원을 해고했습니다.",
+      "19년간 스튜디오를 이끌어온 데이비드 안포시 대표 또한 이번 개편 과정에서 사임했습니다.",
+      "글로벌 게임 업계의 지속적인 구조조정 기조가 대형 스튜디오까지 영향을 미치고 있는 것으로 분석됩니다."
     ],
     "event": {
       "jurisdiction": "Global",
       "event_type": "business",
-      "regulatory_phase": "proposed",
+      "regulatory_phase": "enacted",
       "actors": [
-        "Game industry companies"
+        "Eidos-Montréal",
+        "Embracer Group",
+        "David Anfossi"
       ],
       "object": "workforce",
       "action": "layoffs",
       "game_mechanic": null,
-      "time_hint": "ongoing"
+      "time_hint": "2024"
     },
-    "event_key": "5c02a0fed657cfc0",
+    "event_key": "964de09d0951dac5",
     "is_primary": true
   },
   {
-    "title": "Sony announces global price rises for PS5 consoles from April 2, 2026",
-    "url": "https://www.gamesindustry.biz/sony-announces-global-price-rises-for-ps5-consoles-from-april-2-2026",
+    "title": "The list of people hit by recent Epic layoffs has been turned into a dedicated portal for recruiters",
+    "url": "https://www.gamesindustry.biz/the-list-of-people-hit-by-recent-epic-layoffs-has-been-turned-into-a-dedicated-portal-for-recruiters",
     "source": "GamesIndustry.biz",
-    "pub_date": "2026-03-27",
-    "category": "CONSUMER_MONETIZATION",
+    "pub_date": "2026-03-30",
+    "category": "LABOR_EMPLOYMENT",
     "summary_ko": [
-      "소니가 지속되는 글로벌 경제 상황의 압박을 이유로 2026년 4월 2일부터 PS5 콘솔의 글로벌 가격 인상을 발표했습니다.",
-      "이번 조치는 생산 및 유통 비용 상승 등 거시경제적 불확실성이 게임 하드웨어 시장에 미치는 영향을 반영한 것으로 분석됩니다.",
-      "전 세계적인 가격 조정에 따라 향후 주요 시장의 소비자 구매 비용 부담이 가중될 것으로 전망됩니다."
+      "에픽게임즈의 대규모 구조조정으로 1,000명 이상의 직원이 해고된 가운데, 퇴사자를 돕기 위한 전용 채용 정보 포털이 개설되었습니다.",
+      "기존 구글 스프레드시트 형태였던 명단이 검색 가능한 데이터베이스 사이트로 전환되어 인사 담당자들의 접근성을 높였습니다.",
+      "현재 해당 플랫폼에는 해고된 인력 중 약 320명의 정보가 등록되어 이들의 재취업을 지원하고 있습니다."
     ],
     "event": {
       "jurisdiction": "Global",
       "event_type": "business",
       "regulatory_phase": "enacted",
       "actors": [
-        "Sony"
+        "Epic Games",
+        "Recruiters",
+        "Laid-off employees"
       ],
-      "object": "PlayStation 5 console",
-      "action": "price increase",
+      "object": "Employment status database",
+      "action": "Creation of a searchable talent portal",
       "game_mechanic": null,
-      "time_hint": "April 2, 2026"
+      "time_hint": "Recent"
     },
-    "event_key": "717a103e59458385",
+    "event_key": "8b2a1ef7fea8c2f2",
     "is_primary": true
   },
   {
-    "title": "Meta reportedly lays off around 700 workers, Reality Labs division affected",
-    "url": "https://www.gamesindustry.biz/meta-reportedly-lays-off-around-700-workers-reality-labs-division-affected",
+    "title": "Why Microsoft's PC-focused Project Helix could offer a level playing field for indies | Opinion",
+    "url": "https://www.gamesindustry.biz/why-microsofts-pc-focused-project-helix-could-offer-a-level-playing-field-for-indies-opinion",
     "source": "GamesIndustry.biz",
-    "pub_date": "2026-03-27",
-    "category": "LABOR_EMPLOYMENT",
+    "pub_date": "2026-03-26",
+    "category": "PLATFORM_PUBLISHING",
     "summary_ko": [
-      "메타(Meta)가 리얼리티 랩스(Reality Labs) 부문을 포함해 약 700명의 직원을 추가로 해고했습니다.",
-      "이번 감원은 메타의 메타버스 및 VR 게임 사업 전략 수정과 비용 절감 노력의 일환으로 풀이됩니다.",
-      "빅테크 기업들의 인력 구조조정이 이어지면서 게임 및 실감형 콘텐츠 산업 전반의 투자 위축 우려가 커지고 있습니다."
+      "마이크로소프트의 '프로젝트 헬릭스(Project Helix)'는 PC 플랫폼을 중심으로 인디 개발자들에게 보다 공정한 경쟁 환경을 제공할 것으로 기대됩니다.",
+      "이 프로젝트는 접근성을 높여 중소 규모 개발사가 대형 게임들과 동등한 위치에서 시장에 진입할 수 있는 기술적 기반을 마련하는 데 초점을 맞추고 있습니다.",
+      "결과적으로 특정 플랫폼의 폐쇄성을 극복하고 개발 생태계의 다양성을 확보하는 데 긍정적인 규제 및 산업적 영향을 미칠 것으로 분석됩니다."
     ],
     "event": {
-      "jurisdiction": "US",
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Microsoft"
+      ],
+      "object": "Project Helix",
+      "action": "strategic platform development for PC",
+      "game_mechanic": null,
+      "time_hint": "None"
+    },
+    "event_key": "cec0e988328dcd8a",
+    "is_primary": true
+  },
+  {
+    "title": "Ziff Davis announces new IGN France partnership, as part of international licencing expansion",
+    "url": "https://www.gamesindustry.biz/ziff-davis-announces-new-ign-france-partnership-as-part-of-international-licencing-expansion",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-03-26",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "IGN의 모회사인 Ziff Davis가 유럽 미디어 그룹 eMense와 파트너십을 체결하고 IGN 프랑스를 운영하기로 했습니다.",
+      "이번 협약은 IGN의 글로벌 라이선스 확장 전략의 일환으로 추진되었습니다.",
+      "eMense는 기존에도 베네룩스, 북유럽, 독일 지역에서 IGN 라이선스 사업을 운영해 온 바 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Ziff Davis",
+        "IGN Entertainment",
+        "eMense"
+      ],
+      "object": "IGN France publishing rights",
+      "action": "licensing agreement",
+      "game_mechanic": null,
+      "time_hint": "current"
+    },
+    "event_key": "405c89441c18649d",
+    "is_primary": true
+  },
+  {
+    "title": "Meta Quest usage reaches \"all-time high\" in 2025 despite studio closures and layoffs",
+    "url": "https://www.gamesindustry.biz/meta-quest-usage-reaches-all-time-high-in-2025-despite-studio-closures-and-layoffs",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-03-26",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "메타 퀘스트의 2025년 사용자 이용률이 역대 최고치를 기록했습니다.",
+      "스튜디오 폐쇄와 대규모 정리 해고에도 불구하고 100개 이상의 게임이 100만 달러 이상의 매출을 달성했습니다.",
+      "VR 플랫폼 내 콘텐츠 수익성이 강화되며 시장 내 하드웨어 점유율과 생태계가 성장세를 보이고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
       "event_type": "business",
       "regulatory_phase": "enacted",
       "actors": [
         "Meta"
       ],
-      "object": "employees",
-      "action": "layoffs",
-      "game_mechanic": null,
-      "time_hint": "recent"
-    },
-    "event_key": "b8ba908b434486d7",
-    "is_primary": true
-  },
-  {
-    "title": "German games market rose 4% in 2025 to €9.4bn, driven by hardware sales",
-    "url": "https://www.gamesindustry.biz/german-games-market-rose-4-in-2025-to-94bn-driven-by-hardware-sales",
-    "source": "GamesIndustry.biz",
-    "pub_date": "2026-03-27",
-    "category": "ETC",
-    "summary_ko": [
-      "2025년 독일 게임 시장 규모는 전년 대비 4% 성장한 94억 유로를 기록했습니다.",
-      "이번 성장은 닌텐도 스위치 2 등 콘솔 하드웨어 판매 증가가 핵심 동력으로 작용했습니다.",
-      "게임 시장의 하드웨어 중심 성장이 매출 확대와 시장 활성화를 견인하고 있습니다."
-    ],
-    "event": {
-      "jurisdiction": "EU",
-      "event_type": "business",
-      "regulatory_phase": "proposed",
-      "actors": [
-        "Nintendo"
-      ],
-      "object": "German games market",
-      "action": "market growth",
+      "object": "['Meta Quest', 'Internal studios']",
+      "action": "['studio closures', 'layoffs', 'revenue generation']",
       "game_mechanic": null,
       "time_hint": "2025"
     },
-    "event_key": "5f793041ebd2f4e2",
+    "event_key": "a007f06868fedd86",
+    "is_primary": true
+  },
+  {
+    "title": "Nintendo Switch 2 digital games to cost less than physical versions in US",
+    "url": "https://www.gamesindustry.biz/nintendo-switch-2-digital-games-to-cost-less-than-physical-versions-in-us",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-03-26",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "닌텐도가 차세대기 닌텐도 스위치 2의 미국 내 게임 가격 정책을 발표했습니다.",
+      "디지털 다운로드 버전의 가격이 패키지 실물 버전보다 저렴하게 책정될 예정입니다.",
+      "이번 조치는 게임 유통 환경 변화에 따른 디지털 판매 비중 확대를 겨냥한 것으로 풀이됩니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Nintendo"
+      ],
+      "object": "digital and physical game pricing",
+      "action": "price adjustment",
+      "game_mechanic": "none",
+      "time_hint": "future product launch"
+    },
+    "event_key": "19550f15fee5acd0",
+    "is_primary": true
+  },
+  {
+    "title": "Reforged Studios acquires Super Meat Boy 3D publisher Headup Games",
+    "url": "https://www.gamesindustry.biz/reforged-studios-acquires-super-meat-boy-3d-publisher-headup-games",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-03-25",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "Reforged Studios가 '슈퍼 미트 보이 3D'의 퍼블리셔인 Headup Games를 인수했습니다.",
+      "이번 인수를 통해 Reforged Studios는 게임 배급 역량 강화 및 포트폴리오 확장을 도모할 예정입니다.",
+      "글로벌 게임 시장 내 중소 규모 퍼블리셔 간의 인수 합병이 지속적으로 이루어지고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Reforged Studios",
+        "Headup Games"
+      ],
+      "object": "Headup Games",
+      "action": "acquisition",
+      "game_mechanic": null,
+      "time_hint": "current"
+    },
+    "event_key": "1895fefb6c40fb88",
+    "is_primary": true
+  },
+  {
+    "title": "\"They wouldn't look at any game that was less than £50 million\" Why Tencent's all-in strategy didn't suit Bulkhead",
+    "url": "https://www.gamesindustry.biz/they-wouldnt-look-at-any-game-that-was-less-than-50-million-why-tencents-all-in-strategy-didnt-suit-bulkhead",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-03-25",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "텐센트는 벌크헤드 스튜디오에 대규모 투자를 단행했으나, 5천만 파운드 이상의 대형 프로젝트만을 선호하는 경직된 전략을 고수했습니다.",
+      "벌크헤드 측은 이러한 과도한 자본 투입이 인디 게임 개발의 자율성과 규모에 맞지 않아 결국 협력 관계가 실패했다고 밝혔습니다.",
+      "이번 사례는 대형 자본의 무조건적인 투자가 중소규모 개발사의 창의성과 운영 효율성을 저해할 수 있음을 보여주는 사례로 평가됩니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Tencent",
+        "Bulkhead"
+      ],
+      "object": "investment strategy",
+      "action": "capital allocation analysis",
+      "game_mechanic": null,
+      "time_hint": "past"
+    },
+    "event_key": "7dd6fc221c6482ad",
     "is_primary": true
   }
 ]
