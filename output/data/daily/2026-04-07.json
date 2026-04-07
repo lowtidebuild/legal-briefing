@@ -1,144 +1,275 @@
 [
   {
-    "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
-    "url": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
+    "title": "Reddit posts can be more important than data, and other lessons from maintaining Candy Crush as a forever game",
+    "url": "https://www.gamesindustry.biz/reddit-posts-can-be-more-important-than-data-and-other-lessons-from-maintaining-candy-crush-as-a-forever-game",
     "source": "GamesIndustry.biz",
-    "pub_date": "2026-04-02",
-    "category": "IP",
+    "pub_date": "2026-04-03",
+    "category": "CONSUMER_MONETIZATION",
     "summary_ko": [
-      "미국 특허청(USPTO)이 게임 내에서 서브 캐릭터를 소환해 전투를 돕게 하는 닌텐도(Nintendo)의 기술 특허를 최종 거절했다.",
-      "해당 특허는 캐릭터가 보조 캐릭터를 호출하여 공격하거나 방어하는 메커니즘을 포함하고 있었으나, 특허로서의 신규성이나 독창성을 인정받지 못한 것으로 보인다.",
-      "이번 결정으로 인해 관련 게임 메커니즘에 대한 닌텐도(Nintendo)의 독점적 권리 행사가 어려워질 전망이다."
+      "2012년 출시된 킹(King)의 캔디 크러쉬 사가(Candy Crush Saga)는 2023년 9월 기준 누적 매출 200억 달러를 돌파하며 역사상 가장 성공적인 퍼즐 게임으로 자리 잡았습니다.",
+      "킹(King)은 라이브 서비스 운영 과정에서 단순한 수치 데이터를 넘어, 레딧(Reddit) 등 커뮤니티의 이용자 목소리를 경청하는 것이 게임 유지에 결정적인 역할을 한다고 강조했습니다.",
+      "이번 사례는 장기 흥행 게임(Forever game)을 운영함에 있어 이용자 피드백 중심의 커뮤니티 관리 전략이 데이터 분석만큼 중요함을 시사합니다."
     ],
     "event": {
-      "jurisdiction": "US",
-      "event_type": "enforcement",
-      "regulatory_phase": "enacted",
-      "actors": [
-        "USPTO",
-        "Nintendo"
-      ],
-      "object": "patent application for summon subcharacter combat mechanic",
-      "action": "rejection of patent application",
-      "game_mechanic": "summoning/combat",
-      "time_hint": "2025"
-    },
-    "event_key": "us_ip_patent_rejection_2025",
-    "is_primary": true,
-    "title_ko": "미국 특허청(USPTO), 닌텐도(Nintendo)의 '서브 캐릭터 소환 전투' 특허 거절"
-  },
-  {
-    "title": "Stellar Blade developer Shift Up acquires Shinji Mikami's new studio",
-    "url": "https://www.gamesindustry.biz/stellar-blade-developer-shift-up-acquires-shinji-mikamis-new-studio",
-    "source": "GamesIndustry.biz",
-    "pub_date": "2026-04-01",
-    "category": "MA_CORP_ANTITRUST",
-    "summary_ko": [
-      "스텔라 블레이드(Stellar Blade)의 개발사인 시프트업(Shift Up)이 게임 업계 거장 미카미 신지(Shinji Mikami)가 설립한 언바운드(Unbound)를 인수했습니다.",
-      "이번 인수를 통해 시프트업(Shift Up)은 미카미 신지(Shinji Mikami)의 개발 노하우를 확보하며 글로벌 개발 역량을 강화할 것으로 전망됩니다.",
-      "언바운드(Unbound)는 바이오하자드(Resident Evil) 시리즈로 유명한 미카미 신지(Shinji Mikami)가 독립 후 새로 설립한 스튜디오입니다."
-    ],
-    "event": {
-      "jurisdiction": "KR",
+      "jurisdiction": "Global",
       "event_type": "business",
-      "regulatory_phase": "enacted",
+      "regulatory_phase": "enforced",
       "actors": [
-        "Shift Up",
-        "Unbound"
+        "King"
       ],
-      "object": "Unbound studio acquisition",
-      "action": "acquisition",
-      "game_mechanic": null,
-      "time_hint": "2024"
+      "object": "Candy Crush Saga",
+      "action": "long_term_monetization_strategy",
+      "game_mechanic": "tile-matching",
+      "time_hint": "2012-2023"
     },
-    "event_key": "kr_ma_shiftup_unbound_acquisition_2024",
+    "event_key": "global_live_service_monetization_report_2023",
     "is_primary": true,
-    "title_ko": "스텔라 블레이드 개발사 시프트업(Shift Up), 미카미 신지가 설립한 신생 스튜디오 인수"
+    "title_ko": "레딧(Reddit) 게시물이 데이터보다 중요할 수 있다: 캔디 크러쉬 사가(Candy Crush Saga)를 '포에버 게임'으로 유지하기 위한 교훈"
   },
   {
-    "title": "Build a Rocket Boy CEO responds to end of publishing agreement with IOI Partners",
-    "url": "https://www.gamesindustry.biz/build-a-rocket-boy-ceo-responds-to-end-of-publishing-agreement-with-ioi-partners",
+    "title": "VR platform Rec Room to shut down in June 2026",
+    "url": "https://www.gamesindustry.biz/vr-platform-rec-room-to-shut-down-in-june-2026",
     "source": "GamesIndustry.biz",
     "pub_date": "2026-04-01",
     "category": "PLATFORM_PUBLISHING",
     "summary_ko": [
-      "빌드 어 로켓 보이(Build a Rocket Boy)의 CEO 마크 거하드(Mark Gerhard)가 아이오아이 파트너스(IOI Partners)와의 퍼블리싱 계약 종료를 공식화했습니다.",
-      "이번 결정으로 개발 중인 '마인즈 아이(MindsEye)'의 퍼블리싱 전략에 변화가 생길 전망입니다.",
-      "CEO 마크 거하드(Mark Gerhard)는 독립 스튜디오로서 독자적인 운영과 향후 프로젝트의 통제권을 확보하는 것을 선호한다고 밝혔습니다."
+      "소셜 VR 게임 플랫폼인 렉 룸(Rec Room)이 2026년 6월 1일부로 서비스를 완전히 종료한다고 발표했습니다.",
+      "이번 결정은 플랫폼 운영 효율화 및 사업 전략 재편의 일환으로 풀이됩니다.",
+      "해당 플랫폼은 그동안 사용자들이 직접 게임을 제작하고 소통하는 메타버스 환경을 제공해왔으나 공식적인 운영을 멈추게 되었습니다."
     ],
     "event": {
       "jurisdiction": "Global",
       "event_type": "business",
       "regulatory_phase": "enacted",
       "actors": [
-        "Build a Rocket Boy",
-        "IOI Partners"
+        "Rec Room"
       ],
-      "object": "publishing agreement",
-      "action": "termination",
+      "object": "VR platform",
+      "action": "shutdown",
       "game_mechanic": null,
-      "time_hint": "2024"
+      "time_hint": "June 2026"
     },
-    "event_key": "global_publishing_agreement_termination_2024",
+    "event_key": "global_recroom_shutdown_2026",
     "is_primary": true,
-    "title_ko": "빌드 어 로켓 보이(Build a Rocket Boy) CEO, 아이오아이 파트너스(IOI Partners)와의 퍼블리싱 계약 종료에 입장 밝혀"
+    "title_ko": "VR 플랫폼 렉 룸(Rec Room), 2026년 6월 서비스 종료"
   },
   {
-    "title": "Eidos-Montréal announces 124 job cuts; studio head David Anfossi departs after 19 years at developer",
-    "url": "https://www.gamesindustry.biz/eidos-montreal-announces-124-job-cuts-studio-head-david-anfossi-departs-after-19-years-at-developer",
-    "source": "GamesIndustry.biz",
-    "pub_date": "2026-03-31",
-    "category": "LABOR_EMPLOYMENT",
+    "title": "Inside King’s London headquarters: \"We have people in the London studio working on all of our titles\"",
+    "url": "https://www.pocketgamer.biz/inside-kings-london-headquarters-we-have-people-in-the-london-studio-working-on-all-of-our-titles/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-04-02",
+    "category": "ETC",
     "summary_ko": [
-      "마블 가디언즈 오브 갤럭시(Marvel's Guardians of the Galaxy) 개발사 에이도스 몬트리올(Eidos-Montréal)이 전체 인력의 일부인 124명을 감축한다고 발표했습니다.",
-      "19년간 재직하며 스튜디오를 이끌어온 데이비드 안포시(David Anfossi) 대표 역시 이번 구조조정과 함께 사임했습니다.",
-      "이번 조치는 모기업인 엠브레이서 그룹(Embracer Group)의 지속적인 경영 효율화 전략의 일환으로 풀이됩니다."
+      "캔디크러쉬(Candy Crush) 개발사 킹(King)은 20년 이상의 업력을 바탕으로 페이스북 게임에서 모바일 히트작 중심의 기업으로 성장했습니다.",
+      "스웨덴 스톡홀름에 본사를 둔 킹(King)은 베를린, 바르셀로나에 이어 14년 전 런던에 오피스를 개설하며 글로벌 거점을 확장했습니다.",
+      "현재 런던 스튜디오는 스톡홀름과 함께 공동 본부 역할을 수행하며, 킹(King)의 모든 게임 타이틀 개발을 위한 핵심 인력들이 상주하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "UK",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "King"
+      ],
+      "object": "corporate structure",
+      "action": "operational expansion",
+      "game_mechanic": null,
+      "time_hint": "14 years ago to present"
+    },
+    "event_key": "uk_king_corporate_structure_historical",
+    "is_primary": true,
+    "title_ko": "킹(King)의 런던 본부 내부: \"런던 스튜디오에서 모든 타이틀 개발을 진행 중\""
+  },
+  {
+    "title": "Closed beta for HoYoverse’s Petit Planet will feature new neighbours and enhanced Starsea Voyages",
+    "url": "https://www.pocketgamer.biz/closed-beta-for-hoyoverses-petit-planet-will-feature-new-neighbours-and-enhanced-starsea-voyages/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-04-02",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "호요버스(HoYoverse)가 개발 중인 생활 시뮬레이션 게임 '쁘띠 플래닛(Petit Planet)'이 오는 2026년 4월 21일부터 차기 클로즈 베타 테스트를 실시합니다.",
+      "'스타드리프트 테스트(Stardrift Test)'로 명명된 이번 베타에서는 신규 캐릭터들을 만나고 '갤럭시 바자(Galactic Bazaar)'에서의 다양한 활동을 체험할 수 있습니다.",
+      "이번 테스트를 통해 기존 콘텐츠를 개선한 '스타씨 보이즈(Starsea Voyages)' 모험 경험이 새롭게 선보일 예정입니다."
     ],
     "event": {
       "jurisdiction": "Global",
       "event_type": "business",
       "regulatory_phase": "enacted",
       "actors": [
-        "Eidos-Montréal",
-        "Embracer Group",
-        "David Anfossi"
+        "HoYoverse"
       ],
-      "object": "workforce",
-      "action": "layoffs",
-      "game_mechanic": null,
-      "time_hint": "2024-01"
+      "object": "Petit Planet",
+      "action": "closed_beta_testing",
+      "game_mechanic": "life_simulation",
+      "time_hint": "2026-04-21"
     },
-    "event_key": "global_eidos_layoffs_2024",
+    "event_key": "global_game_beta_launch_2026q2",
     "is_primary": true,
-    "title_ko": "에이도스 몬트리올(Eidos-Montréal), 124명 인력 감축 및 스튜디오 대표 데이비드 안포시(David Anfossi) 퇴사"
+    "title_ko": "호요버스(HoYoverse)의 '쁘띠 플래닛(Petit Planet)', 클로즈 베타 테스트에서 신규 캐릭터 및 강화된 콘텐츠 공개"
   },
   {
-    "title": "Ninth Circuit denies Apple rehearing request in Epic Games App Store dispute",
-    "url": "https://www.pocketgamer.biz/ninth-circuit-denies-apple-rehearing-request-in-epic-games-app-store-dispute/",
+    "title": "Sonic Rumble rebranded to Sonic Rumble Party as it adds new features and removes game modes",
+    "url": "https://www.pocketgamer.biz/sonic-rumble-rebranded-to-sonic-rumble-party-as-it-adds-new-features-and-removes-game-modes/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-04-02",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "세가(Sega)는 모바일 파티 로얄 게임 소닉 럼블(Sonic Rumble)의 버전 1.5 업데이트를 통해 게임명을 소닉 럼블 파티(Sonic Rumble Party)로 변경했다.",
+      "이번 업데이트는 지난해 11월 글로벌 출시 이후 수집된 이용자 피드백을 반영하여 캐주얼 게임성을 강화하는 데 초점을 맞췄다.",
+      "게임은 새로운 기능 추가와 함께 일부 기존 게임 모드를 제거하는 등 대대적인 개편을 단행했다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Sega"
+      ],
+      "object": "Sonic Rumble",
+      "action": "rebranding and feature update",
+      "game_mechanic": "party royale",
+      "time_hint": "March 2025"
+    },
+    "event_key": "global_sonic_rumble_rebrand_2025q1",
+    "is_primary": true,
+    "title_ko": "세가(Sega)의 소닉 럼블(Sonic Rumble), 기능 추가 및 모드 개편과 함께 소닉 럼블 파티(Sonic Rumble Party)로 리브랜딩"
+  },
+  {
+    "title": "February 2026 mobile game charts: Have the top risers over the past few years all peaked?",
+    "url": "https://www.pocketgamer.biz/february-2026-mobile-game-charts-have-mobiles-fast-risers-peaked/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-03-31",
+    "category": "ETC",
+    "summary_ko": [
+      "앱매직(AppMagic) 데이터를 기반으로 2026년 2월 전 세계 모바일 게임의 다운로드 및 매출 순위가 발표되었습니다.",
+      "포켓게이머(PocketGamer.biz)는 상위 퍼블리셔의 동향을 분석하며 최근 급부상했던 게임들의 성장세가 정점에 도달했는지에 주목했습니다.",
+      "업계 관계자들은 이번 데이터를 통해 모바일 게임 시장의 트렌드를 파악하고, 다가오는 포켓게이머 커넥츠(Pocket Gamer Connects) 행사에서 논의를 이어갈 예정입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "AppMagic",
+        "PocketGamer.biz"
+      ],
+      "object": "mobile game market performance data",
+      "action": "market analysis",
+      "game_mechanic": null,
+      "time_hint": "February 2026"
+    },
+    "event_key": "global_market_analysis_trends_2026q1",
+    "is_primary": true,
+    "title_ko": "2026년 2월 모바일 게임 차트: 최근 몇 년간 급성장한 게임들은 정점에 도달했는가?"
+  },
+  {
+    "title": "Fire Emblem Shadows earns just $578,000 in first six months, less than 1% of Fire Emblem Heroes",
+    "url": "https://www.pocketgamer.biz/fire-emblem-shadows-earns-just-578000-in-first-six-months/",
     "source": "PocketGamer.biz",
     "pub_date": "2026-03-31",
     "category": "PLATFORM_PUBLISHING",
     "summary_ko": [
-      "미국 제9연방항소법원은 애플(Apple)이 제기한 에픽게임즈(Epic Games)와의 앱스토어 소송에 대한 재심리 요청을 만장일치로 기각했습니다.",
-      "이번 결정은 애플(Apple)이 앱 내 외부 결제 방식 허용을 지시한 하급심 판결에 불복해 항소한 건에 대해 내려졌습니다.",
-      "이에 따라 개발자들이 앱스토어 외부의 대체 결제 수단으로 사용자를 유도하는 것을 허용해야 한다는 원심 판결이 유지될 전망입니다."
+      "닌텐도(Nintendo)가 6년 만에 출시한 신작 모바일 게임 파이어 엠블렘 섀도우스(Fire Emblem Shadows)가 출시 후 6개월간 57만 8천 달러의 저조한 매출을 기록했습니다.",
+      "해당 게임은 2025년 9월 25일 iOS 및 안드로이드(Android) 플랫폼을 통해 기습 출시되었으나 기대 이하의 성과를 보였습니다.",
+      "이는 기존 모바일 히트작인 파이어 엠블렘 히어로즈(Fire Emblem Heroes) 매출의 1%에도 미치지 못하는 수치로, 닌텐도(Nintendo)의 모바일 시장 전략에 의문이 제기되고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Nintendo"
+      ],
+      "object": "Fire Emblem Shadows",
+      "action": "mobile_game_revenue_reporting",
+      "game_mechanic": null,
+      "time_hint": "first six months since September 2025"
+    },
+    "event_key": "global_mobile_revenue_reporting_2025q3",
+    "is_primary": true,
+    "title_ko": "파이어 엠블렘 섀도우스(Fire Emblem Shadows), 출시 6개월간 매출 57만 8천 달러로 파이어 엠블렘 히어로즈(Fire Emblem Heroes)의 1% 미만 기록"
+  },
+  {
+    "title": "Pixelberry Studios reportedly lays off staff in another round of workforce reductions",
+    "url": "https://www.pocketgamer.biz/pixelberry-studios-reportedly-lays-off-staff-in-another-round-of-workforce-reductions/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-03-31",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "시리즈 엔터테인먼트(Series Entertainment) 소유의 개발사 픽셀베리 스튜디오(Pixelberry Studios)가 비공개 규모의 인력 감축을 진행했습니다.",
+      "게임 디벨로퍼(Game Developer) 보도에 따르면, 다수의 전·현직 직원이 링크드인(LinkedIn)을 통해 퇴사 소식을 확인했습니다.",
+      "이번 감축으로 8년 이상 근무한 베테랑 작가를 포함한 여러 직원이 회사를 떠나게 되었습니다."
     ],
     "event": {
       "jurisdiction": "US",
-      "event_type": "litigation",
-      "regulatory_phase": "litigation",
+      "event_type": "business",
+      "regulatory_phase": "enforced",
       "actors": [
-        "Apple",
-        "Epic Games",
-        "Ninth Circuit Court of Appeals"
+        "Pixelberry Studios",
+        "Series Entertainment"
       ],
-      "object": "App Store payment policies",
-      "action": "denial of rehearing request",
-      "game_mechanic": "in-app purchasing",
+      "object": "workforce",
+      "action": "layoffs",
+      "game_mechanic": null,
       "time_hint": "2024"
     },
-    "event_key": "us_appstore_payment_antitrust_litigation_2024",
+    "event_key": "us_pixelberry_studios_layoffs_2024",
     "is_primary": true,
-    "title_ko": "미 제9연방항소법원, 애플(Apple)의 에픽게임즈(Epic Games) 앱스토어 소송 재심리 요청 기각"
+    "title_ko": "픽셀베리 스튜디오(Pixelberry Studios), 또 한 차례 인력 감축 단행"
+  },
+  {
+    "title": "Bethesda to shut down The Elder Scrolls: Blades servers in June",
+    "url": "https://www.pocketgamer.biz/bethesda-to-shut-down-the-elder-scrolls-blades-servers-in-june/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-03-31",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "베데스다(Bethesda)가 자사의 모바일 및 콘솔 게임 '엘더스크롤: 블레이드(The Elder Scrolls: Blades)'의 서비스를 2026년 6월 30일에 종료한다고 발표했습니다.",
+      "이번 조치로 안드로이드(Android), iOS, 닌텐도 스위치(Nintendo Switch) 등 모든 플랫폼에서 해당 게임의 서버가 영구적으로 폐쇄될 예정입니다.",
+      "닌텐도 e숍(Nintendo eShop)을 통해 서비스 중단 소식이 확인되었으며, 향후 해당 타이틀에 대한 모든 온라인 지원이 중단될 계획입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Bethesda"
+      ],
+      "object": "The Elder Scrolls: Blades",
+      "action": "server_shutdown",
+      "game_mechanic": "free-to-play",
+      "time_hint": "June 30th, 2026"
+    },
+    "event_key": "global_bethesda_server_shutdown_2026",
+    "is_primary": true,
+    "title_ko": "베데스다(Bethesda), '엘더스크롤: 블레이드(The Elder Scrolls: Blades)' 서버 6월 종료 예정"
+  },
+  {
+    "title": "Maxim Krippa becomes co-owner of Burny Games expanding long-term investment role",
+    "url": "https://www.pocketgamer.biz/maksym-krippa-becomes-co-owner-of-burny-games-expanding-long-term-investment-role/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-03-31",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "우크라이나 기업가 막심 크리파(Maxim Krippa)가 모바일 게임 스튜디오 버니 게임즈(Burny Games)의 공동 소유주가 되었습니다.",
+      "양측은 2022년부터 이어온 투자 관계를 한층 강화하여 전략적 파트너십을 공고히 했습니다.",
+      "이번 지분 인수를 통해 크리파(Maxim Krippa)는 버니 게임즈(Burny Games)의 초기 성장부터 관여해 온 역할을 넘어 경영권까지 확보하게 되었습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Maxim Krippa",
+        "Burny Games"
+      ],
+      "object": "equity_ownership",
+      "action": "acquisition",
+      "game_mechanic": null,
+      "time_hint": "2024"
+    },
+    "event_key": "global_ma_investment_acquisition_2024",
+    "is_primary": true,
+    "title_ko": "막심 크리파(Maxim Krippa), 버니 게임즈(Burny Games) 공동 소유주로 등극하며 투자 역할 확대"
   }
 ]

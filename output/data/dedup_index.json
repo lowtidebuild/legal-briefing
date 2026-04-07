@@ -621,6 +621,56 @@
       "event_key": "us_appstore_payment_antitrust_litigation_2024",
       "url_hash": "093b33a286ae218d",
       "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_live_service_monetization_report_2023",
+      "url_hash": "a8972dbba31bcfc8",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_recroom_shutdown_2026",
+      "url_hash": "0bbfebfaad5bcd73",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "uk_king_corporate_structure_historical",
+      "url_hash": "4659f2a8ea6040e2",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_game_beta_launch_2026q2",
+      "url_hash": "b9efab6a1b5b325f",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_sonic_rumble_rebrand_2025q1",
+      "url_hash": "8d93fdadca6e4eb1",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_market_analysis_trends_2026q1",
+      "url_hash": "534f5675c099e9bc",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_mobile_revenue_reporting_2025q3",
+      "url_hash": "9bb617e2b7724e72",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "us_pixelberry_studios_layoffs_2024",
+      "url_hash": "f32f060fdb6f466f",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_bethesda_server_shutdown_2026",
+      "url_hash": "e65440228a83cc8f",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_ma_investment_acquisition_2024",
+      "url_hash": "823273f202c7a9b4",
+      "date": "2026-04-07"
     }
   ]
 }
