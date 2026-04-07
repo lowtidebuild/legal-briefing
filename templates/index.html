@@ -25,6 +25,18 @@
     <hr class="divider">
 
     {% if nodes %}
+    {% set cat_labels = {
+      'AI_EMERGING': 'AI / 신기술',
+      'CONSUMER_MONETIZATION': '소비자 / 과금',
+      'CONTENT_AGE': '콘텐츠 / 연령등급',
+      'ESPORTS_MARKETING': 'e스포츠 / 마케팅',
+      'IP': '지식재산권',
+      'LABOR_EMPLOYMENT': '노동 / 고용',
+      'MA_CORP_ANTITRUST': 'M&A / 독점금지',
+      'PLATFORM_PUBLISHING': '플랫폼 / 유통',
+      'PRIVACY_SECURITY': '개인정보 / 보안',
+      'ETC': '기타',
+    } %}
     {% set ns = namespace(current_cat='') %}
     {% set sorted_nodes = nodes|sort(attribute='category') %}
     {% for node in sorted_nodes %}
@@ -34,7 +46,7 @@
       {% if not loop.first %}</section>{% endif %}
 
       <div class="category-divider">
-        <span class="category-label">{{ node.category.replace('_', ' / ') }}</span>
+        <span class="category-label">{{ cat_labels.get(node.category, node.category) }}</span>
         <span class="category-count">{{ sorted_nodes|selectattr('category','equalto',node.category)|list|length }}건</span>
       </div>
 

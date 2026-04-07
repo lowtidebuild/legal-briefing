@@ -26,11 +26,22 @@
 
     <div style="height:20px"></div>
 
+    {% set cat_labels = {
+      'AI_EMERGING': 'AI / 신기술',
+      'CONSUMER_MONETIZATION': '소비자 / 과금',
+      'CONTENT_AGE': '콘텐츠 / 연령등급',
+      'ESPORTS_MARKETING': 'e스포츠 / 마케팅',
+      'IP': '지식재산권',
+      'LABOR_EMPLOYMENT': '노동 / 고용',
+      'MA_CORP_ANTITRUST': 'M&A / 독점금지',
+      'PLATFORM_PUBLISHING': '플랫폼 / 유통',
+      'PRIVACY_SECURITY': '개인정보 / 보안',
+      'ETC': '기타',
+    } %}
     <article class="article-detail">
       <div class="card-meta">
-        <span class="tag tag-category">{{ node.category }}</span>
+        <span class="tag tag-category">{{ cat_labels.get(node.category, node.category) }}</span>
         <span class="tag tag-jurisdiction">{{ node.event.jurisdiction.value }}</span>
-        <span class="tag tag-phase">{{ node.event.regulatory_phase.value }}</span>
       </div>
       <h1 class="card-title">{% if node.title_ko %}{{ node.title_ko }}{% else %}{{ node.title }}{% endif %}</h1>
       {% if node.title_ko %}
