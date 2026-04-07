@@ -12,8 +12,15 @@ SELECTOR_PROMPT = """You are a legal analyst specializing in the game industry.
 From the article list below, select EXACTLY {top_n} entries most relevant to game law,
 regulation, platform rules, privacy, antitrust, consumer protection, or policy.
 
-You MUST return exactly {top_n} indices. If fewer than {top_n} are directly relevant,
-include the most related ones to fill the list.
+IMPORTANT selection criteria:
+- Prioritize legal/regulatory substance over general game news
+- Ensure SOURCE DIVERSITY: pick from different outlets (game media, law firm blogs,
+  tech policy, security press, regulatory bodies). Do NOT cluster from one source.
+- Law firm articles (Cooley, DLA Piper, Norton Rose, etc.) and regulatory body
+  announcements (FTC, EDPB, etc.) are HIGH VALUE even if they seem niche.
+- Security/privacy incidents affecting game companies are relevant.
+
+You MUST return exactly {top_n} indices.
 
 Articles:
 {articles_text}

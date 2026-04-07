@@ -61,4 +61,4 @@ def test_respects_max_input_chars():
     assert len(result) == 5
     # Verify the prompt was truncated (not all 100 articles included)
     call_args = llm.generate_json.call_args[0][0]
-    assert len(call_args) < 1000
+    assert "[99]" not in call_args
