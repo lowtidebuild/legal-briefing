@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/LLM-Gemini_%2B_Claude-8B5CF6?style=for-the-badge" alt="Gemini and Claude" />
 </p>
 
-**[브리핑 수신만 하고 싶다면](#브리핑-수신)** · **[직접 운영하기](#직접-운영하기)** · **[Architecture](#architecture)** · **[Roadmap](#roadmap)**
+**[Subscribe](#subscribe)** · **[Self-Host](#self-host)** · **[Architecture](#architecture)** · **[Roadmap](#roadmap)**
 
 **Language:** [**English**](README.md) | [한국어](docs/ko/README.md)
 
@@ -21,16 +21,16 @@
 
 ## What This Does
 
-게임 산업 미디어, 테크 정책 매체, 한국 IT 언론, 글로벌 로펌 블로그 등 54개 RSS 피드에서 기사를 수집합니다. 법률/규제 관련성으로 필터링하고, 중복을 제거한 뒤, AI(Gemini)로 구조화된 메타데이터를 분류하고 한국어로 요약합니다. 정적 브리핑 사이트 + 이메일로 발행합니다.
+Collects articles from 54 RSS feeds across game industry media, tech policy outlets, Korean press, and BigLaw blogs. Filters for legal and regulatory relevance, deduplicates by URL and EventKey, classifies each article with structured metadata via AI (Gemini), summarizes in Korean, and publishes as a static briefing site with email delivery.
 
 > [!IMPORTANT]
-> 법률 자문이 아닙니다. 규제 모니터링을 위한 오픈소스 도구입니다.
+> This is not legal advice. It is an open-source tool for structured regulatory monitoring.
 
 ## Why
 
-엔터프라이즈 RegTech(CUBE, Regology, Compliance.ai)은 연 5천만~5억원 이상이고 은행/제약 대상입니다. 게임 산업 변호사가 여러 국가의 규제 변화를 추적할 수 있는 오픈소스 도구는 없었습니다.
+Enterprise RegTech (CUBE, Regology, Compliance.ai) costs $50k-$500k+/year and targets banks and pharma. No open-source tool exists for game industry lawyers tracking regulatory changes across jurisdictions.
 
-대부분의 뉴스 브리퍼는 헤드라인과 요약에서 멈춥니다. 이 프로젝트는 모든 기사에 **구조화된 법률 메타데이터**를 붙입니다:
+Most news briefers stop at headlines and summaries. This project attaches **structured legal metadata** to every article:
 
 | Field | Example |
 |-------|---------|
@@ -40,28 +40,30 @@
 | Event Key | `eu_lootbox_transparency_directive_2026` |
 | Game mechanic | Loot box, age rating, data collection |
 
-시간이 지나면 메일링 리스트가 게임 산업 규제 아카이브가 됩니다.
+Over time, this turns a mailing list into a searchable regulatory archive for the game industry.
 
 ---
 
-## 브리핑 수신
+## Subscribe
 
-**직접 운영할 필요 없이 브리핑만 받고 싶다면:**
+**Just want to receive the briefing? You don't need to set up anything.**
 
-현재 월/수/금 오전 10시(KST)에 게임 산업 규제 브리핑을 이메일로 발송하고 있습니다. 수신을 원하시면 작성자에게 이메일 주소를 알려주세요.
+The briefing is sent via email every Mon/Wed/Fri at 10:00 AM KST. Currently available in **Korean only** (English is on the roadmap).
+
+To subscribe, contact the maintainer and share your email address:
 
 - GitHub: [@lowtidebuild](https://github.com/lowtidebuild)
-- 웹 아카이브: [lowtidebuild.github.io/game-legal-briefing](https://lowtidebuild.github.io/game-legal-briefing/)
+- Web archive: [lowtidebuild.github.io/game-legal-briefing](https://lowtidebuild.github.io/game-legal-briefing/)
 
-수신자 목록에 추가해드리면 다음 발송 시점부터 브리핑이 도착합니다. 비용은 없습니다.
+You'll start receiving briefings from the next scheduled delivery. No cost.
 
 ---
 
-## 직접 운영하기
+## Self-Host
 
-이 프로젝트를 fork해서 자체 브리핑 파이프라인을 운영하고 싶다면 아래 단계를 따라주세요.
+Want to fork this project and run your own briefing pipeline? Follow the steps below.
 
-### 1단계: 설치
+### 1. Install
 
 ```bash
 git clone https://github.com/lowtidebuild/game-legal-briefing.git
@@ -71,77 +73,77 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 2단계: 샘플 브리핑으로 테스트
+### 2. Try with sample data first
 
-API 키 없이 먼저 돌려볼 수 있습니다:
+No API keys needed:
 
 ```bash
 python main.py --dry-run --sample-data
 open output/index.html
 ```
 
-### 3단계: API 키 설정
+### 3. Set up API keys
 
 ```bash
 cp .env.example .env
 ```
 
-`.env` 파일을 열고 필요한 값을 채웁니다:
+Edit `.env` and fill in the values:
 
-| 변수 | 용도 | 필수 |
-|------|------|------|
-| `GOOGLE_API_KEY` | Gemini API 키 ([발급](https://aistudio.google.com/apikey)) | **필수** |
-| `ANTHROPIC_API_KEY` | Claude API 키 (자동 폴백용) | 선택 |
-| `SMTP_USER` | Gmail 주소 (예: `you@gmail.com`) | 이메일 발송시 |
-| `SMTP_PASS` | Gmail 앱 비밀번호 (16자리, 공백 포함) | 이메일 발송시 |
-| `RECIPIENTS` | 수신자 이메일 (콤마 구분) | 이메일 발송시 |
-| `GOOGLE_SHEETS_CREDENTIALS` | Sheets 서비스 계정 JSON | Sheets 연동시 |
-| `GOOGLE_SHEETS_ID` | 스프레드시트 ID | Sheets 연동시 |
+| Variable | Purpose | Required |
+|----------|---------|----------|
+| `GOOGLE_API_KEY` | Gemini API key ([get one](https://aistudio.google.com/apikey)) | **Yes** |
+| `ANTHROPIC_API_KEY` | Claude API key (automatic fallback) | No |
+| `SMTP_USER` | Gmail address (e.g., `you@gmail.com`) | For email |
+| `SMTP_PASS` | Gmail app password (16 chars, keep spaces) | For email |
+| `RECIPIENTS` | Comma-separated recipient emails | For email |
+| `GOOGLE_SHEETS_CREDENTIALS` | Sheets service account JSON | For Sheets |
+| `GOOGLE_SHEETS_ID` | Spreadsheet ID | For Sheets |
 
-> **최소 `GOOGLE_API_KEY`만 있으면 파이프라인이 돌아갑니다.** 이메일과 Sheets는 미설정시 자동 스킵됩니다.
+> **Only `GOOGLE_API_KEY` is required.** Email and Sheets are skipped automatically when not configured.
 
-### 4단계: 라이브 실행
+### 4. Run
 
 ```bash
-python main.py --dry-run   # 사이트만 생성 (이메일/Sheets 스킵)
-python main.py              # 전체 실행 (이메일 + Sheets 포함)
+python main.py --dry-run   # Generate site only (skip email/Sheets)
+python main.py              # Full run (email + Sheets included)
 ```
 
-출력물:
-- `output/index.html` — 최신 브리핑
-- `output/archive/` — 날짜별 아카이브
-- `output/article/` — 개별 기사 페이지
-- `output/data/daily/*.json` — 구조화된 데이터
+Output:
+- `output/index.html` — Latest briefing
+- `output/archive/` — Date-based archive
+- `output/article/` — Article detail pages
+- `output/data/daily/*.json` — Structured data
 
-### 5단계: GitHub Actions 자동화
+### 5. Set up GitHub Actions
 
-Fork한 repo에서 자동 발송을 설정하려면:
+To automate delivery from your fork:
 
-1. **GitHub Secrets 등록:** repo Settings → Secrets and variables → Actions에서 위 환경변수를 Secret으로 등록
-2. **GitHub Pages 활성화:** repo Settings → Pages → Source를 "GitHub Actions"로 선택
-3. **자동 실행 확인:** 월/수/금 KST 10:07에 자동 실행 (수동 실행: Actions 탭 → Run workflow)
+1. **Add GitHub Secrets:** repo Settings → Secrets and variables → Actions → add each env var as a Secret
+2. **Enable GitHub Pages:** repo Settings → Pages → Source → "GitHub Actions"
+3. **Automatic schedule:** Mon/Wed/Fri at 10:07 AM KST (manual: Actions tab → Run workflow)
 
-### Google Sheets 연동 (선택)
+### Google Sheets setup (optional)
 
-Sheets는 관리자 로그 + EventKey 기반 중복 제거 DB 역할을 합니다.
+Sheets serves as an admin log and EventKey dedup authority. EventKey-based dedup prevents the same regulatory event from being sent twice, even when covered by different sources.
 
-1. [Google Cloud Console](https://console.cloud.google.com) → APIs & Services → Library → "Google Sheets API" Enable
-2. IAM & Admin → Service Accounts → 서비스 계정 생성 → Keys → JSON 다운로드
-3. 스프레드시트 생성 → 서비스 계정 이메일에 편집자 권한 공유
-4. GitHub Secrets에 `GOOGLE_SHEETS_CREDENTIALS` (JSON 내용 전체) + `GOOGLE_SHEETS_ID` (URL에서 추출) 등록
+1. [Google Cloud Console](https://console.cloud.google.com) → APIs & Services → Library → enable "Google Sheets API"
+2. IAM & Admin → Service Accounts → create account → Keys → download JSON
+3. Create a spreadsheet → share with the service account email (Editor)
+4. Add `GOOGLE_SHEETS_CREDENTIALS` (paste full JSON) and `GOOGLE_SHEETS_ID` (from spreadsheet URL) to GitHub Secrets
 
-기존 아카이브를 Sheets에 backfill하려면:
+Backfill existing archive data:
 ```bash
 GOOGLE_SHEETS_CREDENTIALS='path/to/credentials.json' \
 GOOGLE_SHEETS_ID='your-spreadsheet-id' \
 python scripts/backfill_sheets.py
 ```
 
-### Gmail 앱 비밀번호 발급
+### Gmail app password
 
-1. [Google 계정 보안](https://myaccount.google.com/security) → 2단계 인증 활성화
-2. 앱 비밀번호 생성 → 16자리 비밀번호 복사
-3. `SMTP_USER`에 Gmail 주소 전체(`you@gmail.com`), `SMTP_PASS`에 16자리 (공백 포함) 입력
+1. [Google Account Security](https://myaccount.google.com/security) → enable 2-Step Verification
+2. Generate an app password → copy the 16-character password
+3. `SMTP_USER` = your full Gmail address, `SMTP_PASS` = the 16 chars (keep spaces)
 
 ---
 
@@ -150,7 +152,7 @@ python scripts/backfill_sheets.py
 ```mermaid
 flowchart LR
     A["54 RSS feeds"] --> B["Keyword filter"]
-    B --> B2["Recency filter (7일)"]
+    B --> B2["Recency filter (7 days)"]
     B2 --> C["URL dedup"]
     C --> D["LLM selection (top 10)"]
     D --> E["Classification + EventKey"]
@@ -163,17 +165,17 @@ flowchart LR
     I --> L["GitHub Pages"]
 ```
 
-## Dedup 전략
+## Dedup Strategy
 
-3단계 중복 제거로 같은 기사/사건이 반복 발송되지 않습니다:
+Three layers prevent duplicate articles and events from being sent:
 
-| 단계 | 방식 | 설명 |
-|------|------|------|
-| 1 | URL hash | 동일 URL 제거 (JSON index, 30일 rolling) |
-| 2 | Topic tokens | 제목 단어 기반 유사도 (같은 기사 다른 URL) |
-| 3 | EventKey | LLM이 생성한 사건 식별자 (`eu_lootbox_directive_2026`), Google Sheets가 authority |
+| Layer | Method | Description |
+|-------|--------|-------------|
+| 1 | URL hash | Exact URL match (rolling 30-day JSON index) |
+| 2 | Topic tokens | Title word similarity (catches same article from different URLs) |
+| 3 | EventKey | LLM-generated event identifier (e.g., `eu_lootbox_directive_2026`), Google Sheets as authority |
 
-EventKey는 사람이 Sheets에서 확인/수정할 수 있어서, LLM이 다르게 생성한 키도 수동으로 통합할 수 있습니다.
+EventKey can be reviewed and edited by humans in Sheets, so LLM inconsistencies can be corrected manually.
 
 ## Architecture
 
@@ -191,7 +193,7 @@ game-legal-briefing/
 │   └── admin/              # Google Sheets sync + EventKey read
 ├── templates/              # Web + email Jinja2 templates
 ├── static/                 # CSS (Pretendard + Noto Serif KR)
-├── scripts/                # One-time utilities (backfill_sheets.py)
+├── scripts/                # Utilities (backfill_sheets.py)
 ├── tests/                  # pytest (47 tests)
 └── output/                 # Generated site + data (GitHub Pages)
 ```
@@ -208,8 +210,8 @@ python main.py --dry-run --sample-data     # Integration check (no API keys need
 | Stage | Focus |
 |:------|:------|
 | **Done** | MVP pipeline, 54 feeds, Gemini+Claude fallback, EventKey dedup, Korean titles, category grouping, Sheets admin, GitHub Pages, email delivery |
-| **Next** | Tier C scrapers (government RSS 없는 사이트), v1 아카이브 EventKey 정규화 |
-| **Later** | English summaries, Jurisdiction Pulse dashboard, topic timelines |
+| **Next** | Tier C scrapers (government sites without RSS), English summaries |
+| **Later** | Jurisdiction Pulse dashboard, topic timelines |
 | **Future** | Cross-jurisdiction event linking, per-topic/phase RSS feeds |
 
 ## License
