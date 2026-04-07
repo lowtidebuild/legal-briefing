@@ -1,282 +1,280 @@
 [
   {
-    "title": "Tickets go on sale for consumer event IGN Live 2026, returning to LA on 6 June",
-    "url": "https://www.gamesindustry.biz/tickets-go-on-sale-for-consumer-event-ign-live-2026-returning-to-la-on-6-june",
+    "title": "Take-Two Interactive reportedly lays off AI team",
+    "url": "https://www.gamesindustry.biz/take-two-interactive-reportedly-lays-off-ai-team",
     "source": "GamesIndustry.biz",
-    "pub_date": "2026-04-01",
-    "category": "ETC",
+    "pub_date": "2026-04-07",
+    "category": "LABOR_EMPLOYMENT",
     "summary_ko": [
-      "아이지엔 엔터테인먼트(IGN Entertainment)가 자사의 소비자 게임 행사인 'IGN 라이브(IGN Live) 2026'의 개최를 알리며 티켓 판매를 시작했다.",
-      "이번 행사는 오는 6월 6일부터 7일까지 이틀간 미국 로스앤젤레스에서 다시 한번 개최될 예정이다.",
-      "해당 행사는 게임 산업 미디어인 게임즈인더스트리닷비즈(GamesIndustry.biz)의 모기업이 주관하는 대규모 온·오프라인 소비자 이벤트이다."
+      "테이크투 인터랙티브(Take-Two Interactive)가 구조조정의 일환으로 사내 AI 전담 팀 전체를 해고한 것으로 알려졌습니다.",
+      "이번 조치는 경영 효율화를 위한 비용 절감 전략의 일부로 해석되며, 구체적인 사업 방향 수정 여부에 관심이 쏠리고 있습니다.",
+      "게임 업계 내 인공지능 기술 활용에 대한 투자가 지속되는 가운데, 테이크투 인터랙티브(Take-Two Interactive)의 이러한 행보는 이례적인 사례로 평가됩니다."
     ],
     "event": {
       "jurisdiction": "US",
       "event_type": "business",
-      "regulatory_phase": "proposed",
-      "actors": [
-        "IGN Entertainment"
-      ],
-      "object": "IGN Live 2026",
-      "action": "ticket sales",
-      "game_mechanic": null,
-      "time_hint": "2026-06-06"
-    },
-    "event_key": "us_ign_live_event_2026",
-    "is_primary": true,
-    "title_ko": "소비자 행사 'IGN 라이브(IGN Live) 2026', 6월 6일 로스앤젤레스 개최 확정 및 티켓 판매 개시"
-  },
-  {
-    "title": "\"We aren't just still going, we are growing.\" How The Division 2 has attracted more players than ever seven years on from release",
-    "url": "https://www.gamesindustry.biz/we-arent-just-still-going-we-are-growing-how-the-division-2-has-attracted-more-players-than-ever-seven-years-on-from-release",
-    "source": "GamesIndustry.biz",
-    "pub_date": "2026-04-01",
-    "category": "ETC",
-    "summary_ko": [
-      "유비소프트(Ubisoft)가 2016년 출시한 '더 디비전(The Division)' 시리즈는 MMO 요소와 전술 슈팅을 결합하며 장기 흥행의 기틀을 마련했습니다.",
-      "출시 7년 차를 맞이한 '더 디비전 2(The Division 2)'는 지속적인 업데이트와 콘텐츠 개선을 통해 이전보다 더 많은 이용자를 끌어들이고 있습니다.",
-      "이번 성과는 라이브 서비스 게임이 꾸준한 관리와 새로운 시도를 통해 시간이 흘러도 성장할 수 있음을 증명하는 사례로 평가받고 있습니다."
-    ],
-    "event": {
-      "jurisdiction": "Global",
-      "event_type": "other",
       "regulatory_phase": "enacted",
       "actors": [
-        "Ubisoft"
+        "Take-Two Interactive"
       ],
-      "object": "The Division 2",
-      "action": "long_term_live_service_operations",
-      "game_mechanic": "online_persistence_shooter",
-      "time_hint": "2024"
-    },
-    "event_key": "global_live_service_lifecycle_management_2024",
-    "is_primary": true,
-    "title_ko": "\"우리는 멈추지 않고 성장 중입니다.\" 출시 7년이 지난 '더 디비전 2(The Division 2)'가 역대 최다 이용자를 확보한 비결"
-  },
-  {
-    "title": "Ken Kutaragi announced as first keynote speaker at Game Republic New Horizons 2026",
-    "url": "https://www.gamesindustry.biz/ken-kutaragi-announced-as-first-keynote-speaker-at-game-republic-new-horizons-2026",
-    "source": "GamesIndustry.biz",
-    "pub_date": "2026-03-31",
-    "category": "ETC",
-    "summary_ko": [
-      "플레이스테이션(PlayStation)의 아버지로 알려진 쿠타라기 켄(Ken Kutaragi)이 게임 리퍼블릭 뉴 호라이즌 2026(Game Republic New Horizons 2026)의 첫 기조연설자로 확정되었습니다.",
-      "이번 행사는 게임 산업의 미래 비전과 기술적 혁신을 논의하는 자리로, 업계의 저명한 인사인 쿠타라기 켄(Ken Kutaragi)의 참여로 큰 주목을 받고 있습니다.",
-      "게임 리퍼블릭(Game Republic)은 그를 시작으로 산업 전반의 리더들을 초청해 향후 게임 생태계 변화에 대한 심도 있는 논의를 이어갈 계획입니다."
-    ],
-    "event": {
-      "jurisdiction": "Global",
-      "event_type": "other",
-      "regulatory_phase": "proposed",
-      "actors": [
-        "Ken Kutaragi",
-        "Game Republic"
-      ],
-      "object": "industry event",
-      "action": "speaking engagement announcement",
+      "object": "AI development team",
+      "action": "layoffs",
       "game_mechanic": null,
-      "time_hint": "2026"
+      "time_hint": "current"
     },
-    "event_key": "global_industry_event_announcement_2026",
+    "event_key": "us_taketwo_ai_layoffs_2024",
     "is_primary": true,
-    "title_ko": "쿠타라기 켄(Ken Kutaragi), '게임 리퍼블릭 뉴 호라이즌 2026(Game Republic New Horizons 2026)' 첫 기조연설자로 선정"
+    "title_ko": "테이크투 인터랙티브(Take-Two Interactive), AI 팀 해고 보도"
   },
   {
-    "title": "Why the games industry trusts Pocket Gamer Connects",
-    "url": "https://www.pocketgamer.biz/why-the-games-industry-trusts-pocket-gamer-connects/",
+    "title": "Discover Barcelona's thriving games ecosystem on June 15th to 16th",
+    "url": "https://www.pocketgamer.biz/discover-barcelonas-thriving-games-ecosystem-on-june-15th-16th/",
     "source": "PocketGamer.biz",
-    "pub_date": "2026-04-06",
+    "pub_date": "2026-04-03",
     "category": "ETC",
     "summary_ko": [
-      "포켓 게이머 커넥츠(Pocket Gamer Connects)는 일회성 대규모 행사 대신 연중 지속되는 네트워킹 서킷을 제공합니다.",
-      "참가자들은 다양한 지역에서 정기적으로 만나며 비즈니스 관계를 장기적으로 발전시키고 심화할 수 있습니다.",
-      "단발성 소개로 끝나지 않는 연속적인 대화 환경이 업계 관계자들에게 높은 신뢰를 얻는 핵심 요인입니다."
-    ],
-    "event": {
-      "jurisdiction": "Global",
-      "event_type": "business",
-      "regulatory_phase": "enacted",
-      "actors": [
-        "PocketGamer.biz",
-        "Games industry stakeholders"
-      ],
-      "object": "Industry networking events",
-      "action": "Promotion of recurring professional conference circuits",
-      "game_mechanic": null,
-      "time_hint": "Ongoing"
-    },
-    "event_key": "global_networking_industry_promotion_2024",
-    "is_primary": true,
-    "title_ko": "게임 업계가 포켓 게이머 커넥츠(Pocket Gamer Connects)를 신뢰하는 이유"
-  },
-  {
-    "title": "11 essential tips for maximising your time during ChinaJoy",
-    "url": "https://www.pocketgamer.biz/11-essential-tips-for-maximising-your-networking-during-chinajoy/",
-    "source": "PocketGamer.biz",
-    "pub_date": "2026-04-02",
-    "category": "ETC",
-    "summary_ko": [
-      "포켓게이머(PocketGamer.biz)는 차이나조이(ChinaJoy) 방문 시 비용 절감과 원활한 동선을 위해 사전 계획이 필수적임을 강조함.",
-      "막판 예약은 항공권 및 숙박 비용의 상승과 행사장 접근성을 악화시킬 수 있어 조기 예약이 권장됨.",
-      "오는 7월 29일 개최되는 포켓게이머 커넥츠 서밋 상하이(Pocket Gamer Connects Summit Shanghai)는 현재 조기 할인 티켓을 제공 중임."
-    ],
-    "event": {
-      "jurisdiction": "CN",
-      "event_type": "other",
-      "regulatory_phase": "proposed",
-      "actors": [
-        "PocketGamer.biz",
-        "ChinaJoy"
-      ],
-      "object": "event networking",
-      "action": "conference logistics advice",
-      "game_mechanic": null,
-      "time_hint": "July 29th"
-    },
-    "event_key": "cn_chinajoy_networking_advice_2024",
-    "is_primary": true,
-    "title_ko": "차이나조이(ChinaJoy)에서 시간 효율을 극대화하기 위한 11가지 핵심 팁"
-  },
-  {
-    "title": "Tracks uncovered: Gain essential knowledge through PGC Summit Malmö's conference programme",
-    "url": "https://www.pocketgamer.biz/tracks-uncovered-gain-essential-knowledge-through-pgc-summit-malms-conference-programme/",
-    "source": "PocketGamer.biz",
-    "pub_date": "2026-03-31",
-    "category": "ETC",
-    "summary_ko": [
-      "포켓 게이머 커넥트(Pocket Gamer Connects)가 2026년 5월 27일부터 28일까지 스웨덴에서 새로운 서밋 말뫼(PGC Summit Malmö)를 개최합니다.",
-      "이번 행사는 노르딕 게임(Nordic Game) 위크와 연계되어 게임 비즈니스와 투자 기회를 확대하는 데 초점을 맞추고 있습니다.",
-      "미팅 플랫폼 밋투매치(MeetToMatch)와의 협력을 통해 개발자, 퍼블리셔, 투자자들이 1:1로 직접 소통할 수 있는 네트워크 환경을 제공합니다."
+      "포켓게이머 커넥츠(Pocket Gamer Connects)가 6월 15일부터 16일까지 스페인 바르셀로나에서 개최됩니다.",
+      "이번 행사는 유럽의 주요 게임 산업 허브를 조명하며 1,200명 이상의 게임 업계 전문가들이 참석할 예정입니다.",
+      "2025년 성공적인 데뷔에 이어 유럽 게임 산업의 핵심 네트워크 장으로서 입지를 다질 전망입니다."
     ],
     "event": {
       "jurisdiction": "EU",
       "event_type": "other",
-      "regulatory_phase": "proposed",
+      "regulatory_phase": "enacted",
       "actors": [
         "Pocket Gamer",
-        "MeetToMatch",
-        "Game developers",
-        "Publishers",
-        "Investors"
+        "Games industry professionals"
       ],
-      "object": "Games industry networking and conference",
-      "action": "Hosting industry summit",
+      "object": "Industry networking event",
+      "action": "Industry conference",
       "game_mechanic": null,
-      "time_hint": "May 27th to 28th, 2026"
+      "time_hint": "June 15th to 16th, 2026"
     },
-    "event_key": "eu_pgc_summit_malmo_2026",
+    "event_key": "eu_industry_conference_pocketgamer_2026",
     "is_primary": true,
-    "title_ko": "트랙 공개: PGC 서밋 말뫼(PGC Summit Malmö) 컨퍼런스 프로그램을 통해 핵심 지식을 습득하세요"
+    "title_ko": "6월 15일부터 16일까지 바르셀로나의 번성하는 게임 생태계를 만나보세요"
   },
   {
-    "title": "McDonald's new 'Archie' device stops you going AFK while you eat a Big Mac",
-    "url": "https://www.eurogamer.net/mcdonalds-new-archie-device-stops-you-going-afk-while-you-eat-a-big-mac",
+    "title": "Why Malmö is the place to do games business this May",
+    "url": "https://www.pocketgamer.biz/why-malm-is-the-place-to-do-games-business-this-may/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-04-01",
+    "category": "ETC",
+    "summary_ko": [
+      "글로벌 게임 산업의 불확실성 속에서도 스웨덴 남부의 게임 시장은 지속적인 성장세를 보이고 있습니다.",
+      "데이터스펠스브란셴(Dataspelsbranschen)의 보고서에 따르면 해당 지역은 2020년부터 2024년까지 매출이 104%, 기업 수가 69% 증가했습니다.",
+      "특히 2024년은 이 지역이 5년 연속으로 유의미한 수익을 기록한 해로, 투자 및 비즈니스 거점으로서의 가치가 입증되었습니다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Dataspelsbranschen",
+        "Malmö games sector"
+      ],
+      "object": "regional games industry growth",
+      "action": "market reporting",
+      "game_mechanic": null,
+      "time_hint": "May 2024"
+    },
+    "event_key": "se_market_growth_reporting_2024",
+    "is_primary": true,
+    "title_ko": "왜 5월의 게임 비즈니스 중심지는 말뫼(Malmö)인가"
+  },
+  {
+    "title": "The Last of Us multiplayer game was roughly 80% complete when it was cancelled, claims former director",
+    "url": "https://www.eurogamer.net/the-last-of-us-online-80-percent-complete-when-cancelled",
     "source": "Eurogamer",
-    "pub_date": "2026-04-05",
+    "pub_date": "2026-04-02",
     "category": "PLATFORM_PUBLISHING",
     "summary_ko": [
-      "튀르키예(Türkiye) 맥도날드(McDonald's)가 게임 중 식사 시 캐릭터가 멈추지 않도록 돕는 컨트롤러 보조 기기 '아치(Archie)'를 출시했다.",
-      "이 장치는 플레이어가 게임에서 자리 비움(AFK) 상태가 되지 않도록 입력 신호를 유지하여 빅맥(Big Mac)을 먹는 동안에도 접속을 보장한다.",
-      "게임 산업 측면에서 플레이어의 편의를 강조한 이 마케팅 사례는 게이머들의 높은 관심을 끌 것으로 예상된다."
+      "전직 게임 디렉터에 따르면 취소된 '더 라스트 오브 어스(The Last of Us)' 온라인 프로젝트는 개발 완료 단계인 80% 수준까지 진행된 상태였습니다.",
+      "너티독(Naughty Dog)은 해당 멀티플레이 게임의 개발을 공식적으로 중단하였으며, 이로 인해 대규모 인력 구조조정 등의 여파가 발생했습니다.",
+      "이번 사례는 장기간 개발된 대형 프로젝트가 갑작스럽게 폐기되는 게임 업계의 리스크 관리와 개발 효율성 이슈를 다시 한번 조명하고 있습니다."
     ],
     "event": {
       "jurisdiction": "Global",
       "event_type": "business",
       "regulatory_phase": "enacted",
       "actors": [
-        "McDonald's"
+        "Naughty Dog",
+        "Sony Interactive Entertainment"
       ],
-      "object": "controller peripheral",
-      "action": "product launch",
-      "game_mechanic": "anti-AFK",
-      "time_hint": "April 2026"
+      "object": "The Last of Us multiplayer project",
+      "action": "project cancellation",
+      "game_mechanic": "multiplayer",
+      "time_hint": "2024"
     },
-    "event_key": "tr_mcdonalds_peripheral_launch_2026",
+    "event_key": "global_naughtydog_project_cancellation_2024",
     "is_primary": true,
-    "title_ko": "맥도날드(McDonald's), 식사 중 게임 접속 유지를 돕는 '아치(Archie)' 기기 출시"
+    "title_ko": "너티독(Naughty Dog)의 취소된 '더 라스트 오브 어스(The Last of Us)' 멀티플레이 게임, 완성도 약 80%에 달했다"
   },
   {
-    "title": "Slay the Spire 2 beats Crimson Desert and Resident Evil Requiem as March's biggest-selling game on Steam",
-    "url": "https://www.eurogamer.net/slay-the-spire-2-beats-crimson-desert-and-resident-evil-requiem-as-marchs-biggest-selling-game-on-steam",
+    "title": "After five hours with highly anticipated pirate survival game Windrose, I can see why it's one of Steam's most wishlisted games",
+    "url": "https://www.eurogamer.net/after-five-hours-with-highly-anticipated-pirate-survival-game-windrose-i-can-see-why-its-one-of-steams-most-wishlisted-games",
     "source": "Eurogamer",
-    "pub_date": "2026-04-05",
+    "pub_date": "2026-04-02",
     "category": "ETC",
     "summary_ko": [
-      "슬레이 더 스파이어 2(Slay the Spire 2)가 3월 스팀(Steam)에서 가장 많이 팔린 게임으로 등극하며 압도적인 판매 실적을 기록했습니다.",
-      "해당 타이틀은 붉은사막(Crimson Desert)과 바이오하자드 레퀴엠(Resident Evil Requiem) 등 주요 신작들을 제치고 차트 1위를 차지했습니다.",
-      "이번 판매 성과를 통해 약 1억 8백만 달러의 수익을 올린 것으로 추정되며 시장 내 강력한 흥행 파급력을 입증했습니다."
+      "해적 테마의 PvE 생존 게임 윈드로즈(Windrose)가 최근 스팀(Steam) 데모 공개 이후 이용자들로부터 폭발적인 관심을 받고 있다.",
+      "기존의 씨 오브 시브즈(Sea of Thieves)와 같은 해적 게임 팬들의 기대치를 충족시킬 만큼 짜임새 있는 게임성과 완성도를 보여주고 있다.",
+      "정교한 항해 시스템과 생존 요소를 결합한 독특한 게임성 덕분에 현재 스팀(Steam) 내 최고 기대작 중 하나로 자리매김했다."
     ],
     "event": {
       "jurisdiction": "Global",
-      "event_type": "business",
+      "event_type": "other",
       "regulatory_phase": "enacted",
       "actors": [
         "Valve",
-        "MegaCrit"
+        "Developers"
       ],
-      "object": "Steam sales data",
-      "action": "market reporting",
-      "game_mechanic": null,
-      "time_hint": "March 2025"
-    },
-    "event_key": "global_steam_market_sales_reporting_2025q1",
-    "is_primary": true,
-    "title_ko": "슬레이 더 스파이어 2(Slay the Spire 2), 3월 스팀(Steam) 최다 판매 게임으로 붉은사막(Crimson Desert) 및 바이오하자드 레퀴엠(Resident Evil Requiem) 제쳐"
-  },
-  {
-    "title": "Nexon calls Arc Raiders a \"Trojan Horse\" for proving controversial AI tools can build triple-A hits with smaller teams",
-    "url": "https://www.eurogamer.net/nexon-embark-arc-raiders-ai-push",
-    "source": "Eurogamer",
-    "pub_date": "2026-04-02",
-    "category": "AI_EMERGING",
-    "summary_ko": [
-      "엠바크 스튜디오(Embark Studios)는 '아크 레이더스(Arc Raiders)' 개발 과정에서 AI 음성 사용을 일부 철회했으나, 모기업인 넥슨(Nexon)은 여전히 AI 기술 도입을 적극 추진하고 있습니다.",
-      "넥슨(Nexon)은 이번 게임의 성공 사례를 바탕으로 AI 기술이 소규모 개발 인력으로도 고품질의 AAA급 게임을 제작할 수 있음을 증명하는 테스트베드로 활용하고 있습니다.",
-      "업계에서는 AI 활용에 대한 논란이 지속되는 가운데, 게임사의 AI 기술 도입이 생산성 혁신과 윤리적 가이드라인 사이에서 어떤 방향으로 전개될지 주목하고 있습니다."
-    ],
-    "event": {
-      "jurisdiction": "Global",
-      "event_type": "policy",
-      "regulatory_phase": "proposed",
-      "actors": [
-        "Nexon",
-        "Embark Studios"
-      ],
-      "object": "generative AI tools",
-      "action": "internal adoption and development strategy",
-      "game_mechanic": "voice acting production",
+      "object": "Steam wishlists",
+      "action": "game_preview",
+      "game_mechanic": "survival",
       "time_hint": "current"
     },
-    "event_key": "global_ai_production_strategy_2024",
+    "event_key": "global_steam_wishlist_feature_2025",
     "is_primary": true,
-    "title_ko": "넥슨(Nexon), '아크 레이더스(Arc Raiders)'를 소규모 팀으로 AAA급 게임을 만드는 AI 도구의 '트로이 목마'로 지목"
+    "title_ko": "큰 기대를 모으는 해적 생존 게임 윈드로즈(Windrose)를 5시간 플레이해 보니, 왜 스팀(Steam)에서 가장 많이 찜한 게임인지 알겠다"
   },
   {
-    "title": "Grand Theft Auto 5 is leaving Xbox Game Pass in April, as well as two other fantastic RPGs",
-    "url": "https://www.eurogamer.net/grand-theft-auto-5-leaving-xbox-game-pass-april",
+    "title": "The Super Mario Galaxy Movie breaks records with $34m opening despite \"unfavourable\" reviews",
+    "url": "https://www.eurogamer.net/super-mario-galaxy-movie-breaks-records-despite-unfavourable-reviews",
     "source": "Eurogamer",
     "pub_date": "2026-04-02",
-    "category": "PLATFORM_PUBLISHING",
+    "category": "ETC",
     "summary_ko": [
-      "락스타 게임즈(Rockstar Games)의 '그랜드 테프트 오토 5(Grand Theft Auto 5)'가 이달 중 엑스박스 게임 패스(Xbox Game Pass) 라인업에서 제외됩니다.",
-      "이번 서비스 종료는 엑스박스 시리즈 X/S(Xbox Series X/S)뿐만 아니라 PC 게임 패스(PC Game Pass) 이용자에게도 동일하게 적용됩니다.",
-      "해당 타이틀과 함께 다른 유명 RPG 2종도 서비스가 중단될 예정으로, 구독자들은 이용 기간이 끝나기 전에 플레이할 것을 권장받고 있습니다."
+      "닌텐도(Nintendo)의 신작 ‘슈퍼 마리오 갤럭시 영화(The Super Mario Galaxy Movie)’가 개봉과 동시에 3,400만 달러의 수익을 올리며 기록적인 출발을 보였습니다.",
+      "작품에 대한 평단의 반응은 다소 엇갈리며 일부 비판적인 평가가 제기되고 있습니다.",
+      "기대감 속에 개봉한 이번 영화는 비판적 평가와 별개로 상업적으로는 성공적인 초반 성적을 거두고 있습니다."
     ],
     "event": {
       "jurisdiction": "Global",
       "event_type": "business",
       "regulatory_phase": "enacted",
       "actors": [
-        "Microsoft",
-        "Rockstar Games"
+        "Nintendo"
       ],
-      "object": "Xbox Game Pass",
-      "action": "content_licensing_adjustment",
+      "object": "Super Mario Galaxy Movie",
+      "action": "market_release",
       "game_mechanic": null,
-      "time_hint": "April 2024"
+      "time_hint": "2026"
     },
-    "event_key": "global_game_pass_licensing_2024",
+    "event_key": "global_film_market_release_2026",
     "is_primary": true,
-    "title_ko": "그랜드 테프트 오토 5(Grand Theft Auto 5) 및 주요 RPG 2종, 엑스박스 게임 패스(Xbox Game Pass) 서비스 종료"
+    "title_ko": "‘슈퍼 마리오 갤럭시 영화(The Super Mario Galaxy Movie)’, 부정적 평가에도 3,400만 달러 오프닝 기록 경신"
+  },
+  {
+    "title": "Eidos-Montréal's latest round of layoffs reportedly follows the cancellation of an \"almost complete\" open-world game",
+    "url": "https://www.eurogamer.net/eidos-montreal-march-2026-layoffs-caused-by-cancellation-of-massive-original-open-world-game",
+    "source": "Eurogamer",
+    "pub_date": "2026-04-01",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "엠브레이서 그룹(Embracer Group) 산하 스튜디오 에이도스 몬트리올(Eidos-Montréal)이 약 124명의 직원을 정리해고하고 스튜디오 대표 데이비드 안포시(David Anfossi)가 사임함.",
+      "이번 구조조정은 출시를 앞두고 있던 대규모 오픈월드 신작 프로젝트가 돌연 취소된 것에 따른 결과로 밝혀짐.",
+      "지속적인 프로젝트 무산과 인력 감축으로 인해 해당 개발사의 향후 사업 운영 및 미래 불확실성이 커지고 있음."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Eidos-Montréal",
+        "Embracer Group"
+      ],
+      "object": "employees",
+      "action": "layoffs",
+      "game_mechanic": null,
+      "time_hint": "March 2026"
+    },
+    "event_key": "global_labor_layoffs_2026q1",
+    "is_primary": true,
+    "title_ko": "에이도스 몬트리올(Eidos-Montréal), '거의 완성된' 오픈월드 게임 취소 후 추가 정리해고 단행"
+  },
+  {
+    "title": "12 tonnes of stolen Kitkats inspire April Fools jokes throughout the video games industry",
+    "url": "https://www.eurogamer.net/12-tonnes-of-stolen-kitkats-inspire-april-fools-jokes-throughout-the-video-games-industry",
+    "source": "Eurogamer",
+    "pub_date": "2026-04-01",
+    "category": "ETC",
+    "summary_ko": [
+      "만우절을 맞아 게임 업계 전반에 걸쳐 다양한 허위 정보와 장난스러운 발표가 이어졌습니다.",
+      "특히 최근 발생한 12톤 규모의 킷캣(KitKat) 도난 사건이 업계 내 여러 만우절 농담의 주요 영감이 되었습니다.",
+      "유로게이머(Eurogamer)는 이러한 현상이 매년 반복되는 게임 산업의 연례 행사 중 하나라고 보도했습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "video game industry",
+        "media"
+      ],
+      "object": "marketing communications",
+      "action": "joke announcements",
+      "game_mechanic": null,
+      "time_hint": "April 1st"
+    },
+    "event_key": "global_april_fools_industry_practice_2024",
+    "is_primary": true,
+    "title_ko": "12톤의 킷캣(KitKat) 도난 사건, 게임 업계 만우절 농담의 소재가 되다"
+  },
+  {
+    "title": "\"Coin pusher roguelike\" Raccoin sells over 100K units on Steam in 24 hours",
+    "url": "https://www.eurogamer.net/coin-pusher-roguelike-raccoin-sells-100k-copies-on-steam-during-its-first-day",
+    "source": "Eurogamer",
+    "pub_date": "2026-04-01",
+    "category": "ETC",
+    "summary_ko": [
+      "인디 게임 개발사 도라쿤(Doraccoon)이 출시한 코인 푸셔 로그라이크 장르의 '라쿤(Raccoin)'이 출시 하루 만에 10만 장 이상의 판매고를 올렸습니다.",
+      "이번 성과는 도박성 메커니즘과 고전 아케이드 게임 경험을 결합한 독특한 게임성이 대중에게 긍정적인 반응을 얻은 것으로 분석됩니다.",
+      "최근 흥행작 '발라트로(Balatro)' 이후 유사 장르의 인디 게임들이 시장에서 지속적인 주목을 받으며 성장하고 있는 추세를 보여주고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Doraccoon",
+        "Steam"
+      ],
+      "object": "Raccoin",
+      "action": "commercial_sales",
+      "game_mechanic": "coin_pusher",
+      "time_hint": "2024"
+    },
+    "event_key": "global_game_sales_performance_2024",
+    "is_primary": true,
+    "title_ko": "코인 푸셔 로그라이크 게임 '라쿤(Raccoin)', 출시 24시간 만에 스팀(Steam) 10만 장 판매"
+  },
+  {
+    "title": "\"We know we had, without doubt, the worst launch in history\" admits MindsEye boss as he says studio will share \"evidence of sabotage\" in-game",
+    "url": "https://www.eurogamer.net/the-worst-launch-in-history-admits-mindseye-boss",
+    "source": "Eurogamer",
+    "pub_date": "2026-04-01",
+    "category": "ETC",
+    "summary_ko": [
+      "빌드 어 로켓 보이(Build A Rocket Boy)의 CEO 마크 거하드(Mark Gerhard)가 슈팅 게임 마인즈아이(MindsEye)의 출시를 '역사상 최악'이었다고 공식 인정했습니다.",
+      "개발사 측은 게임의 연이은 부진 원인으로 외부의 조직적인 방해(Sabotage)를 지목하며 이를 입증할 증거를 공개하겠다고 밝혔습니다.",
+      "향후 멀티플레이어 업데이트를 통해 구체적인 사보타주 정황을 밝힐 예정이며, 이번 대응이 업계 내 부정행위 논란에 어떤 파장을 미칠지 주목됩니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Build A Rocket Boy",
+        "Mark Gerhard"
+      ],
+      "object": "MindsEye",
+      "action": "public_dispute_allegation",
+      "game_mechanic": "none",
+      "time_hint": "2024"
+    },
+    "event_key": "global_mindseye_sabotage_allegation_2024",
+    "is_primary": true,
+    "title_ko": "빌드 어 로켓 보이(Build A Rocket Boy) 대표, 마인즈아이(MindsEye)의 최악의 출시 인정하며 '사이버 사보타주' 증거 공개 예고"
   }
 ]

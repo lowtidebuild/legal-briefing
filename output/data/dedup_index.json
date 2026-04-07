@@ -771,6 +771,56 @@
       "event_key": "global_game_pass_licensing_2024",
       "url_hash": "bf98b86349587d7b",
       "date": "2026-04-07"
+    },
+    {
+      "event_key": "us_taketwo_ai_layoffs_2024",
+      "url_hash": "1ab5698f5170cc3c",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "eu_industry_conference_pocketgamer_2026",
+      "url_hash": "48dfee3d486750be",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "se_market_growth_reporting_2024",
+      "url_hash": "0221bf249c46207c",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_naughtydog_project_cancellation_2024",
+      "url_hash": "c94665a552aaf28c",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_steam_wishlist_feature_2025",
+      "url_hash": "1184b9332c446e18",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_film_market_release_2026",
+      "url_hash": "e2450c278a12e8b1",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_labor_layoffs_2026q1",
+      "url_hash": "306626d0027aff88",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_april_fools_industry_practice_2024",
+      "url_hash": "51452ec1e6637396",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_game_sales_performance_2024",
+      "url_hash": "375dfc43743dcd9b",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_mindseye_sabotage_allegation_2024",
+      "url_hash": "bf8782977682591b",
+      "date": "2026-04-07"
     }
   ]
 }
