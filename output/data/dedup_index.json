@@ -671,6 +671,56 @@
       "event_key": "global_ma_investment_acquisition_2024",
       "url_hash": "823273f202c7a9b4",
       "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_mistplay_connected_rewards_acquisition_2026",
+      "url_hash": "66fec16e23e68a25",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_playstation_shovelware_enforcement_2026q2",
+      "url_hash": "be55df8eceab6ec8",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "us_taketwo_labor_layoffs_2024",
+      "url_hash": "599f9ca19347fba5",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "us_ip_adaptation_strategic_pivot_2024",
+      "url_hash": "de036a1f073275bb",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_nintendo_switch_production_adjustment_2024",
+      "url_hash": "26723a7db99a18e5",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_indie_subscription_launch_2025",
+      "url_hash": "d1642f264a2b8a61",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_game_monetization_business_2024",
+      "url_hash": "f952918d6fe58ce8",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "us_marketing_brand_activation_2024q4",
+      "url_hash": "38851eaa8e846085",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_crossover_collaboration_2024",
+      "url_hash": "bf3b649567a613a9",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_business_milestone_2026",
+      "url_hash": "d3d81a0152db37dc",
+      "date": "2026-04-07"
     }
   ]
 }
