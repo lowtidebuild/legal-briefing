@@ -1,1 +1,265 @@
-[]
+[
+  {
+    "title": "Reddit posts can be more important than data, and other lessons from maintaining Candy Crush as a forever game",
+    "url": "https://www.gamesindustry.biz/reddit-posts-can-be-more-important-than-data-and-other-lessons-from-maintaining-candy-crush-as-a-forever-game",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-04-03",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "캔디 크러쉬 사가는 2012년 출시 이후 누적 매출 200억 달러를 돌파하며 장수 게임의 성공 사례로 자리매김했습니다.",
+      "개발사 킹(King)은 데이터 분석뿐만 아니라 레딧과 같은 커뮤니티의 이용자 의견을 적극 수용하여 지속적인 서비스 운영의 핵심 동력으로 삼고 있습니다.",
+      "성공적인 게임 라이브 서비스 유지를 위해서는 수치화된 데이터와 더불어 커뮤니티의 생생한 반응을 종합적으로 반영하는 전략이 필수적입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "King"
+      ],
+      "object": "Candy Crush Saga",
+      "action": "revenue generation and live operations maintenance",
+      "game_mechanic": "tile-matching",
+      "time_hint": "2012-2023"
+    },
+    "event_key": "de20f92d35d7c972",
+    "is_primary": true
+  },
+  {
+    "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
+    "url": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-04-02",
+    "category": "IP",
+    "summary_ko": [
+      "미국 특허청(USPTO)이 닌텐도가 출원한 '게임 내 서브 캐릭터 소환 및 전투 지원' 관련 특허를 거절했습니다.",
+      "해당 기술은 캐릭터가 보조 캐릭터를 불러 전투를 수행하는 메커니즘에 관한 것으로, 특허의 독창성이나 진보성 부족 등이 거절 사유로 추정됩니다.",
+      "이번 결정으로 향후 유사한 전투 시스템을 도입하려는 게임사들의 특허 분쟁 부담이 다소 완화될 것으로 보입니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "enforcement",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "United States Patent and Trademark Office",
+        "Nintendo"
+      ],
+      "object": "patent application for summoning sub-character mechanic",
+      "action": "rejection of patent",
+      "game_mechanic": "summoning sub-character",
+      "time_hint": "current"
+    },
+    "event_key": "84d01fd3d56895b5",
+    "is_primary": true
+  },
+  {
+    "title": "Build a Rocket Boy CEO responds to end of publishing agreement with IOI Partners",
+    "url": "https://www.gamesindustry.biz/build-a-rocket-boy-ceo-responds-to-end-of-publishing-agreement-with-ioi-partners",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-04-01",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "빌드 어 로켓 보이(Build a Rocket Boy)가 IOI 파트너스와의 퍼블리싱 계약을 종료했습니다.",
+      "마크 게르하르트 CEO는 독립 스튜디오로서 개발 및 서비스의 주도권을 유지하기 위한 결정이라고 밝혔습니다.",
+      "이번 계약 종료로 인해 향후 자사 타이틀 '마인즈 아이(MindsEye)'의 독자적인 행보가 예상됩니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Build a Rocket Boy",
+        "IOI Partners"
+      ],
+      "object": "publishing agreement",
+      "action": "termination",
+      "game_mechanic": null,
+      "time_hint": "recent"
+    },
+    "event_key": "7a4d4e18bd54dc6b",
+    "is_primary": true
+  },
+  {
+    "title": "Kingdom Come: Deliverance 2 studio allegedly fires \"obsolete\" translator to replace them with AI",
+    "url": "https://www.gamesindustry.biz/kingdom-come-deliverance-2-studio-allegedly-fires-obsolete-translator-to-replace-them-with-ai",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-03-30",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "킹덤 컴: 딜리버런스 2의 개발사 워호스 스튜디오가 소속 번역가를 해고하고 해당 업무를 AI로 대체했다는 논란이 제기되었습니다.",
+      "해고된 번역가는 스튜디오 측이 자신을 '구식'이라 표현하며 AI로 대체했다고 주장해 업계의 주목을 받고 있습니다.",
+      "게임 제작 과정에서 생성형 AI 도입에 따른 인력 대체 문제와 고용 윤리에 대한 논쟁이 심화될 것으로 보입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Warhorse Studios",
+        "Former Translator"
+      ],
+      "object": "Employment contract",
+      "action": "Termination of employment and replacement with AI tools",
+      "game_mechanic": "Localization",
+      "time_hint": "Recent"
+    },
+    "event_key": "e27f912bdfa02b34",
+    "is_primary": true
+  },
+  {
+    "title": "Krafton shutters free-to-play PUBG spin-off after two months, in line with policy of using Early Access to \"quickly validate a game’s potential\"",
+    "url": "https://www.gamesindustry.biz/krafton-shutters-free-to-play-pubg-spin-off-after-two-months-in-line-with-policy-of-using-early-access-to-quickly-validate-a-games-potential",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-03-30",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "크래프톤이 출시 2개월 만에 PUBG 스핀오프 게임인 'PUBG 블라인드스팟'의 서비스를 종료했습니다.",
+      "이번 결정은 얼리 액세스를 통해 게임의 시장성을 빠르게 검증하고 리소스를 효율적으로 배분하겠다는 경영 전략에 따른 것입니다.",
+      "전체 매출은 사상 최대치를 기록하고 있으나, 선택과 집중을 통해 신작 개발 리스크를 관리하려는 기업 정책이 반영되었습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Krafton"
+      ],
+      "object": "PUBG Blindspot",
+      "action": "server shutdown",
+      "game_mechanic": "Early Access",
+      "time_hint": "two months after release"
+    },
+    "event_key": "834a4b25af1ffb51",
+    "is_primary": true
+  },
+  {
+    "title": "Unity sees growth in engine revenue, shuts down IronSource ad network in favour of Vector AI user-acquisition platform",
+    "url": "https://www.gamesindustry.biz/unity-sees-growth-in-engine-revenue-shuts-down-ironsource-ad-network-in-favour-of-vector-ai-user-acquisition-platform",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-03-30",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "유니티가 사업 단순화와 핵심 역량 강화를 위해 아이언소스(IronSource) 광고 네트워크를 종료합니다.",
+      "기존 모바일 게임 퍼블리싱 사업부인 슈퍼소닉(Supersonic)을 매각하고 AI 기반의 광고 플랫폼 '벡터(Vector)'에 집중할 계획입니다.",
+      "이번 구조 개편을 통해 유니티는 엔진 사업의 매출 성장에 주력하며 수익 구조를 개선할 방침입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Unity Technologies"
+      ],
+      "object": "['IronSource', 'Supersonic']",
+      "action": "['divestment', 'business restructuring']",
+      "game_mechanic": null,
+      "time_hint": "Q1 2026"
+    },
+    "event_key": "35f3cd72c5cdfa11",
+    "is_primary": true
+  },
+  {
+    "title": "It turns out Fortnite isn't the forever game after all | Opinion",
+    "url": "https://www.gamesindustry.biz/it-turns-out-fortnite-isnt-the-forever-game-after-all-opinion",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-03-27",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "게임 업계 내 지속적인 대규모 정리해고가 일상화되면서 업계의 불안정성이 심화되고 있습니다.",
+      "포트나이트조차 '영원한 게임'이 될 수 없다는 사실이 드러나며 라이브 서비스 모델의 한계가 제기되었습니다.",
+      "이번 사례는 게임사들이 변화하는 시장 환경 속에서 지속 가능한 성장 동력을 찾는 데 어려움을 겪고 있음을 시사합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Game industry companies"
+      ],
+      "object": "workforce",
+      "action": "layoffs",
+      "game_mechanic": null,
+      "time_hint": "ongoing"
+    },
+    "event_key": "5c02a0fed657cfc0",
+    "is_primary": true
+  },
+  {
+    "title": "Sony announces global price rises for PS5 consoles from April 2, 2026",
+    "url": "https://www.gamesindustry.biz/sony-announces-global-price-rises-for-ps5-consoles-from-april-2-2026",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-03-27",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "소니가 지속되는 글로벌 경제 상황의 압박을 이유로 2026년 4월 2일부터 PS5 콘솔의 글로벌 가격 인상을 발표했습니다.",
+      "이번 조치는 생산 및 유통 비용 상승 등 거시경제적 불확실성이 게임 하드웨어 시장에 미치는 영향을 반영한 것으로 분석됩니다.",
+      "전 세계적인 가격 조정에 따라 향후 주요 시장의 소비자 구매 비용 부담이 가중될 것으로 전망됩니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Sony"
+      ],
+      "object": "PlayStation 5 console",
+      "action": "price increase",
+      "game_mechanic": null,
+      "time_hint": "April 2, 2026"
+    },
+    "event_key": "717a103e59458385",
+    "is_primary": true
+  },
+  {
+    "title": "Meta reportedly lays off around 700 workers, Reality Labs division affected",
+    "url": "https://www.gamesindustry.biz/meta-reportedly-lays-off-around-700-workers-reality-labs-division-affected",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-03-27",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "메타(Meta)가 리얼리티 랩스(Reality Labs) 부문을 포함해 약 700명의 직원을 추가로 해고했습니다.",
+      "이번 감원은 메타의 메타버스 및 VR 게임 사업 전략 수정과 비용 절감 노력의 일환으로 풀이됩니다.",
+      "빅테크 기업들의 인력 구조조정이 이어지면서 게임 및 실감형 콘텐츠 산업 전반의 투자 위축 우려가 커지고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Meta"
+      ],
+      "object": "employees",
+      "action": "layoffs",
+      "game_mechanic": null,
+      "time_hint": "recent"
+    },
+    "event_key": "b8ba908b434486d7",
+    "is_primary": true
+  },
+  {
+    "title": "German games market rose 4% in 2025 to €9.4bn, driven by hardware sales",
+    "url": "https://www.gamesindustry.biz/german-games-market-rose-4-in-2025-to-94bn-driven-by-hardware-sales",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-03-27",
+    "category": "ETC",
+    "summary_ko": [
+      "2025년 독일 게임 시장 규모는 전년 대비 4% 성장한 94억 유로를 기록했습니다.",
+      "이번 성장은 닌텐도 스위치 2 등 콘솔 하드웨어 판매 증가가 핵심 동력으로 작용했습니다.",
+      "게임 시장의 하드웨어 중심 성장이 매출 확대와 시장 활성화를 견인하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "business",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Nintendo"
+      ],
+      "object": "German games market",
+      "action": "market growth",
+      "game_mechanic": null,
+      "time_hint": "2025"
+    },
+    "event_key": "5f793041ebd2f4e2",
+    "is_primary": true
+  }
+]
