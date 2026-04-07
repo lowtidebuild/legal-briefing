@@ -59,8 +59,9 @@ def render_archive(
     output_dir: str = "output",
     template_dir: str = "templates",
     base_url: str = "",
+    all_daily_nodes: dict | None = None,
 ) -> str:
-    """Render the archive index page."""
+    """Render the archive index page and per-date archive pages."""
     normalized_base_url = _normalize_base_url(base_url)
     env = _get_env(template_dir)
     template = env.get_template("archive.html")
@@ -71,6 +72,16 @@ def render_archive(
     path = os.path.join(archive_dir, "index.html")
     with open(path, "w", encoding="utf-8") as handle:
         handle.write(html)
+
+    # Render per-date archive pages for dates that don't have one yet
+    if all_daily_nodes:
+        index_template = env.get_template("index.html")
+        for date, nodes in all_daily_nodes.items():
+            date_path = os.path.join(archive_dir, f"{date}.html")
+            if not os.path.exists(date_path):
+                date_html = index_template.render(nodes=nodes, date=date, base_url=normalized_base_url)
+                with open(date_path, "w", encoding="utf-8") as handle:
+                    handle.write(date_html)
 
     logger.info("Rendered archive listing with %d dates", len(entries))
     return path

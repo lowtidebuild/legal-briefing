@@ -112,18 +112,22 @@ def run_pipeline(
         base_url=cfg.site.base_url,
     )
 
+    all_dates = list_briefing_dates(data_dir=output_data_dir)
+    all_daily_nodes = {date: load_daily(date, data_dir=output_data_dir) for date in all_dates}
     archive_entries = [
-        {"date": date, "count": len(load_daily(date, data_dir=output_data_dir))}
-        for date in list_briefing_dates(data_dir=output_data_dir)
+        {"date": date, "count": len(all_daily_nodes[date])}
+        for date in all_dates
     ]
     render_archive(
         entries=archive_entries,
         output_dir=output_dir,
         template_dir=template_dir,
         base_url=cfg.site.base_url,
+        all_daily_nodes=all_daily_nodes,
     )
+    all_nodes_flat = [n for ns in all_daily_nodes.values() for n in ns]
     render_article_pages(
-        nodes=nodes,
+        nodes=all_nodes_flat,
         output_dir=output_dir,
         template_dir=template_dir,
         base_url=cfg.site.base_url,
