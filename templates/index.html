@@ -3,70 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Game Legal Briefing | {{ date }}</title>
+  <title>Game Legal Briefing · {{ date }}</title>
+  <meta name="description" content="게임 산업 규제 브리핑 — {{ date }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
   <link rel="stylesheet" href="{{ base_url }}/static/style.css">
 </head>
 <body>
-  <div class="page-shell">
-    <header class="hero">
-      <p class="eyebrow">Open Source Regulatory Intelligence for Games</p>
-      <div class="hero-row">
-        <div>
-          <h1>Game Legal Briefing</h1>
-          <p class="hero-copy">게임 산업 법률팀이 바로 훑어볼 수 있는 구조화된 규제 브리핑.</p>
-        </div>
-        <div class="hero-meta">
-          <span class="hero-date">{{ date }}</span>
-          <a href="{{ base_url }}/archive/">Archive</a>
-        </div>
-      </div>
+  <div class="container">
+
+    <header class="site-header">
+      <div class="header-brand">Game Legal Briefing</div>
+      <div class="header-date">{{ date }}</div>
+      <nav class="header-nav">
+        <a href="{{ base_url }}/archive/">Archive</a>
+      </nav>
     </header>
 
-    <main>
-      {% if nodes %}
-      <section class="section-head">
-        <h2>Latest Briefing</h2>
-        <p>{{ nodes | length }} curated items</p>
-      </section>
+    <hr class="divider">
 
-      <section class="briefing-list">
-        {% for node in nodes %}
-        <article class="briefing-card">
-          <div class="meta-row">
-            <span class="chip chip-category">{{ node.category }}</span>
-            <span class="chip">{{ node.event.jurisdiction.value }}</span>
-            <span class="badge">{{ node.event.regulatory_phase.value }}</span>
-          </div>
-          <h3><a href="{{ base_url }}/article/{{ node.event_key }}.html">{{ node.title }}</a></h3>
-          <p class="source-line">{{ node.source }} · {{ node.pub_date }}</p>
-          <ul class="summary-list">
-            {% for line in node.summary_ko %}
-            <li>{{ line }}</li>
-            {% endfor %}
-          </ul>
-          <div class="detail-grid">
-            {% if node.event.actors %}
-            <span><strong>Actors</strong> {{ node.event.actors | join(", ") }}</span>
-            {% endif %}
-            {% if node.event.game_mechanic %}
-            <span><strong>Mechanic</strong> {{ node.event.game_mechanic }}</span>
-            {% endif %}
-            <span><strong>Type</strong> {{ node.event.event_type.value }}</span>
-          </div>
-          <p class="read-through">
-            <a href="{{ node.url }}" target="_blank" rel="noreferrer">Read source</a>
-          </p>
-        </article>
-        {% endfor %}
-      </section>
-      {% else %}
-      <section class="empty-state">
-        <h2>No briefing items yet</h2>
-        <p>Run the pipeline with live feeds or `--sample-data` to generate the first briefing.</p>
-      </section>
-      {% endif %}
-    </main>
+    {% if nodes %}
+    <div class="section-title">Latest Briefing<span class="section-count">{{ nodes | length }} items</span></div>
+
+    <section class="briefing-list">
+      {% for node in nodes %}
+      <article class="briefing-card">
+        <div class="card-meta">
+          <span class="tag tag-category">{{ node.category }}</span>
+          <span class="tag tag-jurisdiction">{{ node.event.jurisdiction.value }}</span>
+          <span class="tag tag-phase">{{ node.event.regulatory_phase.value }}</span>
+        </div>
+        <h3 class="card-title"><a href="{{ base_url }}/article/{{ node.event_key }}.html">{{ node.title }}</a></h3>
+        <p class="card-source">{{ node.source }} · {{ node.pub_date }}</p>
+        <ul class="card-summary">
+          {% for line in node.summary_ko %}
+          <li>{{ line }}</li>
+          {% endfor %}
+        </ul>
+        <div class="card-detail">
+          {% if node.event.actors %}
+          <span><strong>Actors</strong>{{ node.event.actors | join(", ") }}</span>
+          {% endif %}
+          {% if node.event.game_mechanic %}
+          <span><strong>Mechanic</strong>{{ node.event.game_mechanic }}</span>
+          {% endif %}
+          <span><strong>Type</strong>{{ node.event.event_type.value }}</span>
+        </div>
+        <a class="card-link" href="{{ node.url }}" target="_blank" rel="noreferrer">원문 보기 &rarr;</a>
+      </article>
+      {% endfor %}
+    </section>
+    {% else %}
+    <section class="empty-state">
+      <h2>아직 브리핑 항목이 없습니다</h2>
+      <p>파이프라인을 실행하면 첫 브리핑이 생성됩니다.</p>
+    </section>
+    {% endif %}
+
+    <footer class="site-footer">
+      <p>Game Legal Briefing · Open Source Regulatory Intelligence for Games</p>
+      <p><a href="https://github.com/lowtidebuild/game-legal-briefing">GitHub</a></p>
+    </footer>
+
   </div>
 </body>
 </html>
-

@@ -3,35 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Archive | Game Legal Briefing</title>
+  <title>Archive · Game Legal Briefing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
   <link rel="stylesheet" href="{{ base_url }}/static/style.css">
 </head>
 <body>
-  <div class="page-shell">
-    <header class="hero hero-compact">
-      <p class="eyebrow">Archive</p>
-      <div class="hero-row">
-        <div>
-          <h1>Briefing Archive</h1>
-          <p class="hero-copy">발행 이력과 기사 수를 날짜별로 빠르게 탐색할 수 있습니다.</p>
-        </div>
-        <div class="hero-meta">
-          <a href="{{ base_url }}/">Latest</a>
-        </div>
-      </div>
+  <div class="container">
+
+    <header class="site-header">
+      <div class="header-brand">Game Legal Briefing</div>
+      <div class="header-date">Archive</div>
+      <nav class="header-nav">
+        <a href="{{ base_url }}/">Latest</a>
+      </nav>
     </header>
 
-    <main>
-      <section class="archive-list">
-        {% for entry in entries %}
-        <a class="archive-row" href="{{ base_url }}/archive/{{ entry.date }}.html">
-          <span>{{ entry.date }}</span>
-          <span>{{ entry.count }} items</span>
-        </a>
-        {% endfor %}
-      </section>
-    </main>
+    <hr class="divider">
+
+    <div class="section-title">발행 이력<span class="section-count">{{ entries | length }} dates</span></div>
+
+    {% if entries %}
+    <section class="archive-list">
+      {% for entry in entries %}
+      <a class="archive-row" href="{{ base_url }}/archive/{{ entry.date }}.html">
+        <span>{{ entry.date }}</span>
+        <span class="archive-count">{{ entry.count }} items</span>
+      </a>
+      {% endfor %}
+    </section>
+    {% else %}
+    <section class="empty-state">
+      <h2>아직 아카이브가 없습니다</h2>
+      <p>첫 브리핑이 발행되면 여기에 표시됩니다.</p>
+    </section>
+    {% endif %}
+
+    <footer class="site-footer">
+      <p>Game Legal Briefing · Open Source Regulatory Intelligence for Games</p>
+      <p><a href="https://github.com/lowtidebuild/game-legal-briefing">GitHub</a></p>
+    </footer>
+
   </div>
 </body>
 </html>
-
