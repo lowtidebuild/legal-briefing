@@ -821,6 +821,51 @@
       "event_key": "global_mindseye_sabotage_allegation_2024",
       "url_hash": "bf8782977682591b",
       "date": "2026-04-07"
+    },
+    {
+      "event_key": "eu_fr_ubisoft_the_crew_shutdown_litigation_2024",
+      "url_hash": "b625dfe1d7d445c2",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "uk_industry_conference_keynote_2026",
+      "url_hash": "19cce8a4a78849e2",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_aa_game_production_strategy_2025",
+      "url_hash": "f624ac196d31395e",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_game_content_update_2024",
+      "url_hash": "ec4da432a4282f1c",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_game_release_roundup_2024",
+      "url_hash": "6a298017ddf446a1",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_game_balance_update_2024",
+      "url_hash": "eec87bb0d0bf77a6",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_game_patch_update_2024",
+      "url_hash": "be83d0838935cbeb",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_eldenring_datamine_2024",
+      "url_hash": "beda12cc58e13f19",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_editorial_media_coverage_2024",
+      "url_hash": "7d4ae901dddb651e",
+      "date": "2026-04-07"
     }
   ]
 }

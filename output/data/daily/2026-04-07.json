@@ -1,280 +1,250 @@
 [
   {
-    "title": "Take-Two Interactive reportedly lays off AI team",
-    "url": "https://www.gamesindustry.biz/take-two-interactive-reportedly-lays-off-ai-team",
-    "source": "GamesIndustry.biz",
-    "pub_date": "2026-04-07",
-    "category": "LABOR_EMPLOYMENT",
+    "title": "France's leading consumer association has filed a lawsuit against Ubisoft over The Crew's online shutdown",
+    "url": "https://www.eurogamer.net/new-lawsuit-filed-in-france-against-ubisoft-over-the-crew-shutdown",
+    "source": "Eurogamer",
+    "pub_date": "2026-04-01",
+    "category": "CONSUMER_MONETIZATION",
     "summary_ko": [
-      "테이크투 인터랙티브(Take-Two Interactive)가 구조조정의 일환으로 사내 AI 전담 팀 전체를 해고한 것으로 알려졌습니다.",
-      "이번 조치는 경영 효율화를 위한 비용 절감 전략의 일부로 해석되며, 구체적인 사업 방향 수정 여부에 관심이 쏠리고 있습니다.",
-      "게임 업계 내 인공지능 기술 활용에 대한 투자가 지속되는 가운데, 테이크투 인터랙티브(Take-Two Interactive)의 이러한 행보는 이례적인 사례로 평가됩니다."
-    ],
-    "event": {
-      "jurisdiction": "US",
-      "event_type": "business",
-      "regulatory_phase": "enacted",
-      "actors": [
-        "Take-Two Interactive"
-      ],
-      "object": "AI development team",
-      "action": "layoffs",
-      "game_mechanic": null,
-      "time_hint": "current"
-    },
-    "event_key": "us_taketwo_ai_layoffs_2024",
-    "is_primary": true,
-    "title_ko": "테이크투 인터랙티브(Take-Two Interactive), AI 팀 해고 보도"
-  },
-  {
-    "title": "Discover Barcelona's thriving games ecosystem on June 15th to 16th",
-    "url": "https://www.pocketgamer.biz/discover-barcelonas-thriving-games-ecosystem-on-june-15th-16th/",
-    "source": "PocketGamer.biz",
-    "pub_date": "2026-04-03",
-    "category": "ETC",
-    "summary_ko": [
-      "포켓게이머 커넥츠(Pocket Gamer Connects)가 6월 15일부터 16일까지 스페인 바르셀로나에서 개최됩니다.",
-      "이번 행사는 유럽의 주요 게임 산업 허브를 조명하며 1,200명 이상의 게임 업계 전문가들이 참석할 예정입니다.",
-      "2025년 성공적인 데뷔에 이어 유럽 게임 산업의 핵심 네트워크 장으로서 입지를 다질 전망입니다."
+      "유비소프트(Ubisoft)가 '더 크루(The Crew)'의 서버를 종료하며 해당 게임을 플레이할 수 없게 되자, 프랑스 소비자 단체가 법적 대응에 나섰습니다.",
+      "이번 소송은 상시 접속형 게임의 서비스 종료와 그에 따른 게임 보존 문제에 대한 업계의 책임을 묻기 위해 제기되었습니다.",
+      "일부 팬들이 모딩을 통해 게임을 복구하려는 시도를 이어가는 가운데, 이번 소송이 디지털 게임의 소유권 논쟁에 어떤 영향을 미칠지 주목됩니다."
     ],
     "event": {
       "jurisdiction": "EU",
-      "event_type": "other",
-      "regulatory_phase": "enacted",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
       "actors": [
-        "Pocket Gamer",
-        "Games industry professionals"
+        "UFC-Que Choisir",
+        "Ubisoft"
       ],
-      "object": "Industry networking event",
-      "action": "Industry conference",
-      "game_mechanic": null,
-      "time_hint": "June 15th to 16th, 2026"
+      "object": "The Crew",
+      "action": "lawsuit",
+      "game_mechanic": "always_online_requirement",
+      "time_hint": "2024"
     },
-    "event_key": "eu_industry_conference_pocketgamer_2026",
+    "event_key": "eu_fr_ubisoft_the_crew_shutdown_litigation_2024",
     "is_primary": true,
-    "title_ko": "6월 15일부터 16일까지 바르셀로나의 번성하는 게임 생태계를 만나보세요"
+    "title_ko": "프랑스 주요 소비자 단체, '더 크루(The Crew)' 서버 종료와 관련해 유비소프트(Ubisoft) 상대로 소송 제기"
   },
   {
-    "title": "Why Malmö is the place to do games business this May",
-    "url": "https://www.pocketgamer.biz/why-malm-is-the-place-to-do-games-business-this-may/",
-    "source": "PocketGamer.biz",
+    "title": "Ustwo Games to keynote Develop:Brighton 2026",
+    "url": "https://www.gamesindustry.biz/ustwo-games-to-keynote-developbrighton-2026",
+    "source": "GamesIndustry.biz",
     "pub_date": "2026-04-01",
     "category": "ETC",
     "summary_ko": [
-      "글로벌 게임 산업의 불확실성 속에서도 스웨덴 남부의 게임 시장은 지속적인 성장세를 보이고 있습니다.",
-      "데이터스펠스브란셴(Dataspelsbranschen)의 보고서에 따르면 해당 지역은 2020년부터 2024년까지 매출이 104%, 기업 수가 69% 증가했습니다.",
-      "특히 2024년은 이 지역이 5년 연속으로 유의미한 수익을 기록한 해로, 투자 및 비즈니스 거점으로서의 가치가 입증되었습니다."
+      "영국 게임 컨퍼런스인 디벨롭:브라이튼(Develop:Brighton)의 주최 측이 올해 첫 기조연설자로 어스투 게임즈(Ustwo Games)를 발표했습니다.",
+      "모뉴먼트 밸리(Monument Valley) 시리즈로 잘 알려진 어스투 게임즈(Ustwo Games)가 이번 행사의 메인 연사로 참여하게 됩니다.",
+      "이번 기조연설을 통해 업계 관계자들에게 유의미한 통찰과 게임 개발 경험을 공유할 것으로 기대됩니다."
     ],
     "event": {
-      "jurisdiction": "EU",
+      "jurisdiction": "UK",
       "event_type": "business",
       "regulatory_phase": "enacted",
       "actors": [
-        "Dataspelsbranschen",
-        "Malmö games sector"
+        "Ustwo Games",
+        "Develop:Brighton"
       ],
-      "object": "regional games industry growth",
-      "action": "market reporting",
-      "game_mechanic": null,
-      "time_hint": "May 2024"
-    },
-    "event_key": "se_market_growth_reporting_2024",
-    "is_primary": true,
-    "title_ko": "왜 5월의 게임 비즈니스 중심지는 말뫼(Malmö)인가"
-  },
-  {
-    "title": "The Last of Us multiplayer game was roughly 80% complete when it was cancelled, claims former director",
-    "url": "https://www.eurogamer.net/the-last-of-us-online-80-percent-complete-when-cancelled",
-    "source": "Eurogamer",
-    "pub_date": "2026-04-02",
-    "category": "PLATFORM_PUBLISHING",
-    "summary_ko": [
-      "전직 게임 디렉터에 따르면 취소된 '더 라스트 오브 어스(The Last of Us)' 온라인 프로젝트는 개발 완료 단계인 80% 수준까지 진행된 상태였습니다.",
-      "너티독(Naughty Dog)은 해당 멀티플레이 게임의 개발을 공식적으로 중단하였으며, 이로 인해 대규모 인력 구조조정 등의 여파가 발생했습니다.",
-      "이번 사례는 장기간 개발된 대형 프로젝트가 갑작스럽게 폐기되는 게임 업계의 리스크 관리와 개발 효율성 이슈를 다시 한번 조명하고 있습니다."
-    ],
-    "event": {
-      "jurisdiction": "Global",
-      "event_type": "business",
-      "regulatory_phase": "enacted",
-      "actors": [
-        "Naughty Dog",
-        "Sony Interactive Entertainment"
-      ],
-      "object": "The Last of Us multiplayer project",
-      "action": "project cancellation",
-      "game_mechanic": "multiplayer",
-      "time_hint": "2024"
-    },
-    "event_key": "global_naughtydog_project_cancellation_2024",
-    "is_primary": true,
-    "title_ko": "너티독(Naughty Dog)의 취소된 '더 라스트 오브 어스(The Last of Us)' 멀티플레이 게임, 완성도 약 80%에 달했다"
-  },
-  {
-    "title": "After five hours with highly anticipated pirate survival game Windrose, I can see why it's one of Steam's most wishlisted games",
-    "url": "https://www.eurogamer.net/after-five-hours-with-highly-anticipated-pirate-survival-game-windrose-i-can-see-why-its-one-of-steams-most-wishlisted-games",
-    "source": "Eurogamer",
-    "pub_date": "2026-04-02",
-    "category": "ETC",
-    "summary_ko": [
-      "해적 테마의 PvE 생존 게임 윈드로즈(Windrose)가 최근 스팀(Steam) 데모 공개 이후 이용자들로부터 폭발적인 관심을 받고 있다.",
-      "기존의 씨 오브 시브즈(Sea of Thieves)와 같은 해적 게임 팬들의 기대치를 충족시킬 만큼 짜임새 있는 게임성과 완성도를 보여주고 있다.",
-      "정교한 항해 시스템과 생존 요소를 결합한 독특한 게임성 덕분에 현재 스팀(Steam) 내 최고 기대작 중 하나로 자리매김했다."
-    ],
-    "event": {
-      "jurisdiction": "Global",
-      "event_type": "other",
-      "regulatory_phase": "enacted",
-      "actors": [
-        "Valve",
-        "Developers"
-      ],
-      "object": "Steam wishlists",
-      "action": "game_preview",
-      "game_mechanic": "survival",
-      "time_hint": "current"
-    },
-    "event_key": "global_steam_wishlist_feature_2025",
-    "is_primary": true,
-    "title_ko": "큰 기대를 모으는 해적 생존 게임 윈드로즈(Windrose)를 5시간 플레이해 보니, 왜 스팀(Steam)에서 가장 많이 찜한 게임인지 알겠다"
-  },
-  {
-    "title": "The Super Mario Galaxy Movie breaks records with $34m opening despite \"unfavourable\" reviews",
-    "url": "https://www.eurogamer.net/super-mario-galaxy-movie-breaks-records-despite-unfavourable-reviews",
-    "source": "Eurogamer",
-    "pub_date": "2026-04-02",
-    "category": "ETC",
-    "summary_ko": [
-      "닌텐도(Nintendo)의 신작 ‘슈퍼 마리오 갤럭시 영화(The Super Mario Galaxy Movie)’가 개봉과 동시에 3,400만 달러의 수익을 올리며 기록적인 출발을 보였습니다.",
-      "작품에 대한 평단의 반응은 다소 엇갈리며 일부 비판적인 평가가 제기되고 있습니다.",
-      "기대감 속에 개봉한 이번 영화는 비판적 평가와 별개로 상업적으로는 성공적인 초반 성적을 거두고 있습니다."
-    ],
-    "event": {
-      "jurisdiction": "Global",
-      "event_type": "business",
-      "regulatory_phase": "enacted",
-      "actors": [
-        "Nintendo"
-      ],
-      "object": "Super Mario Galaxy Movie",
-      "action": "market_release",
+      "object": "industry conference",
+      "action": "keynote speech announcement",
       "game_mechanic": null,
       "time_hint": "2026"
     },
-    "event_key": "global_film_market_release_2026",
+    "event_key": "uk_industry_conference_keynote_2026",
     "is_primary": true,
-    "title_ko": "‘슈퍼 마리오 갤럭시 영화(The Super Mario Galaxy Movie)’, 부정적 평가에도 3,400만 달러 오프닝 기록 경신"
+    "title_ko": "어스투 게임즈(Ustwo Games), 디벨롭:브라이튼(Develop:Brighton) 2026 기조연설자로 선정"
   },
   {
-    "title": "Eidos-Montréal's latest round of layoffs reportedly follows the cancellation of an \"almost complete\" open-world game",
-    "url": "https://www.eurogamer.net/eidos-montreal-march-2026-layoffs-caused-by-cancellation-of-massive-original-open-world-game",
-    "source": "Eurogamer",
-    "pub_date": "2026-04-01",
-    "category": "LABOR_EMPLOYMENT",
+    "title": "ProbablyMonsters is betting on an Xbox 360-esque bonanza of single-player AA kookiness",
+    "url": "https://www.gamesindustry.biz/probablymonsters-is-betting-on-an-xbox-360-esque-bonanza-of-single-player-aa-kookiness",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-03-31",
+    "category": "PLATFORM_PUBLISHING",
     "summary_ko": [
-      "엠브레이서 그룹(Embracer Group) 산하 스튜디오 에이도스 몬트리올(Eidos-Montréal)이 약 124명의 직원을 정리해고하고 스튜디오 대표 데이비드 안포시(David Anfossi)가 사임함.",
-      "이번 구조조정은 출시를 앞두고 있던 대규모 오픈월드 신작 프로젝트가 돌연 취소된 것에 따른 결과로 밝혀짐.",
-      "지속적인 프로젝트 무산과 인력 감축으로 인해 해당 개발사의 향후 사업 운영 및 미래 불확실성이 커지고 있음."
+      "과거 Xbox 360 시대에는 다양한 아이디어의 게임이 다수 출시되었으나, 최근에는 개발비 급증으로 인해 대형 퍼블리셔들의 게임 출시 수가 급격히 감소했습니다.",
+      "유비소프트(Ubisoft)를 예로 들면 2000년에는 60개 이상의 게임을 출시했으나, 2025년에는 단 4개 출시로 줄어드는 등 개발 주기가 길어지고 제작 환경이 보수적으로 변했습니다.",
+      "프로블리몬스터즈(ProbablyMonsters)는 이러한 시장 상황 속에서 독창적인 AA급 싱글 플레이 게임 라인업을 통해 과거의 다채로운 게임 생태계를 재현하겠다는 전략을 세우고 있습니다."
     ],
     "event": {
       "jurisdiction": "Global",
       "event_type": "business",
       "regulatory_phase": "enacted",
       "actors": [
-        "Eidos-Montréal",
-        "Embracer Group"
+        "ProbablyMonsters",
+        "Ubisoft"
       ],
-      "object": "employees",
-      "action": "layoffs",
-      "game_mechanic": null,
-      "time_hint": "March 2026"
+      "object": "game development production models",
+      "action": "market strategy shift towards AA independent-style development",
+      "game_mechanic": "single-player",
+      "time_hint": "2025"
     },
-    "event_key": "global_labor_layoffs_2026q1",
+    "event_key": "global_aa_game_production_strategy_2025",
     "is_primary": true,
-    "title_ko": "에이도스 몬트리올(Eidos-Montréal), '거의 완성된' 오픈월드 게임 취소 후 추가 정리해고 단행"
+    "title_ko": "프로블리몬스터즈(ProbablyMonsters), Xbox 360 시절의 개성 넘치는 싱글 플레이 AA 게임 시장을 겨냥하다"
   },
   {
-    "title": "12 tonnes of stolen Kitkats inspire April Fools jokes throughout the video games industry",
-    "url": "https://www.eurogamer.net/12-tonnes-of-stolen-kitkats-inspire-april-fools-jokes-throughout-the-video-games-industry",
-    "source": "Eurogamer",
-    "pub_date": "2026-04-01",
-    "category": "ETC",
+    "title": "PlayDucky rolls out volcano and lava pool maps in new Melon Sandbox update",
+    "url": "https://www.pocketgamer.biz/melon-sandbox-adds-lava-themed-maps-as-sandbox-hit-maintains-10m-monthly-players/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-04-03",
+    "category": "PLATFORM_PUBLISHING",
     "summary_ko": [
-      "만우절을 맞아 게임 업계 전반에 걸쳐 다양한 허위 정보와 장난스러운 발표가 이어졌습니다.",
-      "특히 최근 발생한 12톤 규모의 킷캣(KitKat) 도난 사건이 업계 내 여러 만우절 농담의 주요 영감이 되었습니다.",
-      "유로게이머(Eurogamer)는 이러한 현상이 매년 반복되는 게임 산업의 연례 행사 중 하나라고 보도했습니다."
+      "모바일 게임 퍼블리셔 플레이더키(PlayDucky)가 자사의 물리 기반 샌드박스 게임 멜론 샌드박스(Melon Sandbox)에 화산과 용암 맵을 추가하는 업데이트를 진행했습니다.",
+      "이번 업데이트를 통해 모바일과 웹 브라우저 환경에서 용암 폭탄, 고밀도 열 효과 등 다양한 환경적 요소를 새롭게 경험할 수 있게 되었습니다.",
+      "멜론 샌드박스(Melon Sandbox)는 현재 월간 활성 이용자 수(MAU) 1,000만 명을 유지하며 꾸준한 인기를 이어가고 있습니다."
     ],
     "event": {
       "jurisdiction": "Global",
       "event_type": "other",
       "regulatory_phase": "enacted",
       "actors": [
-        "video game industry",
-        "media"
+        "PlayDucky"
       ],
-      "object": "marketing communications",
-      "action": "joke announcements",
-      "game_mechanic": null,
-      "time_hint": "April 1st"
+      "object": "Melon Sandbox",
+      "action": "game_update",
+      "game_mechanic": "environmental_hazards",
+      "time_hint": "current"
     },
-    "event_key": "global_april_fools_industry_practice_2024",
+    "event_key": "global_game_content_update_2024",
     "is_primary": true,
-    "title_ko": "12톤의 킷캣(KitKat) 도난 사건, 게임 업계 만우절 농담의 소재가 되다"
+    "title_ko": "플레이더키(PlayDucky), 멜론 샌드박스(Melon Sandbox) 신규 업데이트로 화산 및 용암 맵 출시"
   },
   {
-    "title": "\"Coin pusher roguelike\" Raccoin sells over 100K units on Steam in 24 hours",
-    "url": "https://www.eurogamer.net/coin-pusher-roguelike-raccoin-sells-100k-copies-on-steam-during-its-first-day",
-    "source": "Eurogamer",
-    "pub_date": "2026-04-01",
-    "category": "ETC",
+    "title": "New release roundup: The Division Resurgence, Dredge+, Toy Command, and more",
+    "url": "https://www.pocketgamer.biz/new-release-roundup-the-division-resurgence-dredge-toy-command-and-more/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-04-03",
+    "category": "PLATFORM_PUBLISHING",
     "summary_ko": [
-      "인디 게임 개발사 도라쿤(Doraccoon)이 출시한 코인 푸셔 로그라이크 장르의 '라쿤(Raccoin)'이 출시 하루 만에 10만 장 이상의 판매고를 올렸습니다.",
-      "이번 성과는 도박성 메커니즘과 고전 아케이드 게임 경험을 결합한 독특한 게임성이 대중에게 긍정적인 반응을 얻은 것으로 분석됩니다.",
-      "최근 흥행작 '발라트로(Balatro)' 이후 유사 장르의 인디 게임들이 시장에서 지속적인 주목을 받으며 성장하고 있는 추세를 보여주고 있습니다."
-    ],
-    "event": {
-      "jurisdiction": "Global",
-      "event_type": "business",
-      "regulatory_phase": "enacted",
-      "actors": [
-        "Doraccoon",
-        "Steam"
-      ],
-      "object": "Raccoin",
-      "action": "commercial_sales",
-      "game_mechanic": "coin_pusher",
-      "time_hint": "2024"
-    },
-    "event_key": "global_game_sales_performance_2024",
-    "is_primary": true,
-    "title_ko": "코인 푸셔 로그라이크 게임 '라쿤(Raccoin)', 출시 24시간 만에 스팀(Steam) 10만 장 판매"
-  },
-  {
-    "title": "\"We know we had, without doubt, the worst launch in history\" admits MindsEye boss as he says studio will share \"evidence of sabotage\" in-game",
-    "url": "https://www.eurogamer.net/the-worst-launch-in-history-admits-mindseye-boss",
-    "source": "Eurogamer",
-    "pub_date": "2026-04-01",
-    "category": "ETC",
-    "summary_ko": [
-      "빌드 어 로켓 보이(Build A Rocket Boy)의 CEO 마크 거하드(Mark Gerhard)가 슈팅 게임 마인즈아이(MindsEye)의 출시를 '역사상 최악'이었다고 공식 인정했습니다.",
-      "개발사 측은 게임의 연이은 부진 원인으로 외부의 조직적인 방해(Sabotage)를 지목하며 이를 입증할 증거를 공개하겠다고 밝혔습니다.",
-      "향후 멀티플레이어 업데이트를 통해 구체적인 사보타주 정황을 밝힐 예정이며, 이번 대응이 업계 내 부정행위 논란에 어떤 파장을 미칠지 주목됩니다."
+      "포켓게이머비즈(PocketGamer.biz)가 최근 출시된 주목할 만한 모바일 게임들을 선정하여 소개했습니다.",
+      "이번 리스트에는 더 디비전 리서전스(The Division Resurgence)와 같은 대형 프랜차이즈 신작과 창의적인 인디 게임들이 포함되었습니다.",
+      "게임 산업의 성장을 뒷받침하는 개발사들의 연구와 투자, 그리고 핵심적인 게임 개발 동향을 다루고 있습니다."
     ],
     "event": {
       "jurisdiction": "Global",
       "event_type": "other",
-      "regulatory_phase": "proposed",
+      "regulatory_phase": "enacted",
       "actors": [
-        "Build A Rocket Boy",
-        "Mark Gerhard"
+        "developers",
+        "publishers"
       ],
-      "object": "MindsEye",
-      "action": "public_dispute_allegation",
-      "game_mechanic": "none",
+      "object": "mobile games",
+      "action": "new game releases",
+      "game_mechanic": null,
+      "time_hint": "current"
+    },
+    "event_key": "global_game_release_roundup_2024",
+    "is_primary": true,
+    "title_ko": "신작 게임 출시 소식: 더 디비전 리서전스(The Division Resurgence), 드레지+(Dredge+), 토이 커맨드(Toy Command) 등"
+  },
+  {
+    "title": "Arc Raiders improves crafting, says new \"streamlined system\" is \"just the start\"",
+    "url": "https://www.eurogamer.net/arc-raiders-improves-crafting-says-new-streamlined-system-is-just-the-start",
+    "source": "Eurogamer",
+    "pub_date": "2026-04-05",
+    "category": "ETC",
+    "summary_ko": [
+      "엠바크 스튜디오(Embark Studios)는 이용자 피드백을 반영하여 아크 레이더스(Arc Raiders)의 크래프팅 시스템을 개편했습니다.",
+      "기존 제작 과정에서 재료 수집이 번거롭다는 고충을 해결하기 위해 시스템을 대폭 간소화했습니다.",
+      "개발진은 이번 업데이트가 완성형이 아니며, 향후 지속적인 개선이 이루어질 것임을 시사했습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Embark Studios"
+      ],
+      "object": "Arc Raiders game mechanics",
+      "action": "system update",
+      "game_mechanic": "crafting",
+      "time_hint": "current"
+    },
+    "event_key": "global_game_balance_update_2024",
+    "is_primary": true,
+    "title_ko": "아크 레이더스(Arc Raiders), 크래프팅 시스템 개선… '간소화된 시스템은 시작일 뿐'"
+  },
+  {
+    "title": "Crimson Desert patch now available – here's what's new",
+    "url": "https://www.eurogamer.net/crimson-desert-patch-now-available-heres-whats-new",
+    "source": "Eurogamer",
+    "pub_date": "2026-04-04",
+    "category": "ETC",
+    "summary_ko": [
+      "펄어비스(Pearl Abyss)가 크림슨 사막(Crimson Desert)의 최신 패치를 통해 게임 내 편의성 개선을 진행했다.",
+      "주요 업데이트로 주인공 클리프(Kliff)의 외형을 더 잘 확인할 수 있는 헤드기어 가시성 옵션이 추가되었다.",
+      "그레이메인(Greymane) 캠프 레벨에 따라 개인 저장소 용량을 최대 1,000칸까지 확장하는 등 전반적인 시스템 개선이 이루어졌다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Pearl Abyss"
+      ],
+      "object": "Crimson Desert",
+      "action": "game update",
+      "game_mechanic": "UI customization, storage expansion",
+      "time_hint": "current"
+    },
+    "event_key": "global_game_patch_update_2024",
+    "is_primary": true,
+    "title_ko": "크림슨 사막(Crimson Desert) 패치 배포 - 업데이트 상세 내역"
+  },
+  {
+    "title": "Astonishing never-before-seen Elden Ring deleted cutscene discovered",
+    "url": "https://www.eurogamer.net/astonishing-never-before-seen-elden-ring-deleted-cutscene-discovered",
+    "source": "Eurogamer",
+    "pub_date": "2026-04-04",
+    "category": "ETC",
+    "summary_ko": [
+      "유로게이머(Eurogamer)는 최근 엘든 링(Elden Ring)의 미공개 맵 파일을 분석하여 개발 과정에서 삭제된 콘텐츠를 발견했습니다.",
+      "이번에 발견된 파일은 최종 출시 버전에는 포함되지 않았던 새로운 컷신을 포함하고 있어 게임의 미공개 요소를 보여줍니다.",
+      "해당 발견은 프롬 소프트웨어(FromSoftware)의 개발 데이터 내 숨겨진 정보들이 팬들에 의해 지속적으로 발굴되고 있음을 시사합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "FromSoftware",
+        "Data miners"
+      ],
+      "object": "Elden Ring game data",
+      "action": "discovery of cut game content",
+      "game_mechanic": null,
       "time_hint": "2024"
     },
-    "event_key": "global_mindseye_sabotage_allegation_2024",
+    "event_key": "global_eldenring_datamine_2024",
     "is_primary": true,
-    "title_ko": "빌드 어 로켓 보이(Build A Rocket Boy) 대표, 마인즈아이(MindsEye)의 최악의 출시 인정하며 '사이버 사보타주' 증거 공개 예고"
+    "title_ko": "놀라운 미공개 엘든 링(Elden Ring) 삭제 컷신 발견"
+  },
+  {
+    "title": "What we've been playing - \"like a seagull by a bin, I decided to have a peck\"",
+    "url": "https://www.eurogamer.net/what-weve-been-playing-esoteric-ebb",
+    "source": "Eurogamer",
+    "pub_date": "2026-04-04",
+    "category": "ETC",
+    "summary_ko": [
+      "유로게이머(Eurogamer) 에디터들이 최근 직접 플레이한 게임들에 대한 소소한 경험담을 공유하는 연재 코너입니다.",
+      "슈퍼 마리오 갤럭시(Super Mario Galaxy)와 올드 스쿨 룬스케이프(Old School Runescape) 등 에디터별로 각기 다른 취향의 게임 플레이 기록이 소개되었습니다.",
+      "각 에디터는 독특한 게임 선택 이유와 함께 개인적인 플레이 스타일 및 일상 속 게임의 의미를 조명했습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Eurogamer editorial staff"
+      ],
+      "object": "videogame media review",
+      "action": "editorial coverage",
+      "game_mechanic": null,
+      "time_hint": "current week"
+    },
+    "event_key": "global_editorial_media_coverage_2024",
+    "is_primary": true,
+    "title_ko": "우리가 즐긴 게임들 - \"쓰레기통 옆 갈매기처럼, 나도 한 입 쪼아보기로 했다\""
   }
 ]
