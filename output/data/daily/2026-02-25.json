@@ -1,0 +1,146 @@
+[
+  {
+    "title": "How recent laws impact game design, from in-game chat to notifications",
+    "url": "https://www.gamesindustry.biz/how-recent-laws-impact-game-design-from-in-game-chat-to-notifications",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-02-25",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "2026년 게임 산업은 OSA, DMCCA, DFA, DSA, AI Act, CPC 등 다양한 신규 규제에 직면하고 있으며, 특히 다크 패턴(어두운 디자인 패턴)에 대한 규제가 강화되고 있습니다.",
+      "게임 회사들은 UI/프롬프트 설계, 루트박스 공시, 가상화폐 투명성 등에서 규제 리스크를 관리해야 하며, 액티비전 블리자드가 이탈리아 경쟁청으로부터 '기만적이고 공격적 관행'으로 지적받은 사례가 있습니다.",
+      "루트박스는 게임 목록에 명시 공시 필요, 승률 명확 표시, 벨기에·네덜란드 같은 지역의 도박 규제 주의가 요구되며, 가상화폐는 실제 가격 투명성과 환불·만료 정책의 명확한 고지가 필수입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "702d6a8c0420a40c",
+    "is_primary": false
+  },
+  {
+    "title": "Discord delays age verification rollout to second half of 2026 following backlash",
+    "url": "https://www.gamesindustry.biz/discord-delays-age-verification-rollout-to-second-half-of-2026-following-backlash",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-02-25",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "Discord는 개인정보 보호 우려로 인한 대규모 비판 이후 연령 인증 시스템의 글로벌 출시를 2026년 상반기에서 하반기로 연기했습니다.",
+      "Discord는 90% 이상의 사용자가 연령 인증 없이 현재와 동일하게 서비스를 이용할 수 있으며, 안면 스캔이나 ID 업로드가 모든 사용자에게 필수가 아님을 명확히 했습니다.",
+      "Persona와의 제한된 시험 이후 Discord는 생체 데이터가 기기를 벗어나지 않는 온디바이스 기반 안면 인증만 허용하기로 결정했으며, 모든 파트너사에 대한 보안 및 개인정보 검토 절차를 강화했습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "cfc71e60e6d7a575",
+    "is_primary": false
+  },
+  {
+    "title": "Hell is Us and Styx publisher Nacon files for insolvency",
+    "url": "https://www.gamedeveloper.com/business/hell-is-us-and-styx-publisher-nacon-files-for-insolvency",
+    "source": "GameDeveloper",
+    "pub_date": "2026-02-25",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "프랑스 게임 퍼블리셔 Nacon이 릴 메트로폴 상업법원에 지급불능 신청을 제출했으며, 사법 구조조정 절차를 통해 부채 재협상 및 사업 지속을 추진하고 있습니다.",
+      "모회사 Bigben Group의 채권 상환 실패로 촉발된 이번 위기는 최대 18개월의 법원 감시 하에 진행되며, 그 기간 동안 기존 채무가 동결됩니다.",
+      "Nacon은 25개 자회사와 16개 개발 스튜디오를 포함해 1,000명 이상의 직원을 고용하고 있으며, 법원의 판단은 3월 초에 예정되어 있어 게임 산업 공급망과 고용 안정성에 영향을 미칠 수 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "c1aaf57da94246aa",
+    "is_primary": false
+  },
+  {
+    "title": "Genshin Impact's Privacy Policy indicated players' voice comms data may be used to train AI models",
+    "url": "https://www.eurogamer.net/genshin-impacts-privacy-policy-indicated-players-voice-comms-data-may-be-used-to-train-ai-models",
+    "source": "Eurogamer",
+    "pub_date": "2026-02-25",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "원신의 개인정보보호정책에서 사용자 음성 통신 데이터를 AI 모델 학습에 사용할 수 있다는 조항이 명시되어 있었으나, 최근 조용히 삭제되었습니다.",
+      "정책에는 사용자가 서비스 설정에서 언제든 모델 학습 거부를 선택할 수 있으며, 거부 시에도 게임플레이에 영향이 없다고 기재되어 있습니다.",
+      "미호요는 생성형 AI 도입을 공개적으로 추진 중이며, 해당 조항 삭제 사유와 음성 데이터의 구체적 활용 목적에 대한 설명이 요구되고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "389577ce611e0981",
+    "is_primary": false
+  },
+  {
+    "title": "How recent laws impact game design, from in-game chat to notifications",
+    "url": "https://www.gamesindustry.biz/how-recent-laws-impact-game-design-from-in-game-chat-to-notifications",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-02-25",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "2026년 게임 산업이 직면한 다양한 신규 규제(DMCCA, DSA, DFA, AI Act 등)가 게임 디자인에 실질적 영향을 미치고 있으며, 다크 패턴, UI/알림, 루트박스, 가상화폐 등 주요 게임 기능들이 규제 대상이 되고 있습니다.",
+      "활성화 블리자드가 이탈리아 경쟁당국으로부터 디아블로 이모탈과 콜 오브 듀티 모바일에서 기만적 UI 디자인과 공격적 기본 설정으로 인한 적발을 받은 사례처럼, 규제기관들이 소비자 보호를 강화하고 있습니다.",
+      "게임사는 명확한 루트박스 공시, 확률 정보 투명 공개, 가상화폐의 실제 가격 표시, 선의의 기본 설정 등을 통해 다크 패턴 금지 규정을 준수하고 벨기에/네덜란드 등의 강화된 규제 지역에 대응해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "702d6a8c0420a40c",
+    "is_primary": false
+  },
+  {
+    "title": "Discord delays age verification rollout to second half of 2026 following backlash",
+    "url": "https://www.gamesindustry.biz/discord-delays-age-verification-rollout-to-second-half-of-2026-following-backlash",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-02-25",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "Discord는 개인정보 보호 우려로 인한 광범위한 비판에 따라 글로벌 연령 인증 도입을 2026년 하반기로 연기했습니다.",
+      "Discord는 이전 발표에서 모든 사용자의 얼굴 스캔과 신분증 업로드가 필요하다고 오인된 점을 명확히 하며, 실제로는 90% 이상의 사용자는 연령 인증이 불필요하고 내부 안전 시스템으로 성인 판정이 가능하다고 설명했습니다.",
+      "Discord는 신용카드 등 다양한 인증 옵션 제공, 생체정보 데이터가 휴대폰을 벗어나지 않는 온디바이스 처리 등 강화된 개인정보 보호 기준을 제시하고 파트너 Persona와의 계약을 해지했습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "cfc71e60e6d7a575",
+    "is_primary": false
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "title": "French consumer group sues Ubisoft over shutdown of The Crew",
+    "url": "https://gamedeveloper.com/business/french-consumer-group-sues-ubisoft-over-shutdown-of-the-crew",
+    "source": "GameDeveloper",
+    "pub_date": "2026-04-01",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "프랑스 소비자단체 UFC-Que Choisir가 2024년 초 온라인 레이싱 게임 '더 크루' 서버 종료에 대해 유비소프트를 고소했습니다.",
+      "유비소프트는 플레이어가 게임 소유권이 아닌 제한된 접근권만 구매했다고 주장하며 환불을 거부했으나, 소비자단체는 구매의 영구성에 대한 기만과 소유권 박탈 약관이 부당하다고 주장합니다.",
+      "130만 명 이상의 서명을 모은 'Stop Killing Games' 캠페인이 소송을 지원하고 있으며, EU 집행위는 7월 말까지 검토 결과를 제시할 예정으로, 이 판례는 게임 산업 전반의 온라인 게임 종료 관행에 광범위한 영향을 미칠 수 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "e1ec6ace5b4e8903",
+    "is_primary": true
+  },
+  {
+    "title": "US Patent Office revokes Nintendo's controversial Pokémon battling patent in nonfinal decision",
+    "url": "https://pcgamer.com/gaming-industry/us-patent-office-revokes-nintendos-controversial-pokemon-battling-patent-in-nonfinal-decision",
+    "source": "PC Gamer",
+    "pub_date": "2026-04-01",
+    "category": "IP",
+    "summary_ko": [
+      "미국 특허청(USPTO)이 닌텐도의 포켓몬 배틀 시스템 특허(US Patent 12,403,397)에 대해 최종 결정 전 단계에서 26개 청구항 전부를 거절하는 결정을 내렸습니다.",
+      "USPTO 심사관은 해당 특허가 기존 특허 및 게임들과 유사성이 높아 특허성이 없다고 판단했으며, 거절 근거로 코나미, 반다이남코의 선행 특허와 닌텐도 자신의 이전 특허 출원들을 인용했습니다.",
+      "닌텐도는 2개월 내에 반박 의견을 제출할 수 있으며, 최종 거절 후에도 연방순회법원에 항소할 수 있어 법적 절차가 장기화될 것으로 예상됩니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "e5d06e381c7c097f",
+    "is_primary": true
+  },
+  {
+    "title": "'More time innovating; less time writing code:' Arc Raiders publisher Nexon believes AI will liberate its workforce",
+    "url": "https://gamedeveloper.com/business/-more-time-innovating-less-time-writing-code-arc-raiders-publisher-nexon-believes-ai-is-the-answer",
+    "source": "GameDeveloper",
+    "pub_date": "2026-04-01",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "넥슨은 'Mono Lake'라는 AI 플랫폼을 개발하여 게임 개발 및 운영의 모든 단계에 적용할 계획이며, 수십 년간 축적한 플레이어 데이터와 게임 텔레메트리를 기반으로 개발 의사결정을 지원할 예정입니다.",
+      "신임 회장 패트릭 소더룬드는 회사 전반적인 구조 조정을 추진 중이며, 일부 프로젝트 취소 및 재구성을 포함한 비용 최적화 정책을 시행하고 있습니다.",
+      "넥슨은 AI 기술이 개발자들의 창의적 업무에 더 많은 시간을 할애하도록 지원하면서도 생산 비용을 절감할 수 있다고 주장하고 있으나, 생성형 AI 도구의 구체적 활용 범위와 노동력 영향에 대한 명확한 공시가 부족합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "195d197374f8d614",
+    "is_primary": true
+  }
+]

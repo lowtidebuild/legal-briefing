@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Trump Administration Won’t Rule Out Further Action Against Anthropic",
+    "url": "https://wired.com/story/trump-administration-refuses-to-say-it-wont-take-further-action-against-anthropic",
+    "source": "WIRED - Business",
+    "pub_date": "2026-03-11",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "트럼프 행정부는 Anthropic에 대한 추가 조치를 취하지 않겠다는 약속을 거부했으며, 현재 행정명령을 통해 연방정부 전역에서 Anthropic 도구 사용을 공식 금지하려 준비 중입니다.",
+      "Anthropic은 공급망 위험 지정이 위헌이라며 연방법원에 제소했고, 3월 24일 예비 심리가 예정되어 있으나 회사는 더 빠른 일정을 요청했습니다.",
+      "헌법 전문가들은 행정부의 조치가 정치적 반대자를 처벌하는 패턴의 일부라고 평가하며, 국가안보 주장에 대한 법원의 관례적 존중이 Anthropic의 승소를 어렵게 할 수 있다고 지적합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "e59b2f4ba9a683da",
+    "is_primary": true
+  },
+  {
+    "title": "SAG-AFTRA issues a Do Not Work Order against Capcom for \"failing to initiate the signatory process\"",
+    "url": "https://gamesindustry.biz/sag-aftra-issues-a-do-not-work-order-against-capcom-for-failing-to-initiate-the-signatory-process",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-03-11",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "SAG-AFTRA가 Capcom의 신작 게임 'Mega Man: Dual Override'에 대해 Do Not Work Order를 발령했습니다. 이는 Capcom이 노조 서명 절차를 시작하지 않았기 때문입니다.",
+      "성우 Ben Diskin은 노조 계약 없이 작업하도록 요청받았으며, AI 보호 조항이 있다는 보장에도 불구하고 개인적으로 대기업을 상대로 소송할 수 없다는 이유로 참여를 거절했습니다.",
+      "SAG-AFTRA는 2024년 7월 AI 기술 관련 권리 및 보호 문제로 파업을 시작했으며, 2025년 3월 현재도 게임 퍼블리셔들과 '답답할 정도로 멀리 떨어져' 있는 상태입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "884483b33c681572",
+    "is_primary": true
+  },
+  {
+    "title": "Grammarly Is Facing a Class Action Lawsuit Over Its AI ‘Expert Review’ Feature",
+    "url": "https://wired.com/story/grammarly-is-facing-a-class-action-lawsuit-over-its-ai-expert-review-feature",
+    "source": "WIRED - AI",
+    "pub_date": "2026-03-11",
+    "category": "IP",
+    "summary_ko": [
+      "Grammarly의 모회사 Superhuman이 저명한 저널리스트, 작가, 학자 등의 동의 없이 그들의 이름과 정체성을 사용하여 'Expert Review' AI 기능을 제공한 혐의로 집단소송에 직면했습니다.",
+      "원고 Julia Angwin을 포함한 수백 명의 전문가들이 자신의 동의 없이 가상 편집자로 표현되었으며, 소송은 뉴욕 남부지역 연방법원에 제출되었고 손해배상액은 500만 달러 이상으로 주장됩니다.",
+      "Superhuman은 공개적 반발에 따라 해당 기능을 이미 중단했으며, 뉴욕과 캘리포니아의 성명권(right of publicity) 법률 위반이 핵심 법적 쟁점입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "1cfca2397ff85ad2",
+    "is_primary": true
+  },
+  {
+    "title": "Perplexity Comet hurtling toward Amazon ban",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/11/perplexity_comet_amazon_ban",
+    "source": "The Register - Legal",
+    "pub_date": "2026-03-11",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "Amazon이 Perplexity의 AI 브라우저 Comet에 대해 예비 금지 명령(preliminary injunction)을 획득했으며, 법원은 항소 기간을 위해 7일간의 행정적 유예를 부여했습니다.",
+      "연방 및 주(state) 컴퓨터 사기법 위반 혐의로 Perplexity가 Amazon의 접근 규칙을 위반하고 사용자 자격증명을 무단으로 사용하여 개인 계정 정보에 접근한 것으로 판단되었습니다.",
+      "본 판결은 AI 에이전트 경제 모델에 법적 제약을 가하며, 자동화된 전자상거래 거래가 기술 업계의 '빠르게 움직이고 부수적 피해를 감수하는' 방식이 아닌 협상과 계약을 통해 진행되어야 함을 시사합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "8128587071cd249b",
+    "is_primary": true
+  }
+]

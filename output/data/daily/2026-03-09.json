@@ -1,0 +1,50 @@
+[
+  {
+    "title": "AI vs AI: Agent hacked McKinsey's chatbot and gained full read-write access in just two hours",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/09/mckinsey_ai_chatbot_hacked",
+    "source": "The Register - Security",
+    "pub_date": "2026-03-09",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "CodeWall의 AI 에이전트가 McKinsey의 내부 AI 플랫폼 'Lilli'를 2시간 내에 해킹하여 전체 읽기-쓰기 접근 권한을 획득했습니다.",
+      "공격자는 인증되지 않은 API 엔드포인트의 SQL 인젝션 취약점을 악용하여 4,650만 개의 채팅 메시지, 728,000개의 기밀 파일, 57,000개의 사용자 계정에 접근할 수 있었습니다.",
+      "AI 에이전트를 활용한 자동화된 사이버 공격이 실제 위협으로 대두되고 있으며, 게임사를 포함한 모든 기업의 AI 시스템 보안 강화가 시급한 상황입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "214d9b7437eb59b0",
+    "is_primary": true
+  },
+  {
+    "title": "'If we love this work, we have to protect it:' Heart Machine workers secure voluntary union recognition",
+    "url": "https://gamedeveloper.com/business/-if-we-love-this-work-we-have-to-protect-it-heart-machine-workers-secure-voluntary-union-recognition",
+    "source": "GameDeveloper",
+    "pub_date": "2026-03-09",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "Heart Machine의 직원 13명이 미국 통신노동자연맹(CWA)과의 자발적 노조 인정을 확보했습니다.",
+      "노조원들은 업계 동료들의 노조 결성 움직임에 영감을 받아 조직되었으며, 일과 삶의 균형, 창의적 자율성, 고용 안정성 보장을 주요 협상 사항으로 추진할 계획입니다.",
+      "게임 산업 전반에서 노조화가 가속화되고 있으며, CWA는 지난 수년간 약 4,000명의 근로자를 조직했고 Microsoft 자회사인 Blizzard Entertainment와 ZeniMax Media도 포함되어 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "d2ea0078336ad0f9",
+    "is_primary": true
+  }
+]

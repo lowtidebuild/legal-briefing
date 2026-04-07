@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Fortnite leaker actually worked for Epic Games, according to new lawsuit",
+    "url": "https://gamedeveloper.com/business/fortnite-leaker-actually-worked-for-epic-games-according-to-new-lawsuit",
+    "source": "GameDeveloper",
+    "pub_date": "2026-03-05",
+    "category": "IP",
+    "summary_ko": [
+      "Epic Games가 North Carolina 법원에서 전직 계약직 직원 Hayden Cohen(온라인명 'AdiraFNInfo')을 상대로 소송을 제기했습니다.",
+      "Cohen은 2025년 9월 비공개 협약에 서명했으나 1월과 2월에 Minecraft, Game of Thrones, Overwatch, South Park, Kingdom Hearts 등 미공개 협력 콘텐츠를 13,000명 이상의 팔로워에게 유출한 혐의를 받고 있습니다.",
+      "Epic Games는 영업비밀 도용, 계약 위반, North Carolina 부정경쟁법 위반으로 손해배상을 청구하고 있으며, 2월 20일 중단 요청장을 발송했으나 Cohen이 완전히 준수하지 않았다고 주장합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "caac247a688adada",
+    "is_primary": true
+  },
+  {
+    "title": "Embark Studios rushes to fix Arc Raiders Discord integration bug as \"serious privacy and security violations\" may have exposed private Discord DMs, friends data, more",
+    "url": "https://eurogamer.net/arc-raiders-discord-messages-security-problem-fix-incoming",
+    "source": "Eurogamer",
+    "pub_date": "2026-03-05",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "Arc Raiders에서 Discord 통합 기능의 심각한 보안 결함이 발견되었으며, 개인 Discord DM, 친구 목록, 인증 토큰 등이 평문으로 로컬 로그 파일에 저장되고 있습니다.",
+      "보안 연구자 Timothy Meadows는 Arc Raiders의 Discord SDK가 필터링 없이 모든 데이터를 디스크에 기록하여 크래시 리포트나 같은 기계의 다른 애플리케이션을 통해 제3자가 접근할 수 있다고 지적했습니다.",
+      "Embark Studios는 긴급 핫픽스를 준비 중이며 Discord SDK 로깅을 비활성화하고 추가 감시를 실시할 예정이라고 공식 성명을 발표했습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "bd3e2605a0dc8f7f",
+    "is_primary": true
+  },
+  {
+    "title": "The Pokemon Company Pushes Back Against Trump Administration's Latest Pokemon Meme",
+    "url": "https://gamespot.com/articles/the-pokemon-company-pushes-back-against-trump-administrations-latest-pokemon-meme/1100-6538615?ftag=CAD-01-10abi2f",
+    "source": "GameSpot",
+    "pub_date": "2026-03-05",
+    "category": "IP",
+    "summary_ko": [
+      "포켓몬 컴퍼니 인터내셔널이 트럼프 행정부의 포켓몬 저작권 무단 사용에 대해 공식 성명을 발표했습니다.",
+      "백악관이 포켓몬 포키오피아 게임의 폰트와 스크린샷을 사용하여 'MAGA' 밈을 X에 게시했으며, 포켓몬 컴퍼니는 이에 대한 허가를 부여하지 않았다고 명시했습니다.",
+      "포켓몬 컴퍼니는 자신의 브랜드가 정치적 의제와 무관하다는 입장을 표명하며, 백악관의 반복적인 지적재산권 침해에 대항하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "a1acd08de6a84569",
+    "is_primary": true
+  },
+  {
+    "title": "ByteDance’s AI Ambitions Are Being Hampered by Compute Restraints and Copyright Concerns",
+    "url": "https://wired.com/story/made-in-china-bytedances-ai-ambitions-are-being-hampered-by-compute-restraints",
+    "source": "WIRED - Business",
+    "pub_date": "2026-03-05",
+    "category": "IP",
+    "summary_ko": [
+      "ByteDance의 Sora 경쟁 모델인 Seedance 2.0이 2월 공개되었으나, 과도한 수요로 인한 GPU 부족으로 영상 생성에 수 시간이 소요되는 심각한 컴퓨팅 병목 현상을 겪고 있습니다.",
+      "Disney, Netflix, Paramount 등 주요 영화사들이 Seedance 2.0의 저작권 침해를 주장하며 중단 요청장을 발송했으며, 중국의 약한 지적재산권 보호 체계가 이러한 분쟁 해결을 어렵게 하고 있습니다.",
+      "중국 엔터테인먼트 업계는 미국과 달리 생성형 AI에 우호적이나, 창작자의 음성·이미지 무단 사용 및 저작권 침해 콘텐츠 확산 등 법적·윤리적 문제가 누적되고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "2eabadb287d72f11",
+    "is_primary": true
+  }
+]

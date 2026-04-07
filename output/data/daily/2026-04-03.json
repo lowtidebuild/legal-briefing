@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Meta Pauses Work With Mercor After Data Breach Puts AI Industry Secrets at Risk",
+    "url": "https://wired.com/story/meta-pauses-work-with-mercor-after-data-breach-puts-ai-industry-secrets-at-risk",
+    "source": "WIRED - Business",
+    "pub_date": "2026-04-03",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "Meta는 AI 모델 훈련 데이터 공급업체인 Mercor의 대규모 보안 침해 사건을 조사하면서 해당 업체와의 모든 업무를 무기한 중단했습니다.",
+      "OpenAI, Anthropic 등 주요 AI 연구소들도 Mercor과의 협력을 재평가 중이며, 침해 사건으로 인한 독점 훈련 데이터 노출 범위를 파악하고 있습니다.",
+      "TeamPCP로 추정되는 공격자가 LiteLLM API 도구를 손상시켜 Mercor을 포함한 수천 개 조직에 영향을 미쳤으며, 경쟁사(중국 포함)에 AI 훈련 방식 관련 핵심 정보가 노출될 수 있는 상황입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "2eb379e531241337",
+    "is_primary": true
+  }
+]

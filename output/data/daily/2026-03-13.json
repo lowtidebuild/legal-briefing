@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Direct-join union UVW-CWA now has 550 members",
+    "url": "https://gamedeveloper.com/production/direct-join-union-uvw-cwa-has-united-over-550-members",
+    "source": "GameDeveloper",
+    "pub_date": "2026-03-13",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "미국과 캐나다의 게임 개발자를 위한 직접 가입 노조인 UVW-CWA(United Videogame Workers-CWA)가 약 550명의 회원을 확보했습니다.",
+      "UVW-CWA는 2025년 3월 설립되었으며, 인증 절차 없이 지원서 작성과 회비 납부만으로 가입할 수 있는 구조로 운영되고 있습니다.",
+      "해당 노조는 '비디오게임 노동자 권리장전' 제정, 법적 지원, 계약 표준 수립 등을 통해 게임 산업 전반의 노동 조건 개선을 추진하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "52bfd61defd7cc4a",
+    "is_primary": true
+  },
+  {
+    "title": "Google's AI Search Results Love to Refer You Back to Google",
+    "url": "https://wired.com/story/google-ai-searches-love-to-refer-you-back-to-google",
+    "source": "WIRED - AI",
+    "pub_date": "2026-03-13",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "Google의 AI 검색 도구(AI Mode)가 인용 링크의 17%를 Google 검색 결과로 다시 연결하고 있으며, 이는 지난 1년간 3배 증가한 수치입니다.",
+      "YouTube를 포함한 Google 자사 서비스로의 인용이 증가하면서 제3자 출판사의 트래픽 감소 문제가 심화되고 있습니다.",
+      "Google이 AI 요약 기능에서 자사 콘텐츠를 우선시하는 관행은 광고 수익 증대에는 유리하나, 웹 생태계 전체와 외부 출판사의 지속가능성에 대한 규제 및 경쟁법 우려를 야기합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "12d339326d1f77cf",
+    "is_primary": true
+  }
+]

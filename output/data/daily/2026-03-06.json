@@ -1,0 +1,194 @@
+[
+  {
+    "title": "Tim Sweeney: Epic Games settled antitrust case to lock in gains with Google Store worldwide | exclusive interview",
+    "url": "https://gamesbeat.com/tim-sweeney-epic-games-settled-antitrust-case-to-lock-in-gains-with-google-store-worldwide-exclusive-interview",
+    "source": "VentureBeat - GamesBeat",
+    "pub_date": "2026-03-06",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "Epic Games가 Google과의 독점금지법 소송을 합의로 종료하였으며, Tim Sweeney CEO는 Google Play Store 전 세계 접근성 확보를 주요 성과로 평가했습니다.",
+      "2020년 8월 13일 Fortnite가 Google과 Apple에 의해 전 세계적으로 삭제된 지 2,030일 만에 이루어진 합의로, Epic Games의 장기간 법적 분쟁이 일단락되었습니다.",
+      "본 합의는 Epic Games가 모바일 게임 배포 채널 다양화 목표를 달성하고 플랫폼 독점에 대한 규제 압력을 완화하는 계기가 될 것으로 예상됩니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "ff87170bdeadf5a2",
+    "is_primary": true
+  },
+  {
+    "title": "Nintendo sues US government over Trump administration tariffs",
+    "url": "https://gamedeveloper.com/business/nintendo-sues-us-government-over-trump-administration-tariffs",
+    "source": "GameDeveloper",
+    "pub_date": "2026-03-06",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "닌텐도가 트럼프 행정부의 관세에 대해 미국 국제무역법원에 소송을 제기했습니다.",
+      "연방 판사가 관세를 납부한 기업들이 환급받을 자격이 있다고 판결한 후, 닌텐도는 이자를 포함한 관세 환급을 청구하고 있습니다.",
+      "수천 개의 기업이 유사한 소송을 제기 중이며, 관세는 특히 닌텐도의 Switch 2 출시 시기에 영향을 미쳤습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "4f1be2960790c330",
+    "is_primary": true
+  },
+  {
+    "title": "\"We are providing guidance to developers\" - Discord promises a fix and \"additional protections\" following discovery of Arc Raiders bug that stored users' private messages",
+    "url": "https://eurogamer.net/discord-promises-additional-protections-following-arc-raiders-bug-that-stored-users-private-messages",
+    "source": "Eurogamer",
+    "pub_date": "2026-03-06",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "Arc Raiders의 Discord 통합 기능에서 사용자의 개인 Discord 메시지를 PC에 로컬로 저장하는 보안 결함이 발견되었으며, Embark Studios가 핫픽스로 즉시 해결했습니다.",
+      "Discord는 Social SDK의 디버그 로깅 기능이 원인이었으며, 개발자 지침 업데이트 및 SDK 보안 강화를 통해 유사 사건 재발 방지에 나섰습니다.",
+      "해당 로그 파일이 버그 리포트에 포함되거나 기기 접근 권한이 있는 다른 앱에 의해 접근될 수 있었던 점에서 2차 피해 위험이 존재했습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "c37daf55f280f404",
+    "is_primary": true
+  },
+  {
+    "title": "When AI Companies Go to War, Safety Gets Left Behind",
+    "url": "https://wired.com/story/when-ai-companies-go-to-war-safety-gets-left-behind",
+    "source": "WIRED - Business",
+    "pub_date": "2026-03-06",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "미국 국방부와 Anthropic 간의 계약 분쟁으로 AI 안전 규제에 대한 업계 합의가 붕괴되고 있습니다. 국방부는 자율 무기 및 대량 감시 금지 조항 삭제를 요구했고, Anthropic의 거부로 공급망 위험 지정을 받았습니다.",
+      "Anthropic이 설립 초기 핵심 정책이었던 '책임감 있는 확장 정책(Responsible Scaling Policy)'을 완화하기로 결정했으며, 이는 AI 업계의 '상향식 경쟁(race to the top)' 전략의 실패를 의미합니다.",
+      "OpenAI가 국방부 계약을 체결하면서 AI 기업 간 경쟁이 심화되고 있으며, 안전 우선 원칙보다 경쟁력과 경제 성장이 우선시되는 정책 환경으로 변화하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "50fe0abd05bb97ad",
+    "is_primary": true
+  },
+  {
+    "title": "SEC and CFTC progress toward harmonized crypto regulation",
+    "url": "https://regulationtomorrow.com/2026/03/sec-and-cftc-progress-toward-harmonized-crypto-regulation",
+    "source": "Norton Rose Fulbright - Regulation Tomorrow",
+    "pub_date": "2026-03-06",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "미국 증권거래위원회(SEC)와 상품선물거래위원회(CFTC)가 암호화폐 자산에 대한 규제 조화를 추진 중이며, 이는 미국 금융시장 내 디지털 자산 통합을 촉진할 것으로 예상됩니다.",
+      "두 기관의 최근 성명과 직원 조치들은 디지털 자산에 대한 보다 체계적이고 조화된 규제 접근 방식으로의 의미 있는 전환을 반영합니다.",
+      "게임사가 암호화폐 기반 게임 내 자산이나 블록체인 기술을 활용할 경우, 향후 SEC와 CFTC의 통일된 규제 기준 준수가 필수적이 될 것으로 예상됩니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "61e5b5d4c1224560",
+    "is_primary": true
+  },
+  {
+    "title": "Stakeholder event on political advertising: agenda available now",
+    "url": "https://edpb.europa.eu/news/news/2026/stakeholder-event-political-advertising-agenda-available-now_en",
+    "source": "EDPB - News",
+    "pub_date": "2026-03-06",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "유럽 데이터 보호위원회(EDPB)는 2026년 3월 27일 정치광고 개인정보 처리에 관한 가이드라인 개발을 위해 이해관계자 의견 수렴 원격 행사를 개최합니다.",
+      "본 행사는 정치광고의 투명성 및 타겟팅 규제(Regulation on the transparency and targeting of political advertising)에 따른 개인정보 처리 기준 수립을 위한 EDPB의 진행 중인 작업을 지원하기 위한 것입니다.",
+      "게임사를 포함한 온라인 플랫폼 운영자들은 정치광고 타겟팅 시 개인정보 처리 규제 강화에 대비하여 광고 시스템 및 데이터 처리 정책 검토가 필요합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "c3e634433bdcec1d",
+    "is_primary": true
+  },
+  {
+    "title": "Developer use of generative AI may be declining",
+    "url": "https://gamedeveloper.com/production/developer-use-of-generative-ai-may-be-declining",
+    "source": "GameDeveloper",
+    "pub_date": "2026-03-06",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "게임 개발자 집단 조사에 따르면 생성형 AI 도구 사용률이 2025년 36%에서 2026년 29%로 전년 대비 7%포인트 감소했습니다.",
+      "개발자들의 생성형 AI에 대한 부정적 인식이 심화되고 있으며, 비용 절감 효과에 대한 낙관론도 27%에서 21%로 하락했습니다.",
+      "저작권 침해 우려, 환경 영향, AI 기업의 재정 건전성 문제 등 다양한 비판이 지속되고 있어 업계의 생성형 AI 도입 추세가 둔화되는 상황입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "cdeb6465ce84c16d",
+    "is_primary": true
+  },
+  {
+    "title": "The War on Iran Puts Global Chip Supplies and AI Expansion at Risk",
+    "url": "https://wired.com/story/the-war-on-iran-puts-global-chip-supply-and-ai-expansion-at-risk",
+    "source": "WIRED - Business",
+    "pub_date": "2026-03-06",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "미국-이스라엘의 이란 전쟁으로 인한 중동 지역 불안정이 반도체 산업의 핵심 원재료 공급망을 위협하고 있습니다.",
+      "카타르에서 생산되는 전 세계 헬륨의 38%가 차단될 수 있으며, 반도체 제조에 필수적인 14개 추가 물질의 공급도 중단될 위험이 있습니다.",
+      "호르무즈 해협 해상 운송로 차단 시 에너지 가격 상승으로 반도체 생산 비용이 증가할 수 있으며, AI 인프라 확장 계획도 지연될 수 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "070e4c44e73aa6cc",
+    "is_primary": true
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "title": "More Subnautica 2 legal trouble brewing amid claims Krafton \"intentionally leaked\" May release without consulting reinstated CEO",
+    "url": "https://eurogamer.net/more-subnautica-2-legal-trouble-brewing",
+    "source": "Eurogamer",
+    "pub_date": "2026-03-20",
+    "category": "ETC",
+    "summary_ko": [
+      "델라웨어 법원이 Krafton이 Unknown Worlds와의 주식매수계약을 위반하여 CEO Ted Gill을 부당하게 해임했다고 판결한 직후, Gill의 법무팀이 Krafton을 법정모욕죄로 고발할 것을 요청했습니다.",
+      "Krafton이 법원 판결을 무시하고 Gill과 협의 없이 Subnautica 2의 5월 얼리액세스 출시를 공식 발표함으로써 법원 명령을 위반했다는 주장입니다.",
+      "Gill의 법무팀은 Krafton이 의도적으로 출시 공지를 '누출'했으며, 이는 게임 출시 시기와 방식을 결정할 Gill의 법적 권리를 훼손했다고 주장하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "cd39ddcf7a366f15",
+    "is_primary": true
+  },
+  {
+    "title": "FTC Issues New Advance Notice of Proposed Rulemaking on Negative Option Marketing",
+    "url": "https://cooley.com/news/insight/2026/2026-03-19-ftc-issues-new-advance-notice-of-proposed-rulemaking-on-negative-option-marketing",
+    "source": "Cooley - Media (Newsroom)",
+    "pub_date": "2026-03-20",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "FTC는 2026년 3월 11일 '부정 선택 옵션 규칙(Negative Option Rule)'에 대한 선제적 규칙 제정 공지(ANPRM)를 발표하고 4월 13일까지 공개 의견 수렴을 진행합니다.",
+      "2024년 10월 개정된 규칙이 2025년 7월 8순환항소법원에 의해 절차 결함으로 전면 무효화된 후, FTC가 소비자 불만 증가를 이유로 규칙 제정 절차를 재개했습니다.",
+      "새 규칙은 부정 표시 금지, 명시적 동의 획득, 공시 요건, 간편한 취소 메커니즘 등 4가지 핵심 요건과 '세이브(Saves)' 인센티브의 공정성 여부를 검토 대상으로 하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "56e86f13f8833141",
+    "is_primary": true
+  }
+]

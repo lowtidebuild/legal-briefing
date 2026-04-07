@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Trump administration debates getting Chinese Tencent money out of US gaming over feared security risks",
+    "url": "https://eurogamer.net/trump-administration-debates-getting-chinese-tencent-money-out-of-us-gaming",
+    "source": "Eurogamer",
+    "pub_date": "2026-03-04",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "트럼프 행정부가 중국 텐센트의 미국 게임사 투자(에픽게임즈 28% 지분, 라이엇게임즈 100% 소유 등)가 국가안보 위험을 초래하는지 검토 중입니다.",
+      "텐센트의 미국 내 주요 투자 대상은 포트나이트 개발사 에픽게임즈, 리그오브레전드 개발사 라이엇게임즈, 클래시오브클랜 개발사 슈퍼셀 등이며, 행정부는 이들 플랫폼이 중국의 정보수집 수단으로 악용될 수 있다고 우려하고 있습니다.",
+      "바이든 행정부도 텐센트의 중국 군부 연계성을 조사했으며, 트럼프 행정부가 텐센트 투자 제한 조치를 취할 경우 미국 게임산업에 광범위한 영향을 미칠 수 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "f11cf5a3c49c08a6",
+    "is_primary": true
+  },
+  {
+    "title": "Grammarly Is Offering ‘Expert’ AI Reviews From Your Favorite Authors—Dead or Alive",
+    "url": "https://wired.com/story/grammarly-is-offering-expert-ai-reviews-from-your-favorite-authors-dead-or-alive",
+    "source": "WIRED - AI",
+    "pub_date": "2026-03-04",
+    "category": "IP",
+    "summary_ko": [
+      "Grammarly(현 Superhuman)이 실제 저자와 학자의 동의 없이 그들을 모방한 AI 에이전트를 통해 '전문가 리뷰' 기능을 제공하고 있습니다.",
+      "Stephen King, Carl Sagan 등 생존 및 사망한 저명인사의 저작물을 학습한 AI가 사용자의 글에 대해 마치 본인이 직접 평가하는 것처럼 피드백을 제공합니다.",
+      "학계에서는 이 기능이 저자의 동의 없는 저작물 수집, 개인의 명성 무단 사용, 학문적 윤리 침해 등 다중의 법적·윤리적 문제를 야기한다고 지적하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "4614dba459aa0b92",
+    "is_primary": true
+  },
+  {
+    "title": "Malware-laced OpenClaw installers get Bing AI search boost",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/04/fake_openclaw_installers_malware",
+    "source": "The Register - Security",
+    "pub_date": "2026-03-04",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "OpenClaw AI 에이전트의 가짜 설치 프로그램이 Bing AI 검색 결과를 통해 배포되어 정보 탈취 악성코드(Vidar stealer)와 GhostSocks 프록시 악성코드를 사용자 시스템에 설치했습니다.",
+      "악의적인 GitHub 저장소는 2월 2-10일 운영되었으며, 신뢰할 수 있는 플랫폼 악용과 검색 엔진 최적화를 통해 수천 명의 사용자를 기만했습니다.",
+      "게임사가 AI 에이전트 기술을 도입할 경우 유사한 공급망 공격, 사용자 자격증명 탈취, 규제 감시 강화 등의 법적·보안 리스크에 직면할 수 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "a2426be928959169",
+    "is_primary": true
+  }
+]

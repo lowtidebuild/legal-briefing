@@ -1,0 +1,146 @@
+[
+  {
+    "title": "Adobe「訂閱陷阱」以台幣48億達成和解 但否認合約有不妥之處",
+    "url": "https://4gamers.com.tw/news/detail/77686/adobe-pay-to-settlement-fot-subscription-trap",
+    "source": "4gamers",
+    "pub_date": "2026-03-16",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "Adobe가 구독 서비스의 위약금 조항을 의도적으로 은폐했다는 혐의로 미국 FTC로부터 제소되어 1억 5천만 달러(약 48억 대만달러)에 합의했습니다.",
+      "합의금은 7천 5백만 달러의 민사 벌금과 7천 5백만 달러 상당의 미국 사용자 보상(무료 서비스 형태)으로 구성되며, Adobe는 부당 행위를 부인하면서도 향후 약관 설명을 투명화하겠다고 약속했습니다.",
+      "Adobe는 위약금 정보를 수동으로 클릭해야 하는 주석에 숨겨두었으며, 미국 정부 소송 외에도 집단 민사소송과 유럽·호주 등지의 규제 당국 조사가 진행 중입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "c420cb6beca33f5a",
+    "is_primary": true
+  },
+  {
+    "title": "Bombshell judgment demands Krafton immediately reinstate ousted CEO and return his authority over Subnautica 2",
+    "url": "https://gamesindustry.biz/bombshell-judgment-demands-krafton-immediately-reinstate-ousted-ceo-and-return-his-authority-over-subnautica-2",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-03-16",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "델라웨어 법원이 Krafton을 상대로 한 소송에서 Unknown Worlds의 전 CEO Ted Gill의 복직과 Subnautica 2 얼리 액세스 통제권 반환을 명령했습니다.",
+      "법원은 Krafton이 2억 5천만 달러 보너스 지급을 회피하기 위해 주요 임직원들을 부당하게 해고했다고 판단하며, 보너스 획득 기한을 2026년 9월 15일까지 연장했습니다.",
+      "Krafton은 판결에 이의를 제기하며 항소 검토 중이며, 손해배상 청구와 관련된 추가 소송이 계속 진행 중입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "8416397f3c84986c",
+    "is_primary": true
+  },
+  {
+    "title": "If you're still playing Pokémon Go, you're helping train data-gobbling GPS AI for Niantic Spatial",
+    "url": "https://eurogamer.net/pokemon-go-helps-train-gps-ai-for-niantic-spatial",
+    "source": "Eurogamer",
+    "pub_date": "2026-03-16",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "Niantic은 Pokémon Go 앱을 통해 수집한 사용자 이미지 데이터(30억 장)를 자회사 Niantic Spatial의 지리공간 AI 모델 학습에 활용하고 있습니다.",
+      "해당 데이터 수집은 이용약관에 명시되어 있으나, 사용자들이 자신의 위치 정보와 이미지가 로봇 배송, 군사 용도 등 광범위한 상업적 목적으로 활용될 수 있음을 인식하지 못할 가능성이 있습니다.",
+      "Amazon, DoorDash 등 대형 기업과의 협력을 통해 수집된 지리공간 데이터의 상업화가 진행 중이며, 이는 사용자 동의의 명확성과 데이터 활용 범위에 관한 규제 리스크를 야기합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "c011a399bdb631d0",
+    "is_primary": true
+  },
+  {
+    "title": "DLSS 5 clearly overwrites game characters with AI beauty standards, but Nvidia says devs have 'artistic control'",
+    "url": "https://pcgamer.com/software/ai/dlss-5-clearly-overwrites-game-characters-with-ai-beauty-standards-but-nvidia-says-devs-have-artistic-control",
+    "source": "PC Gamer",
+    "pub_date": "2026-03-16",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "엔비디아의 DLSS 5 AI 렌더링 기술이 게임 캐릭터의 외형을 원본 디자인과 다르게 변형하는 문제가 제기되었습니다.",
+      "데모 영상에서 캐릭터의 입술과 광대뼈 등이 특정 미용 기준에 맞춰 자동으로 수정되는 '야시피케이션' 현상이 관찰되었습니다.",
+      "엔비디아와 베데스다는 개발자가 완전한 예술적 통제권을 가진다고 주장하지만, 게임 크리에이터의 창작 의도가 AI에 의해 훼손될 수 있다는 우려가 제기되고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "8737d9be8527ef18",
+    "is_primary": true
+  },
+  {
+    "title": "Free Software Foundation calls for free-range LLMs rather than factory-farmed AI",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/16/free_software_foundation_urges_ai",
+    "source": "The Register - Legal",
+    "pub_date": "2026-03-16",
+    "category": "IP",
+    "summary_ko": [
+      "자유소프트웨어재단(FSF)은 Anthropic이 GNU 자유문서라이선스(GNU FDL)로 공개된 저작물을 허가 없이 AI 모델 학습에 사용한 것에 대해 이의를 제기했습니다.",
+      "Anthropic은 Bartz v. Anthropic 저작권 침해 소송 합의의 일환으로 15억 달러 기금을 조성하기로 합의했으며, FSF도 합의 통지를 받았습니다.",
+      "FSF는 LLM 개발자들이 학습 데이터와 모델, 소스 코드를 사용자에게 공개할 것을 촉구했으나, 업계의 실질적 변화 가능성은 낮은 것으로 평가됩니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "fc7125a002300722",
+    "is_primary": true
+  },
+  {
+    "title": "Judge delivers bombshell order for Krafton to reinstate fired Subnautica 2 devs and CEO, putting $250m bonus package back on the table",
+    "url": "https://eurogamer.net/kraft-subnautica-2-ceo-reinstated-judge",
+    "source": "Eurogamer",
+    "pub_date": "2026-03-16",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "미국 판사가 Krafton이 2025년 7월 해고한 Unknown Worlds의 CEO Ted Gill과 개발자들을 복직시키고 Subnautica 2의 완전한 운영 권한을 회복하도록 명령했습니다.",
+      "법원은 Krafton이 고용 계약(EPA)을 위반하여 정당한 사유 없이 핵심 직원을 해고하고 스튜디오의 운영 통제권을 부당하게 장악했다고 판단하여 해고 결의를 무효 처리했습니다.",
+      "복직 결정에 따라 Unknown Worlds 창립자들이 박탈당했던 2억 5천만 달러 보너스 지급 기간이 2026년 이후까지 연장되어 해당 보너스를 다시 받을 수 있게 되었습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "8c81d2c36822e507",
+    "is_primary": true
+  }
+]

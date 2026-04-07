@@ -1,0 +1,146 @@
+[
+  {
+    "title": "Nearly nine in ten games industry workers believe GenAI use should be disclosed on storefronts",
+    "url": "https://gamesindustry.biz/nearly-nine-in-ten-games-industry-workers-believe-genai-use-should-be-disclosed-on-storefronts",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-03-19",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "게임 업계 종사자 88.4%가 디지털 스토어프론트에서 생성형 AI 사용을 공개해야 한다고 응답했으며, 현재 Steam의 약 7%만 AI 사용을 선언하고 있습니다.",
+      "Valve의 AI 공개 정책이 2025년 1월 완화되어 개발 효율성 도구 사용은 공개 대상에서 제외되었으나, 응답자의 48.7%가 이러한 접근 방식에 반대하고 있습니다.",
+      "응답자의 82~86%는 음성, 음악, 텍스트, 그래픽 등 창작 자산 생성에 AI 사용을 절대 허용할 수 없다고 주장하며, 투명성 강화를 요구하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "7cf987a172ebf4f6",
+    "is_primary": true
+  },
+  {
+    "title": "索尼開發「保護型AI」反制吉卜力風格侵權 嘗試建立創作者分潤機制",
+    "url": "https://4gamers.com.tw/news/detail/77792/sony-combats-ghibli-ai-slop-copyright-protection-tool",
+    "source": "4gamers",
+    "pub_date": "2026-03-19",
+    "category": "IP",
+    "summary_ko": [
+      "소니가 생성형 AI의 저작권 침해를 방지하기 위한 '보호형 AI(Protective AI)' 기술을 개발 중이며, 지브리 스튜디오 작품 같은 저작권 보호 콘텐츠를 AI 학습에 직접 활용하여 유사 스타일 생성을 차단하는 방식을 채택하고 있습니다.",
+      "해당 기술은 단순 침해 방지를 넘어 AI 생성 콘텐츠 추적 및 원작자 보상 메커니즘 구축을 목표로 하며, 음악 분야의 '역학습(unlearning)' 기술을 기반으로 한 추적 가능한 수익 배분 시스템 확대를 계획하고 있습니다.",
+      "소니는 게임, 음악, 영화, 애니메이션 등 광범위한 콘텐츠 자산을 보유한 만큼, 해당 기술이 상용화될 경우 그룹 내 창작자 권익 보호의 핵심 도구로 활용될 가능성이 높습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "42c9a7965209d43f",
+    "is_primary": true
+  },
+  {
+    "title": "CEF 2026: EDPB launches coordinated enforcement action on transparency and information obligations under the GDPR",
+    "url": "https://edpb.europa.eu/news/news/2026/cef-2026-edpb-launches-coordinated-enforcement-action-transparency-and-information_en",
+    "source": "EDPB - News",
+    "pub_date": "2026-03-19",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "유럽 데이터보호위원회(EDPB)가 2026년 조정 집행 프레임워크(CEF) 조치를 시작하며, 올해 초점을 GDPR상 투명성 및 정보 공개 의무 준수로 설정했습니다.",
+      "유럽 전역 25개 데이터보호청(DPA)이 참여하여 컨트롤러들의 투명성 의무 준수 여부를 평가하고, 집행 조치 또는 사실 확인 활동을 통해 접근할 예정입니다.",
+      "2026년 하반기에 각 DPA의 조사 결과를 집계하여 통합 보고서를 작성하고, 국가 및 EU 차원의 후속 조치를 위한 근거로 활용할 계획입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "8cde6d96785fca06",
+    "is_primary": true
+  },
+  {
+    "title": "Google says it will let UK publishers opt out of AI overviews",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/19/google_opts_for_optout_on",
+    "source": "The Register - Legal",
+    "pub_date": "2026-03-19",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "영국 경쟁시장청(CMA)의 전략적 시장지위(SMS) 지정에 따라 Google이 AI 오버뷰 기능에서 퍼블리셔의 옵트아웃 권리를 허용하겠다고 발표했습니다.",
+      "Publishers Association은 Google의 검색 크롤러와 AI 크롤러의 완전한 분리를 요구하며, 학술 참고 서비스로의 클릭률이 19% 감소했다고 지적했습니다.",
+      "Google은 기본 검색 엔진 변경을 위한 중앙 설정 스위치 제공을 제안했으나, 규제 당국과 퍼블리셔들은 선택 화면(choice screen) 도입을 계속 요구하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "fb416797b9ed3d70",
+    "is_primary": true
+  },
+  {
+    "title": "Tomb Raider Remastered studio denies using generative AI after new Challenge Mode gets panned by players",
+    "url": "https://eurogamer.net/tomb-raider-remastered-studio-denies-using-generative-ai-after-new-challenge-mode-gets-panned-by-players",
+    "source": "Eurogamer",
+    "pub_date": "2026-03-19",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "Tomb Raider 1-3 Remastered 개발사 Aspyr는 최근 공개된 Challenge Mode 업데이트에서 생성형 AI가 사용되지 않았다고 공식 입장을 발표했습니다.",
+      "업데이트에 포함된 새로운 라라 의상들이 AI로 생성된 것으로 보인다는 플레이어들의 비판이 Steam 리뷰에서 광범위하게 제기되었습니다.",
+      "Aspyr는 모든 의상이 자사 아티스트 팀에 의해 제작되었으며 AI 생성 자산이 포함되지 않았다고 명시했으나, 커뮤니티의 신뢰 회복에는 여전히 어려움을 겪고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "b71806fb6d19733b",
+    "is_primary": true
+  },
+  {
+    "title": "The Fight to Hold AI Companies Accountable for Children’s Deaths",
+    "url": "https://wired.com/story/how-ai-chatbots-drove-families-to-the-brink-and-the-lawyer-fighting-back",
+    "source": "WIRED - Business",
+    "pub_date": "2026-03-19",
+    "category": "CONTENT_AGE",
+    "summary_ko": [
+      "OpenAI의 ChatGPT를 포함한 AI 챗봇 기업들을 상대로 아동 자살 관련 소송이 제기되고 있으며, 변호사 Laura Marquez-Garrett과 Matthew Bergman이 주도적으로 7건의 소송을 진행 중입니다.",
+      "원고들은 ChatGPT의 메모리 기능이 사용자의 개인정보를 수집·저장하여 자해 위험을 증가시키는 결함 있는 제품 설계라고 주장하고 있습니다.",
+      "상원 사법위원회 소속 Josh Hawley 의원이 미성년자 대상 AI 동반자 금지 및 아동용 성인 콘텐츠 포함 AI 제품 개발 범죄화 법안을 발의했습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "b4353d4f289eb76d",
+    "is_primary": true
+  }
+]

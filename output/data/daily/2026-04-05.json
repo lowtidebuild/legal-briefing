@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Suno is a music copyright nightmare",
+    "url": "https://theverge.com/ai-artificial-intelligence/906896/sunos-copyright-ai-music-covers",
+    "source": "The Verge - Policy",
+    "pub_date": "2026-04-05",
+    "category": "IP",
+    "summary_ko": [
+      "Suno의 AI 음악 생성 플랫폼이 저작권 필터를 쉽게 우회할 수 있어 저작권 침해 위험이 심각한 상태입니다.",
+      "Audacity 같은 무료 도구로 음성을 변속하거나 화이트노이즈를 추가하면 Suno의 저작권 감지 시스템을 우회하여 유명 아티스트의 곡을 모방한 AI 커버를 생성할 수 있습니다.",
+      "생성된 AI 커버는 DistroKid 등 배포 서비스를 통해 스트리밍 플랫폼에 업로드되어 원곡 아티스트에게 로열티를 지불하지 않고 수익화될 수 있으며, 특히 소규모 독립 아티스트가 피해를 입을 위험이 높습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "55ab66eb4979bf63",
+    "is_primary": true
+  },
+  {
+    "title": "Limited Run Seemingly Throws Old Guard Under The Bus, Promising No Future Delays",
+    "url": "https://gamespot.com/articles/limited-run-seemingly-throws-old-guard-under-the-bus-promising-no-future-delays/1100-6539221?ftag=CAD-01-10abi2f",
+    "source": "GameSpot",
+    "pub_date": "2026-04-05",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "Limited Run Games는 전 CEO 조시 페어허스트의 퇴사 이후 신경영진이 고객 보상 및 투명성 강화를 약속하며 과거 경영진을 암시적으로 비판하고 있습니다.",
+      "동사는 저가 기록식 미디어 사용 의혹, 개인정보보호법 위반 소송, 품질관리 부실 등으로 인한 지속적인 논란에 직면해 있으며, 특히 수개월에서 수년에 이르는 배송 지연이 주요 고객 불만사항입니다.",
+      "신경영진은 고객들에게 발송한 대량 이메일을 통해 향후 더욱 정확한 배송 일정 제시와 과도하게 낙관적이었던 과거 약속에 대한 책임을 인정하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "7b4a9969eb1c44e9",
+    "is_primary": true
+  },
+  {
+    "title": "AI agents promise to 'run the business,' but who is liable if things go wrong?",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/05/ai_agents_liability",
+    "source": "The Register - Legal",
+    "pub_date": "2026-04-05",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "AI 에이전트가 기업 의사결정을 자동화하면서 벤더와 사용자 간 법적 책임 귀속이 불명확해지고 있습니다.",
+      "UK 금융감독청(FRC)은 AI 기술 사용 시에도 기업과 책임자가 감시 품질에 대해 책임진다고 명시했으며, 벤더는 예측 불가능한 AI의 특성을 이유로 무제한 보증을 거부하고 있습니다.",
+      "Gartner는 2026년 중반까지 AI 의사결정 오류로 인한 글로벌 구제 비용이 100억 달러를 초과할 것으로 예측하며, 기업들은 '방어 가능한 AI' 도입과 모델 설명 가능성 강화를 통해 법적 리스크를 관리해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "80012419386e3430",
+    "is_primary": true
+  }
+]

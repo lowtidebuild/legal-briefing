@@ -1,0 +1,80 @@
+[
+  {
+    "title": "EU lawmakers advance transparency rules for loot boxes",
+    "url": "https://example.com/eu-loot-box",
+    "source": "Sample Feed",
+    "pub_date": "2026-03-30",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "EU에서 루트박스 규제 관련 움직임이 포착됐다.",
+      "게임사 실무에 미칠 영향과 후속 집행 가능성을 함께 볼 필요가 있다.",
+      "원문 확인 후 대응 우선순위를 정리하기 좋은 이슈다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "legislation",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "EU regulators"
+      ],
+      "object": "loot box mechanics",
+      "action": "advanced or published new rules",
+      "game_mechanic": "loot_box",
+      "time_hint": ""
+    },
+    "event_key": "b88506c77e5323f9",
+    "is_primary": true
+  },
+  {
+    "title": "Korea updates mobile game age-rating guidance",
+    "url": "https://example.com/kr-age-rating",
+    "source": "Sample Feed",
+    "pub_date": "2026-03-30",
+    "category": "CONTENT_AGE",
+    "summary_ko": [
+      "한국에서 연령등급 규정 관련 움직임이 포착됐다.",
+      "게임사 실무에 미칠 영향과 후속 집행 가능성을 함께 볼 필요가 있다.",
+      "원문 확인 후 대응 우선순위를 정리하기 좋은 이슈다."
+    ],
+    "event": {
+      "jurisdiction": "KR",
+      "event_type": "legislation",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Korean regulators"
+      ],
+      "object": "mobile game age-rating guidance",
+      "action": "advanced or published new rules",
+      "game_mechanic": "age_rating",
+      "time_hint": ""
+    },
+    "event_key": "51fe04fc73b3c20d",
+    "is_primary": true
+  },
+  {
+    "title": "FTC settlement highlights children's privacy issues in gaming",
+    "url": "https://example.com/us-privacy",
+    "source": "Sample Feed",
+    "pub_date": "2026-03-30",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "미국에서 개인정보 규제 관련 움직임이 포착됐다.",
+      "게임사 실무에 미칠 영향과 후속 집행 가능성을 함께 볼 필요가 있다.",
+      "원문 확인 후 대응 우선순위를 정리하기 좋은 이슈다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "enforcement",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "FTC"
+      ],
+      "object": "children's privacy in gaming",
+      "action": "took enforcement action",
+      "game_mechanic": "data_collection",
+      "time_hint": ""
+    },
+    "event_key": "ea9f2b331041c5fc",
+    "is_primary": true
+  }
+]

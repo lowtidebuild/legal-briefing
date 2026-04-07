@@ -1,0 +1,50 @@
+[
+  {
+    "title": "A Tale as Old as 2020: Landmark $2.75 Million CCPA Enforcement",
+    "url": "https://cooley.com/news/insight/2026/2026-03-25-a-tale-as-old-as-2020-landmark-2-75-million-ccpa-enforcement",
+    "source": "Cooley - Media (Newsroom)",
+    "pub_date": "2026-03-25",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "캘리포니아 주 법무장관이 Disney를 상대로 CCPA 위반 및 소비자 기만 혐의로 275만 달러의 합의금을 부과했으며, 이는 CCPA 시행 이후 최대 규모의 집행 조치입니다.",
+      "Disney는 소비자의 개인정보 판매/공유 거부 요청을 여러 기기와 서비스에 걸쳐 완전히 이행하지 않았으며, Global Privacy Control(GPC) 신호를 거부 요청으로 인정하지 않은 혐의를 받았습니다.",
+      "합의 조건으로 Disney는 로그인 시 모든 기기와 스트리밍 서비스에 걸쳐 거부 요청을 연계 처리하고, 요청 방식과 관계없이 모든 타겟 광고를 중단해야 하며, 정기적으로 준수 현황을 보고해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "98e412f3bdc2304f",
+    "is_primary": true
+  },
+  {
+    "title": "AI supply chain attacks don’t even require malware…just post poisoned documentation",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/25/ai_agents_supply_chain_attack_context_hub",
+    "source": "The Register - Security",
+    "pub_date": "2026-03-25",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "Context Hub라는 AI 코딩 에이전트용 API 문서 제공 서비스에서 콘텐츠 검증 없이 악의적 문서 주입이 가능한 공급망 공격 취약점이 발견되었습니다.",
+      "보안 연구자가 공개한 개념 증명(PoC)에 따르면 GitHub PR을 통해 가짜 패키지 의존성을 문서에 삽입하면 AI 에이전트가 이를 자동으로 프로젝트 파일에 포함시키는 것으로 확인되었습니다.",
+      "현재 Context Hub의 PR 승인률이 높고(97개 중 58개 병합) 자동화된 보안 스캔이 부재하여, 게임사가 AI 에이전트 기반 개발 도구 사용 시 공급망 공격 리스크에 노출될 수 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "1fe3ff504ad51ae1",
+    "is_primary": true
+  }
+]

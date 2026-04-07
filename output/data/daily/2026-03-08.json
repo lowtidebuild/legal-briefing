@@ -1,0 +1,26 @@
+[
+  {
+    "title": "AI agents now help attackers, including North Korea, manage their drudge work",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/08/deploy_and_manage_attack_infrastructure",
+    "source": "The Register - Security",
+    "pub_date": "2026-03-08",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "마이크로소프트 위협 인텔리전스 담당자에 따르면 AI 에이전트가 사이버범죄자와 국가 지원 해커들이 공격 인프라 구축 및 관리 같은 반복적 업무를 자동화하는 데 활용되고 있습니다.",
+      "북한의 Coral Sleet 그룹을 포함한 위협 행위자들이 개발 플랫폼을 이용해 자연어로 악성 인프라를 신속하게 생성·관리함으로써 캠페인 준비, 테스트, C&C 운영 속도를 대폭 향상시키고 있습니다.",
+      "AI 에이전트는 기술 수준이 낮은 범죄자들의 진입 장벽을 낮추고 탐지 회피 능력을 강화하여 더 효율적이고 대규모의 사이버 공격을 가능하게 하는 심각한 보안 위협으로 평가됩니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "8217be87045dc590",
+    "is_primary": true
+  }
+]

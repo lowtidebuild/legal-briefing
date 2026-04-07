@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Trump Moves to Ban Anthropic From the US Government",
+    "url": "https://www.wired.com/story/trump-moves-to-ban-anthropic-from-the-us-government/",
+    "source": "WIRED - AI",
+    "pub_date": "2026-02-27",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "트럼프 대통령이 모든 연방 기관에 Anthropic AI 도구 사용 중단을 지시했으며, 국방부는 Anthropic을 '공급망 위험'으로 지정하여 미군과 군사 계약업체의 협력을 금지합니다.",
+      "분쟁의 핵심은 국방부가 AI의 '모든 합법적 사용'을 허용하도록 계약 조건 변경을 요구했으나, Anthropic은 자율형 살상 무기 완전 통제나 대량 감시에 악용될 수 있다는 우려로 거부한 데 있습니다.",
+      "Anthropic은 작년 2억 달러 규모의 국방부 계약 첫 체결 기업이며, OpenAI와 Google 직원들도 Anthropic을 지지하는 공개 서한에 서명하여 실리콘밸리 내 이념적 분열을 드러냈습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "cf1e1a7726afee88",
+    "is_primary": false
+  }
+]

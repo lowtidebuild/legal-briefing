@@ -1,0 +1,122 @@
+[
+  {
+    "title": "China’s not thrilled its AI experts want to leave the country",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/27/china_ai_regulation",
+    "source": "The Register - Legal",
+    "pub_date": "2026-03-27",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "중국 컴퓨터학회(CCF)가 NeurIPS 학술대회의 미국 제재 대상자 제출 금지 정책에 반발하며 중국 과학자들의 보이콧을 촉구했습니다.",
+      "중국 정부가 Meta의 AI 스타트업 Manus 인수를 저지하기 위해 회사 창립자들의 출국을 금지한 것으로 보도되었습니다.",
+      "중국의 AI 인재 해외 유출 제한 정책은 국내 AI 스택 자립화 전략의 일환으로, 게임사를 포함한 해외 기술 기업들의 중국 AI 인재 채용에 규제 장벽을 형성할 수 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "9055d0b168067d12",
+    "is_primary": true
+  },
+  {
+    "title": "Fifth Circuit Holds FTC Adjudication of Deceptive Advertising Claims Is Unconstitutional",
+    "url": "https://cooley.com/news/insight/2026/2026-03-27-fifth-circuit-holds-ftc-adjudication-of-deceptive-advertising-claims-is-unconstitutional",
+    "source": "Cooley - Media (Newsroom)",
+    "pub_date": "2026-03-27",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "2026년 3월 20일 미국 제5순회항소법원은 Intuit, Inc. v. FTC 사건에서 FTC의 기만적 광고 주장에 대한 행정 판정이 헌법상 권력분립을 위반한다고 판결했습니다.",
+      "이 판결은 SEC v. Jarkesy 판례를 적용하여 기만적 광고 청구가 전통적 '사적 권리'에 해당하므로 FTC 행정법판사가 아닌 연방법원에서 심리되어야 한다고 결론지었습니다.",
+      "FTC는 제5순회 지역에서 기만적 광고 사건의 금전적 구제를 위한 주요 경로를 상실했으며, 특정 법령 집행, 위반 통지 발송, 주 검찰총장과의 협력 등 대체 전략을 모색할 것으로 예상됩니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "45fe9ab5e838309a",
+    "is_primary": true
+  },
+  {
+    "title": "AI Research Is Getting Harder to Separate From Geopolitics",
+    "url": "https://wired.com/story/made-in-china-ai-research-is-starting-to-split-along-geopolitical-lines",
+    "source": "WIRED - Business",
+    "pub_date": "2026-03-27",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "NeurIPS는 3월 미국 제재 대상 기업 관련자의 학술 활동 제한 정책을 발표했으나 중국 연구자들의 강한 반발로 수일 내 정책을 철회했습니다.",
+      "중국 과학기술협회(CAST)를 포함한 중국 학술 단체들은 NeurIPS 참석 지원 중단, 2026년 논문 학술 성과 미인정 등의 보복 조치를 선언했습니다.",
+      "이번 사건은 AI 연구의 국제 협력과 미국의 지정학적 규제 정책 간의 충돌을 심화시킬 수 있으며, 향후 중국 과학자들의 미국 기관 참여 감소로 이어질 우려가 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "dd4bccb0a6848b37",
+    "is_primary": true
+  },
+  {
+    "title": "AFC Ajax drops ball as flaws let hackers play admin with tickets and bans",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/27/afc_ajax_drops_ball_as",
+    "source": "The Register - Security",
+    "pub_date": "2026-03-27",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "AFC Ajax는 내부 시스템 취약점을 악용한 해킹 사건을 인정했으며, 공격자가 수백 명의 이메일 주소와 20명 미만의 스타디움 출입금지 사용자 개인정보에 접근했습니다.",
+      "RTL News의 조사에 따르면 노출된 API와 공유 디지털 키 재사용을 통해 공격자는 다른 사용자로 위장하여 시즌 티켓 이전, 계정 정보 변경, 스타디움 출입금지 해제 등이 가능했습니다.",
+      "이 취약점은 30만 명 이상의 등록 지지자 데이터와 4만 2천 장 이상의 시즌 티켓을 위험에 빠뜨렸으며, 500명 이상의 출입금지 사용자 정보(출입금지 사유 포함)가 노출되었습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "7ba943cba66374f2",
+    "is_primary": true
+  },
+  {
+    "title": "Security boffins scoured the web and found hundreds of valid API keys",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/27/security_boffins_harvest_bumper_crop",
+    "source": "The Register - Security",
+    "pub_date": "2026-03-27",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "스탠포드 대학 연구팀이 1,000만 개 웹사이트를 분석하여 1,748개의 유효한 API 인증 정보를 발견했으며, 이는 AWS, GitHub, Stripe, OpenAI 등 주요 서비스에 대한 접근 권한을 제공합니다.",
+      "글로벌 시스템 중요 금융기관을 포함한 다국적 기업, 중요 인프라 기관, 정부 기관들이 웹페이지에 클라우드 자격증명을 노출시켰으며, 연구팀의 보고 후 2주 내 노출 건수가 50% 감소했습니다.",
+      "API 인증 정보는 로그인 정보보다 위험하며 평균 12개월 이상 노출되어 있었고, JavaScript 파일(84%)에서 주로 발견되어 게임사의 클라우드 인프라 및 결제 시스템 보안 감시 강화가 필요합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "0ced7f91fe92bc26",
+    "is_primary": true
+  }
+]

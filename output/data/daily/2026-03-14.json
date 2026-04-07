@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Meta is reportedly laying off up to 20 percent of its staff",
+    "url": "https://theverge.com/business/895026/meta-laying-off-20-percent",
+    "source": "The Verge - Policy",
+    "pub_date": "2026-03-14",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "Meta이 AI 및 데이터센터 투자 비용을 상쇄하기 위해 직원의 최대 20%에 해당하는 약 15,800명을 감원할 계획인 것으로 보도되었습니다.",
+      "이는 2022년 11월부터 2023년 초 사이 22,000명을 감원한 이후 Meta 역사상 최대 규모의 감원입니다.",
+      "Meta는 VR 및 메타버스 사업을 축소하고 AI 인재 확보, 데이터센터 구축, 스마트 글래스 및 챗봇 개발에 집중하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "8c59c452efa9f8dc",
+    "is_primary": true
+  }
+]
