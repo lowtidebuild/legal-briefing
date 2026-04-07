@@ -721,6 +721,56 @@
       "event_key": "global_business_milestone_2026",
       "url_hash": "d3d81a0152db37dc",
       "date": "2026-04-07"
+    },
+    {
+      "event_key": "us_ign_live_event_2026",
+      "url_hash": "8e8a761fbe494acb",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_live_service_lifecycle_management_2024",
+      "url_hash": "31a15a926d6b2aa8",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_industry_event_announcement_2026",
+      "url_hash": "2bdd3f14b756e0f5",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_networking_industry_promotion_2024",
+      "url_hash": "41370651ca557a45",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "cn_chinajoy_networking_advice_2024",
+      "url_hash": "3c537f104c08d045",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "eu_pgc_summit_malmo_2026",
+      "url_hash": "d925be968bd483ba",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "tr_mcdonalds_peripheral_launch_2026",
+      "url_hash": "ce25327e3d1a2588",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_steam_market_sales_reporting_2025q1",
+      "url_hash": "2344bf9db98f3628",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_ai_production_strategy_2024",
+      "url_hash": "386e6b80d8aa72a7",
+      "date": "2026-04-07"
+    },
+    {
+      "event_key": "global_game_pass_licensing_2024",
+      "url_hash": "bf98b86349587d7b",
+      "date": "2026-04-07"
     }
   ]
 }
