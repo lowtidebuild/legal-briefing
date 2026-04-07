@@ -10,7 +10,11 @@ dist/
 build/
 .pytest_cache/
 
+# Credentials
+game-legal-briefing-*.json
+
 # Local planning / working notes
 DESIGN.md
 office-hours-log-*.md
 docs/superpowers/plans/
+.gstack/
