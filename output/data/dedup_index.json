@@ -3,11 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "dc05ee39aea426ca",
-      "url_hash": "dfb3180dfe27cd02",
-      "date": "2026-03-08"
-    },
-    {
       "event_key": "02a3877010fba1b3",
       "url_hash": "ef8d1a240316c8bc",
       "date": "2026-03-09"
@@ -496,6 +491,56 @@
       "event_key": "d2785558ed52d54f",
       "url_hash": "d0c59c4927569c24",
       "date": "2026-04-05"
+    },
+    {
+      "event_key": "global_sony_acquisition_cinemersive_2024",
+      "url_hash": "3eddc533a163bbf9",
+      "date": "2026-04-08"
+    },
+    {
+      "event_key": "us_ip_patent_rejection_2024",
+      "url_hash": "2969015a4d01cba7",
+      "date": "2026-04-08"
+    },
+    {
+      "event_key": "global_rec_room_shutdown_2026",
+      "url_hash": "0bbfebfaad5bcd73",
+      "date": "2026-04-08"
+    },
+    {
+      "event_key": "kr_shiftup_acquisition_unbound_2024",
+      "url_hash": "5ac93345d0ea1250",
+      "date": "2026-04-08"
+    },
+    {
+      "event_key": "global_publishing_agreement_termination_2024",
+      "url_hash": "94c8de92dab527c7",
+      "date": "2026-04-08"
+    },
+    {
+      "event_key": "global_ma_market_reporting_2026q1",
+      "url_hash": "338ccdf62401d787",
+      "date": "2026-04-08"
+    },
+    {
+      "event_key": "global_monetization_market_analysis_2024",
+      "url_hash": "bc8dd31b5075a570",
+      "date": "2026-04-08"
+    },
+    {
+      "event_key": "global_playtika_strategic_review_2024",
+      "url_hash": "b78bf9461140ec91",
+      "date": "2026-04-08"
+    },
+    {
+      "event_key": "uae_culture_grant_programme_2024",
+      "url_hash": "161e3ac113d0138f",
+      "date": "2026-04-08"
+    },
+    {
+      "event_key": "jp_capcom_equity_acquisition_2024",
+      "url_hash": "a234cac9d88d4415",
+      "date": "2026-04-08"
     }
   ]
 }
