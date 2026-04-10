@@ -3,56 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "02a3877010fba1b3",
-      "url_hash": "ef8d1a240316c8bc",
-      "date": "2026-03-09"
-    },
-    {
-      "event_key": "011041af6f7e49af",
-      "url_hash": "45d0e25375831d22",
-      "date": "2026-03-09"
-    },
-    {
-      "event_key": "62f68fb27ba16a95",
-      "url_hash": "5cbb028c447df7bf",
-      "date": "2026-03-10"
-    },
-    {
-      "event_key": "418f52d215596cb6",
-      "url_hash": "79cef69e2de1e79b",
-      "date": "2026-03-10"
-    },
-    {
-      "event_key": "085fe12a07c7cd50",
-      "url_hash": "a7a774a04d755402",
-      "date": "2026-03-10"
-    },
-    {
-      "event_key": "39064dae5bea83b7",
-      "url_hash": "1b1111554083add2",
-      "date": "2026-03-10"
-    },
-    {
-      "event_key": "b944aaa7a4c8b625",
-      "url_hash": "f8b26a8330f79d6b",
-      "date": "2026-03-10"
-    },
-    {
-      "event_key": "346e97d6fc423250",
-      "url_hash": "8b61267da184d22d",
-      "date": "2026-03-10"
-    },
-    {
-      "event_key": "1c8de0e5413c64d3",
-      "url_hash": "bed44672744c3eca",
-      "date": "2026-03-10"
-    },
-    {
-      "event_key": "cbb6f54ed53f5382",
-      "url_hash": "be333a66f4db43ab",
-      "date": "2026-03-10"
-    },
-    {
       "event_key": "3fb0b34a287c7c48",
       "url_hash": "243f583c73569e15",
       "date": "2026-03-11"
@@ -541,6 +491,56 @@
       "event_key": "jp_capcom_equity_acquisition_2024",
       "url_hash": "a234cac9d88d4415",
       "date": "2026-04-08"
+    },
+    {
+      "event_key": "global_labor_salary_dispute_2024",
+      "url_hash": "296ae18d80da04f0",
+      "date": "2026-04-10"
+    },
+    {
+      "event_key": "eu_de_game_industry_funding_2026",
+      "url_hash": "5ce2d816bd0e2d81",
+      "date": "2026-04-10"
+    },
+    {
+      "event_key": "global_ai_data_scraping_developer_concerns_2024",
+      "url_hash": "861a6cd65c0510a5",
+      "date": "2026-04-10"
+    },
+    {
+      "event_key": "global_netflix_games_expansion_2024",
+      "url_hash": "b31884e1b40c5c90",
+      "date": "2026-04-10"
+    },
+    {
+      "event_key": "us_taketwo_ai_layoffs_2024",
+      "url_hash": "1ab5698f5170cc3c",
+      "date": "2026-04-10"
+    },
+    {
+      "event_key": "global_candycrush_revenue_milestone_2023q3",
+      "url_hash": "a8972dbba31bcfc8",
+      "date": "2026-04-10"
+    },
+    {
+      "event_key": "global_discord_social_sdk_integration_2024",
+      "url_hash": "2470d7cce07a1176",
+      "date": "2026-04-10"
+    },
+    {
+      "event_key": "global_market_power_shift_2024",
+      "url_hash": "26d31eff01aab452",
+      "date": "2026-04-10"
+    },
+    {
+      "event_key": "uk_labor_workforce_reduction_2025",
+      "url_hash": "66320645c9195af5",
+      "date": "2026-04-10"
+    },
+    {
+      "event_key": "uk_sie_acquisition_cinemersive_2024",
+      "url_hash": "280268ddcaee7494",
+      "date": "2026-04-10"
     }
   ]
 }

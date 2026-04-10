@@ -1,0 +1,281 @@
+[
+  {
+    "title": "Off the Grid maker and Game Informer owner Gunzilla Games accused of missing staff salary payments",
+    "url": "https://www.gamesindustry.biz/off-the-grid-maker-and-game-informer-owner-gunzilla-games-accused-of-missing-staff-salary-payments",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-04-09",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "블록체인 게임 '오프 더 그리드(Off the Grid)'의 개발사이자 게임 전문 매체 게임 인포머(Game Informer)를 인수한 건질라 게임즈(Gunzilla Games)가 임금 체불 논란에 휩싸였습니다.",
+      "건질라 게임즈(Gunzilla Games)의 전·현직 직원들은 회사가 수개월 동안 급여를 지급하지 않았다고 주장했습니다.",
+      "이번 임금 미지급 사태는 해당 기업의 운영 안정성에 대한 업계의 우려를 낳고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Gunzilla Games",
+        "Former and current staff"
+      ],
+      "object": "employee salary payments",
+      "action": "alleged non-payment of wages",
+      "game_mechanic": "none",
+      "time_hint": "months"
+    },
+    "event_key": "global_labor_salary_dispute_2024",
+    "is_primary": true,
+    "title_ko": "'오프 더 그리드(Off the Grid)' 제작사이자 게임 인포머(Game Informer)의 소유주인 건질라 게임즈(Gunzilla Games), 직원 임금 체불 의혹"
+  },
+  {
+    "title": "Rockfish Games lands €8m grant as Germany boosts game industry support",
+    "url": "https://www.gamesindustry.biz/rockfish-games-lands-8m-grant-as-germany-boosts-game-industry-support",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-04-09",
+    "category": "ETC",
+    "summary_ko": [
+      "독일 정부가 게임 산업 활성화를 위해 신규 조성한 1억 2,500만 유로 규모의 게임 기금에서 록피쉬 게임즈(Rockfish Games)가 800만 유로의 지원금을 확보했습니다.",
+      "이번 지원은 연방연구기술우주부(BMFTR)가 운영하는 프로그램의 일환으로, 신작 에버스페이스(Everspace) 시리즈 개발 비용의 최대 50%를 보조합니다.",
+      "해당 펀드는 프로젝트 규모에 따라 최소 30만 유로에서 최대 800만 유로까지 지원하며 독일 내 게임 개발 경쟁력 강화에 기여하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Rockfish Games",
+        "Federal Ministry of Research, Technology, and Space (BMFTR)"
+      ],
+      "object": "game development grant",
+      "action": "awarding of government funding",
+      "game_mechanic": null,
+      "time_hint": "2026"
+    },
+    "event_key": "eu_de_game_industry_funding_2026",
+    "is_primary": true,
+    "title_ko": "독일, 게임 산업 지원 확대에 따라 록피쉬 게임즈(Rockfish Games) 800만 유로 보조금 확보"
+  },
+  {
+    "title": "Papers, Please, Return of the Obra Dinn dev Lucas Pope won't talk about current game in case it \"gets slurped up by AI\"",
+    "url": "https://www.gamesindustry.biz/papers-please-return-of-the-obra-dinn-dev-lucas-pope-wont-talk-about-current-game-in-case-it-gets-slurped-up-by-ai",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-04-08",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "'페이퍼스, 플리즈(Papers, Please)'의 개발자 루카스 포프(Lucas Pope)가 본인의 차기작에 대한 세부 정보를 공개하지 않기로 결정했습니다.",
+      "루카스 포프(Lucas Pope)는 게임 관련 정보가 AI 학습 데이터로 무단 활용되는 것을 방지하기 위해 이러한 조치를 취했다고 밝혔습니다.",
+      "이번 사례는 개발자들이 자신의 지식 재산권 보호와 AI 기술의 데이터 수집 방식에 대해 느끼는 실질적인 경계심을 잘 보여주고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Lucas Pope",
+        "Game Developers"
+      ],
+      "object": "Intellectual Property and Data Scraping",
+      "action": "Avoidance of public communication",
+      "game_mechanic": "N/A",
+      "time_hint": "2024"
+    },
+    "event_key": "global_ai_data_scraping_developer_concerns_2024",
+    "is_primary": true,
+    "title_ko": "'페이퍼스, 플리즈(Papers, Please)'와 '오브라 딘의 귀환(Return of the Obra Dinn)' 개발자 루카스 포프(Lucas Pope), AI 데이터 학습 우려로 신작 정보 공개 거부"
+  },
+  {
+    "title": "Netflix launches dedicated app for kids games",
+    "url": "https://www.gamesindustry.biz/netflix-launches-dedicated-app-for-kids-games",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-04-08",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "넷플릭스(Netflix)가 게임 부문 전략 업데이트의 일환으로 어린이 타겟의 게임 전용 앱을 새롭게 출시했습니다.",
+      "이번 조치는 게임 포트폴리오를 세분화하고 어린 이용자층에 최적화된 게임 환경을 제공하기 위한 전략적 결정입니다.",
+      "업계에서는 넷플릭스(Netflix)가 자사 플랫폼 내 게임 서비스의 전문성과 접근성을 강화하여 경쟁력을 높이려는 것으로 분석합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Netflix"
+      ],
+      "object": "kids games application",
+      "action": "launch",
+      "game_mechanic": null,
+      "time_hint": "2024"
+    },
+    "event_key": "global_netflix_games_expansion_2024",
+    "is_primary": true,
+    "title_ko": "넷플릭스(Netflix), 어린이용 게임 전용 앱 출시"
+  },
+  {
+    "title": "Take-Two Interactive reportedly lays off AI team",
+    "url": "https://www.gamesindustry.biz/take-two-interactive-reportedly-lays-off-ai-team",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-04-07",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "테이크투 인터랙티브(Take-Two Interactive)가 기업 구조조정의 일환으로 사내 AI 전담 팀을 전원 해고한 것으로 알려졌습니다.",
+      "이번 인력 감축은 비용 절감을 목적으로 한 조직 개편 과정에서 이루어진 것으로 보입니다.",
+      "게임 업계 전반에서 이어지는 인력 감축 기조 속에 생성형 AI 기술 전략이 변화를 겪고 있는 것으로 분석됩니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Take-Two Interactive"
+      ],
+      "object": "AI development team",
+      "action": "layoffs",
+      "game_mechanic": null,
+      "time_hint": "2024"
+    },
+    "event_key": "us_taketwo_ai_layoffs_2024",
+    "is_primary": true,
+    "title_ko": "테이크투 인터랙티브(Take-Two Interactive), AI 팀 전원 해고 보도"
+  },
+  {
+    "title": "Reddit posts can be more important than data, and other lessons from maintaining Candy Crush as a forever game",
+    "url": "https://www.gamesindustry.biz/reddit-posts-can-be-more-important-than-data-and-other-lessons-from-maintaining-candy-crush-as-a-forever-game",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-04-03",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "2012년 출시된 킹(King)의 캔디 크러쉬 사가(Candy Crush Saga)는 2023년 9월 기준 누적 매출 200억 달러를 돌파하며 역사상 가장 성공적인 퍼즐 게임으로 자리 잡았습니다.",
+      "킹(King)은 라이브 서비스 운영 과정에서 단순한 수치 데이터 분석뿐만 아니라 레딧(Reddit) 등 커뮤니티의 이용자 목소리가 게임의 방향성을 결정하는 핵심 요소가 된다고 강조했습니다.",
+      "지속 가능한 라이브 서비스 게임을 유지하기 위해서는 데이터가 보여주지 않는 이용자들의 실제 경험과 피드백을 깊이 있게 이해하고 반영하는 전략이 필수적입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "King",
+        "Activision Blizzard"
+      ],
+      "object": "Candy Crush Saga",
+      "action": "live_service_monetization_strategy",
+      "game_mechanic": "tile-matching",
+      "time_hint": "September 2023"
+    },
+    "event_key": "global_candycrush_revenue_milestone_2023q3",
+    "is_primary": true,
+    "title_ko": "레딧(Reddit) 게시물이 데이터보다 중요할 수 있다: 캔디 크러쉬 사가(Candy Crush Saga)를 '영원한 게임'으로 유지하는 법"
+  },
+  {
+    "title": "Selfless spending, linked accounts and how developers get the most out of Discord",
+    "url": "https://www.pocketgamer.biz/selfless-spending-linked-accounts-and-how-developers-get-the-most-out-of-discord/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-04-09",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "소셜 플랫폼 디스코드(Discord)는 단순한 커뮤니티 공간을 넘어 게임 내 음성 및 메시징 통합 등 개발자를 위한 도구로 진화하고 있습니다.",
+      "디스코드(Discord)는 코스메틱 위시리스트, 디스코드 액티비티(Discord Activities), 소셜 SDK 등의 기능을 통해 게임과의 연동성을 강화하고 있습니다.",
+      "이러한 기능들은 모바일 게임 개발자를 포함한 업계 관계자들이 플랫폼 내에서 수익화 및 사용자 소통을 최적화할 수 있도록 지원합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Discord",
+        "Game Developers"
+      ],
+      "object": "Social SDK and platform monetization features",
+      "action": "Integration of social communication and monetization tools into game development",
+      "game_mechanic": "Cosmetics, Social connectivity, In-game purchases",
+      "time_hint": "Recent platform updates"
+    },
+    "event_key": "global_discord_social_sdk_integration_2024",
+    "is_primary": true,
+    "title_ko": "무분별한 지출, 계정 연동, 그리고 디스코드(Discord)를 최대한 활용하는 개발자들의 전략"
+  },
+  {
+    "title": "“The centre of the game industry isn’t moving from West to East it’s dissolving entirely”: The Mobile Mavens on gaming’s global power shift",
+    "url": "https://www.pocketgamer.biz/the-centre-of-the-game-industry-isnt-moving-from-west-to-east-its-dissolving-entirely-the-mobile-mavens-on-gamings-global-power-shift/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-04-08",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "과거 서구권 중심으로 성장했던 글로벌 게임 시장에서 동아시아 지역의 영향력과 수익성이 급격히 확대되고 있습니다.",
+      "일각에서는 이를 단순한 권력 이동이 아닌, 국가 간 경계가 허물어지며 상호 연결된 시장으로 변화하는 과정으로 분석합니다.",
+      "포켓게이머(PocketGamer.biz)의 전문가들은 특정 지역의 패권 대신 글로벌 시장의 전반적인 구조적 붕괴와 통합이 진행 중이라고 평가합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Mobile gaming industry analysts",
+        "Western developers",
+        "Eastern markets"
+      ],
+      "object": "Global industry power structure",
+      "action": "market consolidation and shifting investment",
+      "game_mechanic": null,
+      "time_hint": "ongoing"
+    },
+    "event_key": "global_market_power_shift_2024",
+    "is_primary": true,
+    "title_ko": "“게임 산업의 중심은 서에서 동으로 이동하는 것이 아니라 완전히 해체되고 있다”: 모바일 전문가들이 본 게임 시장의 글로벌 권력 변화"
+  },
+  {
+    "title": "UK games sector loses 1,537 jobs as 14-year growth streak ends",
+    "url": "https://www.pocketgamer.biz/uk-games-sector-loses-1537-jobs-as-14-year-growth-streak-ends/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-04-08",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "영국 게임 산업 단체 티가(TIGA)의 보고서에 따르면, 2024년 4월부터 2025년 9월 사이 영국 내 게임 개발직 일자리 1,537개가 감소했습니다.",
+      "이번 고용 감소는 연간 4.5% 하락률을 기록하며, 지난 14년 동안 지속되었던 영국 게임 업계의 고용 성장세가 공식적으로 마감되었음을 의미합니다.",
+      "업계 전문가들은 이번 변화가 장기간의 성장 이후 맞이한 시장의 침체기이자 중대한 전환점으로 보고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "UK",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "TIGA",
+        "UK games sector"
+      ],
+      "object": "development workforce",
+      "action": "workforce reduction",
+      "game_mechanic": null,
+      "time_hint": "April 2024 to September 2025"
+    },
+    "event_key": "uk_labor_workforce_reduction_2025",
+    "is_primary": true,
+    "title_ko": "영국 게임 산업, 14년간의 성장세 멈추고 일자리 1,537개 감소"
+  },
+  {
+    "title": "Sony Interactive Entertainment acquires UK-based machine learning firm Cinemersive Labs",
+    "url": "https://www.pocketgamer.biz/sony-interactive-entertainment-acquires-uk-based-machine-learning-firm-cinemersive-labs/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-04-08",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "소니 인터랙티브 엔터테인먼트(Sony Interactive Entertainment)가 게임 시각 기술 고도화를 위해 영국의 머신러닝 및 컴퓨터 비전 전문 기업 시네머시브 랩스(Cinemersive Labs)를 인수했다.",
+      "이번 인수는 게임 업계의 높아진 사실감과 몰입감에 대한 기대치를 충족시키고, 기술적 역량을 강화하기 위한 전략적 행보로 풀이된다.",
+      "소니 인터랙티브 엔터테인먼트(Sony Interactive Entertainment)는 향후 게임 플레이의 시각적 요소와 성능을 향상시키는 데 이번 기술을 집중 투입할 계획이다."
+    ],
+    "event": {
+      "jurisdiction": "UK",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Sony Interactive Entertainment",
+        "Cinemersive Labs"
+      ],
+      "object": "Cinemersive Labs",
+      "action": "acquisition",
+      "game_mechanic": null,
+      "time_hint": "2024"
+    },
+    "event_key": "uk_sie_acquisition_cinemersive_2024",
+    "is_primary": true,
+    "title_ko": "소니 인터랙티브 엔터테인먼트(Sony Interactive Entertainment), 영국 머신러닝 기업 시네머시브 랩스(Cinemersive Labs) 인수"
+  }
+]
