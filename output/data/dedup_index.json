@@ -3,26 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "3fb0b34a287c7c48",
-      "url_hash": "243f583c73569e15",
-      "date": "2026-03-11"
-    },
-    {
-      "event_key": "8f1753e48fd9f6b1",
-      "url_hash": "da663e5c0380a312",
-      "date": "2026-03-11"
-    },
-    {
-      "event_key": "d0962aa038838699",
-      "url_hash": "5acfadff1f3cbd8e",
-      "date": "2026-03-11"
-    },
-    {
-      "event_key": "6625054c0a30fc7c",
-      "url_hash": "f97d7af6cf8995d3",
-      "date": "2026-03-11"
-    },
-    {
       "event_key": "9b6b491daf6c688f",
       "url_hash": "8f486d6b278a264b",
       "date": "2026-03-12"
@@ -541,6 +521,56 @@
       "event_key": "uk_sie_acquisition_cinemersive_2024",
       "url_hash": "280268ddcaee7494",
       "date": "2026-04-10"
+    },
+    {
+      "event_key": "global_valve_ai_implementation_2024",
+      "url_hash": "a0738b700aafc646",
+      "date": "2026-04-11"
+    },
+    {
+      "event_key": "global_game_security_anti_cheat_2024",
+      "url_hash": "10f4e20234b525f2",
+      "date": "2026-04-11"
+    },
+    {
+      "event_key": "us_ip_trademark_infringement_historical",
+      "url_hash": "fe36d1ad7c98b73f",
+      "date": "2026-04-11"
+    },
+    {
+      "event_key": "uk_ip_trademark_opposition_2024",
+      "url_hash": "b17bbce55b04717a",
+      "date": "2026-04-11"
+    },
+    {
+      "event_key": "global_ai_content_policy_2024",
+      "url_hash": "d20f83b03e79da57",
+      "date": "2026-04-11"
+    },
+    {
+      "event_key": "us_automotive_data_privacy_compliance_2024",
+      "url_hash": "0f1c70b44f9aafbf",
+      "date": "2026-04-11"
+    },
+    {
+      "event_key": "us_fcc_foreign_call_center_rulemaking_2026",
+      "url_hash": "7b7811e95f09879f",
+      "date": "2026-04-11"
+    },
+    {
+      "event_key": "us_wa_ai_deepfake_rights_2026",
+      "url_hash": "b6abd48c2e27ecc6",
+      "date": "2026-04-11"
+    },
+    {
+      "event_key": "uk_cma_strategic_priorities_2026",
+      "url_hash": "425d07a8a2b4099d",
+      "date": "2026-04-11"
+    },
+    {
+      "event_key": "global_ai_vulnerability_remediation_2026q2",
+      "url_hash": "f7878dc7a63417bf",
+      "date": "2026-04-11"
     }
   ]
 }

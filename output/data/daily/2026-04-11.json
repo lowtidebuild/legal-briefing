@@ -1,0 +1,279 @@
+[
+  {
+    "title": "Datamined code shows Valve referencing an AI \"SteamGPT\" tool presumably to help Steam better cope with cheaters and customer support",
+    "url": "https://www.eurogamer.net/steam-code-references-steamgpt",
+    "source": "Eurogamer",
+    "pub_date": "2026-04-10",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "밸브(Valve)가 자사 플랫폼 스팀(Steam) 내 부정행위 대응과 고객 지원 효율화를 목적으로 생성형 AI인 '스팀GPT(SteamGPT)'를 개발 중이라는 정황이 데이터 마이닝을 통해 드러났습니다.",
+      "이번에 발견된 코드는 해당 AI가 부정 사용자에 대한 제재 및 계정 제한 관리 업무를 자동화하는 데 활용될 가능성을 시사하고 있습니다.",
+      "그동안 생성형 AI 도입에 신중했던 밸브(Valve)가 구체적인 기술 적용을 시도함에 따라 플랫폼 운영 환경에 변화가 있을 것으로 전망됩니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Valve"
+      ],
+      "object": "SteamGPT",
+      "action": "development",
+      "game_mechanic": "anti-cheat_systems",
+      "time_hint": "current"
+    },
+    "event_key": "global_valve_ai_implementation_2024",
+    "is_primary": true,
+    "title_ko": "밸브(Valve), 부정행위 방지 및 고객 지원 강화를 위한 AI 도구 '스팀GPT(SteamGPT)' 개발 정황 포착"
+  },
+  {
+    "title": "\"We have a zero-tolerance policy around cheating\" - Bungie targets Marathon cheaters as it unveils new plans to combat them",
+    "url": "https://www.eurogamer.net/marathon-cheaters-statement-anti-cheat-reporting",
+    "source": "Eurogamer",
+    "pub_date": "2026-04-08",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "번지(Bungie)는 신작 슈팅 게임 마라톤(Marathon) 내 부정행위에 대해 무관용 원칙을 천명하며 강력한 대응 의지를 밝혔다.",
+      "게임 내 부정행위 탐지 시스템을 고도화하고, 이용자들이 직접 비정상적인 플레이어를 신고할 수 있는 기능을 강화할 예정이다.",
+      "공정한 게임 환경 조성을 통해 출시 전부터 핵 등 외부 프로그램 사용을 사전에 차단하려는 조치로 풀이된다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Bungie"
+      ],
+      "object": "Marathon",
+      "action": "anti-cheat implementation",
+      "game_mechanic": "cheating/anti-cheat",
+      "time_hint": "current"
+    },
+    "event_key": "global_game_security_anti_cheat_2024",
+    "is_primary": true,
+    "title_ko": "“부정행위는 절대 용납하지 않는다” - 번지(Bungie), 신작 마라톤(Marathon) 내 핵 사용 근절을 위한 대응 계획 발표"
+  },
+  {
+    "title": "World Championship Wrestling once spent millions on a gimmick ripping off Mortal Kombat’s Sub-Zero, before Midway threatened to sue and WCW immediately gave up: 'We were gonna lose big, like real big'",
+    "url": "https://www.pcgamer.com/games/fighting/world-championship-wrestling-once-spent-millions-on-a-gimmick-ripping-off-mortal-kombats-sub-zero-before-midway-threatened-to-sue-and-wcw-immediately-gave-up-we-were-gonna-lose-big-like-real-big/",
+    "source": "PC Gamer",
+    "pub_date": "2026-04-10",
+    "category": "IP",
+    "summary_ko": [
+      "월드 챔피언십 레슬링(WCW)은 모탈 컴뱃(Mortal Kombat)의 서브제로를 노골적으로 모방한 캐릭터 '글레이셔(Glacier)'를 제작하며 막대한 예산을 투입했습니다.",
+      "하지만 원작사인 미드웨이(Midway)가 지식재산권 침해로 소송을 제기하겠다고 경고하자 WCW 측은 패소를 직감했습니다.",
+      "결국 법적 분쟁에서 패배할 것을 우려한 WCW는 해당 캐릭터와 관련된 마케팅을 즉시 중단하며 꼬리를 내렸습니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Midway",
+        "World Championship Wrestling"
+      ],
+      "object": "intellectual property rights",
+      "action": "cease and desist",
+      "game_mechanic": "character design",
+      "time_hint": "historical"
+    },
+    "event_key": "us_ip_trademark_infringement_historical",
+    "is_primary": true,
+    "title_ko": "월드 챔피언십 레슬링(WCW), 모탈 컴뱃(Mortal Kombat)의 서브제로를 표절한 기믹에 수백만 달러를 썼으나 미드웨이(Midway)의 소송 예고에 즉각 포기: '엄청나게 패배할 상황이었다'"
+  },
+  {
+    "title": "The James Bond rights owners have opposed an application for a James Pond trademark",
+    "url": "https://www.pcgamer.com/gaming-industry/the-james-bond-rights-owners-have-opposed-an-application-for-a-james-pond-trademark/",
+    "source": "PC Gamer",
+    "pub_date": "2026-04-10",
+    "category": "IP",
+    "summary_ko": [
+      "제임스 본드(James Bond)의 지식재산권 소유자들이 게임 캐릭터 제임스 폰드(James Pond)의 상표권 출원에 대해 공식적으로 이의를 제기했습니다.",
+      "이번 분쟁은 007 시리즈의 상표권 보호 전략과 유사한 이름을 가진 게임 캐릭터 간의 명칭 충돌에서 비롯되었습니다.",
+      "양측의 상표권 논쟁은 향후 게임 브랜드의 명칭권 확보와 관련된 법적 해석에 영향을 줄 것으로 보입니다."
+    ],
+    "event": {
+      "jurisdiction": "UK",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "James Bond rights owners (EON Productions/Danjaq)",
+        "James Pond trademark applicant"
+      ],
+      "object": "James Pond trademark",
+      "action": "trademark opposition",
+      "game_mechanic": null,
+      "time_hint": "2024"
+    },
+    "event_key": "uk_ip_trademark_opposition_2024",
+    "is_primary": true,
+    "title_ko": "제임스 본드(James Bond) 저작권 소유자들, 제임스 폰드(James Pond) 상표권 출원에 반대"
+  },
+  {
+    "title": "Attack on Titan Studio to Redraw Opening of Latest Anime Series After Investigation Reveals Gen AI Usage, Apologizes to Fans",
+    "url": "https://www.ign.com/articles/attack-on-titan-studio-to-redraw-opening-of-latest-anime-series-after-investigation-reveals-gen-ai-usage-apologizes-to-fans",
+    "source": "IGN",
+    "pub_date": "2026-04-10",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "위트 스튜디오(Wit Studio)는 최근 방영된 애니메이션 '책벌레의 하극상(Ascendance of a Bookworm)'의 오프닝에 생성형 AI를 사용했다는 의혹을 인정하고 공식 사과했습니다.",
+      "진격의 거인(Attack on Titan) 시리즈로 잘 알려진 위트 스튜디오(Wit Studio)는 해당 오프닝 영상에서 생성형 AI 요소를 제거하고 다시 제작하겠다고 발표했습니다.",
+      "이번 조치는 생성형 AI 도입에 대한 시청자들의 비판적 여론을 수용하여 향후 방영될 에피소드부터 수정된 버전을 적용하겠다는 제작사의 결정을 반영한 것입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Wit Studio"
+      ],
+      "object": "Generative AI generated imagery in anime opening",
+      "action": "voluntary removal and redrawing of AI-generated content",
+      "game_mechanic": null,
+      "time_hint": "2024"
+    },
+    "event_key": "global_ai_content_policy_2024",
+    "is_primary": true,
+    "title_ko": "위트 스튜디오(Wit Studio), 생성형 AI 사용 논란 인정한 최신 애니메이션 오프닝 수정 및 사과"
+  },
+  {
+    "title": "Connected Cars: Privacy Compliance Guidance",
+    "url": "https://www.cooley.com/news/coverage/2026/2026-04-10-connected-cars-privacy-compliance-guidance",
+    "source": "Cooley - Media (Newsroom)",
+    "pub_date": "2026-04-10",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "쿨리(Cooley)의 특별 고문 클레어 깁스(Claire Gibbs)는 완성차 업체(OEM)가 직면한 데이터 수집 및 개인정보 보호 문제를 지적했습니다.",
+      "커넥티드 카가 민감한 데이터를 처리하기 전, 완성차 업체(OEM)는 소비자에게 데이터 수집과 활용에 관한 명확한 고지를 제공해야 합니다.",
+      "기업은 규제 준수를 위해 소비자로부터 실질적인 동의를 확보하고 정보 처리 절차를 사전에 투명하게 공개해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "policy",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "original equipment manufacturers",
+        "Claire Gibbs",
+        "Cooley"
+      ],
+      "object": "consumer data",
+      "action": "privacy compliance guidance",
+      "game_mechanic": null,
+      "time_hint": "current"
+    },
+    "event_key": "us_automotive_data_privacy_compliance_2024",
+    "is_primary": true,
+    "title_ko": "커넥티드 카: 개인정보 보호 규제 준수 지침"
+  },
+  {
+    "title": "FCC Proposes Sweeping Rules on Foreign Call Centers: Onshoring Mandates, Consumer Protections and Robocall Deterrence",
+    "url": "https://www.cooley.com/news/insight/2026/2026-04-08-fcc-proposes-sweeping-rules-on-foreign-call-centers-onshoring-mandates-consumer-protections-and-robocall-deterrence",
+    "source": "Cooley - Media (Newsroom)",
+    "pub_date": "2026-04-09",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "연방통신위원회(FCC)는 해외 콜센터의 비중을 제한하고 국내(미국) 이전 및 운영을 장려하기 위한 포괄적인 규제안을 발표했습니다.",
+      "이번 규제안에는 해외 상담원의 영어 구사 능력 기준 설정과 소비자가 요청할 경우 미국 내 상담원으로 연결할 권리를 보장하는 방안이 포함되었습니다.",
+      "해외 콜센터를 운영하는 통신 및 관련 서비스 기업은 불법 로보콜 방지를 위한 재정적 책임과 강화된 품질·보안 표준 준수 여부를 검토해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Federal Communications Commission"
+      ],
+      "object": "foreign call center operations",
+      "action": "proposing rulemaking for onshoring and security standards",
+      "game_mechanic": null,
+      "time_hint": "March 2026"
+    },
+    "event_key": "us_fcc_foreign_call_center_rulemaking_2026",
+    "is_primary": true,
+    "title_ko": "연방통신위원회(FCC), 해외 콜센터 규제안 발표: 국내 이전 의무화 및 소비자 보호 강화"
+  },
+  {
+    "title": "Washington State Expands Personality Rights Law to Cover AI-Generated Deepfakes",
+    "url": "https://www.cooley.com/news/insight/2026/2026-04-06-washington-state-expands-personality-rights-law-to-cover-ai-generated-deepfakes",
+    "source": "Cooley - Media (Newsroom)",
+    "pub_date": "2026-04-09",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "워싱턴주(Washington State)는 밥 퍼거슨(Bob Ferguson) 주지사가 서명한 법안 SSB 5886을 통해 개인의 동의 없이 생성된 '디지털 위조 유사성(forged digital likeness)'에 대한 권리를 강화했습니다.",
+      "개정된 법안에 따라 타인의 외모, 음성, 행동을 실제와 구분하기 어렵게 조작하여 오해를 불러일으키는 AI 콘텐츠 사용이 금지되며, 이는 생존자와 특정 고인에게도 적용됩니다.",
+      "위반 시 기존보다 두 배 상향된 3,000달러의 민사 벌금이 부과되며, 정신적 고통 및 명예 훼손에 따른 비경제적 손해배상 책임까지 추가되어 처벌 수위가 대폭 강화되었습니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "legislation",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Washington State Legislature",
+        "Governor Bob Ferguson"
+      ],
+      "object": "personality rights",
+      "action": "expansion of property rights law to include forged digital likenesses",
+      "game_mechanic": null,
+      "time_hint": "Signed March 16, 2026; Effective June 11, 2026"
+    },
+    "event_key": "us_wa_ai_deepfake_rights_2026",
+    "is_primary": true,
+    "title_ko": "워싱턴주(Washington State), 인공지능(AI) 딥페이크 포함하도록 퍼블리시티권법 확대"
+  },
+  {
+    "title": "UK Competition and Consumer Regulator Sets Key Regulatory Priorities for 2026 – 2027",
+    "url": "https://www.cooley.com/news/insight/2026/2026-04-08-uk-competition-and-consumer-regulator-sets-key-regulatory-priorities-for-2026-2027",
+    "source": "Cooley - Media (Newsroom)",
+    "pub_date": "2026-04-08",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "영국 경쟁시장청(CMA)은 소비자 보호와 경제 성장을 촉진하기 위한 '2026-2027 연례 계획'을 발표하며, 새로운 전략의 구체적인 이행 방안을 제시했습니다.",
+      "이번 계획은 기존의 디지털 시장 및 합병 심사 중심에서 소비자 보호법 집행 강화로 무게 중심을 이동했으며, 중소기업(SME)과 스타트업 지원을 통한 혁신 장려를 강조했습니다.",
+      "특히 디지털 시장·경쟁·소비자법(DMCCA) 시행으로 강화된 집행 권한을 바탕으로, 영국 시장 내 투자 환경을 개선하고 경제적 성과를 실현하는 데 집중할 방침입니다."
+    ],
+    "event": {
+      "jurisdiction": "UK",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Competition and Markets Authority (CMA)",
+        "UK Government"
+      ],
+      "object": "Consumer protection and competition market oversight",
+      "action": "Setting annual strategic regulatory priorities and enforcement framework",
+      "game_mechanic": null,
+      "time_hint": "2026-2027"
+    },
+    "event_key": "uk_cma_strategic_priorities_2026",
+    "is_primary": true,
+    "title_ko": "영국 경쟁시장청(CMA), 2026-2027년 핵심 규제 우선순위 발표"
+  },
+  {
+    "title": "Project Glasswing and open source software: The good, the bad, and the ugly",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/10/project_glasswing/",
+    "source": "The Register - Security",
+    "pub_date": "2026-04-10",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "앤스로픽(Anthropic)이 주도하는 프로젝트 글래스윙(Project Glasswing)은 1억 달러 규모의 AI 자원을 투입해 오픈 소스 소프트웨어의 보안 취약점을 탐색 및 수정하는 연합체입니다.",
+      "해당 프로젝트는 미토스(Mythos) AI를 활용해 잠재적 위협을 제거한다는 명분을 내세우지만, 일각에서는 AI가 오히려 새로운 제로데이 취약점을 대량으로 양산할 수 있다는 우려를 제기합니다.",
+      "게임 산업 내 오픈 소스 활용도가 높은 만큼, AI 기반의 자동화된 보안 탐색이 향후 소프트웨어 공급망 보안에 미칠 긍정적 영향과 위험성을 동시에 주시해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Anthropic",
+        "Tech industry coalition"
+      ],
+      "object": "Open source software",
+      "action": "Vulnerability identification and remediation via AI",
+      "game_mechanic": null,
+      "time_hint": "April 2026"
+    },
+    "event_key": "global_ai_vulnerability_remediation_2026q2",
+    "is_primary": true,
+    "title_ko": "프로젝트 글래스윙(Project Glasswing)과 오픈 소스 소프트웨어: 빛과 그림자"
+  }
+]
