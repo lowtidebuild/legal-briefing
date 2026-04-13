@@ -1,0 +1,282 @@
+[
+  {
+    "title": "Hackers demand ransom from GTA6 studio Rockstar, threaten to leak stolen data",
+    "url": "https://www.pcgamer.com/games/grand-theft-auto/hackers-demand-ransom-from-gta6-studio-rockstar-threaten-to-leak-stolen-data/",
+    "source": "PC Gamer",
+    "pub_date": "2026-04-11",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "락스타 게임즈(Rockstar Games)가 대규모 데이터 침해 사고를 겪으며 다시 한번 보안 위기에 직면했습니다.",
+      "해커들은 훔친 데이터를 외부에 유출하겠다고 위협하며 회사 측에 금전적인 몸값을 요구하고 있습니다.",
+      "이번 사건으로 인해 미출시작인 GTA6 관련 정보의 추가 유출 가능성에 대한 업계의 우려가 커지고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "security_incident",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Rockstar Games",
+        "Hackers"
+      ],
+      "object": "stolen company and user data",
+      "action": "ransom demand and data leak threat",
+      "game_mechanic": null,
+      "time_hint": "recent"
+    },
+    "event_key": "global_data_breach_ransomware_2024",
+    "is_primary": true,
+    "title_ko": "해커들, GTA6 제작사 락스타 게임즈(Rockstar Games)에 데이터 유출 협박하며 몸값 요구"
+  },
+  {
+    "title": "GTA 6 Dev Rockstar Confirms 'A Limited Amount of Non-Material Company Information Was Accessed' in Third-Party Data Breach, as Hackers Issue Ultimatum: 'Pay or Leak'",
+    "url": "https://www.ign.com/articles/gta-6-dev-rockstar-confirms-a-limited-amount-of-non-material-company-information-was-accessed-in-third-party-data-breach-as-hackers-issue-ultimatum-pay-or-leak",
+    "source": "IGN",
+    "pub_date": "2026-04-11",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "GTA 6 개발사 락스타 게임즈(Rockstar Games)가 제3자 업체를 통한 데이터 유출 사고가 발생했음을 공식 인정했습니다.",
+      "락스타 게임즈(Rockstar Games) 측은 유출된 정보가 회사의 핵심 경영과는 관련이 없는 일부 자료라고 밝혔습니다.",
+      "해커들은 데이터를 유출하겠다는 협박을 가하며 대가를 요구하는 등 상황이 악화되고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "security_incident",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Rockstar Games",
+        "Third-party provider",
+        "Hackers"
+      ],
+      "object": "company information",
+      "action": "data breach",
+      "game_mechanic": null,
+      "time_hint": "2022"
+    },
+    "event_key": "global_rockstar_data_breach_2022",
+    "is_primary": true,
+    "title_ko": "GTA 6 개발사 락스타 게임즈(Rockstar Games), 제3자 데이터 침해로 일부 정보 유출 확인 및 해커의 협박 요구 발생"
+  },
+  {
+    "title": "The AI code wars are heating up",
+    "url": "https://www.theverge.com/column/910019/ai-coding-wars-openai-google-anthropic",
+    "source": "The Verge - Policy",
+    "pub_date": "2026-04-12",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "AI를 활용한 코딩 기술이 테크 업계의 핵심 서비스로 부상하며 관련 경쟁이 치열해지고 있습니다.",
+      "더 버지(The Verge)의 데이비드 피어스(David Pierce)는 AI 코딩 및 바이브 코딩(vibe-coding)의 급격한 성장세를 주목하고 있습니다.",
+      "코드 작성의 자동화가 AI 시장의 판도를 바꾸면서 기술 기업들 간의 주도권 다툼이 가속화될 전망입니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Tech companies",
+        "Developers",
+        "Regulators"
+      ],
+      "object": "Generative AI coding tools",
+      "action": "Development of industry standards and policy framework for AI-generated code",
+      "game_mechanic": null,
+      "time_hint": "Current"
+    },
+    "event_key": "us_ai_coding_policy_framework_2024",
+    "is_primary": true,
+    "title_ko": "AI 코딩 전쟁이 격화되고 있다"
+  },
+  {
+    "title": "China wants AI to prepare school lessons and mark homework",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/13/asia_tech_news_roundup/",
+    "source": "The Register - Security",
+    "pub_date": "2026-04-13",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "중국 국가데이터국(National Data Administration)은 AI를 교육 분야에 도입하여 수업 준비와 숙제 채점 등을 자동화하는 실행 계획을 발표했습니다.",
+      "이번 정책은 국가 차원에서 시민들의 AI 역량을 강화하고, 기술을 실무에 적극 활용할 수 있는 환경을 조성하는 데 중점을 두고 있습니다.",
+      "이와 더불어 토요타(Toyota)의 농구 로봇, 암(Arm)과 SK텔레콤(SK Telecom)의 AI 서버 협력 등 아시아 내 주요 IT 이슈들도 함께 공개되었습니다."
+    ],
+    "event": {
+      "jurisdiction": "CN",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "National Data Administration"
+      ],
+      "object": "AI in education",
+      "action": "published action plan for AI integration and citizen upskilling",
+      "game_mechanic": null,
+      "time_hint": "April 2026"
+    },
+    "event_key": "cn_ai_education_policy_2026q2",
+    "is_primary": true,
+    "title_ko": "중국, 교육 현장에 AI 도입 및 숙제 채점 활용 추진"
+  },
+  {
+    "title": "Anthropic's mysterious Mythos AI threatens to upend the infosec world",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/12/anthropic_mythos_kettle_podcast/",
+    "source": "The Register - Security",
+    "pub_date": "2026-04-12",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "앤스로픽(Anthropic)은 제로데이 취약점을 탐색하고 공격할 수 있는 고성능 AI 모델인 미소스(Mythos)를 공개했습니다.",
+      "해당 기술은 정보보안 환경에 큰 파장을 예고하고 있으나, 일각에서는 기업 상장(IPO)을 앞둔 과장된 홍보일 가능성도 제기하고 있습니다.",
+      "업계 전문가들은 이 AI의 실제 성능과 보안상 위협 수준에 대해 심층적인 검증이 필요하다고 분석하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Anthropic"
+      ],
+      "object": "Mythos AI model",
+      "action": "public release of autonomous vulnerability exploitation capabilities",
+      "game_mechanic": null,
+      "time_hint": "current week"
+    },
+    "event_key": "global_ai_vulnerability_exploitation_policy_2024",
+    "is_primary": true,
+    "title_ko": "앤스로픽(Anthropic)의 의문의 미소스(Mythos) AI, 정보보안 업계를 뒤흔들 위협으로 부상"
+  },
+  {
+    "title": "Britain seeks views before it drops the hammer on signal jammers",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/10/signal_jammer_consultation/",
+    "source": "The Register - Security",
+    "pub_date": "2026-04-10",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "영국 정부(UK government)는 범죄에 악용되는 전파 방해기(radiofrequency jammers)를 규제하기 위한 입법을 준비 중입니다.",
+      "해당 기기들의 위험성을 평가하고 적절한 법적 조치를 마련하기 위해 4주간의 공개 의견 수렴 절차를 진행합니다.",
+      "이번 조치는 불법 전파 방해기의 유통 및 사용을 근절하여 공공 안전과 통신 환경을 보호하는 데 목적이 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "UK",
+      "event_type": "legislation",
+      "regulatory_phase": "public_comment",
+      "actors": [
+        "UK government"
+      ],
+      "object": "radiofrequency jammers",
+      "action": "seeking evidence to support future ban",
+      "game_mechanic": null,
+      "time_hint": "four-week call for evidence"
+    },
+    "event_key": "uk_rf_jammers_legislation_2024",
+    "is_primary": true,
+    "title_ko": "영국 정부, 전파 방해기 규제 강화를 위한 의견 수렴 착수"
+  },
+  {
+    "title": "Unpacking AI security in 2026 from experimentation to the agentic era",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/10/unpacking_ai_security_2026/",
+    "source": "The Register - Security",
+    "pub_date": "2026-04-10",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "2025년이 AI 기술의 실험적 도입기였다면, 2026년은 전사적 차원의 자율적인 AI 배치가 본격화되는 시기입니다.",
+      "더 레지스터(The Register)는 AI 도입이 확대됨에 따라 기업들이 직면하게 될 새로운 보안 위협과 책임 소재가 중요해질 것으로 전망했습니다.",
+      "게임 업계 역시 단순 실험을 넘어 복잡한 에이전트 시스템을 운용하는 과정에서 고도화된 보안 전략 수립이 필수적입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "enterprise_entities",
+        "regulatory_bodies"
+      ],
+      "object": "autonomous_ai_systems",
+      "action": "security_standardization",
+      "game_mechanic": null,
+      "time_hint": "2026"
+    },
+    "event_key": "global_ai_security_framework_2026",
+    "is_primary": true,
+    "title_ko": "2026년 AI 보안 분석: 실험 단계를 넘어 에이전트 시대로"
+  },
+  {
+    "title": "Security researchers tricked Apple Intelligence into cursing at users. It could have been a lot worse",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/09/security_researchers_tricked_apple_intelligence/",
+    "source": "The Register - Security",
+    "pub_date": "2026-04-09",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "보안 연구원들이 프롬프트 인젝션 공격을 통해 애플(Apple)의 AI 시스템인 '애플 인텔리전스(Apple Intelligence)'가 사용자에게 욕설을 하도록 강제하는 데 성공했습니다.",
+      "이번 취약점은 공격자가 모델의 결과값을 통제할 수 있다는 점을 시사하며, 전 세계 수백만 명의 사용자가 잠재적인 보안 위험에 노출될 수 있음을 보여줍니다.",
+      "게임 및 IT 업계에서는 AI의 안전성 강화가 필수적인 과제로 떠오르며, 향후 생성형 AI 서비스에 대한 강력한 보안 규제와 대응책 마련이 요구됩니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "security_incident",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Apple",
+        "Security Researchers"
+      ],
+      "object": "Apple Intelligence",
+      "action": "prompt injection vulnerability discovery",
+      "game_mechanic": "null",
+      "time_hint": "current"
+    },
+    "event_key": "global_ai_security_prompt_injection_2024",
+    "is_primary": true,
+    "title_ko": "보안 연구원들, 애플(Apple)의 '애플 인텔리전스(Apple Intelligence)'가 사용자에게 욕설하도록 조작"
+  },
+  {
+    "title": "US cybercrime losses pass $20B for first time as AI boosts online fraud",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/07/cybercrime_losses_reach_alltime_high/",
+    "source": "The Register - Security",
+    "pub_date": "2026-04-07",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "연방수사국(FBI)은 2025년 사이버 범죄로 인한 피해액이 208억 7천만 달러를 기록하며 사상 최대치를 경신했다고 발표했습니다.",
+      "범죄자들은 AI와 봇(Bots) 기술을 적극적으로 활용해 기존의 사기 수법을 더욱 정교화하고 규모를 확대하고 있습니다.",
+      "게임 산업 내에서도 이러한 자동화된 공격이 증가하고 있어 사용자 계정 탈취 및 금전적 사기 방지를 위한 보안 강화가 요구됩니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "security_incident",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "FBI",
+        "cybercriminals"
+      ],
+      "object": "online fraud and cybercrime",
+      "action": "reporting record financial losses due to AI-enhanced cybercrime",
+      "game_mechanic": null,
+      "time_hint": "2025"
+    },
+    "event_key": "us_cybercrime_fraud_report_2025",
+    "is_primary": true,
+    "title_ko": "AI를 활용한 온라인 사기 급증으로 미국의 사이버 범죄 피해액 사상 처음 200억 달러 돌파"
+  },
+  {
+    "title": "You can thank Brit funnyman John Oliver for fixing US broadband policy, beams Netflix",
+    "url": "http://go.theregister.com/feed/www.theregister.co.uk/2014/09/05/netflix_boss_we_can_thank_john_oliver_for_fcc_policy/",
+    "source": "The Register - Policy",
+    "pub_date": "",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "넷플릭스(Netflix)의 CEO 리드 헤이스팅스(Reed Hastings)는 미국 연방통신위원회(FCC)의 강력한 망 중립성 정책 추진이 존 올리버(John Oliver)의 영향 덕분이라고 평가했습니다.",
+      "존 올리버(John Oliver)는 자신의 방송 프로그램인 '라스트 위크 투나잇(Last Week Tonight)'을 통해 FCC가 통신사의 독점을 규제하도록 대중의 관심을 크게 환기했습니다.",
+      "업계에서는 방송인의 영향력이 실제 미 정부의 기술 정책 변화와 통신 독점 규제에 기여한 사례로 이 사건을 주목하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "FCC",
+        "Netflix",
+        "John Oliver"
+      ],
+      "object": "broadband policy",
+      "action": "net neutrality enforcement",
+      "game_mechanic": null,
+      "time_hint": "this week"
+    },
+    "event_key": "us_broadband_net_neutrality_policy_2015",
+    "is_primary": true,
+    "title_ko": "넷플릭스(Netflix): 미국 광대역 통신 정책 개선은 영국 코미디언 존 올리버(John Oliver)의 공"
+  }
+]
