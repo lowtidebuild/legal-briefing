@@ -1,0 +1,286 @@
+[
+  {
+    "title": "Rockstar Games affected by data breach, \"limited amount of non-material information\" accessed",
+    "url": "https://www.gamesindustry.biz/rockstar-games-affected-by-data-breach-limited-amount-of-non-material-information-accessed",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-04-13",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "락스타 게임즈(Rockstar Games)가 최근 자사 시스템에 대한 데이터 침해 사고가 발생했음을 공식적으로 확인했습니다.",
+      "사측은 이번 사건을 통해 유출된 정보는 소량의 비핵심 데이터에 국한된다고 설명했습니다.",
+      "현재 구체적인 피해 범위와 유출 경위에 대해 조사 중이며, 게임 서비스 운영에는 큰 영향이 없는 것으로 파악됩니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "security_incident",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Rockstar Games"
+      ],
+      "object": "user data",
+      "action": "unauthorized access",
+      "game_mechanic": null,
+      "time_hint": "current"
+    },
+    "event_key": "global_rockstar_data_breach_2024",
+    "is_primary": true,
+    "title_ko": "락스타 게임즈(Rockstar Games), 데이터 침해 사고 발생... \"비핵심 정보 일부 유출\""
+  },
+  {
+    "title": "Google removes Doki Doki Literature Club from Play Store over policy violation",
+    "url": "https://www.pocketgamer.biz/google-removes-doki-doki-literature-club-from-play-store-over-policy-violation/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-04-13",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "구글(Google)이 민감한 주제 묘사와 관련된 서비스 약관 위반을 근거로 '두키두키 문학부!(Doki Doki Literature Club)'를 플레이 스토어에서 삭제했다.",
+      "이번 조치는 2025년 12월 출시된 안드로이드 버전에 적용되었으며, 지난 4월 8일부터 스토어 접근이 제한되었다.",
+      "해당 게임은 PC, 콘솔, iOS 환경에서는 여전히 정상적으로 이용할 수 있다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "enforcement",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Google",
+        "Team Salvato"
+      ],
+      "object": "Doki Doki Literature Club",
+      "action": "removal_from_storefront",
+      "game_mechanic": "none",
+      "time_hint": "April 8, 2026"
+    },
+    "event_key": "global_google_play_store_removal_2026q2",
+    "is_primary": true,
+    "title_ko": "구글(Google), 정책 위반 이유로 '두키두키 문학부!(Doki Doki Literature Club)' 플레이 스토어에서 삭제"
+  },
+  {
+    "title": "NZXT class action lawsuit settlement includes $3 million in damages, and some buyers will get to keep their rented PCs",
+    "url": "https://www.pcgamer.com/hardware/gaming-pcs/nzxt-class-action-lawsuit-settlement-includes-usd3-million-in-damages-and-some-buyers-will-get-to-keep-their-rented-pcs/",
+    "source": "PC Gamer",
+    "pub_date": "2026-04-14",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "엔지엑스티(NZXT)가 자사의 PC 대여 프로그램과 관련한 집단 소송에서 300만 달러 규모의 합의안에 도달했습니다.",
+      "이번 합의를 통해 특정 자격 요건을 충족하는 소비자들은 기존에 대여 중이던 PC를 반납하지 않고 소유할 수 있게 되었습니다.",
+      "해당 조치는 대여 서비스 이용자들의 권익을 보호하고 사법적 갈등을 종결하기 위한 후속 조치로 풀이됩니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "NZXT",
+        "PC buyers"
+      ],
+      "object": "consumer hardware sales and rentals",
+      "action": "settlement of class action lawsuit",
+      "game_mechanic": "none",
+      "time_hint": "recent"
+    },
+    "event_key": "us_nzxt_class_action_settlement_2024",
+    "is_primary": true,
+    "title_ko": "엔지엑스티(NZXT) 집단 소송 합의, 300만 달러 배상 및 일부 대여 PC 소유권 인정"
+  },
+  {
+    "title": "Xbox co-creator says Project Helix is stuck between Microsoft investors \"psychotically interested\" in AI and \"a games division that's allergic\" to it",
+    "url": "https://www.gamesradar.com/platforms/xbox/xbox-co-creator-says-project-helix-is-stuck-between-microsoft-investors-psychotically-interested-in-ai-and-a-games-division-thats-allergic-to-it/",
+    "source": "gamesradar+",
+    "pub_date": "2026-04-14",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "엑스박스(Xbox) 공동 창업자 시머스 블랙리(Seamus Blackley)는 마이크로소프트(Microsoft) 내부에서 AI 도입을 둘러싼 갈등이 심화되고 있다고 지적했습니다.",
+      "투자자들은 AI 기술 활용에 강한 집착을 보이는 반면, 게임 부서는 AI 기술 적용에 대해 부정적인 입장을 고수하고 있습니다.",
+      "블랙리는 게임 사업 책임자가 AI 도입 압박을 강하게 받을 것이라며, 현재 개발 프로젝트인 '프로젝트 헬릭스(Project Helix)'가 이들 사이에서 곤경에 처했음을 시사했습니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "business",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Seamus Blackley",
+        "Microsoft",
+        "Xbox Games Division"
+      ],
+      "object": "Generative AI integration in video game development",
+      "action": "Internal strategic corporate governance pressure",
+      "game_mechanic": null,
+      "time_hint": "current"
+    },
+    "event_key": "us_ai_corporate_governance_pressure_2024",
+    "is_primary": true,
+    "title_ko": "엑스박스(Xbox) 공동 창업자, AI에 '광적인' 마이크로소프트(Microsoft) 투자자와 이를 거부하는 게임 부서 사이에서 '프로젝트 헬릭스(Project Helix)'가 난항을 겪고 있다고 언급"
+  },
+  {
+    "title": "AI Hype, Hard Lessons: Where SEA’s Startup Capital Is Really Going",
+    "url": "https://www.cooley.com/news/coverage/2026/2026-04-09-ai-hype-hard-lessons-where-seas-startup-capital-is-really-going",
+    "source": "Cooley - Media (Newsroom)",
+    "pub_date": "2026-04-09",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "쿨리(Cooley)의 파트너 데이비드 허(David He)는 최근 동남아시아(SEA) 스타트업 생태계 내 자본 흐름과 투자 심리의 근본적 변화를 분석했습니다.",
+      "현재 투자 시장은 AI 분야에 대한 투자를 대폭 늘리고 있으나, 동시에 스타트업의 실질적 가치와 지속 가능성에 대해 더욱 엄격한 잣대를 들이대고 있습니다.",
+      "투자자들은 기업이 AI 기술을 비즈니스 모델에 어떻게 효과적으로 통합하고 수익화하는지 등 4가지 핵심 영역을 중심으로 검증을 강화하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Cooley",
+        "David He",
+        "SEA startups",
+        "Investors"
+      ],
+      "object": "AI startup investment",
+      "action": "investment scrutiny",
+      "game_mechanic": null,
+      "time_hint": "2026-04-06"
+    },
+    "event_key": "global_ai_investment_scrutiny_2026",
+    "is_primary": true,
+    "title_ko": "AI 열풍과 뼈아픈 교훈: 동남아시아(SEA) 스타트업 자금의 진짜 행방"
+  },
+  {
+    "title": "State Laws About Pay Transparency in Job Ads are Gaining Popularity, Lawyers Say",
+    "url": "https://www.cooley.com/news/coverage/2026/2026-04-08-state-laws-about-pay-transparency-in-job-ads-are-gaining-popularity",
+    "source": "Cooley - Media (Newsroom)",
+    "pub_date": "2026-04-08",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "급여 형평성 제고를 위한 급여 공개법이 미국 내 여러 주에서 빠르게 확산되고 있음.",
+      "쿨리(Cooley)의 파트너 변호사 린지 크루저(Lyndsey Kruzer)는 이러한 법규가 기업의 채용 절차에 영향을 미치고 있다고 설명함.",
+      "특히 원격 근무직의 경우 여러 주의 공시 요건을 모두 준수해야 하는 복잡한 상황이 발생할 수 있어 기업들의 주의가 필요함."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "state legislatures",
+        "employers"
+      ],
+      "object": "job advertisement salary disclosures",
+      "action": "expansion of pay transparency compliance requirements",
+      "game_mechanic": null,
+      "time_hint": "ongoing"
+    },
+    "event_key": "us_labor_pay_transparency_expansion_2024",
+    "is_primary": true,
+    "title_ko": "채용 공고 내 급여 공개에 관한 주(State)별 법률 확산"
+  },
+  {
+    "title": "CFTC Issues No-Action Relief to Self-Custodial Crypto-Wallet Application",
+    "url": "https://www.cooley.com/news/insight/2026/2026-04-06-cftc-issues-no-action-relief-to-self-custodial-crypto-wallet-application",
+    "source": "Cooley - Media (Newsroom)",
+    "pub_date": "2026-04-08",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "미국 상품선물거래위원회(CFTC)의 시장참여자부(MPD)는 자기수탁형 암호화폐 지갑 기업 팬텀 테크놀로지스(Phantom Technologies)에 대해 소개 브로커(IB) 등록 의무를 면제하는 불처분 서한을 발행했습니다.",
+      "팬텀 테크놀로지스(Phantom Technologies)는 이용자가 직접 자산을 관리하는 소프트웨어를 제공할 뿐, 사용자 자산을 보관하거나 주문 집행에 개입하지 않는다는 점을 인정받아 규제 부담을 덜게 되었습니다.",
+      "이번 결정은 팬텀 테크놀로지스(Phantom Technologies)가 파생상품 거래 인터페이스를 제공하면서도 기존의 엄격한 중개인 등록 요건을 우회할 수 있는 선례를 마련한 것으로 평가됩니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "CFTC Market Participants Division",
+        "Phantom Technologies"
+      ],
+      "object": "Registration requirements for introducing brokers under the Commodity Exchange Act",
+      "action": "Issued no-action relief letter",
+      "game_mechanic": "crypto-wallet integration for derivatives trading",
+      "time_hint": "March 17, 2026"
+    },
+    "event_key": "us_cftc_crypto_wallet_no_action_2026q1",
+    "is_primary": true,
+    "title_ko": "미국 상품선물거래위원회(CFTC), 자기수탁형 암호화폐 지갑 앱에 대한 불처분(No-action) 결정"
+  },
+  {
+    "title": "Privacy advocates want Google to stop handing consumer data over to ICE",
+    "url": "https://www.theverge.com/news/911789/eff-google-giving-data-ice-california-new-york",
+    "source": "The Verge - Policy",
+    "pub_date": "2026-04-14",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "전자프론티어재단(EFF)은 구글(Google)이 법 집행 기관에 사용자 데이터를 넘길 때 사전 고지를 하지 않는 점을 들어 캘리포니아와 뉴욕 검찰총장에게 조사를 요청했습니다.",
+      "EFF는 구글(Google)이 사용자들에게 데이터 제공 사실을 알리겠다고 약속해왔으나 실제로는 이민세관단속국(ICE) 등에 정보를 넘길 때 이를 이행하지 않아 기만적인 거래 관행을 보이고 있다고 비판했습니다.",
+      "이번 사태는 빅테크 기업의 데이터 관리 투명성에 대한 감시가 강화되는 가운데, 이용자 정보 보호 및 정부 기관과의 데이터 공유 관행이 주요 쟁점으로 부상했음을 시사합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "enforcement",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Electronic Frontier Foundation",
+        "California Attorney General",
+        "New York Attorney General",
+        "Google"
+      ],
+      "object": "user_data",
+      "action": "investigate_deceptive_trade_practices",
+      "game_mechanic": null,
+      "time_hint": "current"
+    },
+    "event_key": "us_google_privacy_enforcement_2024",
+    "is_primary": true,
+    "title_ko": "개인정보 보호 단체들, 구글(Google)의 이민세관단속국(ICE) 데이터 제공 중단 촉구"
+  },
+  {
+    "title": "Elon Musk grilled by senator over X Money plans",
+    "url": "https://www.theverge.com/policy/911702/elon-musk-x-money-senator-warren",
+    "source": "The Verge - Policy",
+    "pub_date": "2026-04-14",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "엘리자베스 워런(Elizabeth Warren) 상원의원은 일론 머스크(Elon Musk)의 결제 플랫폼 'X 머니(X Money)' 출시와 관련해 서한을 보내 우려를 표명했습니다.",
+      "워런 의원은 해당 서비스가 소비자 보호, 국가 안보, 금융 시스템의 안정성에 잠재적 위험을 초래할 수 있다고 지적했습니다.",
+      "이번 질의는 머스크(Musk)가 운영하는 플랫폼의 거래 안전성 및 규제 준수 여부에 대한 정치권의 감시가 강화되고 있음을 시사합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Elon Musk",
+        "Elizabeth Warren",
+        "X"
+      ],
+      "object": "X Money payments platform",
+      "action": "senate inquiry regarding financial risk and security",
+      "game_mechanic": null,
+      "time_hint": "Tuesday"
+    },
+    "event_key": "us_x_financial_oversight_inquiry_2024",
+    "is_primary": true,
+    "title_ko": "일론 머스크(Elon Musk), 상원의원으로부터 'X 머니(X Money)' 계획에 대한 집중 추궁받아"
+  },
+  {
+    "title": "Commvault has a Ctrl+Z for rogue AI agents",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/14/commvault_has_a_ctrlz_for/",
+    "source": "The Register - Security",
+    "pub_date": "2026-04-14",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "콤볼트(Commvault)가 AWS, Azure, GCP 환경에서 실행되는 AI 에이전트를 탐지하고 모니터링하는 소프트웨어 'AI Protect'를 출시했습니다.",
+      "이 솔루션은 AI 에이전트의 활동을 실시간으로 감시하며, 잠재적인 오류나 위험 발생 시 데이터 백업 및 실행 취소(Rollback) 기능을 제공합니다.",
+      "게임 및 IT 기업들은 이를 통해 AI 에이전트의 오작동으로부터 중요 데이터를 보호하고 운영 안정성을 확보할 수 있게 되었습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Commvault"
+      ],
+      "object": "AI agents",
+      "action": "monitoring and remediation",
+      "game_mechanic": null,
+      "time_hint": "2024"
+    },
+    "event_key": "global_ai_agent_governance_2024",
+    "is_primary": true,
+    "title_ko": "콤볼트(Commvault), 통제 불능 AI 에이전트를 위한 'Ctrl+Z' 기능 공개"
+  }
+]
