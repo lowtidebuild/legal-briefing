@@ -1,0 +1,284 @@
+[
+  {
+    "title": "PC rental company accused of \"scamming\" customers settles class-action lawsuit for $3.4m",
+    "url": "https://www.gamesindustry.biz/pc-rental-company-accused-of-scamming-customers-settles-class-action-lawsuit-for-34m",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-04-15",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "조립 PC 및 대여 업체 엔지엑스티(NZXT)가 자사 서비스와 관련해 고객들로부터 제기된 집단 소송에서 345만 달러를 지급하기로 합의했습니다.",
+      "해당 업체는 고객을 기만했다는 이른바 '스캠(scam)' 혐의로 소송을 당했으며, 이번 합의를 통해 법적 분쟁을 마무리하게 되었습니다.",
+      "이번 사례는 게임 하드웨어 및 대여 서비스 분야에서 소비자 보호 규제와 관련된 기업의 법적 책임이 강조된 사건입니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "NZXT",
+        "PC rental customers"
+      ],
+      "object": "consumer rental agreements and business practices",
+      "action": "settlement of class-action lawsuit regarding alleged deceptive practices",
+      "game_mechanic": null,
+      "time_hint": "July 2024"
+    },
+    "event_key": "us_nzxt_consumer_fraud_settlement_2024",
+    "is_primary": true,
+    "title_ko": "고객 '사기' 혐의를 받은 PC 대여 업체 엔지엑스티(NZXT), 340만 달러 규모의 집단 소송 합의"
+  },
+  {
+    "title": "Aptoide sues Google over alleged Android App Store monopoly",
+    "url": "https://www.pocketgamer.biz/aptoide-sues-google-over-alleged-android-app-store-monopoly/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-04-15",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "앱토이드(Aptoide)가 구글(Google)의 안드로이드 앱 배포 및 결제 시스템 독점 행위가 반경쟁적이라며 샌프란시스코 연방 법원에 소송을 제기했습니다.",
+      "원고 측은 구글(Google)이 안드로이드 생태계를 장악해 경쟁 앱스토어의 성장을 의도적으로 방해하고 있다고 주장했습니다.",
+      "이번 소송은 낮은 수수료를 제공하는 경쟁사들의 시장 진입을 구글(Google)이 인위적으로 차단하고 있다는 비판을 핵심 쟁점으로 다룹니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Aptoide",
+        "Google"
+      ],
+      "object": "Android app distribution and in-app billing systems",
+      "action": "filing an antitrust lawsuit",
+      "game_mechanic": "in-app billing",
+      "time_hint": "2024"
+    },
+    "event_key": "us_antitrust_aptoide_google_litigation_2024",
+    "is_primary": true,
+    "title_ko": "앱토이드(Aptoide), 구글(Google)의 안드로이드 앱스토어 독점 혐의로 제소"
+  },
+  {
+    "title": "Navigating the global payments frontier - an interview with Fastspring's Christopher Bunk",
+    "url": "https://www.pocketgamer.biz/navigating-the-global-payments-frontier-an-interview-with-fastsprings-christopher-bunk/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-04-15",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "결제 및 구독, 자동 세금 규정 준수 전문 기업인 패스트스프링(Fastspring)은 최근 크리스토퍼 번크(Christopher Bunk)를 최고 제품 및 기술 책임자(CPTO)로 영입했습니다.",
+      "크리스토퍼 번크(Christopher Bunk)는 글로벌 결제 시장과 기록 판매자(Merchant of Record) 분야에서 패스트스프링(Fastspring)이 가진 입지를 높이 평가하며 합류 이유를 밝혔습니다.",
+      "패스트스프링(Fastspring)은 빠르게 변화하는 글로벌 모바일 게임 시장의 수요에 맞춰 결제 인프라와 규제 대응 지원을 강화할 계획입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Fastspring",
+        "Christopher Bunk"
+      ],
+      "object": "digital payments and tax compliance infrastructure",
+      "action": "executive appointment and strategic market expansion",
+      "game_mechanic": "in-app purchases",
+      "time_hint": "2024"
+    },
+    "event_key": "global_payments_merchant_of_record_strategy_2024",
+    "is_primary": true,
+    "title_ko": "글로벌 결제의 미래를 탐색하다 - 패스트스프링(Fastspring)의 크리스토퍼 번크(Christopher Bunk) 인터뷰"
+  },
+  {
+    "title": "A $3 billion infringement suit against Intel has opened up once more due to a US appeals court decision",
+    "url": "https://www.pcgamer.com/hardware/processors/a-usd3-billion-infringement-suit-against-intel-has-opened-up-once-more-due-to-a-us-appeals-court-decision/",
+    "source": "PC Gamer",
+    "pub_date": "2026-04-16",
+    "category": "IP",
+    "summary_ko": [
+      "미국 항소법원의 최근 결정으로 인텔(Intel)을 상대로 제기된 30억 달러 규모의 특허 침해 소송이 다시 진행되게 되었습니다.",
+      "해당 사건은 오랜 기간 여러 차례 법적 공방과 반전이 이어지며 복잡하게 전개되어 왔습니다.",
+      "이번 법원의 판결은 인텔(Intel)의 지식재산권 관련 법적 리스크가 다시금 확대되었음을 시사합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Intel",
+        "US appeals court"
+      ],
+      "object": "patent infringement suit",
+      "action": "reopening of legal proceedings",
+      "game_mechanic": null,
+      "time_hint": "current"
+    },
+    "event_key": "us_ip_patent_litigation_2024",
+    "is_primary": true,
+    "title_ko": "미 항소법원 판결로 인텔(Intel) 상대 30억 달러 규모 특허 침해 소송 재개"
+  },
+  {
+    "title": "Valve could be prepping to roll out 30-day Steam price tracking in the US, making it harder for publishers to mess with discounts",
+    "url": "https://www.pcgamer.com/hardware/valve-could-be-prepping-to-roll-out-30-day-steam-price-tracking-in-the-us-making-it-harder-for-publishers-to-mess-with-discounts/",
+    "source": "PC Gamer",
+    "pub_date": "2026-04-16",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "밸브(Valve)는 미국 내 스팀(Steam) 플랫폼에 30일간의 가격 변동 추적 기능을 도입할 것으로 보입니다.",
+      "해당 기능은 일부 EU 국가에서 이미 시행 중이며, 게임사들이 할인 기간 직전에 가격을 올리는 식의 편법을 방지할 전망입니다.",
+      "이번 조치를 통해 이용자들에게 투명한 할인 정보를 제공하고 가격 책정의 신뢰성을 높이려는 의도로 해석됩니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Valve",
+        "Steam",
+        "Publishers"
+      ],
+      "object": "discount pricing display",
+      "action": "implementing 30-day price tracking requirements",
+      "game_mechanic": "in-game storefront discounts",
+      "time_hint": "upcoming"
+    },
+    "event_key": "us_steam_discount_transparency_2024",
+    "is_primary": true,
+    "title_ko": "밸브(Valve), 미국 스팀(Steam)에 30일 가격 이력 추적 기능 도입 검토로 부당 할인 방지 강화"
+  },
+  {
+    "title": "European Commission Proposes EU Industrial Accelerator Act Including ‘Made in EU’ and Low-Carbon Requirements, Stricter Rules for FDI in Strategic Sectors",
+    "url": "https://www.cooley.com/news/insight/2026/2026-04-14-european-commission-proposes-eu-industrial-accelerator-act-including-made-in-eu-and-low-carbon-requirements-stricter-rules-for-fdi-in-strategic-sectors",
+    "source": "Cooley - Media (Newsroom)",
+    "pub_date": "2026-04-14",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "유럽연합 집행위원회(European Commission)는 역내 제조 경쟁력 강화와 전략적 자율성 확보를 위해 'EU 산업 가속화법(IAA)' 도입을 추진하고 있습니다.",
+      "이번 법안은 공공 조달 및 정부 지원 사업 시 'Made in EU' 요건과 저탄소 기준을 의무화하여 역내 생산 비중을 2035년까지 GDP의 20%로 확대하는 것을 목표로 합니다.",
+      "전략 분야에 대한 외국인 직접투자(FDI) 심사가 엄격해질 예정으로, 유럽연합(EU) 내 사업을 영위하는 비유럽권 기업들의 투자 및 공급망 전략 재검토가 요구됩니다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "legislation",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "European Commission",
+        "European Parliament",
+        "EU Member States"
+      ],
+      "object": "EU Industrial Accelerator Act",
+      "action": "proposing industrial policy and FDI screening framework",
+      "game_mechanic": null,
+      "time_hint": "March 2026"
+    },
+    "event_key": "eu_industrial_accelerator_act_proposal_2026",
+    "is_primary": true,
+    "title_ko": "유럽연합 집행위원회(European Commission), 'Made in EU' 및 저탄소 요건과 전략 분야 FDI 규제 강화를 포함한 'EU 산업 가속화법(IAA)' 제안"
+  },
+  {
+    "title": "Live Nation says it will fight monopoly suit loss",
+    "url": "https://www.theverge.com/policy/913494/live-nation-ticketmaster-fight-state-monopoly-jury-verdict",
+    "source": "The Verge - Policy",
+    "pub_date": "2026-04-16",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "라이브 네이션-티켓마스터(Live Nation-Ticketmaster)가 반독점법 위반 혐의로 배심원단으로부터 유죄 평결을 받았습니다.",
+      "이에 라이브 네이션(Live Nation) 측은 이번 평결이 최종 결과가 아니라고 반발하며 즉각적인 법적 대응을 예고했습니다.",
+      "회사는 원고 측이 독점 혐의를 충분히 입증하지 못했다고 주장하며 판사에게 판결 기각을 재요청할 계획입니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Live Nation-Ticketmaster",
+        "US Department of Justice",
+        "US States"
+      ],
+      "object": "antitrust compliance",
+      "action": "challenging jury verdict",
+      "game_mechanic": null,
+      "time_hint": "current"
+    },
+    "event_key": "us_livenation_antitrust_litigation_2024",
+    "is_primary": true,
+    "title_ko": "라이브 네이션(Live Nation), 독점 금지 소송 패소에 불복 항전 예고"
+  },
+  {
+    "title": "Anthropic won't own MCP 'design flaw' putting 200K servers at risk, researchers say",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/16/anthropic_mcp_design_flaw/",
+    "source": "The Register - Security",
+    "pub_date": "2026-04-16",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "보안 연구원들은 앤스로픽(Anthropic)의 모델 컨텍스트 프로토콜(MCP)에 존재하는 설계 결함이 심각한 보안 위협을 초래한다고 경고했습니다.",
+      "이번 취약점으로 인해 해당 프로토콜을 사용하는 약 20만 대의 서버가 외부 공격자에게 완전히 장악될 위험에 놓였습니다.",
+      "앤스로픽(Anthropic) 측은 이를 의도된 설계라고 주장하나, 업계에서는 시스템 보안을 위협하는 치명적인 구조적 문제로 보고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "security_incident",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Anthropic",
+        "Security Researchers"
+      ],
+      "object": "Model Context Protocol (MCP)",
+      "action": "identification of server takeover vulnerability",
+      "game_mechanic": null,
+      "time_hint": "current"
+    },
+    "event_key": "global_anthropic_mcp_security_vulnerability_2024",
+    "is_primary": true,
+    "title_ko": "앤스로픽(Anthropic)의 MCP 설계 결함, 서버 20만 대 해킹 위험에 노출"
+  },
+  {
+    "title": "Git identity spoof fools Claude into giving bad code the nod",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/16/git_identity_spoof_claude/",
+    "source": "The Register - Security",
+    "pub_date": "2026-04-16",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "보안 연구원들은 단 두 개의 Git 명령어만으로 앤스로픽(Anthropic)의 AI 모델인 클로드(Claude)가 악성 코드를 신뢰할 수 있는 개발자의 기여로 오인하게 할 수 있음을 발견했습니다.",
+      "공격자는 깃(Git)의 메타데이터를 조작해 신뢰받는 메인테이너(Maintainer)의 신원을 도용함으로써 AI 검토 시스템의 허점을 악용했습니다.",
+      "이번 사례는 개발 프로세스에서 AI 코드 리뷰어의 보안 취약성을 드러냈으며, 신원 확인 절차 강화를 통한 보안 대책 마련이 시급함을 시사합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "security_incident",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Anthropic",
+        "Security Researchers"
+      ],
+      "object": "Claude AI",
+      "action": "identity spoofing vulnerability identification",
+      "game_mechanic": null,
+      "time_hint": "recent"
+    },
+    "event_key": "global_ai_security_vulnerability_2024",
+    "is_primary": true,
+    "title_ko": "Git 신원 위조로 앤스로픽(Anthropic)의 클로드(Claude)를 속여 악성 코드 승인 유도"
+  },
+  {
+    "title": "Server-room lock was nothing but a crock",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/16/pwned_server_room_lock_lol/",
+    "source": "The Register - Security",
+    "pub_date": "2026-04-16",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "사이버 보안의 실효성은 서버가 물리적으로 얼마나 안전하게 보호되는지에 따라 결정된다.",
+      "이번 사례는 물리적 보안 관리를 소홀히 하여 발생한 취약점을 다루는 더 레지스터(The Register)의 'Pwned' 칼럼을 통해 소개되었다.",
+      "자동차 문을 열어두고 현금을 방치하는 것과 같이, 조직이 스스로 보안 위협을 초래하는 물리적 허점을 경계해야 한다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "security_incident",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "unidentified_organization"
+      ],
+      "object": "physical_server_infrastructure",
+      "action": "unauthorized_access",
+      "game_mechanic": null,
+      "time_hint": "current"
+    },
+    "event_key": "global_physical_security_incident_2024",
+    "is_primary": true,
+    "title_ko": "서버실 잠금장치는 그저 허울뿐이었다"
+  }
+]

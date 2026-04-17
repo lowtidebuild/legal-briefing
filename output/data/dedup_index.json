@@ -3,46 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "55313235b75dd994",
-      "url_hash": "a0207d74b9faac7e",
-      "date": "2026-03-16"
-    },
-    {
-      "event_key": "c3790a11a4f88ee2",
-      "url_hash": "479b49713faea10c",
-      "date": "2026-03-16"
-    },
-    {
-      "event_key": "a7e870900b4201e5",
-      "url_hash": "d2cb3c07a8319fd7",
-      "date": "2026-03-16"
-    },
-    {
-      "event_key": "703f40edcab864e6",
-      "url_hash": "ae8ede9937eb3bf2",
-      "date": "2026-03-16"
-    },
-    {
-      "event_key": "48715b6ff94eeab5",
-      "url_hash": "097bb822f734cede",
-      "date": "2026-03-16"
-    },
-    {
-      "event_key": "a304d5d886be32ad",
-      "url_hash": "9fc4c3ba596d642f",
-      "date": "2026-03-16"
-    },
-    {
-      "event_key": "f8c594a7d90950b0",
-      "url_hash": "7a9c27a2ab83eb50",
-      "date": "2026-03-17"
-    },
-    {
-      "event_key": "db956f90130e766c",
-      "url_hash": "4ae1e893034fbf22",
-      "date": "2026-03-17"
-    },
-    {
       "event_key": "3f079b8bfb052dba",
       "url_hash": "e50119041263b7a2",
       "date": "2026-03-18"
@@ -621,6 +581,56 @@
       "event_key": "global_ai_agent_governance_2024",
       "url_hash": "157c7878236a07ac",
       "date": "2026-04-15"
+    },
+    {
+      "event_key": "us_nzxt_consumer_fraud_settlement_2024",
+      "url_hash": "5f356cd9547cb0a2",
+      "date": "2026-04-17"
+    },
+    {
+      "event_key": "us_antitrust_aptoide_google_litigation_2024",
+      "url_hash": "f34e5249fafd5fc6",
+      "date": "2026-04-17"
+    },
+    {
+      "event_key": "global_payments_merchant_of_record_strategy_2024",
+      "url_hash": "10f48bb52f1b9b6e",
+      "date": "2026-04-17"
+    },
+    {
+      "event_key": "us_ip_patent_litigation_2024",
+      "url_hash": "d811174762a657da",
+      "date": "2026-04-17"
+    },
+    {
+      "event_key": "us_steam_discount_transparency_2024",
+      "url_hash": "9206a950f668d797",
+      "date": "2026-04-17"
+    },
+    {
+      "event_key": "eu_industrial_accelerator_act_proposal_2026",
+      "url_hash": "485c2a764ddbb2da",
+      "date": "2026-04-17"
+    },
+    {
+      "event_key": "us_livenation_antitrust_litigation_2024",
+      "url_hash": "a1bc3ceb16e2bf88",
+      "date": "2026-04-17"
+    },
+    {
+      "event_key": "global_anthropic_mcp_security_vulnerability_2024",
+      "url_hash": "517a1a6cf4484757",
+      "date": "2026-04-17"
+    },
+    {
+      "event_key": "global_ai_security_vulnerability_2024",
+      "url_hash": "65b90944d5346ecd",
+      "date": "2026-04-17"
+    },
+    {
+      "event_key": "global_physical_security_incident_2024",
+      "url_hash": "79eaeefb9cfec2db",
+      "date": "2026-04-17"
     }
   ]
 }
