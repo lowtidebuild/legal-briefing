@@ -18,30 +18,55 @@
     </xml>
   </noscript>
   <![endif]-->
+  <style>
+    @media only screen and (max-width: 600px) {
+      .m-pad-outer { padding: 16px 0 !important; }
+      .m-pad-header { padding: 32px 20px 20px !important; }
+      .m-pad-meta { padding: 12px 20px !important; }
+      .m-pad-body { padding: 0 20px !important; }
+      .m-pad-footer { padding: 28px 20px 32px !important; }
+
+      .m-hero { font-size: 24px !important; line-height: 1.2 !important; }
+      .m-brand { font-size: 9px !important; letter-spacing: 0.22em !important; padding-bottom: 14px !important; }
+      .m-sub { font-size: 12px !important; padding-top: 10px !important; }
+
+      .m-stack { display: block !important; width: 100% !important; }
+      .m-title-cell { padding: 18px 0 8px !important; border-bottom: none !important; }
+      .m-summary-cell { padding: 0 0 18px !important; font-size: 14px !important; line-height: 1.75 !important; border-bottom: 1px solid #eae2d2 !important; }
+      .m-title { font-size: 16px !important; line-height: 1.35 !important; }
+      .m-meta { font-size: 10px !important; margin-top: 8px !important; }
+
+      .m-cat-wrap { display: block !important; width: 100% !important; }
+      .m-cat-counts { padding-bottom: 10px !important; }
+      .m-cat-btn { text-align: left !important; width: 100% !important; }
+
+      .m-section-head { padding: 26px 0 10px !important; }
+    }
+  </style>
 </head>
 <body style="margin:0; padding:0; background-color:#f4efe6; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; font-family:'Pretendard','Apple SD Gothic Neo','Gulim',sans-serif; font-feature-settings:'kern' 1, 'liga' 1;">
 
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f4efe6;">
   <tr>
-    <td align="center" style="padding:36px 16px;">
+    <td align="center" class="m-pad-outer" style="padding:36px 16px;">
 
       <table role="presentation" width="800" cellpadding="0" cellspacing="0" border="0" style="max-width:800px; width:100%; background-color:#fffdf9; border-collapse:separate;">
 
         <tr>
-          <td style="padding:56px 48px 28px; text-align:center; border-bottom:1px solid #e8e0cf;">
+          <td class="m-pad-header" style="padding:56px 48px 28px; text-align:center; border-bottom:1px solid #e8e0cf;">
             <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="text-align:center;">
               <tr>
-                <td style="font-size:10px; color:#111; letter-spacing:0.32em; text-transform:uppercase; font-weight:600; padding-bottom:22px;">
+                <td class="m-brand" style="font-size:10px; color:#111; letter-spacing:0.32em; text-transform:uppercase; font-weight:600; padding-bottom:22px;">
                   GAME &nbsp;&middot;&nbsp; LEGAL &nbsp;&middot;&nbsp; BRIEFING
                 </td>
               </tr>
               <tr>
-                <td style="font-family:'Noto Serif KR', 'Nanum Myeongjo', 'Apple SD Gothic Neo', 'Gulim', serif; font-size:34px; font-weight:700; line-height:1.15; letter-spacing:-0.015em; color:#111;">
+                <td class="m-hero" style="font-family:'Noto Serif KR', 'Nanum Myeongjo', 'Apple SD Gothic Neo', 'Gulim', serif; font-size:34px; font-weight:700; line-height:1.15; letter-spacing:-0.015em; color:#111;">
                   게임산업 법무·규제 브리핑
                 </td>
               </tr>
               <tr>
-                <td style="padding-top:18px; font-family:'Noto Serif KR', 'Nanum Myeongjo', 'Apple SD Gothic Neo', 'Gulim', serif; font-size:13px; color:#6b6359; letter-spacing:0.05em; font-style:italic;">
+                <td class="m-sub" style="padding-top:18px; font-family:'Noto Serif KR', 'Nanum Myeongjo', 'Apple SD Gothic Neo', 'Gulim', serif; font-size:13px; color:#6b6359; letter-spacing:0.05em; font-style:italic;">
                   {{ date }} &middot; {{ nodes|length }} entries
                 </td>
               </tr>
@@ -50,15 +75,15 @@
         </tr>
 
         <tr>
-          <td style="padding:14px 48px; border-bottom:1px solid #e8e0cf; background-color:#faf5ea;">
+          <td class="m-pad-meta" style="padding:14px 48px; border-bottom:1px solid #e8e0cf; background-color:#faf5ea;">
             <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
               <tr>
-                <td style="font-size:10px; color:#6b6359; vertical-align:middle; letter-spacing:0.18em; text-transform:uppercase; font-weight:600;">
+                <td class="m-cat-wrap m-cat-counts" style="font-size:10px; color:#6b6359; vertical-align:middle; letter-spacing:0.18em; text-transform:uppercase; font-weight:600;">
                   {% for label, count in cat_counts %}
                     {{ label }} {{ count }}{% if not loop.last %}&nbsp; &middot; &nbsp;{% endif %}
                   {% endfor %}
                 </td>
-                <td align="right" style="vertical-align:middle; width:150px;">
+                <td class="m-cat-wrap m-cat-btn" align="right" style="vertical-align:middle; width:150px;">
                   <a href="{{ web_url }}" target="_blank" style="display:inline-block; background-color:#6b1010; color:#fdf5e8; font-size:10px; font-weight:700; text-decoration:none; padding:9px 18px; letter-spacing:0.15em; text-transform:uppercase;">
                     웹에서 보기
                   </a>
@@ -69,14 +94,14 @@
         </tr>
 
         <tr>
-          <td style="padding:0 48px;">
+          <td class="m-pad-body" style="padding:0 48px;">
             <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
               {% set ns = namespace(current_cat='') %}
               {% for node in nodes|sort(attribute='category') %}
               {% if node.category != ns.current_cat %}
               {% set ns.current_cat = node.category %}
               <tr>
-                <td colspan="2" style="padding:34px 0 14px; border-bottom:1px solid #111;">
+                <td colspan="2" class="m-section-head" style="padding:34px 0 14px; border-bottom:1px solid #111;">
                   <div style="font-size:10px; color:#111; letter-spacing:0.28em; text-transform:uppercase; font-weight:700;">
                     {{ cat_labels.get(node.category, node.category) }}
                   </div>
@@ -84,15 +109,15 @@
               </tr>
               {% endif %}
               <tr>
-                <td width="30%" style="padding:22px 18px 22px 0; vertical-align:top; width:30%; border-bottom:1px solid #eae2d2;">
-                  <a href="{{ node.url }}" target="_blank" style="color:#111; text-decoration:none; font-weight:700; font-size:15px; line-height:1.4; font-family:'Noto Serif KR', 'Nanum Myeongjo', 'Apple SD Gothic Neo', 'Gulim', serif;">
+                <td width="30%" class="m-stack m-title-cell" style="padding:22px 18px 22px 0; vertical-align:top; width:30%; border-bottom:1px solid #eae2d2;">
+                  <a href="{{ node.url }}" target="_blank" class="m-title" style="color:#111; text-decoration:none; font-weight:700; font-size:15px; line-height:1.4; font-family:'Noto Serif KR', 'Nanum Myeongjo', 'Apple SD Gothic Neo', 'Gulim', serif;">
                     {% if node.title_ko %}{{ node.title_ko }}{% else %}{{ node.title }}{% endif %}
                   </a><br>
-                  <span style="color:#8a8075; font-size:10px; margin-top:12px; display:inline-block; letter-spacing:0.14em; text-transform:uppercase; font-weight:600;">
+                  <span class="m-meta" style="color:#8a8075; font-size:10px; margin-top:12px; display:inline-block; letter-spacing:0.14em; text-transform:uppercase; font-weight:600;">
                     {{ node.source }} &nbsp;&middot;&nbsp; {{ node.pub_date }}
                   </span>
                 </td>
-                <td width="70%" style="padding:22px 0 22px 18px; vertical-align:top; width:70%; font-size:14px; color:#1a1a1a; line-height:1.8; border-bottom:1px solid #eae2d2;">
+                <td width="70%" class="m-stack m-summary-cell" style="padding:22px 0 22px 18px; vertical-align:top; width:70%; font-size:14px; color:#1a1a1a; line-height:1.8; border-bottom:1px solid #eae2d2;">
                   {% for s in node.summary_ko %}
                   <span style="color:#6b1010; font-weight:700; font-size:14px;">{{ circled[loop.index0] if loop.index0 < circled|length else loop.index }}</span>
                   &nbsp;{{ s }}{% if not loop.last %}<br>{% endif %}
@@ -104,7 +129,7 @@
           </td>
         </tr>
         <tr>
-          <td style="padding:44px 48px 48px; text-align:center; border-top:1px solid #e8e0cf;">
+          <td class="m-pad-footer" style="padding:44px 48px 48px; text-align:center; border-top:1px solid #e8e0cf;">
             <div style="font-family:'Noto Serif KR', 'Nanum Myeongjo', 'Apple SD Gothic Neo', 'Gulim', serif; font-size:11px; color:#8a8075; letter-spacing:0.08em; font-style:italic;">
               본 브리핑은 AI가 자동 생성하였으며, 최종 판단은 담당 법무팀에 있습니다.
             </div>

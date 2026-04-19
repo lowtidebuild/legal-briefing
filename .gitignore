@@ -18,5 +18,6 @@ game-legal-briefing-*.json
 # Local planning / working notes
 DESIGN.md
 office-hours-log-*.md
+last-edit-log-*.md
 docs/superpowers/plans/
 .gstack/
