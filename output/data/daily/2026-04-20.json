@@ -1,0 +1,256 @@
+[
+  {
+    "title": "Alternative app store Aptoide files antitrust lawsuit against Google, alleges \"anticompetitive chokehold\"",
+    "url": "https://www.gamesindustry.biz/alternative-app-store-aptoide-files-antitrust-lawsuit-against-google-alleges-anticompetitive-chokehold",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-04-17",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "대안 앱 스토어인 앱토이드(Aptoide)가 구글(Google)의 시장 지배력 남용을 이유로 반독점 소송을 제기했습니다.",
+      "앱토이드(Aptoide) 측은 구글(Google)이 타사 앱 스토어의 진입을 막는 반경쟁적 장벽을 구축했다고 주장했습니다.",
+      "이번 소송은 앱 마켓 플랫폼에서의 공정 경쟁 환경 조성을 둘러싼 구글(Google)과 관련 업체 간의 갈등을 보여줍니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Aptoide",
+        "Google"
+      ],
+      "object": "app store market distribution",
+      "action": "antitrust lawsuit filing",
+      "game_mechanic": null,
+      "time_hint": "2025"
+    },
+    "event_key": "us_google_antitrust_litigation_2025",
+    "is_primary": true,
+    "title_ko": "대안 앱 스토어 앱토이드(Aptoide), 구글(Google) 상대로 반독점 소송 제기"
+  },
+  {
+    "title": "Xbox Game Pass’ value debate and Doki Doki Literature Club’s policy clash | Week in Views",
+    "url": "https://www.pocketgamer.biz/xbox-game-pass-value-debate-and-doki-doki-literature-clubs-policy-clash-week-in-views/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-04-17",
+    "category": "ETC",
+    "summary_ko": [
+      "포켓게이머비즈(PocketGamer.biz)는 매주 모바일 게임 산업의 주요 현안을 심층 분석하여 업계의 흐름을 짚어보고 있습니다.",
+      "이번 주에는 엑스박스 게임 패스(Xbox Game Pass)의 구독 모델이 갖는 시장 가치와 플랫폼 정책에 대한 논의가 주요 의제로 다뤄졌습니다.",
+      "특히 두키 두키 문학부(Doki Doki Literature Club)와 같은 게임이 플랫폼 규제와 정책적 충돌을 겪는 사례를 통해 게임 산업의 이슈를 재조명했습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [],
+      "object": "",
+      "action": "",
+      "game_mechanic": null,
+      "time_hint": ""
+    },
+    "event_key": "85bec5fd8069efe5",
+    "is_primary": true,
+    "title_ko": "엑스박스 게임 패스(Xbox Game Pass)의 가치 논쟁과 두키 두키 문학부(Doki Doki Literature Club)의 정책 충돌 | 주간 리뷰"
+  },
+  {
+    "title": "'A real concern for millions and probably hundreds of millions of European citizens' - Stop Killing Games has its day in European Parliament and it seems to go very well",
+    "url": "https://www.eurogamer.net/stop-killing-games-european-parliament",
+    "source": "Eurogamer",
+    "pub_date": "2026-04-17",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "게임 서비스 종료 시 이용 불가 문제를 해결하기 위한 '스톱 킬링 게임즈(Stop Killing Games)' 이니셔티브가 유럽 의회(European Parliament)에서 규제 도입을 촉구했다.",
+      "이번 청원은 서비스 종료 후 게임 접속이 차단되는 현상에 대해 소비자의 권익을 보호하고 기업의 책임 있는 관리를 요구하는 내용을 담고 있다.",
+      "유럽 의회(European Parliament) 측에서 해당 사안을 심각하게 다루며 긍정적인 반응을 보임에 따라 향후 관련 규제 논의가 본격화될 전망이다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "European Parliament",
+        "Stop Killing Games"
+      ],
+      "object": "digital game ownership and accessibility",
+      "action": "advocacy for legislation preventing game termination",
+      "game_mechanic": "live service games",
+      "time_hint": "2024"
+    },
+    "event_key": "eu_game_preservation_policy_2024",
+    "is_primary": true,
+    "title_ko": "'수억 명의 유럽 시민에게 실질적인 우려' - 스톱 킬링 게임즈(Stop Killing Games), 유럽 의회(European Parliament) 청원 긍정적 기류"
+  },
+  {
+    "title": "Johnny Somali Found Guilty and Sentenced",
+    "url": "https://gamerant.com/johnny-somali-2026-sentence-labor/",
+    "source": "Game Rant",
+    "pub_date": "2026-04-20",
+    "category": "ETC",
+    "summary_ko": [
+      "스트리머 조니 소말리(Johnny Somali)가 한국에서 진행된 장기 재판 끝에 모든 혐의에 대해 유죄를 선고받았습니다.",
+      "법원은 조니 소말리(Johnny Somali)에게 징역형과 함께 강제 노역을 명령하였습니다.",
+      "이번 판결로 그간 사회적 물의를 일으켰던 조니 소말리(Johnny Somali)의 법적 공방이 종결되었습니다."
+    ],
+    "event": {
+      "jurisdiction": "KR",
+      "event_type": "enforcement",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Johnny Somali",
+        "South Korean Judicial System"
+      ],
+      "object": "streamer",
+      "action": "sentenced to prison for illegal activities",
+      "game_mechanic": null,
+      "time_hint": "2024"
+    },
+    "event_key": "kr_streamer_criminal_conviction_2024",
+    "is_primary": true,
+    "title_ko": "조니 소말리(Johnny Somali), 유죄 판결 및 실형 선고"
+  },
+  {
+    "title": "Judge rules Trump administration violated the First Amendment in fight against ICE-tracking",
+    "url": "https://www.theverge.com/policy/914619/trump-administration-violated-first-amendment-ice-tracking",
+    "source": "The Verge - Policy",
+    "pub_date": "2026-04-18",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "일리노이 북부 연방지방법원의 호르헤 L. 알론소(Jorge L. Alonso) 판사는 트럼프(Trump) 행정부가 페이스북(Facebook)과 애플(Apple)에 ICE 추적 그룹 및 앱 삭제를 압박한 행위가 수정헌법 제1조(표현의 자유)를 위반했다고 판결했습니다.",
+      "이번 판결은 ICE 활동을 감시하는 페이스북(Facebook) 그룹 'ICE Sightings - Chicagoland' 운영자 카산드라 로사도(Kassandra Rosado)와 크라이자우 그룹(Kreisau Group)이 제기한 소송에 따른 것입니다.",
+      "법원은 정부가 플랫폼 기업을 압박해 공적인 감시 활동을 제한하려 한 시도가 헌법상 보장된 표현의 자유를 침해했다고 보았습니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Trump Administration",
+        "Facebook",
+        "Apple",
+        "Kassandra Rosado",
+        "Kreisau Group",
+        "Judge Jorge L. Alonso"
+      ],
+      "object": "ICE-tracking apps and social media groups",
+      "action": "ruling that pressure to remove content violated First Amendment rights",
+      "game_mechanic": null,
+      "time_hint": "historical"
+    },
+    "event_key": "us_first_amendment_content_removal_litigation_2020",
+    "is_primary": true,
+    "title_ko": "법원, 트럼프(Trump) 행정부의 이민세관집행국(ICE) 추적 앱·그룹 탄압은 수정헌법 제1조 위반 판결"
+  },
+  {
+    "title": "I meant to do that! AI vendors shrug off responsibility for vulns",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/19/ai_vendors_response_to_security/",
+    "source": "The Register - Security",
+    "pub_date": "2026-04-19",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "AI 기업(AI vendors)들은 보안 취약점 문제를 기술적 결함이 아닌 '의도된 기능'이라며 책임을 회피하고 있습니다.",
+      "이러한 태도는 AI 기반 위협 방어 솔루션을 권장하면서도 정작 자사 제품의 보안 책임은 사용자에게 전가하는 무책임한 행태를 보여줍니다.",
+      "전문가들은 이러한 책임 회피가 AI 업계의 성숙도 부족을 드러내는 것이며, 산업 전반의 보안 표준 마련이 시급하다고 지적합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "AI vendors",
+        "Security researchers"
+      ],
+      "object": "AI security vulnerabilities",
+      "action": "disclaimer of liability",
+      "game_mechanic": null,
+      "time_hint": "current"
+    },
+    "event_key": "global_ai_security_liability_policy_2024",
+    "is_primary": true,
+    "title_ko": "의도한 기능입니다! AI 기업들의 보안 취약점 책임 회피"
+  },
+  {
+    "title": "Google Chrome lacks protection against one of the most basic and common ways to track users online",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/16/google_chrome_lacks_browser_fingerprinting/",
+    "source": "The Register - Security",
+    "pub_date": "2026-04-16",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "구글(Google)은 크롬(Chrome)의 뛰어난 보안 기능을 홍보하고 있으나, 브라우저 핑거프린팅을 통한 이용자 추적 방어에는 취약하다는 지적이 제기되었습니다.",
+      "프라이버시 컨설턴트 알렉산더 핸프(Alexander Hanff)는 크롬(Chrome)이 기기의 기술적 세부 정보를 수집해 이용자를 식별하는 브라우저 핑거프린팅 기술을 차단하지 못한다고 비판했습니다.",
+      "이번 지적은 브라우저 핑거프린팅이 온라인 환경 전반에 확산된 가운데, 크롬(Chrome)의 보안성 강화에 대한 실효성 논란을 야기하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Google",
+        "Alexander Hanff"
+      ],
+      "object": "Browser fingerprinting protection in Chrome",
+      "action": "criticism of privacy safety features",
+      "game_mechanic": null,
+      "time_hint": "current"
+    },
+    "event_key": "global_privacy_chrome_fingerprinting_2024",
+    "is_primary": true,
+    "title_ko": "구글 크롬(Google Chrome), 가장 기초적이고 흔한 온라인 이용자 추적 기법에 무방비"
+  },
+  {
+    "title": "UK told its Big Tech habit is now a national security risk",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/15/uk_big_tech_dependence/",
+    "source": "The Register - Security",
+    "pub_date": "2026-04-15",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "오픈 라이츠 그룹(Open Rights Group)은 영국 공공 부문의 미국 빅테크(Big Tech) 기업에 대한 장기간 의존이 심각한 안보 위험을 초래한다고 경고했습니다.",
+      "영국 정부가 수년간 핵심 인프라를 미국 기술 대기업의 시스템에 연결하면서 외부 통제와 데이터 노출에 취약해졌다는 분석입니다.",
+      "이번 보고서는 디지털 주권 회복을 위해 국가 차원의 기술 의존도 축소와 새로운 안보 전략 수립이 시급함을 시사합니다."
+    ],
+    "event": {
+      "jurisdiction": "UK",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Open Rights Group",
+        "UK Government",
+        "US Big Tech"
+      ],
+      "object": "Public sector IT infrastructure",
+      "action": "Critique of national security dependency on foreign technology providers",
+      "game_mechanic": null,
+      "time_hint": "current"
+    },
+    "event_key": "uk_big_tech_national_security_policy_2024",
+    "is_primary": true,
+    "title_ko": "영국, 빅테크(Big Tech) 의존도가 국가 안보 위협으로 부상"
+  },
+  {
+    "title": "Drag queens: Oh, don't be so bitchy, Facebook! Let us use our stage names",
+    "url": "http://go.theregister.com/feed/www.theregister.co.uk/2014/09/13/facebook_upsets_drag_queens_with_real_name_policy/",
+    "source": "The Register - Policy",
+    "pub_date": "",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "드래그 퀸(Drag queens)들이 페이스북(Facebook)의 강제적인 실명 사용 정책에 대해 강력히 반발하고 있습니다.",
+      "해당 정책으로 인해 활동명과 본명이 다른 드래그 퀸(Drag queens)들이 계정 운영에 큰 어려움을 겪고 있습니다.",
+      "창작자들은 온라인 표현의 자유와 정체성 보호를 위해 플랫폼의 유연한 정책 변화를 요구하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Meta/Facebook",
+        "Drag performers"
+      ],
+      "object": "real name policy",
+      "action": "enforcing identity verification requirements",
+      "game_mechanic": null,
+      "time_hint": "2014"
+    },
+    "event_key": "us_facebook_real_name_policy_2014",
+    "is_primary": true,
+    "title_ko": "드래그 퀸(Drag queens): 페이스북(Facebook), 실명 정책 때문에 그렇게 굴지 마세요! 우리 예명을 쓰게 해주세요"
+  }
+]
