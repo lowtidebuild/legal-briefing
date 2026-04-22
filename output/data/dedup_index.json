@@ -661,6 +661,51 @@
       "event_key": "uk_cybersecurity_policy_guidance_2024",
       "url_hash": "f3727a6e6cdab90c",
       "date": "2026-04-22"
+    },
+    {
+      "event_key": "us_hardware_sales_fluctuation_2026",
+      "url_hash": "fe38458659e38f9f",
+      "date": "2026-04-22"
+    },
+    {
+      "event_key": "us_ip_patent_filing_2024",
+      "url_hash": "5104b355b1fdc049",
+      "date": "2026-04-22"
+    },
+    {
+      "event_key": "global_ai_music_content_governance_2024",
+      "url_hash": "9087035b1f51d0a5",
+      "date": "2026-04-22"
+    },
+    {
+      "event_key": "us_ip_tax_writeoff_2023",
+      "url_hash": "320dd22d02bb4bc6",
+      "date": "2026-04-22"
+    },
+    {
+      "event_key": "jp_copyright_spoiler_enforcement_2024",
+      "url_hash": "9a84034530314b7e",
+      "date": "2026-04-22"
+    },
+    {
+      "event_key": "us_food_regulation_maha_policy_2026q2",
+      "url_hash": "e7be1af199c852b4",
+      "date": "2026-04-22"
+    },
+    {
+      "event_key": "us_ai_security_breach_2024",
+      "url_hash": "db01c4dc4eb82b8b",
+      "date": "2026-04-22"
+    },
+    {
+      "event_key": "us_spacex_cursor_acquisition_2025",
+      "url_hash": "72604df34136cd7e",
+      "date": "2026-04-22"
+    },
+    {
+      "event_key": "global_ai_security_policy_2024",
+      "url_hash": "e51b65a5a02447ca",
+      "date": "2026-04-22"
     }
   ]
 }
