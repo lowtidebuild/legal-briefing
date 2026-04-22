@@ -149,6 +149,15 @@ def run_pipeline(
     )
     copy_static(output_dir=output_dir, static_dir=static_dir)
 
+    # Publish output/manifest.json for the briefing-hub aggregator.
+    # Best-effort — never block the deploy if this misfires.
+    try:
+        from pipeline.render.manifest import write_manifest
+
+        write_manifest(output_dir=output_dir)
+    except Exception as exc:  # pragma: no cover - defensive
+        logger.warning("Briefing-hub manifest write failed: %s", exc)
+
     if not dry_run and nodes and cfg.smtp_user and cfg.smtp_pass and cfg.recipients:
         send_briefing_email(
             html_body=render_email(nodes, today, template_dir=template_dir, web_url=cfg.email.web_url),

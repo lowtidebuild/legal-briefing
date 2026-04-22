@@ -1,0 +1,29 @@
+{# HubChip — fixed-position link back to briefing-hub aggregator.
+   Included from index.html, archive.html, article.html.
+   Accent #6b2d5c matches Game Legal Briefing's slot in
+   briefing-hub's BRIEFINGS config. #}
+<a class="hub-chip" href="https://lowtidebuild.github.io/briefing-hub/" aria-label="Briefing Hub로 이동">
+  ← BRIEFING HUB
+</a>
+<style>
+  .hub-chip {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    padding: 6px 12px;
+    font-family: 'Pretendard Variable', Pretendard, -apple-system, sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    background: #6b2d5c;
+    color: #faf3f7;
+    border: 1px solid #4a1f3f;
+    z-index: 9999;
+    transition: background 0.15s;
+  }
+  .hub-chip:hover {
+    background: #4a1f3f;
+    text-decoration: none;
+  }
+</style>
