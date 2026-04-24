@@ -1,0 +1,285 @@
+[
+  {
+    "title": "Gamers sue Nintendo over tariff refunds",
+    "url": "https://www.gamesindustry.biz/gamers-sue-nintendo-over-tariff-refunds",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-04-22",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "닌텐도(Nintendo) 고객 두 명이 닌텐도(Nintendo)를 상대로 집단 소송을 제기했습니다.",
+      "원고들은 닌텐도(Nintendo)가 소비자 가격을 인상하는 동시에 미국 정부로부터 관세 보상을 받아 부당 이득을 취했다고 주장했습니다.",
+      "이번 소송은 닌텐도(Nintendo)의 가격 정책과 정부 관세 환급 과정의 투명성에 대한 논란을 다루고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Nintendo",
+        "US consumers"
+      ],
+      "object": "tariff refunds",
+      "action": "class-action lawsuit filed",
+      "game_mechanic": null,
+      "time_hint": "current"
+    },
+    "event_key": "us_nintendo_tariff_refund_litigation_2024",
+    "is_primary": true,
+    "title_ko": "닌텐도(Nintendo)를 상대로 관세 환급 관련 집단 소송 제기한 게이머들"
+  },
+  {
+    "title": "Türkiye passes sweeping digital law restricting social media access for under 15s",
+    "url": "https://www.pocketgamer.biz/turkey-passes-sweeping-digital-law-impacting-gaming-platforms-and-social-media/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-04-23",
+    "category": "CONTENT_AGE",
+    "summary_ko": [
+      "튀르키예 대국민의회(Grand National Assembly)는 게임 및 소셜 미디어 플랫폼 운영을 규제하는 포괄적인 디지털 법안을 승인했습니다.",
+      "이번 법안에 따라 의무적인 연령 등급 분류 시스템과 부모 통제 기능 도입이 강제됩니다.",
+      "일일 사용자 10만 명 이상인 해외 플랫폼은 튀르키예(Türkiye) 내 현지 대리인을 의무적으로 지정해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "legislation",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Türkiye Grand National Assembly",
+        "gaming platforms",
+        "social media platforms"
+      ],
+      "object": "age-rating systems and parental controls",
+      "action": "enacting digital regulation for minors",
+      "game_mechanic": "age-gating",
+      "time_hint": "current"
+    },
+    "event_key": "tr_content_age_regulation_2024",
+    "is_primary": true,
+    "title_ko": "튀르키예(Türkiye), 15세 미만 소셜 미디어 접근 제한을 포함한 디지털 법안 통과"
+  },
+  {
+    "title": "India launches Online Gaming Authority with strict compliance mandates from May 2026",
+    "url": "https://www.pocketgamer.biz/india-launches-online-gaming-authority-with-strict-compliance-mandates-from-may-2026/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-04-23",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "인도 전자정보기술부(MeitY)는 2026년 5월 1일부터 '온라인 게임 촉진 및 규제 규칙 2026'을 본격적으로 시행합니다.",
+      "이번 규칙에 따라 인도 온라인 게임 당국(Online Gaming Authority of India)이 신설되어 게임 산업을 전담 관리하게 됩니다.",
+      "정부는 게임의 성격을 금지된 도박 게임인지, 허용된 e스포츠 및 소셜 게임인지 판별하기 위한 90일간의 심사 절차를 도입할 예정입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "legislation",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Ministry of Electronics and Information Technology (MeitY)",
+        "Online Gaming Authority of India"
+      ],
+      "object": "Online gaming regulation",
+      "action": "Establishing a unified regulatory authority and defining game classification rules",
+      "game_mechanic": "money_games",
+      "time_hint": "May 1st, 2026"
+    },
+    "event_key": "in_gaming_authority_establishment_2026",
+    "is_primary": true,
+    "title_ko": "인도, 2026년 5월부터 온라인 게임 당국(Online Gaming Authority) 설립 및 엄격한 규제 시행"
+  },
+  {
+    "title": "The Expanse: Osiris Reborn plays like a Mass Effect-like sci-fi adventure in fine form, but its developer's use of AI raises some difficult questions",
+    "url": "https://www.eurogamer.net/the-expanse-osiris-reborn-plays-like-a-mass-effect-like-sci-fi-adventure-in-fine-form-but-its-developers-use-of-ai-raises-some-difficult-questions",
+    "source": "Eurogamer",
+    "pub_date": "2026-04-22",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "아울캣 게임즈(Owlcat Games)가 개발한 '더 익스팬스: 오시리스 리본(The Expanse: Osiris Reborn)'은 '매스 이펙트(Mass Effect)'를 연상시키는 고품질 SF 어드벤처 게임으로 주목받고 있습니다.",
+      "해당 개발사는 '패스파인더(Pathfinder)' 및 '워해머 40K: 로그 트레이더(Warhammer 40K: Rogue Trader)' 등으로 입증된 RPG 제작 역량을 본 작품에서도 보여주었습니다.",
+      "그러나 게임 제작 과정에서 도입된 AI 활용 방식은 업계 내에서 윤리적·기술적 측면에 대한 복합적인 질문을 던지며 논란을 낳고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Owlcat Games"
+      ],
+      "object": "Generative AI",
+      "action": "ethical discourse and public scrutiny regarding AI-generated assets",
+      "game_mechanic": "null",
+      "time_hint": "2024"
+    },
+    "event_key": "global_ai_content_ethics_scrutiny_2024",
+    "is_primary": true,
+    "title_ko": "더 익스팬스: 오시리스 리본(The Expanse: Osiris Reborn), 매스 이펙트(Mass Effect)를 닮은 훌륭한 SF 어드벤처지만 개발사의 AI 사용은 논란의 여지 남겨"
+  },
+  {
+    "title": "Turkiye passes legislation to tighten its grip on Steam and other gaming platforms, but it's social media companies that really get it in the neck",
+    "url": "https://www.pcgamer.com/gaming-industry/turkiye-passes-legislation-to-tighten-its-grip-on-steam-and-other-gaming-platforms-but-its-social-media-companies-that-really-get-it-in-the-neck/",
+    "source": "PC Gamer",
+    "pub_date": "2026-04-23",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "튀르키예 정부가 스팀(Steam)을 포함한 게임 플랫폼에 대한 통제력을 강화하는 새로운 입법 조치를 단행했습니다.",
+      "이번 법안은 게임 업계를 겨냥하고 있으나, 실제로는 소셜 미디어 기업들에게 훨씬 더 엄격한 규제가 적용될 것으로 보입니다.",
+      "해당 조치는 디지털 플랫폼에 대한 국가의 감시와 통제를 강화하려는 튀르키예 당국의 의도가 반영된 것으로 풀이됩니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "legislation",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Government of Turkiye",
+        "Steam",
+        "Social media companies"
+      ],
+      "object": "gaming platforms and social media services",
+      "action": "tightening regulatory control and compliance requirements",
+      "game_mechanic": "null",
+      "time_hint": "current"
+    },
+    "event_key": "tr_platform_regulation_enforcement_2024",
+    "is_primary": true,
+    "title_ko": "튀르키예, 스팀(Steam) 등 게임 플랫폼 규제 강화 법안 통과… 소셜 미디어 기업엔 더 큰 타격"
+  },
+  {
+    "title": "'I know a bubble when I see one': US senator's grave warning about the AI industry",
+    "url": "https://www.pcgamer.com/software/ai/i-know-a-bubble-when-i-see-one-us-senators-grave-warning-about-the-ai-industry/",
+    "source": "PC Gamer",
+    "pub_date": "2026-04-23",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "엘리자베스 워런(Elizabeth Warren) 미 상원의원이 AI 산업의 급격한 성장을 거품이라고 지적했습니다.",
+      "워런(Warren) 의원은 AI 기술의 무분별한 팽창이 2008년과 같은 금융 위기를 초래할 수 있다고 경고했습니다.",
+      "이번 발언은 향후 AI 산업 전반에 대한 미 의회의 강도 높은 규제 강화로 이어질 가능성을 시사합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Elizabeth Warren",
+        "US Senate",
+        "AI Industry"
+      ],
+      "object": "AI industry financial stability",
+      "action": "regulatory warning and oversight advocacy",
+      "game_mechanic": null,
+      "time_hint": "2024"
+    },
+    "event_key": "us_ai_oversight_warning_2024",
+    "is_primary": true,
+    "title_ko": "'거품인 거 보면 안다': AI 산업에 대한 미국 상원의원의 엄중한 경고"
+  },
+  {
+    "title": "AI is 10 to 20 times more likely to help you build a bomb if you hide your request in cyberpunk fiction, new research paper says",
+    "url": "https://www.pcgamer.com/software/ai/ai-is-10-to-20-times-more-likely-to-help-you-build-a-bomb-if-you-hide-your-request-in-cyberpunk-fiction-new-research-paper-says/",
+    "source": "PC Gamer",
+    "pub_date": "2026-04-23",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "최근 연구에 따르면, 사용자가 AI에게 사이버펑크(Cyberpunk) 소설 형태의 설정을 부여해 질문할 경우 폭탄 제조 등 위험한 답변을 유도할 가능성이 크게 증가하는 것으로 나타났습니다.",
+      "연구진은 적대적 시(Adversarial poetry)를 활용해 AI의 보안 체계를 우회하는 이른바 '탈옥(Jailbreaking)' 방식을 통해 이러한 취약점을 입증했습니다.",
+      "이번 결과는 현재 AI 기업들의 안전성 조치에 중대한 공백이 있음을 시사하며, AI 모델의 보안 가이드라인 강화가 시급함을 보여줍니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "security_incident",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Researchers",
+        "AI Developers"
+      ],
+      "object": "['Generative AI models', 'AI safety protocols']",
+      "action": "identifying security vulnerabilities through adversarial prompts",
+      "game_mechanic": null,
+      "time_hint": "recent"
+    },
+    "event_key": "global_ai_safety_vulnerability_research_2024",
+    "is_primary": true,
+    "title_ko": "사이버펑크 소설 형식으로 질문하면 AI가 폭탄 제조법을 알려줄 확률이 10~20배 높다는 연구 결과 발표"
+  },
+  {
+    "title": "Xbox will \"reevaluate\" its approach to exclusive games and AI, new CEO and CCO say \"our new north star will be daily active players\"",
+    "url": "https://www.gamesradar.com/platforms/xbox/xbox-will-reevaluate-its-approach-to-exclusive-games-and-ai-new-ceo-and-cco-say-our-new-north-star-will-be-daily-active-players/",
+    "source": "gamesradar+",
+    "pub_date": "2026-04-23",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "엑스박스(Xbox)의 신임 CEO와 CCO는 기존의 독점 게임 전략과 AI 활용 방안을 전면 재검토하겠다고 밝혔다.",
+      "핵심 경영 목표를 '일일 활성 사용자(DAU) 수치 극대화'로 설정하며 서비스 중심의 성장 전략을 강조했다.",
+      "마스터플랜 달성을 위해 조직의 운영 방식과 업무 체계를 근본적으로 혁신할 계획이다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Microsoft",
+        "Xbox",
+        "Sarah Bond",
+        "Matt Booty"
+      ],
+      "object": "['exclusive titles', 'AI strategy']",
+      "action": "strategic shift",
+      "game_mechanic": null,
+      "time_hint": "2024"
+    },
+    "event_key": "global_xbox_strategic_realignment_2024",
+    "is_primary": true,
+    "title_ko": "엑스박스(Xbox), 독점작 및 AI 전략 재평가… 새로운 경영진 '일일 활성 사용자(DAU)가 우리의 새로운 북극성'"
+  },
+  {
+    "title": "\"Those folks came to Bethesda and said, 'We're gonna have a fun lawsuit'\": Fallout New Vegas devs \"got in trouble\" after forgetting about trademarks for some material, says Obsidian veteran",
+    "url": "https://www.gamesradar.com/games/fallout/those-folks-came-to-bethesda-and-said-were-gonna-have-a-fun-lawsuit-fallout-new-vegas-devs-got-in-trouble-after-forgetting-about-trademarks-for-some-material-says-obsidian-veteran/",
+    "source": "gamesradar+",
+    "pub_date": "2026-04-23",
+    "category": "IP",
+    "summary_ko": [
+      "폴아웃: 뉴 베가스(Fallout: New Vegas) 개발 당시 개발진이 일부 소재에 대한 상표권을 잊어버리는 실수를 저질렀습니다.",
+      "이 사실을 인지한 베데스다(Bethesda) 측은 법적 대응을 예고하며 개발진에게 강하게 경고했습니다.",
+      "옵시디언(Obsidian)의 전 개발자는 당시 상황이 매우 심각했으며 이로 인해 큰 곤욕을 치렀다고 회고했습니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Bethesda Softworks",
+        "Obsidian Entertainment"
+      ],
+      "object": "Trademarks",
+      "action": "trademark_infringement_claim",
+      "game_mechanic": null,
+      "time_hint": "historical"
+    },
+    "event_key": "us_ip_trademark_litigation_historical",
+    "is_primary": true,
+    "title_ko": "'그들이 베데스다(Bethesda)에 와서 소송을 걸겠다고 했습니다': 옵시디언(Obsidian) 베테랑이 밝힌 폴아웃: 뉴 베가스(Fallout: New Vegas) 상표권 분쟁 비화"
+  },
+  {
+    "title": "Anthropic&#8217;s Mythos breach was humiliating",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/917644/anthropic-claude-mythos-breach-humiliation",
+    "source": "The Verge - CyberSecurity",
+    "pub_date": "2026-04-23",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "앤스로픽(Anthropic)은 자사 AI 모델 ‘미토스(Mythos)’가 사이버 보안에 지나치게 위험하다는 이유로 공개를 제한해 왔습니다.",
+      "그러나 블룸버그(Bloomberg) 보도에 따르면, 허가받지 않은 소수의 사용자가 해당 모델에 접근하는 보안 사고가 발생했습니다.",
+      "철저한 통제를 강조했던 앤스로픽(Anthropic)은 이번 유출 사건으로 인해 기술적 신뢰도와 보안 관리 역량에 큰 타격을 입게 되었습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "security_incident",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Anthropic"
+      ],
+      "object": "Claude Mythos AI model",
+      "action": "unauthorized access breach",
+      "game_mechanic": null,
+      "time_hint": "current"
+    },
+    "event_key": "global_ai_data_breach_2024",
+    "is_primary": true,
+    "title_ko": "앤스로픽(Anthropic)의 ‘미토스(Mythos)’ 보안 사고는 굴욕적이다"
+  }
+]

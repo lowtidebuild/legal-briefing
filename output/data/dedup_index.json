@@ -3,46 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "c6d9c779021cc20e",
-      "url_hash": "d0ce6ce8b047110c",
-      "date": "2026-03-23"
-    },
-    {
-      "event_key": "9e767bb7a7bcf149",
-      "url_hash": "87816428601a45d3",
-      "date": "2026-03-23"
-    },
-    {
-      "event_key": "80fbfca1a1f4d305",
-      "url_hash": "744bb52ab7a33cc1",
-      "date": "2026-03-23"
-    },
-    {
-      "event_key": "5901a9cfcd0045c8",
-      "url_hash": "719393e7a1d069d7",
-      "date": "2026-03-23"
-    },
-    {
-      "event_key": "b96b28f4dcee1fa6",
-      "url_hash": "7a744ced4610c60a",
-      "date": "2026-03-24"
-    },
-    {
-      "event_key": "e2425dc6bbd3365c",
-      "url_hash": "d1f1b65d6511548f",
-      "date": "2026-03-24"
-    },
-    {
-      "event_key": "47bf0f4c5d755b3b",
-      "url_hash": "797a482e49ebfff1",
-      "date": "2026-03-24"
-    },
-    {
-      "event_key": "fd7cbacce652fc51",
-      "url_hash": "bc0a532afe53d6bd",
-      "date": "2026-03-24"
-    },
-    {
       "event_key": "64d2d49a805fde9a",
       "url_hash": "f2d04eb06d2b0707",
       "date": "2026-03-25"
@@ -706,6 +666,56 @@
       "event_key": "global_ai_security_policy_2024",
       "url_hash": "e51b65a5a02447ca",
       "date": "2026-04-22"
+    },
+    {
+      "event_key": "us_nintendo_tariff_refund_litigation_2024",
+      "url_hash": "334f64abe79b989b",
+      "date": "2026-04-24"
+    },
+    {
+      "event_key": "tr_content_age_regulation_2024",
+      "url_hash": "0bb2cfea0c931d41",
+      "date": "2026-04-24"
+    },
+    {
+      "event_key": "in_gaming_authority_establishment_2026",
+      "url_hash": "721ee6fbcd9c1303",
+      "date": "2026-04-24"
+    },
+    {
+      "event_key": "global_ai_content_ethics_scrutiny_2024",
+      "url_hash": "a7e69b47c4f15bee",
+      "date": "2026-04-24"
+    },
+    {
+      "event_key": "tr_platform_regulation_enforcement_2024",
+      "url_hash": "2f9da2cc6e81a353",
+      "date": "2026-04-24"
+    },
+    {
+      "event_key": "us_ai_oversight_warning_2024",
+      "url_hash": "d8e0badd3a0a5539",
+      "date": "2026-04-24"
+    },
+    {
+      "event_key": "global_ai_safety_vulnerability_research_2024",
+      "url_hash": "f6da61e4276395f0",
+      "date": "2026-04-24"
+    },
+    {
+      "event_key": "global_xbox_strategic_realignment_2024",
+      "url_hash": "9c4737afaa61dcea",
+      "date": "2026-04-24"
+    },
+    {
+      "event_key": "us_ip_trademark_litigation_historical",
+      "url_hash": "73178b0781b6124b",
+      "date": "2026-04-24"
+    },
+    {
+      "event_key": "global_ai_data_breach_2024",
+      "url_hash": "315f8ca408e7a64c",
+      "date": "2026-04-24"
     }
   ]
 }
