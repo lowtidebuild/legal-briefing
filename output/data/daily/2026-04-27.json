@@ -1,0 +1,286 @@
+[
+  {
+    "title": "Gina Carano Teases Potential Star Wars Return After 'Really Nice' Conversation With Lucasfilm Following Disney Lawsuit",
+    "url": "https://www.ign.com/articles/gina-carano-teases-potential-star-wars-return-after-really-nice-conversation-with-lucasfilm-following-disney-lawsuit",
+    "source": "IGN",
+    "pub_date": "2026-04-25",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "배우 지나 카라노(Gina Carano)가 루카스필름(Lucasfilm) 측과 매우 좋은 대화를 나눴다고 밝히며 스타워즈 시리즈 복귀 가능성을 언급했습니다.",
+      "앞서 지나 카라노(Gina Carano)는 소셜 미디어 게시물을 이유로 해고된 것에 반발해 디즈니(Disney)를 상대로 부당 해고 소송을 제기한 바 있습니다.",
+      "이번 대화가 양측의 법적 갈등 해결 및 향후 협력의 계기가 될지 업계의 주목을 받고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Gina Carano",
+        "Lucasfilm",
+        "Disney"
+      ],
+      "object": "employment_contract_termination",
+      "action": "settlement_negotiation",
+      "game_mechanic": null,
+      "time_hint": "2024"
+    },
+    "event_key": "us_employment_wrongful_termination_lawsuit_2024",
+    "is_primary": true,
+    "title_ko": "지나 카라노(Gina Carano), 디즈니(Disney) 소송 이후 루카스필름(Lucasfilm)과의 '긍정적인' 대화로 스타워즈 복귀 가능성 시사"
+  },
+  {
+    "title": "Four Cooley Partners Honored Among Elite in Data Breach Response",
+    "url": "https://www.cooley.com/news/coverage/2026/2026-04-24-four-cooley-partners-honored-among-elite-in-data-breach-response",
+    "source": "Cooley - Media (Newsroom)",
+    "pub_date": "2026-04-24",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "사이버 보안 전문 매체인 사이버시큐리티 도켓(Cybersecurity Docket)이 데이터 침해 대응 역량이 뛰어난 쿨리(Cooley) 소속 파트너 4인을 '2026년 사고 대응 엘리트(Incident Response Elite)'로 선정했다.",
+      "선정된 변호사들은 미국, 영국, 벨기에 등지에서 활동하며 기업의 데이터 침해 사고 대응, 규제 리스크 관리 및 보안 전략 수립 전반을 전문적으로 지원해왔다.",
+      "쿨리(Cooley)의 사이버·데이터·개인정보 보호 팀은 2003년부터 축적된 경험을 바탕으로 국제적 규모의 복잡한 보안 사고를 전문적으로 해결하는 데 주력하고 있다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Cooley",
+        "Cybersecurity Docket"
+      ],
+      "object": "data breach response legal services",
+      "action": "professional recognition",
+      "game_mechanic": null,
+      "time_hint": "2026"
+    },
+    "event_key": "global_privacy_lawyer_recognition_2026",
+    "is_primary": true,
+    "title_ko": "쿨리(Cooley) 소속 파트너 4인, 데이터 침해 대응 분야 엘리트 변호사로 선정"
+  },
+  {
+    "title": "Litigator of the Week Runners-Up and Shout-Outs",
+    "url": "https://www.cooley.com/news/coverage/2026/2026-04-24-litigator-of-the-week-runners-up-and-shout-outs",
+    "source": "Cooley - Media (Newsroom)",
+    "pub_date": "2026-04-24",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "법무법인 쿨리(Cooley) 항소팀이 델라웨어주 대법원에서 만장일치 승소 판결을 이끌어내며 주목받았습니다.",
+      "이번 판결로 로미오 시스템즈(Romeo Systems)의 전 CEO인 마이클 패터슨(Michael Patterson)은 4천만 달러 규모의 손해배상 책임에서 벗어났습니다.",
+      "델라웨어주 형평법원의 기존 판결을 뒤집은 이번 성과는 에프라임 맥도웰(Ephraim McDowell) 등 쿨리(Cooley) 소속 변호인단의 주도로 이루어졌습니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Michael Patterson",
+        "Romeo Systems",
+        "Cooley",
+        "Delaware Supreme Court"
+      ],
+      "object": "corporate liability judgment",
+      "action": "overturning of $40 million damages judgment",
+      "game_mechanic": null,
+      "time_hint": "April 2026"
+    },
+    "event_key": "us_corporate_liability_litigation_2026q2",
+    "is_primary": true,
+    "title_ko": "금주의 소송 담당자 부문 입상 및 언급"
+  },
+  {
+    "title": "Caihong Secures Decisive Victory at ITC",
+    "url": "https://www.cooley.com/news/coverage/2026/2026-04-24-caihong-secures-decisive-victory-at-itc",
+    "source": "Cooley - Media (Newsroom)",
+    "pub_date": "2026-04-24",
+    "category": "IP",
+    "summary_ko": [
+      "액정표시장치(LCD) 유리 제조사인 차이홍(Caihong)이 경쟁사 코닝(Corning)과의 특허 침해 소송에서 승소했다.",
+      "미국 국제무역위원회(ITC) 브라이언 무어(Bryan Moore) 판사는 차이홍(Caihong)의 유리 제품이 코닝(Corning)의 특허를 침해하지 않았다고 판결했다.",
+      "이번 판결로 차이홍(Caihong)의 고객사들은 해당 제품이 포함된 TV를 미국 시장에 지속적으로 수입 및 판매할 수 있게 되었다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Caihong Display Devic",
+        "Corning",
+        "US International Trade Commission"
+      ],
+      "object": "LCD glass patent infringement",
+      "action": "ruling_in_favor_of_defendant",
+      "game_mechanic": null,
+      "time_hint": "April 2026"
+    },
+    "event_key": "us_lcd_patent_itc_litigation_2026",
+    "is_primary": true,
+    "title_ko": "차이홍(Caihong), 미국 국제무역위원회(ITC)에서 결정적 승리"
+  },
+  {
+    "title": "State AI Laws – Where Are They Now?",
+    "url": "https://www.cooley.com/news/insight/2026/2026-04-24-state-ai-laws-where-are-they-now",
+    "source": "Cooley - Media (Newsroom)",
+    "pub_date": "2026-04-24",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "미국 내 AI 규제는 2026년 시행을 앞두고 일부 주에서 법안 내용 수정 및 시행 연기가 잇따르는 등 변곡점을 맞이하고 있습니다.",
+      "백악관(White House)은 혁신 저해를 방지하고자 연방 차원의 포괄적 AI 법안 제정을 촉구하며 주별 규제에 개입하려는 움직임을 보이고 있습니다.",
+      "콜로라도(Colorado)주의 SB 205 법안처럼 기업의 부담을 고려해 시행을 연기하고 법안을 전면 재검토하는 사례가 늘고 있어 관련 업계의 지속적인 모니터링이 필요합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "White House",
+        "California State Government",
+        "Colorado State Legislature"
+      ],
+      "object": "artificial intelligence systems",
+      "action": "regulatory oversight and preemption",
+      "game_mechanic": null,
+      "time_hint": "2026"
+    },
+    "event_key": "us_ai_state_regulation_development_2026",
+    "is_primary": true,
+    "title_ko": "미국 주(State) 단위 AI 규제 현황 및 전망"
+  },
+  {
+    "title": "Anthropic&#8217;s Mythos rollout has missed America’s cybersecurity agency",
+    "url": "https://www.theverge.com/policy/916758/anthropic-mythos-preview-cisa-left-out",
+    "source": "The Verge - CyberSecurity",
+    "pub_date": "2026-04-22",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "앤스로픽(Anthropic)이 취약점 탐지를 위해 개발한 차세대 사이버 보안 모델 '미토스(Mythos)'를 여러 미 연방 기관이 도입하고 있습니다.",
+      "그러나 보도에 따르면 미국의 핵심 사이버 보안 조정 기관인 사이버 보안 및 인프라 보안국(CISA)은 해당 툴에 접근 권한을 얻지 못한 상태입니다.",
+      "앤스로픽(Anthropic)이 강력한 성능을 강조해 온 이 모델의 도입 과정에서 핵심 국가 기관이 제외된 점이 업계의 주목을 받고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Anthropic",
+        "CISA",
+        "Axios"
+      ],
+      "object": "Mythos Preview AI model",
+      "action": "deployment and procurement access",
+      "game_mechanic": null,
+      "time_hint": "Tuesday"
+    },
+    "event_key": "us_ai_cybersecurity_procurement_2024",
+    "is_primary": true,
+    "title_ko": "앤스로픽(Anthropic)의 사이버 보안 모델 '미토스(Mythos)', 미 국토안보부 산하 사이버 보안 기구 CISA에서 배제"
+  },
+  {
+    "title": "AI's not going to kill open source code security",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/26/opinion_column/",
+    "source": "The Register - Security",
+    "pub_date": "2026-04-26",
+    "category": "IP",
+    "summary_ko": [
+      "캘닷컴(Cal.com)이 기존 AGPL-3.0 라이선스를 포기하고 상업용 코드베이스를 폐쇄형으로 전환하며 개발자 커뮤니티의 우려를 사고 있습니다.",
+      "이번 조치는 오픈소스 생태계 전반에 큰 파장을 일으키며 기업의 오픈소스 활용 전략과 라이선스 정책에 대한 논쟁을 재점화했습니다.",
+      "일각의 불안과 달리 전문가들은 AI 기술이 오픈소스 보안 자체를 위협하기보다는 코드 관리 및 취약점 탐지 방식의 변화를 이끌 것으로 전망합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Cal.com",
+        "Open Source Community"
+      ],
+      "object": "AGPL-3.0 License",
+      "action": "license_relicensing",
+      "game_mechanic": null,
+      "time_hint": "2024"
+    },
+    "event_key": "global_ip_relicensing_2024",
+    "is_primary": true,
+    "title_ko": "AI가 오픈소스 코드 보안을 무너뜨리지는 않을 것이다"
+  },
+  {
+    "title": "Microsoft beefs up Remote Desktop security with ... hard-to-read messages",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/24/remote_desktop_security_beefed_up/",
+    "source": "The Register - Security",
+    "pub_date": "2026-04-24",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "마이크로소프트(Microsoft)가 피싱 공격을 차단하기 위해 원격 데스크톱(.rdp) 파일 연결 시 보안 경고창을 표시하도록 업데이트했습니다.",
+      "이번 조치는 보안 강화를 목적으로 하지만, 경고창 내 설정 정보가 읽기 어려울 정도로 깨져서 표시되는 기술적 결함이 확인되었습니다.",
+      "윈도우(Windows) 제작사인 마이크로소프트(Microsoft)는 해당 문제를 스케일링 설정 오류로 파악하고 해결책을 모색하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "security_incident",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Microsoft"
+      ],
+      "object": "Remote Desktop Protocol (.rdp) security",
+      "action": "implementing security hardening",
+      "game_mechanic": null,
+      "time_hint": "current"
+    },
+    "event_key": "global_microsoft_rdp_security_update_2024",
+    "is_primary": true,
+    "title_ko": "마이크로소프트(Microsoft), 원격 데스크톱 보안 강화 업데이트 후 가독성 문제 발생"
+  },
+  {
+    "title": "Pass the key, passwords have passed their sell-by date",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/23/ncsc_passkey_tech_now_reliable/",
+    "source": "The Register - Security",
+    "pub_date": "2026-04-23",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "영국 국가사이버보안센터(NCSC)가 비밀번호를 대체할 표준 인증 방식으로 패스키(passkeys)를 공식 도입했다.",
+      "이번 권고는 보안 취약성이 높은 기존 비밀번호 체계에서 완전히 벗어나야 한다는 정부 기관의 첫 번째 공식 지침이다.",
+      "게임 산업을 비롯한 온라인 서비스 환경에서 보안 강화와 사용자 편의성을 위해 패스키 전환이 가속화될 전망이다."
+    ],
+    "event": {
+      "jurisdiction": "UK",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "NCSC"
+      ],
+      "object": "passkeys",
+      "action": "endorsement",
+      "game_mechanic": null,
+      "time_hint": "2024"
+    },
+    "event_key": "uk_authentication_passkey_standard_2024",
+    "is_primary": true,
+    "title_ko": "열쇠를 넘겨라, 비밀번호는 유통기한이 지났다"
+  },
+  {
+    "title": "Mythos found 271 Firefox flaws – but none a human couldn’t spot",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/22/mozilla_firefox_mythos_future_defenders/",
+    "source": "The Register - Security",
+    "pub_date": "2026-04-22",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "모질라(Mozilla)는 앤스로픽(Anthropic)의 AI 모델인 미토스(Mythos)를 활용해 파이어폭스(Firefox)의 보안 결함을 분석했습니다.",
+      "해당 AI는 271개의 결함을 찾아냈으나, 발견된 오류들은 인간 개발자도 충분히 식별 가능한 수준인 것으로 확인되었습니다.",
+      "모질라(Mozilla) 측은 이번 결과가 소프트웨어 보안 영역에서 AI가 개발자들을 보조할 수 있는 중요한 전환점이 될 것으로 평가했습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Mozilla",
+        "Anthropic"
+      ],
+      "object": "AI bug-finding software",
+      "action": "testing and validation",
+      "game_mechanic": null,
+      "time_hint": "recent"
+    },
+    "event_key": "global_ai_security_testing_2024",
+    "is_primary": true,
+    "title_ko": "모질라(Mozilla), AI 모델 '미토스(Mythos)'로 파이어폭스(Firefox) 결함 271개 발견"
+  }
+]
