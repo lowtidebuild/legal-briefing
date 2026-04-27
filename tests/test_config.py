@@ -8,13 +8,25 @@ from pipeline.config import load_config
 
 def test_load_config_from_file():
     data = {
-        "llm": {"provider": "gemini", "model": "gemini-3.1-flash-lite", "max_retries": 2},
+        "llm": {
+            "provider": "gemini",
+            "model": "gemini-3.1-flash-lite",
+            "max_retries": 2,
+            "concurrency": 6,
+        },
         "sources": {
             "tier_a": [{"name": "Test", "url": "https://example.com/feed"}],
             "tier_b": [],
             "tier_c": [{"name": "Tier C", "url": "https://example.com/html"}],
         },
-        "pipeline": {"top_n": 10, "categories": ["IP", "ETC"]},
+        "pipeline": {
+            "top_n": 10,
+            "max_per_domain": 3,
+            "fetch_body_for_selected": True,
+            "body_fetch_timeout_seconds": 5,
+            "body_fetch_max_chars": 4000,
+            "categories": ["IP", "ETC"],
+        },
         "dedup": {"retention_days": 30},
         "site": {"base_url": "/game-legal-briefing"},
         "email": {
@@ -28,7 +40,12 @@ def test_load_config_from_file():
     try:
         cfg = load_config(path)
         assert cfg.llm.provider == "gemini"
+        assert cfg.llm.concurrency == 6
         assert cfg.pipeline.top_n == 10
+        assert cfg.pipeline.max_per_domain == 3
+        assert cfg.pipeline.fetch_body_for_selected is True
+        assert cfg.pipeline.body_fetch_timeout_seconds == 5
+        assert cfg.pipeline.body_fetch_max_chars == 4000
         assert cfg.sources.tier_a[0].name == "Test"
         assert cfg.sources.tier_c[0].name == "Tier C"
         assert cfg.site.base_url == "/game-legal-briefing"
@@ -45,5 +62,8 @@ def test_config_exposes_env_vars(monkeypatch):
     try:
         cfg = load_config(path)
         assert cfg.google_api_key == "test-key-123"
+        assert cfg.pipeline.max_per_domain == 2
+        assert cfg.pipeline.fetch_body_for_selected is False
+        assert cfg.llm.concurrency == 4
     finally:
         os.unlink(path)

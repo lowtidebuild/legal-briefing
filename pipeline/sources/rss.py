@@ -4,6 +4,7 @@ import logging
 import time
 import urllib.request
 from dataclasses import dataclass
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from io import BytesIO
 from types import SimpleNamespace
 
@@ -26,6 +27,19 @@ class RawArticle:
     source: str
     description: str
     pub_date: str
+
+
+@dataclass
+class FeedFetchReport:
+    articles: list[RawArticle]
+    tier_a_total: int
+    tier_a_empty: int
+
+    @property
+    def tier_a_failure_rate(self) -> float:
+        if self.tier_a_total == 0:
+            return 0.0
+        return self.tier_a_empty / self.tier_a_total
 
 
 def _format_date(parsed_time) -> str:
@@ -65,17 +79,57 @@ def fetch_feed(source: SourceEntry) -> list[RawArticle]:
     return articles
 
 
-def fetch_all_feeds(tier_a: list[SourceEntry], tier_b: list[SourceEntry]) -> list[RawArticle]:
-    """Fetch all configured RSS feeds."""
+def fetch_all_feeds_with_report(
+    tier_a: list[SourceEntry],
+    tier_b: list[SourceEntry],
+    max_workers: int = 8,
+) -> FeedFetchReport:
+    """Fetch all configured RSS feeds and return basic health stats."""
+    sources = [(source, "tier_a") for source in tier_a] + [(source, "tier_b") for source in tier_b]
+    if not sources:
+        logger.info("Collected 0 raw articles total")
+        return FeedFetchReport(articles=[], tier_a_total=0, tier_a_empty=0)
+
+    if max_workers <= 1:
+        results = [fetch_feed(source) for source, _ in sources]
+    else:
+        results: list[list[RawArticle]] = [[] for _ in sources]
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            futures = {
+                executor.submit(fetch_feed, source): index
+                for index, (source, _) in enumerate(sources)
+            }
+            for future in as_completed(futures):
+                index = futures[future]
+                source, _ = sources[index]
+                try:
+                    results[index] = future.result()
+                except Exception as exc:  # pragma: no cover - fetch_feed is defensive
+                    logger.warning("Feed worker failed for %s: %s", source.name, exc)
+
     articles: list[RawArticle] = []
-    for source in tier_a:
-        result = fetch_feed(source)
-        if not result:
+    tier_a_empty = 0
+    for (source, tier), result in zip(sources, results):
+        if tier == "tier_a" and not result:
+            tier_a_empty += 1
             logger.warning("tier_a source %s returned no articles", source.name)
         articles.extend(result)
-    for source in tier_b:
-        articles.extend(fetch_feed(source))
     logger.info("Collected %d raw articles total", len(articles))
+    return FeedFetchReport(
+        articles=articles,
+        tier_a_total=len(tier_a),
+        tier_a_empty=tier_a_empty,
+    )
+
+
+def fetch_all_feeds(
+    tier_a: list[SourceEntry],
+    tier_b: list[SourceEntry],
+    max_workers: int = 8,
+) -> list[RawArticle]:
+    """Fetch all configured RSS feeds."""
+    report = fetch_all_feeds_with_report(tier_a=tier_a, tier_b=tier_b, max_workers=max_workers)
+    articles = report.articles
     return articles
 
 
@@ -104,4 +158,3 @@ def sample_articles() -> list[RawArticle]:
             pub_date="2026-03-30",
         ),
     ]
-

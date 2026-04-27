@@ -12,9 +12,19 @@ def create_provider(
     cfg: LLMConfig,
     google_api_key: str | None = None,
     anthropic_api_key: str | None = None,
+    offline_fallback: bool = False,
+    offline_context: str = "offline fallback",
 ) -> LLMProvider:
     """Create an LLM provider from config, with automatic fallback when both keys are available."""
-    primary = _create_single_provider(cfg, google_api_key, anthropic_api_key)
+    try:
+        primary = _create_single_provider(cfg, google_api_key, anthropic_api_key)
+    except Exception as exc:
+        if offline_fallback:
+            from pipeline.llm.offline import OfflineLLMProvider
+
+            logger.warning("Falling back to offline %s without live LLM access: %s", offline_context, exc)
+            return OfflineLLMProvider()
+        raise
 
     # If both keys are available, wrap with fallback
     secondary = _try_create_secondary(cfg, google_api_key, anthropic_api_key)

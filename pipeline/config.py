@@ -13,6 +13,7 @@ class LLMConfig:
     max_retries: int = 2
     request_timeout_seconds: int = 30
     max_input_chars: int = 8000
+    concurrency: int = 4
 
 
 @dataclass
@@ -31,6 +32,10 @@ class SourcesConfig:
 @dataclass
 class PipelineConfig:
     top_n: int = 10
+    max_per_domain: int = 2
+    fetch_body_for_selected: bool = False
+    body_fetch_timeout_seconds: int = 10
+    body_fetch_max_chars: int = 8000
     categories: list[str] = field(default_factory=lambda: ["ETC"])
     keywords: list[str] = field(default_factory=list)
 
@@ -125,10 +130,15 @@ def load_config(path: str) -> Config:
             max_retries=llm_raw.get("max_retries", 2),
             request_timeout_seconds=llm_raw.get("request_timeout_seconds", 30),
             max_input_chars=llm_raw.get("max_input_chars", 8000),
+            concurrency=llm_raw.get("concurrency", 4),
         ),
         sources=_load_sources(raw.get("sources", {})),
         pipeline=PipelineConfig(
             top_n=pipeline_raw.get("top_n", 10),
+            max_per_domain=pipeline_raw.get("max_per_domain", 2),
+            fetch_body_for_selected=pipeline_raw.get("fetch_body_for_selected", False),
+            body_fetch_timeout_seconds=pipeline_raw.get("body_fetch_timeout_seconds", 10),
+            body_fetch_max_chars=pipeline_raw.get("body_fetch_max_chars", 8000),
             categories=pipeline_raw.get("categories", ["ETC"]),
             keywords=pipeline_raw.get("keywords", []),
         ),

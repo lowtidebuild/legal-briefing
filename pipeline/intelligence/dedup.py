@@ -36,12 +36,13 @@ class DedupEntry:
     event_key: str
     url_hash: str
     date: str
+    event_fingerprint: str = ""
 
 
 @dataclass
 class DedupIndex:
     entries: list[DedupEntry] = field(default_factory=list)
-    schema_version: int = 1
+    schema_version: int = 2
     retention_days: int = 30
 
 
@@ -56,6 +57,12 @@ def topic_tokens_hash(title: str) -> str:
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()[:16]
 
 
+def _normalize_token(s: str) -> str:
+    s = s.lower().strip()
+    s = re.sub(r"[^\w\s]", "", s)
+    return re.sub(r"\s+", "_", s)
+
+
 def compute_event_key(jurisdiction: str, actors: list[str], object_: str, action: str) -> str:
     raw = "|".join(
         [
@@ -65,6 +72,25 @@ def compute_event_key(jurisdiction: str, actors: list[str], object_: str, action
             action.lower(),
         ]
     )
+    return hashlib.sha256(raw.encode("utf-8")).hexdigest()[:16]
+
+
+def compute_event_fingerprint(
+    jurisdiction: str,
+    actors: list[str],
+    object_: str,
+    action: str,
+    year_bucket: str,
+) -> str:
+    """Compute a deterministic event fingerprint for cross-source dedup."""
+    parts = [
+        jurisdiction.lower(),
+        ",".join(sorted(_normalize_token(actor) for actor in actors if actor)),
+        _normalize_token(object_),
+        _normalize_token(action),
+        year_bucket.lower(),
+    ]
+    raw = "|".join(parts)
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()[:16]
 
 
@@ -91,4 +117,3 @@ def deduplicate_articles(articles: list[RawArticle], index: DedupIndex) -> list[
 
     logger.info("Dedup reduced %d articles to %d", len(articles), len(topic_stage))
     return topic_stage
-

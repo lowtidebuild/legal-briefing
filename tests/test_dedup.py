@@ -2,6 +2,7 @@ from pipeline.intelligence.dedup import (
     DedupEntry,
     DedupIndex,
     compute_event_key,
+    compute_event_fingerprint,
     deduplicate_articles,
     topic_tokens_hash,
     url_hash,
@@ -28,6 +29,25 @@ def test_compute_event_key_shape():
     assert len(compute_event_key("EU", ["EU Commission"], "loot box", "regulation")) == 16
 
 
+def test_compute_event_fingerprint_normalizes_inputs():
+    first = compute_event_fingerprint(
+        "EU",
+        ["EU Commission", "Apple"],
+        "Loot Box Rules!",
+        "Issued guidance",
+        "2026q2",
+    )
+    second = compute_event_fingerprint(
+        "eu",
+        ["apple", "eu commission"],
+        "loot box rules",
+        "issued   guidance",
+        "2026Q2",
+    )
+    assert len(first) == 16
+    assert first == second
+
+
 def test_deduplicate_articles_filters_url_and_existing_index():
     existing = DedupIndex(
         entries=[DedupEntry(event_key="", url_hash=url_hash("https://old.com/article"), date="2026-03-20")]
@@ -40,4 +60,3 @@ def test_deduplicate_articles_filters_url_and_existing_index():
     result = deduplicate_articles(articles, existing)
     assert len(result) == 1
     assert result[0].title == "EU Loot Box Regulation"
-

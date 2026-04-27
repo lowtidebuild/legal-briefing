@@ -1,4 +1,6 @@
-from pipeline.sources.filters import keyword_filter
+from datetime import datetime, timedelta
+
+from pipeline.sources.filters import keyword_filter, normalize_pub_dates, recency_filter
 from pipeline.sources.rss import RawArticle
 
 
@@ -58,3 +60,41 @@ def test_keyword_filter_multi_word_keywords():
         "LOOT BOX regulations tightened",
         "Loot box proposal",
     ]
+
+
+def test_normalize_pub_dates_fills_missing_and_invalid_dates():
+    articles = [
+        _article("Valid", "unchanged"),
+        _article("Missing", "missing"),
+        _article("Invalid", "invalid"),
+    ]
+    articles[0].pub_date = "2026-04-27"
+    articles[1].pub_date = ""
+    articles[2].pub_date = "April 27, 2026"
+
+    result = normalize_pub_dates(articles, default_date="2026-04-27")
+
+    assert [article.pub_date for article in result] == [
+        "2026-04-27",
+        "2026-04-27",
+        "2026-04-27",
+    ]
+
+
+def test_recency_filter_drops_missing_invalid_and_old_dates():
+    today = datetime.now().strftime("%Y-%m-%d")
+    old = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")
+    articles = [
+        _article("Recent"),
+        _article("Old"),
+        _article("Missing"),
+        _article("Invalid"),
+    ]
+    articles[0].pub_date = today
+    articles[1].pub_date = old
+    articles[2].pub_date = ""
+    articles[3].pub_date = "not-a-date"
+
+    result = recency_filter(articles, max_age_days=7)
+
+    assert [article.title for article in result] == ["Recent"]

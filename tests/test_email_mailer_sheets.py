@@ -1,7 +1,7 @@
 import os
 from unittest.mock import MagicMock, patch
 
-from pipeline.admin.sheets import format_row, sync_to_sheets
+from pipeline.admin.sheets import format_row, read_event_keys_from_sheets, sync_to_sheets
 from pipeline.deliver.mailer import send_briefing_email
 from pipeline.models import BriefingNode, EventType, Jurisdiction, LegalEvent, RegulatoryPhase
 from pipeline.render.email import render_email
@@ -16,6 +16,7 @@ def _node(
     pub_date: str = "2026-03-23",
     category: str = "IP",
     summary_ko: list[str] | None = None,
+    time_hint: str = "",
 ) -> BriefingNode:
     return BriefingNode(
         title=title,
@@ -33,7 +34,7 @@ def _node(
             object="patent",
             action="filed",
             game_mechanic=None,
-            time_hint="",
+            time_hint=time_hint,
         ),
         event_key="key1",
         is_primary=True,
@@ -94,6 +95,7 @@ def test_render_email_and_format_row():
     assert "Noto Serif KR" in html or "Pretendard" in html
     assert "https://example.com/archive" in html
     assert row[0] == "2026-03-23"
+    assert row[7] == ""
 
 
 def test_send_email_skips_empty_recipients():
@@ -126,6 +128,21 @@ def test_sync_to_sheets_appends_rows():
     with patch("pipeline.admin.sheets._get_worksheet", return_value=sheet):
         sync_to_sheets([_node()], credentials_json="{}", spreadsheet_id="test-id")
         sheet.append_rows.assert_called_once()
+
+
+def test_format_row_includes_time_hint():
+    row = format_row(_node(time_hint="June 2026"))
+    assert row[7] == "June 2026"
+    assert row[8] == "요약 1 | 요약 2 | 요약 3"
+
+
+def test_read_event_keys_from_sheets_returns_none_on_configured_failure():
+    with patch("pipeline.admin.sheets._get_worksheet", side_effect=RuntimeError("down")):
+        assert read_event_keys_from_sheets(credentials_json="{}", spreadsheet_id="sheet-id") is None
+
+
+def test_read_event_keys_from_sheets_unconfigured_returns_empty_set():
+    assert read_event_keys_from_sheets(credentials_json=None, spreadsheet_id=None) == set()
 
 
 def test_render_email_structure_and_breadcrumbs():

@@ -4,6 +4,7 @@ llm:
   max_retries: 2
   request_timeout_seconds: 30
   max_input_chars: 8000
+  concurrency: 4
 
 sources:
   tier_a:
@@ -63,8 +64,16 @@ sources:
       url: "https://www.bakermckenzie.com/en/rss-landing/expertise/employment-and-compensation"
     - name: "Baker McKenzie - Antitrust & Competition"
       url: "https://www.bakermckenzie.com/en/rss-landing/expertise/antitrust-and-competition"
-    - name: "Cooley - Media (Newsroom)"
-      url: "https://www.cooley.com/corporate-content/rss-feeds/media-rss-feed"
+    - name: "JD Supra - Privacy"
+      url: "https://www.jdsupra.com/resources/syndication/docsRSSfeed.aspx?ftype=Privacy&premium=1"
+    - name: "JD Supra - Intellectual Property"
+      url: "https://www.jdsupra.com/resources/syndication/docsRSSfeed.aspx?ftype=IntellectualProperty&premium=1"
+    - name: "JD Supra - Antitrust & Trade Regulation"
+      url: "https://www.jdsupra.com/resources/syndication/docsRSSfeed.aspx?ftype=AntitrustTradeRegulation&premium=1"
+    - name: "Gamma Law - Insights"
+      url: "https://gammalaw.com/feed/"
+    - name: "Pillsbury - Internet & Technology Law"
+      url: "https://www.internetandtechnologylaw.com/feed/"
     - name: "Clifford Chance - Publications & News"
       url: "https://www.cliffordchance.com/rss/main.xml"
     - name: "TechCrunch - Policy"
@@ -116,6 +125,8 @@ sources:
       url: "https://www.famitsu.com/feed/"
     - name: "Norton Rose Fulbright - Regulation Tomorrow"
       url: "https://www.regulationtomorrow.com/feed/"
+    - name: "IPWatchdog"
+      url: "https://ipwatchdog.com/feed/"
   tier_c:
     # Korean government agencies - top 3 have scrapers; rest log "not implemented"
     - name: 문화체육관광부
@@ -166,6 +177,10 @@ sources:
 
 pipeline:
   top_n: 10
+  max_per_domain: 2
+  fetch_body_for_selected: false
+  body_fetch_timeout_seconds: 10
+  body_fetch_max_chars: 8000
   categories:
     - IP
     - CONSUMER_MONETIZATION

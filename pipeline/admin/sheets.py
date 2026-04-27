@@ -16,6 +16,7 @@ SHEET_HEADERS = [
     "category",
     "jurisdiction",
     "phase",
+    "time_hint",
     "summary_ko",
     "event_key",
     "status",
@@ -32,6 +33,7 @@ def format_row(node: BriefingNode) -> list[str]:
         node.category,
         node.event.jurisdiction.value,
         node.event.regulatory_phase.value,
+        node.event.time_hint,
         " | ".join(node.summary_ko),
         node.event_key,
         "published",
@@ -60,7 +62,7 @@ def _get_worksheet(credentials_value: str, spreadsheet_id: str):
 def read_event_keys_from_sheets(
     credentials_json: str | None,
     spreadsheet_id: str | None,
-) -> set[str]:
+) -> set[str] | None:
     """Read all existing event_keys from the admin spreadsheet."""
     if not credentials_json or not spreadsheet_id:
         return set()
@@ -77,14 +79,14 @@ def read_event_keys_from_sheets(
             ek_col = headers.index("event_key")
         except ValueError:
             logger.warning("No 'event_key' column found in Sheets headers")
-            return set()
+            return None
 
         keys = {row[ek_col].strip() for row in all_values[1:] if len(row) > ek_col and row[ek_col].strip()}
         logger.info("Loaded %d event_keys from Google Sheets", len(keys))
         return keys
     except Exception as exc:  # pragma: no cover - integration boundary
         logger.warning("Failed to read event_keys from Sheets: %s", exc)
-        return set()
+        return None
 
 
 def sync_to_sheets(
@@ -113,4 +115,3 @@ def sync_to_sheets(
         logger.info("Synced %d rows to Google Sheets", len(nodes))
     except Exception as exc:  # pragma: no cover - integration boundary
         logger.error("Google Sheets sync failed: %s", exc)
-

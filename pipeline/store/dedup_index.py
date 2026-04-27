@@ -24,10 +24,11 @@ def load_dedup_index(path: str) -> DedupIndex:
                 event_key=entry["event_key"],
                 url_hash=entry["url_hash"],
                 date=entry["date"],
+                event_fingerprint=entry.get("event_fingerprint", ""),
             )
             for entry in payload.get("entries", [])
         ],
-        schema_version=payload.get("schema_version", 1),
+        schema_version=max(payload.get("schema_version", 1), 2),
         retention_days=payload.get("retention_days", 30),
     )
 
@@ -43,6 +44,7 @@ def save_dedup_index(index: DedupIndex, path: str) -> None:
                 "event_key": entry.event_key,
                 "url_hash": entry.url_hash,
                 "date": entry.date,
+                "event_fingerprint": entry.event_fingerprint,
             }
             for entry in index.entries
         ],
@@ -75,4 +77,3 @@ def prune_old_entries(
         schema_version=index.schema_version,
         retention_days=days,
     )
-

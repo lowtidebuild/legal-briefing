@@ -34,3 +34,24 @@ def test_summarize_fallback_on_failure():
     assert isinstance(result, SummaryResult)
     assert result.title_ko == ""
     assert result.summary_ko == ["EU Enacts Loot Box Regulation"]
+
+
+def test_summarize_korean_source_keeps_original_title():
+    article = RawArticle(
+        title="게임물관리위원회, 새 등급분류 지침 공개",
+        url="https://example.com/kr",
+        source="게임물관리위원회",
+        description="새 지침 설명",
+        pub_date="2026-03-23",
+    )
+    mock_llm = MagicMock(spec=LLMProvider)
+    mock_llm.generate_json.return_value = {
+        "title_ko": "무시되어야 하는 제목",
+        "summary_ko": ["첫째", "둘째", "셋째"],
+    }
+
+    result = summarize_article(article, mock_llm)
+
+    assert result.title_ko == article.title
+    prompt = mock_llm.generate_json.call_args[0][0]
+    assert "번역" not in prompt

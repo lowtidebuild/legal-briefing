@@ -66,6 +66,9 @@
         <p class="card-title-en">{{ node.title }}</p>
         {% endif %}
         <p class="card-source">{{ node.source }} · {{ node.pub_date }}</p>
+        {% if node.event.time_hint %}
+        <p class="card-time">Timeline · {{ node.event.time_hint }}</p>
+        {% endif %}
         <ul class="card-summary">
           {% for line in node.summary_ko %}
           <li>{{ line }}</li>
