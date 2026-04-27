@@ -4,7 +4,7 @@ from unittest.mock import MagicMock, patch
 from pipeline.admin.sheets import format_row, read_event_keys_from_sheets, sync_to_sheets
 from pipeline.deliver.mailer import send_briefing_email
 from pipeline.models import BriefingNode, EventType, Jurisdiction, LegalEvent, RegulatoryPhase
-from pipeline.render.email import render_email
+from pipeline.render.email import render_email, write_email_preview
 
 
 def _node(
@@ -168,3 +168,9 @@ def test_render_email_structure_and_breadcrumbs():
     assert 'href="https://example.com/web"' in html
     assert "소니, AI 기업 인수" in html
     assert "Hogan Lovells AI checklist" in html
+
+
+def test_write_email_preview(tmp_path):
+    path = write_email_preview("<h1>Preview</h1>", output_dir=str(tmp_path))
+    assert os.path.basename(path) == "email-preview.html"
+    assert open(path, encoding="utf-8").read() == "<h1>Preview</h1>"

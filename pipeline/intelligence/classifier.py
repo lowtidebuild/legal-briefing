@@ -43,6 +43,32 @@ Description: {description}
 
 Return JSON only."""
 
+CLASSIFICATION_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "category": {"type": "string", "enum": sorted(VALID_CATEGORIES)},
+        "jurisdiction": {"type": "string", "enum": [item.value for item in Jurisdiction]},
+        "event_type": {"type": "string", "enum": [item.value for item in EventType]},
+        "regulatory_phase": {"type": "string", "enum": [item.value for item in RegulatoryPhase]},
+        "actors": {"type": "array", "items": {"type": "string"}},
+        "object": {"type": "string"},
+        "action": {"type": "string"},
+        "game_mechanic": {"type": "string"},
+        "time_hint": {"type": "string"},
+        "event_key": {"type": "string"},
+    },
+    "required": [
+        "category",
+        "jurisdiction",
+        "event_type",
+        "regulatory_phase",
+        "actors",
+        "object",
+        "action",
+        "time_hint",
+    ],
+}
+
 
 @dataclass
 class ClassificationResult:
@@ -71,7 +97,11 @@ def classify_article(article: RawArticle, llm: LLMProvider) -> ClassificationRes
     )
 
     try:
-        payload = llm.generate_json(prompt, system=CLASSIFIER_SYSTEM)
+        payload = llm.generate_json_schema(
+            prompt,
+            schema=CLASSIFICATION_SCHEMA,
+            system=CLASSIFIER_SYSTEM,
+        )
         if not isinstance(payload, dict):
             raise ValueError("Classifier response must be a JSON object")
 
@@ -122,4 +152,3 @@ def classify_article(article: RawArticle, llm: LLMProvider) -> ClassificationRes
                 time_hint="",
             ),
         )
-

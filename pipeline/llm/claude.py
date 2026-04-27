@@ -35,3 +35,31 @@ class ClaudeProvider(LLMProvider):
         )
         return response.content[0].text
 
+    def generate_json(self, prompt: str, system: str | None = None) -> dict | list:
+        return self.generate_json_schema(prompt=prompt, schema={}, system=system)
+
+    def generate_json_schema(
+        self,
+        prompt: str,
+        schema: dict,
+        system: str | None = None,
+    ) -> dict | list:
+        tool_schema = schema or {"type": "object", "additionalProperties": True}
+        response = self._client.messages.create(
+            model=self._model_name,
+            max_tokens=4096,
+            system=system or "",
+            messages=[{"role": "user", "content": prompt}],
+            tools=[
+                {
+                    "name": "respond",
+                    "description": "Return the JSON response",
+                    "input_schema": tool_schema,
+                }
+            ],
+            tool_choice={"type": "tool", "name": "respond"},
+        )
+        for block in response.content:
+            if getattr(block, "type", None) == "tool_use":
+                return block.input
+        return super().generate_json(prompt, system=system)

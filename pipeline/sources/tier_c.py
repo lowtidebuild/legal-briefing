@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import logging
+import os
 import re
 import urllib.request
 from urllib.parse import urljoin
@@ -195,3 +196,38 @@ def fetch_tier_c(sources: list[SourceEntry]) -> list[RawArticle]:
         except Exception as exc:
             logger.warning("Tier C scrape failed for %s: %s", source.name, exc)
     return collected
+
+
+def unimplemented_sources(sources: list[SourceEntry]) -> list[SourceEntry]:
+    """Return configured Tier C sources without a scraper implementation."""
+    return [source for source in sources if source.name not in SCRAPER_REGISTRY]
+
+
+def write_sources_backlog(
+    sources: list[SourceEntry],
+    path: str = "docs/sources-backlog.md",
+) -> str:
+    """Write a markdown backlog of configured Tier C sources still needing scrapers."""
+    missing = unimplemented_sources(sources)
+    lines = [
+        "# Sources Backlog",
+        "",
+        "Tier C sources configured without scraper support.",
+        "",
+        "| Source | URL |",
+        "|---|---|",
+    ]
+    if missing:
+        lines.extend(f"| {source.name} | {source.url} |" for source in missing)
+    else:
+        lines.append("| None |  |")
+    content = "\n".join(lines) + "\n"
+
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as handle:
+            if handle.read() == content:
+                return path
+    with open(path, "w", encoding="utf-8") as handle:
+        handle.write(content)
+    return path

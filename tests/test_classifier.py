@@ -18,7 +18,7 @@ def _article() -> RawArticle:
 
 def test_classify_article_returns_legal_event():
     mock_llm = MagicMock(spec=LLMProvider)
-    mock_llm.generate_json.return_value = {
+    mock_llm.generate_json_schema.return_value = {
         "category": "CONSUMER_MONETIZATION",
         "jurisdiction": "EU",
         "event_type": "legislation",
@@ -34,12 +34,12 @@ def test_classify_article_returns_legal_event():
     assert result.event.jurisdiction == Jurisdiction.EU
     assert result.event.event_type == EventType.LEGISLATION
     assert result.event.regulatory_phase == RegulatoryPhase.ENACTED
+    assert mock_llm.generate_json_schema.call_args.kwargs["schema"]["properties"]["category"]["enum"]
 
 
 def test_classify_article_fallback_on_failure():
     mock_llm = MagicMock(spec=LLMProvider)
-    mock_llm.generate_json.side_effect = Exception("LLM failed")
+    mock_llm.generate_json_schema.side_effect = Exception("LLM failed")
     result = classify_article(_article(), mock_llm)
     assert result.category == "ETC"
     assert result.event.jurisdiction == Jurisdiction.GLOBAL
-

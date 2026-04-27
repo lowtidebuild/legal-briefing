@@ -42,9 +42,22 @@ class GeminiProvider(LLMProvider):
         return response.text
 
     def generate_json(self, prompt: str, system: str | None = None) -> dict | list:
+        return self.generate_json_schema(prompt=prompt, schema={}, system=system)
+
+    def generate_json_schema(
+        self,
+        prompt: str,
+        schema: dict,
+        system: str | None = None,
+    ) -> dict | list:
+        config_kwargs = {
+            "system_instruction": system,
+            "response_mime_type": "application/json",
+        }
+        if schema:
+            config_kwargs["response_schema"] = schema
         config = types.GenerateContentConfig(
-            system_instruction=system,
-            response_mime_type="application/json",
+            **config_kwargs,
         )
         last_error: Exception | None = None
         for attempt in range(self.max_retries + 1):

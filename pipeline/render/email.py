@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import os
+
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from pipeline.models import BriefingNode
@@ -92,3 +94,12 @@ def render_email(
         return transform(html, strip_important=False)
     except ImportError:
         return html
+
+
+def write_email_preview(html_body: str, output_dir: str = "output") -> str:
+    """Write a local email preview artifact without sending anything."""
+    os.makedirs(output_dir, exist_ok=True)
+    path = os.path.join(output_dir, "email-preview.html")
+    with open(path, "w", encoding="utf-8") as handle:
+        handle.write(html_body)
+    return path

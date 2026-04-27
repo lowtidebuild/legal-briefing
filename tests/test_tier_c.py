@@ -38,6 +38,20 @@ def test_fetch_tier_c_skips_unknown_source(caplog):
     assert "Tier C scraper not implemented for Unknown - skipping" in caplog.text
 
 
+def test_write_sources_backlog(tmp_path):
+    path = tmp_path / "sources-backlog.md"
+    tier_c.write_sources_backlog(
+        [
+            SourceEntry(name="문화체육관광부", url="https://implemented.example"),
+            SourceEntry(name="Unknown", url="https://unknown.example"),
+        ],
+        path=str(path),
+    )
+    content = path.read_text(encoding="utf-8")
+    assert "Unknown" in content
+    assert "문화체육관광부" not in content
+
+
 def test_fetch_tier_c_handles_scraper_exception(monkeypatch, caplog):
     caplog.set_level(logging.INFO)
 

@@ -96,3 +96,11 @@ class LLMProvider(ABC):
         assert last_error is not None
         raise last_error
 
+    def generate_json_schema(
+        self,
+        prompt: str,
+        schema: dict,
+        system: str | None = None,
+    ) -> dict | list:
+        """Return parsed JSON with an optional provider-native schema hint."""
+        return self.generate_json(prompt, system=system)

@@ -24,7 +24,7 @@ from pipeline.intelligence.event_dedup import build_classified_article, dedup_cl
 from pipeline.intelligence.selector import select_top_articles
 from pipeline.intelligence.summarizer import summarize_article
 from pipeline.llm import create_provider
-from pipeline.render.email import render_email
+from pipeline.render.email import render_email, write_email_preview
 from pipeline.render.site import copy_static, render_archive, render_article_pages, render_index
 from pipeline.sources.fetcher import fetch_article_body
 from pipeline.sources.filters import keyword_filter, normalize_pub_dates, recency_filter
@@ -101,8 +101,9 @@ def run_pipeline(
                 exit_code=2,
             )
         articles = feed_report.articles
-        from pipeline.sources.tier_c import fetch_tier_c
+        from pipeline.sources.tier_c import fetch_tier_c, write_sources_backlog
 
+        write_sources_backlog(cfg.sources.tier_c)
         articles.extend(fetch_tier_c(cfg.sources.tier_c))
     articles = keyword_filter(articles, keywords=cfg.pipeline.keywords)
     if not use_sample_data and len(articles) < 10:
@@ -241,9 +242,16 @@ def run_pipeline(
     except Exception as exc:  # pragma: no cover - defensive
         logger.warning("Briefing-hub manifest write failed: %s", exc)
 
+    email_html = None
+    if nodes and (dry_run or (not dry_run and cfg.smtp_user and cfg.smtp_pass and cfg.recipients)):
+        email_html = render_email(nodes, today, template_dir=template_dir, web_url=cfg.email.web_url)
+
+    if dry_run and nodes and email_html:
+        write_email_preview(email_html, output_dir=output_dir)
+
     if not dry_run and nodes and cfg.smtp_user and cfg.smtp_pass and cfg.recipients:
         send_briefing_email(
-            html_body=render_email(nodes, today, template_dir=template_dir, web_url=cfg.email.web_url),
+            html_body=email_html or render_email(nodes, today, template_dir=template_dir, web_url=cfg.email.web_url),
             subject=f"{cfg.email.subject_prefix} {today}",
             smtp_user=cfg.smtp_user,
             smtp_pass=cfg.smtp_pass,

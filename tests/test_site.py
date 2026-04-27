@@ -1,5 +1,6 @@
 import os
 import tempfile
+import time
 
 from pipeline.models import BriefingNode, EventType, Jurisdiction, LegalEvent, RegulatoryPhase
 from pipeline.render.site import render_archive, render_article_pages, render_index
@@ -57,3 +58,14 @@ def test_render_index_exposes_time_hint():
         )
         html = open(index_path, encoding="utf-8").read()
         assert "Timeline · June 2026" in html
+
+
+def test_render_article_pages_skips_unchanged_file():
+    with tempfile.TemporaryDirectory() as tmpdir:
+        template_dir = os.path.join(os.path.dirname(__file__), "..", "templates")
+        render_article_pages(nodes=[_node()], output_dir=tmpdir, template_dir=template_dir, base_url="")
+        path = os.path.join(tmpdir, "article", "key1.html")
+        first_mtime = os.path.getmtime(path)
+        time.sleep(0.01)
+        render_article_pages(nodes=[_node()], output_dir=tmpdir, template_dir=template_dir, base_url="")
+        assert os.path.getmtime(path) == first_mtime

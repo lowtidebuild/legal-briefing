@@ -133,6 +133,7 @@ def test_dry_run_without_api_key_uses_offline_provider_for_live_pipeline():
                 "main.fetch_all_feeds_with_report",
                 return_value=FeedFetchReport(articles=[article], tier_a_total=1, tier_a_empty=0),
             ),
+            patch("pipeline.sources.tier_c.write_sources_backlog"),
         ):
             from main import run_pipeline
 
@@ -155,6 +156,7 @@ def test_dry_run_without_api_key_uses_offline_provider_for_live_pipeline():
         )
         assert dedup_payload["schema_version"] == 2
         assert dedup_payload["entries"][0]["event_fingerprint"]
+        assert os.path.exists(os.path.join(tmpdir, "email-preview.html"))
 
 
 def test_live_pipeline_aborts_when_sheets_read_fails():
@@ -182,6 +184,7 @@ def test_live_pipeline_aborts_when_sheets_read_fails():
                 "main.fetch_all_feeds_with_report",
                 return_value=FeedFetchReport(articles=articles, tier_a_total=1, tier_a_empty=0),
             ),
+            patch("pipeline.sources.tier_c.write_sources_backlog"),
             patch("main.read_event_keys_from_sheets", return_value=None),
         ):
             from main import run_pipeline
@@ -219,6 +222,7 @@ def test_live_pipeline_aborts_on_low_article_health():
                 "main.fetch_all_feeds_with_report",
                 return_value=FeedFetchReport(articles=[article], tier_a_total=1, tier_a_empty=0),
             ),
+            patch("pipeline.sources.tier_c.write_sources_backlog"),
         ):
             from main import run_pipeline
 

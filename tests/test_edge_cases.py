@@ -20,7 +20,7 @@ def _article() -> RawArticle:
 
 def test_classifier_defaults_invalid_category_to_etc():
     llm = MagicMock()
-    llm.generate_json.return_value = {
+    llm.generate_json_schema.return_value = {
         "category": "INVALID_NONEXISTENT",
         "jurisdiction": "EU",
         "event_type": "legislation",

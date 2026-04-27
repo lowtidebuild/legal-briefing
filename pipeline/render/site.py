@@ -26,6 +26,16 @@ def _get_env(template_dir: str) -> Environment:
     )
 
 
+def _write_if_changed(path: str, html: str) -> bool:
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as handle:
+            if handle.read() == html:
+                return False
+    with open(path, "w", encoding="utf-8") as handle:
+        handle.write(html)
+    return True
+
+
 def render_index(
     nodes: list[BriefingNode],
     date: str,
@@ -41,14 +51,12 @@ def render_index(
 
     os.makedirs(output_dir, exist_ok=True)
     path = os.path.join(output_dir, "index.html")
-    with open(path, "w", encoding="utf-8") as handle:
-        handle.write(html)
+    _write_if_changed(path, html)
 
     archive_dir = os.path.join(output_dir, "archive")
     os.makedirs(archive_dir, exist_ok=True)
     archive_path = os.path.join(archive_dir, f"{date}.html")
-    with open(archive_path, "w", encoding="utf-8") as handle:
-        handle.write(html)
+    _write_if_changed(archive_path, html)
 
     logger.info("Rendered latest page and archive snapshot for %s", date)
     return path
@@ -70,8 +78,7 @@ def render_archive(
     archive_dir = os.path.join(output_dir, "archive")
     os.makedirs(archive_dir, exist_ok=True)
     path = os.path.join(archive_dir, "index.html")
-    with open(path, "w", encoding="utf-8") as handle:
-        handle.write(html)
+    _write_if_changed(path, html)
 
     # Render per-date archive pages (always overwrite to stay in sync with JSON)
     if all_daily_nodes:
@@ -79,8 +86,7 @@ def render_archive(
         for date, nodes in all_daily_nodes.items():
             date_path = os.path.join(archive_dir, f"{date}.html")
             date_html = index_template.render(nodes=nodes, date=date, base_url=normalized_base_url)
-            with open(date_path, "w", encoding="utf-8") as handle:
-                handle.write(date_html)
+            _write_if_changed(date_path, date_html)
 
     logger.info("Rendered archive listing with %d dates", len(entries))
     return path
@@ -102,8 +108,7 @@ def render_article_pages(
     for node in nodes:
         html = template.render(node=node, base_url=normalized_base_url)
         path = os.path.join(article_dir, f"{node.event_key}.html")
-        with open(path, "w", encoding="utf-8") as handle:
-            handle.write(html)
+        _write_if_changed(path, html)
 
     logger.info("Rendered %d article pages", len(nodes))
 
@@ -115,4 +120,3 @@ def copy_static(output_dir: str = "output", static_dir: str = "static") -> None:
     destination = os.path.join(output_dir, "static")
     shutil.copytree(static_dir, destination, dirs_exist_ok=True)
     logger.info("Copied static assets to %s", destination)
-
