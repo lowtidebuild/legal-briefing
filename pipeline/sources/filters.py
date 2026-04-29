@@ -51,7 +51,7 @@ def _is_valid_pub_date(pub_date: str) -> bool:
 
 
 def normalize_pub_dates(articles: list[RawArticle], default_date: str) -> list[RawArticle]:
-    """Fill missing or invalid publication dates before recency filtering."""
+    """Fill missing or invalid publication dates for downstream rendering."""
     normalized: list[RawArticle] = []
     changed = 0
     for article in articles:

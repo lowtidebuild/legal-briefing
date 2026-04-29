@@ -110,9 +110,9 @@ def run_pipeline(
             dry_run=dry_run,
             exit_code=2,
         )
-    articles = normalize_pub_dates(articles, default_date=today)
     if not use_sample_data:
         articles = recency_filter(articles, max_age_days=7)
+    articles = normalize_pub_dates(articles, default_date=today)
 
     dedup_index = DedupIndex() if use_sample_data else prune_old_entries(
         load_dedup_index(dedup_path), today=today, retention_days=cfg.dedup.retention_days,

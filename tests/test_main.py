@@ -246,6 +246,63 @@ def test_live_pipeline_continues_on_degraded_tier_a_feed_health(caplog):
         assert "Tier A feed health degraded: 24/44" in caplog.text
 
 
+def test_live_pipeline_drops_missing_date_articles_before_rendering():
+    cfg = _make_config()
+    cfg.google_api_key = "test-key"
+    today = datetime.now().strftime("%Y-%m-%d")
+    fresh_articles = [
+        RawArticle(
+            title=f"FTC gaming policy update {index}",
+            url=f"https://example.com/{index}",
+            source="Test Feed",
+            description="FTC policy update for gaming platforms",
+            pub_date=today,
+        )
+        for index in range(10)
+    ]
+    stale_undated_article = RawArticle(
+        title="US Copyright Office rules that monkeys CAN'T claim copyright over their selfies",
+        url=(
+            "http://go.theregister.com/feed/www.theregister.co.uk/2014/08/22/"
+            "us_copyright_office_rules_monkeys_selfie_public_domain/"
+        ),
+        source="The Register - Policy",
+        description="2014 copyright article without a parseable RSS publication date",
+        pub_date="",
+    )
+
+    with tempfile.TemporaryDirectory() as tmpdir:
+        with (
+            patch("main.load_config", return_value=cfg),
+            patch("main.create_provider", return_value=MagicMock()),
+            patch(
+                "main.fetch_all_feeds_with_report",
+                return_value=FeedFetchReport(
+                    articles=fresh_articles + [stale_undated_article],
+                    tier_a_total=1,
+                    tier_a_empty=0,
+                ),
+            ),
+            patch("pipeline.sources.tier_c.write_sources_backlog"),
+        ):
+            from main import run_pipeline
+
+            run_pipeline(
+                config_path="config.yaml",
+                output_dir=tmpdir,
+                template_dir=_template_dir(),
+                static_dir=_static_dir(),
+                dry_run=False,
+                use_sample_data=False,
+            )
+
+        data_dir = os.path.join(tmpdir, "data", "daily")
+        json_files = [name for name in os.listdir(data_dir) if name.endswith(".json")]
+        payload = open(os.path.join(data_dir, json_files[0]), encoding="utf-8").read()
+        assert "monkeys CAN'T claim copyright" not in payload
+        assert "FTC gaming policy update 0" in payload
+
+
 def test_live_pipeline_aborts_on_low_article_health():
     cfg = _make_config()
     cfg.google_api_key = "test-key"
