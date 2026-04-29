@@ -92,13 +92,11 @@ def run_pipeline(
             tier_b=cfg.sources.tier_b,
         )
         if feed_report.tier_a_failure_rate >= 0.5:
-            _handle_operational_issue(
-                (
-                    "Tier A feed health check failed: "
-                    f"{feed_report.tier_a_empty}/{feed_report.tier_a_total} sources returned no articles"
-                ),
-                dry_run=dry_run,
-                exit_code=2,
+            logger.warning(
+                "Tier A feed health degraded: %s/%s sources returned no articles; "
+                "continuing with available feeds",
+                feed_report.tier_a_empty,
+                feed_report.tier_a_total,
             )
         articles = feed_report.articles
         from pipeline.sources.tier_c import fetch_tier_c, write_sources_backlog

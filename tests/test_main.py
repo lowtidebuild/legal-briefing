@@ -1,5 +1,6 @@
 import os
 import json
+import logging
 import tempfile
 from datetime import datetime
 from types import SimpleNamespace
@@ -200,6 +201,49 @@ def test_live_pipeline_aborts_when_sheets_read_fails():
                 )
 
         assert exc.value.code == 3
+
+
+def test_live_pipeline_continues_on_degraded_tier_a_feed_health(caplog):
+    cfg = _make_config()
+    cfg.google_api_key = "test-key"
+    today = datetime.now().strftime("%Y-%m-%d")
+    articles = [
+        RawArticle(
+            title=f"FTC gaming policy update {index}",
+            url=f"https://example.com/{index}",
+            source="Test Feed",
+            description="FTC policy update for gaming platforms",
+            pub_date=today,
+        )
+        for index in range(10)
+    ]
+
+    with tempfile.TemporaryDirectory() as tmpdir:
+        with (
+            patch("main.load_config", return_value=cfg),
+            patch("main.create_provider", return_value=MagicMock()),
+            patch(
+                "main.fetch_all_feeds_with_report",
+                return_value=FeedFetchReport(articles=articles, tier_a_total=44, tier_a_empty=24),
+            ),
+            patch("pipeline.sources.tier_c.write_sources_backlog"),
+        ):
+            from main import run_pipeline
+
+            caplog.set_level(logging.WARNING)
+            run_pipeline(
+                config_path="config.yaml",
+                output_dir=tmpdir,
+                template_dir=_template_dir(),
+                static_dir=_static_dir(),
+                dry_run=False,
+                use_sample_data=False,
+            )
+
+        data_dir = os.path.join(tmpdir, "data", "daily")
+        json_files = [name for name in os.listdir(data_dir) if name.endswith(".json")]
+        assert len(json_files) == 1
+        assert "Tier A feed health degraded: 24/44" in caplog.text
 
 
 def test_live_pipeline_aborts_on_low_article_health():
