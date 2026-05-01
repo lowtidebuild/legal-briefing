@@ -3,72 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "141fb8f0248281dc",
-      "url_hash": "1187e153895315f2",
-      "date": "2026-03-30",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "916a804ac1831e08",
-      "url_hash": "b9df6db5c7ab3a2a",
-      "date": "2026-03-30",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "bd4659bd2946d563",
-      "url_hash": "5bc458520951b376",
-      "date": "2026-03-30",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "8fa2fd4951c9db24",
-      "url_hash": "37032a96ec249d35",
-      "date": "2026-03-30",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "1e8c065055efdc1b",
-      "url_hash": "5afee075ac764163",
-      "date": "2026-03-30",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "dbde4b60dd00e546",
-      "url_hash": "7c740b8d3db3f427",
-      "date": "2026-03-30",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "28e723a74cf1b54c",
-      "url_hash": "64cc3a69221bcfca",
-      "date": "2026-03-30",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "4e073dc86536e861",
-      "url_hash": "6dcf2488fb1803d1",
-      "date": "2026-03-30",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "c69fd9db6176193f",
-      "url_hash": "48224592b66aac39",
-      "date": "2026-03-31",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "59c8cb700f45fb32",
-      "url_hash": "6563ecfa82a6b7ad",
-      "date": "2026-03-31",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "428f25196722a429",
-      "url_hash": "f8b4c5820881e55a",
-      "date": "2026-03-31",
-      "event_fingerprint": ""
-    },
-    {
       "event_key": "329ca6c5dd9bd04b",
       "url_hash": "fdebda6056ace9af",
       "date": "2026-04-01",
@@ -883,6 +817,60 @@
       "url_hash": "894731afe304a057",
       "date": "2026-04-29",
       "event_fingerprint": "77844e45f85a7167"
+    },
+    {
+      "event_key": "us_apple_epic_antitrust_litigation_2023",
+      "url_hash": "c182b4ae94fda90d",
+      "date": "2026-05-01",
+      "event_fingerprint": "bfff3d2160a8d108"
+    },
+    {
+      "event_key": "global_sony_drm_policy_clarification_2024",
+      "url_hash": "ced8ee20751b2ceb",
+      "date": "2026-05-01",
+      "event_fingerprint": "e1bcfecf24debc81"
+    },
+    {
+      "event_key": "eu_dma_two_year_review_2025",
+      "url_hash": "c4aa8dc58ed17ba3",
+      "date": "2026-05-01",
+      "event_fingerprint": "433e23bb05bea4a6"
+    },
+    {
+      "event_key": "eu_hardware_consumer_protection_defective_sale_2025",
+      "url_hash": "414aa5672c087dc7",
+      "date": "2026-05-01",
+      "event_fingerprint": "28aed7d981cddc0e"
+    },
+    {
+      "event_key": "global_labor_security_public_statement_2024",
+      "url_hash": "aeea520ed404ca98",
+      "date": "2026-05-01",
+      "event_fingerprint": "b4b480648a66bd01"
+    },
+    {
+      "event_key": "global_security_checkmarx_breach_2022",
+      "url_hash": "11c2dedb51482ec0",
+      "date": "2026-05-01",
+      "event_fingerprint": "376e49525670a19e"
+    },
+    {
+      "event_key": "eu_corruption_conviction_uphold_2026",
+      "url_hash": "9eb968eff6504271",
+      "date": "2026-05-01",
+      "event_fingerprint": "67f54565816ebdcc"
+    },
+    {
+      "event_key": "global_sony_drm_policy_2024",
+      "url_hash": "87a6f04040753bae",
+      "date": "2026-05-01",
+      "event_fingerprint": "6520fb321b742359"
+    },
+    {
+      "event_key": "us_microsoft_revenue_forecast_2024",
+      "url_hash": "95293b51ac6b39a6",
+      "date": "2026-05-01",
+      "event_fingerprint": "c34b49146054326e"
     }
   ]
 }

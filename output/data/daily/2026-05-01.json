@@ -1,0 +1,256 @@
+[
+  {
+    "title": "US Appeals Court reverses Apple's stay of mandate in Epic Games case",
+    "url": "https://www.pocketgamer.biz/us-appeals-court-reverses-apples-stay-of-mandate-in-epic-games-case/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-04-29",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "미국 제9연방항소법원은 에픽게임즈(Epic Games)와의 소송에서 애플(Apple)이 요청했던 판결 집행 정지 신청을 기각했습니다.",
+      "이번 결정은 애플(Apple)의 인앱결제 강제 정책에 대한 반독점 판결이 조속히 집행될 수 있는 법적 기반을 마련했다는 점에서 의미가 큽니다.",
+      "플랫폼 사업자의 결제 방식 강제 정책이 규제 기관 및 사법부로부터 강한 제동을 받고 있어, 게임사들은 스토어 수수료 및 결제 정책 변화에 대비해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Apple",
+        "Epic Games",
+        "US Court of Appeals for the Ninth Circuit"
+      ],
+      "object": "App Store anti-steering policies",
+      "action": "reversing stay of mandate",
+      "game_mechanic": "in-app payments",
+      "time_hint": "July 2023"
+    },
+    "event_key": "us_apple_epic_antitrust_litigation_2023",
+    "is_primary": true,
+    "title_ko": "미국 항소법원, 에픽게임즈(Epic Games) 사건에서 애플(Apple)의 집행 정지 결정 번복"
+  },
+  {
+    "title": "Sony confirms DRM policy on PS4 and PS5 is a \"one-time check\"",
+    "url": "https://www.gamesindustry.biz/sony-confirms-drm-policy-on-ps4-and-ps5-is-a-one-time-check",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-04-30",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "소니(Sony)는 자사 콘솔인 PS4 및 PS5에서 디지털 게임 구매 시 최초 1회만 DRM(디지털 저작권 관리) 인증을 요구한다고 공식 확인했습니다.",
+      "이번 발표는 디지털 콘텐츠의 소유권 및 이용 방식에 대한 이용자의 불확실성을 해소하고 플랫폼 서비스의 투명성을 높이는 데 중요한 의미가 있습니다.",
+      "게임사 및 플랫폼 사업자는 디지털 플랫폼의 서비스 종료나 네트워크 오류 시에도 유저의 접근권을 보장할 수 있는 합리적인 DRM 정책 수립이 필수적입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Sony",
+        "PlayStation"
+      ],
+      "object": "DRM digital game authentication policy",
+      "action": "Clarify one-time activation check requirement",
+      "game_mechanic": "DRM",
+      "time_hint": "2024"
+    },
+    "event_key": "global_sony_drm_policy_clarification_2024",
+    "is_primary": true,
+    "title_ko": "소니(Sony), PS4 및 PS5의 DRM 정책은 '일회성 인증'임을 확인"
+  },
+  {
+    "title": "EU's Digital Markets Act has \"not yet reached its full potential\"",
+    "url": "https://www.pocketgamer.biz/eus-digital-markets-act-has-not-yet-reached-its-full-potential/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-04-29",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "유럽연합 집행위원회(EC)는 디지털 시장법(DMA) 시행 2년 차 평가에서 법안의 목적은 적합하나 개선의 여지가 있다고 발표했습니다.",
+      "450여 곳의 의견을 수렴한 결과, 법의 영향력이 제한적이며 여전히 주요 게이트키퍼(Gatekeepers)들이 규제 준수에 소극적인 태도를 보이고 있습니다.",
+      "게임사들은 플랫폼의 폐쇄적 정책 개선을 위해 향후 강화될 EU의 후속 규제 동향을 예의주시하며 비즈니스 모델(BM)과 배포 전략을 재점검해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "policy",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "European Commission",
+        "Digital Markets Act gatekeepers",
+        "Developers",
+        "Civil society groups",
+        "Academics"
+      ],
+      "object": "Digital Markets Act",
+      "action": "review and assessment of regulatory impact",
+      "game_mechanic": "n/a",
+      "time_hint": "two years after implementation"
+    },
+    "event_key": "eu_dma_two_year_review_2025",
+    "is_primary": true,
+    "title_ko": "EU의 디지털 시장법(DMA), '아직 잠재력 다 발휘하지 못해'"
+  },
+  {
+    "title": "法國賣場販售「故障」RTX 5090顯卡 一張台幣5.5萬元起且不可退貨",
+    "url": "https://www.4gamers.com.tw/news/detail/78840/ldlc-selling-defective-rtx-5090",
+    "source": "4gamers",
+    "pub_date": "2026-04-30",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "프랑스의 한 매장이 AI 수요로 품귀 현상을 빚는 엔비디아(NVIDIA)의 RTX 5090 결함 제품을 약 1,500유로(한화 약 550만 원)에 판매하며 환불 불가 조건을 내걸었습니다.",
+      "고성능 하드웨어에 대한 시장의 과도한 수요가 비정상적인 유통 관행을 초래하고 있으며, 이는 소비자 권익 침해 및 브랜드 이미지 훼손으로 이어질 수 있습니다.",
+      "게임 및 IT 하드웨어 유통사는 결함 제품 판매 시 발생할 수 있는 법적 리스크와 소비자 보호 규정 준수 여부를 엄격히 점검해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "other",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "NVIDIA",
+        "French retail outlets"
+      ],
+      "object": "Defective GeForce RTX 5090 graphics cards",
+      "action": "Selling defective hardware with no-refund policy at high prices",
+      "game_mechanic": "None",
+      "time_hint": ""
+    },
+    "event_key": "eu_hardware_consumer_protection_defective_sale_2025",
+    "is_primary": true,
+    "title_ko": "프랑스 매장, 고장 난 엔비디아(NVIDIA) RTX 5090 그래픽카드를 550만 원에 판매하며 환불 불가 명시"
+  },
+  {
+    "title": "A gaming CEO just said 'We’ve been a little bit too romantic about the idea that we should have employees and give people long-term job security', and doesn't that sum up everything wrong with the industry right now",
+    "url": "https://www.pcgamer.com/gaming-industry/a-gaming-ceo-just-said-weve-been-a-little-bit-too-romantic-about-the-idea-that-we-should-have-employees-and-give-people-long-term-job-security-and-doesnt-that-sum-up-everything-wrong-with-the-industry-right-now/",
+    "source": "PC Gamer",
+    "pub_date": "2026-04-30",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "한 게임사 CEO가 직원들의 장기적인 고용 안정을 제공해야 한다는 생각을 '낭만적'이라며 비판하고 나섰습니다.",
+      "이번 발언은 넷플릭스(Netflix)가 모뉴먼트 밸리 3(Monument Valley 3) 개발사의 전략 변화를 주도하는 등 업계 내 불안정한 고용 구조와 경영 논리를 잘 보여줍니다.",
+      "게임 업계 실무자들은 프로젝트 단위의 빈번한 구조조정과 기업 전략 변화에 대비한 개인의 커리어 유연성 확보가 필수적인 과제가 되었습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "gaming industry executives"
+      ],
+      "object": "job security",
+      "action": "questioning the necessity of long-term employment",
+      "game_mechanic": "none",
+      "time_hint": "2024"
+    },
+    "event_key": "global_labor_security_public_statement_2024",
+    "is_primary": true,
+    "title_ko": "한 게임사 CEO의 '고용 안정성은 낭만적'이라는 발언이 현재 게임 업계의 문제점을 적나라하게 보여준다"
+  },
+  {
+    "title": "Ongoing supply-chain attack 'explicitly targeting' security, dev tools",
+    "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/supply_chain_campaign_targets_security/",
+    "source": "The Register - Security",
+    "pub_date": "2026-04-27",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "소프트웨어 보안 기업 체크막스(Checkmarx)가 랩서스$(Lapsus$)에 의한 소스 코드 및 기밀 데이터 유출 피해를 확인했습니다.",
+      "게임 개발 파이프라인에 필수적인 보안 도구 제공업체를 직접 공격하는 공급망 위협이 현실화되어 산업 전반의 리스크가 커지고 있습니다.",
+      "게임사는 오픈소스 및 서드파티 개발 도구 도입 시 공급망 보안을 재점검하고, 중요 자산에 대한 접근 제어 및 암호화 등 다중 방어 체계를 강화해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "security_incident",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Checkmarx",
+        "Lapsus$"
+      ],
+      "object": "source code and developer repository secrets",
+      "action": "data breach via supply-chain attack",
+      "game_mechanic": "null",
+      "time_hint": ""
+    },
+    "event_key": "global_security_checkmarx_breach_2022",
+    "is_primary": true,
+    "title_ko": "보안 및 개발 도구를 명시적으로 겨냥한 지속적인 공급망 공격 발생"
+  },
+  {
+    "title": "[Video] Daily Compliance News: April 28, 2026, The Corruption Convictions Upheld Edition",
+    "url": "https://www.jdsupra.com/legalnews/daily-compliance-news-april-28-2026-t-52528/",
+    "source": "JD Supra - Antitrust & Trade Regulation",
+    "pub_date": "2026-04-28",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "톰 폭스(Thomas Fox)가 진행하는 일일 컴플라이언스 뉴스에서 EU의 부패 관련 주요 사건들을 집중 조명했습니다.",
+      "글로벌 기업을 대상으로 한 반부패 및 윤리 규제 강화가 비즈니스 리스크 관리의 핵심 요소로 부각되고 있습니다.",
+      "게임 기업들은 해외 진출 시 해당 지역의 강화된 반부패 법규와 윤리 경영 기준을 사전에 검토하고 컴플라이언스 체계를 점검해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "enforcement",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "EU"
+      ],
+      "object": "corruption convictions",
+      "action": "upholding corruption convictions",
+      "game_mechanic": "none",
+      "time_hint": "April 28, 2026"
+    },
+    "event_key": "eu_corruption_conviction_uphold_2026",
+    "is_primary": true,
+    "title_ko": "[영상] 일일 컴플라이언스 뉴스: 2026년 4월 28일, 부패 혐의 유죄 판결 확정편"
+  },
+  {
+    "title": "Fears mount that PlayStation has \"re-armed the CBOMB\" issue which stops you playing purchased games, amid 30-day DRM and AI chat bot confusion",
+    "url": "https://www.eurogamer.net/playstation-digital-games-30-day-online-drm",
+    "source": "Eurogamer",
+    "pub_date": "2026-04-29",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "플레이스테이션(PlayStation) 사용자들이 30일마다 온라인 연결이 필요한 디지털 저작권 관리(DRM) 이슈로 일부 구매 게임이 실행되지 않는 문제를 발견했습니다.",
+      "이 문제는 유저가 정당하게 구매한 디지털 콘텐츠에 대한 접근 권한이 서버 상황에 따라 차단될 수 있음을 시사하여 큰 논란이 되고 있습니다.",
+      "게임사들은 향후 디지털 플랫폼 서비스 중단이나 오류 시에도 사용자들의 접근권을 보장할 수 있는 안정적인 오프라인 인증 정책을 수립해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Sony",
+        "PlayStation"
+      ],
+      "object": "Digital game ownership rights and DRM access requirements",
+      "action": "Implementation of 30-day online verification DRM on digital software",
+      "game_mechanic": "DRM/Online-only verification",
+      "time_hint": "October 2024"
+    },
+    "event_key": "global_sony_drm_policy_2024",
+    "is_primary": true,
+    "title_ko": "플레이스테이션(PlayStation)의 DRM 및 AI 챗봇 오류로 구매한 게임을 플레이할 수 없게 될 수 있다는 우려 확산"
+  },
+  {
+    "title": "Microsoft predicts memory crisis will affect its revenue as struggling OEMs won't be as liberal with Windows spending",
+    "url": "https://www.pcgamer.com/software/windows/microsoft-predicts-memory-crisis-will-affect-its-revenue-as-struggling-oems-wont-be-as-liberal-with-windows-spending/",
+    "source": "PC Gamer",
+    "pub_date": "2026-04-30",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "마이크로소프트(Microsoft)는 메모리 가격 상승과 OEM(주문자 상표 부착 생산) 업체의 수익성 악화가 자사의 윈도우(Windows) 부문 매출에 부정적인 영향을 줄 것으로 전망했습니다.",
+      "이는 AI 시대에 요구되는 고성능 하드웨어 수요 급증이 제조사의 비용 부담으로 이어지면서 소프트웨어 라이선스 구매력 저하를 초래하는 구조적 문제를 드러냅니다.",
+      "게임 산업 실무자는 고사양 게임 구동을 위한 하드웨어 원가 상승이 기기 보급률과 소비자 지출에 미칠 영향을 고려하여 플랫폼별 전략을 재점검해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "business",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Microsoft",
+        "OEMs"
+      ],
+      "object": "Windows revenue",
+      "action": "market forecast adjustment",
+      "game_mechanic": "n/a",
+      "time_hint": ""
+    },
+    "event_key": "us_microsoft_revenue_forecast_2024",
+    "is_primary": true,
+    "title_ko": "마이크로소프트(Microsoft), 메모리 위기로 인한 윈도우(Windows) 매출 감소 및 OEM 부진 예고"
+  }
+]
