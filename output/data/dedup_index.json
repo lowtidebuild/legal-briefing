@@ -3,78 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "329ca6c5dd9bd04b",
-      "url_hash": "fdebda6056ace9af",
-      "date": "2026-04-01",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "c8e79c27aa829d36",
-      "url_hash": "b05d317ac9a5d6f7",
-      "date": "2026-04-01",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "6b76a9edbbd2f122",
-      "url_hash": "d45e76452d123a93",
-      "date": "2026-04-01",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "6cfc7932415c05e9",
-      "url_hash": "f9debd2f6713af5f",
-      "date": "2026-04-02",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "fc6d5bf0bc8b4253",
-      "url_hash": "fc5eae6b061d41b8",
-      "date": "2026-04-02",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "da4568debce6993f",
-      "url_hash": "7b3fea10f2af0457",
-      "date": "2026-04-02",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "a5e892b112bb73ef",
-      "url_hash": "ca8555081e929142",
-      "date": "2026-04-02",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "0291000bcd1d6541",
-      "url_hash": "0026c57cb550b4a3",
-      "date": "2026-04-02",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "ca081d9c0c82fbca",
-      "url_hash": "8fd1d3705490b634",
-      "date": "2026-04-02",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "55d492b518311a42",
-      "url_hash": "02eef5a0be8c9dfc",
-      "date": "2026-04-02",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "2605bb160caf12b0",
-      "url_hash": "741f8dd88ce7fa0d",
-      "date": "2026-04-02",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "89744898eb3a4567",
-      "url_hash": "16629e01a367614c",
-      "date": "2026-04-03",
-      "event_fingerprint": ""
-    },
-    {
       "event_key": "1be786224c719a53",
       "url_hash": "4c18c7d82ec1909f",
       "date": "2026-04-04",
@@ -871,6 +799,66 @@
       "url_hash": "95293b51ac6b39a6",
       "date": "2026-05-01",
       "event_fingerprint": "c34b49146054326e"
+    },
+    {
+      "event_key": "us_sony_psn_refund_litigation_2024",
+      "url_hash": "c61197e6e8f09c16",
+      "date": "2026-05-04",
+      "event_fingerprint": "66bfc49f81fd7b52"
+    },
+    {
+      "event_key": "eu_labor_nacon_spiders_closure_2026",
+      "url_hash": "a330c265aa489f36",
+      "date": "2026-05-04",
+      "event_fingerprint": "97582cfc84804659"
+    },
+    {
+      "event_key": "us_utah_age_verification_legislation_2024",
+      "url_hash": "7577492635c90153",
+      "date": "2026-05-04",
+      "event_fingerprint": "ff8ef5d131be3608"
+    },
+    {
+      "event_key": "kr_nexon_ironmace_copyright_litigation_2024",
+      "url_hash": "de01c76639be0d3b",
+      "date": "2026-05-04",
+      "event_fingerprint": "bbd09e7575f3ab4b"
+    },
+    {
+      "event_key": "kr_nexon_ironmace_ip_litigation_2024",
+      "url_hash": "fbc88566e2f5c9dd",
+      "date": "2026-05-04",
+      "event_fingerprint": "78ce67816c14cd11"
+    },
+    {
+      "event_key": "ca_openai_liability_lawsuit_2026q2",
+      "url_hash": "c8bef18169e46c29",
+      "date": "2026-05-04",
+      "event_fingerprint": "b10392ac496f2801"
+    },
+    {
+      "event_key": "us_esa_iicon_policy_shift_2026",
+      "url_hash": "a73ee29a7a1cc3b2",
+      "date": "2026-05-04",
+      "event_fingerprint": "1b902a2ee0b3807c"
+    },
+    {
+      "event_key": "us_mtg_arena_unionization_2024",
+      "url_hash": "e060b993c3f40912",
+      "date": "2026-05-04",
+      "event_fingerprint": "2532b61786fe39ca"
+    },
+    {
+      "event_key": "us_darpa_aixcc_initiative_2024",
+      "url_hash": "5716a0ae221ae8b2",
+      "date": "2026-05-04",
+      "event_fingerprint": "6f185d5a488d0fb3"
+    },
+    {
+      "event_key": "us_ai_cybersecurity_compliance_2026",
+      "url_hash": "fa034f0a7d011ade",
+      "date": "2026-05-04",
+      "event_fingerprint": "53713e5e83dc8a7b"
     }
   ]
 }
