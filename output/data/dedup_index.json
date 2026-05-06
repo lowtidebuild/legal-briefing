@@ -3,42 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "1be786224c719a53",
-      "url_hash": "4c18c7d82ec1909f",
-      "date": "2026-04-04",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "1c798f258301ee15",
-      "url_hash": "73ba7c85f6d6437a",
-      "date": "2026-04-04",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "e8daaf076ee58bc7",
-      "url_hash": "b57f011fdabc20b6",
-      "date": "2026-04-04",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "fee4f510277eb3d7",
-      "url_hash": "c9583cb439c458cb",
-      "date": "2026-04-05",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "3426eb6dc38c99cf",
-      "url_hash": "c743648f92d7b881",
-      "date": "2026-04-05",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "d2785558ed52d54f",
-      "url_hash": "d0c59c4927569c24",
-      "date": "2026-04-05",
-      "event_fingerprint": ""
-    },
-    {
       "event_key": "global_sony_acquisition_cinemersive_2024",
       "url_hash": "3eddc533a163bbf9",
       "date": "2026-04-08",
@@ -859,6 +823,66 @@
       "url_hash": "fa034f0a7d011ade",
       "date": "2026-05-04",
       "event_fingerprint": "53713e5e83dc8a7b"
+    },
+    {
+      "event_key": "cn_labor_ai_termination_litigation_2024",
+      "url_hash": "759a9c7af96f32af",
+      "date": "2026-05-06",
+      "event_fingerprint": "b4f20f75ed29a728"
+    },
+    {
+      "event_key": "us_playstation_antitrust_settlement_2024",
+      "url_hash": "2634c765763e7a30",
+      "date": "2026-05-06",
+      "event_fingerprint": "df9e74347307eb0c"
+    },
+    {
+      "event_key": "us_ai_advertising_settlement_2024",
+      "url_hash": "186b99775a30a367",
+      "date": "2026-05-06",
+      "event_fingerprint": "2c8054d61f13cfd4"
+    },
+    {
+      "event_key": "us_hasbro_wotc_unionization_refusal_2024",
+      "url_hash": "df04e96c6ad56607",
+      "date": "2026-05-06",
+      "event_fingerprint": "253ae36a420bbd8b"
+    },
+    {
+      "event_key": "us_xbox_ai_strategy_reorganization_2025",
+      "url_hash": "a3458478172eec1a",
+      "date": "2026-05-06",
+      "event_fingerprint": "441ed368e99c863b"
+    },
+    {
+      "event_key": "global_steam_copyright_enforcement_2025",
+      "url_hash": "4e38437857814d5a",
+      "date": "2026-05-06",
+      "event_fingerprint": "dc30bd3d9868a8ac"
+    },
+    {
+      "event_key": "us_playstation_store_antitrust_settlement_2024",
+      "url_hash": "0ead72ba9a601788",
+      "date": "2026-05-06",
+      "event_fingerprint": "381df742b362927a"
+    },
+    {
+      "event_key": "cn_ai_labor_substitution_regulation_2024",
+      "url_hash": "9ac8a199dea2f706",
+      "date": "2026-05-06",
+      "event_fingerprint": "c8be6b82b90e51b8"
+    },
+    {
+      "event_key": "in_ai_security_advisory_2024",
+      "url_hash": "6a2eb9b6ba316e00",
+      "date": "2026-05-06",
+      "event_fingerprint": "b8d9a81091049150"
+    },
+    {
+      "event_key": "global_unity_ai_tools_launch_2024",
+      "url_hash": "177bb0d611dff61c",
+      "date": "2026-05-06",
+      "event_fingerprint": "0cccb56fb54f919b"
     }
   ]
 }
