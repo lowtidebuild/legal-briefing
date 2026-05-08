@@ -883,6 +883,66 @@
       "url_hash": "177bb0d611dff61c",
       "date": "2026-05-06",
       "event_fingerprint": "0cccb56fb54f919b"
+    },
+    {
+      "event_key": "global_ai_content_review_2024",
+      "url_hash": "bb794bcce6aa82f7",
+      "date": "2026-05-08",
+      "event_fingerprint": "d4af8e9afd0160f6"
+    },
+    {
+      "event_key": "global_ai_content_policy_review_2024",
+      "url_hash": "2cefdfa4302dc6c0",
+      "date": "2026-05-08",
+      "event_fingerprint": "adfcdda89ef16889"
+    },
+    {
+      "event_key": "us_wotc_union_recognition_refusal_2024",
+      "url_hash": "d72eb473d473c8e0",
+      "date": "2026-05-08",
+      "event_fingerprint": "6201fafbbc2f93a3"
+    },
+    {
+      "event_key": "eu_ai_copyright_resolution_2026",
+      "url_hash": "5f83be0397126318",
+      "date": "2026-05-08",
+      "event_fingerprint": "db771d9bf55b95cc"
+    },
+    {
+      "event_key": "us_2k_studio_layoffs_2024q4",
+      "url_hash": "ff11d3b2f034fcd3",
+      "date": "2026-05-08",
+      "event_fingerprint": "6127d5d09be11c07"
+    },
+    {
+      "event_key": "global_ai_tools_launch_2024",
+      "url_hash": "7f0c90e3a9b1124f",
+      "date": "2026-05-08",
+      "event_fingerprint": "3b04aa520672c958"
+    },
+    {
+      "event_key": "global_xbox_copilot_discontinuation_2024",
+      "url_hash": "e0807a941f33a340",
+      "date": "2026-05-08",
+      "event_fingerprint": "23bdb8400ad056a9"
+    },
+    {
+      "event_key": "global_google_chrome_ai_model_transparency_2024",
+      "url_hash": "09df9513030bc5af",
+      "date": "2026-05-08",
+      "event_fingerprint": "2ec57cd4b2c5c08b"
+    },
+    {
+      "event_key": "us_ai_hr_compliance_guidance_2026",
+      "url_hash": "987d9724af9f26b9",
+      "date": "2026-05-08",
+      "event_fingerprint": "d199f2b6852df8e0"
+    },
+    {
+      "event_key": "global_ai_ua_funding_2024",
+      "url_hash": "040ea1beebae5e02",
+      "date": "2026-05-08",
+      "event_fingerprint": "0a411dc11b3d9556"
     }
   ]
 }
