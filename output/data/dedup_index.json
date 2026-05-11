@@ -3,126 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "global_sony_acquisition_cinemersive_2024",
-      "url_hash": "3eddc533a163bbf9",
-      "date": "2026-04-08",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_ip_patent_rejection_2024",
-      "url_hash": "2969015a4d01cba7",
-      "date": "2026-04-08",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_rec_room_shutdown_2026",
-      "url_hash": "0bbfebfaad5bcd73",
-      "date": "2026-04-08",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "kr_shiftup_acquisition_unbound_2024",
-      "url_hash": "5ac93345d0ea1250",
-      "date": "2026-04-08",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_publishing_agreement_termination_2024",
-      "url_hash": "94c8de92dab527c7",
-      "date": "2026-04-08",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_ma_market_reporting_2026q1",
-      "url_hash": "338ccdf62401d787",
-      "date": "2026-04-08",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_monetization_market_analysis_2024",
-      "url_hash": "bc8dd31b5075a570",
-      "date": "2026-04-08",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_playtika_strategic_review_2024",
-      "url_hash": "b78bf9461140ec91",
-      "date": "2026-04-08",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "uae_culture_grant_programme_2024",
-      "url_hash": "161e3ac113d0138f",
-      "date": "2026-04-08",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "jp_capcom_equity_acquisition_2024",
-      "url_hash": "a234cac9d88d4415",
-      "date": "2026-04-08",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_labor_salary_dispute_2024",
-      "url_hash": "296ae18d80da04f0",
-      "date": "2026-04-10",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "eu_de_game_industry_funding_2026",
-      "url_hash": "5ce2d816bd0e2d81",
-      "date": "2026-04-10",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_ai_data_scraping_developer_concerns_2024",
-      "url_hash": "861a6cd65c0510a5",
-      "date": "2026-04-10",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_netflix_games_expansion_2024",
-      "url_hash": "b31884e1b40c5c90",
-      "date": "2026-04-10",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_taketwo_ai_layoffs_2024",
-      "url_hash": "1ab5698f5170cc3c",
-      "date": "2026-04-10",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_candycrush_revenue_milestone_2023q3",
-      "url_hash": "a8972dbba31bcfc8",
-      "date": "2026-04-10",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_discord_social_sdk_integration_2024",
-      "url_hash": "2470d7cce07a1176",
-      "date": "2026-04-10",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_market_power_shift_2024",
-      "url_hash": "26d31eff01aab452",
-      "date": "2026-04-10",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "uk_labor_workforce_reduction_2025",
-      "url_hash": "66320645c9195af5",
-      "date": "2026-04-10",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "uk_sie_acquisition_cinemersive_2024",
-      "url_hash": "280268ddcaee7494",
-      "date": "2026-04-10",
-      "event_fingerprint": ""
-    },
-    {
       "event_key": "global_valve_ai_implementation_2024",
       "url_hash": "a0738b700aafc646",
       "date": "2026-04-11",
@@ -943,6 +823,66 @@
       "url_hash": "040ea1beebae5e02",
       "date": "2026-05-08",
       "event_fingerprint": "0a411dc11b3d9556"
+    },
+    {
+      "event_key": "us_ai_regulation_framework_development_2025",
+      "url_hash": "82d2ef70e44034af",
+      "date": "2026-05-11",
+      "event_fingerprint": "19b6e2e8ee3e2baf"
+    },
+    {
+      "event_key": "cn_ai_dev_adoption_2025",
+      "url_hash": "ee0ac2507785a9d5",
+      "date": "2026-05-11",
+      "event_fingerprint": "bd126399d3442698"
+    },
+    {
+      "event_key": "global_ai_voice_ethical_policy_2024",
+      "url_hash": "85dd8b6d58455ae4",
+      "date": "2026-05-11",
+      "event_fingerprint": "e69b380b013d123f"
+    },
+    {
+      "event_key": "global_ai_guardrails_policy_2026",
+      "url_hash": "2d93ae903fd2ac08",
+      "date": "2026-05-11",
+      "event_fingerprint": "7030710551ed9c51"
+    },
+    {
+      "event_key": "us_labor_union_formation_2024",
+      "url_hash": "52487739233b15cb",
+      "date": "2026-05-11",
+      "event_fingerprint": "a5a7933c7a20e724"
+    },
+    {
+      "event_key": "global_google_play_platform_policy_enforcement_2024",
+      "url_hash": "116c2868bbdee9a1",
+      "date": "2026-05-11",
+      "event_fingerprint": "462295a06729229b"
+    },
+    {
+      "event_key": "us_xbox_ai_leadership_restructuring_2024",
+      "url_hash": "c09e03cd1768dd35",
+      "date": "2026-05-11",
+      "event_fingerprint": "d75ffb1db9bd8d31"
+    },
+    {
+      "event_key": "global_canvas_cyberattack_2024",
+      "url_hash": "e7e484f28914b0da",
+      "date": "2026-05-11",
+      "event_fingerprint": "31783f2915ac27fd"
+    },
+    {
+      "event_key": "global_ai_hardware_supply_shift_2024",
+      "url_hash": "80731e8983c2a6c8",
+      "date": "2026-05-11",
+      "event_fingerprint": "01c1779cf231f590"
+    },
+    {
+      "event_key": "global_ai_gaming_policy_exploration_2024",
+      "url_hash": "c281bb586ed7a1de",
+      "date": "2026-05-11",
+      "event_fingerprint": "a3492c25da1fc69b"
     }
   ]
 }

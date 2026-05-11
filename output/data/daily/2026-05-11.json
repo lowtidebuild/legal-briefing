@@ -1,0 +1,286 @@
+[
+  {
+    "title": "Recent AI Regulatory Developments in the United States",
+    "url": "https://www.jdsupra.com/legalnews/recent-ai-regulatory-developments-in-6731444/",
+    "source": "JD Supra - Privacy",
+    "pub_date": "2026-05-08",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "미국은 연방 차원의 통합 법안 대신 각 주(State)별로 AI 규제 법안이 파편적으로 빠르게 도입되고 있습니다.",
+      "통합된 연방 AI 법안이 부재한 상황에서 주별로 각기 다른 규제 기준이 적용되어 기업의 법적 불확실성이 커지고 있습니다.",
+      "미국 시장에 진출하는 게임사는 주별 규제 차이를 면밀히 파악하고, 데이터 처리 및 AI 모델 운영 시 각 주법 준수를 위한 유연한 대응 전략이 필요합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "legislation",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "US Congress",
+        "State Legislatures",
+        "Trump Administration"
+      ],
+      "object": "Artificial Intelligence regulatory framework",
+      "action": "Developing a patchwork of state-level AI laws and federal policy proposals",
+      "game_mechanic": "null",
+      "time_hint": "2025"
+    },
+    "event_key": "us_ai_regulation_framework_development_2025",
+    "is_primary": true,
+    "title_ko": "미국 내 최근 AI 규제 동향"
+  },
+  {
+    "title": "How Chinese game makers leverage AI",
+    "url": "https://www.pocketgamer.biz/how-chinese-game-makers-leverage-ai/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-05-08",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "중국 게임 개발사(Chinese game makers)는 이미 60% 이상의 스튜디오가 개발 파이프라인 전반에 생성형 AI를 도입하여 적극 활용하고 있습니다.",
+      "서구권의 AI 도입에 대한 혼란이나 거부감과 달리, 중국은 AI를 통해 개발 속도와 효율성을 극대화하며 글로벌 게임 시장 점유율을 견인하고 있습니다.",
+      "게임 업계 실무자는 경쟁력을 확보하기 위해 AI 기술을 단순히 실험하는 단계를 넘어 개발 공정에 실질적으로 통합하는 전략적 도입을 서둘러야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "CN",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Chinese game developers",
+        "Niko Partners"
+      ],
+      "object": "generative AI integration in game development pipelines",
+      "action": "wide-scale adoption and integration of AI technologies",
+      "game_mechanic": "n/a",
+      "time_hint": "2025"
+    },
+    "event_key": "cn_ai_dev_adoption_2025",
+    "is_primary": true,
+    "title_ko": "중국 게임 개발사들은 어떻게 AI를 활용하는가"
+  },
+  {
+    "title": "'His Voice and Delivery Was Human' — Darkest Dungeon Dev Says Red Hook Will Never Use AI to Replicate the Voice of Late Narrator Wayne June",
+    "url": "https://www.ign.com/articles/his-voice-and-delivery-was-human-darkest-dungeon-dev-says-red-hook-will-never-use-ai-to-replicate-the-voice-of-late-narrator-wayne-june",
+    "source": "IGN",
+    "pub_date": "2026-05-10",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "다키스트 던전(Darkest Dungeon) 개발사인 레드 훅 스튜디오(Red Hook Studios)가 작고한 성우 웨인 준(Wayne June)의 목소리를 AI로 복제하지 않겠다고 공식 발표했습니다.",
+      "이번 결정은 게임 개발 현장에서의 윤리적 AI 활용과 고인의 인격권 보호에 대한 업계 내 논의를 환기하고 있습니다.",
+      "게임사는 AI 도입 시 저작권 및 윤리적 리스크를 고려해야 하며, 실무적으로는 성우와의 계약 시 AI 활용 범위에 대한 명확한 가이드라인 설정이 필요합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Red Hook Studios"
+      ],
+      "object": "generative AI voice replication",
+      "action": "public commitment to prohibit unauthorized AI usage",
+      "game_mechanic": "voice acting",
+      "time_hint": "2024"
+    },
+    "event_key": "global_ai_voice_ethical_policy_2024",
+    "is_primary": true,
+    "title_ko": "'그의 목소리와 전달은 인간적이었다' — 다키스트 던전(Darkest Dungeon) 개발사 레드 훅 스튜디오(Red Hook Studios), 고인 웨인 준(Wayne June)의 목소리를 복제하는 AI는 절대 사용하지 않을 것"
+  },
+  {
+    "title": "[Video] AI Today in 5: May 8, 2026, The AI Guardrails Edition",
+    "url": "https://www.jdsupra.com/legalnews/ai-today-in-5-may-8-2026-the-ai-guard-35024/",
+    "source": "JD Supra - Antitrust & Trade Regulation",
+    "pub_date": "2026-05-08",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "미국(US)과 중국(China) 정부가 인공지능(AI) 기술의 위험성을 통제하기 위한 공동 가드레일 수립을 추진하고 있습니다.",
+      "글로벌 AI 규제 표준화가 시작됨에 따라 국가 간 기술 협력 및 AI 거버넌스 도입이 게임 산업의 핵심 리스크 관리 요소로 부상했습니다.",
+      "게임사들은 AI 도입 시 국제 규제 준수(Compliance) 역량을 강화하고, 데이터 활용 및 윤리적 알고리즘 설계에 관한 글로벌 가이드라인을 사전 검토해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "US",
+        "CN"
+      ],
+      "object": "AI guardrails",
+      "action": "Pursue international agreement on artificial intelligence safety and regulatory standards",
+      "game_mechanic": "none",
+      "time_hint": "May 8, 2026"
+    },
+    "event_key": "global_ai_guardrails_policy_2026",
+    "is_primary": true,
+    "title_ko": "[영상] 오늘의 AI 5분 요약: 2026년 5월 8일, AI 가드레일 편"
+  },
+  {
+    "title": "Psychonauts Developer Double Fine Is Forming a Union",
+    "url": "https://www.ign.com/articles/psychonauts-developer-double-fine-is-forming-a-union",
+    "source": "IGN",
+    "pub_date": "2026-05-09",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "더블 파인(Double Fine Productions)이 마이크로소프트(Microsoft) 산하 스튜디오 중 최신으로 노동조합 설립을 위한 절차에 착수했습니다.",
+      "대형 게임사 내 노조 결성 흐름이 지속되고 있음을 보여주며, 이는 개발사들의 노동 환경 개선과 권익 보호 움직임이 가속화되고 있다는 점에서 중요합니다.",
+      "게임사 경영진은 개발 스튜디오 내 노조 결성 가능성에 대비해 투명한 소통 체계를 구축하고 관련 노동 법규 준수 및 대응 전략을 검토해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Double Fine Productions",
+        "Microsoft",
+        "CWA"
+      ],
+      "object": "labor union formation",
+      "action": "initiating unionization process",
+      "game_mechanic": "none",
+      "time_hint": "2024"
+    },
+    "event_key": "us_labor_union_formation_2024",
+    "is_primary": true,
+    "title_ko": "사이코너츠(Psychonauts) 개발사 더블 파인(Double Fine), 노동조합 결성 추진"
+  },
+  {
+    "title": "Freecash returns to Google Play after policy review",
+    "url": "https://www.pocketgamer.biz/freecash-returns-to-google-play-after-policy-review/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-05-07",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "보상형 게임 플랫폼 알메디아(Almedia)의 프리캐시(Freecash) 앱이 데이터 수집 및 마케팅 관행 논란으로 퇴출당했다가 구글 플레이(Google Play)에 재등록되었습니다.",
+      "이번 사례는 앱 스토어의 데이터 프라이버시 및 사용자 보호 정책 강화 기조가 플랫폼 사업자에게 미치는 영향을 명확히 보여줍니다.",
+      "게임사 및 마케팅 솔루션 기업은 제휴 마케팅 시 파트너의 데이터 수집 방식을 면밀히 검증하고, 오해의 소지가 있는 광고를 원천 차단하는 컴플라이언스 관리가 필수적입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "enforcement",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Google",
+        "Almedia",
+        "Freecash"
+      ],
+      "object": "Freecash mobile application",
+      "action": "reinstatement following platform policy review of data collection and marketing practices",
+      "game_mechanic": "rewarded play",
+      "time_hint": "2024"
+    },
+    "event_key": "global_google_play_platform_policy_enforcement_2024",
+    "is_primary": true,
+    "title_ko": "보상형 플랫폼 프리캐시(Freecash), 정책 검토 후 구글 플레이(Google Play) 복귀"
+  },
+  {
+    "title": "Xbox shake-up sees multiple AI leads join the leadership team",
+    "url": "https://www.eurogamer.net/xbox-leadership-new-leadership-ai",
+    "source": "Eurogamer",
+    "pub_date": "2026-05-06",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "엑스박스(Xbox)의 신임 CEO 아샤 샤르마(Asha Sharma)가 마이크로소프트(Microsoft) 게임 부문의 경영진을 대거 교체하며 AI 분야 전문가들을 리더십 팀에 영입했습니다.",
+      "이번 인사는 게임 개발 및 운영 전반에 AI 기술을 본격적으로 통합하겠다는 마이크로소프트(Microsoft)의 강력한 전략적 의지를 보여줍니다.",
+      "게임사들은 향후 생산성 향상과 콘텐츠 제작 효율화를 위해 AI 역량을 보유한 인재 확보 및 조직 구조 개편이 산업 내 핵심 과제가 될 것으로 전망됩니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Microsoft",
+        "Xbox",
+        "Asha Sharma"
+      ],
+      "object": "Xbox management leadership team",
+      "action": "appointing AI-focused leadership",
+      "game_mechanic": "N/A",
+      "time_hint": ""
+    },
+    "event_key": "us_xbox_ai_leadership_restructuring_2024",
+    "is_primary": true,
+    "title_ko": "엑스박스(Xbox), AI 전문가 다수 영입하며 경영진 개편 단행"
+  },
+  {
+    "title": "Hackers ate my homework: Educational SaaS Canvas down after cyberattack",
+    "url": "https://www.theregister.com/security/2026/05/08/hackers-ate-my-homework-educational-saas-canvas-down-after-cyberattack/5235561",
+    "source": "The Register - Security",
+    "pub_date": "2026-05-08",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "샤이니헌터스(ShinyHunters)가 교육용 SaaS 플랫폼 캔버스(Canvas)를 대상으로 사이버 공격을 감행해 서비스가 중단되었습니다.",
+      "이번 사고는 학생들의 데이터와 교육용 콘텐츠를 다루는 에듀테크 서비스의 보안 취약점이 실질적인 학습 중단으로 이어질 수 있음을 보여줍니다.",
+      "게임 산업 실무자는 사용자 데이터와 연동된 클라우드 서비스의 보안 강화 및 사고 발생 시의 서비스 복구 계획을 재점검해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "security_incident",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "ShinyHunters",
+        "Canvas"
+      ],
+      "object": "Canvas educational SaaS platform",
+      "action": "cyberattack resulting in service disruption",
+      "game_mechanic": "null",
+      "time_hint": "October 2024"
+    },
+    "event_key": "global_canvas_cyberattack_2024",
+    "is_primary": true,
+    "title_ko": "해커가 숙제를 먹어치우다: 교육용 SaaS 캔버스(Canvas), 사이버 공격으로 서비스 중단"
+  },
+  {
+    "title": "\"It's a totally crazy market\" – The seismic impact of the AI boom on video game hardware",
+    "url": "https://www.gamesindustry.biz/its-a-totally-crazy-market-the-seismic-impact-of-the-ai-boom-on-video-game-hardware",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-05-05",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "생성형 AI 시장 급성장으로 인해 삼성(Samsung), 하이닉스(Hynix), 마이크론(Micron) 등 주요 제조사가 AI 데이터 센터용 부품 공급에 집중하고 있습니다.",
+      "이로 인해 일반 소비자용 게임 하드웨어 부품의 공급난과 가격 폭등 현상이 발생하여 전반적인 하드웨어 시장이 불안정한 상황입니다.",
+      "게임 개발사 및 유통사는 하드웨어 단가 상승에 따른 개발 환경 변화와 보급형 기기 확보 전략 수립 등 리스크 관리가 필요합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Samsung",
+        "SK Hynix",
+        "Micron"
+      ],
+      "object": "consumer gaming hardware supply chain",
+      "action": "prioritizing high-margin AI data center hardware over consumer-grade components",
+      "game_mechanic": "n/a",
+      "time_hint": "2024"
+    },
+    "event_key": "global_ai_hardware_supply_shift_2024",
+    "is_primary": true,
+    "title_ko": "“완전히 미친 시장” – 게임 하드웨어에 미치는 AI 붐의 지각변동적 영향"
+  },
+  {
+    "title": "Dragon Quest creator thinks AI pals are \"not just a convenient tool, but a friend to each individual player\"",
+    "url": "https://www.eurogamer.net/dragon-quest-creator-thinks-ai-pals-are-not-just-a-convenient-tool-but-a-friend-to-each-individual-player",
+    "source": "Eurogamer",
+    "pub_date": "2026-05-10",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "드래곤 퀘스트(Dragon Quest) 시리즈의 아버지 호리이 유지(Yuji Horii)가 AI 기술을 활용해 게임 내 캐릭터와 플레이어 간의 유대감을 강화하겠다는 비전을 제시함.",
+      "단순한 기능적 보조를 넘어 감정적 교류가 가능한 AI 동료 구현이 게임 몰입도와 사용자 경험을 혁신할 핵심 요소로 부상함.",
+      "게임 개발 실무 시 AI를 기술적 효율성을 위한 수단이 아닌, 서사적 깊이를 더하는 감성적 인터페이스로 활용하는 전략이 필요함."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Yuji Horii",
+        "Square Enix"
+      ],
+      "object": "generative_ai_in_gameplay",
+      "action": "development_intent",
+      "game_mechanic": "npc_companion_interaction",
+      "time_hint": "2024"
+    },
+    "event_key": "global_ai_gaming_policy_exploration_2024",
+    "is_primary": true,
+    "title_ko": "드래곤 퀘스트(Dragon Quest) 제작자, AI 동료를 '편리한 도구 넘어선 개인의 친구'로 정의"
+  }
+]
