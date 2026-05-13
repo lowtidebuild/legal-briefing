@@ -3,66 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "global_valve_ai_implementation_2024",
-      "url_hash": "a0738b700aafc646",
-      "date": "2026-04-11",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_game_security_anti_cheat_2024",
-      "url_hash": "10f4e20234b525f2",
-      "date": "2026-04-11",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_ip_trademark_infringement_historical",
-      "url_hash": "fe36d1ad7c98b73f",
-      "date": "2026-04-11",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "uk_ip_trademark_opposition_2024",
-      "url_hash": "b17bbce55b04717a",
-      "date": "2026-04-11",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_ai_content_policy_2024",
-      "url_hash": "d20f83b03e79da57",
-      "date": "2026-04-11",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_automotive_data_privacy_compliance_2024",
-      "url_hash": "0f1c70b44f9aafbf",
-      "date": "2026-04-11",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_fcc_foreign_call_center_rulemaking_2026",
-      "url_hash": "7b7811e95f09879f",
-      "date": "2026-04-11",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_wa_ai_deepfake_rights_2026",
-      "url_hash": "b6abd48c2e27ecc6",
-      "date": "2026-04-11",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "uk_cma_strategic_priorities_2026",
-      "url_hash": "425d07a8a2b4099d",
-      "date": "2026-04-11",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_ai_vulnerability_remediation_2026q2",
-      "url_hash": "f7878dc7a63417bf",
-      "date": "2026-04-11",
-      "event_fingerprint": ""
-    },
-    {
       "event_key": "global_data_breach_ransomware_2024",
       "url_hash": "8e3f3e5fcf7186cc",
       "date": "2026-04-13",
@@ -883,6 +823,66 @@
       "url_hash": "c281bb586ed7a1de",
       "date": "2026-05-11",
       "event_fingerprint": "a3492c25da1fc69b"
+    },
+    {
+      "event_key": "global_esports_ewc_partnership_2026",
+      "url_hash": "e7cb2055e3eb04dc",
+      "date": "2026-05-13",
+      "event_fingerprint": "b2cfaa05d8354f6a"
+    },
+    {
+      "event_key": "global_sony_ai_development_policy_2026",
+      "url_hash": "020c8f127640eab8",
+      "date": "2026-05-13",
+      "event_fingerprint": "aea7891cb2b38510"
+    },
+    {
+      "event_key": "uk_rockstar_union_litigation_2024",
+      "url_hash": "3a5d00198f3b38a6",
+      "date": "2026-05-13",
+      "event_fingerprint": "5399d7aafeb10e67"
+    },
+    {
+      "event_key": "uk_corporate_criminal_liability_reform_2026",
+      "url_hash": "cc20682f33d50d5d",
+      "date": "2026-05-13",
+      "event_fingerprint": "3b1624145a7e2b06"
+    },
+    {
+      "event_key": "us_apple_epic_litigation_2024",
+      "url_hash": "d48d3aa53bd46814",
+      "date": "2026-05-13",
+      "event_fingerprint": "cba2af39ca5e8dcd"
+    },
+    {
+      "event_key": "global_ai_development_partnership_2024",
+      "url_hash": "73602be2c0d3ea68",
+      "date": "2026-05-13",
+      "event_fingerprint": "491775a13afd9ba8"
+    },
+    {
+      "event_key": "global_ai_content_ban_duckstation_2024",
+      "url_hash": "ad409be36afd4ee3",
+      "date": "2026-05-13",
+      "event_fingerprint": "bef262fcae37f27c"
+    },
+    {
+      "event_key": "global_meta_ai_threads_feature_2024",
+      "url_hash": "448d244c4985ee27",
+      "date": "2026-05-13",
+      "event_fingerprint": "cb485783a33f4960"
+    },
+    {
+      "event_key": "us_ai_data_leakage_2024",
+      "url_hash": "e3c7fc0f4dddce2e",
+      "date": "2026-05-13",
+      "event_fingerprint": "e321eb08399ccc70"
+    },
+    {
+      "event_key": "us_openai_musk_litigation_2024",
+      "url_hash": "802244a18bfed219",
+      "date": "2026-05-13",
+      "event_fingerprint": "e352c424983258f6"
     }
   ]
 }
