@@ -1,0 +1,255 @@
+[
+  {
+    "title": "How Should AI and SaaS Companies Structure Data Governance and Global Compliance?",
+    "url": "https://gammalaw.com/how-should-ai-and-saas-companies-structure-data-governance-and-global-compliance/",
+    "source": "Gamma Law - Insights",
+    "pub_date": "2026-05-13",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "AI 플랫폼 및 클라우드 서비스를 운영하는 기술 기업들이 방대한 데이터를 효율적으로 활용하고 관리하기 위한 거버넌스 체계를 구축하는 방안을 다루고 있습니다.",
+      "글로벌 시장에서 경쟁 우위를 확보하기 위해 데이터 활용 능력은 필수적이며, 이를 뒷받침할 엄격한 컴플라이언스 체계는 비즈니스의 지속 가능성을 결정짓는 핵심 요소입니다.",
+      "게임 산업 실무자는 게임 데이터 처리 과정에서 발생하는 개인정보 보호 및 데이터 보안 규제를 사전에 검토하고, 글로벌 확장을 위해 국가별 데이터 거버넌스 규정 대응 전략을 수립해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "AI companies",
+        "SaaS companies",
+        "Regulatory bodies"
+      ],
+      "object": "Data governance and global compliance frameworks for AI and cloud services",
+      "action": "Implementing structured data governance for cross-jurisdictional compliance",
+      "game_mechanic": "N/A",
+      "time_hint": ""
+    },
+    "event_key": "global_ai_data_governance_framework_2024",
+    "is_primary": true,
+    "title_ko": "AI 및 SaaS 기업은 어떻게 데이터 거버넌스와 글로벌 규제 준수를 체계화해야 하는가?"
+  },
+  {
+    "title": "Studio behind hit co-op game apologizes after $75,000 AI video contest leads to Steam review bomb: \"We hoped AI could be a more accessible tool\"",
+    "url": "https://www.gamesradar.com/games/co-op/studio-behind-hit-co-op-game-apologizes-after-usd75-000-ai-video-contest-leads-to-steam-review-bomb-we-hoped-ai-could-be-a-more-accessible-tool/",
+    "source": "gamesradar+",
+    "pub_date": "2026-05-14",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "파티 애니멀즈(Party Animals) 개발사 리브레 게임 스튜디오(Recreate Games)가 AI 활용 영상 공모전을 개최했으나, 사용자들의 거센 반발로 리뷰 테러를 당하고 사과문을 발표했습니다.",
+      "창작 장벽을 낮추려는 의도였으나, AI 기술 사용에 민감한 게이머들이 저작권 및 창작 윤리 문제를 제기하며 반감을 드러낸 것이 주요 원인입니다.",
+      "게임 내 AI 도입 시 커뮤니티의 반발을 최소화하기 위해 창작자 권리 보호 및 AI 활용에 대한 투명한 가이드라인과 사전 소통이 필수적입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Recreate Games",
+        "Party Animals community"
+      ],
+      "object": "AI-generated video contest",
+      "action": "Public apology following user backlash over generative AI usage",
+      "game_mechanic": "UGC creation contest",
+      "time_hint": "2024"
+    },
+    "event_key": "global_ai_ugc_community_backlash_2024",
+    "is_primary": true,
+    "title_ko": "히트작 '파티 애니멀즈(Party Animals)' 개발사, 7만 5천 달러 규모 AI 영상 공모전 후 스팀(Steam) 리뷰 테러에 사과"
+  },
+  {
+    "title": "Mobile gaming has a new, and growing, measurement problem | Opinion",
+    "url": "https://www.gamesindustry.biz/mobile-gaming-has-a-new-and-growing-measurement-problem-opinion",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-05-14",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "구글(Google)이 구글 플레이(Google Play)의 수수료를 인하하며 포트나이트(Fortnite)가 복귀했으나, 업계는 모바일 게임 수익 발생 경로를 정확히 파악하는 데 어려움을 겪고 있습니다.",
+      "시장 플랫폼의 정책 변화와 파편화된 결제 환경으로 인해 기존의 매출 측정 모델이 무력화되면서 게임사의 데이터 기반 의사결정이 위협받고 있습니다.",
+      "게임사는 파편화된 채널을 통합 관리할 수 있는 독자적인 데이터 분석 체계를 구축하고, 변화하는 스토어 수익 구조에 맞춰 실시간 성과 지표를 재정립해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Google",
+        "Epic Games",
+        "Mobile Game Developers"
+      ],
+      "object": "Google Play Store Fee Structure",
+      "action": "reduction of platform commission fees linked to integration of platform-specific features",
+      "game_mechanic": "none",
+      "time_hint": ""
+    },
+    "event_key": "global_google_play_fee_restructuring_2024",
+    "is_primary": true,
+    "title_ko": "모바일 게임 산업에 발생한 새롭고 심화되는 측정 문제"
+  },
+  {
+    "title": "Google Play to shift chargeback costs to Android developers in 2026",
+    "url": "https://www.pocketgamer.biz/google-play-to-shift-chargeback-costs-to-android-developers-in-2026/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-05-13",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "구글(Google)은 2026년부터 구글 플레이(Google Play) 내 분쟁 결제에 발생하는 비용과 금융기관의 차지백 수수료를 개발사가 전액 부담하도록 정책을 변경합니다.",
+      "기존에는 구글(Google)이 해당 비용을 흡수했으나, 이번 정책 변경으로 인해 개발사의 운영 비용 부담이 실질적으로 증가할 전망입니다.",
+      "게임사들은 향후 매출 정산 구조 변화에 대비해야 하며, 부정 결제 및 환불 관리를 강화하여 불필요한 차지백 손실을 방지하는 전략이 필요합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Google",
+        "Android developers"
+      ],
+      "object": "chargeback fees for disputed purchases",
+      "action": "shifting financial liability from platform holder to developers",
+      "game_mechanic": "in-app purchases",
+      "time_hint": "2026"
+    },
+    "event_key": "global_googleplay_chargeback_policy_2026",
+    "is_primary": true,
+    "title_ko": "구글(Google), 2026년부터 안드로이드 개발사에 결제 취소 비용 전가"
+  },
+  {
+    "title": "Party Animals studio sparks fury with 'AI video contest,' apologizes, then makes things even worse by asking if it should hold the contest anyway",
+    "url": "https://www.pcgamer.com/software/ai/party-animals-studio-sparks-fury-with-ai-video-contest-apologizes-then-makes-things-even-worse-by-asking-if-it-should-hold-the-contest-anyway/",
+    "source": "PC Gamer",
+    "pub_date": "2026-05-14",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "리크리에이트 게임즈(Recreate Games)가 주최한 AI 영상 공모전이 이용자들의 큰 반발을 사자, 사과문을 발표했음에도 불구하고 공모전 강행 여부를 다시 묻는 안일한 대처로 논란을 키웠습니다.",
+      "생성형 AI의 활용을 두고 게임 커뮤니티 내 반감이 거세며, 제작사가 이용자 정서를 파악하지 못한 정책을 추진할 경우 브랜드 이미지와 팬덤 신뢰도에 치명적인 타격을 입을 수 있음을 보여줍니다.",
+      "실무진은 커뮤니티와 창작자의 반발이 예상되는 AI 도입 관련 이벤트를 기획할 때, 사전 의견 수렴 과정과 명확한 가이드라인 설정 등 철저한 위기 관리 전략을 수립해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Recreate Games",
+        "Party Animals community"
+      ],
+      "object": "AI-generated promotional video contest",
+      "action": "community backlash against generative AI integration leading to contest policy review",
+      "game_mechanic": "user generated content",
+      "time_hint": "October 2024"
+    },
+    "event_key": "global_ai_ugc_policy_backlash_2024",
+    "is_primary": true,
+    "title_ko": "파티 애니멀즈(Party Animals) 개발사, AI 영상 공모전 논란 후 사과했으나 공모전 강행 의사로 비판 가중"
+  },
+  {
+    "title": "Why AI is Forcing Privacy and Security Teams Back Together — And What That Means for Your Organization",
+    "url": "https://www.jdsupra.com/legalnews/why-ai-is-forcing-privacy-and-security-5715054/",
+    "source": "JD Supra - Privacy",
+    "pub_date": "2026-05-15",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "AI 환경이 급변함에 따라 기업들이 별도로 운영하던 개인정보 보호(Privacy)와 보안(Security) 기능을 통합하려는 움직임을 보이고 있습니다.",
+      "AI 기반의 데이터 처리 방식이 복잡해지면서 기존의 규제 준수 체계로는 예방하기 어려운 새로운 보안 및 법적 리스크가 발생하고 있기 때문입니다.",
+      "게임사는 AI 도입 시 개인정보 보호와 보안 팀 간의 긴밀한 협업 체계를 구축하여 개발 단계부터 법적 리스크를 선제적으로 관리해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Foley Hoag LLP",
+        "Privacy and Security Teams"
+      ],
+      "object": "Integrated AI governance and privacy frameworks",
+      "action": "Merging organizational structures for AI compliance",
+      "game_mechanic": "N/A",
+      "time_hint": ""
+    },
+    "event_key": "us_ai_governance_integration_guidance_2024",
+    "is_primary": true,
+    "title_ko": "AI가 개인정보 보호 및 보안 팀의 통합을 강제하는 이유와 조직이 준비해야 할 과제"
+  },
+  {
+    "title": "Microsoft starts canceling Claude Code licenses",
+    "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
+    "source": "The Verge - Policy",
+    "pub_date": "2026-05-14",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "마이크로소프트(Microsoft)가 사내 개발자와 비개발직군을 대상으로 도입했던 앤스로픽(Anthropic)의 AI 코딩 도구 '클로드 코드(Claude Code)'의 라이선스를 회수하기 시작했습니다.",
+      "이번 조치는 사내 AI 개발 도구 활용 전략의 변화를 시사하며, 외부 협업 도구 도입 시 발생할 수 있는 보안 및 비용 통제 문제의 중요성을 보여줍니다.",
+      "게임사들은 외부 AI 툴 도입 시 기업용 보안 정책과 라이선스 관리 체계를 선제적으로 마련하고, 데이터 유출 방지를 위한 자체 AI 환경 구축을 검토해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "business",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Microsoft",
+        "Anthropic"
+      ],
+      "object": "Claude Code licenses",
+      "action": "license cancellation",
+      "game_mechanic": "n/a",
+      "time_hint": "February 2025"
+    },
+    "event_key": "us_ai_licensing_cancellation_2025",
+    "is_primary": true,
+    "title_ko": "마이크로소프트(Microsoft), 클로드 코드(Claude Code) 라이선스 취소 시작"
+  },
+  {
+    "title": "Anthropic’s bug-hunting Mythos was greatest marketing stunt ever, says cURL creator",
+    "url": "https://www.theregister.com/security/2026/05/11/anthropics-bug-hunting-mythos-was-greatest-marketing-stunt-ever-says-curl-creator/5238111",
+    "source": "The Register - Security",
+    "pub_date": "2026-05-11",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "앤스로픽(Anthropic)이 자사 AI의 보안성을 입증하기 위해 개최한 '미토스(Mythos)' 대회가 실제로는 사소한 cURL 취약점 하나만 발견하는 데 그쳤습니다.",
+      "이번 행사는 고도의 보안 기술 과시를 표방했으나, 실제 성과는 미미해 실질적인 AI 성능보다는 마케팅 효과를 위한 홍보 수단이었다는 비판이 제기되었습니다.",
+      "게임 업계는 AI 기반 보안 툴 도입 시, 단순한 홍보성 수치보다는 실제적인 위협 탐지 역량과 신뢰성을 면밀히 검증해야 한다는 교훈을 얻을 수 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Anthropic",
+        "cURL"
+      ],
+      "object": "AI security vulnerability scanner",
+      "action": "Marketing campaign featuring a public bug bounty program",
+      "game_mechanic": "none",
+      "time_hint": "2024"
+    },
+    "event_key": "global_ai_security_marketing_2024",
+    "is_primary": true,
+    "title_ko": "앤스로픽(Anthropic)의 버그 사냥 '미토스(Mythos)'는 역대 최고의 마케팅 스턴트였다고 cURL 창시자가 밝히다"
+  },
+  {
+    "title": "Inside the USPTO's AI Rollout: What IP Stakeholders Need to Know",
+    "url": "https://www.jdsupra.com/legalnews/inside-the-uspto-s-ai-rollout-what-ip-4374031/",
+    "source": "JD Supra - Intellectual Property",
+    "pub_date": "2026-05-13",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "미국 특허상표청(USPTO)이 특허 및 상표 운영과 지식재산권 정책 전반에 인공지능(AI)을 통합하는 로드맵을 발표했습니다.",
+      "이번 도입은 심사 효율성 증대와 함께 AI 생성물에 대한 저작권 및 특허 인정 범위를 구체화하는 등 지식재산권 환경의 근본적인 변화를 예고합니다.",
+      "게임 개발사는 AI를 활용한 게임 콘텐츠 개발 시 향후 변경될 특허 및 지식재산권(IP) 정책 변화를 면밀히 모니터링하고 자산 보호 전략을 재점검해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "USPTO"
+      ],
+      "object": "AI integration in patent and trademark operations",
+      "action": "implementation of internal agency AI policy",
+      "game_mechanic": "null",
+      "time_hint": "April 2026"
+    },
+    "event_key": "us_uspto_ai_integration_2026",
+    "is_primary": true,
+    "title_ko": "미국 특허상표청(USPTO)의 AI 도입 현황: 지식재산권 이해관계자가 알아야 할 사항"
+  }
+]

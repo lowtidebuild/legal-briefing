@@ -3,66 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "global_data_breach_ransomware_2024",
-      "url_hash": "8e3f3e5fcf7186cc",
-      "date": "2026-04-13",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_rockstar_data_breach_2022",
-      "url_hash": "d056523ebd7cbe9d",
-      "date": "2026-04-13",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_ai_coding_policy_framework_2024",
-      "url_hash": "b5a9186760d5fa90",
-      "date": "2026-04-13",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "cn_ai_education_policy_2026q2",
-      "url_hash": "3bf0b47abce680c4",
-      "date": "2026-04-13",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_ai_vulnerability_exploitation_policy_2024",
-      "url_hash": "0b7f1460416da83b",
-      "date": "2026-04-13",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "uk_rf_jammers_legislation_2024",
-      "url_hash": "440c3a9dff656bef",
-      "date": "2026-04-13",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_ai_security_framework_2026",
-      "url_hash": "23b890d05828bfd2",
-      "date": "2026-04-13",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_ai_security_prompt_injection_2024",
-      "url_hash": "1359bf1b3032fbcd",
-      "date": "2026-04-13",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_cybercrime_fraud_report_2025",
-      "url_hash": "b7f8ef11bb12bccd",
-      "date": "2026-04-13",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_broadband_net_neutrality_policy_2015",
-      "url_hash": "03e3118fe9cbd584",
-      "date": "2026-04-13",
-      "event_fingerprint": ""
-    },
-    {
       "event_key": "global_rockstar_data_breach_2024",
       "url_hash": "dfb5762a6ae87cc2",
       "date": "2026-04-15",
@@ -883,6 +823,60 @@
       "url_hash": "802244a18bfed219",
       "date": "2026-05-13",
       "event_fingerprint": "e352c424983258f6"
+    },
+    {
+      "event_key": "global_ai_data_governance_framework_2024",
+      "url_hash": "d90cbaa09e852b0f",
+      "date": "2026-05-15",
+      "event_fingerprint": "d93f413533635f91"
+    },
+    {
+      "event_key": "global_ai_ugc_community_backlash_2024",
+      "url_hash": "e9cf5875775ca4db",
+      "date": "2026-05-15",
+      "event_fingerprint": "d194fccb0a2db26b"
+    },
+    {
+      "event_key": "global_google_play_fee_restructuring_2024",
+      "url_hash": "058ba13dbd136a0d",
+      "date": "2026-05-15",
+      "event_fingerprint": "20d39247d5fa51f8"
+    },
+    {
+      "event_key": "global_googleplay_chargeback_policy_2026",
+      "url_hash": "2842dba85bdef34d",
+      "date": "2026-05-15",
+      "event_fingerprint": "b8d5502840631517"
+    },
+    {
+      "event_key": "global_ai_ugc_policy_backlash_2024",
+      "url_hash": "5c968d7ced7f4883",
+      "date": "2026-05-15",
+      "event_fingerprint": "cee39c6906beb4eb"
+    },
+    {
+      "event_key": "us_ai_governance_integration_guidance_2024",
+      "url_hash": "2de7f0ab23ed152f",
+      "date": "2026-05-15",
+      "event_fingerprint": "2ab7ce07ea281995"
+    },
+    {
+      "event_key": "us_ai_licensing_cancellation_2025",
+      "url_hash": "94e2733bab9bdea3",
+      "date": "2026-05-15",
+      "event_fingerprint": "2752e960b33731d2"
+    },
+    {
+      "event_key": "global_ai_security_marketing_2024",
+      "url_hash": "0b7f23fa5d016ccf",
+      "date": "2026-05-15",
+      "event_fingerprint": "99ae8e179bae9744"
+    },
+    {
+      "event_key": "us_uspto_ai_integration_2026",
+      "url_hash": "82a45453c29c9f7a",
+      "date": "2026-05-15",
+      "event_fingerprint": "611365cb6c567d57"
     }
   ]
 }
