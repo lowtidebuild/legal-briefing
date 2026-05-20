@@ -811,6 +811,66 @@
       "url_hash": "57d3cc1799a55d93",
       "date": "2026-05-18",
       "event_fingerprint": "6722590f238432d8"
+    },
+    {
+      "event_key": "jp_nintendo_pocketpair_patent_litigation_2024",
+      "url_hash": "1d230a924888d9cb",
+      "date": "2026-05-20",
+      "event_fingerprint": "8bdf40324feaefe7"
+    },
+    {
+      "event_key": "global_ai_publishing_policy_2024",
+      "url_hash": "b114424032e47d54",
+      "date": "2026-05-20",
+      "event_fingerprint": "a2dcb1fde73a450b"
+    },
+    {
+      "event_key": "global_ai_mcp_integration_2025",
+      "url_hash": "2bc2baf75576570d",
+      "date": "2026-05-20",
+      "event_fingerprint": "4769a7f983bf3ce4"
+    },
+    {
+      "event_key": "uk_online_safety_vpn_regulation_2024",
+      "url_hash": "82c1159c74ccc089",
+      "date": "2026-05-20",
+      "event_fingerprint": "3fd24d4411b0afcf"
+    },
+    {
+      "event_key": "global_ip_trademark_compliance_2024",
+      "url_hash": "574deee7107fdf3f",
+      "date": "2026-05-20",
+      "event_fingerprint": "6b4c7828fc85c340"
+    },
+    {
+      "event_key": "global_ai_content_policy_backtrack_2024",
+      "url_hash": "9ef0051b8214ab34",
+      "date": "2026-05-20",
+      "event_fingerprint": "9725a112569e7bf1"
+    },
+    {
+      "event_key": "us_livenation_ticketmaster_antitrust_settlement_review_2024",
+      "url_hash": "7eefc3a296615ce4",
+      "date": "2026-05-20",
+      "event_fingerprint": "c20fcc57cebd411d"
+    },
+    {
+      "event_key": "global_game_industry_live_ops_presentation_2024",
+      "url_hash": "8b8d788afa06ffee",
+      "date": "2026-05-20",
+      "event_fingerprint": "7478ed616bc4e772"
+    },
+    {
+      "event_key": "global_ai_marketing_contest_cancellation_2024",
+      "url_hash": "69650d3df2d0e664",
+      "date": "2026-05-20",
+      "event_fingerprint": "79429495f2782e4c"
+    },
+    {
+      "event_key": "global_ai_compliance_reporting_2026",
+      "url_hash": "833018267c184d43",
+      "date": "2026-05-20",
+      "event_fingerprint": "6d9a88ad464df442"
     }
   ]
 }

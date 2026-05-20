@@ -1,0 +1,282 @@
+[
+  {
+    "title": "Nintendo denied touchscreen-specific patent as the legal battle against Palworld developer Pocketpair continues",
+    "url": "https://www.eurogamer.net/nintendo-pocketpair-palworld-touchscreen-patent",
+    "source": "Eurogamer",
+    "pub_date": "2026-05-18",
+    "category": "IP",
+    "summary_ko": [
+      "닌텐도(Nintendo)가 포켓페어(Pocketpair)와의 특허권 침해 소송 과정에서 핵심 전략으로 내세웠던 터치스크린 관련 특허 등록이 거절됨.",
+      "이번 특허 거절은 포켓페어(Pocketpair)의 ‘몬스터 포획 및 투척 메커니즘’에 대한 닌텐도(Nintendo)의 소송 전략에 차질을 줄 것으로 평가됨.",
+      "게임사는 특허권 행사를 통한 시장 방어 시 기술의 독창성과 특허 범위의 타당성을 입증하는 것이 무엇보다 중요함."
+    ],
+    "event": {
+      "jurisdiction": "JP",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Nintendo",
+        "Pocketpair"
+      ],
+      "object": "touchscreen-specific patent application",
+      "action": "patent application denied",
+      "game_mechanic": "monster capture and throwing",
+      "time_hint": "November 2024"
+    },
+    "event_key": "jp_nintendo_pocketpair_patent_litigation_2024",
+    "is_primary": true,
+    "title_ko": "닌텐도(Nintendo), 팰월드(Palworld) 개발사 포켓페어(Pocketpair)와의 법적 분쟁 중 터치스크린 특허 취득 실패"
+  },
+  {
+    "title": "Far Far West publisher says \"We don't work with partners that are relying on generative AI\"",
+    "url": "https://www.gamesindustry.biz/far-far-west-publisher-says-we-dont-work-with-partners-that-are-relying-on-generative-ai",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-05-19",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "스팀(Steam) 히트작 파 파 웨스트(Far Far West)의 퍼블리셔인 파이어샤인 게임즈(Fireshine Games)가 생성형 AI로 제작된 아트 소스를 사용하는 개발사와는 협력하지 않겠다고 발표했습니다.",
+      "이번 결정은 게임 업계 내 저작권 문제와 창작물의 진정성 논란 속에서 퍼블리셔가 AI 도입에 대한 명확한 윤리적 기준과 검증 방침을 세우기 시작했다는 점에서 중요합니다.",
+      "게임 개발사는 프로젝트 진행 전 퍼블리셔의 AI 활용 관련 정책을 필히 확인하고, 기획 단계부터 창작물의 저작권 소유 및 AI 사용 여부를 투명하게 관리하는 리스크 대응 체계가 필요합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Fireshine Games"
+      ],
+      "object": "Generative AI art usage in development",
+      "action": "Policy implementation restricting partnership with AI-reliant developers",
+      "game_mechanic": "none",
+      "time_hint": "October 2024"
+    },
+    "event_key": "global_ai_publishing_policy_2024",
+    "is_primary": true,
+    "title_ko": "파 파 웨스트(Far Far West) 퍼블리셔, 생성형 AI 의존 파트너와 협업 거부 선언"
+  },
+  {
+    "title": "Appcharge launches MCP server to power AI-driven mobile game DTC onboarding",
+    "url": "https://www.pocketgamer.biz/appcharge-launches-mcp-server-to-power-ai-driven-mobile-game-dtc-onboarding/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-05-19",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "앱차지(Appcharge)가 모바일 게임의 소비자 직접 판매(DTC) 운영에 AI 워크플로우를 도입하는 모델 컨텍스트 프로토콜(MCP) 서버를 출시했습니다.",
+      "이번 기술은 퍼블리셔의 R&D 팀이 앤스로픽(Anthropic)의 클로드(Claude) 등 다양한 AI 도구와 게임 운영 시스템을 직접 연결해 업무 효율을 극대화할 수 있다는 점에서 중요합니다.",
+      "게임사들은 향후 DTC 플랫폼 운영 시 AI 연동을 통해 사용자 온보딩 과정을 자동화하고 데이터 기반의 최적화된 마케팅 전략을 실행할 수 있을 것으로 전망됩니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Appcharge"
+      ],
+      "object": "Model Context Protocol server for mobile games",
+      "action": "launch",
+      "game_mechanic": "DTC onboarding",
+      "time_hint": "February 2025"
+    },
+    "event_key": "global_ai_mcp_integration_2025",
+    "is_primary": true,
+    "title_ko": "앱차지(Appcharge), 모바일 게임 DTC 온보딩을 위한 AI 기반 MCP 서버 출시"
+  },
+  {
+    "title": "Mozilla warns UK: Breaking VPNs will not magically fix Britain's age-check mess",
+    "url": "https://www.theregister.com/security/2026/05/18/mozilla-warns-uk-breaking-vpns-will-not-magically-fix-britains-age-check-mess/5241770",
+    "source": "The Register - Security",
+    "pub_date": "2026-05-18",
+    "category": "CONTENT_AGE",
+    "summary_ko": [
+      "모질라(Mozilla)가 영국 정부의 온라인 연령 확인 도입 과정에서 VPN(가상사설망) 규제를 강화하려는 움직임에 대해 비판의 목소리를 냄.",
+      "VPN은 기본적인 보안 인프라로, 이를 규제하는 것은 청소년 보호라는 명분 아래 일반 사용자의 보안과 프라이버시권을 과도하게 침해할 위험이 있음.",
+      "게임사들은 향후 지역별로 강화되는 연령 인증 정책이 VPN 차단 등 우회 기술 규제와 연결될 가능성에 대비하여 보안 및 사용자 인증 정책을 점검해야 함."
+    ],
+    "event": {
+      "jurisdiction": "UK",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Mozilla",
+        "UK Government"
+      ],
+      "object": "VPN tools",
+      "action": "Opposition to proposed age-verification mandates affecting encryption and security software",
+      "game_mechanic": "N/A",
+      "time_hint": ""
+    },
+    "event_key": "uk_online_safety_vpn_regulation_2024",
+    "is_primary": true,
+    "title_ko": "모질라(Mozilla), 영국 정부에 경고: VPN 규제는 연령 확인 문제의 근본적인 해결책이 아님"
+  },
+  {
+    "title": "Forza Horizon 6 pokes Nintendo's Pokemon lawyers with a nod to \"that Japanese collecting game we're not allowed to name for legal reasons\"",
+    "url": "https://www.gamesradar.com/games/racing/forza-horizon-6-pokes-nintendos-pokemon-lawyers-with-a-nod-to-that-japanese-collecting-game-were-not-allowed-to-name-for-legal-reasons/",
+    "source": "gamesradar+",
+    "pub_date": "2026-05-19",
+    "category": "IP",
+    "summary_ko": [
+      "포르자 호라이즌 6(Forza Horizon 6) 내에 포켓몬스터(Pokemon)를 연상시키는 콘텐츠가 포함되어 법적 분쟁 가능성을 시사함.",
+      "지식재산권(IP) 보호가 강화되는 게임 산업 환경에서 타사 IP를 간접적으로 활용하는 마케팅 방식에 대한 위험성을 보여줌.",
+      "게임 개발 및 마케팅 기획 시, 유명 IP를 오마주하거나 차용할 경우 발생할 수 있는 저작권 침해 가능성을 사전에 검토하고 주의해야 함."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Microsoft",
+        "Nintendo",
+        "The Pokemon Company"
+      ],
+      "object": "copyrighted game creatures and trademarks",
+      "action": "legal avoidance of potential trademark and copyright infringement",
+      "game_mechanic": "creature collection",
+      "time_hint": "2024"
+    },
+    "event_key": "global_ip_trademark_compliance_2024",
+    "is_primary": true,
+    "title_ko": "포르자 호라이즌 6(Forza Horizon 6), 법적 이유로 이름을 밝힐 수 없는 '그 일본 수집 게임'을 언급하며 닌텐도(Nintendo) 측 변호인단 자극"
+  },
+  {
+    "title": "\"We are not trying to dismiss handmade work or disrespect creators\" - studio behind popular party game Party Animals backtracks after AI video contest outcry",
+    "url": "https://www.eurogamer.net/party-animals-ai-competition-controversy-apology",
+    "source": "Eurogamer",
+    "pub_date": "2026-05-15",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "리크리에이트 게임즈(Recreate Games)는 자사 게임 '파티 애니멀즈(Party Animals)' 관련 AI 활용 영상 공모전을 진행했다가 창작자들의 거센 반발에 부딪혀 공식 사과했습니다.",
+      "이번 사건은 게임 업계 내 AI 기술 도입이 창작자의 권익을 침해할 수 있다는 이용자들의 민감한 반응을 보여주며 논란이 되었습니다.",
+      "향후 게임사들은 마케팅이나 커뮤니티 이벤트에 AI를 활용할 때 창작 커뮤니티의 거부감을 사전에 고려하고 윤리적 가이드라인을 명확히 설정해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Recreate Games",
+        "Party Animals Community"
+      ],
+      "object": "AI-generated video contest",
+      "action": "public apology and backtracking following community outcry over AI-generated content usage",
+      "game_mechanic": "user-generated content",
+      "time_hint": "November 2024"
+    },
+    "event_key": "global_ai_content_policy_backtrack_2024",
+    "is_primary": true,
+    "title_ko": "파티 애니멀즈(Party Animals) 개발사, AI 영상 공모전 논란 이후 사과문 발표"
+  },
+  {
+    "title": "Democrats preview how they’d go after the Ticketmaster settlement if they regain power",
+    "url": "https://www.theverge.com/policy/934112/live-nation-ticketmaster-democrats-doj-settlement",
+    "source": "The Verge - Policy",
+    "pub_date": "2026-05-19",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "미국 민주당 의원들이 법무부(DOJ)와 라이브 네이션(Live Nation)-티켓마스터(Ticketmaster) 간의 반독점 합의를 강하게 비판하며 재조사를 시사했습니다.",
+      "이번 움직임은 차기 의회 장악 시 트럼프(Trump) 행정부의 주요 반독점 결정을 뒤집거나 압박하겠다는 정치적 의도를 담고 있습니다.",
+      "게임 산업 내 대형 M&A나 플랫폼 독점 관련 규제 기조가 정권 교체 시 급변할 수 있으므로, 규제 당국의 향후 정책 변화를 예의주시해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Democratic Party",
+        "Department of Justice",
+        "Live Nation",
+        "Ticketmaster"
+      ],
+      "object": "Live Nation-Ticketmaster antitrust settlement",
+      "action": "political critique and potential future oversight",
+      "game_mechanic": "none",
+      "time_hint": "Monday"
+    },
+    "event_key": "us_livenation_ticketmaster_antitrust_settlement_review_2024",
+    "is_primary": true,
+    "title_ko": "민주당, 집권 시 라이브 네이션(Live Nation)-티켓마스터(Ticketmaster) 합의 재검토 예고"
+  },
+  {
+    "title": "Rovio’s Anastasiya Kara on AI, live ops and Spain's growing games market",
+    "url": "https://www.pocketgamer.biz/rovios-anastasiya-kara-on-ai-live-ops-and-spains-growing-games-market/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-05-13",
+    "category": "ETC",
+    "summary_ko": [
+      "로비오(Rovio)의 리드 프로덕트 매니저 아나스타샤 카라(Anastasiya Kara)가 포켓 게이머 커넥트 바르셀로나(Pocket Gamer Connects Barcelona)에서 라이브 오퍼레이션의 진화를 발표할 예정입니다.",
+      "2010년대부터 현재까지의 라이브 오퍼레이션 변화는 데이터 중심적이고 플레이어 중심적인 전략으로의 정교한 전환을 보여줍니다.",
+      "게임사는 지속적인 사용자 유지와 수익 창출을 위해 최신 AI 기술을 활용한 정밀한 데이터 분석 및 플레이어 중심의 라이브 서비스 고도화 전략을 수립해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Rovio"
+      ],
+      "object": "live ops evolution",
+      "action": "presentation of industry strategies",
+      "game_mechanic": "live ops",
+      "time_hint": "June 15th to 16th"
+    },
+    "event_key": "global_game_industry_live_ops_presentation_2024",
+    "is_primary": true,
+    "title_ko": "로비오(Rovio)의 아나스타샤 카라(Anastasiya Kara)가 말하는 AI, 라이브 오퍼레이션, 그리고 성장하는 스페인 게임 시장"
+  },
+  {
+    "title": "Party Animals' studio finally cancels its AI video contest and promises to approach topics like this in the future 'with a much more humble and cautious attitude'",
+    "url": "https://www.pcgamer.com/software/ai/party-animals-studio-finally-cancels-its-ai-video-contest-and-promises-to-approach-topics-like-this-in-the-future-with-a-much-more-humble-and-cautious-attitude/",
+    "source": "PC Gamer",
+    "pub_date": "2026-05-19",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "파티 애니멀즈(Party Animals)를 개발한 리버스 엔터테인먼트(Recreate Games)가 논란이 된 AI 활용 영상 공모전을 공식 취소하고 사과문을 발표했습니다.",
+      "이번 사태는 게임 업계 내 생성형 AI 도입 과정에서 창작자들의 저작권 및 윤리적 반발이 기업의 브랜드 이미지에 직접적인 타격을 줄 수 있음을 보여줍니다.",
+      "게임사는 AI 관련 마케팅 및 이벤트 기획 시 커뮤니티의 거부감을 사전에 면밀히 검토하고, 기술 활용에 있어 투명성과 윤리적 가이드라인을 강화해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Recreate Games",
+        "Party Animals community"
+      ],
+      "object": "generative AI use in community marketing campaigns",
+      "action": "cancellation of AI video contest following community backlash",
+      "game_mechanic": "user-generated content",
+      "time_hint": "October 2024"
+    },
+    "event_key": "global_ai_marketing_contest_cancellation_2024",
+    "is_primary": true,
+    "title_ko": "파티 애니멀즈(Party Animals) 제작사, AI 영상 공모전 전면 취소 및 향후 겸손하고 신중한 태도 약속"
+  },
+  {
+    "title": "[Video] AI Today in 5: May 15, 2026, The Blind Spot Edition",
+    "url": "https://www.jdsupra.com/legalnews/ai-today-in-5-may-15-2026-the-blind-s-39209/",
+    "source": "JD Supra - Antitrust & Trade Regulation",
+    "pub_date": "2026-05-15",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "컴플라이언스 팟캐스트 네트워크(Compliance Podcast Network)의 톰 폭스(Tom Fox)가 비즈니스, 윤리, 리스크 관리 등 AI 관련 최신 소식 5가지를 매일 전달합니다.",
+      "급변하는 AI 기술 환경에서 기업이 직면한 법적·윤리적 사각지대를 조명하며, 컴플라이언스 준수 방안을 모색하는 것이 핵심입니다.",
+      "게임사들은 AI 도입 과정에서 발생할 수 있는 잠재적 법적 리스크를 선제적으로 파악하고, 내부 윤리 가이드라인과 컴플라이언스 프로세스를 재점검해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Compliance Podcast Network",
+        "Thomas Fox"
+      ],
+      "object": "AI compliance and ethics standards",
+      "action": "reporting on emerging AI regulatory developments",
+      "game_mechanic": "n/a",
+      "time_hint": "May 15, 2026"
+    },
+    "event_key": "global_ai_compliance_reporting_2026",
+    "is_primary": true,
+    "title_ko": "[영상] AI 투데이 인 5(AI Today in 5): 2026년 5월 15일, 사각지대 에디션"
+  }
+]
