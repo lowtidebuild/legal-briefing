@@ -3,60 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "us_google_antitrust_litigation_2025",
-      "url_hash": "4ea87498214c3276",
-      "date": "2026-04-20",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "85bec5fd8069efe5",
-      "url_hash": "7d66382819cf1e74",
-      "date": "2026-04-20",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "eu_game_preservation_policy_2024",
-      "url_hash": "426159228f2774a9",
-      "date": "2026-04-20",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "kr_streamer_criminal_conviction_2024",
-      "url_hash": "607052f1e77d42ca",
-      "date": "2026-04-20",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_first_amendment_content_removal_litigation_2020",
-      "url_hash": "6bdf14b518070199",
-      "date": "2026-04-20",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_ai_security_liability_policy_2024",
-      "url_hash": "5712c11953be4bfb",
-      "date": "2026-04-20",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_privacy_chrome_fingerprinting_2024",
-      "url_hash": "90e160da406b7115",
-      "date": "2026-04-20",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "uk_big_tech_national_security_policy_2024",
-      "url_hash": "c49a36a0111b2937",
-      "date": "2026-04-20",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_facebook_real_name_policy_2014",
-      "url_hash": "b4b88aebc5918ab7",
-      "date": "2026-04-20",
-      "event_fingerprint": ""
-    },
-    {
       "event_key": "uk_data_privacy_litigation_2024",
       "url_hash": "fbb7df2081060919",
       "date": "2026-04-22",
@@ -871,6 +817,66 @@
       "url_hash": "833018267c184d43",
       "date": "2026-05-20",
       "event_fingerprint": "6d9a88ad464df442"
+    },
+    {
+      "event_key": "us_valve_lootbox_gambling_litigation_2024",
+      "url_hash": "4ad3da34bb554144",
+      "date": "2026-05-22",
+      "event_fingerprint": "732d5888176c8c48"
+    },
+    {
+      "event_key": "eu_consumer_protection_cancel_button_2026",
+      "url_hash": "35fd7e5cfa4433f2",
+      "date": "2026-05-22",
+      "event_fingerprint": "dfae8ae67c72b0f6"
+    },
+    {
+      "event_key": "us_roblox_ftc_complaint_2024q3",
+      "url_hash": "696d489dfaa44efa",
+      "date": "2026-05-22",
+      "event_fingerprint": "d18f6b542edfe6b8"
+    },
+    {
+      "event_key": "global_ai_development_corporate_policy_2024",
+      "url_hash": "3ed99dc592d37fac",
+      "date": "2026-05-22",
+      "event_fingerprint": "302e03c315405a75"
+    },
+    {
+      "event_key": "us_privacy_state_legislation_2026",
+      "url_hash": "baebc8904297a51f",
+      "date": "2026-05-22",
+      "event_fingerprint": "84bc26f1ee103968"
+    },
+    {
+      "event_key": "saudi_qiddiya_google_cloud_partnership_2024",
+      "url_hash": "9e672c6e018783d0",
+      "date": "2026-05-22",
+      "event_fingerprint": "f97e8eda556ef53b"
+    },
+    {
+      "event_key": "us_ai_ip_protection_policy",
+      "url_hash": "1341428f566004c7",
+      "date": "2026-05-22",
+      "event_fingerprint": "86bb712b20dca35d"
+    },
+    {
+      "event_key": "global_firefox_privacy_ai_redesign_2024",
+      "url_hash": "bfc286c26d54e171",
+      "date": "2026-05-22",
+      "event_fingerprint": "818b5648d868d1ad"
+    },
+    {
+      "event_key": "global_linux_ai_vulnerability_reporting_2024",
+      "url_hash": "ad19ccda3e149dec",
+      "date": "2026-05-22",
+      "event_fingerprint": "2473002562d54dd7"
+    },
+    {
+      "event_key": "global_ewc_relocation_2026",
+      "url_hash": "ffcc41b820ed0f66",
+      "date": "2026-05-22",
+      "event_fingerprint": "c157d0319878b555"
     }
   ]
 }
