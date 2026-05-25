@@ -1,0 +1,256 @@
+[
+  {
+    "title": "AI Privacy and Regulation Update",
+    "url": "https://www.jdsupra.com/legalnews/ai-privacy-and-regulation-update-9712646/",
+    "source": "JD Supra - Privacy",
+    "pub_date": "2026-05-21",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "AI 규제가 단순한 윤리적 논의를 넘어 프라이버시, 투명성, 차별 방지 등을 포함한 실질적인 법적 준수 사안으로 전환되었습니다.",
+      "이제 기업들은 AI 도입 여부를 넘어 법적 책임과 소비자 신뢰 확보를 위한 책임감 있는 운영 체계 구축이 필수적인 과제가 되었습니다.",
+      "게임사들은 AI 활용 시 자동화된 결과에 대한 책임 소재를 명확히 하고, 데이터 프라이버시와 편향성 관리 등 강화된 컴플라이언스 기준을 마련해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "US Federal Regulators"
+      ],
+      "object": "Artificial Intelligence compliance",
+      "action": "transitioning from voluntary guardrails to mandatory compliance regarding privacy and transparency",
+      "game_mechanic": "N/A",
+      "time_hint": ""
+    },
+    "event_key": "us_ai_compliance_policy_2024",
+    "is_primary": true,
+    "title_ko": "AI 프라이버시 및 규제 동향 업데이트"
+  },
+  {
+    "title": "Four years later, Microsoft finally finishes fighting over the Activision acquisition",
+    "url": "https://www.pcgamer.com/gaming-industry/four-years-later-microsoft-finally-finishes-fighting-over-the-activision-acquisition/",
+    "source": "PC Gamer",
+    "pub_date": "2026-05-22",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "스준데 AP-폰덴(Sjunde AP-Fonden)이 마이크로소프트(Microsoft)의 액티비전(Activision) 인수가 당시 CEO 바비 코틱(Bobby Kotick) 보호를 위해 서둘러 진행되었다며 소송을 제기했습니다.",
+      "이번 소송은 대규모 인수 합병 과정에서 경영진의 이해관계와 주주 권익 보호 문제가 법적 쟁점으로 부각되었다는 점에서 중요합니다.",
+      "게임사들은 대규모 M&A 추진 시 경영진의 사익 편취 논란을 방지하고 인수 절차의 투명성을 확보하는 컴플라이언스 관리가 필수적입니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Sjunde AP-Fonden",
+        "Microsoft",
+        "Activision Blizzard",
+        "Bobby Kotick"
+      ],
+      "object": "Activision Blizzard acquisition",
+      "action": "shareholder lawsuit alleging breach of fiduciary duty regarding acquisition terms",
+      "game_mechanic": "n/a",
+      "time_hint": "2024"
+    },
+    "event_key": "us_activision_microsoft_acquisition_litigation_2024",
+    "is_primary": true,
+    "title_ko": "4년의 법적 공방 끝에 마침내 마무리된 마이크로소프트(Microsoft)의 액티비전(Activision) 인수"
+  },
+  {
+    "title": "Colorado pulls back on AI regulation",
+    "url": "https://www.jdsupra.com/legalnews/colorado-pulls-back-on-ai-regulation-7999546/",
+    "source": "JD Supra - Privacy",
+    "pub_date": "2026-05-21",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "콜로라도(Colorado)주 재러드 폴리스(Jared Polis) 주지사가 기존 AI 법안을 대체하는 새로운 인공지능 법안 SB 26-189에 서명했습니다.",
+      "이번 조치로 미국 내 최초의 포괄적 AI 규제였던 기존 법안이 폐기되고 2027년 1월부터 새로운 규제가 적용되어 산업계의 불확실성이 조정되었습니다.",
+      "게임사는 AI 기술 도입 시 개별 주별로 상이한 규제 변화를 지속적으로 모니터링하고, 향후 업데이트될 구체적인 규제 지침에 대응 체계를 마련해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "legislation",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Colorado Governor Jared Polis",
+        "Colorado General Assembly"
+      ],
+      "object": "SB 26-189",
+      "action": "Replacing previous 2024 AI legislation with new comprehensive framework",
+      "game_mechanic": "null",
+      "time_hint": "Signed May 14, 2026; Effective January 1, 2027"
+    },
+    "event_key": "us_colorado_ai_regulation_revision_2026",
+    "is_primary": true,
+    "title_ko": "콜로라도(Colorado)주, AI 규제 법안 변경"
+  },
+  {
+    "title": "Microsoft storms RAMPART, adds Clarity to agentic AI safety",
+    "url": "https://www.theregister.com/security/2026/05/21/microsoft-open-sources-agentic-ai-safety-tools/5243822",
+    "source": "The Register - Security",
+    "pub_date": "2026-05-21",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "마이크로소프트(Microsoft)가 자율적 AI 에이전트의 안전성을 확보하기 위한 도구인 RAMPART와 Clarity를 오픈소스로 공개했습니다.",
+      "게임 개발 과정에서 AI 에이전트 활용이 늘어남에 따라, 보안 취약점 점검 및 시스템 오작동 방지를 위한 필수적인 기술적 표준이 될 전망입니다.",
+      "게임사들은 AI 도입 시 해당 도구를 활용하여 비정상적인 AI 행동을 선제적으로 탐지하고, 서비스의 안정성과 보안 규제 대응력을 강화해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Microsoft"
+      ],
+      "object": "agentic AI development tools",
+      "action": "open sourcing safety evaluation and monitoring frameworks",
+      "game_mechanic": "none",
+      "time_hint": ""
+    },
+    "event_key": "global_ai_safety_framework_release_2024",
+    "is_primary": true,
+    "title_ko": "마이크로소프트(Microsoft), 에이전트형 AI 안전을 위한 RAMPART와 Clarity 공개"
+  },
+  {
+    "title": "《特戰英豪》Vanguard升級封殺DMA外掛 Riot開玩笑「6000美元紙鎮」引玩家疑慮",
+    "url": "https://www.4gamers.com.tw/news/detail/79390/riot-update-valorant-anti-cheat-vanguard-bricking-pc-players-worried",
+    "source": "4gamers",
+    "pub_date": "2026-05-23",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "라이엇 게임즈(Riot Games)가 FPS 게임 발로란트(VALORANT)의 보안 솔루션 뱅가드(Vanguard)를 업데이트하여 고도화된 DMA(직접 메모리 접근) 기반 하드웨어 핵을 차단했습니다.",
+      "소프트웨어 방식의 우회가 어려운 하드웨어 핵까지 탐지 역량을 확대함으로써, 게임 내 공정성을 저해하는 부정행위에 대한 강력한 기술적 방어 체계를 구축했습니다.",
+      "핵 개발자들의 기술 수준이 하드웨어 영역으로 진화함에 따라, 게임사들은 앞으로 OS 커널 레벨 및 하드웨어 통신을 제어하는 고도화된 보안 정책을 지속적으로 도입해야 할 것입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Riot Games"
+      ],
+      "object": "Vanguard anti-cheat system",
+      "action": "Implementing hardware-level detection for DMA-based cheat devices",
+      "game_mechanic": "Anti-cheat",
+      "time_hint": "Recent update"
+    },
+    "event_key": "global_vanguard_dma_policy_2024",
+    "is_primary": true,
+    "title_ko": "발로란트(VALORANT), 뱅가드(Vanguard) 업데이트로 DMA 하드웨어 핵 차단… 라이엇 게임즈(Riot Games)의 강경 대응에 이용자 반응 분분"
+  },
+  {
+    "title": "聲優津田健次郎提告TikTok 要求刪除生成式AI模仿「磁性嗓音」影片",
+    "url": "https://www.4gamers.com.tw/news/detail/79387/kenjiro-tsuda-sues-tiktok-operator-over-ai-generated-voice-imitation-videos",
+    "source": "4gamers",
+    "pub_date": "2026-05-23",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "유명 성우 츠다 켄지로(津田健次郎)가 생성형 AI를 이용해 자신의 음성을 무단 복제한 영상을 삭제해달라며 도쿄지방법원에 틱톡(TikTok)을 상대로 소송을 제기했습니다.",
+      "이번 사건은 인공지능 기술을 활용한 무단 음성 생성(Voice Cloning)이 아티스트의 퍼블리시티권과 인격권을 침해할 수 있다는 실질적인 법적 쟁점을 던지고 있습니다.",
+      "게임 업계는 향후 AI 성우 도입 시 발생할 수 있는 저작권 분쟁 리스크를 선제적으로 관리하고, AI 기술 활용 과정에서 권리자와의 명확한 라이선스 계약 체결이 필수적입니다."
+    ],
+    "event": {
+      "jurisdiction": "JP",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Kenjiro Tsuda",
+        "TikTok",
+        "Tokyo District Court"
+      ],
+      "object": "Generative AI voice cloning",
+      "action": "Filed lawsuit to demand removal of infringing AI-generated voice content",
+      "game_mechanic": "none",
+      "time_hint": ""
+    },
+    "event_key": "jp_ai_voice_cloning_litigation_2024",
+    "is_primary": true,
+    "title_ko": "일본 성우 츠다 켄지로(津田健次郎), 생성형 AI로 자신의 목소리를 무단 복제한 틱톡(TikTok) 영상 삭제 소송 제기"
+  },
+  {
+    "title": "Ofcom warns children remain exposed to online safety risks across platforms including Roblox, TikTok and YouTube",
+    "url": "https://www.pocketgamer.biz/ofcom-warns-children-remain-exposed-to-online-safety-risks-across-platforms-including-roblox-tiktok-and-youtube/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-05-21",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "영국 통신규제청(Ofcom)의 보고서에 따르면 영국 아동의 72%가 온라인 게임을 이용하고 있으며, 온라인 안전법(Online Safety Act 2023) 시행 이후에도 다수 플랫폼에서 아동 대상 유해 콘텐츠 노출 위험이 지속되고 있습니다.",
+      "이번 보고서는 법적 규제가 도입되었음에도 불구하고 플랫폼 사업자의 실질적인 보호 조치가 미흡함을 지적하고 있어, 향후 규제 당국의 강력한 제재와 추가적인 안전 의무 부과 가능성을 시사합니다.",
+      "게임사는 아동 이용자 보호를 위해 콘텐츠 모니터링 시스템을 강화하고, 온라인 안전법(Online Safety Act 2023) 기준을 준수하기 위한 기술적·운영적 안전장치를 선제적으로 마련해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "UK",
+      "event_type": "enforcement",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Ofcom",
+        "Roblox",
+        "TikTok",
+        "YouTube"
+      ],
+      "object": "Children's online safety standards",
+      "action": "monitoring and enforcement of online safety duties",
+      "game_mechanic": "none",
+      "time_hint": "July 2025"
+    },
+    "event_key": "uk_online_safety_act_enforcement_2025",
+    "is_primary": true,
+    "title_ko": "영국 통신규제청(Ofcom), 로블록스(Roblox)·틱톡(TikTok)·유튜브(YouTube) 등 플랫폼의 아동 온라인 안전 위협 경고"
+  },
+  {
+    "title": "Esports Nations Cup 2026 unveils rankings system and Team Builder ahead of roster reveals",
+    "url": "https://www.pocketgamer.biz/esports-nations-cup-2026-unveils-rankings-system-and-team-builder-ahead-of-roster-reveals/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-05-22",
+    "category": "ESPORTS_MARKETING",
+    "summary_ko": [
+      "이스포츠 파운데이션(Esports Foundation)이 '이스포츠 네이션스 컵 2026(Esports Nations Cup 2026)'의 국가별 랭킹 시스템과 대화형 팀 구성 플랫폼을 새롭게 선보였습니다.",
+      "이번 시스템은 국제 대회 성적을 데이터화하여 국가별 순위를 객관적으로 산출함으로써, 대회 공정성과 흥행 요소를 강화하는 중요한 기반이 될 전망입니다.",
+      "게임사들은 국가 대항전 콘텐츠 기획 시 데이터 기반의 선수 관리 및 성과 추적 시스템을 도입하여 대회 운영의 신뢰도와 사용자 참여도를 높이는 전략이 필요합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Esports Foundation"
+      ],
+      "object": "Esports Nations Cup 2026",
+      "action": "Unveiling of competitive rankings system and team building platform",
+      "game_mechanic": "none",
+      "time_hint": "2026"
+    },
+    "event_key": "global_esports_nations_cup_launch_2026",
+    "is_primary": true,
+    "title_ko": "이스포츠 네이션스 컵 2026(Esports Nations Cup 2026), 로스터 발표 앞두고 랭킹 시스템 및 팀 빌더 공개"
+  },
+  {
+    "title": "Xbox announces hire of veteran analyst Matthew Ball as chief strategy officer, and AI and Amazon veteran as CTO",
+    "url": "https://www.gamesindustry.biz/xbox-announces-hire-of-veteran-analyst-matthew-ball-as-chief-strategy-officer-and-ai-and-amazon-veteran-as-cto",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-05-20",
+    "category": "ETC",
+    "summary_ko": [
+      "엑스박스(Xbox)가 전략 책임자(CSO)에 매튜 볼(Matthew Ball), 최고 기술 책임자(CTO)에 스콧 반 블리엣(Scott Van Vliet)을 임명하며 경영진을 개편했습니다.",
+      "이번 인사는 메타버스 전문가인 볼의 전략적 통찰력과 반 블리엣의 AI 인프라 역량을 결합하여 차세대 플랫폼 경쟁력을 확보하려는 의도로 풀이됩니다.",
+      "업계는 엑스박스(Xbox)가 향후 클라우드 AI 기술과 콘텐츠 생태계 확장에 공격적인 투자와 전략적 변화를 꾀할 것으로 전망하고 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Xbox",
+        "Matthew Ball",
+        "Scott Van Vliet"
+      ],
+      "object": "Executive leadership appointment",
+      "action": "Hiring of new Chief Strategy Officer and Chief Technology Officer",
+      "game_mechanic": "n/a",
+      "time_hint": "October 2024"
+    },
+    "event_key": "global_xbox_leadership_restructuring_2024",
+    "is_primary": true,
+    "title_ko": "엑스박스(Xbox), 전략 책임자로 베테랑 애널리스트 매튜 볼(Matthew Ball) 및 CTO로 AI·아마존(Amazon) 전문가 영입"
+  }
+]

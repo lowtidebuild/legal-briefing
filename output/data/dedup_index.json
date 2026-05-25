@@ -3,180 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "uk_data_privacy_litigation_2024",
-      "url_hash": "fbb7df2081060919",
-      "date": "2026-04-22",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "uk_bafta_compliance_enforcement_2026",
-      "url_hash": "d4a4ae5a1ff7ad96",
-      "date": "2026-04-22",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_meta_employee_monitoring_policy_2024",
-      "url_hash": "651e821681bb1909",
-      "date": "2026-04-22",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "uk_labor_surveillance_litigation_2024",
-      "url_hash": "cd6322cb2aac804f",
-      "date": "2026-04-22",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_ai_content_prohibition_2024",
-      "url_hash": "bea4c8dedb112913",
-      "date": "2026-04-22",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "eu_age_verification_security_vulnerability_2024",
-      "url_hash": "2c52dbd4fd5e7b0d",
-      "date": "2026-04-22",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_product_liability_dismissal_2026q2",
-      "url_hash": "362e45ef72575265",
-      "date": "2026-04-22",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_patent_reexamination_procedure_2026",
-      "url_hash": "ee64bc7341eb133a",
-      "date": "2026-04-22",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_ai_election_scrutiny_2024",
-      "url_hash": "869a3c8de8fb6f6e",
-      "date": "2026-04-22",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "uk_cybersecurity_policy_guidance_2024",
-      "url_hash": "f3727a6e6cdab90c",
-      "date": "2026-04-22",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_hardware_sales_fluctuation_2026",
-      "url_hash": "fe38458659e38f9f",
-      "date": "2026-04-22",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_ip_patent_filing_2024",
-      "url_hash": "5104b355b1fdc049",
-      "date": "2026-04-22",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_ai_music_content_governance_2024",
-      "url_hash": "9087035b1f51d0a5",
-      "date": "2026-04-22",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_ip_tax_writeoff_2023",
-      "url_hash": "320dd22d02bb4bc6",
-      "date": "2026-04-22",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "jp_copyright_spoiler_enforcement_2024",
-      "url_hash": "9a84034530314b7e",
-      "date": "2026-04-22",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_food_regulation_maha_policy_2026q2",
-      "url_hash": "e7be1af199c852b4",
-      "date": "2026-04-22",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_ai_security_breach_2024",
-      "url_hash": "db01c4dc4eb82b8b",
-      "date": "2026-04-22",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_spacex_cursor_acquisition_2025",
-      "url_hash": "72604df34136cd7e",
-      "date": "2026-04-22",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_ai_security_policy_2024",
-      "url_hash": "e51b65a5a02447ca",
-      "date": "2026-04-22",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_nintendo_tariff_refund_litigation_2024",
-      "url_hash": "334f64abe79b989b",
-      "date": "2026-04-24",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "tr_content_age_regulation_2024",
-      "url_hash": "0bb2cfea0c931d41",
-      "date": "2026-04-24",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "in_gaming_authority_establishment_2026",
-      "url_hash": "721ee6fbcd9c1303",
-      "date": "2026-04-24",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_ai_content_ethics_scrutiny_2024",
-      "url_hash": "a7e69b47c4f15bee",
-      "date": "2026-04-24",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "tr_platform_regulation_enforcement_2024",
-      "url_hash": "2f9da2cc6e81a353",
-      "date": "2026-04-24",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_ai_oversight_warning_2024",
-      "url_hash": "d8e0badd3a0a5539",
-      "date": "2026-04-24",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_ai_safety_vulnerability_research_2024",
-      "url_hash": "f6da61e4276395f0",
-      "date": "2026-04-24",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_xbox_strategic_realignment_2024",
-      "url_hash": "9c4737afaa61dcea",
-      "date": "2026-04-24",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_ip_trademark_litigation_historical",
-      "url_hash": "73178b0781b6124b",
-      "date": "2026-04-24",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_ai_data_breach_2024",
-      "url_hash": "315f8ca408e7a64c",
-      "date": "2026-04-24",
-      "event_fingerprint": ""
-    },
-    {
       "event_key": "us_employment_wrongful_termination_lawsuit_2024",
       "url_hash": "e0621b2a48077c68",
       "date": "2026-04-27",
@@ -877,6 +703,60 @@
       "url_hash": "ffcc41b820ed0f66",
       "date": "2026-05-22",
       "event_fingerprint": "c157d0319878b555"
+    },
+    {
+      "event_key": "us_ai_compliance_policy_2024",
+      "url_hash": "709d722747b780e3",
+      "date": "2026-05-25",
+      "event_fingerprint": "42dc5d3c33121793"
+    },
+    {
+      "event_key": "us_activision_microsoft_acquisition_litigation_2024",
+      "url_hash": "b2692bcd23d95164",
+      "date": "2026-05-25",
+      "event_fingerprint": "22d41cb50ae64390"
+    },
+    {
+      "event_key": "us_colorado_ai_regulation_revision_2026",
+      "url_hash": "585f5d441ba82cd3",
+      "date": "2026-05-25",
+      "event_fingerprint": "446016cad3889eca"
+    },
+    {
+      "event_key": "global_ai_safety_framework_release_2024",
+      "url_hash": "5535da1459902b12",
+      "date": "2026-05-25",
+      "event_fingerprint": "c5e548d38f9c6dea"
+    },
+    {
+      "event_key": "global_vanguard_dma_policy_2024",
+      "url_hash": "e0c8bdb4eabc4d7c",
+      "date": "2026-05-25",
+      "event_fingerprint": "2d558211fb7bfd83"
+    },
+    {
+      "event_key": "jp_ai_voice_cloning_litigation_2024",
+      "url_hash": "85efa45c1d42d347",
+      "date": "2026-05-25",
+      "event_fingerprint": "9b90a2e700876878"
+    },
+    {
+      "event_key": "uk_online_safety_act_enforcement_2025",
+      "url_hash": "5076b72c451bf260",
+      "date": "2026-05-25",
+      "event_fingerprint": "1c8e866dba16b3d5"
+    },
+    {
+      "event_key": "global_esports_nations_cup_launch_2026",
+      "url_hash": "8a8c7f73dee86b47",
+      "date": "2026-05-25",
+      "event_fingerprint": "2037a0104f442e64"
+    },
+    {
+      "event_key": "global_xbox_leadership_restructuring_2024",
+      "url_hash": "3763d62298da3f9e",
+      "date": "2026-05-25",
+      "event_fingerprint": "08d6fcbb289b9b34"
     }
   ]
 }
