@@ -3,66 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "us_employment_wrongful_termination_lawsuit_2024",
-      "url_hash": "e0621b2a48077c68",
-      "date": "2026-04-27",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_privacy_lawyer_recognition_2026",
-      "url_hash": "13194f14c61ee935",
-      "date": "2026-04-27",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_corporate_liability_litigation_2026q2",
-      "url_hash": "f08baff33d21fe56",
-      "date": "2026-04-27",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_lcd_patent_itc_litigation_2026",
-      "url_hash": "6e655aadd3f5085b",
-      "date": "2026-04-27",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_ai_state_regulation_development_2026",
-      "url_hash": "53f10fdcd8c97de3",
-      "date": "2026-04-27",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "us_ai_cybersecurity_procurement_2024",
-      "url_hash": "38cdd88c15038e4e",
-      "date": "2026-04-27",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_ip_relicensing_2024",
-      "url_hash": "e9b092d6e045ec61",
-      "date": "2026-04-27",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_microsoft_rdp_security_update_2024",
-      "url_hash": "c9ff0b87d3a92b8e",
-      "date": "2026-04-27",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "uk_authentication_passkey_standard_2024",
-      "url_hash": "397ebbc8ba81617d",
-      "date": "2026-04-27",
-      "event_fingerprint": ""
-    },
-    {
-      "event_key": "global_ai_security_testing_2024",
-      "url_hash": "da6e4a4b9eecf1aa",
-      "date": "2026-04-27",
-      "event_fingerprint": ""
-    },
-    {
       "event_key": "eu_gdpr_anniversary_assessment_2026",
       "url_hash": "7e09689e74fa0e4b",
       "date": "2026-04-29",
@@ -817,6 +757,66 @@
       "url_hash": "e0e105fa0186b96c",
       "date": "2026-05-27",
       "event_fingerprint": "title:fc744453d95301c0:2026q2"
+    },
+    {
+      "event_key": "us_msft_activision_merger_litigation_2024",
+      "url_hash": "5e302db9815ddb03",
+      "date": "2026-05-29",
+      "event_fingerprint": "acd72cef43d531e2"
+    },
+    {
+      "event_key": "us_microsoft_activision_merger_litigation_2023",
+      "url_hash": "c0196f45b5abaf5f",
+      "date": "2026-05-29",
+      "event_fingerprint": "dff75fbcf19e9922"
+    },
+    {
+      "event_key": "uk_rockstar_labor_union_formation_2025",
+      "url_hash": "44f7cfb0d61f00b3",
+      "date": "2026-05-29",
+      "event_fingerprint": "122dd8dc1667bec5"
+    },
+    {
+      "event_key": "jp_ai_voice_protection_policy_2024",
+      "url_hash": "449665b0ecdeb189",
+      "date": "2026-05-29",
+      "event_fingerprint": "d2b1c41764a3aa7c"
+    },
+    {
+      "event_key": "global_ai_investment_hoyoverse_2024",
+      "url_hash": "1f80ea4e1e817c6b",
+      "date": "2026-05-29",
+      "event_fingerprint": "af12b6cf3e24cc3e"
+    },
+    {
+      "event_key": "global_ai_voice_performance_discourse_2024",
+      "url_hash": "5124407c14b90ec7",
+      "date": "2026-05-29",
+      "event_fingerprint": "eec8c2361e78094e"
+    },
+    {
+      "event_key": "eu_esports_world_cup_relocation_2024",
+      "url_hash": "cc7d5d2da6631ac3",
+      "date": "2026-05-29",
+      "event_fingerprint": "8c90ed1f04ab1eb4"
+    },
+    {
+      "event_key": "global_ai_compliance_guidance_2026q2",
+      "url_hash": "d68cc62c39a732af",
+      "date": "2026-05-29",
+      "event_fingerprint": "1501b24d4d02eeae"
+    },
+    {
+      "event_key": "global_ai_influencer_integration_2024",
+      "url_hash": "08ea227106fc92f9",
+      "date": "2026-05-29",
+      "event_fingerprint": "addfbc28f95eb027"
+    },
+    {
+      "event_key": "us_ai_media_exhibition_2024",
+      "url_hash": "d010b7a786dbef71",
+      "date": "2026-05-29",
+      "event_fingerprint": "eaf4752a69557d39"
     }
   ]
 }
