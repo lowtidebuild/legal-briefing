@@ -3,120 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "eu_gdpr_anniversary_assessment_2026",
-      "url_hash": "7e09689e74fa0e4b",
-      "date": "2026-04-29",
-      "event_fingerprint": "925e234c127d3a86"
-    },
-    {
-      "event_key": "global_vgw_monopoly_match_launch_2024",
-      "url_hash": "10a4ed975bf48f07",
-      "date": "2026-04-29",
-      "event_fingerprint": "c87c0529fbde2a90"
-    },
-    {
-      "event_key": "kr_esports_roster_interference_2024",
-      "url_hash": "88ada210838c7e7e",
-      "date": "2026-04-29",
-      "event_fingerprint": "d7ba1e97bdf56851"
-    },
-    {
-      "event_key": "eu_competition_data_protection_guidelines_2024",
-      "url_hash": "62dfccb16209babb",
-      "date": "2026-04-29",
-      "event_fingerprint": "19612cd7f2845ef4"
-    },
-    {
-      "event_key": "au_copyright_specialized_court_proposal_2024",
-      "url_hash": "f67ef8b15f29b284",
-      "date": "2026-04-29",
-      "event_fingerprint": "76ccab8f9924fb99"
-    },
-    {
-      "event_key": "us_meta_workforce_reduction_2025",
-      "url_hash": "cae70369c69153aa",
-      "date": "2026-04-29",
-      "event_fingerprint": "13bbebb04c9299a8"
-    },
-    {
-      "event_key": "us_openai_mission_litigation_2024",
-      "url_hash": "41c83ec293ad6f7a",
-      "date": "2026-04-29",
-      "event_fingerprint": "2bd6ffd0741267e1"
-    },
-    {
-      "event_key": "global_ai_reliability_incident_2024",
-      "url_hash": "8dd50b086e4f6a28",
-      "date": "2026-04-29",
-      "event_fingerprint": "de3519c2d0ea0b3e"
-    },
-    {
-      "event_key": "us_copyright_non_human_authorship_2014",
-      "url_hash": "cfd6b21a4a238ead",
-      "date": "2026-04-29",
-      "event_fingerprint": "1e1d74b4fcf5ca1a"
-    },
-    {
-      "event_key": "us_fallout_new_vegas_rorschach_ip_litigation",
-      "url_hash": "894731afe304a057",
-      "date": "2026-04-29",
-      "event_fingerprint": "77844e45f85a7167"
-    },
-    {
-      "event_key": "us_apple_epic_antitrust_litigation_2023",
-      "url_hash": "c182b4ae94fda90d",
-      "date": "2026-05-01",
-      "event_fingerprint": "bfff3d2160a8d108"
-    },
-    {
-      "event_key": "global_sony_drm_policy_clarification_2024",
-      "url_hash": "ced8ee20751b2ceb",
-      "date": "2026-05-01",
-      "event_fingerprint": "e1bcfecf24debc81"
-    },
-    {
-      "event_key": "eu_dma_two_year_review_2025",
-      "url_hash": "c4aa8dc58ed17ba3",
-      "date": "2026-05-01",
-      "event_fingerprint": "433e23bb05bea4a6"
-    },
-    {
-      "event_key": "eu_hardware_consumer_protection_defective_sale_2025",
-      "url_hash": "414aa5672c087dc7",
-      "date": "2026-05-01",
-      "event_fingerprint": "28aed7d981cddc0e"
-    },
-    {
-      "event_key": "global_labor_security_public_statement_2024",
-      "url_hash": "aeea520ed404ca98",
-      "date": "2026-05-01",
-      "event_fingerprint": "b4b480648a66bd01"
-    },
-    {
-      "event_key": "global_security_checkmarx_breach_2022",
-      "url_hash": "11c2dedb51482ec0",
-      "date": "2026-05-01",
-      "event_fingerprint": "376e49525670a19e"
-    },
-    {
-      "event_key": "eu_corruption_conviction_uphold_2026",
-      "url_hash": "9eb968eff6504271",
-      "date": "2026-05-01",
-      "event_fingerprint": "67f54565816ebdcc"
-    },
-    {
-      "event_key": "global_sony_drm_policy_2024",
-      "url_hash": "87a6f04040753bae",
-      "date": "2026-05-01",
-      "event_fingerprint": "6520fb321b742359"
-    },
-    {
-      "event_key": "us_microsoft_revenue_forecast_2024",
-      "url_hash": "95293b51ac6b39a6",
-      "date": "2026-05-01",
-      "event_fingerprint": "c34b49146054326e"
-    },
-    {
       "event_key": "us_sony_psn_refund_litigation_2024",
       "url_hash": "c61197e6e8f09c16",
       "date": "2026-05-04",
@@ -817,6 +703,66 @@
       "url_hash": "d010b7a786dbef71",
       "date": "2026-05-29",
       "event_fingerprint": "eaf4752a69557d39"
+    },
+    {
+      "event_key": "uk_rockstar_union_busting_litigation_2023",
+      "url_hash": "f7b55e3dbe569ede",
+      "date": "2026-06-01",
+      "event_fingerprint": "00833ceb2409a10c"
+    },
+    {
+      "event_key": "global_ai_infrastructure_report_2026",
+      "url_hash": "a249b1329669bfbd",
+      "date": "2026-06-01",
+      "event_fingerprint": "a043724a01ad4238"
+    },
+    {
+      "event_key": "global_ai_streaming_summarization_2026",
+      "url_hash": "92f3e2991eda74d1",
+      "date": "2026-06-01",
+      "event_fingerprint": "71456f2ad4ca77fd"
+    },
+    {
+      "event_key": "us_23andme_data_breach_litigation_2024",
+      "url_hash": "8b1f3f12ba7dd529",
+      "date": "2026-06-01",
+      "event_fingerprint": "32234bb9850ae9d1"
+    },
+    {
+      "event_key": "us_wotc_unionization_efforts_2024",
+      "url_hash": "e012d525a2cba71a",
+      "date": "2026-06-01",
+      "event_fingerprint": "3a933d58465172f7"
+    },
+    {
+      "event_key": "us_microsoft_exploit_disclosure_policy_2024",
+      "url_hash": "0872859320d59695",
+      "date": "2026-06-01",
+      "event_fingerprint": "48cccaf21c8c619b"
+    },
+    {
+      "event_key": "us_ai_contract_risk_guidance_2024",
+      "url_hash": "5579de389d52b277",
+      "date": "2026-06-01",
+      "event_fingerprint": "9cc10dc97e46d05d"
+    },
+    {
+      "event_key": "eu_dma_fortnite_ios_return_2025",
+      "url_hash": "3b0abdee9ab67b27",
+      "date": "2026-06-01",
+      "event_fingerprint": "75843fef70ff5e67"
+    },
+    {
+      "event_key": "us_activision_microsoft_acquisition_lawsuit_settlement_2024",
+      "url_hash": "541fad13b1fce20c",
+      "date": "2026-06-01",
+      "event_fingerprint": "8da60982d1d8a91e"
+    },
+    {
+      "event_key": "us_ip_trademark_domain_recovery_2024",
+      "url_hash": "47502e15b45dae93",
+      "date": "2026-06-01",
+      "event_fingerprint": "fa0db9773feba029"
     }
   ]
 }
