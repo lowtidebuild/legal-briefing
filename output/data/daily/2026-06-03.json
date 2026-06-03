@@ -1,0 +1,286 @@
+[
+  {
+    "title": "Rockstar employees form union amid ongoing legal claims",
+    "url": "https://www.gamesindustry.biz/rockstar-employees-form-union-amid-ongoing-legal-claims",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-06-01",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "락스타 게임즈(Rockstar Games) 직원들이 영국 독립 노동조합(IWGB) 산하의 락스타 게임 워커스 유니언(RGWU)을 결성했습니다.",
+      "이번 노조 결성은 최근 제기된 다양한 법적 분쟁과 직장 내 처우 개선 요구가 맞물린 결과로 업계의 주목을 받고 있습니다.",
+      "글로벌 게임 기업들은 향후 노사 관계 변화에 대비해 투명한 인사 관리 체계와 근로 조건 개선 전략을 선제적으로 검토해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "UK",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Rockstar employees",
+        "Rockstar Game Workers Union",
+        "Independent Workers' Union of Great Britain"
+      ],
+      "object": "Rockstar Games workforce",
+      "action": "formation of a labor union",
+      "game_mechanic": "none",
+      "time_hint": "2024"
+    },
+    "event_key": "uk_rockstar_union_formation_2024",
+    "is_primary": true,
+    "title_ko": "락스타 게임즈(Rockstar Games) 직원들, 지속되는 법적 분쟁 속 노조 결성"
+  },
+  {
+    "title": "Valve antitrust lawsuit reportedly reveals lengths Steam owner is willing to go to prevent cheaper prices elsewhere",
+    "url": "https://www.eurogamer.net/valve-antitrust-lawsuits-ubisoft-warner-bros-report",
+    "source": "Eurogamer",
+    "pub_date": "2026-06-02",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "밸브(Valve)가 스팀(Steam)의 지배적 지위를 이용해 유비소프트(Ubisoft), 워너 브라더스(Warner Bros.) 등 게임사를 압박하여 타 플랫폼 대비 낮은 가격 책정을 금지했다는 반독점 소송이 제기되었습니다.",
+      "이번 사안은 디지털 스토어 간의 가격 경쟁을 인위적으로 제한했다는 의혹을 다루고 있어, PC 게임 유통 플랫폼의 시장 독점적 행위에 대한 규제 기관의 감시가 강화될 중요한 분기점이 될 것입니다.",
+      "게임사 및 플랫폼 사업자는 타 유통 채널과의 가격 평준화 정책 운용 시 반독점법 위반 리스크를 면밀히 검토하고, 공정 경쟁 환경 조성을 위한 유통 전략을 재점검해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Valve",
+        "Ubisoft",
+        "Warner Bros"
+      ],
+      "object": "Steam digital storefront price parity practices",
+      "action": "Alleging abuse of dominant market position via anti-competitive pricing policies",
+      "game_mechanic": "pricing",
+      "time_hint": ""
+    },
+    "event_key": "us_valve_antitrust_litigation_2024",
+    "is_primary": true,
+    "title_ko": "밸브(Valve)의 반독점 소송, 스팀(Steam) 플랫폼의 타 스토어 가격 경쟁 방해 의혹 제기"
+  },
+  {
+    "title": "Gabe Newell Says Players Have 'Enormous Choice' When Pressed on Steam Monopoly Accusations, Report Says",
+    "url": "https://www.ign.com/articles/gabe-newell-says-players-have-enormous-choice-when-pressed-on-steam-monopoly-accusations-report-says",
+    "source": "IGN",
+    "pub_date": "2026-06-03",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "밸브(Valve)의 설립자 게이브 뉴웰(Gabe Newell)이 PC 게임 시장 내 스팀(Steam) 독점 논란을 정면으로 부인했습니다.",
+      "이번 발언은 디지털 플랫폼의 지배적 사업자 지위와 관련된 반독점 규제 당국의 압박 속에서 나온 것으로 플랫폼의 시장 영향력을 재확인하는 계기가 됐습니다.",
+      "플랫폼 사업자는 반독점 리스크 대응을 위해 이용자 데이터와 서비스 선택권 확보 등 시장 내 경쟁 친화적 요소를 지속적으로 증명할 필요가 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Valve",
+        "Gabe Newell"
+      ],
+      "object": "Steam",
+      "action": "Defense against monopoly accusations",
+      "game_mechanic": "none",
+      "time_hint": "2024"
+    },
+    "event_key": "global_steam_monopoly_litigation_2024",
+    "is_primary": true,
+    "title_ko": "게이브 뉴웰(Gabe Newell), 스팀(Steam) 독점 의혹에 '이용자의 선택권은 막대하다'고 반박"
+  },
+  {
+    "title": "Popular GTA Online cheat provider hacked, leaving 64,000 mod menu users with their personal data shared online",
+    "url": "https://www.gamesradar.com/games/grand-theft-auto/popular-gta-online-cheat-provider-hacked-leaving-64-000-mod-menu-users-with-their-personal-data-shared-online/",
+    "source": "gamesradar+",
+    "pub_date": "2026-06-02",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "유명 GTA 온라인 핵 프로그램인 아틀라스 메뉴(Atlas Menu)가 해킹을 당해 사용자 6만 4천 명의 개인정보가 온라인에 노출되었습니다.",
+      "이번 사건은 불법 프로그램 이용자가 플랫폼 보안 위협뿐만 아니라 자신의 개인정보 유출이라는 심각한 보안 리스크에 직면할 수 있음을 보여줍니다.",
+      "게임 개발사는 비인가 외부 프로그램 사용에 대한 경각심을 고취하고, 자사 서비스 이용자의 개인정보 보호를 위한 보안 강화를 지속해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "security_incident",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Atlas Menu",
+        "64000 users"
+      ],
+      "object": "personal user data",
+      "action": "data breach resulting from a hack",
+      "game_mechanic": "mod menu",
+      "time_hint": "last month"
+    },
+    "event_key": "global_atlas_menu_hack_2024",
+    "is_primary": true,
+    "title_ko": "유명 GTA 온라인 핵 제공 업체 '아틀라스 메뉴(Atlas Menu)' 해킹으로 사용자 6만 4천 명 개인정보 유출"
+  },
+  {
+    "title": "\"The problem with online toxicity, that's something that we can solve today\" – The AI system that promises to detect signs of grooming",
+    "url": "https://www.gamesindustry.biz/the-problem-with-online-toxicity-thats-something-that-we-can-solve-today-the-ai-system-that-promises-to-detect-signs-of-grooming",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-06-02",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "아이바(Aiba)가 게임 내 채팅에서 미성년자 대상 유인(Grooming) 및 성적 학대 징후를 실시간으로 탐지하는 AI 기술을 공개했습니다.",
+      "온라인 게임 내 안전 문제가 기업의 법적 책임과 직결되는 상황에서, 이 기술은 사용자 보호를 위한 선제적 대응 체계를 제공합니다.",
+      "게임사는 향후 규제 준수 및 플랫폼 안전성을 강화하기 위해 이와 같은 AI 기반 모니터링 솔루션을 도입하여 미성년자 보호 의무를 충실히 수행해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Aiba",
+        "Game Industry Stakeholders"
+      ],
+      "object": "AI-based detection system for grooming and online toxicity",
+      "action": "Development and implementation of AI monitoring tools to mitigate harmful online interactions",
+      "game_mechanic": "In-game chat and social interaction systems",
+      "time_hint": "October 2024"
+    },
+    "event_key": "global_ai_safety_grooming_detection_2024",
+    "is_primary": true,
+    "title_ko": "\"온라인 독성 문제는 오늘 해결할 수 있다\" – 미성년자 유인(Grooming) 징후를 탐지하는 AI 시스템"
+  },
+  {
+    "title": "Proposed State Privacy and AI Law Update: June 1, 2026",
+    "url": "https://www.jdsupra.com/legalnews/proposed-state-privacy-and-ai-law-1440009/",
+    "source": "JD Supra - Privacy",
+    "pub_date": "2026-06-01",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "버몬트(Vermont)주와 일리노이(Illinois)주가 각각 소비자 데이터 보호 및 AI 프런티어 모델 규제 법안을 통과시켰으며, 캘리포니아(California)주에서도 8개 관련 법안이 의회를 통과했습니다.",
+      "미국 내 주 단위의 개인정보보호 및 AI 관련 입법 활동이 지속적으로 확대되면서 게임 서비스 운영 시 더욱 복잡하고 파편화된 규제 준수 환경이 조성되고 있습니다.",
+      "게임사는 각 주별로 상이한 데이터 처리 및 AI 알고리즘 규제를 모니터링하고, 개발 단계부터 주별 법적 요건을 반영한 데이터 거버넌스 전략을 수립해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "legislation",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Vermont Legislature",
+        "Illinois Legislature",
+        "California Legislature"
+      ],
+      "object": "state-level privacy and AI model regulation",
+      "action": "legislative progression of consumer data privacy and frontier AI model bills",
+      "game_mechanic": "none",
+      "time_hint": "June 1, 2026"
+    },
+    "event_key": "us_state_privacy_ai_legislation_2026",
+    "is_primary": true,
+    "title_ko": "2026년 6월 1일 자 주(州)별 개인정보보호 및 AI 법안 업데이트"
+  },
+  {
+    "title": "Meta&#8217;s own AI was exploited to hijack Instagram accounts",
+    "url": "https://www.theverge.com/tech/941179/meta-instagram-ai-support-chatbot-exploit-hacked",
+    "source": "The Verge - CyberSecurity",
+    "pub_date": "2026-06-01",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "메타(Meta)의 고객 지원 AI 챗봇이 타인의 계정 이메일 변경 및 비밀번호 재설정을 허용하여 인스타그램 계정 탈취에 악용되는 보안 사고가 발생했습니다.",
+      "자동화된 AI 도구가 적절한 본인 인증 없이 민감한 계정 정보를 변경할 수 있다는 점이 입증되어 기업의 AI 도입에 따른 심각한 보안 취약점이 드러났습니다.",
+      "게임사들은 고객 지원이나 계정 관리에 AI를 도입할 때, 개인정보 관련 권한에 엄격한 다중 인증과 보안 검증 프로세스를 필수적으로 적용해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "security_incident",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Meta",
+        "Instagram"
+      ],
+      "object": "account recovery process via AI chatbot",
+      "action": "unauthorized account takeover vulnerability",
+      "game_mechanic": "n/a",
+      "time_hint": "2024"
+    },
+    "event_key": "global_meta_ai_security_vulnerability_2024",
+    "is_primary": true,
+    "title_ko": "메타(Meta)의 자체 AI가 인스타그램 계정 탈취에 악용되다"
+  },
+  {
+    "title": "[Video] Daily Compliance News: June 2, 2026, The Big Trouble Down Under Edition",
+    "url": "https://www.jdsupra.com/legalnews/daily-compliance-news-june-2-2026-the-76667/",
+    "source": "JD Supra - Antitrust & Trade Regulation",
+    "pub_date": "2026-06-02",
+    "category": "ETC",
+    "summary_ko": [
+      "컴플라이언스 전문가 톰 폭스(Tom Fox)가 진행하는 데일리 컴플라이언스 뉴스(Daily Compliance News)에서 비즈니스 및 규제 관련 주요 소식을 다뤘습니다.",
+      "이번 회차에서는 터크스 케이커스 제도(Turks and Caicos) 전 총리의 선고를 포함한 글로벌 법적 리스크와 규제 환경 변화를 분석하여 기업의 윤리 경영 중요성을 강조했습니다.",
+      "게임 산업 실무자는 글로벌 시장 진출 시 해당 국가의 부패 방지법 및 사법 리스크를 사전에 파악하여 컴플라이언스 체계를 선제적으로 구축해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Thomas Fox"
+      ],
+      "object": "compliance and regulatory news summary",
+      "action": "reporting daily compliance updates",
+      "game_mechanic": "none",
+      "time_hint": "June 2, 2026"
+    },
+    "event_key": "global_compliance_news_reporting_2026",
+    "is_primary": true,
+    "title_ko": "[영상] 일일 컴플라이언스 뉴스: 2026년 6월 2일, 호주발 대형 악재 편"
+  },
+  {
+    "title": "FIFA outlines multi-partner digital football strategy ahead of 2026 World Cup",
+    "url": "https://www.pocketgamer.biz/fifa-outlines-multi-partner-digital-football-strategy-ahead-of-2026-world-cup/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-06-01",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "국제축구연맹(FIFA)이 로블록스(Roblox), 에픽게임즈(Epic Games), 코나미(Konami) 등 다수의 기업과 협력하여 게임 및 e스포츠 생태계를 확장하는 디지털 전략을 공개했습니다.",
+      "기존의 단일 파트너 독점 모델에서 벗어나 다양한 플랫폼과 장르를 아우르는 전략으로 전환하며 2026 월드컵을 기점으로 영향력 확대를 꾀하고 있습니다.",
+      "게임사들은 향후 국제축구연맹(FIFA)과의 IP 협업 기회가 다변화될 것으로 예상되며, 다양한 플랫폼별 맞춤형 콘텐츠 전략 수립이 중요해질 전망입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "FIFA",
+        "Roblox",
+        "Epic Games",
+        "Konami"
+      ],
+      "object": "FIFA digital football gaming strategy",
+      "action": "transition from single-partner licensing to multi-partner ecosystem model",
+      "game_mechanic": "none",
+      "time_hint": "ahead of 2026 World Cup"
+    },
+    "event_key": "global_fifa_gaming_strategy_shift_2024",
+    "is_primary": true,
+    "title_ko": "국제축구연맹(FIFA), 2026 월드컵 앞두고 멀티 파트너 디지털 축구 전략 발표"
+  },
+  {
+    "title": "Saga launches AI Labs following blockchain network transition",
+    "url": "https://www.pocketgamer.biz/saga-launches-ai-labs-following-blockchain-network-transition/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-06-02",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "사가(Saga)가 자사 블록체인 네트워크 운영을 알라핀 홀딩스(Alapin Holdings)로 이전하고 인공지능(AI) 사업으로 중심축을 변경했습니다.",
+      "이번 행보는 단순 인프라 구축을 넘어 AI 기반 캐릭터, 디지털 인격체 및 자율 에이전트 개발로 게임 생태계를 확장하려는 전략적 변화를 의미합니다.",
+      "게임 개발사는 블록체인 기술과 AI를 결합하여 사용자 경험을 고도화하는 차세대 게임 플랫폼 및 콘텐츠 개발 전략을 재점검해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Saga",
+        "Alapin Holdings"
+      ],
+      "object": "Saga AI Labs",
+      "action": "launch of AI research division",
+      "game_mechanic": "AI-powered characters and autonomous agents",
+      "time_hint": "2025"
+    },
+    "event_key": "global_saga_ai_division_launch_2025",
+    "is_primary": true,
+    "title_ko": "사가(Saga), 블록체인 네트워크 전환 후 AI 랩스(AI Labs) 출범"
+  }
+]

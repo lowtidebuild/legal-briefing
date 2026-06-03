@@ -763,6 +763,66 @@
       "url_hash": "47502e15b45dae93",
       "date": "2026-06-01",
       "event_fingerprint": "fa0db9773feba029"
+    },
+    {
+      "event_key": "uk_rockstar_union_formation_2024",
+      "url_hash": "ec5f7807b23967ba",
+      "date": "2026-06-03",
+      "event_fingerprint": "de894edf63da93c4"
+    },
+    {
+      "event_key": "us_valve_antitrust_litigation_2024",
+      "url_hash": "c2d1ed22baebedad",
+      "date": "2026-06-03",
+      "event_fingerprint": "dc10790863e2c01c"
+    },
+    {
+      "event_key": "global_steam_monopoly_litigation_2024",
+      "url_hash": "6e7d1724e8c179df",
+      "date": "2026-06-03",
+      "event_fingerprint": "00d2d54a8d93aaf8"
+    },
+    {
+      "event_key": "global_atlas_menu_hack_2024",
+      "url_hash": "6b3232acee44db3a",
+      "date": "2026-06-03",
+      "event_fingerprint": "782f02f03ed8d45b"
+    },
+    {
+      "event_key": "global_ai_safety_grooming_detection_2024",
+      "url_hash": "978b641aa00023af",
+      "date": "2026-06-03",
+      "event_fingerprint": "a08434b1a55dd078"
+    },
+    {
+      "event_key": "us_state_privacy_ai_legislation_2026",
+      "url_hash": "ded3d4295505faf9",
+      "date": "2026-06-03",
+      "event_fingerprint": "a95bf6705093132a"
+    },
+    {
+      "event_key": "global_meta_ai_security_vulnerability_2024",
+      "url_hash": "24835f1eb7df9c6b",
+      "date": "2026-06-03",
+      "event_fingerprint": "ea47d2df542dd87c"
+    },
+    {
+      "event_key": "global_compliance_news_reporting_2026",
+      "url_hash": "483825e9fb8a2dab",
+      "date": "2026-06-03",
+      "event_fingerprint": "6af65f22daf125d1"
+    },
+    {
+      "event_key": "global_fifa_gaming_strategy_shift_2024",
+      "url_hash": "d6bd222c16f1362f",
+      "date": "2026-06-03",
+      "event_fingerprint": "09293c1feba4cd02"
+    },
+    {
+      "event_key": "global_saga_ai_division_launch_2025",
+      "url_hash": "208b67f3c330f153",
+      "date": "2026-06-03",
+      "event_fingerprint": "3e1d430bd8dbff4e"
     }
   ]
 }
