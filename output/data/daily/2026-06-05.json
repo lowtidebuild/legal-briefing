@@ -1,0 +1,281 @@
+[
+  {
+    "title": "Tomb Raider: Legacy of Atlantis comes with an AI disclaimer",
+    "url": "https://www.eurogamer.net/tomb-raider-legacy-of-atlantis-comes-with-an-ai-disclaimer",
+    "source": "Eurogamer",
+    "pub_date": "2026-06-03",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "크리스털 다이내믹스(Crystal Dynamics)가 개발한 '툼 레이더: 아틀란티스의 유산(Tomb Raider: Legacy of Atlantis)' 게임에 AI 활용에 대한 공식 고지문이 추가되었습니다.",
+      "게임 내 생성형 AI 기술 도입이 확산되는 가운데, 이용자들에게 투명한 정보를 제공하고 저작권 및 윤리적 우려를 선제적으로 대응하려는 업계의 움직임입니다.",
+      "게임 개발 시 AI 기술을 활용할 경우, 잠재적 법적 분쟁 방지와 소비자 신뢰 구축을 위해 개발 단계부터 AI 사용 여부를 명확히 고지하는 가이드라인 수립이 권장됩니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Crystal Dynamics"
+      ],
+      "object": "Tomb Raider: Legacy of Atlantis",
+      "action": "transparency disclosure regarding AI usage",
+      "game_mechanic": "N/A",
+      "time_hint": "May 2024"
+    },
+    "event_key": "global_ai_transparency_disclosure_2024",
+    "is_primary": true,
+    "title_ko": "툼 레이더: 아틀란티스의 유산(Tomb Raider: Legacy of Atlantis), AI 사용 고지문 포함"
+  },
+  {
+    "title": "Rockstar vs. the Independent Workers' Union of Great Britain: a timeline of events so far",
+    "url": "https://www.gamesindustry.biz/rockstar-vs-the-independent-workers-union-of-great-britain-a-timeline-of-events-so-far",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-06-01",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "락스타 게임즈(Rockstar Games)가 영국과 캐나다에서 직원 34명을 '중대한 위법 행위'를 이유로 해고하며 영국 독립노동조합(IWGB)과 갈등을 빚고 있습니다.",
+      "이번 사건은 대형 게임사 내 노동권 보호와 부당 해고 논란을 중심으로 노사 관계의 향방을 결정지을 중요한 선례가 될 것으로 평가받습니다.",
+      "게임 기업들은 글로벌 사업장에서 현지 노동법 준수 및 징계 절차의 투명성을 강화하여 법적 리스크와 평판 저하를 방지해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "UK",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Rockstar Games",
+        "Take-Two Interactive",
+        "Independent Workers' Union of Great Britain"
+      ],
+      "object": "employee status and dismissal",
+      "action": "legal challenge regarding unfair dismissal and labor practices",
+      "game_mechanic": "n/a",
+      "time_hint": "October 2025"
+    },
+    "event_key": "uk_rockstar_labor_dispute_2025",
+    "is_primary": true,
+    "title_ko": "락스타 게임즈(Rockstar Games) 대 영국 독립노동조합(IWGB): 현재까지의 사건 연대기"
+  },
+  {
+    "title": "California State Assembly passes landmark game preservation bill",
+    "url": "https://www.pocketgamer.biz/california-state-assembly-passes-landmark-game-preservation-bill/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-06-03",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "캘리포니아주 의회(California State Assembly)가 구매한 게임에 대한 접근성을 보장하는 '게임 보호법(Protect Our Games Act)'을 통과시켰습니다.",
+      "이번 법안은 디지털 구매 방식이 주류인 게임 시장에서 라이선스 종료에 따른 소비자 피해를 방지하는 중요한 선례가 될 것으로 평가받습니다.",
+      "게임사는 향후 디지털 서비스 종료 시 게임 접근성을 유지하거나, 소비자 고지 의무를 강화하는 등 서비스 운영 및 배포 정책을 재점검해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "legislation",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "California State Assembly",
+        "Chris Ward"
+      ],
+      "object": "Protect Our Games Act",
+      "action": "pass legislation to ensure continued access to digital video games",
+      "game_mechanic": "digital licensing",
+      "time_hint": "August 2024"
+    },
+    "event_key": "us_ca_game_preservation_legislation_2024",
+    "is_primary": true,
+    "title_ko": "캘리포니아주 의회, 게임 보존 법안 통과"
+  },
+  {
+    "title": "A Persona 6 announcement may be incoming",
+    "url": "https://www.pcgamer.com/games/rpg/a-persona-6-announcement-may-be-incoming/",
+    "source": "PC Gamer",
+    "pub_date": "2026-06-04",
+    "category": "IP",
+    "summary_ko": [
+      "아틀러스(Atlus)의 신작 페르소나 6(Persona 6)로 추정되는 유출 이미지가 저작권 신고로 인해 삭제되었습니다.",
+      "해당 조치는 삭제된 콘텐츠가 실제 내부 자료일 가능성을 시사하며, 팬들의 기대감과 함께 공식 발표 임박설에 힘을 싣고 있습니다.",
+      "게임사는 개발 중인 미공개 콘텐츠 유출에 대해 강력한 저작권 대응을 취함으로써 정보 통제력을 유지하고 마케팅 주도권을 확보해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "enforcement",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Atlus",
+        "SEGA"
+      ],
+      "object": "Persona 6 leaked images",
+      "action": "copyright takedown",
+      "game_mechanic": "none",
+      "time_hint": "2024"
+    },
+    "event_key": "global_persona6_leak_takedown_2024",
+    "is_primary": true,
+    "title_ko": "페르소나 6(Persona 6) 발표 임박 가능성"
+  },
+  {
+    "title": "Nintendo announces new Switch 2 with replaceable battery \"to meet the Regulation\" set out by the EU for waste reduction",
+    "url": "https://www.gamesradar.com/platforms/nintendo/nintendo-announces-new-switch-2-with-replaceable-battery-to-meet-the-regulation-set-out-by-the-eu-for-waste-reduction/",
+    "source": "gamesradar+",
+    "pub_date": "2026-06-04",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "닌텐도(Nintendo)가 EU의 배터리 규제를 준수하기 위해 교체형 배터리를 적용한 신형 게임기 스위치 2(Switch 2)를 2027년 2월 출시할 예정입니다.",
+      "이번 조치는 기기 수명을 연장하고 전자 폐기물을 줄이려는 EU의 강력한 환경 규제가 글로벌 하드웨어 설계 표준에 직접적인 변화를 강제하고 있음을 보여줍니다.",
+      "게임 개발사 및 하드웨어 제조사는 향후 유럽 시장 진출 시 배터리 탈착 용이성 및 지속 가능성 관련 법적 준수 사항을 초기 기획 단계부터 필수적으로 고려해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "legislation",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Nintendo",
+        "European Union"
+      ],
+      "object": "Switch 2 battery design",
+      "action": "Compliance with waste reduction regulations requiring replaceable batteries",
+      "game_mechanic": "hardware",
+      "time_hint": "February 2027"
+    },
+    "event_key": "eu_battery_waste_regulation_compliance_2027",
+    "is_primary": true,
+    "title_ko": "닌텐도(Nintendo), EU의 폐기물 감소 규제 준수를 위해 교체형 배터리를 탑재한 차세대 스위치 2(Switch 2) 발표"
+  },
+  {
+    "title": "Persona 6 hopefuls on high alert as Sega supposedly copyright strikes leaked screenshots of the unannounced JRPG: \"The snipers are out\"",
+    "url": "https://www.gamesradar.com/games/persona/persona-6-hopefuls-on-high-alert-as-sega-supposedly-copyright-strikes-leaked-screenshots-of-the-unannounced-jrpg-the-snipers-are-out/",
+    "source": "gamesradar+",
+    "pub_date": "2026-06-04",
+    "category": "IP",
+    "summary_ko": [
+      "세가(Sega)가 미발표 신작인 페르소나 6(Persona 6)의 유출된 스크린샷을 대상으로 저작권 침해 신고 및 삭제 조치를 단행했습니다.",
+      "여름 게임 페스티벌(Summer Game Fest) 등 주요 행사를 앞두고 기업의 강력한 IP 보호 기조가 재확인되었습니다.",
+      "게임사는 미공개 정보 유출 시 즉각적인 법적 대응을 취하므로, 마케팅 자산 보안 관리와 유출 대응 프로토콜을 점검해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "enforcement",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Sega"
+      ],
+      "object": "Persona 6 leaked screenshots",
+      "action": "Copyright strike takedown",
+      "game_mechanic": "none",
+      "time_hint": "June 2024"
+    },
+    "event_key": "global_persona6_copyright_strike_2024",
+    "is_primary": true,
+    "title_ko": "페르소나 6(Persona 6) 유출 스크린샷에 세가(Sega)가 저작권 경고 조치를 취하며 팬들 긴장 고조"
+  },
+  {
+    "title": "The BR Privacy, Security & AI Download: June 2026",
+    "url": "https://www.jdsupra.com/legalnews/the-br-privacy-security-ai-download-8694408/",
+    "source": "JD Supra - Privacy",
+    "pub_date": "2026-06-04",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "콜로라도(Colorado) 주지사 재러드 폴리스(Jared Polis)가 기존 AI 법안을 폐기하고 자동화된 의사결정 기술(ADMT) 규제에 집중한 상원 법안 189호를 새로 서명했습니다.",
+      "이번 개정은 기업 친화적인 프레임워크를 도입하여 AI 기술 활용에 따른 불필요한 규제 부담을 완화하고 법적 예측 가능성을 높이는 데 중점을 두었습니다.",
+      "게임사는 향후 사용자 데이터 기반의 AI 자동화 의사결정 도입 시 해당 지역별 AI 규제 차이를 면밀히 파악하고 준법 체계를 정비해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "legislation",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Colorado State Legislature",
+        "Jared Polis"
+      ],
+      "object": "Senate Bill 189",
+      "action": "Repeal and replace the 2024 Colorado AI Act with a framework for automated decision-making technology",
+      "game_mechanic": "N/A",
+      "time_hint": "June 2026"
+    },
+    "event_key": "us_colorado_ai_act_revision_2026",
+    "is_primary": true,
+    "title_ko": "블랭크 롬(Blank Rome)의 개인정보보호·보안·AI 리포트: 2026년 6월호"
+  },
+  {
+    "title": "Connecticut Enacts AI Framework While Colorado Scales Back Landmark AI Law",
+    "url": "https://www.jdsupra.com/legalnews/connecticut-enacts-ai-framework-while-6708014/",
+    "source": "JD Supra - Privacy",
+    "pub_date": "2026-06-03",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "미국 연방 차원의 포괄적 규제 부재 속에 코네티컷(Connecticut)주가 새로운 AI 프레임워크를 마련하고, 콜로라도(Colorado)주는 기존 AI 법안을 개정했습니다.",
+      "각 주마다 AI 규제 방식이 파편화되고 변화함에 따라 기업은 지역별로 상이한 법적 요구사항을 준수해야 하는 복잡한 환경에 직면했습니다.",
+      "게임사들은 AI 기술을 도입할 때 주별 규제 동향을 상시 모니터링하고, 개발 단계부터 데이터 활용 및 알고리즘 투명성 확보를 위한 컴플라이언스 전략을 세워야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "legislation",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "State of Colorado",
+        "Colorado General Assembly"
+      ],
+      "object": "Colorado Senate Bill 26-189",
+      "action": "enactment of revised AI regulation legislation",
+      "game_mechanic": "n/a",
+      "time_hint": "May 14, 2026"
+    },
+    "event_key": "us_colorado_ai_act_enacted_2026",
+    "is_primary": true,
+    "title_ko": "코네티컷(Connecticut)주 AI 프레임워크 제정 및 콜로라도(Colorado)주 AI 법안 수정"
+  },
+  {
+    "title": "Trump signs executive order to review AI models before they’re released",
+    "url": "https://www.theverge.com/policy/941775/trump-ai-executive-order",
+    "source": "The Verge - CyberSecurity",
+    "pub_date": "2026-06-02",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "도널드 트럼프(Donald Trump) 미국 대통령이 AI 기업들이 최첨단 AI 모델 출시 전 연방 정부와 이를 공유하도록 하는 자발적 프레임워크 구축 행정명령을 시행했습니다.",
+      "이번 조치는 국가 주요 기반 시설의 사이버 보안을 강화하고 안전한 AI 혁신을 도모하기 위한 정부 차원의 첫 번째 공식적인 대응이라는 점에서 중요합니다.",
+      "향후 게임사들은 AI 기반 개발 도구 및 서비스 도입 시 연방 정부의 보안 가이드라인 준수 여부를 선제적으로 확인하고 관리 체계를 구축해야 할 필요가 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Donald Trump",
+        "US Federal Government",
+        "AI companies"
+      ],
+      "object": "frontier AI models",
+      "action": "voluntary safety review framework",
+      "game_mechanic": "none",
+      "time_hint": "Tuesday"
+    },
+    "event_key": "us_ai_frontier_model_oversight_2025",
+    "is_primary": true,
+    "title_ko": "도널드 트럼프(Donald Trump) 대통령, AI 모델 출시 전 검토를 위한 행정명령 서명"
+  },
+  {
+    "title": "Commvault says it's time to rethink resiliency as AI crooks leave victims in a 'dark, dead' state",
+    "url": "https://www.theregister.com/security/2026/06/03/commvault-says-its-time-to-rethink-resiliency-as-ai-crooks-leave-victims-in-a-dark-dead-state/5250894",
+    "source": "The Register - Security",
+    "pub_date": "2026-06-03",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "컴볼트(Commvault)는 AI를 악용한 사이버 범죄로 인해 데이터가 완전히 파괴되는 사례가 늘고 있다며, 기존 백업 체계의 한계를 경고했습니다.",
+      "AI 기반 공격은 정교한 방식으로 백업 데이터까지 무력화할 수 있어, 기업의 데이터 회복 탄력성(Resiliency) 확보가 생존의 핵심이 되었습니다.",
+      "게임사는 정기적인 백업 데이터 검증 테스트를 강화하고, 침해 사고 발생 시 즉각적인 복구가 가능한 다중 방어 체계를 구축해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Commvault"
+      ],
+      "object": "data backup and resiliency protocols",
+      "action": "recommending enhanced security testing against AI-driven threats",
+      "game_mechanic": "n/a",
+      "time_hint": ""
+    },
+    "event_key": "global_security_resiliency_advisory_2024",
+    "is_primary": true,
+    "title_ko": "컴볼트(Commvault): AI 악용 사이버 공격 증가에 따른 데이터 복구 전략 재검토 필요"
+  }
+]

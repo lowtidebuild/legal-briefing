@@ -3,66 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "us_sony_psn_refund_litigation_2024",
-      "url_hash": "c61197e6e8f09c16",
-      "date": "2026-05-04",
-      "event_fingerprint": "66bfc49f81fd7b52"
-    },
-    {
-      "event_key": "eu_labor_nacon_spiders_closure_2026",
-      "url_hash": "a330c265aa489f36",
-      "date": "2026-05-04",
-      "event_fingerprint": "97582cfc84804659"
-    },
-    {
-      "event_key": "us_utah_age_verification_legislation_2024",
-      "url_hash": "7577492635c90153",
-      "date": "2026-05-04",
-      "event_fingerprint": "ff8ef5d131be3608"
-    },
-    {
-      "event_key": "kr_nexon_ironmace_copyright_litigation_2024",
-      "url_hash": "de01c76639be0d3b",
-      "date": "2026-05-04",
-      "event_fingerprint": "bbd09e7575f3ab4b"
-    },
-    {
-      "event_key": "kr_nexon_ironmace_ip_litigation_2024",
-      "url_hash": "fbc88566e2f5c9dd",
-      "date": "2026-05-04",
-      "event_fingerprint": "78ce67816c14cd11"
-    },
-    {
-      "event_key": "ca_openai_liability_lawsuit_2026q2",
-      "url_hash": "c8bef18169e46c29",
-      "date": "2026-05-04",
-      "event_fingerprint": "b10392ac496f2801"
-    },
-    {
-      "event_key": "us_esa_iicon_policy_shift_2026",
-      "url_hash": "a73ee29a7a1cc3b2",
-      "date": "2026-05-04",
-      "event_fingerprint": "1b902a2ee0b3807c"
-    },
-    {
-      "event_key": "us_mtg_arena_unionization_2024",
-      "url_hash": "e060b993c3f40912",
-      "date": "2026-05-04",
-      "event_fingerprint": "2532b61786fe39ca"
-    },
-    {
-      "event_key": "us_darpa_aixcc_initiative_2024",
-      "url_hash": "5716a0ae221ae8b2",
-      "date": "2026-05-04",
-      "event_fingerprint": "6f185d5a488d0fb3"
-    },
-    {
-      "event_key": "us_ai_cybersecurity_compliance_2026",
-      "url_hash": "fa034f0a7d011ade",
-      "date": "2026-05-04",
-      "event_fingerprint": "53713e5e83dc8a7b"
-    },
-    {
       "event_key": "cn_labor_ai_termination_litigation_2024",
       "url_hash": "759a9c7af96f32af",
       "date": "2026-05-06",
@@ -823,6 +763,66 @@
       "url_hash": "208b67f3c330f153",
       "date": "2026-06-03",
       "event_fingerprint": "3e1d430bd8dbff4e"
+    },
+    {
+      "event_key": "global_ai_transparency_disclosure_2024",
+      "url_hash": "30da487994b06162",
+      "date": "2026-06-05",
+      "event_fingerprint": "d0a2462b733a24d0"
+    },
+    {
+      "event_key": "uk_rockstar_labor_dispute_2025",
+      "url_hash": "fbab02138e38e9da",
+      "date": "2026-06-05",
+      "event_fingerprint": "16dfbc3840c46920"
+    },
+    {
+      "event_key": "us_ca_game_preservation_legislation_2024",
+      "url_hash": "d0a1fceb92f0a5a6",
+      "date": "2026-06-05",
+      "event_fingerprint": "b6598118593f1f2e"
+    },
+    {
+      "event_key": "global_persona6_leak_takedown_2024",
+      "url_hash": "4545a710d835ac46",
+      "date": "2026-06-05",
+      "event_fingerprint": "db45a4d6b9477ce4"
+    },
+    {
+      "event_key": "eu_battery_waste_regulation_compliance_2027",
+      "url_hash": "c31928b0bfb742d1",
+      "date": "2026-06-05",
+      "event_fingerprint": "802a8e82dc4f44d2"
+    },
+    {
+      "event_key": "global_persona6_copyright_strike_2024",
+      "url_hash": "848b6438b22ab17f",
+      "date": "2026-06-05",
+      "event_fingerprint": "49cb7c4152c00fed"
+    },
+    {
+      "event_key": "us_colorado_ai_act_revision_2026",
+      "url_hash": "0ee591360c56b25d",
+      "date": "2026-06-05",
+      "event_fingerprint": "479019b8ad6d6b35"
+    },
+    {
+      "event_key": "us_colorado_ai_act_enacted_2026",
+      "url_hash": "1c1161434414f0da",
+      "date": "2026-06-05",
+      "event_fingerprint": "11b59962c5353212"
+    },
+    {
+      "event_key": "us_ai_frontier_model_oversight_2025",
+      "url_hash": "78ac8c1e151037d6",
+      "date": "2026-06-05",
+      "event_fingerprint": "b55bc947d4165dee"
+    },
+    {
+      "event_key": "global_security_resiliency_advisory_2024",
+      "url_hash": "b3b21ed9c2da2fe9",
+      "date": "2026-06-05",
+      "event_fingerprint": "2a9e53a5840d1ff1"
     }
   ]
 }
