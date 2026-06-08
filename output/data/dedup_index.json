@@ -3,126 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "cn_labor_ai_termination_litigation_2024",
-      "url_hash": "759a9c7af96f32af",
-      "date": "2026-05-06",
-      "event_fingerprint": "b4f20f75ed29a728"
-    },
-    {
-      "event_key": "us_playstation_antitrust_settlement_2024",
-      "url_hash": "2634c765763e7a30",
-      "date": "2026-05-06",
-      "event_fingerprint": "df9e74347307eb0c"
-    },
-    {
-      "event_key": "us_ai_advertising_settlement_2024",
-      "url_hash": "186b99775a30a367",
-      "date": "2026-05-06",
-      "event_fingerprint": "2c8054d61f13cfd4"
-    },
-    {
-      "event_key": "us_hasbro_wotc_unionization_refusal_2024",
-      "url_hash": "df04e96c6ad56607",
-      "date": "2026-05-06",
-      "event_fingerprint": "253ae36a420bbd8b"
-    },
-    {
-      "event_key": "us_xbox_ai_strategy_reorganization_2025",
-      "url_hash": "a3458478172eec1a",
-      "date": "2026-05-06",
-      "event_fingerprint": "441ed368e99c863b"
-    },
-    {
-      "event_key": "global_steam_copyright_enforcement_2025",
-      "url_hash": "4e38437857814d5a",
-      "date": "2026-05-06",
-      "event_fingerprint": "dc30bd3d9868a8ac"
-    },
-    {
-      "event_key": "us_playstation_store_antitrust_settlement_2024",
-      "url_hash": "0ead72ba9a601788",
-      "date": "2026-05-06",
-      "event_fingerprint": "381df742b362927a"
-    },
-    {
-      "event_key": "cn_ai_labor_substitution_regulation_2024",
-      "url_hash": "9ac8a199dea2f706",
-      "date": "2026-05-06",
-      "event_fingerprint": "c8be6b82b90e51b8"
-    },
-    {
-      "event_key": "in_ai_security_advisory_2024",
-      "url_hash": "6a2eb9b6ba316e00",
-      "date": "2026-05-06",
-      "event_fingerprint": "b8d9a81091049150"
-    },
-    {
-      "event_key": "global_unity_ai_tools_launch_2024",
-      "url_hash": "177bb0d611dff61c",
-      "date": "2026-05-06",
-      "event_fingerprint": "0cccb56fb54f919b"
-    },
-    {
-      "event_key": "global_ai_content_review_2024",
-      "url_hash": "bb794bcce6aa82f7",
-      "date": "2026-05-08",
-      "event_fingerprint": "d4af8e9afd0160f6"
-    },
-    {
-      "event_key": "global_ai_content_policy_review_2024",
-      "url_hash": "2cefdfa4302dc6c0",
-      "date": "2026-05-08",
-      "event_fingerprint": "adfcdda89ef16889"
-    },
-    {
-      "event_key": "us_wotc_union_recognition_refusal_2024",
-      "url_hash": "d72eb473d473c8e0",
-      "date": "2026-05-08",
-      "event_fingerprint": "6201fafbbc2f93a3"
-    },
-    {
-      "event_key": "eu_ai_copyright_resolution_2026",
-      "url_hash": "5f83be0397126318",
-      "date": "2026-05-08",
-      "event_fingerprint": "db771d9bf55b95cc"
-    },
-    {
-      "event_key": "us_2k_studio_layoffs_2024q4",
-      "url_hash": "ff11d3b2f034fcd3",
-      "date": "2026-05-08",
-      "event_fingerprint": "6127d5d09be11c07"
-    },
-    {
-      "event_key": "global_ai_tools_launch_2024",
-      "url_hash": "7f0c90e3a9b1124f",
-      "date": "2026-05-08",
-      "event_fingerprint": "3b04aa520672c958"
-    },
-    {
-      "event_key": "global_xbox_copilot_discontinuation_2024",
-      "url_hash": "e0807a941f33a340",
-      "date": "2026-05-08",
-      "event_fingerprint": "23bdb8400ad056a9"
-    },
-    {
-      "event_key": "global_google_chrome_ai_model_transparency_2024",
-      "url_hash": "09df9513030bc5af",
-      "date": "2026-05-08",
-      "event_fingerprint": "2ec57cd4b2c5c08b"
-    },
-    {
-      "event_key": "us_ai_hr_compliance_guidance_2026",
-      "url_hash": "987d9724af9f26b9",
-      "date": "2026-05-08",
-      "event_fingerprint": "d199f2b6852df8e0"
-    },
-    {
-      "event_key": "global_ai_ua_funding_2024",
-      "url_hash": "040ea1beebae5e02",
-      "date": "2026-05-08",
-      "event_fingerprint": "0a411dc11b3d9556"
-    },
-    {
       "event_key": "us_ai_regulation_framework_development_2025",
       "url_hash": "82d2ef70e44034af",
       "date": "2026-05-11",
@@ -823,6 +703,66 @@
       "url_hash": "b3b21ed9c2da2fe9",
       "date": "2026-06-05",
       "event_fingerprint": "2a9e53a5840d1ff1"
+    },
+    {
+      "event_key": "global_capcom_genai_policy_2024",
+      "url_hash": "193cdb67f7e44948",
+      "date": "2026-06-08",
+      "event_fingerprint": "67f246860cf2839a"
+    },
+    {
+      "event_key": "global_steam_ai_disclosure_policy_2024",
+      "url_hash": "8f3e89f3402236dd",
+      "date": "2026-06-08",
+      "event_fingerprint": "1a5583ea5dba1555"
+    },
+    {
+      "event_key": "global_xbox_ai_strategy_reset_2025",
+      "url_hash": "fd1b733a3d922ef9",
+      "date": "2026-06-08",
+      "event_fingerprint": "824b7259485caae9"
+    },
+    {
+      "event_key": "global_ai_content_cloning_impact_2024",
+      "url_hash": "aec6037ff1cd282e",
+      "date": "2026-06-08",
+      "event_fingerprint": "f552fc818e5d15f0"
+    },
+    {
+      "event_key": "us_ai_insurance_governance_2024",
+      "url_hash": "1d84a5d9863d3e7a",
+      "date": "2026-06-08",
+      "event_fingerprint": "790249e4b69282b8"
+    },
+    {
+      "event_key": "us_patent_infringement_standard_2026",
+      "url_hash": "ed65a945f7840811",
+      "date": "2026-06-08",
+      "event_fingerprint": "d3adce0944f936d2"
+    },
+    {
+      "event_key": "global_ai_hardware_supply_chain_2025",
+      "url_hash": "01dda9fd8f7274b2",
+      "date": "2026-06-08",
+      "event_fingerprint": "0ccef1aa4f9988f2"
+    },
+    {
+      "event_key": "global_esports_partnership_mpl_qiddiya_2024",
+      "url_hash": "a2137a2255b80f9e",
+      "date": "2026-06-08",
+      "event_fingerprint": "efaa4f53f0df6ea4"
+    },
+    {
+      "event_key": "global_ai_game_development_strategy_2024",
+      "url_hash": "de129a05266deb93",
+      "date": "2026-06-08",
+      "event_fingerprint": "870dfb624f821f1a"
+    },
+    {
+      "event_key": "global_esports_manager_2026_release_2026",
+      "url_hash": "207447e96022eac9",
+      "date": "2026-06-08",
+      "event_fingerprint": "65d39016b39c16b2"
     }
   ]
 }
