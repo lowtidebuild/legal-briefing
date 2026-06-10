@@ -763,6 +763,66 @@
       "url_hash": "207447e96022eac9",
       "date": "2026-06-08",
       "event_fingerprint": "65d39016b39c16b2"
+    },
+    {
+      "event_key": "eu_battery_directive_compliance_2024",
+      "url_hash": "7660fe342c71ab04",
+      "date": "2026-06-10",
+      "event_fingerprint": "fcd1093931df7a7a"
+    },
+    {
+      "event_key": "us_roblox_morpheus_acquisition_2024",
+      "url_hash": "be43bb9401609f22",
+      "date": "2026-06-10",
+      "event_fingerprint": "37515bafaadc313d"
+    },
+    {
+      "event_key": "eu_dma_apple_ai_launch_2024",
+      "url_hash": "6be6d4d1760e0347",
+      "date": "2026-06-10",
+      "event_fingerprint": "925f1f94a612d1ae"
+    },
+    {
+      "event_key": "global_xbox_exclusivity_policy_2024",
+      "url_hash": "10441e31650184b4",
+      "date": "2026-06-10",
+      "event_fingerprint": "837037f1941c5a42"
+    },
+    {
+      "event_key": "global_ai_development_disclosure_2025",
+      "url_hash": "8f628dea05c7286e",
+      "date": "2026-06-10",
+      "event_fingerprint": "1966ddcfee1cf950"
+    },
+    {
+      "event_key": "us_connecticut_ai_oversight_bill_2026",
+      "url_hash": "d8b410f83841b4a8",
+      "date": "2026-06-10",
+      "event_fingerprint": "8fd083386e42f28a"
+    },
+    {
+      "event_key": "us_apple_ai_safety_announcement_2026q2",
+      "url_hash": "4b8998fdaa687e5c",
+      "date": "2026-06-10",
+      "event_fingerprint": "ac458dd4dc199740"
+    },
+    {
+      "event_key": "us_nso_meta_litigation_2024",
+      "url_hash": "6a73cd33224e49ee",
+      "date": "2026-06-10",
+      "event_fingerprint": "dd49c27f61b783e4"
+    },
+    {
+      "event_key": "global_ai_disclosure_sega_crazy_taxi_2027",
+      "url_hash": "146115639e9b01f6",
+      "date": "2026-06-10",
+      "event_fingerprint": "8c041e1b0643a28f"
+    },
+    {
+      "event_key": "global_openai_ipo_ai_compliance_2026q2",
+      "url_hash": "50b6d5cd95b17661",
+      "date": "2026-06-10",
+      "event_fingerprint": "c98aa0cd7efa637f"
     }
   ]
 }

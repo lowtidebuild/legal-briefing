@@ -1,0 +1,279 @@
+[
+  {
+    "title": "Nintendo confirms revised Switch 2 console with replaceable battery for EU consumers",
+    "url": "https://www.gamesindustry.biz/nintendo-confirms-revised-switch-2-console-with-replaceable-battery-for-eu-consumers",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-06-08",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "닌텐도(Nintendo)가 EU의 배터리 규제 준수를 위해 교체 가능한 배터리를 탑재한 스위치(Switch) 2 모델을 유럽 시장에 출시한다고 발표했습니다.",
+      "이번 조치는 기기 내 배터리 접근성 및 수리 용이성을 강화하도록 요구하는 최신 EU 배터리 규정(EU Battery Regulation)을 준수하기 위한 행보입니다.",
+      "EU 시장 진출을 준비하는 하드웨어 제조사는 초기 제품 설계 단계부터 해당 지역의 엄격한 지속 가능성 및 수리권 관련 환경 규제를 선제적으로 고려해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "enforcement",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Nintendo",
+        "European Commission"
+      ],
+      "object": "Switch 2 hardware battery design",
+      "action": "compliance with EU legislation on replaceable batteries",
+      "game_mechanic": "null",
+      "time_hint": "2024"
+    },
+    "event_key": "eu_battery_directive_compliance_2024",
+    "is_primary": true,
+    "title_ko": "닌텐도(Nintendo), EU 소비자 대상 교체형 배터리를 탑재한 스위치(Switch) 2 콘솔 출시 확정"
+  },
+  {
+    "title": "Roblox strengthens AI ambitions with Morpheus AI acquisition and founder hires",
+    "url": "https://www.pocketgamer.biz/roblox-strengthens-ai-ambitions-with-morpheus-ai-acquisition-and-founder-hires/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-06-09",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "로블록스(Roblox)가 실시간 인터랙티브 생성 AI 기술을 보유한 모피어스 AI(Morpheus AI) 팀과 그들의 기술을 인수했습니다.",
+      "이번 인수로 로블록스(Roblox)는 게임 내 오프라인 비디오 모델을 실시간 반응형 시스템으로 전환하여 플랫폼의 콘텐츠 생성 역량을 획기적으로 높일 수 있게 되었습니다.",
+      "게임 업계는 향후 사용자 제작 콘텐츠(UGC) 환경에서 생성형 AI의 실시간 적용 사례가 크게 늘어날 것으로 보이며, 관련 기술 내재화와 인재 확보 경쟁이 가속화될 전망입니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Roblox",
+        "Morpheus AI"
+      ],
+      "object": "AI technology and talent acquisition",
+      "action": "acquisition of assets and personnel to enhance real-time interactive AI generation",
+      "game_mechanic": "user-generated content",
+      "time_hint": "October 2024"
+    },
+    "event_key": "us_roblox_morpheus_acquisition_2024",
+    "is_primary": true,
+    "title_ko": "로블록스(Roblox), 모피어스 AI(Morpheus AI) 인수 및 핵심 인재 영입으로 AI 기술력 강화"
+  },
+  {
+    "title": "Apple wants Europe to blink",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/947051/apple-europe-dma-siri-ai",
+    "source": "The Verge - Policy",
+    "pub_date": "2026-06-09",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "애플(Apple)은 디지털 시장법(DMA) 준수와 보안 문제를 이유로 신규 AI 기능인 '애플 인텔리전스(Apple Intelligence)'의 유럽 지역 출시를 보류했습니다.",
+      "거대 플랫폼 기업의 폐쇄적 생태계를 견제하려는 EU와 자사 보안 정책 및 기술적 어려움을 내세운 애플(Apple) 간의 갈등이 심화되고 있습니다.",
+      "글로벌 게임사들은 EU의 데이터 공유 및 상호 운용성 규제가 자사 서비스 출시와 기술 도입 전략에 미칠 잠재적 제한 사항을 사전에 검토해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "policy",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Apple",
+        "European Commission"
+      ],
+      "object": "Apple Intelligence features",
+      "action": "withholding feature release due to regulatory compliance concerns with Digital Markets Act",
+      "game_mechanic": "n/a",
+      "time_hint": "June 2024"
+    },
+    "event_key": "eu_dma_apple_ai_launch_2024",
+    "is_primary": true,
+    "title_ko": "유럽연합(EU)의 규제에 맞서는 애플(Apple)"
+  },
+  {
+    "title": "Xbox explains new exclusives policy: players \"can expect a reliable pipeline\" of exclusive titles in service of  \"turning around the business\"",
+    "url": "https://www.gamesindustry.biz/xbox-explains-new-exclusives-policy-players-can-expect-a-reliable-pipeline-of-exclusive-titles-in-service-of-turning-around-the-business",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-06-08",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "엑스박스(Xbox)의 전략 책임자 매튜 볼(Matthew Ball)이 '기어스 오브 워: 이-데이(Gears of War: E-Day)'와 '클락워크 레볼루션(Clockwork Revolution)'의 독점 출시를 확정하며 새로운 플랫폼 독점 정책을 구체화했습니다.",
+      "이번 결정은 멀티플랫폼 확장 기조 속에서도 핵심 타이틀의 독점성을 유지함으로써 엑스박스(Xbox) 브랜드의 시장 경쟁력을 강화하고 사업 성과를 회복하기 위한 전략적 선택으로 풀이됩니다.",
+      "게임사들은 멀티플랫폼 전략과 독점작 출시 사이에서 수익 극대화와 플랫폼 생태계 결속이라는 균형점을 정교하게 수립해야 하는 과제를 안게 되었습니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Microsoft",
+        "Xbox"
+      ],
+      "object": "platform exclusivity strategy",
+      "action": "defined case-by-case exclusivity policy for first-party titles",
+      "game_mechanic": "none",
+      "time_hint": "2024"
+    },
+    "event_key": "global_xbox_exclusivity_policy_2024",
+    "is_primary": true,
+    "title_ko": "엑스박스(Xbox), 독점작 전략 발표: 사업 정상화를 위해 신뢰할 수 있는 독점 타이틀 공급할 것"
+  },
+  {
+    "title": "Following generative AI controversy, Crazy Taxi: World Tour lead clarifies how the tech is being used",
+    "url": "https://www.eurogamer.net/crazy-taxi-world-tour-generative-ai-new-information",
+    "source": "Eurogamer",
+    "pub_date": "2026-06-09",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "세가(Sega)는 신작 '크레이지 택시: 월드 투어(Crazy Taxi: World Tour)' 개발 과정에 생성형 AI가 도입되었다고 밝혔으나, 커뮤니티의 반발을 샀습니다.",
+      "게임 개발 내 생성형 AI 활용은 저작권 및 윤리적 우려를 동반하므로 이용자들의 민감도가 매우 높은 사안입니다.",
+      "실무자들은 AI 도입 시 투명한 정보 공개가 필수적이며, 부정적 여론 확산을 방지하기 위한 명확한 활용 가이드라인 마련이 중요합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Sega"
+      ],
+      "object": "Crazy Taxi: World Tour",
+      "action": "Use of generative AI in game development",
+      "game_mechanic": "none",
+      "time_hint": "2025"
+    },
+    "event_key": "global_ai_development_disclosure_2025",
+    "is_primary": true,
+    "title_ko": "생성형 AI 논란 이후, 크레이지 택시: 월드 투어(Crazy Taxi: World Tour) 개발진이 기술 활용 방식 해명"
+  },
+  {
+    "title": "Senate Bill 5 and the New Compliance Frontier for AI in Connecticut",
+    "url": "https://www.jdsupra.com/legalnews/senate-bill-5-and-the-new-compliance-5362550/",
+    "source": "JD Supra - Privacy",
+    "pub_date": "2026-06-05",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "네드 라몬트(Ned Lamont) 코네티컷 주지사가 AI 활용 전반을 아우르는 광범위한 감독 체계인 상원 법안 5호(Senate Bill 5)에 서명했습니다.",
+      "이 법안은 소비자 고지, 채용 도구, AI 동반자 등 게임 내 AI 요소를 포함한 다양한 분야의 데이터 보호와 거버넌스를 포괄적으로 규제합니다.",
+      "게임사는 향후 코네티컷주 내 서비스 시 AI 알고리즘의 투명성을 확보하고, AI 활용에 따른 소비자 권리 및 고용 규제 준수 여부를 선제적으로 검토해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "legislation",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Governor Ned Lamont",
+        "Connecticut State Senate"
+      ],
+      "object": "Senate Bill 5",
+      "action": "Signed into law establishing AI oversight framework",
+      "game_mechanic": "N/A",
+      "time_hint": "May 27, 2026"
+    },
+    "event_key": "us_connecticut_ai_oversight_bill_2026",
+    "is_primary": true,
+    "title_ko": "코네티컷주 상원 법안 5호(Senate Bill 5)와 AI 규제의 새로운 지평"
+  },
+  {
+    "title": "6 key takeaways from WWDC26: AI and child safety - but where are the games?",
+    "url": "https://www.pocketgamer.biz/6-key-takeaways-from-wwdc26-ai-and-child-safety-but-where-are-the-games/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-06-08",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "애플(Apple)의 팀 쿡(Tim Cook) CEO가 마지막으로 참여한 WWDC26에서 인공지능(AI)과 아동 안전 기능 중심의 업데이트가 발표되었습니다.",
+      "이번 행사는 새로운 시리(Siri)와 애플 인텔리전스(Apple Intelligence)를 전면에 내세웠으나, 게임 관련 신규 발표가 부재하여 업계의 주목을 받았습니다.",
+      "게임 개발사는 향후 애플(Apple) 생태계에서 AI 기술 통합 및 개인정보 보호 규제 대응이 핵심이 될 것이며, 단순 기술 도입을 넘어 차별화된 게임 경험을 증명해야 하는 과제를 안게 되었습니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Apple"
+      ],
+      "object": "Apple Intelligence and Siri AI integration",
+      "action": "announcement of expanded AI capabilities with emphasis on child safety frameworks",
+      "game_mechanic": "none",
+      "time_hint": "June 2026"
+    },
+    "event_key": "us_apple_ai_safety_announcement_2026q2",
+    "is_primary": true,
+    "title_ko": "WWDC26의 6가지 핵심 요약: AI와 아동 안전, 하지만 게임은 어디에?"
+  },
+  {
+    "title": "NSO Group back in Meta's crosshairs after alleged WhatsApp targeting",
+    "url": "https://www.theregister.com/security/2026/06/08/nso-group-back-in-metas-crosshairs-after-alleged-whatsapp-targeting/5252105",
+    "source": "The Register - Security",
+    "pub_date": "2026-06-08",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "메타(Meta)는 법원의 중단 명령에도 불구하고 NSO 그룹(NSO Group)이 여전히 왓츠앱(WhatsApp) 사용자를 대상으로 피싱 공격을 지속하고 있다고 주장했습니다.",
+      "이번 사건은 대형 IT 플랫폼이 민간 스파이웨어 업체의 불법적 감시 활동을 법적으로 제재하려는 시도로서, 사용자 보안 및 데이터 보호 책임의 중요성을 부각합니다.",
+      "게임사들은 자사 플랫폼 내에서 사용자 계정을 노리는 피싱 및 스파이웨어 유포 방지를 위해 보안 모니터링을 강화하고 필요 시 법적 대응 체계를 갖춰야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Meta",
+        "NSO Group",
+        "WhatsApp"
+      ],
+      "object": "surveillance software targeting",
+      "action": "violation of federal court order regarding phishing operations",
+      "game_mechanic": "n/a",
+      "time_hint": ""
+    },
+    "event_key": "us_nso_meta_litigation_2024",
+    "is_primary": true,
+    "title_ko": "메타(Meta), 왓츠앱(WhatsApp) 해킹 의혹 관련 NSO 그룹(NSO Group) 재조준"
+  },
+  {
+    "title": "Crazy Taxi World Tour officially announced, Sega immediately upsets everyone by announcing it used generative AI",
+    "url": "https://www.eurogamer.net/crazy-taxi-world-tour-officially-announced-sega-immediately-upsets-everyone-by-announcing-it-used-generative-ai",
+    "source": "Eurogamer",
+    "pub_date": "2026-06-07",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "세가(Sega)가 신작 '크레이지 택시 월드 투어(Crazy Taxi World Tour)'를 공개하며 게임 개발 과정에 생성형 AI를 활용했다고 발표했습니다.",
+      "이번 발표는 AI 도입에 대한 기존 팬층의 거부감과 윤리적 논쟁을 촉발하며 게임 내 신기술 적용에 대한 여론의 민감함을 보여주었습니다.",
+      "게임사는 AI 도입 시 기술적 효율성뿐만 아니라 커뮤니티의 반발 가능성을 고려한 투명한 소통과 리스크 관리 전략이 필수적입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Sega"
+      ],
+      "object": "Generative AI usage in Crazy Taxi World Tour",
+      "action": "Disclosure of generative AI integration in game development",
+      "game_mechanic": "N/A",
+      "time_hint": "2027"
+    },
+    "event_key": "global_ai_disclosure_sega_crazy_taxi_2027",
+    "is_primary": true,
+    "title_ko": "크레이지 택시 월드 투어(Crazy Taxi World Tour) 공식 발표, 세가(Sega)의 생성형 AI 사용 선언으로 논란 확산"
+  },
+  {
+    "title": "[Video] AI Today in 5: June 9, 2026, The OpenAI Files to go Public Edition",
+    "url": "https://www.jdsupra.com/legalnews/ai-today-in-5-june-9-2026-the-openai-06014/",
+    "source": "JD Supra - Antitrust & Trade Regulation",
+    "pub_date": "2026-06-09",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "컴플라이언스 팟캐스트 네트워크(Compliance Podcast Network)에서 AI 분야의 주요 뉴스 5가지를 매일 선정하여 브리핑하는 서비스를 제공합니다.",
+      "비즈니스, 컴플라이언스, 리스크 관리 등 AI 도입과 관련된 최신 이슈를 다루어 산업 전반의 흐름을 파악하는 데 중요합니다.",
+      "게임사 실무진은 게임 개발 및 운영 과정에서의 AI 활용에 따른 최신 규제 및 리스크 관리 트렌드를 지속적으로 모니터링해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "OpenAI"
+      ],
+      "object": "OpenAI public offering plans and AI compliance integration",
+      "action": "Market expansion and compliance news monitoring",
+      "game_mechanic": "N/A",
+      "time_hint": "June 9, 2026"
+    },
+    "event_key": "global_openai_ipo_ai_compliance_2026q2",
+    "is_primary": true,
+    "title_ko": "[영상] AI 투데이 인 5: 2026년 6월 9일, 오픈AI(OpenAI) 파일 공개 에디션"
+  }
+]
