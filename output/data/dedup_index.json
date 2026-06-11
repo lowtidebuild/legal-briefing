@@ -3,66 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "us_ai_regulation_framework_development_2025",
-      "url_hash": "82d2ef70e44034af",
-      "date": "2026-05-11",
-      "event_fingerprint": "19b6e2e8ee3e2baf"
-    },
-    {
-      "event_key": "cn_ai_dev_adoption_2025",
-      "url_hash": "ee0ac2507785a9d5",
-      "date": "2026-05-11",
-      "event_fingerprint": "bd126399d3442698"
-    },
-    {
-      "event_key": "global_ai_voice_ethical_policy_2024",
-      "url_hash": "85dd8b6d58455ae4",
-      "date": "2026-05-11",
-      "event_fingerprint": "e69b380b013d123f"
-    },
-    {
-      "event_key": "global_ai_guardrails_policy_2026",
-      "url_hash": "2d93ae903fd2ac08",
-      "date": "2026-05-11",
-      "event_fingerprint": "7030710551ed9c51"
-    },
-    {
-      "event_key": "us_labor_union_formation_2024",
-      "url_hash": "52487739233b15cb",
-      "date": "2026-05-11",
-      "event_fingerprint": "a5a7933c7a20e724"
-    },
-    {
-      "event_key": "global_google_play_platform_policy_enforcement_2024",
-      "url_hash": "116c2868bbdee9a1",
-      "date": "2026-05-11",
-      "event_fingerprint": "462295a06729229b"
-    },
-    {
-      "event_key": "us_xbox_ai_leadership_restructuring_2024",
-      "url_hash": "c09e03cd1768dd35",
-      "date": "2026-05-11",
-      "event_fingerprint": "d75ffb1db9bd8d31"
-    },
-    {
-      "event_key": "global_canvas_cyberattack_2024",
-      "url_hash": "e7e484f28914b0da",
-      "date": "2026-05-11",
-      "event_fingerprint": "31783f2915ac27fd"
-    },
-    {
-      "event_key": "global_ai_hardware_supply_shift_2024",
-      "url_hash": "80731e8983c2a6c8",
-      "date": "2026-05-11",
-      "event_fingerprint": "01c1779cf231f590"
-    },
-    {
-      "event_key": "global_ai_gaming_policy_exploration_2024",
-      "url_hash": "c281bb586ed7a1de",
-      "date": "2026-05-11",
-      "event_fingerprint": "a3492c25da1fc69b"
-    },
-    {
       "event_key": "global_esports_ewc_partnership_2026",
       "url_hash": "e7cb2055e3eb04dc",
       "date": "2026-05-13",
@@ -823,6 +763,66 @@
       "url_hash": "50b6d5cd95b17661",
       "date": "2026-06-10",
       "event_fingerprint": "c98aa0cd7efa637f"
+    },
+    {
+      "event_key": "eu_data_privacy_breach_template_2024",
+      "url_hash": "ca3c1833c4578513",
+      "date": "2026-06-11",
+      "event_fingerprint": "57c2df507d6b0879"
+    },
+    {
+      "event_key": "us_ai_liability_litigation_2024",
+      "url_hash": "a1f6d616a3cf3d96",
+      "date": "2026-06-11",
+      "event_fingerprint": "0d79e102ab44b425"
+    },
+    {
+      "event_key": "ru_roblox_ban_lifting_2024",
+      "url_hash": "ee09f4ab1e710e4a",
+      "date": "2026-06-11",
+      "event_fingerprint": "82cdeb3573981264"
+    },
+    {
+      "event_key": "eu_google_ai_overview_injunction_2024",
+      "url_hash": "feb7d24ac976736b",
+      "date": "2026-06-11",
+      "event_fingerprint": "b83740f2d011bee5"
+    },
+    {
+      "event_key": "global_privacy_ua_strategy_shift_2024",
+      "url_hash": "2c24d317c2c9efe1",
+      "date": "2026-06-11",
+      "event_fingerprint": "7e9d4a883bda3a84"
+    },
+    {
+      "event_key": "global_ai_compliance_modernization_2026",
+      "url_hash": "59db738551969c55",
+      "date": "2026-06-11",
+      "event_fingerprint": "dce69eab2730759f"
+    },
+    {
+      "event_key": "eu_hungary_ai_surveillance_2026",
+      "url_hash": "2fc1674f5a28dc87",
+      "date": "2026-06-11",
+      "event_fingerprint": "54da0466b1961433"
+    },
+    {
+      "event_key": "us_ai_hallucination_sanction_2023",
+      "url_hash": "18eb51177a9cd939",
+      "date": "2026-06-11",
+      "event_fingerprint": "4c6180a25c15fc72"
+    },
+    {
+      "event_key": "us_ai_model_transparency_policy_2024",
+      "url_hash": "422637a47f4f0eaa",
+      "date": "2026-06-11",
+      "event_fingerprint": "df67e865ac7d97b1"
+    },
+    {
+      "event_key": "global_ai_team_layoffs_2024",
+      "url_hash": "d75345aeaca6047e",
+      "date": "2026-06-11",
+      "event_fingerprint": "59f870936065a3c8"
     }
   ]
 }
