@@ -823,6 +823,66 @@
       "url_hash": "d75345aeaca6047e",
       "date": "2026-06-11",
       "event_fingerprint": "59f870936065a3c8"
+    },
+    {
+      "event_key": "global_ai_disclosure_transparency_2024",
+      "url_hash": "757047b9b151dd7e",
+      "date": "2026-06-12",
+      "event_fingerprint": "59953bce098f62cd"
+    },
+    {
+      "event_key": "global_ai_development_frameworks_release_2025",
+      "url_hash": "1d85ecdbe42135e6",
+      "date": "2026-06-12",
+      "event_fingerprint": "1aef4161e7da61df"
+    },
+    {
+      "event_key": "global_cloud_gaming_strategic_shift_2024",
+      "url_hash": "2b98b5da4e167d09",
+      "date": "2026-06-12",
+      "event_fingerprint": "4cfb54f88f02c2bf"
+    },
+    {
+      "event_key": "global_ai_data_usage_policy_2024",
+      "url_hash": "dae6608d28b004b8",
+      "date": "2026-06-12",
+      "event_fingerprint": "3bd5640f1660b948"
+    },
+    {
+      "event_key": "global_ai_content_policy_adjustment_2024",
+      "url_hash": "ec1ac7376506c819",
+      "date": "2026-06-12",
+      "event_fingerprint": "b4e31e0078406ed6"
+    },
+    {
+      "event_key": "us_ca_digital_ownership_legislation_2024",
+      "url_hash": "693380ee2ac6ba22",
+      "date": "2026-06-12",
+      "event_fingerprint": "1ac07ebd6be4dad4"
+    },
+    {
+      "event_key": "us_meta_instagram_security_breach_2024",
+      "url_hash": "cbdcfbfb0c1b8278",
+      "date": "2026-06-12",
+      "event_fingerprint": "685f06b068a2e1ac"
+    },
+    {
+      "event_key": "global_ai_creative_industry_discourse_2024",
+      "url_hash": "3dc3ed52aa4283f4",
+      "date": "2026-06-12",
+      "event_fingerprint": "e2c5e83da42c4942"
+    },
+    {
+      "event_key": "global_ai_dev_professional_discourse_2024",
+      "url_hash": "6d9fc70f788ff557",
+      "date": "2026-06-12",
+      "event_fingerprint": "104932bffd163408"
+    },
+    {
+      "event_key": "us_jawbone_act_legislation_2024",
+      "url_hash": "376d76e650e80422",
+      "date": "2026-06-12",
+      "event_fingerprint": "659a63c768fa5c98"
     }
   ]
 }
