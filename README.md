@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/LLM-Gemini_%2B_Claude-8B5CF6?style=for-the-badge" alt="Gemini and Claude" />
 </p>
 
-**[Subscribe](#subscribe)** · **[Self-Host](#self-host)** · **[Architecture](#architecture)** · **[Roadmap](#roadmap)**
+**[Self-Host](#self-host)** · **[Architecture](#architecture)** · **[Roadmap](#roadmap)**
 
 **Language:** [**English**](README.md) | [한국어](docs/ko/README.md)
 
@@ -41,23 +41,6 @@ Most news briefers stop at headlines and summaries. This project attaches **stru
 | Game mechanic | Loot box, age rating, data collection |
 
 Over time, this turns a mailing list into a searchable regulatory archive for the game industry.
-
----
-
-## Subscribe
-
-**Just want to receive the briefing? You don't need to set up anything.**
-
-The briefing is sent via email every Mon/Wed/Fri at 10:00 AM KST. Currently available in **Korean only** (English is on the roadmap).
-
-To subscribe, contact the maintainer and share your email address:
-
-- GitHub: [@lowtidebuild](https://github.com/lowtidebuild)
-- Web archive: [lowtidebuild.github.io/game-legal-briefing](https://lowtidebuild.github.io/game-legal-briefing/)
-
-You'll start receiving briefings from the next scheduled delivery. No cost.
-
----
 
 ## Self-Host
 
