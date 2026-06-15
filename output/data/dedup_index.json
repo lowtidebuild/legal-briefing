@@ -3,120 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "global_esports_ewc_partnership_2026",
-      "url_hash": "e7cb2055e3eb04dc",
-      "date": "2026-05-13",
-      "event_fingerprint": "b2cfaa05d8354f6a"
-    },
-    {
-      "event_key": "global_sony_ai_development_policy_2026",
-      "url_hash": "020c8f127640eab8",
-      "date": "2026-05-13",
-      "event_fingerprint": "aea7891cb2b38510"
-    },
-    {
-      "event_key": "uk_rockstar_union_litigation_2024",
-      "url_hash": "3a5d00198f3b38a6",
-      "date": "2026-05-13",
-      "event_fingerprint": "5399d7aafeb10e67"
-    },
-    {
-      "event_key": "uk_corporate_criminal_liability_reform_2026",
-      "url_hash": "cc20682f33d50d5d",
-      "date": "2026-05-13",
-      "event_fingerprint": "3b1624145a7e2b06"
-    },
-    {
-      "event_key": "us_apple_epic_litigation_2024",
-      "url_hash": "d48d3aa53bd46814",
-      "date": "2026-05-13",
-      "event_fingerprint": "cba2af39ca5e8dcd"
-    },
-    {
-      "event_key": "global_ai_development_partnership_2024",
-      "url_hash": "73602be2c0d3ea68",
-      "date": "2026-05-13",
-      "event_fingerprint": "491775a13afd9ba8"
-    },
-    {
-      "event_key": "global_ai_content_ban_duckstation_2024",
-      "url_hash": "ad409be36afd4ee3",
-      "date": "2026-05-13",
-      "event_fingerprint": "bef262fcae37f27c"
-    },
-    {
-      "event_key": "global_meta_ai_threads_feature_2024",
-      "url_hash": "448d244c4985ee27",
-      "date": "2026-05-13",
-      "event_fingerprint": "cb485783a33f4960"
-    },
-    {
-      "event_key": "us_ai_data_leakage_2024",
-      "url_hash": "e3c7fc0f4dddce2e",
-      "date": "2026-05-13",
-      "event_fingerprint": "e321eb08399ccc70"
-    },
-    {
-      "event_key": "us_openai_musk_litigation_2024",
-      "url_hash": "802244a18bfed219",
-      "date": "2026-05-13",
-      "event_fingerprint": "e352c424983258f6"
-    },
-    {
-      "event_key": "global_ai_data_governance_framework_2024",
-      "url_hash": "d90cbaa09e852b0f",
-      "date": "2026-05-15",
-      "event_fingerprint": "d93f413533635f91"
-    },
-    {
-      "event_key": "global_ai_ugc_community_backlash_2024",
-      "url_hash": "e9cf5875775ca4db",
-      "date": "2026-05-15",
-      "event_fingerprint": "d194fccb0a2db26b"
-    },
-    {
-      "event_key": "global_google_play_fee_restructuring_2024",
-      "url_hash": "058ba13dbd136a0d",
-      "date": "2026-05-15",
-      "event_fingerprint": "20d39247d5fa51f8"
-    },
-    {
-      "event_key": "global_googleplay_chargeback_policy_2026",
-      "url_hash": "2842dba85bdef34d",
-      "date": "2026-05-15",
-      "event_fingerprint": "b8d5502840631517"
-    },
-    {
-      "event_key": "global_ai_ugc_policy_backlash_2024",
-      "url_hash": "5c968d7ced7f4883",
-      "date": "2026-05-15",
-      "event_fingerprint": "cee39c6906beb4eb"
-    },
-    {
-      "event_key": "us_ai_governance_integration_guidance_2024",
-      "url_hash": "2de7f0ab23ed152f",
-      "date": "2026-05-15",
-      "event_fingerprint": "2ab7ce07ea281995"
-    },
-    {
-      "event_key": "us_ai_licensing_cancellation_2025",
-      "url_hash": "94e2733bab9bdea3",
-      "date": "2026-05-15",
-      "event_fingerprint": "2752e960b33731d2"
-    },
-    {
-      "event_key": "global_ai_security_marketing_2024",
-      "url_hash": "0b7f23fa5d016ccf",
-      "date": "2026-05-15",
-      "event_fingerprint": "99ae8e179bae9744"
-    },
-    {
-      "event_key": "us_uspto_ai_integration_2026",
-      "url_hash": "82a45453c29c9f7a",
-      "date": "2026-05-15",
-      "event_fingerprint": "611365cb6c567d57"
-    },
-    {
       "event_key": "global_esports_world_cup_relocation_2026",
       "url_hash": "b04a4fbb61538a52",
       "date": "2026-05-18",
@@ -883,6 +769,48 @@
       "url_hash": "376d76e650e80422",
       "date": "2026-06-12",
       "event_fingerprint": "659a63c768fa5c98"
+    },
+    {
+      "event_key": "us_ai_no_fakes_act_proposed_2024",
+      "url_hash": "3890c30095ae346a",
+      "date": "2026-06-15",
+      "event_fingerprint": "dc9eec5d0be6f3a9"
+    },
+    {
+      "event_key": "us_wow_private_server_infringement_lawsuit_2024",
+      "url_hash": "2a3d6daa90dcc59b",
+      "date": "2026-06-15",
+      "event_fingerprint": "1e6d778d33467a77"
+    },
+    {
+      "event_key": "us_tetris_copyright_infringement_2012",
+      "url_hash": "3e65616e57b863ab",
+      "date": "2026-06-15",
+      "event_fingerprint": "4b47d05855ae4431"
+    },
+    {
+      "event_key": "global_esports_costreaming_program_2026",
+      "url_hash": "56430069680a68c5",
+      "date": "2026-06-15",
+      "event_fingerprint": "a4c2a6dfc0fb61c4"
+    },
+    {
+      "event_key": "eu_eurodac_supervision_policy_2024",
+      "url_hash": "86565bc87c11503b",
+      "date": "2026-06-15",
+      "event_fingerprint": "e62994c061cd190e"
+    },
+    {
+      "event_key": "global_ai_production_disclosure_2024",
+      "url_hash": "bf950e058be1dc5b",
+      "date": "2026-06-15",
+      "event_fingerprint": "a9258844e408d70d"
+    },
+    {
+      "event_key": "global_ai_product_cancellation_2024",
+      "url_hash": "8dbedf623a244359",
+      "date": "2026-06-15",
+      "event_fingerprint": "ab177a1336726b64"
     }
   ]
 }

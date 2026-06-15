@@ -1,0 +1,198 @@
+[
+  {
+    "title": "ESA warns 'No Fakes Act' fails to distinguish between deepfakes and digital replicas used in video games",
+    "url": "https://www.gamesindustry.biz/esa-warns-no-fakes-act-fails-to-distinguish-between-deepfakes-and-digital-replicas-used-in-video-games",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-06-10",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "미국 엔터테인먼트 소프트웨어 협회(ESA)는 현재 발의된 'No Fakes Act'가 AI 기반 콘텐츠와 게임 내 캐릭터 구현을 위한 디지털 복제본을 명확히 구분하지 못한다고 지적했습니다.",
+      "이 법안이 수정 없이 통과될 경우, 게임 산업에서 허가받은 디지털 캐릭터 활용 등 정당한 창작 활동까지 과도하게 규제받을 위험이 있습니다.",
+      "게임사들은 관련 입법 동향을 주시하며, 자사의 디지털 캐릭터 및 에셋 활용이 규제 대상에 포함되지 않도록 법적 리스크를 검토해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "legislation",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "ESA",
+        "US Congress"
+      ],
+      "object": "No Fakes Act",
+      "action": "advocacy for legislative amendment regarding digital replicas",
+      "game_mechanic": "digital avatars",
+      "time_hint": "2024"
+    },
+    "event_key": "us_ai_no_fakes_act_proposed_2024",
+    "is_primary": true,
+    "title_ko": "미국 엔터테인먼트 소프트웨어 협회(ESA), 'No Fakes Act'가 게임 내 딥페이크와 디지털 복제본을 구분하지 못한다고 경고"
+  },
+  {
+    "title": "Blizzard sues to kill another World of Warcraft private server for 'large scale, egregious, and ongoing infringement of [its] intellectual property'",
+    "url": "https://www.pcgamer.com/games/world-of-warcraft/blizzard-sues-to-kill-another-world-of-warcraft-private-server-for-large-scale-egregious-and-ongoing-infringement-of-its-intellectual-property/",
+    "source": "PC Gamer",
+    "pub_date": "2026-06-14",
+    "category": "IP",
+    "summary_ko": [
+      "블리자드(Blizzard)가 자사의 게임인 월드 오브 워크래프트(World of Warcraft)를 무단 변형해 서비스 중인 사설 서버 '프로젝트 어센션(Project Ascension)'을 상대로 법적 대응에 나섰습니다.",
+      "이번 소송은 회사의 핵심 자산인 지식재산권(IP)을 대규모로 침해하는 행위를 방관하지 않겠다는 블리자드(Blizzard)의 강력한 의지를 보여주는 사례입니다.",
+      "게임사는 IP 보호를 위해 사설 서버에 대해 무관용 원칙을 고수하고 있으므로, 개발사 및 관련 커뮤니티는 저작권 정책 위반 가능성을 사전에 철저히 검토해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Blizzard Entertainment",
+        "Project Ascension"
+      ],
+      "object": "World of Warcraft private server",
+      "action": "filing copyright infringement lawsuit",
+      "game_mechanic": "none",
+      "time_hint": "2024"
+    },
+    "event_key": "us_wow_private_server_infringement_lawsuit_2024",
+    "is_primary": true,
+    "title_ko": "블리자드(Blizzard), ‘월드 오브 워크래프트(World of Warcraft)’ 사설 서버 운영자 대상 지식재산권 침해 소송 제기"
+  },
+  {
+    "title": "Maya Rogers on keeping Tetris immortal",
+    "url": "https://www.pocketgamer.biz/maya-rogers-on-keeping-tetris-immortal/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-06-12",
+    "category": "IP",
+    "summary_ko": [
+      "테트리스 컴퍼니(The Tetris Company)는 과거 강력한 IP 방어 전략을 통해 수십 년간 저작권 침해를 막아왔습니다.",
+      "2014년 취임한 마야 로저스(Maya Rogers) CEO는 IP 보호를 넘어 패션, 장난감 등 다양한 산업 분야로 테트리스(Tetris) 브랜드를 확장하는 전략을 성공시켰습니다.",
+      "게임사는 IP의 법적 보호를 기본으로 하되, 적극적인 라이선싱과 글로벌 파트너십을 통해 브랜드를 라이프스타일 전반으로 확장하는 비즈니스 모델을 고민해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "The Tetris Company",
+        "Xio Interactive, Inc."
+      ],
+      "object": "Tetris copyright protection",
+      "action": "landmark copyright infringement judgment",
+      "game_mechanic": "none",
+      "time_hint": "2012"
+    },
+    "event_key": "us_tetris_copyright_infringement_2012",
+    "is_primary": true,
+    "title_ko": "마야 로저스(Maya Rogers)가 말하는 테트리스(Tetris)의 불멸 유지 전략"
+  },
+  {
+    "title": "Esports Foundation expands co-streaming program for EWC and ENC 2026",
+    "url": "https://www.pocketgamer.biz/esports-foundation-expands-co-streaming-program-for-ewc-and-enc-2026/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-06-12",
+    "category": "ESPORTS_MARKETING",
+    "summary_ko": [
+      "이스포츠 재단(Esports Foundation)이 2026년 이스포츠 월드컵(EWC) 및 이스포츠 네이션스 컵(ENC)을 위한 크리에이터 공동 스트리밍 프로그램 참가자를 모집합니다.",
+      "지난 EWC 2025에서 3,500명의 공동 스트리머가 참여해 글로벌 도달 범위와 시청자층을 획기적으로 확장하며 홍보 효과를 입증했습니다.",
+      "게임사들은 인플루언서 마케팅을 활용한 공동 스트리밍 전략을 강화하여 다국어 및 다채널 환경에서 대회의 브랜드 인지도를 높이는 전략이 필요합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Esports Foundation"
+      ],
+      "object": "Co-streaming program for Esports World Cup and Esports Nations Cup",
+      "action": "Expansion of creator program to increase broadcast reach",
+      "game_mechanic": "none",
+      "time_hint": "2026"
+    },
+    "event_key": "global_esports_costreaming_program_2026",
+    "is_primary": true,
+    "title_ko": "이스포츠 재단(Esports Foundation), 2026년 EWC 및 ENC 위한 공동 스트리밍 프로그램 확대"
+  },
+  {
+    "title": "Coordinated Supervision Committee extends scope to include Eurodac",
+    "url": "https://www.edpb.europa.eu/news/news/2026/coordinated-supervision-committee-extends-scope-include-eurodac_en",
+    "source": "EDPB - News",
+    "pub_date": "2026-06-12",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "유럽데이터보호위원회(EDPB) 산하 공동감독위원회(CSC)가 EU의 망명 및 이주 데이터베이스인 유로닥(Eurodac)에 대한 통합 감독을 시작했습니다.",
+      "이번 조치로 각국 데이터보호당국(DPA)과 유럽개인정보보호감독관(EDPS) 간의 협력이 강화되어 대규모 IT 시스템 내 개인정보 보호 체계가 더욱 엄격해졌습니다.",
+      "EU 지역에서 서비스를 운영하는 게임사는 사용자 데이터 처리 시 유로닥(Eurodac)과 같은 대규모 공공 IT 시스템 관련 규제 준수 현황과 개인정보보호 강화 기조를 지속적으로 모니터링해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "policy",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "EDPB",
+        "EDPS",
+        "Coordinated Supervision Committee"
+      ],
+      "object": "Eurodac asylum and migration database",
+      "action": "Extending coordinated supervision scope to include Eurodac database",
+      "game_mechanic": "none",
+      "time_hint": "12 June 2024"
+    },
+    "event_key": "eu_eurodac_supervision_policy_2024",
+    "is_primary": true,
+    "title_ko": "유럽데이터보호위원회(EDPB), 공동감독위원회(CSC)의 감독 범위에 유로닥(Eurodac) 포함"
+  },
+  {
+    "title": "Tomb Raider: Legacy of Atlantis developers used gen AI to get \"the right answers faster\", Crystal Dynamics explains",
+    "url": "https://www.eurogamer.net/tomb-raider-legacy-of-atlantis-ai-use-explained",
+    "source": "Eurogamer",
+    "pub_date": "2026-06-12",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "크리스탈 다이내믹스(Crystal Dynamics)의 개발진이 '툼 레이더: 레거시 오브 아틀란티스(Tomb Raider: Legacy of Atlantis)' 제작 과정에서 생성형 AI를 도입했다고 밝혔습니다.",
+      "이번 사례는 메이저 게임 개발사가 게임 엔진 및 애셋 제작에 AI를 실질적으로 활용하고 있음을 보여주는 중요한 전환점으로 평가됩니다.",
+      "실무에서는 AI 활용 시 발생할 수 있는 저작권 및 윤리적 이슈를 사전에 검토하고, AI 도입에 대한 투명한 커뮤니케이션 전략을 수립해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Crystal Dynamics"
+      ],
+      "object": "Generative AI usage in software development",
+      "action": "Disclosure of AI tools integration in production pipelines",
+      "game_mechanic": "none",
+      "time_hint": "2024"
+    },
+    "event_key": "global_ai_production_disclosure_2024",
+    "is_primary": true,
+    "title_ko": "툼 레이더: 레거시 오브 아틀란티스(Tomb Raider: Legacy of Atlantis) 개발진, 생성형 AI 활용 이유는 \"정답을 빠르게 얻기 위함\""
+  },
+  {
+    "title": "Asha Sharma faces tough decisions with limited room for manoeuvre | Opinion",
+    "url": "https://www.gamesindustry.biz/asha-sharma-faces-tough-decisions-with-limited-room-for-manoeuvre-opinion",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-06-12",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "아샤 샤르마(Asha Sharma) 신임 Xbox CEO가 취임 100일을 맞은 가운데, 콘솔용 코파일럿(Copilot) 개발 프로젝트를 전격 취소하며 AI 강제 도입에 대한 우려를 불식했습니다.",
+      "이번 결정은 마이크로소프트(Microsoft)의 게임 부문이 AI 도구 확산의 수단이 될 것이라는 업계의 불안을 해소하고, 리더십의 실용적 변화를 보여준 중요한 사례로 평가받습니다.",
+      "게임 업계 실무진은 기술 도입 시 사용자 경험과 플랫폼 정체성을 최우선으로 고려해야 하며, 경영진 교체기에는 기존 프로젝트의 전략적 재검토를 통한 불확실성 제거가 필수적입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Microsoft",
+        "Xbox",
+        "Asha Sharma"
+      ],
+      "object": "Gaming Copilot for console development",
+      "action": "cancellation of product development",
+      "game_mechanic": "n/a",
+      "time_hint": "Last month"
+    },
+    "event_key": "global_ai_product_cancellation_2024",
+    "is_primary": true,
+    "title_ko": "아샤 샤르마(Asha Sharma) Xbox CEO, 제한된 선택지 속 어려운 결정 직면"
+  }
+]
