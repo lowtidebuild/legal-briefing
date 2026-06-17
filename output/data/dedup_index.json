@@ -811,6 +811,48 @@
       "url_hash": "8dbedf623a244359",
       "date": "2026-06-15",
       "event_fingerprint": "ab177a1336726b64"
+    },
+    {
+      "event_key": "eu_stop_killing_games_petition_denial_2024",
+      "url_hash": "bd29d4311bc05ce1",
+      "date": "2026-06-17",
+      "event_fingerprint": "9c4db91f12f6e198"
+    },
+    {
+      "event_key": "global_ai_integration_strategy_2024",
+      "url_hash": "1458a3897d2789c6",
+      "date": "2026-06-17",
+      "event_fingerprint": "83f0de95a275a206"
+    },
+    {
+      "event_key": "us_ai_export_control_enforcement_2024",
+      "url_hash": "d432605b3cd1123d",
+      "date": "2026-06-17",
+      "event_fingerprint": "ac644a8c733010a2"
+    },
+    {
+      "event_key": "global_ai_startup_funding_2026q2",
+      "url_hash": "8b3eca3fe46263ca",
+      "date": "2026-06-17",
+      "event_fingerprint": "bac5f0959b4475dd"
+    },
+    {
+      "event_key": "us_ai_export_restriction_2024",
+      "url_hash": "c8120a3f312c3589",
+      "date": "2026-06-17",
+      "event_fingerprint": "6329643da9d5a03f"
+    },
+    {
+      "event_key": "us_ai_trademark_litigation_2025",
+      "url_hash": "b7a37cab5d6218c8",
+      "date": "2026-06-17",
+      "event_fingerprint": "6d83bcc120e53c33"
+    },
+    {
+      "event_key": "global_niantic_spatial_data_usage_2025q4",
+      "url_hash": "4f6c2a2c67d7fc84",
+      "date": "2026-06-17",
+      "event_fingerprint": "adc39ea48ef6c405"
     }
   ]
 }
