@@ -47,13 +47,13 @@ class DedupConfig:
 
 @dataclass
 class SiteConfig:
-    base_url: str = "/game-legal-briefing"
+    base_url: str = "/legal-briefing"
 
 
 @dataclass
 class EmailConfig:
     subject_prefix: str = "[Game Legal Briefing]"
-    web_url: str = "https://lowtidebuild.github.io/game-legal-briefing/"
+    web_url: str = "https://lowtidebuild.github.io/legal-briefing/"
 
 
 @dataclass
@@ -146,10 +146,10 @@ def load_config(path: str) -> Config:
             retention_days=dedup_raw.get("retention_days", 30),
         ),
         site=SiteConfig(
-            base_url=site_raw.get("base_url", "/game-legal-briefing"),
+            base_url=site_raw.get("base_url", "/legal-briefing"),
         ),
         email=EmailConfig(
             subject_prefix=email_raw.get("subject_prefix", "[Game Legal Briefing]"),
-            web_url=email_raw.get("web_url", "https://lowtidebuild.github.io/game-legal-briefing/"),
+            web_url=email_raw.get("web_url", "https://lowtidebuild.github.io/legal-briefing/"),
         ),
     )

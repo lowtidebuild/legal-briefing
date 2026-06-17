@@ -71,7 +71,7 @@ def render_email(
     nodes: list[BriefingNode],
     date: str,
     template_dir: str = "templates",
-    web_url: str = "https://lowtidebuild.github.io/game-legal-briefing/",
+    web_url: str = "https://lowtidebuild.github.io/legal-briefing/",
 ) -> str:
     """Render the HTML email body for a briefing."""
     env = Environment(

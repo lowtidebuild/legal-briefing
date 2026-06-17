@@ -227,8 +227,8 @@ dedup:
   retention_days: 30
 
 site:
-  base_url: "/game-legal-briefing"
+  base_url: "/legal-briefing"
 
 email:
   subject_prefix: "[Game Legal Briefing]"
-  web_url: "https://lowtidebuild.github.io/game-legal-briefing/"
+  web_url: "https://lowtidebuild.github.io/legal-briefing/"

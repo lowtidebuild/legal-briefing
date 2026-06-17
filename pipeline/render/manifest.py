@@ -23,7 +23,7 @@ from typing import Any
 
 logger = logging.getLogger(__name__)
 
-SITE_URL = "https://lowtidebuild.github.io/game-legal-briefing/"
+SITE_URL = "https://lowtidebuild.github.io/legal-briefing/"
 NAME = "Game Legal Briefing"
 CATEGORY = "Game · Legal"
 ACCENT = "#6b2d5c"
