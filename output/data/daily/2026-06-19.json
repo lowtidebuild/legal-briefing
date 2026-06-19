@@ -1,0 +1,199 @@
+[
+  {
+    "title": "Blizzard sues private World of Warcraft server for \"large-scale, egregious, and ongoing infringement of Blizzard's intellectual property\"",
+    "url": "https://www.gamesindustry.biz/blizzard-sues-private-world-of-warcraft-server-for-large-scale-egregious-and-ongoing-infringement-of-blizzards-intellectual-property",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-06-15",
+    "category": "IP",
+    "summary_ko": [
+      "블리자드(Blizzard)가 자사의 게임 '월드 오브 워크래프트'의 사설 서버 프로젝트인 '프로젝트 어센션(Project Ascension)'을 상대로 저작권 침해 소송을 제기했습니다.",
+      "이번 소송은 대규모로 지속되는 사설 서버 운영이 기업의 핵심 지식재산권(IP)을 침해한다는 점을 명확히 하고, 자사 콘텐츠에 대한 통제권을 강화하려는 의도로 해석됩니다.",
+      "게임사들은 비인가 사설 서버 운영이 자산 가치를 훼손할 수 있음을 경고하며, IP 보호를 위해 법적 대응을 포함한 강력한 사후 관리가 필수적이라는 점을 시사합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Blizzard Entertainment",
+        "Project Ascension"
+      ],
+      "object": "World of Warcraft intellectual property",
+      "action": "Copyright infringement lawsuit",
+      "game_mechanic": "private server",
+      "time_hint": "2024"
+    },
+    "event_key": "us_wow_private_server_infringement_litigation_2024",
+    "is_primary": true,
+    "title_ko": "블리자드(Blizzard), 지식재산권 침해 혐의로 '월드 오브 워크래프트' 사설 서버 운영진 제소"
+  },
+  {
+    "title": "Hours after announcing a collab with Fortnite, Vampire Survivors dev suggests it may back out over Epic's touting of generative AI",
+    "url": "https://www.pcgamer.com/games/action/hours-after-announcing-a-collab-with-fortnite-vampire-survivors-dev-suggests-it-may-back-out-over-epics-recent-touting-of-gen-ai/",
+    "source": "PC Gamer",
+    "pub_date": "2026-06-17",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "뱀파이어 서바이버즈(Vampire Survivors)의 개발사 폰클(Poncle)이 에픽게임즈(Epic Games)의 생성형 AI 활용 방식에 반발하며 포트나이트(Fortnite)와의 협업 중단을 검토하고 있습니다.",
+      "이번 사례는 게임사들이 생성형 AI 도입 과정에서 기존 개발 커뮤니티와 겪을 수 있는 윤리적 마찰과 갈등의 단면을 보여줍니다.",
+      "개발사는 외부 플랫폼 파트너십 체결 시 상대방의 AI 활용 정책을 사전에 명확히 확인하고, 자사 브랜드 가치 보호를 위한 대응 전략을 수립해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Poncle",
+        "Epic Games"
+      ],
+      "object": "generative AI utilization in game development",
+      "action": "reconsidering business partnership due to ethical concerns regarding AI",
+      "game_mechanic": "assets creation",
+      "time_hint": "2025"
+    },
+    "event_key": "global_ai_asset_creation_policy_2025",
+    "is_primary": true,
+    "title_ko": "포트나이트(Fortnite)와의 협업 발표 몇 시간 만에, 생성형 AI 홍보를 이유로 협업 철회 가능성 시사한 뱀파이어 서바이버즈(Vampire Survivors) 개발사"
+  },
+  {
+    "title": "UK employment tribunal denies Rockstar's request to have 'blacklisting' claims removed from upcoming trial",
+    "url": "https://www.gamesindustry.biz/uk-employment-tribunal-denies-rockstars-request-to-have-blacklisting-claims-removed-from-upcoming-trial",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-06-18",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "영국 고용심판소가 해고된 직원들이 락스타 게임즈(Rockstar Games)를 상대로 제기한 부당 행위 주장에 대해 사측의 기각 요청을 거부했습니다.",
+      "이번 소송은 게임업계 노동조합인 IWGB 게임 워커스(IWGB Game Workers)가 개입한 사안으로, 업계 내 고용 관행의 투명성을 다투는 중대한 판례가 될 전망입니다.",
+      "게임사는 노동법 준수 및 고용 관행에 대한 법적 리스크를 재점검하고, 채용 및 해고 과정에서 발생할 수 있는 노사 갈등 예방 대책을 마련해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "UK",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Rockstar Games",
+        "IWGB Game Workers",
+        "UK employment tribunal"
+      ],
+      "object": "blacklisting claims",
+      "action": "denial of request to strike claims from trial",
+      "game_mechanic": "none",
+      "time_hint": "2024"
+    },
+    "event_key": "uk_rockstar_labor_litigation_2024",
+    "is_primary": true,
+    "title_ko": "영국 고용심판소, 락스타 게임즈(Rockstar Games)의 '블랙리스트' 의혹 삭제 요청 기각"
+  },
+  {
+    "title": "Roblox says “chat will remain off in the majority of the Middle East\" until Arabic moderation matures",
+    "url": "https://www.pocketgamer.biz/chat-will-remain-off-in-the-majority-of-the-middle-east-until-arabic-moderation-matures/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-06-15",
+    "category": "CONTENT_AGE",
+    "summary_ko": [
+      "로블록스(Roblox)가 사우디아라비아 미디어규제청(General Authority for Media Regulation)과의 협의에 따라 중동 지역 내 게임 내 채팅 기능을 당분간 비활성화하기로 결정했습니다.",
+      "이번 조치는 아랍어 콘텐츠 모니터링 기술의 부족함과 더불어, 현재 미국에서 진행 중인 아동 안전 관련 집단 소송 리스크를 완화하기 위한 전략적 판단으로 풀이됩니다.",
+      "글로벌 게임 기업은 진출 국가의 현지 규제 준수뿐만 아니라, 언어별 콘텐츠 관리 역량을 확보하지 못할 경우 서비스 운영에 제약이 따를 수 있음을 고려해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Roblox",
+        "General Authority for Media Regulation"
+      ],
+      "object": "in-experience chat feature",
+      "action": "disabling chat access due to content moderation limitations in Arabic",
+      "game_mechanic": "in-game chat",
+      "time_hint": "September 2025"
+    },
+    "event_key": "sa_roblox_chat_restriction_2025",
+    "is_primary": true,
+    "title_ko": "로블록스(Roblox), 아랍어 모니터링 기술 성숙 전까지 중동 지역 내 채팅 기능 차단 유지"
+  },
+  {
+    "title": "Feds snooze as US datacenter law set to lapse with no replacement in site",
+    "url": "https://www.theregister.com/public-sector/2026/06/15/feds-snooze-as-us-datacenter-law-set-to-lapse-with-no-replacement-in-site/5255679",
+    "source": "The Register - Security",
+    "pub_date": "2026-06-15",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "보안 및 지속가능성 기준을 다루는 미 연방 데이터센터 강화법(Federal Data Center Enhancement Act, FDCEA)의 효력 만료가 다가오지만, 미 연방 정부(US Federal Government)는 마땅한 대체 입법을 마련하지 못하고 있습니다.",
+      "해당 법안의 공백은 게임 서버 운영 및 클라우드 인프라를 관리하는 게임사의 보안 규제 준수 체계에 불확실성을 가중시킬 우려가 있습니다.",
+      "게임사는 향후 변경될 데이터센터 보안 규정 및 환경·사회·지배구조(ESG) 표준에 대비하여 인프라 관리 전략을 선제적으로 재검토해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "US Federal Government"
+      ],
+      "object": "Federal Data Center Enhancement Act (FDCEA) of 2023",
+      "action": "Expiration of legislation with no replacement",
+      "game_mechanic": "null",
+      "time_hint": "upcoming"
+    },
+    "event_key": "us_datacenter_policy_expiration_2024",
+    "is_primary": true,
+    "title_ko": "미 연방 데이터센터법(FDCEA) 만료 임박에도 대체 입법 부재"
+  },
+  {
+    "title": "G2 partners with PUBG Mobile Esports to grow Western Europe competitive scene",
+    "url": "https://www.pocketgamer.biz/g2-partners-with-pubg-mobile-esports-to-grow-western-europe-competitive-scene/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-06-16",
+    "category": "ESPORTS_MARKETING",
+    "summary_ko": [
+      "G2 e스포츠(G2 Esports)와 PUBG 모바일 e스포츠(PUBG Mobile Esports)가 서유럽 지역의 토너먼트 및 커뮤니티 활성화를 위한 전략적 업무 협약을 체결했습니다.",
+      "이번 협력은 G2 e스포츠(G2 Esports)의 엔터테인먼트 역량과 PUBG 모바일 e스포츠(PUBG Mobile Esports)의 글로벌 인프라를 결합하여 서유럽 내 모바일 게임 시장의 저변을 확대하는 데 목적이 있습니다.",
+      "게임사들은 특정 지역 시장 점유율 확대를 위해 현지 영향력이 큰 e스포츠 구단과 협업하여 풀뿌리 커뮤니티 마케팅을 강화하는 전략이 필요합니다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "G2",
+        "PUBG Mobile Esports"
+      ],
+      "object": "esports ecosystem expansion",
+      "action": "partnership agreement",
+      "game_mechanic": "none",
+      "time_hint": ""
+    },
+    "event_key": "eu_esports_partnership_growth_2024",
+    "is_primary": true,
+    "title_ko": "G2 e스포츠(G2 Esports), 서유럽 경쟁 생태계 확장을 위해 PUBG 모바일 e스포츠(PUBG Mobile Esports)와 파트너십 체결"
+  },
+  {
+    "title": "The midterms are going to be a data security nightmare",
+    "url": "https://www.theverge.com/policy/952167/voter-rolls-privacy-election-save-program",
+    "source": "The Verge - CyberSecurity",
+    "pub_date": "2026-06-18",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "미국 국토안보부(DHS)의 유권자 정보 체계화 정책으로 인해 수백만 명의 개인정보가 데이터 유출 및 선거 방해 위협에 노출될 위험이 제기되었습니다.",
+      "정부의 부실한 데이터 관리가 유권자 참정권을 침해할 뿐 아니라, 대규모 보안 사고로 이어질 수 있다는 점에서 전문가들의 우려가 커지고 있습니다.",
+      "게임 산업에서도 사용자 데이터를 다루는 기업들은 향후 강화될 데이터 보호 규제와 정보 보안 사고 시 발생할 법적 리스크에 대비한 철저한 거버넌스 구축이 필수적입니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Department of Homeland Security",
+        "election experts",
+        "privacy advocates"
+      ],
+      "object": "voter registration databases",
+      "action": "identifying security vulnerabilities and data breach risks in election infrastructure",
+      "game_mechanic": "null",
+      "time_hint": "2026 midterms"
+    },
+    "event_key": "us_voter_data_security_policy_2026",
+    "is_primary": true,
+    "title_ko": "중간선거가 데이터 보안의 악몽이 될 전망"
+  }
+]
