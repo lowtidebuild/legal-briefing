@@ -781,6 +781,60 @@
       "url_hash": "619d9d74cb0a25ff",
       "date": "2026-06-22",
       "event_fingerprint": "title:3f3c25d5450927a6:2026q2"
+    },
+    {
+      "event_key": "global_ai_generated_art_replacement_2024",
+      "url_hash": "91ac746d1c503d38",
+      "date": "2026-06-22",
+      "event_fingerprint": "93a9b3108eac00a3"
+    },
+    {
+      "event_key": "us_sony_digital_content_shutdown_litigation_2024",
+      "url_hash": "fc8c5dd16203caa6",
+      "date": "2026-06-22",
+      "event_fingerprint": "416a7f7dfa8416e7"
+    },
+    {
+      "event_key": "global_steam_ai_content_policy_2024",
+      "url_hash": "eb379287610af356",
+      "date": "2026-06-22",
+      "event_fingerprint": "1d85f6394156b66e"
+    },
+    {
+      "event_key": "global_sony_ai_strategy_report_2024",
+      "url_hash": "46c5bb8f80c6e63c",
+      "date": "2026-06-22",
+      "event_fingerprint": "57d6ba53b2bcd8c6"
+    },
+    {
+      "event_key": "us_labor_wage_lawsuit_2025",
+      "url_hash": "07c8a180bcac30fd",
+      "date": "2026-06-22",
+      "event_fingerprint": "11acb00032eb1eed"
+    },
+    {
+      "event_key": "global_ai_ethics_dev_partnership_2025q1",
+      "url_hash": "a4ec463731483606",
+      "date": "2026-06-22",
+      "event_fingerprint": "3708ec6aad71d18e"
+    },
+    {
+      "event_key": "eu_edpb_website_redesign_2024",
+      "url_hash": "faaab60c2f0f9814",
+      "date": "2026-06-22",
+      "event_fingerprint": "2a240097ba16d4d7"
+    },
+    {
+      "event_key": "global_ai_marketing_automation_launch_2024",
+      "url_hash": "872056cb8a9d15ac",
+      "date": "2026-06-22",
+      "event_fingerprint": "fbfc091f1ab561ac"
+    },
+    {
+      "event_key": "cn_ai_generation_usage_policy_2024",
+      "url_hash": "50cfafcc8d8fd3d8",
+      "date": "2026-06-22",
+      "event_fingerprint": "94dbcc2958578082"
     }
   ]
 }
