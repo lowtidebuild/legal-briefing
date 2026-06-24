@@ -835,6 +835,60 @@
       "url_hash": "50cfafcc8d8fd3d8",
       "date": "2026-06-22",
       "event_fingerprint": "94dbcc2958578082"
+    },
+    {
+      "event_key": "global_steam_ai_labeling_policy",
+      "url_hash": "e3c308e78a829f88",
+      "date": "2026-06-24",
+      "event_fingerprint": "fa2b3af0df5ffb9c"
+    },
+    {
+      "event_key": "us_obsidian_labor_litigation_2024",
+      "url_hash": "89a59112a8c60039",
+      "date": "2026-06-24",
+      "event_fingerprint": "77590bf36e7344ed"
+    },
+    {
+      "event_key": "us_ultima_ip_reversion_2024",
+      "url_hash": "96beae9873fda4d0",
+      "date": "2026-06-24",
+      "event_fingerprint": "9f566e1170366a25"
+    },
+    {
+      "event_key": "uk_labor_union_busting_litigation_2024",
+      "url_hash": "f939b686743c4354",
+      "date": "2026-06-24",
+      "event_fingerprint": "e0c6d23f030f893b"
+    },
+    {
+      "event_key": "uk_ai_age_verification_policy_2024",
+      "url_hash": "660d18d7af61af42",
+      "date": "2026-06-24",
+      "event_fingerprint": "b4507367fa5147bf"
+    },
+    {
+      "event_key": "global_cybersecurity_interpol_review_2024",
+      "url_hash": "c720aa7f7a3adb1b",
+      "date": "2026-06-24",
+      "event_fingerprint": "aaf83c68e40fe646"
+    },
+    {
+      "event_key": "global_idfa_deprecation_policy_2021",
+      "url_hash": "b400bda99e0349e9",
+      "date": "2026-06-24",
+      "event_fingerprint": "f87463d4691cafa6"
+    },
+    {
+      "event_key": "global_ai_industry_adoption_2024",
+      "url_hash": "72b79056fb5c1031",
+      "date": "2026-06-24",
+      "event_fingerprint": "91cd9db4cc25b4d9"
+    },
+    {
+      "event_key": "global_ai_companion_launch_2024",
+      "url_hash": "7d565c5143ac0036",
+      "date": "2026-06-24",
+      "event_fingerprint": "4f65d2571e2d72c1"
     }
   ]
 }
