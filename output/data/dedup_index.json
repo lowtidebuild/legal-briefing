@@ -3,60 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "us_ai_compliance_policy_2024",
-      "url_hash": "709d722747b780e3",
-      "date": "2026-05-25",
-      "event_fingerprint": "42dc5d3c33121793"
-    },
-    {
-      "event_key": "us_activision_microsoft_acquisition_litigation_2024",
-      "url_hash": "b2692bcd23d95164",
-      "date": "2026-05-25",
-      "event_fingerprint": "22d41cb50ae64390"
-    },
-    {
-      "event_key": "us_colorado_ai_regulation_revision_2026",
-      "url_hash": "585f5d441ba82cd3",
-      "date": "2026-05-25",
-      "event_fingerprint": "446016cad3889eca"
-    },
-    {
-      "event_key": "global_ai_safety_framework_release_2024",
-      "url_hash": "5535da1459902b12",
-      "date": "2026-05-25",
-      "event_fingerprint": "c5e548d38f9c6dea"
-    },
-    {
-      "event_key": "global_vanguard_dma_policy_2024",
-      "url_hash": "e0c8bdb4eabc4d7c",
-      "date": "2026-05-25",
-      "event_fingerprint": "2d558211fb7bfd83"
-    },
-    {
-      "event_key": "jp_ai_voice_cloning_litigation_2024",
-      "url_hash": "85efa45c1d42d347",
-      "date": "2026-05-25",
-      "event_fingerprint": "9b90a2e700876878"
-    },
-    {
-      "event_key": "uk_online_safety_act_enforcement_2025",
-      "url_hash": "5076b72c451bf260",
-      "date": "2026-05-25",
-      "event_fingerprint": "1c8e866dba16b3d5"
-    },
-    {
-      "event_key": "global_esports_nations_cup_launch_2026",
-      "url_hash": "8a8c7f73dee86b47",
-      "date": "2026-05-25",
-      "event_fingerprint": "2037a0104f442e64"
-    },
-    {
-      "event_key": "global_xbox_leadership_restructuring_2024",
-      "url_hash": "3763d62298da3f9e",
-      "date": "2026-05-25",
-      "event_fingerprint": "08d6fcbb289b9b34"
-    },
-    {
       "event_key": "85bec5fd8069efe5",
       "url_hash": "f3a72e1dd69b8872",
       "date": "2026-05-27",
@@ -889,6 +835,60 @@
       "url_hash": "7d565c5143ac0036",
       "date": "2026-06-24",
       "event_fingerprint": "4f65d2571e2d72c1"
+    },
+    {
+      "event_key": "global_ai_data_training_consent_2024",
+      "url_hash": "34c2c27ead10bea9",
+      "date": "2026-06-26",
+      "event_fingerprint": "fd47b255e23c8db1"
+    },
+    {
+      "event_key": "global_platform_ai_disclosure_policy_2024",
+      "url_hash": "82e70b90570018ee",
+      "date": "2026-06-26",
+      "event_fingerprint": "c524bd6c3fb2fca4"
+    },
+    {
+      "event_key": "eu_gdpr_privacy_guidance_2024",
+      "url_hash": "9b99eddf5b9e7f96",
+      "date": "2026-06-26",
+      "event_fingerprint": "e9d493448618d69d"
+    },
+    {
+      "event_key": "us_ai_model_staggered_release_2025",
+      "url_hash": "a9f871abc7374d61",
+      "date": "2026-06-26",
+      "event_fingerprint": "c752be2ed3a11732"
+    },
+    {
+      "event_key": "global_ai_development_strategy_2024",
+      "url_hash": "27acff7032aa8325",
+      "date": "2026-06-26",
+      "event_fingerprint": "1b6b9d1164255f39"
+    },
+    {
+      "event_key": "eu_gdpr_consistency_policy_2024",
+      "url_hash": "8ce0262984d7f5d5",
+      "date": "2026-06-26",
+      "event_fingerprint": "5c2fcee6653b247b"
+    },
+    {
+      "event_key": "global_ai_training_terms_outcry_2024",
+      "url_hash": "03a42ae39a181c6c",
+      "date": "2026-06-26",
+      "event_fingerprint": "51954c2b2f797d5a"
+    },
+    {
+      "event_key": "global_ai_development_tools_industry_dialogue_2026",
+      "url_hash": "4a6cd6cab1efbab2",
+      "date": "2026-06-26",
+      "event_fingerprint": "de15bb5685cfaa63"
+    },
+    {
+      "event_key": "global_appsflyer_investment_2024",
+      "url_hash": "03f2bf3e11d5c2c3",
+      "date": "2026-06-26",
+      "event_fingerprint": "a828ce3124f81f00"
     }
   ]
 }
