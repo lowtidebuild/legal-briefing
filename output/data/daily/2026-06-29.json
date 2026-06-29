@@ -1,0 +1,284 @@
+[
+  {
+    "title": "Chinese developers file antitrust complaint against Apple over App Store fees",
+    "url": "https://www.pocketgamer.biz/chinese-developers-file-antitrust-complaint-against-apple-over-app-store-fees/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-06-26",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "중국 iOS 개발자 48개 그룹이 애플(Apple)의 과도한 앱스토어 수수료와 시장 지배력 남용 혐의로 중국 국가시장감독관리총국(SAMR)에 반독점 불만을 제기했습니다.",
+      "이번 사태는 애플(Apple)이 중국 시장에서 약속했던 최저 수수료 정책을 이행하지 않았다는 주장을 바탕으로 하며, 거대 플랫폼의 독점적 지위에 대한 규제 당국의 압박이 거세지고 있음을 시사합니다.",
+      "게임사들은 향후 주요 시장별 플랫폼 수수료 정책 변화를 예의주시하고, 특정 플랫폼 의존도를 낮추기 위한 배포 채널 다변화 및 대응 전략 마련이 필요합니다."
+    ],
+    "event": {
+      "jurisdiction": "CN",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Chinese iOS developers",
+        "Apple",
+        "State Administration for Market Regulation"
+      ],
+      "object": "App Store commission fees and market dominance",
+      "action": "filing of antitrust complaint",
+      "game_mechanic": "in-app purchases",
+      "time_hint": "2024"
+    },
+    "event_key": "cn_apple_antitrust_complaint_2024",
+    "is_primary": true,
+    "title_ko": "중국 개발자들, 앱스토어 수수료 문제로 애플(Apple) 상대로 반독점 소송 제기"
+  },
+  {
+    "title": "Epic's Sweeney claims Steam AI labels are \"really irresponsible of Valve\"",
+    "url": "https://www.gamesindustry.biz/epics-sweeney-claims-steam-ai-labels-are-really-irresponsible-of-valve",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-06-26",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "팀 스위니(Tim Sweeney) 에픽게임즈(Epic Games) CEO가 밸브(Valve)의 스팀(Steam) 내 AI 활용 표시 의무화 정책을 무책임하다고 비판했습니다.",
+      "이번 논란은 게임 개발 과정에서의 AI 도입 기준과 플랫폼의 규제 권한에 대한 게임 업계의 시각 차이를 극명하게 보여줍니다.",
+      "게임사는 플랫폼별로 다른 AI 관련 준수 사항을 면밀히 검토하고, 콘텐츠 개발 시 투명성 확보를 위한 내부 가이드라인을 선제적으로 마련해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Valve",
+        "Tim Sweeney",
+        "Epic Games"
+      ],
+      "object": "Steam AI disclosure policy",
+      "action": "criticism of AI label implementation",
+      "game_mechanic": "AI-generated content disclosure",
+      "time_hint": "March 2024"
+    },
+    "event_key": "global_steam_ai_label_policy_2024",
+    "is_primary": true,
+    "title_ko": "에픽게임즈(Epic Games)의 팀 스위니(Tim Sweeney), 밸브(Valve)의 스팀(Steam) AI 라벨링 정책 비판"
+  },
+  {
+    "title": "DraftKings is Being Sued by Man Who Lost His Savings",
+    "url": "https://gamerant.com/draftkings-lawsuit/",
+    "source": "Game Rant",
+    "pub_date": "2026-06-29",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "드래프트킹스(DraftKings)에서 도박으로 전 재산을 잃은 이용자가 해당 플랫폼이 자신의 도박 중독을 악용했다며 소송을 제기했습니다.",
+      "이번 소송은 이용자 보호 책임과 도박 중독 방지를 위한 플랫폼의 의무가 법적 쟁점으로 떠올랐다는 점에서 중요합니다.",
+      "게임 및 베팅 서비스 운영 시 이용자의 중독 위험을 모니터링하고 책임 있는 게임(Responsible Gaming) 정책을 엄격히 준수해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "DraftKings",
+        "Unnamed Plaintiff"
+      ],
+      "object": "gambling platform services",
+      "action": "lawsuit filed alleging exploitation of gambling addiction",
+      "game_mechanic": "real money wagering",
+      "time_hint": "2024"
+    },
+    "event_key": "us_draftkings_gambling_addiction_litigation_2024",
+    "is_primary": true,
+    "title_ko": "드래프트킹스(DraftKings), 전 재산을 잃은 이용자로부터 피소"
+  },
+  {
+    "title": "Fired GTA 6 developer accusing Rockstar Games of union busting says playing the blockbuster will \"probably just bring back too much\"",
+    "url": "https://www.gamesradar.com/games/grand-theft-auto/fired-gta-6-developer-accusing-rockstar-games-of-union-busting-says-playing-the-blockbuster-will-probably-just-bring-back-too-much/",
+    "source": "gamesradar+",
+    "pub_date": "2026-06-28",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "록스타 게임즈(Rockstar Games)에서 해고된 개발자가 사측의 노조 탄압을 주장하며 GTA 6 구매 및 플레이 거부 의사를 밝혔습니다.",
+      "이번 사건은 대형 게임사 내 노동 환경과 조직 문화에 대한 비판적 여론을 상기시키며 사내 노사 관계 이슈를 다시 점화하고 있습니다.",
+      "게임사는 대규모 프로젝트 운영 시 내부 노동 분쟁이 기업 이미지와 게임 판매에 직결될 수 있음을 유의하고 노사 관계 관리에 주의를 기울여야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Rockstar Games",
+        "Former Developer"
+      ],
+      "object": "Union busting allegations",
+      "action": "Legal dispute regarding termination and labor practices",
+      "game_mechanic": "none",
+      "time_hint": "2024"
+    },
+    "event_key": "us_rockstar_labor_litigation_2024",
+    "is_primary": true,
+    "title_ko": "록스타 게임즈(Rockstar Games)의 노조 탄압을 주장하며 해고된 GTA 6 개발자, 게임 플레이를 거부하다"
+  },
+  {
+    "title": "Johnny Somali Loses Appeal",
+    "url": "https://gamerant.com/johnny-somali-appeal-update/",
+    "source": "Game Rant",
+    "pub_date": "2026-06-29",
+    "category": "ETC",
+    "summary_ko": [
+      "논란의 라이브 스트리머 조니 소말리(Johnny Somali)가 한국 법원에서 제기한 항소가 공식적으로 기각되어 기존 유죄 판결이 확정되었습니다.",
+      "이번 판결은 게임 및 방송 콘텐츠 제작자가 해외 촬영 시 현지 법률을 위반할 경우 사법적 책임을 피할 수 없음을 명확히 했습니다.",
+      "글로벌 서비스 및 콘텐츠 제작 시 현지 법규 준수(Compliance)가 필수적이며, 플랫폼은 인플루언서의 위법 행위로 인한 브랜드 리스크 관리에 만전을 기해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "KR",
+      "event_type": "litigation",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Johnny Somali",
+        "South Korean Judiciary"
+      ],
+      "object": "Criminal conviction appeal",
+      "action": "Dismissed appeal upholding previous conviction",
+      "game_mechanic": "none",
+      "time_hint": "November 2024"
+    },
+    "event_key": "kr_livestreamer_conduct_enforcement_2024",
+    "is_primary": true,
+    "title_ko": "조니 소말리(Johnny Somali), 항소 기각"
+  },
+  {
+    "title": "Riot delays 'last hit indicators' in League of Legends ranked mode after fan response: 'We want to get more data and feedback'",
+    "url": "https://www.pcgamer.com/games/moba/riot-delays-last-hit-indicators-in-league-of-legends-ranked-mode-after-fan-response-we-want-to-get-more-data-and-feedback/",
+    "source": "PC Gamer",
+    "pub_date": "2026-06-27",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "라이엇 게임즈(Riot Games)가 사용자 반발을 수용하여 랭크 모드 내 '막타 표시기' 기능 도입을 연기하고 추가 데이터 확보에 나섰습니다.",
+      "게임의 핵심 경험을 변경하는 기능 도입 시 이용자 커뮤니티의 거부감이 클 경우 개발 전략의 수정이 불가피함을 보여줍니다.",
+      "새로운 편의 기능 도입 시 사전에 충분한 피드백을 수집하고, 게임 모드별로 적용 범위를 세분화하는 사용자 경험 관리 전략이 필요합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Riot Games"
+      ],
+      "object": "League of Legends ranked mode mechanics",
+      "action": "Delaying the rollout of last hit indicators following player feedback",
+      "game_mechanic": "last hit indicators",
+      "time_hint": "post-development"
+    },
+    "event_key": "global_league_of_legends_ui_policy_2025",
+    "is_primary": true,
+    "title_ko": "라이엇 게임즈(Riot Games), 팬들의 반발로 리그 오브 레전드(League of Legends) 랭크 모드의 '막타 표시기' 도입 연기"
+  },
+  {
+    "title": "“The studios that thrive will not be those that resist AI. They will be those that learn how to use it effectively\"",
+    "url": "https://www.pocketgamer.biz/ai-will-not-replace-creativity-it-will-amplify-it-maliyos-obi-at-lagos-games-week/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-06-23",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "말리요 게임즈(Maliyo Games)의 휴고 오비(Hugo Obi) CEO는 AI가 게임 기획, 아트, 스토리텔링 등 제작 파이프라인 전반을 재편하고 있다고 강조했습니다.",
+      "AI를 창의성에 대한 위협이 아닌 증폭제로 인식해야 하며, 이를 수용하는 스튜디오만이 향후 시장 경쟁에서 우위를 점할 수 있다는 분석입니다.",
+      "게임사들은 AI 기술을 생산성 향상의 핵심 도구로 적극 도입하여 개발 효율성을 높이고 워크플로우를 최적화하는 전략적 전환이 필요합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Maliyo Games",
+        "Hugo Obi"
+      ],
+      "object": "generative artificial intelligence adoption in game development",
+      "action": "advocacy for industry integration of AI tools",
+      "game_mechanic": "game design and production pipelines",
+      "time_hint": "Lagos Games Week 2026"
+    },
+    "event_key": "global_ai_industry_integration_2026",
+    "is_primary": true,
+    "title_ko": "“성공하는 스튜디오는 AI에 저항하지 않고 효과적으로 활용하는 법을 배우는 곳이 될 것”"
+  },
+  {
+    "title": "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
+    "source": "The Verge - Policy",
+    "pub_date": "2026-06-28",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "미국 검찰이 방화 혐의로 기소된 조나단 린더크네히트(Jonathan Rinderknecht)의 재판에서 챗GPT(ChatGPT) 대화 기록을 주요 증거로 제출했습니다.",
+      "디지털 플랫폼의 생성형 AI 데이터가 형사 소송의 핵심 증거 능력을 인정받은 사례로, 플랫폼 내 사용자 활동 기록의 법적 파급력을 입증했습니다.",
+      "게임사 및 플랫폼 기업은 사용자 데이터 보관 및 제공 정책을 재검토하고, AI 대화 로그가 향후 수사나 소송의 표적이 될 수 있음을 인지해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Prosecutors",
+        "Jonathan Rinderknecht"
+      ],
+      "object": "ChatGPT logs",
+      "action": "use of AI-generated data as evidence in criminal trial",
+      "game_mechanic": "null",
+      "time_hint": "2025"
+    },
+    "event_key": "us_ai_evidence_admissibility_2025",
+    "is_primary": true,
+    "title_ko": "검찰, 팰리세이즈(Palisades) 화재 재판에서 챗GPT(ChatGPT) 기록을 증거로 활용"
+  },
+  {
+    "title": "D&D and Magic owner Hasbro is reportedly trying to get child actors from Peppa Pig to sign away their voices to AI",
+    "url": "https://www.pcgamer.com/gaming-industry/d-and-d-and-magic-owners-hasbro-is-reportedly-trying-to-get-child-actors-from-peppa-pig-to-sign-away-their-voices-to-ai/",
+    "source": "PC Gamer",
+    "pub_date": "2026-06-26",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "해즈브로(Hasbro)가 페파피그(Peppa Pig) 등 자사 IP 아역 배우들에게 AI 학습을 위한 음성 권리 양도를 요구하고 있다는 정황이 포착되었습니다.",
+      "이번 조치는 향후 해즈브로(Hasbro)가 개발하는 비디오 게임을 포함한 모든 미디어 영역에서 배우의 권익과 AI 기술 활용 간의 심각한 윤리적 갈등을 예고합니다.",
+      "게임사들은 AI 음성 합성 도입 시 계약 단계에서 배우의 인격권과 저작권을 명확히 규정하고, 잠재적인 법적 분쟁 및 평판 리스크를 선제적으로 관리해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Hasbro",
+        "SAG-AFTRA"
+      ],
+      "object": "AI voice likeness rights of child actors",
+      "action": "alleged solicitation of waivers for synthetic voice training",
+      "game_mechanic": "voice acting and NPC generation",
+      "time_hint": ""
+    },
+    "event_key": "global_ai_voice_contract_policy_2024",
+    "is_primary": true,
+    "title_ko": "D&D와 매직 더 개더링의 소유주 해즈브로(Hasbro), 페파피그(Peppa Pig) 아역 배우들에게 AI 음성 권리 포기 요구 의혹"
+  },
+  {
+    "title": "AI Workforce Regulation: What Employers Need to Do Now",
+    "url": "https://www.internetandtechnologylaw.com/ai-workforce-regulation-what-employers-need-do/",
+    "source": "Pillsbury - Internet & Technology Law",
+    "pub_date": "2026-06-25",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "캘리포니아(California)와 코네티컷(Connecticut) 주를 중심으로 AI를 활용한 채용 및 인사 관리 업무에 대한 구체적인 규제 법안이 추진되고 있습니다.",
+      "게임 개발사를 포함한 기업들이 채용과 인사 평가에 AI를 적극 도입함에 따라, 향후 강화될 컴플라이언스 준수 의무가 중요한 경영 리스크로 부상했습니다.",
+      "게임 산업 실무진은 AI 채용 툴 도입 시 투명성 확보와 차별 금지 원칙을 사전에 검토하고, 지역별 규제 변화를 모니터링하여 인사 시스템을 정비해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "legislation",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "California State Legislature",
+        "Connecticut State Legislature",
+        "Employers"
+      ],
+      "object": "AI tools for workforce recruitment and management",
+      "action": "Introducing legislative proposals for AI compliance obligations",
+      "game_mechanic": "null",
+      "time_hint": ""
+    },
+    "event_key": "us_ai_workforce_legislation_2024",
+    "is_primary": true,
+    "title_ko": "AI 인력 관리 규제: 고용주가 지금 해야 할 일"
+  }
+]
