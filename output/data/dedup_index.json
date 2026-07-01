@@ -829,6 +829,60 @@
       "url_hash": "b925b570a1aa9aed",
       "date": "2026-06-29",
       "event_fingerprint": "619d1e87506677ab"
+    },
+    {
+      "event_key": "us_rockstar_union_recognition_2025",
+      "url_hash": "4fd7e546a185c8ff",
+      "date": "2026-07-01",
+      "event_fingerprint": "a0201104253af974"
+    },
+    {
+      "event_key": "us_xbox_layoffs_2025q1",
+      "url_hash": "ae1f8d561024fa70",
+      "date": "2026-07-01",
+      "event_fingerprint": "0bb1f99db342f770"
+    },
+    {
+      "event_key": "global_ai_code_contribution_policy_2024q4",
+      "url_hash": "a7e1f5f092a8344d",
+      "date": "2026-07-01",
+      "event_fingerprint": "9a07c050630b1605"
+    },
+    {
+      "event_key": "uk_labor_union_recognition_request_2024",
+      "url_hash": "d0946b5e5688d4d6",
+      "date": "2026-07-01",
+      "event_fingerprint": "d83dc3847a62fa19"
+    },
+    {
+      "event_key": "us_semiconductor_price_fixing_litigation_2024",
+      "url_hash": "0f6a9268d30bbb2f",
+      "date": "2026-07-01",
+      "event_fingerprint": "8b7eec68bac49f28"
+    },
+    {
+      "event_key": "us_dram_antitrust_litigation_2024",
+      "url_hash": "221e0d7558d56c94",
+      "date": "2026-07-01",
+      "event_fingerprint": "ce2c18b374ee2482"
+    },
+    {
+      "event_key": "us_memory_antitrust_litigation_2024",
+      "url_hash": "b3c1279b7c588d4d",
+      "date": "2026-07-01",
+      "event_fingerprint": "f01e12c2b9eccfb7"
+    },
+    {
+      "event_key": "uk_game_industry_labor_unionization_2024",
+      "url_hash": "633117db28e859c3",
+      "date": "2026-07-01",
+      "event_fingerprint": "aaab05710291f5af"
+    },
+    {
+      "event_key": "us_ftc_identity_theft_enforcement_2024",
+      "url_hash": "e08b70b3a86a8fad",
+      "date": "2026-07-01",
+      "event_fingerprint": "3105347963295935"
     }
   ]
 }

@@ -1,0 +1,262 @@
+[
+  {
+    "title": "GTA 6 developers at Rockstar Games pushing to pursue official union recognition following 2025 sackings: \"The union is now stronger than ever\"",
+    "url": "https://www.eurogamer.net/rockstar-games-union-push-before-gta-6-launch",
+    "source": "Eurogamer",
+    "pub_date": "2026-06-30",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "락스타 게임즈(Rockstar Games)의 개발자들이 지난해 대규모 해고 사태에 반발하며 공식 노조 설립을 위한 움직임을 본격화하고 있습니다.",
+      "이번 사태는 대형 게임사 내 노동권 강화와 '노조 탄압(union-busting)' 논란이 맞물린 중대한 노동 이슈로 주목받고 있습니다.",
+      "게임 산업계는 향후 대규모 프로젝트 운영 시 개발자들의 단체 행동권과 고용 안정성 요구에 따른 노사 관계 관리 리스크를 선제적으로 대비해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Rockstar Games",
+        "Rockstar Games developers",
+        "Workers Union"
+      ],
+      "object": "union recognition",
+      "action": "pushing for official union recognition following layoffs",
+      "game_mechanic": "none",
+      "time_hint": "2025"
+    },
+    "event_key": "us_rockstar_union_recognition_2025",
+    "is_primary": true,
+    "title_ko": "락스타 게임즈(Rockstar Games)의 'GTA 6' 개발자들, 2025년 해고 사태 이후 공식 노조 설립 박차: \"노조는 이전보다 더 강력해졌다\""
+  },
+  {
+    "title": "CWA union says Xbox workers are not \"disposable\" as layoffs loom",
+    "url": "https://www.gamesindustry.biz/cwa-union-says-xbox-workers-are-not-disposable-as-layoffs-loom",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-06-30",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "미국통신노조(CWA)가 엑스박스(Xbox)의 대규모 감원 가능성과 관련해 소속 조합원들을 지지하며 경영진의 행보를 강하게 비판했습니다.",
+      "게임 산업 내 대형 인수합병 이후 반복되는 고용 불안 문제에 대해 노동조합이 공개적으로 제동을 걸며 업계 내 고용 안정성 논란이 확산하고 있습니다.",
+      "글로벌 게임 기업들은 구조조정 과정에서 노조와의 갈등이 브랜드 평판 및 법적 분쟁으로 이어질 수 있음을 인지하고 인력 운용 전략을 수립해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "business",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "CWA",
+        "Xbox",
+        "Microsoft"
+      ],
+      "object": "workforce reduction and employment rights",
+      "action": "advocacy regarding mass layoffs",
+      "game_mechanic": "none",
+      "time_hint": "January 2025"
+    },
+    "event_key": "us_xbox_layoffs_2025q1",
+    "is_primary": true,
+    "title_ko": "미국통신노조(CWA), 엑스박스(Xbox) 대규모 감원 예고에 '노동자는 일회용이 아니다'라고 비판"
+  },
+  {
+    "title": "Open source game engine Godot will no longer accept AI-authored code contributions: 'We can't trust heavy users of AI to understand their code enough to fix it'",
+    "url": "https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/",
+    "source": "PC Gamer",
+    "pub_date": "2026-06-30",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "고도 엔진(Godot Engine)이 AI로 생성된 낮은 품질의 코드 유입을 막기 위해 코드 기여 정책을 강화했습니다.",
+      "AI가 작성한 코드의 검증과 유지보수가 어렵다는 판단하에 오픈소스 프로젝트의 무결성을 지키기 위한 강경 대응에 나섰습니다.",
+      "게임 개발 프로젝트 관리 시 AI 도구 활용의 효율성보다는 향후 코드 유지보수 책임과 품질 관리 체계를 사전에 명확히 구축해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Godot Foundation",
+        "Open Source Community"
+      ],
+      "object": "AI-authored code contributions",
+      "action": "Ban on AI-generated submissions to the game engine source code",
+      "game_mechanic": "n/a",
+      "time_hint": "October 2024"
+    },
+    "event_key": "global_ai_code_contribution_policy_2024q4",
+    "is_primary": true,
+    "title_ko": "오픈소스 게임 엔진 고도(Godot), AI 작성 코드 기여 금지: 'AI 의존도가 높은 사용자는 코드 수정 능력을 신뢰할 수 없다'"
+  },
+  {
+    "title": "GTA 6 Developers Ask Rockstar for Union Recognition — and They're Prepared to Go to the UK Government if Necessary",
+    "url": "https://www.ign.com/articles/gta-6-developers-ask-rockstar-for-union-recognition-and-theyre-prepared-to-go-to-the-uk-government-if-necessary",
+    "source": "IGN",
+    "pub_date": "2026-06-30",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "GTA 6 개발사인 락스타 게임즈(Rockstar Games)의 개발자들이 IWGB 게임 노동조합(IWGB Game Workers Union)의 공식 인정을 신청했습니다.",
+      "이번 움직임은 영국 내 게임 스튜디오 중 두 번째로 노조가 공식 인정받는 사례가 될 수 있어 업계의 노동권 향상에 중요한 분기점이 됩니다.",
+      "글로벌 게임 기업들은 향후 조직 내 노사 관계 변화에 대비하고, 노동 환경 개선 및 처우와 관련한 노조와의 협상 전략을 마련해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "UK",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Rockstar Games",
+        "IWGB Game Workers Union"
+      ],
+      "object": "union recognition",
+      "action": "application for voluntary recognition",
+      "game_mechanic": "none",
+      "time_hint": ""
+    },
+    "event_key": "uk_labor_union_recognition_request_2024",
+    "is_primary": true,
+    "title_ko": "락스타 게임즈(Rockstar Games) 개발자들, 노조 결성 공식 승인 요구... 필요시 영국 정부 개입도 불사"
+  },
+  {
+    "title": "The largest RAM and storage component manufacturers are being sued for alleged price fixing and stoking \"supracompetitive prices\"",
+    "url": "https://www.eurogamer.net/sk-hynix-micron-samsung-ram-price-fixing-lawsuit",
+    "source": "Eurogamer",
+    "pub_date": "2026-06-29",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "삼성전자(Samsung), SK하이닉스(SK Hynix), 마이크론(Micron) 등 세계 3대 메모리 제조사가 의도적인 공급 제한과 가격 담합 혐의로 집단 소송에 휘말렸습니다.",
+      "이번 소송은 해당 기업들이 경쟁을 저해하는 초과 이익을 취하기 위해 시장 가격을 인위적으로 조작했다는 의혹을 다루고 있어 업계의 큰 주목을 받고 있습니다.",
+      "게임 업계 실무자는 하드웨어 부품 비용 변동에 따른 기기 생산 단가 변화를 지속적으로 모니터링하고, 공급망 리스크 관리를 강화할 필요가 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Samsung",
+        "SK Hynix",
+        "Micron"
+      ],
+      "object": "DRAM and NAND storage supply and pricing",
+      "action": "class action lawsuit for price fixing and supply manipulation",
+      "game_mechanic": "null",
+      "time_hint": "2024"
+    },
+    "event_key": "us_semiconductor_price_fixing_litigation_2024",
+    "is_primary": true,
+    "title_ko": "삼성전자(Samsung), SK하이닉스(SK Hynix) 등 주요 RAM 및 저장장치 제조사, 가격 담합 혐의로 피소"
+  },
+  {
+    "title": "SK Hynix, Samsung and Micron sued over allegations of \"concerted anticompetitive behaviour\" in DRAM market",
+    "url": "https://www.gamesindustry.biz/sk-hynix-samsung-and-micron-sued-over-allegations-of-concerted-anticompetitive-behaviour-in-dram-market",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-06-29",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "SK하이닉스(SK Hynix), 삼성전자(Samsung), 마이크론(Micron) 3사가 DRAM 시장에서 조직적인 반경쟁 행위를 저질렀다는 혐의로 집단소송을 당했습니다.",
+      "이번 소송은 반도체 공급망의 핵심 기업들이 가격을 인위적으로 조정했을 가능성을 제기하고 있어 메모리 반도체 시장 전체의 공정 경쟁 체계에 큰 파장을 예고합니다.",
+      "게임 업계는 하드웨어 비용 상승 및 공급망 리스크에 대비해야 하며, 반도체 수급과 관련된 법적 분쟁이 향후 콘솔 및 PC 하드웨어 가격 전략에 미칠 영향을 면밀히 주시해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "SK Hynix",
+        "Samsung",
+        "Micron"
+      ],
+      "object": "DRAM market",
+      "action": "class action lawsuit alleging concerted anticompetitive behaviour",
+      "game_mechanic": "null",
+      "time_hint": ""
+    },
+    "event_key": "us_dram_antitrust_litigation_2024",
+    "is_primary": true,
+    "title_ko": "SK하이닉스(SK Hynix), 삼성전자(Samsung), 마이크론(Micron), DRAM 시장 내 반경쟁적 담합 혐의로 피소"
+  },
+  {
+    "title": "美國對三星、美光、SK Hynix發起反壟斷訴訟 稱聯手壟斷記憶體哄抬售價",
+    "url": "https://www.4gamers.com.tw/news/detail/80350/samsung-skhynix-micron-face-class-action-lawsuit-for-memory-price-crisis",
+    "source": "4gamers",
+    "pub_date": "2026-06-29",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "미국 내 유통업체와 소비자들이 삼성(Samsung), SK하이닉스(SK Hynix), 마이크론(Micron) 3사가 메모리 공급량을 조절해 가격을 인위적으로 올렸다며 반독점 소송을 제기했습니다.",
+      "AI 산업 급성장으로 메모리 가격이 폭등한 가운데 발생한 이번 소송은 기술 기업들의 시장 독점 지위 남용에 대한 미국 내 규제 당국과 대중의 감시가 강화되었음을 의미합니다.",
+      "게임 산업 실무자는 하드웨어 부품의 단가 상승에 따른 개발 및 인프라 구축 비용 증가 가능성을 대비하고, 주요 공급망의 법적 리스크를 지속적으로 모니터링해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Samsung",
+        "SK Hynix",
+        "Micron",
+        "US consumers",
+        "US distributors"
+      ],
+      "object": "DRAM memory market",
+      "action": "alleged price-fixing and market monopolization",
+      "game_mechanic": "none",
+      "time_hint": ""
+    },
+    "event_key": "us_memory_antitrust_litigation_2024",
+    "is_primary": true,
+    "title_ko": "미국, 삼성(Samsung)·SK하이닉스(SK Hynix)·마이크론(Micron)에 메모리 가격 담합 혐의로 반독점 소송 제기"
+  },
+  {
+    "title": "Rockstar union rep claims GTA 6 bosses can \"easily afford\" demands after reportedly generating $3 billion in pre-orders as devs call for \"fairer crunch\" and \"pay transparency\"",
+    "url": "https://www.gamesradar.com/games/grand-theft-auto/rockstar-union-rep-claims-gta-6-bosses-can-easily-afford-demands-after-reportedly-generating-usd3-billion-in-pre-orders-as-devs-call-for-fairer-crunch-and-pay-transparency/",
+    "source": "gamesradar+",
+    "pub_date": "2026-06-30",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "록스타 게임즈(Rockstar Games) 개발자들이 30억 달러 규모의 사전 주문 수익을 근거로 처우 개선과 노조 결성을 추진하고 있습니다.",
+      "이번 움직임은 영국 내 게임 업계의 고질적인 크런치 관행에 맞선 노조 결성 흐름을 상징하는 중요한 사례입니다.",
+      "게임사는 향후 임금 공개 의무화 및 노동 환경 개선 압박에 대비한 투명한 인사 관리 체계를 수립해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "UK",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Rockstar Games",
+        "Rockstar union representatives",
+        "Game Workers Unite"
+      ],
+      "object": "labor practices and employee compensation",
+      "action": "advocacy for collective bargaining and pay transparency",
+      "game_mechanic": "none",
+      "time_hint": "2024"
+    },
+    "event_key": "uk_game_industry_labor_unionization_2024",
+    "is_primary": true,
+    "title_ko": "록스타 게임즈(Rockstar Games) 노조 대표, GTA 6 사전 주문 30억 달러 수익 기반으로 '공정한 크런치'와 '임금 투명성' 요구"
+  },
+  {
+    "title": "Amazon fined $2.25 million for failing to help identity theft victims",
+    "url": "https://www.theverge.com/tech/959847/amazon-ftc-identity-theft-fine",
+    "source": "The Verge - Policy",
+    "pub_date": "2026-06-30",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "미국 연방거래위원회(FTC)는 아마존(Amazon)이 신원 도용 피해를 본 고객들에게 부정 결제 내역 정보를 제공하지 않은 혐의로 225만 달러의 합의금을 부과했습니다.",
+      "이번 조치는 소비자 보호법에 따라 기업이 부정 결제 피해를 입은 이용자의 정보 공개 요청을 거부할 경우 법적 책임을 질 수 있음을 명확히 했습니다.",
+      "게임사 또한 부정 결제나 계정 탈취 관련 CS 대응 시, 관련 법규를 준수하여 피해 고객에게 필요한 정보를 투명하게 공유하는 프로세스를 재점검해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "enforcement",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Federal Trade Commission",
+        "Amazon"
+      ],
+      "object": "identity theft victim support",
+      "action": "fined Amazon for failing to assist identity theft victims and withholding purchase information",
+      "game_mechanic": "none",
+      "time_hint": "recent settlement"
+    },
+    "event_key": "us_ftc_identity_theft_enforcement_2024",
+    "is_primary": true,
+    "title_ko": "아마존(Amazon), 신원 도용 피해자 지원 미흡으로 225만 달러 벌금 부과"
+  }
+]
