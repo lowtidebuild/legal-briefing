@@ -3,66 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "uk_rockstar_union_busting_litigation_2023",
-      "url_hash": "f7b55e3dbe569ede",
-      "date": "2026-06-01",
-      "event_fingerprint": "00833ceb2409a10c"
-    },
-    {
-      "event_key": "global_ai_infrastructure_report_2026",
-      "url_hash": "a249b1329669bfbd",
-      "date": "2026-06-01",
-      "event_fingerprint": "a043724a01ad4238"
-    },
-    {
-      "event_key": "global_ai_streaming_summarization_2026",
-      "url_hash": "92f3e2991eda74d1",
-      "date": "2026-06-01",
-      "event_fingerprint": "71456f2ad4ca77fd"
-    },
-    {
-      "event_key": "us_23andme_data_breach_litigation_2024",
-      "url_hash": "8b1f3f12ba7dd529",
-      "date": "2026-06-01",
-      "event_fingerprint": "32234bb9850ae9d1"
-    },
-    {
-      "event_key": "us_wotc_unionization_efforts_2024",
-      "url_hash": "e012d525a2cba71a",
-      "date": "2026-06-01",
-      "event_fingerprint": "3a933d58465172f7"
-    },
-    {
-      "event_key": "us_microsoft_exploit_disclosure_policy_2024",
-      "url_hash": "0872859320d59695",
-      "date": "2026-06-01",
-      "event_fingerprint": "48cccaf21c8c619b"
-    },
-    {
-      "event_key": "us_ai_contract_risk_guidance_2024",
-      "url_hash": "5579de389d52b277",
-      "date": "2026-06-01",
-      "event_fingerprint": "9cc10dc97e46d05d"
-    },
-    {
-      "event_key": "eu_dma_fortnite_ios_return_2025",
-      "url_hash": "3b0abdee9ab67b27",
-      "date": "2026-06-01",
-      "event_fingerprint": "75843fef70ff5e67"
-    },
-    {
-      "event_key": "us_activision_microsoft_acquisition_lawsuit_settlement_2024",
-      "url_hash": "541fad13b1fce20c",
-      "date": "2026-06-01",
-      "event_fingerprint": "8da60982d1d8a91e"
-    },
-    {
-      "event_key": "us_ip_trademark_domain_recovery_2024",
-      "url_hash": "47502e15b45dae93",
-      "date": "2026-06-01",
-      "event_fingerprint": "fa0db9773feba029"
-    },
-    {
       "event_key": "uk_rockstar_union_formation_2024",
       "url_hash": "ec5f7807b23967ba",
       "date": "2026-06-03",
@@ -883,6 +823,66 @@
       "url_hash": "e08b70b3a86a8fad",
       "date": "2026-07-01",
       "event_fingerprint": "3105347963295935"
+    },
+    {
+      "event_key": "eu_android_antitrust_fine_2024",
+      "url_hash": "83c5d84c7bbd71c5",
+      "date": "2026-07-03",
+      "event_fingerprint": "930437d4fdc11d42"
+    },
+    {
+      "event_key": "eu_aml_data_sharing_guidelines_2027",
+      "url_hash": "3c08a4587c7dfddb",
+      "date": "2026-07-03",
+      "event_fingerprint": "09b80c2233e3586b"
+    },
+    {
+      "event_key": "global_ai_contribution_policy_update_2024",
+      "url_hash": "16e0153cdb0fc966",
+      "date": "2026-07-03",
+      "event_fingerprint": "229b3280c2c873bc"
+    },
+    {
+      "event_key": "uk_rockstar_union_recognition_2024",
+      "url_hash": "a95080a9e2cf597a",
+      "date": "2026-07-03",
+      "event_fingerprint": "b3ded0c592684987"
+    },
+    {
+      "event_key": "global_godot_ai_code_policy_2024",
+      "url_hash": "52c1f0fe934c4e9b",
+      "date": "2026-07-03",
+      "event_fingerprint": "41d26647bc1f2d82"
+    },
+    {
+      "event_key": "us_xbox_labor_dispute_2024",
+      "url_hash": "ec023577b5e039c8",
+      "date": "2026-07-03",
+      "event_fingerprint": "d65eaa04b7fe159a"
+    },
+    {
+      "event_key": "global_labor_bonus_settlement_2024",
+      "url_hash": "53e19e50e7b6f0f1",
+      "date": "2026-07-03",
+      "event_fingerprint": "f1a9c58e0728dc64"
+    },
+    {
+      "event_key": "uk_rockstar_labor_practice_allegations_2025",
+      "url_hash": "79fc1068f41f9bb1",
+      "date": "2026-07-03",
+      "event_fingerprint": "d5404993c135b85e"
+    },
+    {
+      "event_key": "us_meta_ai_product_launch_2025",
+      "url_hash": "c81dd08b97143204",
+      "date": "2026-07-03",
+      "event_fingerprint": "16a1229347a2141c"
+    },
+    {
+      "event_key": "global_ai_game_dev_advocacy_2024",
+      "url_hash": "4a7e25c7be74871e",
+      "date": "2026-07-03",
+      "event_fingerprint": "d14372ad98be4b1a"
     }
   ]
 }
