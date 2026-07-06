@@ -3,126 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "uk_rockstar_union_formation_2024",
-      "url_hash": "ec5f7807b23967ba",
-      "date": "2026-06-03",
-      "event_fingerprint": "de894edf63da93c4"
-    },
-    {
-      "event_key": "us_valve_antitrust_litigation_2024",
-      "url_hash": "c2d1ed22baebedad",
-      "date": "2026-06-03",
-      "event_fingerprint": "dc10790863e2c01c"
-    },
-    {
-      "event_key": "global_steam_monopoly_litigation_2024",
-      "url_hash": "6e7d1724e8c179df",
-      "date": "2026-06-03",
-      "event_fingerprint": "00d2d54a8d93aaf8"
-    },
-    {
-      "event_key": "global_atlas_menu_hack_2024",
-      "url_hash": "6b3232acee44db3a",
-      "date": "2026-06-03",
-      "event_fingerprint": "782f02f03ed8d45b"
-    },
-    {
-      "event_key": "global_ai_safety_grooming_detection_2024",
-      "url_hash": "978b641aa00023af",
-      "date": "2026-06-03",
-      "event_fingerprint": "a08434b1a55dd078"
-    },
-    {
-      "event_key": "us_state_privacy_ai_legislation_2026",
-      "url_hash": "ded3d4295505faf9",
-      "date": "2026-06-03",
-      "event_fingerprint": "a95bf6705093132a"
-    },
-    {
-      "event_key": "global_meta_ai_security_vulnerability_2024",
-      "url_hash": "24835f1eb7df9c6b",
-      "date": "2026-06-03",
-      "event_fingerprint": "ea47d2df542dd87c"
-    },
-    {
-      "event_key": "global_compliance_news_reporting_2026",
-      "url_hash": "483825e9fb8a2dab",
-      "date": "2026-06-03",
-      "event_fingerprint": "6af65f22daf125d1"
-    },
-    {
-      "event_key": "global_fifa_gaming_strategy_shift_2024",
-      "url_hash": "d6bd222c16f1362f",
-      "date": "2026-06-03",
-      "event_fingerprint": "09293c1feba4cd02"
-    },
-    {
-      "event_key": "global_saga_ai_division_launch_2025",
-      "url_hash": "208b67f3c330f153",
-      "date": "2026-06-03",
-      "event_fingerprint": "3e1d430bd8dbff4e"
-    },
-    {
-      "event_key": "global_ai_transparency_disclosure_2024",
-      "url_hash": "30da487994b06162",
-      "date": "2026-06-05",
-      "event_fingerprint": "d0a2462b733a24d0"
-    },
-    {
-      "event_key": "uk_rockstar_labor_dispute_2025",
-      "url_hash": "fbab02138e38e9da",
-      "date": "2026-06-05",
-      "event_fingerprint": "16dfbc3840c46920"
-    },
-    {
-      "event_key": "us_ca_game_preservation_legislation_2024",
-      "url_hash": "d0a1fceb92f0a5a6",
-      "date": "2026-06-05",
-      "event_fingerprint": "b6598118593f1f2e"
-    },
-    {
-      "event_key": "global_persona6_leak_takedown_2024",
-      "url_hash": "4545a710d835ac46",
-      "date": "2026-06-05",
-      "event_fingerprint": "db45a4d6b9477ce4"
-    },
-    {
-      "event_key": "eu_battery_waste_regulation_compliance_2027",
-      "url_hash": "c31928b0bfb742d1",
-      "date": "2026-06-05",
-      "event_fingerprint": "802a8e82dc4f44d2"
-    },
-    {
-      "event_key": "global_persona6_copyright_strike_2024",
-      "url_hash": "848b6438b22ab17f",
-      "date": "2026-06-05",
-      "event_fingerprint": "49cb7c4152c00fed"
-    },
-    {
-      "event_key": "us_colorado_ai_act_revision_2026",
-      "url_hash": "0ee591360c56b25d",
-      "date": "2026-06-05",
-      "event_fingerprint": "479019b8ad6d6b35"
-    },
-    {
-      "event_key": "us_colorado_ai_act_enacted_2026",
-      "url_hash": "1c1161434414f0da",
-      "date": "2026-06-05",
-      "event_fingerprint": "11b59962c5353212"
-    },
-    {
-      "event_key": "us_ai_frontier_model_oversight_2025",
-      "url_hash": "78ac8c1e151037d6",
-      "date": "2026-06-05",
-      "event_fingerprint": "b55bc947d4165dee"
-    },
-    {
-      "event_key": "global_security_resiliency_advisory_2024",
-      "url_hash": "b3b21ed9c2da2fe9",
-      "date": "2026-06-05",
-      "event_fingerprint": "2a9e53a5840d1ff1"
-    },
-    {
       "event_key": "global_capcom_genai_policy_2024",
       "url_hash": "193cdb67f7e44948",
       "date": "2026-06-08",
@@ -883,6 +763,60 @@
       "url_hash": "4a7e25c7be74871e",
       "date": "2026-07-03",
       "event_fingerprint": "d14372ad98be4b1a"
+    },
+    {
+      "event_key": "us_rockstar_labor_conditions_advocacy_2024",
+      "url_hash": "438ed974363a8bb3",
+      "date": "2026-07-06",
+      "event_fingerprint": "eb024d4b4aa893bd"
+    },
+    {
+      "event_key": "us_epic_games_contractor_leak_settlement_2024",
+      "url_hash": "2d2dc39d14377e4d",
+      "date": "2026-07-06",
+      "event_fingerprint": "e9525ccefd0ae195"
+    },
+    {
+      "event_key": "global_krafton_unknown_worlds_bonus_settlement_2024",
+      "url_hash": "59fccad53225b4d4",
+      "date": "2026-07-06",
+      "event_fingerprint": "d3cc26f328c4c8a0"
+    },
+    {
+      "event_key": "us_labor_hardship_fund_2024",
+      "url_hash": "c6856df5927c041a",
+      "date": "2026-07-06",
+      "event_fingerprint": "d44ed6cea33ada64"
+    },
+    {
+      "event_key": "us_epic_games_leak_settlement_2024",
+      "url_hash": "a4eab722acb91421",
+      "date": "2026-07-06",
+      "event_fingerprint": "8fa5b24b1d64a743"
+    },
+    {
+      "event_key": "eu_google_antitrust_fine_2022",
+      "url_hash": "12f8c5f651568f56",
+      "date": "2026-07-06",
+      "event_fingerprint": "d20fc16fa9f762aa"
+    },
+    {
+      "event_key": "in_whatsapp_security_enforcement_2024",
+      "url_hash": "ed31f030ecfe8230",
+      "date": "2026-07-06",
+      "event_fingerprint": "87ccfe9807d184b3"
+    },
+    {
+      "event_key": "eu_ubisoft_barcelona_layoff_strike_2025",
+      "url_hash": "ea91706cbb4d8027",
+      "date": "2026-07-06",
+      "event_fingerprint": "7d65ee86edc91644"
+    },
+    {
+      "event_key": "us_ai_educational_adoption_2024",
+      "url_hash": "62797d7741b41a29",
+      "date": "2026-07-06",
+      "event_fingerprint": "f2f78457ed9864a5"
     }
   ]
 }

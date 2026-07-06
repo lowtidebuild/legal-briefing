@@ -1,0 +1,257 @@
+[
+  {
+    "title": "Union raises concerns over gender pay gaps, bonus management, and crunch at Rockstar",
+    "url": "https://www.gamesindustry.biz/union-raises-concerns-over-gender-pay-gaps-bonus-management-and-crunch-at-rockstar",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-07-02",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "락스타(Rockstar) 노조원들이 성별에 따른 임금 불평등, 강제적 초과 근무 요구, 보너스 관리 방식에 대해 공식적으로 문제를 제기했습니다.",
+      "이번 사안은 게임 업계 내 고질적인 근무 환경 문제와 노동자 권익 보호에 대한 노사 갈등이 심화되고 있음을 보여줍니다.",
+      "게임사는 향후 성평등 임금 체계 확립과 투명한 보상 구조 마련, 근로 환경 개선을 위한 사내 노동 정책 점검이 필수적입니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Rockstar Games",
+        "Rockstar Union"
+      ],
+      "object": "gender pay gaps, bonus management, and overtime policies",
+      "action": "labor advocacy and internal policy negotiation",
+      "game_mechanic": "none",
+      "time_hint": "2024"
+    },
+    "event_key": "us_rockstar_labor_conditions_advocacy_2024",
+    "is_primary": true,
+    "title_ko": "락스타(Rockstar) 노조, 성별 임금 격차와 보너스 운용 및 크런치(Crunch) 관행에 우려 제기"
+  },
+  {
+    "title": "Epic Games settles a court case against former contractor accused of leaking Fortnite collaborations",
+    "url": "https://www.eurogamer.net/epic-games-fortnite-settles-leaker-contractor-lawsuit",
+    "source": "Eurogamer",
+    "pub_date": "2026-07-05",
+    "category": "IP",
+    "summary_ko": [
+      "에픽게임즈(Epic Games)가 자사의 게임인 포트나이트(Fortnite)의 비공개 협업 정보를 외부로 유출한 전 계약자를 상대로 제기한 소송을 합의로 종결했습니다.",
+      "이번 사례는 게임사의 기밀 정보 보호가 단순 보안 문제를 넘어 법적 책임으로 이어질 수 있음을 보여주는 중요한 선례입니다.",
+      "게임 산업 실무자들은 외부 파트너 및 계약자와의 협업 시 엄격한 비밀유지 계약(NDA) 체결과 데이터 접근 권한 관리에 각별한 주의를 기울여야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Epic Games",
+        "Former Contractor"
+      ],
+      "object": "confidential Fortnite collaboration information",
+      "action": "settlement of lawsuit regarding unauthorized data disclosure",
+      "game_mechanic": "n/a",
+      "time_hint": "2024"
+    },
+    "event_key": "us_epic_games_contractor_leak_settlement_2024",
+    "is_primary": true,
+    "title_ko": "에픽게임즈(Epic Games), 포트나이트(Fortnite) 협업 유출 혐의로 외부 계약자와 합의"
+  },
+  {
+    "title": "Subnautica 2 studio Unknown Worlds' CEO resigns as Krafton agrees to pay $250m bonus",
+    "url": "https://www.gamesindustry.biz/subnautica-2-studio-unknown-worlds-ceo-resigns-as-krafton-agrees-to-pay-250m-bonus",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-07-01",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "크래프톤(Krafton)이 서브노티카 2 개발사 언노운 월즈(Unknown Worlds)의 전 경영진과 벌인 보너스 지급 관련 소송에서 2억 5천만 달러를 지급하기로 합의했습니다.",
+      "이번 합의는 피인수 기업의 핵심 경영진 퇴사와 경영권 분쟁이 기업 운영에 미치는 리스크를 보여주는 중요한 사례입니다.",
+      "M&A 계약 시 인센티브 지급 기준과 경영진 유지 방안에 대한 정교한 법적 계약 체결 및 리스크 관리 체계 점검이 필요합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Krafton",
+        "Unknown Worlds"
+      ],
+      "object": "CEO bonus dispute",
+      "action": "settlement",
+      "game_mechanic": "none",
+      "time_hint": "2024"
+    },
+    "event_key": "global_krafton_unknown_worlds_bonus_settlement_2024",
+    "is_primary": true,
+    "title_ko": "서브노티카 2 개발사 언노운 월즈(Unknown Worlds) CEO 사임 및 크래프톤(Krafton) 2억 5천만 달러 보너스 지급 합의"
+  },
+  {
+    "title": "United Videogame Workers launches hardship fund for laid-off game workers",
+    "url": "https://www.pocketgamer.biz/united-videogame-workers-launches-hardship-fund-for-laid-off-game-workers/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-07-03",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "노조 단체인 유나이티드 비디오게임 워커스-CWA(UVW-CWA)가 미국 및 캐나다 지역의 해고된 게임 업계 종사자를 돕기 위한 '게임 노동자 구호 기금(Game Worker Hardship Fund)'을 출범했습니다.",
+      "최근 업계 전반에 걸친 대규모 정리 해고로 인해 경제적 어려움을 겪는 노동자들이 늘어남에 따라 이들을 직접 지원하기 위한 사회적 안전망이 강화되었습니다.",
+      "게임 기업들은 고용 불안정성 이슈가 노조의 조직적 대응으로 이어지고 있음을 인지하고, 해고 절차에서의 리스크 관리 및 고용 정책에 대한 신중한 검토가 필요합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "other",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "United Videogame Workers-CWA",
+        "Game Worker Hardship Fund"
+      ],
+      "object": "laid-off game workers",
+      "action": "establishment of a financial hardship assistance fund",
+      "game_mechanic": "none",
+      "time_hint": "2024"
+    },
+    "event_key": "us_labor_hardship_fund_2024",
+    "is_primary": true,
+    "title_ko": "유나이티드 비디오게임 워커스(United Videogame Workers), 해고된 게임 노동자를 위한 구호 기금 조성"
+  },
+  {
+    "title": "Epic reaches lawsuit settlement with former contractor who was also a notorious Fortnite leaker",
+    "url": "https://www.pcgamer.com/games/epic-reaches-lawsuit-settlement-with-former-contractor-who-was-also-a-notorious-fortnite-leaker/",
+    "source": "PC Gamer",
+    "pub_date": "2026-07-03",
+    "category": "IP",
+    "summary_ko": [
+      "에픽게임즈(Epic Games)가 포트나이트(Fortnite)의 기밀 정보를 반복적으로 유출했던 전 계약직 직원과 법적 분쟁을 원만히 해결했습니다.",
+      "이번 합의는 게임사의 지식재산권 보호 및 비공개 정보 유출 방지에 대한 강력한 의지를 표명한 사례입니다.",
+      "게임사는 계약직 및 협력사와의 NDA를 강화하고, 기밀 유지 위반 시 즉각적인 법적 조치를 취할 수 있는 내부 관리 체계를 재점검해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Epic Games",
+        "Former Contractor"
+      ],
+      "object": "Confidential information and trade secrets",
+      "action": "Settlement of lawsuit regarding unauthorized leak of game content",
+      "game_mechanic": "None",
+      "time_hint": ""
+    },
+    "event_key": "us_epic_games_leak_settlement_2024",
+    "is_primary": true,
+    "title_ko": "에픽게임즈(Epic Games), 포트나이트(Fortnite) 정보 유출자로 알려진 전 계약직과의 소송 합의"
+  },
+  {
+    "title": "Google loses protracted antitrust fight and will have to pay record-breaking €4.1 billion fine equivalent to less than 3% of Alphabet's annual profit",
+    "url": "https://www.pcgamer.com/hardware/google-loses-protracted-antitrust-fight-and-will-have-to-pay-record-breaking-eur4-1-billion-fine-equivalent-to-less-than-3-percent-of-alphabets-annual-profit/",
+    "source": "PC Gamer",
+    "pub_date": "2026-07-03",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "구글(Google)이 유럽연합(EU)과의 오랜 반독점 소송에서 패소하여 약 41억 유로의 거액을 벌금으로 납부하게 되었습니다.",
+      "이번 판결은 알파벳(Alphabet)의 연간 이익 대비 3% 미만의 규모이나, 거대 IT 기업의 시장 지배력 남용에 대한 강력한 제재 의지를 보여줍니다.",
+      "글로벌 게임사는 자사 앱스토어 운영 및 마케팅 전략 수립 시 EU의 엄격한 경쟁법 규제 준수 여부를 재점검해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "enforcement",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Google",
+        "European Commission",
+        "Alphabet"
+      ],
+      "object": "Android operating system bundling and anti-competitive practices",
+      "action": "imposition of antitrust fine",
+      "game_mechanic": "none",
+      "time_hint": "2022"
+    },
+    "event_key": "eu_google_antitrust_fine_2022",
+    "is_primary": true,
+    "title_ko": "구글(Google), 장기적인 반독점 소송 패소로 기록적인 41억 유로의 벌금 부과받아"
+  },
+  {
+    "title": "India gives WhatsApp three days to defend username rollout amid security fears",
+    "url": "https://www.theregister.com/security/2026/07/02/india-writes-to-whatsapp-over-usernames-security-concerns/5265744",
+    "source": "The Register - Security",
+    "pub_date": "2026-07-02",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "인도 정부가 메타(Meta)의 메신저 서비스 왓츠앱(WhatsApp)이 도입하려는 사용자명 기능에 대해 보안 문제를 제기하며 3일 내 소명과 도입 중단을 요구했습니다.",
+      "세계 최대 시장인 인도에서 사칭 범죄 등 보안 위협에 대한 정부의 강력한 규제 의지가 확인되었으며, 이는 플랫폼의 이용자 보호 의무를 재강조하는 사례입니다.",
+      "게임 및 IT 플랫폼 기업은 신규 기능 도입 시 개인정보 보호 및 보안 리스크에 대한 사전 대응책을 마련하고, 글로벌 시장의 지역별 규제 준수 체계를 점검해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "enforcement",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Government of India",
+        "WhatsApp",
+        "Meta"
+      ],
+      "object": "WhatsApp username feature",
+      "action": "demand for justification and suspension of rollout due to impersonation risks",
+      "game_mechanic": "null",
+      "time_hint": "2024"
+    },
+    "event_key": "in_whatsapp_security_enforcement_2024",
+    "is_primary": true,
+    "title_ko": "인도 정부, 보안 우려에 왓츠앱(WhatsApp)의 사용자명 도입 3일 내 해명 요구"
+  },
+  {
+    "title": "Ubisoft Barcelona staff strike over proposed layoffs",
+    "url": "https://www.pocketgamer.biz/ubisoft-barcelona-staff-strike-over-proposed-layoffs/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-07-01",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "유비소프트 바르셀로나(Ubisoft Barcelona) 직원들이 최대 51명의 정리해고 계획에 반발하며 파업을 시작했습니다.",
+      "이번 사태는 스페인 노동조합 CGT(La Confederación General del Trabajo)가 주도하며 게임업계의 지속적인 구조조정에 대한 노동계의 반발을 상징합니다.",
+      "게임 기업들은 인력 감축 시 현지 노동법 준수 및 노조와의 협상이 기업 이미지와 개발 일정에 직접적인 리스크가 될 수 있음을 유의해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "other",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Ubisoft Barcelona",
+        "La Confederacion General del Trabajo"
+      ],
+      "object": "51 employees",
+      "action": "industrial strike action regarding proposed layoffs",
+      "game_mechanic": "none",
+      "time_hint": "June 30th through July 17th"
+    },
+    "event_key": "eu_ubisoft_barcelona_layoff_strike_2025",
+    "is_primary": true,
+    "title_ko": "유비소프트 바르셀로나(Ubisoft Barcelona), 정리해고 반대 파업 돌입"
+  },
+  {
+    "title": "Some of the nation’s rich are letting AI teach their kids",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
+    "source": "The Verge - Policy",
+    "pub_date": "2026-07-05",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "포지 프렙(Forge Prep), 알파(Alpha) 등 교육 기업들이 전통적인 학교 대신 AI를 활용한 맞춤형 교육 서비스를 부유층 자녀에게 제공하고 있습니다.",
+      "AI의 신뢰성 논란에도 불구하고 특정 계층을 중심으로 AI 기반 교육 모델이 확산되면서, 교육 기술 시장의 새로운 수요가 창출되고 있습니다.",
+      "게임 업계는 이러한 교육용 AI 도입 흐름에 맞춰 에듀테인먼트(Edutainment) 콘텐츠 개발 시 AI의 학습 데이터 신뢰성과 안전성 강화 전략을 우선 고려해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Forge Prep",
+        "Alpha",
+        "US wealthy demographic"
+      ],
+      "object": "AI-based educational services",
+      "action": "adoption of AI for child education",
+      "game_mechanic": "n/a",
+      "time_hint": ""
+    },
+    "event_key": "us_ai_educational_adoption_2024",
+    "is_primary": true,
+    "title_ko": "미국 부유층, 자녀 교육에 AI 도입 본격화"
+  }
+]
