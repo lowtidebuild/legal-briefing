@@ -817,6 +817,66 @@
       "url_hash": "62797d7741b41a29",
       "date": "2026-07-06",
       "event_fingerprint": "f2f78457ed9864a5"
+    },
+    {
+      "event_key": "us_texas_age_verification_law_2024",
+      "url_hash": "a5c35e7333c28e06",
+      "date": "2026-07-08",
+      "event_fingerprint": "53b441d249907bac"
+    },
+    {
+      "event_key": "us_labor_hardship_fund_2026",
+      "url_hash": "2c169be05fcd2f6f",
+      "date": "2026-07-08",
+      "event_fingerprint": "9b52a16a00256586"
+    },
+    {
+      "event_key": "us_microsoft_layoffs_2024",
+      "url_hash": "ac0c5a9ec2b1d8eb",
+      "date": "2026-07-08",
+      "event_fingerprint": "1f3e06b219b25996"
+    },
+    {
+      "event_key": "eu_ai_act_adoption_2023",
+      "url_hash": "bbf9100ba97a20ee",
+      "date": "2026-07-08",
+      "event_fingerprint": "830254585c757dc0"
+    },
+    {
+      "event_key": "global_sony_ai_adoption_2024",
+      "url_hash": "ebaa36e0fec8ba76",
+      "date": "2026-07-08",
+      "event_fingerprint": "f910cbc3b3fa0839"
+    },
+    {
+      "event_key": "us_copyright_office_appointment_litigation_2024",
+      "url_hash": "7e86158336427725",
+      "date": "2026-07-08",
+      "event_fingerprint": "ecb26824fa0bfa34"
+    },
+    {
+      "event_key": "us_labor_union_hardship_fund_2026",
+      "url_hash": "1879ebab42212bd0",
+      "date": "2026-07-08",
+      "event_fingerprint": "703550ade02eb247"
+    },
+    {
+      "event_key": "cn_ai_gaming_regulation_summit_2026",
+      "url_hash": "e80fe172afc0d6f6",
+      "date": "2026-07-08",
+      "event_fingerprint": "281e3e2f41229ca8"
+    },
+    {
+      "event_key": "eu_battery_right_to_repair_compliance_2024",
+      "url_hash": "11090c14ed04b2e0",
+      "date": "2026-07-08",
+      "event_fingerprint": "0f2548cd7bae4061"
+    },
+    {
+      "event_key": "global_meta_ai_image_generation_deployment_2025",
+      "url_hash": "779fe69a19a664e4",
+      "date": "2026-07-08",
+      "event_fingerprint": "dcdab23cda4d839d"
     }
   ]
 }
