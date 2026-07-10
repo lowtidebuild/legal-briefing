@@ -3,66 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "global_capcom_genai_policy_2024",
-      "url_hash": "193cdb67f7e44948",
-      "date": "2026-06-08",
-      "event_fingerprint": "67f246860cf2839a"
-    },
-    {
-      "event_key": "global_steam_ai_disclosure_policy_2024",
-      "url_hash": "8f3e89f3402236dd",
-      "date": "2026-06-08",
-      "event_fingerprint": "1a5583ea5dba1555"
-    },
-    {
-      "event_key": "global_xbox_ai_strategy_reset_2025",
-      "url_hash": "fd1b733a3d922ef9",
-      "date": "2026-06-08",
-      "event_fingerprint": "824b7259485caae9"
-    },
-    {
-      "event_key": "global_ai_content_cloning_impact_2024",
-      "url_hash": "aec6037ff1cd282e",
-      "date": "2026-06-08",
-      "event_fingerprint": "f552fc818e5d15f0"
-    },
-    {
-      "event_key": "us_ai_insurance_governance_2024",
-      "url_hash": "1d84a5d9863d3e7a",
-      "date": "2026-06-08",
-      "event_fingerprint": "790249e4b69282b8"
-    },
-    {
-      "event_key": "us_patent_infringement_standard_2026",
-      "url_hash": "ed65a945f7840811",
-      "date": "2026-06-08",
-      "event_fingerprint": "d3adce0944f936d2"
-    },
-    {
-      "event_key": "global_ai_hardware_supply_chain_2025",
-      "url_hash": "01dda9fd8f7274b2",
-      "date": "2026-06-08",
-      "event_fingerprint": "0ccef1aa4f9988f2"
-    },
-    {
-      "event_key": "global_esports_partnership_mpl_qiddiya_2024",
-      "url_hash": "a2137a2255b80f9e",
-      "date": "2026-06-08",
-      "event_fingerprint": "efaa4f53f0df6ea4"
-    },
-    {
-      "event_key": "global_ai_game_development_strategy_2024",
-      "url_hash": "de129a05266deb93",
-      "date": "2026-06-08",
-      "event_fingerprint": "870dfb624f821f1a"
-    },
-    {
-      "event_key": "global_esports_manager_2026_release_2026",
-      "url_hash": "207447e96022eac9",
-      "date": "2026-06-08",
-      "event_fingerprint": "65d39016b39c16b2"
-    },
-    {
       "event_key": "eu_battery_directive_compliance_2024",
       "url_hash": "7660fe342c71ab04",
       "date": "2026-06-10",
@@ -877,6 +817,66 @@
       "url_hash": "779fe69a19a664e4",
       "date": "2026-07-08",
       "event_fingerprint": "dcdab23cda4d839d"
+    },
+    {
+      "event_key": "eu_edpb_generative_ai_guidelines_2026",
+      "url_hash": "2204a56cef7e10e9",
+      "date": "2026-07-10",
+      "event_fingerprint": "9ada645626066adf"
+    },
+    {
+      "event_key": "us_labor_misconduct_settlement_2024",
+      "url_hash": "a197672bce2c5147",
+      "date": "2026-07-10",
+      "event_fingerprint": "8753b922ea0c7f58"
+    },
+    {
+      "event_key": "us_labor_union_retaliation_2024",
+      "url_hash": "5bbf0d763664cab0",
+      "date": "2026-07-10",
+      "event_fingerprint": "ea843370110ab8ef"
+    },
+    {
+      "event_key": "us_ai_economic_impact_taskforce_2024",
+      "url_hash": "89b68a3e219c24b6",
+      "date": "2026-07-10",
+      "event_fingerprint": "77cf9be57433d1b0"
+    },
+    {
+      "event_key": "us_microsoft_layoff_labor_litigation_2024",
+      "url_hash": "ec0b0bb62eb3992e",
+      "date": "2026-07-10",
+      "event_fingerprint": "a7207bf0276b856b"
+    },
+    {
+      "event_key": "global_ai_ad_transparency_policy_2024",
+      "url_hash": "e6b8352aa8d6a36a",
+      "date": "2026-07-10",
+      "event_fingerprint": "33b7c7aceed7cbdd"
+    },
+    {
+      "event_key": "global_steam_ai_disclosure_policy_2024",
+      "url_hash": "c1ed4354048a5860",
+      "date": "2026-07-10",
+      "event_fingerprint": "ed359406ad057554"
+    },
+    {
+      "event_key": "eu_us_data_privacy_framework_implementation_2024",
+      "url_hash": "56f3cbaab1fba061",
+      "date": "2026-07-10",
+      "event_fingerprint": "8d203242f3b7565b"
+    },
+    {
+      "event_key": "us_location_data_privacy_ruling_2024",
+      "url_hash": "b3741fa390c3fff3",
+      "date": "2026-07-10",
+      "event_fingerprint": "d9d1c931895b0aaf"
+    },
+    {
+      "event_key": "eu_battery_regulation_compliance_2025",
+      "url_hash": "ece0ed8055d08136",
+      "date": "2026-07-10",
+      "event_fingerprint": "5246ee3ec3e1de64"
     }
   ]
 }
