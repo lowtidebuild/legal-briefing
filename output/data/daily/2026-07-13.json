@@ -1,0 +1,285 @@
+[
+  {
+    "title": "\"They want us to accept this as a done deal and quietly disappear\" – Bethesda union members organise protest in response to Xbox layoffs",
+    "url": "https://www.gamesindustry.biz/they-want-us-to-accept-this-as-a-done-deal-and-quietly-disappear-bethesda-union-members-organise-protest-in-response-to-xbox-layoffs",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-07-10",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "베데스다 게임 스튜디오(Bethesda Game Studios) 노조가 최근 엑스박스(Xbox)의 대규모 인력 감축에 반발하며 파업을 예고했습니다.",
+      "이번 사태는 게임 업계 내 고용 불안정성과 기업의 일방적인 구조조정 방식에 대한 노사 간 갈등이 심화되고 있음을 시사합니다.",
+      "게임사들은 조직 개편 시 노조와의 투명한 소통 프로세스를 구축하고, 고용 안정성에 대한 법적·사회적 리스크 관리를 강화해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "business",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Bethesda Game Studios",
+        "Xbox",
+        "CWA"
+      ],
+      "object": "Mass layoffs",
+      "action": "Organized labor strike and protest",
+      "game_mechanic": "N/A",
+      "time_hint": "July 2024"
+    },
+    "event_key": "us_bethesda_layoff_strike_2024",
+    "is_primary": true,
+    "title_ko": "\"우리가 침묵 속에 사라지길 바라는 것\" – 엑스박스(Xbox)의 대규모 해고에 항의하는 베데스다 게임 스튜디오(Bethesda Game Studios) 노조의 시위"
+  },
+  {
+    "title": "Steam's \"no questions asked\" refund policy makes it \"super easy for players to abuse this rule\", says indie developer",
+    "url": "https://www.eurogamer.net/indie-dev-steam-refund-policy",
+    "source": "Eurogamer",
+    "pub_date": "2026-07-12",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "한 인디 개발자가 스팀(Steam)의 '2시간 플레이 내 무조건 환불' 정책으로 인해 5만 5천 건의 환불이 발생했다고 주장하며 제도 개선을 촉구했습니다.",
+      "해당 정책이 플레이어가 게임을 충분히 즐긴 후 긍정적인 리뷰를 남기고도 환불을 받을 수 있는 허점으로 작용해 개발자의 수익성을 크게 저해하고 있습니다.",
+      "스팀(Steam) 플랫폼 입점 게임사는 환불 악용 방지를 위한 기술적 대응책을 강구해야 하며, 플랫폼 단위의 정책 변화 가능성을 실시간으로 모니터링해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Valve",
+        "Steam",
+        "Indie Developers"
+      ],
+      "object": "Steam refund policy",
+      "action": "Indie developer critique regarding refund policy abuse and impact on revenue",
+      "game_mechanic": "refund_policy",
+      "time_hint": "2024"
+    },
+    "event_key": "global_steam_refund_policy_critique_2024",
+    "is_primary": true,
+    "title_ko": "스팀(Steam)의 무조건적 환불 정책, 인디 개발자들 '악용 가능성 높아' 비판"
+  },
+  {
+    "title": "EU Says It's Powerless to Stop PlayStation From Killing Discs: 'Companies Are Free to Offer Games and Services in the Manner They See Fit'",
+    "url": "https://www.ign.com/articles/eu-says-its-powerless-to-stop-playstation-from-killing-discs-companies-are-free-to-offer-games-and-services-in-the-manner-they-see-fit",
+    "source": "IGN",
+    "pub_date": "2026-07-11",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "EU 집행위원회(European Commission)는 소니(Sony) 등 게임사가 물리적 매체인 디스크 판매를 중단하는 것을 규제할 법적 권한이 없다고 발표했습니다.",
+      "이번 결정은 디지털 전환이라는 명목하에 기업의 서비스 운영 방식이 소비자의 소유권 및 접근권을 제한할 수 있다는 점에서 중요한 선례가 됩니다.",
+      "게임사는 서비스 종료 후에도 소비자의 접근성을 보장하는 사후 대책 마련이 필수적이며, 관련 소비자 보호법 강화 여부를 예의주시해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "policy",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "EU Commission",
+        "Sony PlayStation"
+      ],
+      "object": "digital ownership and physical game discs",
+      "action": "EU officials stated lack of regulatory authority to compel companies to maintain support for physical media services",
+      "game_mechanic": "none",
+      "time_hint": "2024"
+    },
+    "event_key": "eu_digital_media_access_policy_2024",
+    "is_primary": true,
+    "title_ko": "EU, 소니(Sony)의 게임 디스크 폐기 방침 제동 불가 선언: '기업은 자유롭게 게임과 서비스를 제공할 권리가 있다'"
+  },
+  {
+    "title": "Xbox executive Asha Sharma joins US Federal Reserve task force on jobs and productivity",
+    "url": "https://www.pocketgamer.biz/xbox-executive-asha-sharma-joins-federal-reserve-task-force-on-ai-and-productivity/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-07-10",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "엑스박스(Xbox)의 아샤 샤르마(Asha Sharma) 임원이 인공지능과 신기술이 경제에 미치는 영향을 분석할 미 연방준비제도(Fed)의 특별 전담반에 위원으로 임명되었습니다.",
+      "거대 기술 기업의 경영진이 미 연방준비제도(Fed)의 주요 통화 정책 검토에 직접 참여함으로써 게임 업계의 기술 발전이 거시 경제에 미치는 영향력이 국가 정책 수준에서 공식적으로 인정받게 되었습니다.",
+      "게임 업계는 생성형 AI 등 신기술 도입이 고용과 생산성에 미치는 영향에 대해 연방 정부의 규제 및 정책 가이드라인이 강화될 가능성을 고려하여 선제적인 경제 효과 분석과 대응 전략을 마련해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "US Federal Reserve",
+        "Asha Sharma",
+        "Microsoft Xbox"
+      ],
+      "object": "economic impact of artificial intelligence and emerging technologies",
+      "action": "appointing industry executive to task force to evaluate monetary policy framework",
+      "game_mechanic": "n/a",
+      "time_hint": ""
+    },
+    "event_key": "us_ai_fed_taskforce_appointment_2025",
+    "is_primary": true,
+    "title_ko": "엑스박스(Xbox) 임원 아샤 샤르마(Asha Sharma), 미 연방준비제도(Fed)의 고용 및 생산성 태스크포스 합류"
+  },
+  {
+    "title": "\"Workers deserve protection, not to be treated like disposable line items\" – Hundreds of union members affected by Xbox layoffs",
+    "url": "https://www.gamesindustry.biz/workers-deserve-protection-not-to-be-treated-like-disposable-line-items-hundreds-of-union-members-affected-by-xbox-layoffs",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-07-08",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "마이크로소프트(Microsoft) 산하 엑스박스(Xbox)의 최근 대규모 정리해고로 인해 통신노동조합(CWA, Communication Workers of America) 소속 노조원 수백 명이 일자리를 잃었습니다.",
+      "이번 사태는 게임 산업 내 대형 퍼블리셔의 고용 불안정성을 드러내며, 노동조합의 영향력 확대와 고용 보호 조치에 대한 사회적 요구를 심화시키고 있습니다.",
+      "게임 기업들은 구조조정 시 노조와의 사전 협의 및 해고 절차에 따른 법적·사회적 리스크 관리를 최우선으로 고려해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "business",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Microsoft",
+        "Xbox",
+        "Communication Workers of America"
+      ],
+      "object": "workforce reduction",
+      "action": "mass layoffs affecting unionized employees",
+      "game_mechanic": "null",
+      "time_hint": "this week"
+    },
+    "event_key": "us_xbox_layoffs_2024",
+    "is_primary": true,
+    "title_ko": "“노동자는 보호받아야 할 대상, 소모품이 아니다” – 엑스박스(Xbox) 대규모 해고로 수백 명의 노조원 피해"
+  },
+  {
+    "title": "EU admits it cannot stop Sony killing physical discs – \"companies are free to offer games and services in the manner that they see fit\"",
+    "url": "https://www.eurogamer.net/eu-cannot-stop-sony-killing-physical-discs",
+    "source": "Eurogamer",
+    "pub_date": "2026-07-11",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "EU(유럽연합)는 소니(Sony)가 물리적 게임 디스크 유통을 중단하는 행위를 규제할 법적 권한이 없음을 공식 확인했습니다.",
+      "이번 결정은 디지털 전환 속도가 빠른 게임 시장에서 기업의 비즈니스 모델 선택권이 소비자 보호 규제보다 우선할 수 있음을 시사합니다.",
+      "게임사는 향후 물리적 매체 의존도를 낮추고 디지털 전용 서비스로 전환할 때 법적 제약 없이 자체적인 플랫폼 전략을 수립할 수 있습니다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "European Commission",
+        "Sony"
+      ],
+      "object": "physical game media distribution",
+      "action": "confirmed lack of authority to restrict platform business models",
+      "game_mechanic": "physical media",
+      "time_hint": "July 2026"
+    },
+    "event_key": "eu_physical_media_business_model_ruling_2026q3",
+    "is_primary": true,
+    "title_ko": "EU, 소니(Sony)의 물리적 디스크 폐기 관여 불가 인정 – \"기업은 자사의 게임 및 서비스 제공 방식을 자유롭게 결정할 권리가 있다\""
+  },
+  {
+    "title": "[Event] The U.S. Privacy Summit - October 15th, San Francisco, CA",
+    "url": "https://www.jdsupra.com/legalnews/event-the-u-s-privacy-summit-october-2282254/",
+    "source": "JD Supra - Privacy",
+    "pub_date": "2026-07-10",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "미국 규제 당국과 업계 리더들이 모여 데이터 프라이버시 집행 우선순위, 다크 패턴, AI 거버넌스 등을 논의하는 서밋(The U.S. Privacy Summit)이 개최됩니다.",
+      "게임 산업 내 데이터 판매, 애드테크(Adtech) 규제 및 CIPA 관련 소송 등 최신 법적 리스크가 집중적으로 다뤄져 규제 환경 변화를 파악하는 데 중요합니다.",
+      "실무자는 데이터 수집 및 광고 기술의 컴플라이언스 격차를 점검하고, 향후 AI 도입과 다크 패턴 규제에 대응하는 내부 거버넌스 체계를 사전에 정비해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Regulators",
+        "Industry leaders",
+        "Privacy practitioners"
+      ],
+      "object": "U.S. data privacy enforcement priorities and compliance gaps",
+      "action": "Stakeholder engagement summit",
+      "game_mechanic": "n/a",
+      "time_hint": "October 15th"
+    },
+    "event_key": "us_privacy_compliance_policy_2024",
+    "is_primary": true,
+    "title_ko": "[행사] 미국 프라이버시 서밋(The U.S. Privacy Summit) - 10월 15일, 캘리포니아 샌프란시스코"
+  },
+  {
+    "title": "Recent Microsoft PTAB Ruling Signals the Key Role of Patent Specifications in AI Patent Eligibility",
+    "url": "https://www.jdsupra.com/legalnews/recent-microsoft-ptab-ruling-signals-5335656/",
+    "source": "JD Supra - Intellectual Property",
+    "pub_date": "2026-07-08",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "미국 특허심판원(PTAB)은 마이크로소프트(Microsoft)의 AI 코드 편집 도구 관련 특허 거절 결정을 뒤집고 적격성을 인정했습니다.",
+      "이번 판결은 AI 기술의 특허 등록 시, 명세서(Patent Specification) 내 기술적 구현 방식의 구체적 서술이 핵심임을 명확히 했습니다.",
+      "게임 내 AI 기능을 개발하는 기업은 특허 출원 시 단순한 아이디어를 넘어 AI의 구체적인 작동 원리와 기술적 효과를 상세히 문서화해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "enforcement",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Microsoft",
+        "Patent Trial and Appeal Board"
+      ],
+      "object": "AI-assisted code-editing tools patent eligibility",
+      "action": "reversal of subject-matter eligibility rejection",
+      "game_mechanic": "null",
+      "time_hint": "May 29, 2026"
+    },
+    "event_key": "us_ai_patent_eligibility_ruling_2026",
+    "is_primary": true,
+    "title_ko": "마이크로소프트(Microsoft)의 최근 특허심판원(PTAB) 판결이 시사하는 AI 특허 적격성에서의 명세서 역할"
+  },
+  {
+    "title": "Esports World Cup 2026 officially opens in Paris",
+    "url": "https://www.pocketgamer.biz/esports-world-cup-2026-officially-opens-in-paris/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-07-09",
+    "category": "ESPORTS_MARKETING",
+    "summary_ko": [
+      "e스포츠 재단(Esports Foundation)이 주최하는 'e스포츠 월드컵(Esports World Cup) 2026'이 프랑스 파리에서 공식적으로 개최되었습니다.",
+      "100개국 이상에서 200개 e스포츠 클럽과 2,000명 이상의 선수가 참가하는 본 행사는 연례 국제 e스포츠 대회로서 위상을 확립하고 있습니다.",
+      "글로벌 규모의 대규모 e스포츠 이벤트가 증가함에 따라, 다국적 기업은 관련 스폰서십 및 국제 이벤트 운영 시 규제와 현지 법령 준수에 각별히 유의해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "other",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Esports Foundation"
+      ],
+      "object": "Esports World Cup 2026",
+      "action": "event commencement",
+      "game_mechanic": "none",
+      "time_hint": "August 2026"
+    },
+    "event_key": "eu_esports_world_cup_launch_2026",
+    "is_primary": true,
+    "title_ko": "e스포츠 월드컵(Esports World Cup) 2026, 파리에서 공식 개막"
+  },
+  {
+    "title": "Microsoft’s patch Tuesdays are about to get bigger",
+    "url": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates",
+    "source": "The Verge - CyberSecurity",
+    "pub_date": "2026-07-09",
+    "category": "PRIVACY_SECURITY",
+    "summary_ko": [
+      "마이크로소프트(Microsoft)가 AI를 활용해 보안 취약점을 조기에 식별하고, 매월 제공되는 보안 업데이트의 배포 규모를 대폭 확대합니다.",
+      "AI를 악용한 해킹 공격이 정교해짐에 따라, 더욱 선제적이고 포괄적인 보안 대응 체계를 구축하여 시스템 방어력을 강화하려는 전략입니다.",
+      "게임사들은 대규모 보안 패치 적용 시 발생할 수 있는 게임 엔진과의 호환성 문제나 서비스 중단 위험을 방지하기 위해 테스트 자동화 시스템을 점검해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Microsoft"
+      ],
+      "object": "Windows security update distribution process",
+      "action": "increasing the frequency and volume of security patches using AI-driven vulnerability identification",
+      "game_mechanic": "null",
+      "time_hint": "Thursday"
+    },
+    "event_key": "global_microsoft_security_update_policy_2024",
+    "is_primary": true,
+    "title_ko": "마이크로소프트(Microsoft)의 ‘패치 화요일(Patch Tuesday)’ 업데이트 규모 확대 예정"
+  }
+]

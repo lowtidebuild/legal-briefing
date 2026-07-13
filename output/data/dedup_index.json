@@ -3,186 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "eu_battery_directive_compliance_2024",
-      "url_hash": "7660fe342c71ab04",
-      "date": "2026-06-10",
-      "event_fingerprint": "fcd1093931df7a7a"
-    },
-    {
-      "event_key": "us_roblox_morpheus_acquisition_2024",
-      "url_hash": "be43bb9401609f22",
-      "date": "2026-06-10",
-      "event_fingerprint": "37515bafaadc313d"
-    },
-    {
-      "event_key": "eu_dma_apple_ai_launch_2024",
-      "url_hash": "6be6d4d1760e0347",
-      "date": "2026-06-10",
-      "event_fingerprint": "925f1f94a612d1ae"
-    },
-    {
-      "event_key": "global_xbox_exclusivity_policy_2024",
-      "url_hash": "10441e31650184b4",
-      "date": "2026-06-10",
-      "event_fingerprint": "837037f1941c5a42"
-    },
-    {
-      "event_key": "global_ai_development_disclosure_2025",
-      "url_hash": "8f628dea05c7286e",
-      "date": "2026-06-10",
-      "event_fingerprint": "1966ddcfee1cf950"
-    },
-    {
-      "event_key": "us_connecticut_ai_oversight_bill_2026",
-      "url_hash": "d8b410f83841b4a8",
-      "date": "2026-06-10",
-      "event_fingerprint": "8fd083386e42f28a"
-    },
-    {
-      "event_key": "us_apple_ai_safety_announcement_2026q2",
-      "url_hash": "4b8998fdaa687e5c",
-      "date": "2026-06-10",
-      "event_fingerprint": "ac458dd4dc199740"
-    },
-    {
-      "event_key": "us_nso_meta_litigation_2024",
-      "url_hash": "6a73cd33224e49ee",
-      "date": "2026-06-10",
-      "event_fingerprint": "dd49c27f61b783e4"
-    },
-    {
-      "event_key": "global_ai_disclosure_sega_crazy_taxi_2027",
-      "url_hash": "146115639e9b01f6",
-      "date": "2026-06-10",
-      "event_fingerprint": "8c041e1b0643a28f"
-    },
-    {
-      "event_key": "global_openai_ipo_ai_compliance_2026q2",
-      "url_hash": "50b6d5cd95b17661",
-      "date": "2026-06-10",
-      "event_fingerprint": "c98aa0cd7efa637f"
-    },
-    {
-      "event_key": "eu_data_privacy_breach_template_2024",
-      "url_hash": "ca3c1833c4578513",
-      "date": "2026-06-11",
-      "event_fingerprint": "57c2df507d6b0879"
-    },
-    {
-      "event_key": "us_ai_liability_litigation_2024",
-      "url_hash": "a1f6d616a3cf3d96",
-      "date": "2026-06-11",
-      "event_fingerprint": "0d79e102ab44b425"
-    },
-    {
-      "event_key": "ru_roblox_ban_lifting_2024",
-      "url_hash": "ee09f4ab1e710e4a",
-      "date": "2026-06-11",
-      "event_fingerprint": "82cdeb3573981264"
-    },
-    {
-      "event_key": "eu_google_ai_overview_injunction_2024",
-      "url_hash": "feb7d24ac976736b",
-      "date": "2026-06-11",
-      "event_fingerprint": "b83740f2d011bee5"
-    },
-    {
-      "event_key": "global_privacy_ua_strategy_shift_2024",
-      "url_hash": "2c24d317c2c9efe1",
-      "date": "2026-06-11",
-      "event_fingerprint": "7e9d4a883bda3a84"
-    },
-    {
-      "event_key": "global_ai_compliance_modernization_2026",
-      "url_hash": "59db738551969c55",
-      "date": "2026-06-11",
-      "event_fingerprint": "dce69eab2730759f"
-    },
-    {
-      "event_key": "eu_hungary_ai_surveillance_2026",
-      "url_hash": "2fc1674f5a28dc87",
-      "date": "2026-06-11",
-      "event_fingerprint": "54da0466b1961433"
-    },
-    {
-      "event_key": "us_ai_hallucination_sanction_2023",
-      "url_hash": "18eb51177a9cd939",
-      "date": "2026-06-11",
-      "event_fingerprint": "4c6180a25c15fc72"
-    },
-    {
-      "event_key": "us_ai_model_transparency_policy_2024",
-      "url_hash": "422637a47f4f0eaa",
-      "date": "2026-06-11",
-      "event_fingerprint": "df67e865ac7d97b1"
-    },
-    {
-      "event_key": "global_ai_team_layoffs_2024",
-      "url_hash": "d75345aeaca6047e",
-      "date": "2026-06-11",
-      "event_fingerprint": "59f870936065a3c8"
-    },
-    {
-      "event_key": "global_ai_disclosure_transparency_2024",
-      "url_hash": "757047b9b151dd7e",
-      "date": "2026-06-12",
-      "event_fingerprint": "59953bce098f62cd"
-    },
-    {
-      "event_key": "global_ai_development_frameworks_release_2025",
-      "url_hash": "1d85ecdbe42135e6",
-      "date": "2026-06-12",
-      "event_fingerprint": "1aef4161e7da61df"
-    },
-    {
-      "event_key": "global_cloud_gaming_strategic_shift_2024",
-      "url_hash": "2b98b5da4e167d09",
-      "date": "2026-06-12",
-      "event_fingerprint": "4cfb54f88f02c2bf"
-    },
-    {
-      "event_key": "global_ai_data_usage_policy_2024",
-      "url_hash": "dae6608d28b004b8",
-      "date": "2026-06-12",
-      "event_fingerprint": "3bd5640f1660b948"
-    },
-    {
-      "event_key": "global_ai_content_policy_adjustment_2024",
-      "url_hash": "ec1ac7376506c819",
-      "date": "2026-06-12",
-      "event_fingerprint": "b4e31e0078406ed6"
-    },
-    {
-      "event_key": "us_ca_digital_ownership_legislation_2024",
-      "url_hash": "693380ee2ac6ba22",
-      "date": "2026-06-12",
-      "event_fingerprint": "1ac07ebd6be4dad4"
-    },
-    {
-      "event_key": "us_meta_instagram_security_breach_2024",
-      "url_hash": "cbdcfbfb0c1b8278",
-      "date": "2026-06-12",
-      "event_fingerprint": "685f06b068a2e1ac"
-    },
-    {
-      "event_key": "global_ai_creative_industry_discourse_2024",
-      "url_hash": "3dc3ed52aa4283f4",
-      "date": "2026-06-12",
-      "event_fingerprint": "e2c5e83da42c4942"
-    },
-    {
-      "event_key": "global_ai_dev_professional_discourse_2024",
-      "url_hash": "6d9fc70f788ff557",
-      "date": "2026-06-12",
-      "event_fingerprint": "104932bffd163408"
-    },
-    {
-      "event_key": "us_jawbone_act_legislation_2024",
-      "url_hash": "376d76e650e80422",
-      "date": "2026-06-12",
-      "event_fingerprint": "659a63c768fa5c98"
-    },
-    {
       "event_key": "us_ai_no_fakes_act_proposed_2024",
       "url_hash": "3890c30095ae346a",
       "date": "2026-06-15",
@@ -877,6 +697,66 @@
       "url_hash": "ece0ed8055d08136",
       "date": "2026-07-10",
       "event_fingerprint": "5246ee3ec3e1de64"
+    },
+    {
+      "event_key": "us_bethesda_layoff_strike_2024",
+      "url_hash": "58e97c8eb0d02476",
+      "date": "2026-07-13",
+      "event_fingerprint": "abc6ebe78e7e3e82"
+    },
+    {
+      "event_key": "global_steam_refund_policy_critique_2024",
+      "url_hash": "e94aa77df41fe1a1",
+      "date": "2026-07-13",
+      "event_fingerprint": "ff31cd48a14826b4"
+    },
+    {
+      "event_key": "eu_digital_media_access_policy_2024",
+      "url_hash": "b19e085c21fbb6f0",
+      "date": "2026-07-13",
+      "event_fingerprint": "696173e931450c98"
+    },
+    {
+      "event_key": "us_ai_fed_taskforce_appointment_2025",
+      "url_hash": "afb85fea4da0a5b2",
+      "date": "2026-07-13",
+      "event_fingerprint": "4074c9d119b8462f"
+    },
+    {
+      "event_key": "us_xbox_layoffs_2024",
+      "url_hash": "f696d8e7cdf7d8dc",
+      "date": "2026-07-13",
+      "event_fingerprint": "4b7df36bfd2d3f69"
+    },
+    {
+      "event_key": "eu_physical_media_business_model_ruling_2026q3",
+      "url_hash": "621049bf059e89a0",
+      "date": "2026-07-13",
+      "event_fingerprint": "4606e4f786f81e83"
+    },
+    {
+      "event_key": "us_privacy_compliance_policy_2024",
+      "url_hash": "17618cf8acbdb2ea",
+      "date": "2026-07-13",
+      "event_fingerprint": "33c068426cc2b4aa"
+    },
+    {
+      "event_key": "us_ai_patent_eligibility_ruling_2026",
+      "url_hash": "32e5218e1406b387",
+      "date": "2026-07-13",
+      "event_fingerprint": "ff44767b07a8a975"
+    },
+    {
+      "event_key": "eu_esports_world_cup_launch_2026",
+      "url_hash": "536f8e570a54cd5f",
+      "date": "2026-07-13",
+      "event_fingerprint": "e461d9badb893ba6"
+    },
+    {
+      "event_key": "global_microsoft_security_update_policy_2024",
+      "url_hash": "430f86c0084d2fbe",
+      "date": "2026-07-13",
+      "event_fingerprint": "a6f7ced444f744d0"
     }
   ]
 }
