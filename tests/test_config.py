@@ -9,8 +9,13 @@ from pipeline.config import load_config
 def test_load_config_from_file():
     data = {
         "llm": {
-            "provider": "gemini",
-            "model": "gemini-3.1-flash-lite",
+            "provider": "groq",
+            "model": "openai/gpt-oss-120b",
+            "summary_model": "qwen/qwen3.6-27b",
+            "fallback_model": "openai/gpt-oss-120b",
+            "reasoning_effort": "low",
+            "summary_reasoning_effort": "none",
+            "fallback_reasoning_effort": "low",
             "max_retries": 2,
             "concurrency": 6,
         },
@@ -39,7 +44,13 @@ def test_load_config_from_file():
         path = handle.name
     try:
         cfg = load_config(path)
-        assert cfg.llm.provider == "gemini"
+        assert cfg.llm.provider == "groq"
+        assert cfg.llm.model == "openai/gpt-oss-120b"
+        assert cfg.llm.summary_model == "qwen/qwen3.6-27b"
+        assert cfg.llm.fallback_model == "openai/gpt-oss-120b"
+        assert cfg.llm.reasoning_effort == "low"
+        assert cfg.llm.summary_reasoning_effort == "none"
+        assert cfg.llm.fallback_reasoning_effort == "low"
         assert cfg.llm.concurrency == 6
         assert cfg.pipeline.top_n == 10
         assert cfg.pipeline.max_per_domain == 3
@@ -56,12 +67,14 @@ def test_load_config_from_file():
 
 def test_config_exposes_env_vars(monkeypatch):
     monkeypatch.setenv("GOOGLE_API_KEY", "test-key-123")
+    monkeypatch.setenv("GROQ_API_KEY", "test-groq-key-123")
     with tempfile.NamedTemporaryFile(mode="w", suffix=".yaml", delete=False) as handle:
         yaml.safe_dump({"sources": {"tier_a": [], "tier_b": []}}, handle)
         path = handle.name
     try:
         cfg = load_config(path)
         assert cfg.google_api_key == "test-key-123"
+        assert cfg.groq_api_key == "test-groq-key-123"
         assert cfg.pipeline.max_per_domain == 2
         assert cfg.pipeline.fetch_body_for_selected is False
         assert cfg.llm.concurrency == 4

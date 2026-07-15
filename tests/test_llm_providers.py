@@ -2,6 +2,7 @@ from unittest.mock import MagicMock, patch
 
 from pipeline.llm.claude import ClaudeProvider
 from pipeline.llm.gemini import GeminiProvider
+from pipeline.llm.groq import GroqProvider
 
 
 def test_gemini_provider_calls_model():
@@ -62,4 +63,55 @@ def test_claude_provider_uses_tool_for_json():
         assert result == {"result": "ok"}
         kwargs = mock_client.messages.create.call_args.kwargs
         assert kwargs["tool_choice"] == {"type": "tool", "name": "respond"}
-        assert kwargs["tools"][0]["input_schema"] == {"type": "object"}
+    assert kwargs["tools"][0]["input_schema"] == {"type": "object"}
+
+
+def test_groq_provider_uses_json_object_mode_and_hidden_reasoning():
+    with patch("pipeline.llm.groq.groq_sdk.Groq") as mock_cls:
+        mock_client = MagicMock()
+        mock_response = MagicMock()
+        mock_response.choices = [MagicMock(message=MagicMock(content='{"result": "ok"}'))]
+        mock_client.chat.completions.create.return_value = mock_response
+        mock_cls.return_value = mock_client
+
+        provider = GroqProvider(
+            api_key="test-key",
+            model="qwen/qwen3.6-27b",
+            reasoning_effort="none",
+        )
+        result = provider.generate_json("test prompt")
+
+    assert result == {"result": "ok"}
+    kwargs = mock_client.chat.completions.create.call_args.kwargs
+    assert kwargs["response_format"] == {"type": "json_object"}
+    assert kwargs["reasoning_effort"] == "none"
+    assert kwargs["reasoning_format"] == "hidden"
+
+
+def test_groq_provider_uses_strict_json_schema():
+    with patch("pipeline.llm.groq.groq_sdk.Groq") as mock_cls:
+        mock_client = MagicMock()
+        mock_response = MagicMock()
+        mock_response.choices = [MagicMock(message=MagicMock(content='{"result": "ok"}'))]
+        mock_client.chat.completions.create.return_value = mock_response
+        mock_cls.return_value = mock_client
+
+        provider = GroqProvider(
+            api_key="test-key",
+            model="openai/gpt-oss-120b",
+            reasoning_effort="low",
+        )
+        result = provider.generate_json_schema(
+            "test prompt",
+            schema={
+                "type": "object",
+                "properties": {"result": {"type": "string"}},
+            },
+        )
+
+    assert result == {"result": "ok"}
+    response_format = mock_client.chat.completions.create.call_args.kwargs["response_format"]
+    assert response_format["type"] == "json_schema"
+    assert response_format["json_schema"]["strict"] is True
+    assert response_format["json_schema"]["schema"]["required"] == ["result"]
+    assert response_format["json_schema"]["schema"]["additionalProperties"] is False

@@ -1,10 +1,15 @@
 llm:
-  provider: gemini
-  model: gemini-3.1-flash-lite-preview
+  provider: groq
+  model: openai/gpt-oss-120b
+  summary_model: qwen/qwen3.6-27b
+  fallback_model: openai/gpt-oss-120b
+  reasoning_effort: low
+  summary_reasoning_effort: none
+  fallback_reasoning_effort: low
   max_retries: 2
   request_timeout_seconds: 30
   max_input_chars: 8000
-  concurrency: 4
+  concurrency: 2
 
 sources:
   tier_a:

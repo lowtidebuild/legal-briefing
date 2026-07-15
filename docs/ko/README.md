@@ -90,15 +90,16 @@ cp .env.example .env
 
 | 변수 | 용도 | 필수 여부 |
 |------|------|----------|
-| `GOOGLE_API_KEY` | Gemini API 키 ([여기서 발급](https://aistudio.google.com/apikey)) | **필수** |
-| `ANTHROPIC_API_KEY` | Claude API 키 (Gemini 장애 시 자동 폴백) | 선택 |
+| `GROQ_API_KEY` | Groq API 키 ([여기서 발급](https://console.groq.com/keys)) | **필수** |
+| `GOOGLE_API_KEY` | Gemini API 키 (이전 구성용) | 선택 |
+| `ANTHROPIC_API_KEY` | Claude API 키 (이전 구성용) | 선택 |
 | `SMTP_USER` | Gmail 주소 (`you@gmail.com` 전체) | 이메일 쓸 때 |
 | `SMTP_PASS` | Gmail 앱 비밀번호 (16자리, 공백 포함 그대로) | 이메일 쓸 때 |
 | `RECIPIENTS` | 수신자 이메일 목록 (콤마로 구분) | 이메일 쓸 때 |
 | `GOOGLE_SHEETS_CREDENTIALS` | Sheets 서비스 계정 JSON | Sheets 쓸 때 |
 | `GOOGLE_SHEETS_ID` | 스프레드시트 ID | Sheets 쓸 때 |
 
-> **`GOOGLE_API_KEY`만 있으면 파이프라인이 동작합니다.** 이메일과 Sheets는 설정 안 하면 자동 스킵합니다.
+> **현재 LLM 구성은 `GROQ_API_KEY`만 있으면 동작합니다.** 이메일과 Sheets는 설정 안 하면 자동 스킵합니다.
 
 ### 4. 실행
 

@@ -12,12 +12,13 @@ def create_provider(
     cfg: LLMConfig,
     google_api_key: str | None = None,
     anthropic_api_key: str | None = None,
+    groq_api_key: str | None = None,
     offline_fallback: bool = False,
     offline_context: str = "offline fallback",
 ) -> LLMProvider:
     """Create an LLM provider from config, with automatic fallback when both keys are available."""
     try:
-        primary = _create_single_provider(cfg, google_api_key, anthropic_api_key)
+        primary = _create_single_provider(cfg, google_api_key, anthropic_api_key, groq_api_key)
     except Exception as exc:
         if offline_fallback:
             from pipeline.llm.offline import OfflineLLMProvider
@@ -27,7 +28,7 @@ def create_provider(
         raise
 
     # If both keys are available, wrap with fallback
-    secondary = _try_create_secondary(cfg, google_api_key, anthropic_api_key)
+    secondary = _try_create_secondary(cfg, google_api_key, anthropic_api_key, groq_api_key)
     if secondary is not None:
         from pipeline.llm.fallback import FallbackProvider
         logger.info("Fallback provider configured: %s -> %s", cfg.provider, _secondary_provider_name(cfg))
@@ -40,6 +41,7 @@ def _create_single_provider(
     cfg: LLMConfig,
     google_api_key: str | None,
     anthropic_api_key: str | None,
+    groq_api_key: str | None,
 ) -> LLMProvider:
     if cfg.provider == "gemini":
         if not google_api_key:
@@ -63,10 +65,24 @@ def _create_single_provider(
             request_timeout_seconds=cfg.request_timeout_seconds,
         )
 
+    if cfg.provider == "groq":
+        if not groq_api_key:
+            raise ValueError("GROQ_API_KEY required for Groq provider")
+        from pipeline.llm.groq import GroqProvider
+        return GroqProvider(
+            api_key=groq_api_key,
+            model=cfg.model,
+            reasoning_effort=cfg.reasoning_effort,
+            max_retries=cfg.max_retries,
+            request_timeout_seconds=cfg.request_timeout_seconds,
+        )
+
     raise ValueError(f"Unknown LLM provider: {cfg.provider}")
 
 
 def _secondary_provider_name(cfg: LLMConfig) -> str:
+    if cfg.provider == "groq":
+        return cfg.fallback_model or "none"
     return "claude" if cfg.provider == "gemini" else "gemini"
 
 
@@ -74,6 +90,7 @@ def _try_create_secondary(
     cfg: LLMConfig,
     google_api_key: str | None,
     anthropic_api_key: str | None,
+    groq_api_key: str | None,
 ) -> LLMProvider | None:
     """Try to create a secondary provider for fallback. Returns None if not possible."""
     try:
@@ -90,6 +107,20 @@ def _try_create_secondary(
             return GeminiProvider(
                 api_key=google_api_key,
                 model="gemini-3.1-flash-lite",
+                max_retries=cfg.max_retries,
+                request_timeout_seconds=cfg.request_timeout_seconds,
+            )
+        if (
+            cfg.provider == "groq"
+            and groq_api_key
+            and cfg.fallback_model
+            and cfg.fallback_model != cfg.model
+        ):
+            from pipeline.llm.groq import GroqProvider
+            return GroqProvider(
+                api_key=groq_api_key,
+                model=cfg.fallback_model,
+                reasoning_effort=cfg.fallback_reasoning_effort,
                 max_retries=cfg.max_retries,
                 request_timeout_seconds=cfg.request_timeout_seconds,
             )

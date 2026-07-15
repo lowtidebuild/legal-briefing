@@ -10,6 +10,11 @@ import yaml
 class LLMConfig:
     provider: str = "gemini"
     model: str = "gemini-3.1-flash-lite"
+    summary_model: str | None = None
+    fallback_model: str | None = None
+    reasoning_effort: str | None = None
+    summary_reasoning_effort: str | None = None
+    fallback_reasoning_effort: str | None = None
     max_retries: int = 2
     request_timeout_seconds: int = 30
     max_input_chars: int = 8000
@@ -74,6 +79,10 @@ class Config:
         return os.environ.get("ANTHROPIC_API_KEY")
 
     @property
+    def groq_api_key(self) -> str | None:
+        return os.environ.get("GROQ_API_KEY")
+
+    @property
     def smtp_user(self) -> str | None:
         return os.environ.get("SMTP_USER")
 
@@ -127,6 +136,11 @@ def load_config(path: str) -> Config:
         llm=LLMConfig(
             provider=llm_raw.get("provider", "gemini"),
             model=llm_raw.get("model", "gemini-3.1-flash-lite"),
+            summary_model=llm_raw.get("summary_model"),
+            fallback_model=llm_raw.get("fallback_model"),
+            reasoning_effort=llm_raw.get("reasoning_effort"),
+            summary_reasoning_effort=llm_raw.get("summary_reasoning_effort"),
+            fallback_reasoning_effort=llm_raw.get("fallback_reasoning_effort"),
             max_retries=llm_raw.get("max_retries", 2),
             request_timeout_seconds=llm_raw.get("request_timeout_seconds", 30),
             max_input_chars=llm_raw.get("max_input_chars", 8000),

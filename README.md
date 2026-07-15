@@ -75,15 +75,16 @@ Edit `.env` and fill in the values:
 
 | Variable | Purpose | Required |
 |----------|---------|----------|
-| `GOOGLE_API_KEY` | Gemini API key ([get one](https://aistudio.google.com/apikey)) | **Yes** |
-| `ANTHROPIC_API_KEY` | Claude API key (automatic fallback) | No |
+| `GROQ_API_KEY` | Groq API key ([get one](https://console.groq.com/keys)) | **Yes** |
+| `GOOGLE_API_KEY` | Gemini API key (legacy configuration only) | No |
+| `ANTHROPIC_API_KEY` | Claude API key (legacy configuration only) | No |
 | `SMTP_USER` | Gmail address (e.g., `you@gmail.com`) | For email |
 | `SMTP_PASS` | Gmail app password (16 chars, keep spaces) | For email |
 | `RECIPIENTS` | Comma-separated recipient emails | For email |
 | `GOOGLE_SHEETS_CREDENTIALS` | Sheets service account JSON | For Sheets |
 | `GOOGLE_SHEETS_ID` | Spreadsheet ID | For Sheets |
 
-> **Only `GOOGLE_API_KEY` is required.** Email and Sheets are skipped automatically when not configured.
+> **Only `GROQ_API_KEY` is required for the current LLM configuration.** Email and Sheets are skipped automatically when not configured.
 
 ### 4. Run
 

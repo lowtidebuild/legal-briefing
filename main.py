@@ -24,6 +24,7 @@ from pipeline.intelligence.event_dedup import build_classified_article, dedup_cl
 from pipeline.intelligence.selector import select_top_articles
 from pipeline.intelligence.summarizer import summarize_article
 from pipeline.llm import create_provider
+from pipeline.quality import validate_briefing_quality
 from pipeline.render.email import render_email, write_email_preview
 from pipeline.render.site import copy_static, render_archive, render_article_pages, render_index
 from pipeline.sources.fetcher import fetch_article_body
@@ -76,13 +77,29 @@ def run_pipeline(
     output_data_dir = os.path.join(output_dir, "data", "daily")
     dedup_path = os.path.join(output_dir, "data", "dedup_index.json")
 
-    llm = create_provider(
+    analysis_llm = create_provider(
         cfg.llm,
         google_api_key=cfg.google_api_key,
         anthropic_api_key=cfg.anthropic_api_key,
+        groq_api_key=cfg.groq_api_key,
         offline_fallback=use_sample_data or dry_run,
         offline_context="sample mode" if use_sample_data else "dry-run mode",
     )
+    summary_llm = analysis_llm
+    if cfg.llm.summary_model and cfg.llm.summary_model != cfg.llm.model:
+        summary_cfg = replace(
+            cfg.llm,
+            model=cfg.llm.summary_model,
+            reasoning_effort=cfg.llm.summary_reasoning_effort,
+        )
+        summary_llm = create_provider(
+            summary_cfg,
+            google_api_key=cfg.google_api_key,
+            anthropic_api_key=cfg.anthropic_api_key,
+            groq_api_key=cfg.groq_api_key,
+            offline_fallback=use_sample_data or dry_run,
+            offline_context="sample mode" if use_sample_data else "dry-run mode",
+        )
 
     if use_sample_data:
         articles = sample_articles()
@@ -129,7 +146,7 @@ def run_pipeline(
     articles = deduplicate_articles(articles, dedup_index)
     articles = select_top_articles(
         articles,
-        llm,
+        analysis_llm,
         top_n=cfg.pipeline.top_n,
         max_input_chars=cfg.llm.max_input_chars,
         max_per_domain=cfg.pipeline.max_per_domain,
@@ -137,7 +154,7 @@ def run_pipeline(
     )
 
     classifications = _map_ordered(
-        lambda article: build_classified_article(article, classify_article(article, llm)),
+        lambda article: build_classified_article(article, classify_article(article, analysis_llm)),
         articles,
         max_workers=cfg.llm.concurrency,
     )
@@ -165,7 +182,7 @@ def run_pipeline(
             )
             if body:
                 article_for_summary = replace(item.article, description=body)
-        return item, summarize_article(article_for_summary, llm)
+        return item, summarize_article(article_for_summary, summary_llm)
 
     summarized = _map_ordered(
         summarize_classified,
@@ -186,6 +203,11 @@ def run_pipeline(
             dry_run=dry_run,
             exit_code=2,
         )
+    if not use_sample_data:
+        quality_report = validate_briefing_quality(nodes)
+        if not quality_report.ok:
+            logger.error("Pipeline quality check failed: %s", quality_report.describe())
+            raise SystemExit(4)
 
     save_daily(nodes, today, data_dir=output_data_dir)
 
