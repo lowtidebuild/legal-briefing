@@ -4,229 +4,279 @@
     "url": "https://www.jdsupra.com/legalnews/ai-today-in-5-july-13-2026-the-ai-as-33683/",
     "source": "JD Supra - Antitrust & Trade Regulation",
     "pub_date": "2026-07-13",
-    "category": "ETC",
+    "category": "AI_EMERGING",
     "summary_ko": [
-      "[Video] AI Today in 5: July 13, 2026, The AI as Sludge Buster Edition"
+      "이번 에피소드는 AML 분야의 AI 도입 청사진, AI 활용을 둘러싼 메이요 클리닉 보복소송, 은행의 자체 개발·외부 구매 전략을 다룬다.",
+      "금융 업무의 비효율을 줄이는 AI 활용과 Apple이 OpenAI를 상대로 제기한 기밀정보 유용 주장도 함께 소개한다."
     ],
     "event": {
       "jurisdiction": "Global",
-      "event_type": "other",
+      "event_type": "policy",
       "regulatory_phase": "proposed",
-      "actors": [],
-      "object": "",
-      "action": "",
+      "actors": [
+        "Compliance Podcast Network",
+        "Tom Fox"
+      ],
+      "object": "AI 활용과 컴플라이언스 리스크",
+      "action": "주요 AI·컴플라이언스 사례 5건을 소개했다",
       "game_mechanic": null,
       "time_hint": ""
     },
-    "event_key": "85bec5fd8069efe5",
+    "event_key": "global_ai_compliance_roundup_2026_07_13",
     "is_primary": true,
-    "title_ko": ""
+    "title_ko": "AI 컴플라이언스 동향 5선: AML 도입·보복소송·금융 AI"
   },
   {
     "title": "Meta accused of using biased AI targeting for mass layoffs",
     "url": "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
     "source": "The Verge - Policy",
     "pub_date": "2026-07-14",
-    "category": "ETC",
+    "category": "LABOR_EMPLOYMENT",
     "summary_ko": [
-      "Meta accused of using biased AI targeting for mass layoffs"
+      "Meta 직원 26명은 회사가 AI 기반 시스템을 감원 대상 선정에 활용하면서 의료·가족휴가 중인 직원과 장애가 있는 직원을 불리하게 평가했다고 주장하며 연방법원에 소송을 제기했다.",
+      "소장에는 키 입력·활동 모니터링, AI 토큰 사용량 대시보드와 알고리즘 기반 성과평가 등이 감원 결정에 활용됐다는 주장이 담겼다."
     ],
     "event": {
-      "jurisdiction": "Global",
-      "event_type": "other",
-      "regulatory_phase": "proposed",
-      "actors": [],
-      "object": "",
-      "action": "",
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Meta",
+        "Meta employees"
+      ],
+      "object": "AI 기반 감원 대상 선정과 보호휴가·장애 차별",
+      "action": "직원 26명이 연방법원에 차별 소송을 제기했다",
       "game_mechanic": null,
-      "time_hint": ""
+      "time_hint": "2026-07-22"
     },
-    "event_key": "85bec5fd8069efe5",
+    "event_key": "us_meta_ai_layoff_bias_lawsuit_2026",
     "is_primary": true,
-    "title_ko": ""
+    "title_ko": "Meta 직원들, AI 기반 감원 선정이 보호휴가·장애 근로자를 차별했다고 소송"
   },
   {
     "title": "California-led coalition seeks to block Paramount-Warner Bros. merger",
     "url": "https://www.pocketgamer.biz/california-led-coalition-seeks-to-block-paramount-warner-bros-merger/",
     "source": "PocketGamer.biz",
     "pub_date": "2026-07-14",
-    "category": "ETC",
+    "category": "MA_CORP_ANTITRUST",
     "summary_ko": [
-      "California-led coalition seeks to block Paramount-Warner Bros. merger"
+      "캘리포니아주 등 미국 12개 주 법무장관은 Paramount Skydance의 Warner Bros. Discovery 인수가 영화 배급과 케이블 채널 시장의 경쟁을 크게 제한한다며 합병금지 소송을 제기했다.",
+      "원고 측은 합병회사가 미국 극장 영화와 기본 케이블 프로그램의 약 3분의 1을 통제해 가격 상승, 콘텐츠 감소와 소비자 선택 축소를 초래할 수 있다고 주장했다."
     ],
     "event": {
-      "jurisdiction": "Global",
-      "event_type": "other",
-      "regulatory_phase": "proposed",
-      "actors": [],
-      "object": "",
-      "action": "",
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "California Attorney General",
+        "12 US state attorneys general",
+        "Paramount Skydance",
+        "Warner Bros. Discovery"
+      ],
+      "object": "Paramount Skydance의 1,100억 달러 규모 Warner Bros. Discovery 인수",
+      "action": "합병 저지와 거래 종결 금지를 구하는 소송을 제기했다",
       "game_mechanic": null,
       "time_hint": ""
     },
-    "event_key": "85bec5fd8069efe5",
+    "event_key": "us_paramount_wbd_merger_state_ag_lawsuit_2026",
     "is_primary": true,
-    "title_ko": ""
+    "title_ko": "미국 12개 주, Paramount-Warner Bros. 합병 저지 소송"
   },
   {
     "title": "\"We mean business\" - Bethesda union members to march in protest of sweeping Xbox job cuts",
     "url": "https://www.eurogamer.net/xbox-layoffs-bethesda-union-protest-plans",
     "source": "Eurogamer",
     "pub_date": "2026-07-10",
-    "category": "ETC",
+    "category": "LABOR_EMPLOYMENT",
     "summary_ko": [
-      "\"We mean business\" - Bethesda union members to march in protest of sweeping Xbox job cuts"
+      "CWA 산하 Bethesda 노조 OneBGS는 Bethesda·ZeniMax에서 노조원 약 440명이 감원된 데 항의해 7월 15일 북미 4개 스튜디오 앞에서 'Save Our Devs' 행진을 열겠다고 밝혔다.",
+      "노조는 Microsoft가 이번 감원을 사업 범위 변경으로 규정해 단체교섭 의무를 회피하려 한다고 비판하며, 해고자 지원과 향후 감원 방지를 요구했다."
     ],
     "event": {
-      "jurisdiction": "Global",
-      "event_type": "other",
+      "jurisdiction": "US",
+      "event_type": "business",
       "regulatory_phase": "proposed",
-      "actors": [],
-      "object": "",
-      "action": "",
+      "actors": [
+        "OneBGS",
+        "Communications Workers of America",
+        "Microsoft",
+        "Bethesda Game Studios",
+        "ZeniMax"
+      ],
+      "object": "Xbox 사업부와 Bethesda·ZeniMax의 대규모 감원",
+      "action": "노조가 북미 4개 스튜디오에서 항의 행진을 예고했다",
       "game_mechanic": null,
-      "time_hint": ""
+      "time_hint": "2026-07-15"
     },
-    "event_key": "85bec5fd8069efe5",
+    "event_key": "us_bethesda_xbox_layoff_union_protest_2026",
     "is_primary": true,
-    "title_ko": ""
+    "title_ko": "Bethesda 노조, Xbox 대규모 감원에 맞서 'Save Our Devs' 행진"
   },
   {
     "title": "Slay the Spire 2 lead says the garbage placeholder art is \"important\" and gen AI would ruin it: \"People would judge the game as if it's a 1.0, fully developed video game\"",
     "url": "https://www.gamesradar.com/games/roguelike/slay-the-spire-2-lead-says-the-garbage-placeholder-art-is-important-and-gen-ai-would-ruin-it-people-would-judge-the-game-as-if-its-a-1-0-fully-developed-video-game/",
     "source": "gamesradar+",
     "pub_date": "2026-07-14",
-    "category": "ETC",
+    "category": "AI_EMERGING",
     "summary_ko": [
-      "Slay the Spire 2 lead says the garbage placeholder art is \"important\" and gen AI would ruin it: \"People would judge the game as if it's a 1.0, fully developed video game\""
+      "Mega Crit는 얼리액세스 단계의 미완성 상태를 이용자에게 명확히 알리기 위해 'Slay the Spire 2'의 임시 아트를 사람이 일부러 거칠게 제작한다고 설명했다.",
+      "공동창업자 Casey Yano는 생성형 AI 이미지가 개발 과정과 고유 화풍을 보여주지 못하고 완성본처럼 오인될 수 있어, 자사 스타일을 흉내 내는 용도로 사용할 이유가 없다고 밝혔다."
     ],
     "event": {
       "jurisdiction": "Global",
-      "event_type": "other",
+      "event_type": "policy",
       "regulatory_phase": "proposed",
-      "actors": [],
-      "object": "",
-      "action": "",
+      "actors": [
+        "Mega Crit",
+        "Casey Yano"
+      ],
+      "object": "게임 개발 중 생성형 AI 아트 사용",
+      "action": "얼리액세스 임시 아트에 생성형 AI를 사용하지 않는 이유를 설명했다",
       "game_mechanic": null,
       "time_hint": ""
     },
-    "event_key": "85bec5fd8069efe5",
+    "event_key": "global_slay_the_spire_2_ai_art_policy_2026",
     "is_primary": true,
-    "title_ko": ""
+    "title_ko": "Mega Crit, 'Slay the Spire 2' 임시 아트에 생성형 AI를 쓰지 않는 이유 공개"
   },
   {
     "title": "More Windows security updates to come as Microsoft leverages AI vulnerability detection, but 'only the highest-confidence findings reach the engineering team'",
     "url": "https://www.pcgamer.com/software/ai/more-windows-security-updates-to-come-as-microsoft-leverages-ai-vulnerability-detection-but-only-the-highest-confidence-findings-reach-the-engineering-team/",
     "source": "PC Gamer",
     "pub_date": "2026-07-13",
-    "category": "ETC",
+    "category": "PRIVACY_SECURITY",
     "summary_ko": [
-      "More Windows security updates to come as Microsoft leverages AI vulnerability detection, but 'only the highest-confidence findings reach the engineering team'"
+      "Microsoft는 여러 AI 모델이 Windows 핵심 바이너리를 스캔하고 상호 검증하는 MDASH 시스템을 활용해 취약점 탐지와 위험 우선순위 결정을 자동화하고 있다.",
+      "별도의 Windows 검증 단계가 오탐을 걸러 신뢰도가 높은 결과만 엔지니어에게 전달하며, 최종 보안 판단과 수정은 사람이 담당한다. Microsoft는 이에 따라 보안 업데이트 건수가 늘어날 수 있다고 설명했다."
     ],
     "event": {
       "jurisdiction": "Global",
-      "event_type": "other",
-      "regulatory_phase": "proposed",
-      "actors": [],
-      "object": "",
-      "action": "",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Microsoft",
+        "Windows engineering team"
+      ],
+      "object": "Windows 취약점 탐지와 보안 업데이트",
+      "action": "다중 모델 AI 취약점 탐지 시스템 MDASH를 운영하고 있다고 밝혔다",
       "game_mechanic": null,
       "time_hint": ""
     },
-    "event_key": "85bec5fd8069efe5",
+    "event_key": "global_windows_ai_vulnerability_detection_2026",
     "is_primary": true,
-    "title_ko": ""
+    "title_ko": "Microsoft, 다중 AI 모델로 Windows 취약점 탐지 강화"
   },
   {
     "title": "EDPB requires Belgian DPA to handle the merits of NOYB cookie banner complaint",
     "url": "https://www.edpb.europa.eu/news/edpb-requires-belgian-dpa-to-handle-the-merits-of-noyb-cookie-banner-complaint_en",
     "source": "EDPB - News",
     "pub_date": "2026-07-14",
-    "category": "ETC",
+    "category": "PRIVACY_SECURITY",
     "summary_ko": [
-      "EDPB requires Belgian DPA to handle the merits of NOYB cookie banner complaint"
+      "EDPB는 벨기에 공영방송 VRT의 쿠키 배너를 대상으로 NOYB가 제기한 GDPR 민원을 권리남용이라는 이유로 각하해서는 안 된다는 구속력 있는 결정을 내렸다.",
+      "벨기에 개인정보보호당국은 민원의 실체를 심사한 새 결정안을 작성해 다른 관련 감독기구에 제출해야 한다. EDPB는 이번 결정에서 쿠키 배너 자체의 위법 여부까지 판단하지는 않았다."
     ],
     "event": {
-      "jurisdiction": "Global",
-      "event_type": "other",
-      "regulatory_phase": "proposed",
-      "actors": [],
-      "object": "",
-      "action": "",
+      "jurisdiction": "EU",
+      "event_type": "enforcement",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "European Data Protection Board",
+        "Belgian Data Protection Authority",
+        "NOYB",
+        "VRT"
+      ],
+      "object": "VRT 쿠키 배너에 관한 GDPR 민원",
+      "action": "벨기에 당국에 절차적 각하 대신 본안 심사를 명령했다",
       "game_mechanic": null,
       "time_hint": ""
     },
-    "event_key": "85bec5fd8069efe5",
+    "event_key": "eu_noyb_vrt_cookie_banner_edpb_decision_2026",
     "is_primary": true,
-    "title_ko": ""
+    "title_ko": "EDPB, 벨기에 당국에 NOYB의 VRT 쿠키 배너 민원 본안 심사 명령"
   },
   {
     "title": "分析師警告AI正讓Steam變得更難挖寶 「好遊戲會被複製然後消失」",
     "url": "https://www.4gamers.com.tw/news/detail/80649/ai-vibe-coding-game-clones-steam-discovery-crisis",
     "source": "4gamers",
     "pub_date": "2026-07-15",
-    "category": "ETC",
+    "category": "AI_EMERGING",
     "summary_ko": [
-      "分析師警告AI正讓Steam變得更難挖寶 「好遊戲會被複製然後消失」"
+      "Circana의 Mat Piscatella는 AI 바이브 코딩으로 기존 게임을 수십 시간 만에 복제할 수 있게 되면서 Steam 등 스토어의 게임 발견 문제가 악화될 수 있다고 경고했다.",
+      "출시작이 급증하면 원작과 우수한 인디게임이 복제품에 묻히고, 이용자가 검증된 대형 프랜차이즈에 더 의존해 신규 개발사의 시장 진입이 어려워질 수 있다는 분석이다."
     ],
     "event": {
       "jurisdiction": "Global",
-      "event_type": "other",
+      "event_type": "policy",
       "regulatory_phase": "proposed",
-      "actors": [],
-      "object": "",
-      "action": "",
+      "actors": [
+        "Circana",
+        "Mat Piscatella",
+        "Steam"
+      ],
+      "object": "AI 바이브 코딩을 통한 게임 복제와 스토어 발견 가능성",
+      "action": "AI 복제품 증가가 인디게임 유통과 발견을 위협할 수 있다고 경고했다",
       "game_mechanic": null,
       "time_hint": ""
     },
-    "event_key": "85bec5fd8069efe5",
+    "event_key": "global_steam_ai_clone_discovery_risk_2026",
     "is_primary": true,
-    "title_ko": ""
+    "title_ko": "AI 게임 복제품 급증이 Steam의 인디게임 발견을 위협한다는 경고"
   },
   {
     "title": "[Video] FCPA Compliance Report: Episode 815 – AI in Compliance and Eastward AI’s Continuous Risk “Reality Check”",
     "url": "https://www.jdsupra.com/legalnews/fcpa-compliance-report-episode-815-ai-26850/",
     "source": "JD Supra - Antitrust & Trade Regulation",
     "pub_date": "2026-07-13",
-    "category": "ETC",
+    "category": "AI_EMERGING",
     "summary_ko": [
-      "[Video] FCPA Compliance Report: Episode 815 – AI in Compliance and Eastward AI’s Continuous Risk “Reality Check”"
+      "FCPA Compliance Report는 AI가 신고 챗봇, 정책·통제 매핑, 모니터링과 행동 분석 등 컴플라이언스 기능 전반에 활용되고 있지만, 조사 업무의 과도한 자동화에는 주의가 필요하다고 설명했다.",
+      "Eastward AI의 'Reality Check'는 글로벌 정보를 지속적으로 스캔해 기존 위험평가의 우선순위·심각도·노출 변화를 갱신하고 시나리오 분석을 지원하는 기능으로 소개됐다."
     ],
     "event": {
       "jurisdiction": "Global",
-      "event_type": "other",
-      "regulatory_phase": "proposed",
-      "actors": [],
-      "object": "",
-      "action": "",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Eastward AI",
+        "Gerry Zack",
+        "Tom Fox"
+      ],
+      "object": "AI 기반 컴플라이언스·기업위험 관리",
+      "action": "지속적 위험평가 기능과 컴플라이언스 활용 사례를 공개했다",
       "game_mechanic": null,
       "time_hint": ""
     },
-    "event_key": "85bec5fd8069efe5",
+    "event_key": "global_eastward_ai_continuous_risk_compliance_2026",
     "is_primary": true,
-    "title_ko": ""
+    "title_ko": "Eastward AI, 글로벌 정보를 반영하는 상시 위험평가 'Reality Check' 공개"
   },
   {
     "title": "Google and Epic give up fighting — third-party Android app stores are coming next week",
     "url": "https://www.theverge.com/policy/965792/google-epic-withdraw-injunction-third-party-app-stores-coming-google-play",
     "source": "The Verge - Policy",
     "pub_date": "2026-07-15",
-    "category": "ETC",
+    "category": "PLATFORM_PUBLISHING",
     "summary_ko": [
-      "Google and Epic give up fighting — third-party Android app stores are coming next week"
+      "Google과 Epic Games는 미국 Google Play 영구금지명령의 내용을 수정해 달라는 공동 신청을 철회했다. 이에 따라 Google은 법원이 앞서 명령한 경쟁 촉진 조치를 이행해야 한다.",
+      "Google은 7월 22일부터 미국 Google Play에서 제3자 앱스토어를 제공하고 앱 카탈로그를 공유할 준비가 됐다고 밝혔다. Android 게임의 유통 채널과 대체 앱스토어 경쟁에 직접 영향을 줄 변화다."
     ],
     "event": {
-      "jurisdiction": "Global",
-      "event_type": "other",
-      "regulatory_phase": "proposed",
-      "actors": [],
-      "object": "",
-      "action": "",
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Google",
+        "Epic Games",
+        "US District Court"
+      ],
+      "object": "Google Play의 제3자 Android 앱스토어 허용 의무",
+      "action": "금지명령 수정 신청을 철회하고 기존 경쟁 촉진 조치를 이행하기로 했다",
       "game_mechanic": null,
-      "time_hint": ""
+      "time_hint": "2026-07-22"
     },
-    "event_key": "85bec5fd8069efe5",
+    "event_key": "us_google_epic_play_store_injunction_2026",
     "is_primary": true,
-    "title_ko": ""
+    "title_ko": "Google·Epic, 금지명령 수정 신청 철회…7월 22일부터 제3자 앱스토어 개방"
   }
 ]

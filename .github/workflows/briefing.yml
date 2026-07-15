@@ -11,6 +11,11 @@ on:
         required: false
         default: false
         type: boolean
+      render_date:
+        description: "Re-render an existing YYYY-MM-DD data file without feeds, LLM, email, or Sheets"
+        required: false
+        default: ""
+        type: string
 
 concurrency:
   group: briefing
@@ -53,12 +58,17 @@ jobs:
           GOOGLE_SHEETS_CREDENTIALS: ${{ secrets.GOOGLE_SHEETS_CREDENTIALS }}
           GOOGLE_SHEETS_ID: ${{ secrets.GOOGLE_SHEETS_ID }}
           WEB_ONLY: ${{ inputs.web_only || 'false' }}
+          RENDER_DATE: ${{ inputs.render_date || '' }}
         run: |
-          args=()
-          if [ "$WEB_ONLY" = "true" ]; then
-            args+=(--dry-run)
+          if [ -n "$RENDER_DATE" ]; then
+            python scripts/render_existing.py --date "$RENDER_DATE"
+          else
+            args=()
+            if [ "$WEB_ONLY" = "true" ]; then
+              args+=(--dry-run)
+            fi
+            python main.py "${args[@]}"
           fi
-          python main.py "${args[@]}"
 
       - name: Commit data files
         if: github.ref == 'refs/heads/main'
