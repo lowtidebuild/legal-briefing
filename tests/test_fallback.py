@@ -31,3 +31,17 @@ def test_fallback_generate_uses_secondary_on_primary_failure():
     provider = FallbackProvider(primary, secondary)
     result = provider.generate("test")
     assert result.text == "fallback text"
+
+
+def test_fallback_schema_call_uses_secondary_on_primary_failure():
+    primary = MagicMock()
+    secondary = MagicMock()
+    schema = {"type": "object"}
+    primary.generate_json_schema.side_effect = RuntimeError("rate limited")
+    secondary.generate_json_schema.return_value = {"fallback": True}
+    provider = FallbackProvider(primary, secondary)
+
+    result = provider.generate_json_schema("test", schema)
+
+    assert result == {"fallback": True}
+    secondary.generate_json_schema.assert_called_once_with("test", schema, None)

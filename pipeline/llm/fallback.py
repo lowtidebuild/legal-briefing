@@ -36,3 +36,15 @@ class FallbackProvider(LLMProvider):
         except Exception as exc:
             logger.warning("Primary LLM generate_json failed, falling back: %s", exc)
             return self._secondary.generate_json(prompt, system)
+
+    def generate_json_schema(
+        self,
+        prompt: str,
+        schema: dict,
+        system: str | None = None,
+    ) -> dict | list:
+        try:
+            return self._primary.generate_json_schema(prompt, schema, system)
+        except Exception as exc:
+            logger.warning("Primary LLM generate_json_schema failed, falling back: %s", exc)
+            return self._secondary.generate_json_schema(prompt, schema, system)

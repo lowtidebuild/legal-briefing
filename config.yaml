@@ -1,11 +1,11 @@
 llm:
-  provider: groq
-  model: openai/gpt-oss-120b
-  summary_model: qwen/qwen3.6-27b
-  fallback_model: openai/gpt-oss-120b
+  provider: gemini
+  model: gemini-3.5-flash
+  summary_model: gemini-3.5-flash
+  fallback_model: gemini-3.1-flash-lite
   reasoning_effort: low
-  summary_reasoning_effort: none
-  fallback_reasoning_effort: low
+  summary_reasoning_effort: minimal
+  fallback_reasoning_effort: minimal
   max_retries: 2
   request_timeout_seconds: 30
   max_input_chars: 8000

@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/License-Apache_2.0-1F6FEB?style=for-the-badge" alt="Apache 2.0" />
   <img src="https://img.shields.io/badge/Python-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.11+" />
   <img src="https://img.shields.io/badge/RSS-54개_피드-15803D?style=for-the-badge" alt="54 RSS feeds" />
-  <img src="https://img.shields.io/badge/LLM-Gemini_%2B_Claude-8B5CF6?style=for-the-badge" alt="Gemini and Claude" />
+  <img src="https://img.shields.io/badge/LLM-Gemini_3.5_Flash-8B5CF6?style=for-the-badge" alt="Gemini 3.5 Flash" />
 </p>
 
 **[브리핑 수신](#브리핑-수신)** · **[직접 운영하기](#직접-운영하기)** · **[구조](#구조)** · **[로드맵](#로드맵)**
@@ -90,8 +90,8 @@ cp .env.example .env
 
 | 변수 | 용도 | 필수 여부 |
 |------|------|----------|
-| `GROQ_API_KEY` | Groq API 키 ([여기서 발급](https://console.groq.com/keys)) | **필수** |
-| `GOOGLE_API_KEY` | Gemini API 키 (이전 구성용) | 선택 |
+| `GOOGLE_API_KEY` | Gemini API 키 ([여기서 발급](https://aistudio.google.com/app/apikey)) | **필수** |
+| `GROQ_API_KEY` | Groq API 키 (다른 프로바이더 구성 시) | 선택 |
 | `ANTHROPIC_API_KEY` | Claude API 키 (이전 구성용) | 선택 |
 | `SMTP_USER` | Gmail 주소 (`you@gmail.com` 전체) | 이메일 쓸 때 |
 | `SMTP_PASS` | Gmail 앱 비밀번호 (16자리, 공백 포함 그대로) | 이메일 쓸 때 |
@@ -99,7 +99,7 @@ cp .env.example .env
 | `GOOGLE_SHEETS_CREDENTIALS` | Sheets 서비스 계정 JSON | Sheets 쓸 때 |
 | `GOOGLE_SHEETS_ID` | 스프레드시트 ID | Sheets 쓸 때 |
 
-> **현재 LLM 구성은 `GROQ_API_KEY`만 있으면 동작합니다.** 이메일과 Sheets는 설정 안 하면 자동 스킵합니다.
+> **현재 LLM 구성은 `GOOGLE_API_KEY`만 있으면 동작합니다.** 선별·분류는 Gemini 3.5 Flash `low`, 요약은 같은 모델의 `minimal`을 쓰고, 실패하면 Gemini 3.1 Flash-Lite로 전환합니다. Gemini 무료 등급 한도는 적용됩니다. 이메일과 Sheets는 설정 안 하면 자동 스킵합니다.
 
 ### 4. 실행
 
@@ -185,7 +185,7 @@ game-legal-briefing/
 ├── pipeline/
 │   ├── sources/            # RSS 수집, 키워드/최신성 필터
 │   ├── intelligence/       # AI 선별, 분류, 요약, 중복 제거
-│   ├── llm/                # 프로바이더 추상화 (Gemini 기본, Claude 폴백)
+│   ├── llm/                # 프로바이더 추상화 (Gemini 모델 폴백)
 │   ├── store/              # JSON 저장, 중복 인덱스, 쿼리
 │   ├── render/             # 사이트 + 이메일 렌더링 (Jinja2)
 │   ├── deliver/            # Gmail SMTP 발송
@@ -193,14 +193,14 @@ game-legal-briefing/
 ├── templates/              # 웹 + 이메일 Jinja2 템플릿
 ├── static/                 # CSS (Pretendard + Noto Serif KR)
 ├── scripts/                # 유틸리티 (backfill_sheets.py)
-├── tests/                  # pytest (47개)
+├── tests/                  # pytest 테스트
 └── output/                 # 생성된 사이트 + 데이터 (GitHub Pages)
 ```
 
 ## 테스트
 
 ```bash
-python -m pytest tests -q                  # 단위 테스트 47개
+python -m pytest tests -q                  # 단위 테스트
 python main.py --dry-run --sample-data     # 통합 확인 (API 키 불필요)
 ```
 
@@ -208,7 +208,7 @@ python main.py --dry-run --sample-data     # 통합 확인 (API 키 불필요)
 
 | 단계 | 내용 |
 |:-----|:-----|
-| **완료** | MVP 파이프라인, 54개 피드, Gemini+Claude 폴백, EventKey 중복 제거, 한국어 제목, 카테고리 그룹핑, Sheets 관리, GitHub Pages, 이메일 발송 |
+| **완료** | MVP 파이프라인, 54개 피드, Gemini 무료 모델 폴백, EventKey 중복 제거, 한국어 제목, 카테고리 그룹핑, Sheets 관리, GitHub Pages, 이메일 발송 |
 | **다음** | RSS 없는 정부/규제기관 사이트 스크래퍼, 영문 요약 |
 | **이후** | Jurisdiction Pulse 대시보드, 토픽 타임라인 |
 | **장기** | 관할권 간 사건 연결, 토픽/단계별 RSS 피드 |

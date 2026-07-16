@@ -16,7 +16,7 @@ def _make_config():
     return SimpleNamespace(
         llm=SimpleNamespace(
             provider="gemini",
-            model="gemini-3.1-flash-lite",
+            model="gemini-3.5-flash",
             summary_model=None,
             fallback_model=None,
             reasoning_effort=None,
@@ -215,6 +215,48 @@ def test_pipeline_routes_groq_analysis_and_summary_models():
     assert summary_cfg.model == "qwen/qwen3.6-27b"
     assert summary_cfg.reasoning_effort == "none"
     assert summary_cfg.fallback_model == "openai/gpt-oss-120b"
+
+
+def test_pipeline_separates_gemini_thinking_levels_for_analysis_and_summary():
+    cfg = _make_config()
+    cfg.llm = LLMConfig(
+        provider="gemini",
+        model="gemini-3.5-flash",
+        summary_model="gemini-3.5-flash",
+        fallback_model="gemini-3.1-flash-lite",
+        reasoning_effort="low",
+        summary_reasoning_effort="minimal",
+        fallback_reasoning_effort="minimal",
+        concurrency=1,
+    )
+    cfg.google_api_key = "test-key"
+
+    with tempfile.TemporaryDirectory() as tmpdir:
+        with (
+            patch("main.load_config", return_value=cfg),
+            patch(
+                "main.create_provider",
+                side_effect=[_HealthyLLM(), _HealthyLLM()],
+            ) as create_mock,
+        ):
+            from main import run_pipeline
+
+            run_pipeline(
+                config_path="config.yaml",
+                output_dir=tmpdir,
+                template_dir=_template_dir(),
+                static_dir=_static_dir(),
+                dry_run=True,
+                use_sample_data=True,
+            )
+
+    assert create_mock.call_count == 2
+    analysis_cfg = create_mock.call_args_list[0].args[0]
+    summary_cfg = create_mock.call_args_list[1].args[0]
+    assert analysis_cfg.reasoning_effort == "low"
+    assert summary_cfg.model == "gemini-3.5-flash"
+    assert summary_cfg.reasoning_effort == "minimal"
+    assert summary_cfg.fallback_model == "gemini-3.1-flash-lite"
 
 
 def test_dry_run_without_api_key_uses_offline_provider_for_live_pipeline():

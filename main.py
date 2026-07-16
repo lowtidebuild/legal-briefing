@@ -86,7 +86,10 @@ def run_pipeline(
         offline_context="sample mode" if use_sample_data else "dry-run mode",
     )
     summary_llm = analysis_llm
-    if cfg.llm.summary_model and cfg.llm.summary_model != cfg.llm.model:
+    if cfg.llm.summary_model and (
+        cfg.llm.summary_model != cfg.llm.model
+        or cfg.llm.summary_reasoning_effort != cfg.llm.reasoning_effort
+    ):
         summary_cfg = replace(
             cfg.llm,
             model=cfg.llm.summary_model,

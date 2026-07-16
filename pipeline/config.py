@@ -9,7 +9,7 @@ import yaml
 @dataclass
 class LLMConfig:
     provider: str = "gemini"
-    model: str = "gemini-3.1-flash-lite"
+    model: str = "gemini-3.5-flash"
     summary_model: str | None = None
     fallback_model: str | None = None
     reasoning_effort: str | None = None
@@ -135,7 +135,7 @@ def load_config(path: str) -> Config:
     return Config(
         llm=LLMConfig(
             provider=llm_raw.get("provider", "gemini"),
-            model=llm_raw.get("model", "gemini-3.1-flash-lite"),
+            model=llm_raw.get("model", "gemini-3.5-flash"),
             summary_model=llm_raw.get("summary_model"),
             fallback_model=llm_raw.get("fallback_model"),
             reasoning_effort=llm_raw.get("reasoning_effort"),

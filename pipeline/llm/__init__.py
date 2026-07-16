@@ -50,6 +50,7 @@ def _create_single_provider(
         return GeminiProvider(
             api_key=google_api_key,
             model=cfg.model,
+            reasoning_effort=cfg.reasoning_effort,
             max_retries=cfg.max_retries,
             request_timeout_seconds=cfg.request_timeout_seconds,
         )
@@ -81,7 +82,7 @@ def _create_single_provider(
 
 
 def _secondary_provider_name(cfg: LLMConfig) -> str:
-    if cfg.provider == "groq":
+    if cfg.provider in {"gemini", "groq"} and cfg.fallback_model:
         return cfg.fallback_model or "none"
     return "claude" if cfg.provider == "gemini" else "gemini"
 
@@ -94,6 +95,20 @@ def _try_create_secondary(
 ) -> LLMProvider | None:
     """Try to create a secondary provider for fallback. Returns None if not possible."""
     try:
+        if (
+            cfg.provider == "gemini"
+            and google_api_key
+            and cfg.fallback_model
+            and cfg.fallback_model != cfg.model
+        ):
+            from pipeline.llm.gemini import GeminiProvider
+            return GeminiProvider(
+                api_key=google_api_key,
+                model=cfg.fallback_model,
+                reasoning_effort=cfg.fallback_reasoning_effort,
+                max_retries=cfg.max_retries,
+                request_timeout_seconds=cfg.request_timeout_seconds,
+            )
         if cfg.provider == "gemini" and anthropic_api_key:
             from pipeline.llm.claude import ClaudeProvider
             return ClaudeProvider(
@@ -107,6 +122,7 @@ def _try_create_secondary(
             return GeminiProvider(
                 api_key=google_api_key,
                 model="gemini-3.1-flash-lite",
+                reasoning_effort="minimal",
                 max_retries=cfg.max_retries,
                 request_timeout_seconds=cfg.request_timeout_seconds,
             )

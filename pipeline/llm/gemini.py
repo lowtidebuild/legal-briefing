@@ -9,7 +9,10 @@ try:  # pragma: no cover - import availability depends on environment
     from google.genai import types
 except ImportError:  # pragma: no cover - handled at runtime
     genai = SimpleNamespace(Client=None)
-    types = SimpleNamespace(GenerateContentConfig=lambda **kwargs: kwargs)
+    types = SimpleNamespace(
+        GenerateContentConfig=lambda **kwargs: kwargs,
+        ThinkingConfig=lambda **kwargs: kwargs,
+    )
 
 from pipeline.llm.base import LLMProvider, extract_json_from_text
 
@@ -20,7 +23,8 @@ class GeminiProvider(LLMProvider):
     def __init__(
         self,
         api_key: str,
-        model: str = "gemini-3.1-flash-lite",
+        model: str = "gemini-3.5-flash",
+        reasoning_effort: str | None = None,
         max_retries: int = 2,
         request_timeout_seconds: int = 30,
     ):
@@ -29,11 +33,19 @@ class GeminiProvider(LLMProvider):
             raise ImportError("google-genai is required for GeminiProvider")
         self._client = genai.Client(api_key=api_key)
         self._model_name = model
+        self._reasoning_effort = reasoning_effort
+
+    def _config_kwargs(self, system: str | None = None) -> dict:
+        config_kwargs = {"system_instruction": system}
+        if self._reasoning_effort:
+            config_kwargs["thinking_config"] = types.ThinkingConfig(
+                thinking_level=self._reasoning_effort,
+            )
+        return config_kwargs
 
     def _call_api(self, prompt: str, system: str | None = None) -> str:
-        config = None
-        if system:
-            config = types.GenerateContentConfig(system_instruction=system)
+        config_kwargs = self._config_kwargs(system)
+        config = types.GenerateContentConfig(**config_kwargs) if any(config_kwargs.values()) else None
         response = self._client.models.generate_content(
             model=self._model_name,
             contents=prompt,
@@ -50,10 +62,8 @@ class GeminiProvider(LLMProvider):
         schema: dict,
         system: str | None = None,
     ) -> dict | list:
-        config_kwargs = {
-            "system_instruction": system,
-            "response_mime_type": "application/json",
-        }
+        config_kwargs = self._config_kwargs(system)
+        config_kwargs["response_mime_type"] = "application/json"
         if schema:
             config_kwargs["response_schema"] = schema
         config = types.GenerateContentConfig(

@@ -12,10 +12,28 @@ from pipeline.llm.offline import OfflineLLMProvider
 
 
 def test_create_gemini_provider():
-    cfg = LLMConfig(provider="gemini", model="gemini-3.1-flash-lite")
+    cfg = LLMConfig(provider="gemini", model="gemini-3.5-flash", reasoning_effort="low")
     with patch("pipeline.llm.gemini.genai", new=SimpleNamespace(Client=lambda api_key: object())):
         provider = create_provider(cfg, google_api_key="test-key")
     assert isinstance(provider, GeminiProvider)
+    assert provider._reasoning_effort == "low"
+
+
+def test_create_gemini_provider_has_free_model_fallback():
+    cfg = LLMConfig(
+        provider="gemini",
+        model="gemini-3.5-flash",
+        fallback_model="gemini-3.1-flash-lite",
+        reasoning_effort="low",
+        fallback_reasoning_effort="minimal",
+    )
+    with patch("pipeline.llm.gemini.genai", new=SimpleNamespace(Client=lambda api_key: object())):
+        provider = create_provider(cfg, google_api_key="test-key")
+
+    assert provider._primary._model_name == "gemini-3.5-flash"
+    assert provider._primary._reasoning_effort == "low"
+    assert provider._secondary._model_name == "gemini-3.1-flash-lite"
+    assert provider._secondary._reasoning_effort == "minimal"
 
 
 def test_create_claude_provider():

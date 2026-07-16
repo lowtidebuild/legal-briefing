@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/License-Apache_2.0-1F6FEB?style=for-the-badge" alt="Apache 2.0" />
   <img src="https://img.shields.io/badge/Python-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.11+" />
   <img src="https://img.shields.io/badge/RSS_Feeds-54-15803D?style=for-the-badge" alt="54 RSS feeds" />
-  <img src="https://img.shields.io/badge/LLM-Gemini_%2B_Claude-8B5CF6?style=for-the-badge" alt="Gemini and Claude" />
+  <img src="https://img.shields.io/badge/LLM-Gemini_3.5_Flash-8B5CF6?style=for-the-badge" alt="Gemini 3.5 Flash" />
 </p>
 
 **[Self-Host](#self-host)** · **[Architecture](#architecture)** · **[Roadmap](#roadmap)**
@@ -75,8 +75,8 @@ Edit `.env` and fill in the values:
 
 | Variable | Purpose | Required |
 |----------|---------|----------|
-| `GROQ_API_KEY` | Groq API key ([get one](https://console.groq.com/keys)) | **Yes** |
-| `GOOGLE_API_KEY` | Gemini API key (legacy configuration only) | No |
+| `GOOGLE_API_KEY` | Gemini API key ([get one](https://aistudio.google.com/app/apikey)) | **Yes** |
+| `GROQ_API_KEY` | Groq API key (optional provider configuration) | No |
 | `ANTHROPIC_API_KEY` | Claude API key (legacy configuration only) | No |
 | `SMTP_USER` | Gmail address (e.g., `you@gmail.com`) | For email |
 | `SMTP_PASS` | Gmail app password (16 chars, keep spaces) | For email |
@@ -84,7 +84,7 @@ Edit `.env` and fill in the values:
 | `GOOGLE_SHEETS_CREDENTIALS` | Sheets service account JSON | For Sheets |
 | `GOOGLE_SHEETS_ID` | Spreadsheet ID | For Sheets |
 
-> **Only `GROQ_API_KEY` is required for the current LLM configuration.** Email and Sheets are skipped automatically when not configured.
+> **Only `GOOGLE_API_KEY` is required for the current LLM configuration.** The pipeline uses Gemini 3.5 Flash (`low` for selection/classification, `minimal` for summaries) and falls back to Gemini 3.1 Flash-Lite. Gemini free-tier limits still apply. Email and Sheets are skipped automatically when not configured.
 
 ### 4. Run
 
@@ -170,7 +170,7 @@ game-legal-briefing/
 ├── pipeline/
 │   ├── sources/            # RSS collection, keyword/recency filter
 │   ├── intelligence/       # Selection, classification, summarization, dedup
-│   ├── llm/                # Provider abstraction (Gemini default, Claude fallback)
+│   ├── llm/                # Provider abstraction (Gemini model fallback)
 │   ├── store/              # JSON storage, dedup index, query
 │   ├── render/             # Site + email rendering (Jinja2)
 │   ├── deliver/            # Gmail SMTP delivery
@@ -178,14 +178,14 @@ game-legal-briefing/
 ├── templates/              # Web + email Jinja2 templates
 ├── static/                 # CSS (Pretendard + Noto Serif KR)
 ├── scripts/                # Utilities (backfill_sheets.py)
-├── tests/                  # pytest (47 tests)
+├── tests/                  # pytest test suite
 └── output/                 # Generated site + data (GitHub Pages)
 ```
 
 ## Tests
 
 ```bash
-python -m pytest tests -q                  # 47 unit tests
+python -m pytest tests -q                  # Unit tests
 python main.py --dry-run --sample-data     # Integration check (no API keys needed)
 ```
 
@@ -193,7 +193,7 @@ python main.py --dry-run --sample-data     # Integration check (no API keys need
 
 | Stage | Focus |
 |:------|:------|
-| **Done** | MVP pipeline, 54 feeds, Gemini+Claude fallback, EventKey dedup, Korean titles, category grouping, Sheets admin, GitHub Pages, email delivery |
+| **Done** | MVP pipeline, 54 feeds, Gemini free-tier model fallback, EventKey dedup, Korean titles, category grouping, Sheets admin, GitHub Pages, email delivery |
 | **Next** | Tier C scrapers (government sites without RSS), English summaries |
 | **Later** | Jurisdiction Pulse dashboard, topic timelines |
 | **Future** | Cross-jurisdiction event linking, per-topic/phase RSS feeds |

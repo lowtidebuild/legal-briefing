@@ -35,6 +35,28 @@ def test_gemini_provider_uses_response_schema():
         assert config["response_schema"] == {"type": "object"}
 
 
+def test_gemini_provider_passes_thinking_level():
+    with patch("pipeline.llm.gemini.genai") as mock_genai, patch("pipeline.llm.gemini.types") as mock_types:
+        mock_client = MagicMock()
+        mock_response = MagicMock()
+        mock_response.text = '{"result": "ok"}'
+        mock_response.parsed = None
+        mock_client.models.generate_content.return_value = mock_response
+        mock_genai.Client.return_value = mock_client
+        mock_types.ThinkingConfig.side_effect = lambda **kwargs: kwargs
+        mock_types.GenerateContentConfig.side_effect = lambda **kwargs: kwargs
+
+        provider = GeminiProvider(
+            api_key="test-key",
+            model="gemini-3.5-flash",
+            reasoning_effort="low",
+        )
+        provider.generate_json("test prompt")
+
+    config = mock_client.models.generate_content.call_args.kwargs["config"]
+    assert config["thinking_config"] == {"thinking_level": "low"}
+
+
 def test_claude_provider_calls_client():
     with patch("pipeline.llm.claude.anthropic.Anthropic") as mock_cls:
         mock_client = MagicMock()
