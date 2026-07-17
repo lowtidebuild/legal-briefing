@@ -3,48 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "us_ai_no_fakes_act_proposed_2024",
-      "url_hash": "3890c30095ae346a",
-      "date": "2026-06-15",
-      "event_fingerprint": "dc9eec5d0be6f3a9"
-    },
-    {
-      "event_key": "us_wow_private_server_infringement_lawsuit_2024",
-      "url_hash": "2a3d6daa90dcc59b",
-      "date": "2026-06-15",
-      "event_fingerprint": "1e6d778d33467a77"
-    },
-    {
-      "event_key": "us_tetris_copyright_infringement_2012",
-      "url_hash": "3e65616e57b863ab",
-      "date": "2026-06-15",
-      "event_fingerprint": "4b47d05855ae4431"
-    },
-    {
-      "event_key": "global_esports_costreaming_program_2026",
-      "url_hash": "56430069680a68c5",
-      "date": "2026-06-15",
-      "event_fingerprint": "a4c2a6dfc0fb61c4"
-    },
-    {
-      "event_key": "eu_eurodac_supervision_policy_2024",
-      "url_hash": "86565bc87c11503b",
-      "date": "2026-06-15",
-      "event_fingerprint": "e62994c061cd190e"
-    },
-    {
-      "event_key": "global_ai_production_disclosure_2024",
-      "url_hash": "bf950e058be1dc5b",
-      "date": "2026-06-15",
-      "event_fingerprint": "a9258844e408d70d"
-    },
-    {
-      "event_key": "global_ai_product_cancellation_2024",
-      "url_hash": "8dbedf623a244359",
-      "date": "2026-06-15",
-      "event_fingerprint": "ab177a1336726b64"
-    },
-    {
       "event_key": "eu_stop_killing_games_petition_denial_2024",
       "url_hash": "bd29d4311bc05ce1",
       "date": "2026-06-17",
@@ -817,6 +775,66 @@
       "url_hash": "9e293e358ef9415a",
       "date": "2026-07-15",
       "event_fingerprint": "title:ae3069c7e0259dad:2026q3"
+    },
+    {
+      "event_key": "jp_generative_ai_adoption_report_2024",
+      "url_hash": "99bea173f5575dfb",
+      "date": "2026-07-17",
+      "event_fingerprint": "4c3c54e6c00b0ec1"
+    },
+    {
+      "event_key": "global_steam_ai_adoption_prediction_2028",
+      "url_hash": "1d299fed6d79d130",
+      "date": "2026-07-17",
+      "event_fingerprint": "236fb318ab60c118"
+    },
+    {
+      "event_key": "us_a24_backrooms_dmca_2024",
+      "url_hash": "37e8d07218baf076",
+      "date": "2026-07-17",
+      "event_fingerprint": "499a31e90df4bef4"
+    },
+    {
+      "event_key": "global_xbox_hacked_account_litigation_2026",
+      "url_hash": "0936d9f450e64cd8",
+      "date": "2026-07-17",
+      "event_fingerprint": "3a07b54650ba2833"
+    },
+    {
+      "event_key": "global_roblox_mobile_ai_creation_2024",
+      "url_hash": "f93aaa9ebbc28121",
+      "date": "2026-07-17",
+      "event_fingerprint": "30def80d152d0816"
+    },
+    {
+      "event_key": "global_epic_games_fortnite_ai_personas_2024",
+      "url_hash": "86194fd02b6b00f0",
+      "date": "2026-07-17",
+      "event_fingerprint": "72f72cc96d78d5fd"
+    },
+    {
+      "event_key": "us_google_play_antitrust_settlement_2026",
+      "url_hash": "7b9121d3e73b67ea",
+      "date": "2026-07-17",
+      "event_fingerprint": "a5c427d0ac892fc0"
+    },
+    {
+      "event_key": "global_youtube_ai_monetization_policy_2024",
+      "url_hash": "2245ac8e471fd48d",
+      "date": "2026-07-17",
+      "event_fingerprint": "bb3388259eb74a42"
+    },
+    {
+      "event_key": "cn_monetization_compliance_policy_ongoing",
+      "url_hash": "afb63f4f59b26901",
+      "date": "2026-07-17",
+      "event_fingerprint": "058469187b2dd9e9"
+    },
+    {
+      "event_key": "global_ai_production_integration_2024",
+      "url_hash": "a983f6bf8e3f6e29",
+      "date": "2026-07-17",
+      "event_fingerprint": "66a402c37c82c328"
     }
   ]
 }

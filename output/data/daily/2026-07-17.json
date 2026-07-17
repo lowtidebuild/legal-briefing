@@ -1,0 +1,280 @@
+[
+  {
+    "title": "According to a poll, Generative AI is being used by a whopping 100% of Japanese online game developers, as copyright infringement concerns climb",
+    "url": "https://www.eurogamer.net/generative-ai-100-percent-japanese-online-game-developers",
+    "source": "Eurogamer",
+    "pub_date": "2026-07-15",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "최근 보고서에 따르면 설문에 참여한 일본 온라인 게임 개발사의 100%가 현재 개발 및 업무에 생성형 AI를 도입하여 사용하고 있는 것으로 나타났습니다.",
+      "이번 결과는 최근 게임 업계 내에서 생성형 AI 도입에 따른 저작권 침해 우려와 논란이 고조되고 있는 상황 속에서 나온 지표라는 점에서 중요합니다.",
+      "게임사들은 생성형 AI 활용을 통한 효율성 제고와 동시에, 향후 발생할 수 있는 저작권 분쟁 및 EU 등 글로벌 규제 가이드라인 준수를 위한 법적 리스크 관리를 병행해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "JP",
+      "event_type": "other",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Japanese online game developers"
+      ],
+      "object": "Generative AI",
+      "action": "adoption in game development and associated copyright infringement concerns",
+      "game_mechanic": "generative AI assets",
+      "time_hint": "2024"
+    },
+    "event_key": "jp_generative_ai_adoption_report_2024",
+    "is_primary": true,
+    "title_ko": "설문조사에 따르면 저작권 침해 우려 증가에도 불구하고 일본 온라인 게임 개발사의 100%가 생성형 AI를 사용 중인 것으로 나타남"
+  },
+  {
+    "title": "Half of all games released on Steam will use AI by 2028, study predicts: \"AI lowers the barrier not just to make a game but to make several\"",
+    "url": "https://www.gamesradar.com/games/half-of-all-games-released-on-steam-will-use-ai-by-2028-study-predicts-ai-lowers-the-barrier-not-just-to-make-a-game-but-to-make-several/",
+    "source": "gamesradar+",
+    "pub_date": "2026-07-16",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "최근 연구에 따르면 생성형 AI 기술의 발전으로 2028년까지 스팀(Steam) 플랫폼에 출시되는 게임의 절반이 AI를 활용할 것으로 예측됩니다.",
+      "AI는 게임 개발에 필요한 리소스와 비용을 대폭 절감함으로써 소규모 개발사나 개인도 다수의 게임을 효율적으로 제작할 수 있는 환경을 조성하고 있습니다.",
+      "게임사는 AI 도입 시 저작권 및 밸브(Valve)의 플랫폼 가이드라인 준수 여부를 철저히 검토해야 하며, 무분별한 AI 콘텐츠 양산에 따른 품질 관리 전략을 수립해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Steam",
+        "Game Developers"
+      ],
+      "object": "Generative AI in game development",
+      "action": "Study predicts 50% of games released on Steam will utilize AI technologies by 2028",
+      "game_mechanic": "AI-generated content",
+      "time_hint": "2028"
+    },
+    "event_key": "global_steam_ai_adoption_prediction_2028",
+    "is_primary": true,
+    "title_ko": "2028년까지 스팀(Steam) 출시 게임 절반이 AI 활용할 것: \"AI는 게임 제작의 진입 장벽을 낮춰 다작을 가능하게 한다\""
+  },
+  {
+    "title": "Backrooms Director Kane Parsons Promises He’s 'Looking Into' A24 Copyright Strikes on Fan Art",
+    "url": "https://www.ign.com/articles/backrooms-director-kane-parsons-promises-hes-looking-into-a24-copyright-strikes-on-fan-art",
+    "source": "IGN",
+    "pub_date": "2026-07-16",
+    "category": "IP",
+    "summary_ko": [
+      "영화 제작사 A24가 '백룸(Backrooms)' IP를 활용한 팬 아트 창작자들에게 저작권 침해 신고를 진행하여 케인 파슨스(Kane Parsons) 감독이 조사에 나섰습니다.",
+      "2차 창작물에 대한 기업의 공격적인 권리 행사가 팬덤의 반발과 지적재산권 관리의 경계 문제를 다시 수면 위로 끌어올렸습니다.",
+      "게임사들은 커뮤니티 활성화를 위해 팬 아트 및 2차 창작물에 대한 명확한 IP 가이드라인을 수립하고, 팬덤과의 소통 창구를 유지해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "enforcement",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "A24",
+        "Kane Parsons",
+        "Content Creators"
+      ],
+      "object": "Backrooms Fan Art",
+      "action": "DMCA copyright strikes on fan art and derivative works",
+      "game_mechanic": "user-generated content",
+      "time_hint": "2024"
+    },
+    "event_key": "us_a24_backrooms_dmca_2024",
+    "is_primary": true,
+    "title_ko": "백룸(Backrooms) 감독 케인 파슨스(Kane Parsons), A24의 팬 아트 저작권 침해 신고 사태 조사 약속"
+  },
+  {
+    "title": "\"I sued their asses and won!\" Gamer wins legal battle to get hacked Xbox account back after they were told to rebuy all their digital games",
+    "url": "https://www.eurogamer.net/court-demands-xbox-restore-suspended-hacked-account",
+    "source": "Eurogamer",
+    "pub_date": "2026-07-11",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "브라질의 한 게이머가 계정 해킹 후 엑스박스(Xbox)로부터 계정 정지와 게임 재구매를 통보받았으나, 소송을 통해 계정 복구 판결을 받아냈습니다.",
+      "디지털 콘텐츠의 소유권과 플랫폼의 일방적인 계정 차단 및 자산 몰수가 소비자 권익을 침해한다는 점이 법적 분쟁의 핵심입니다.",
+      "게임사는 해킹 피해 발생 시 고객 지원 절차를 개선해야 하며, 디지털 게임의 영구적 이용권에 대한 법적 리스크를 사전에 대비해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Microsoft",
+        "Xbox"
+      ],
+      "object": "hacked user account and digital game library",
+      "action": "court ordered restoration of suspended account and compensation",
+      "game_mechanic": "digital purchases",
+      "time_hint": "2026"
+    },
+    "event_key": "global_xbox_hacked_account_litigation_2026",
+    "is_primary": true,
+    "title_ko": "\"내가 소송해서 이겼다!\" 해킹된 엑스박스(Xbox) 계정 복구 요구 승소한 게이머"
+  },
+  {
+    "title": "Roblox will let people use AI to make games on their phone",
+    "url": "https://www.theverge.com/games/966589/roblox-build-ai-phone-moblie-games",
+    "source": "The Verge - Policy",
+    "pub_date": "2026-07-16",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "로블록스(Roblox)가 모바일 앱 환경에서 AI를 활용해 게임을 즉시 제작할 수 있는 기능을 도입합니다.",
+      "이번 조치로 콘텐츠 생산 문턱이 낮아지지만, 저품질 콘텐츠 범람에 따른 플랫폼 품질 관리 우려가 제기됩니다.",
+      "실무적으로는 플랫폼 내 AI 생성 콘텐츠 급증에 대비해 사용자 제작 콘텐츠(UGC) 검수 및 가이드라인 고도화가 필수적입니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Roblox"
+      ],
+      "object": "mobile app game creation tools",
+      "action": "integrating AI generation tools for mobile game creation",
+      "game_mechanic": "user-generated content",
+      "time_hint": "2024"
+    },
+    "event_key": "global_roblox_mobile_ai_creation_2024",
+    "is_primary": true,
+    "title_ko": "로블록스(Roblox), 모바일 앱 내 AI 기반 게임 제작 기능 도입"
+  },
+  {
+    "title": "Fortnite is getting a bunch of AI-powered ‘personas’",
+    "url": "https://www.theverge.com/games/966815/epic-games-fortnite-ai-powered-personas",
+    "source": "The Verge - Policy",
+    "pub_date": "2026-07-16",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "에픽게임즈(Epic Games)가 7월 30일부터 포트나이트(Fortnite) 창작자들이 AI 음성과 페르소나를 갖춘 NPC를 활용할 수 있는 기능을 제공합니다.",
+      "이번 조치는 생성형 AI를 게임 내 콘텐츠 제작에 본격적으로 통합함으로써, 창작자의 도구 확장과 게임 내 상호작용의 고도화를 의미합니다.",
+      "게임 개발 및 운영 실무자는 AI NPC 도입에 따른 캐릭터성 유지 가이드라인 수립과 함께, 생성형 콘텐츠에 대한 윤리적·기술적 검수 체계를 마련해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "business",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Epic Games"
+      ],
+      "object": "Fortnite",
+      "action": "launching AI-powered character voices and personas for creators to use in NPCs",
+      "game_mechanic": "NPCs",
+      "time_hint": "July 30th, 2024"
+    },
+    "event_key": "global_epic_games_fortnite_ai_personas_2024",
+    "is_primary": true,
+    "title_ko": "포트나이트(Fortnite), AI 기반 캐릭터 '페르소나' 도입"
+  },
+  {
+    "title": "Google and Epic withdraw settlement as Play Store overhaul moves ahead",
+    "url": "https://www.pocketgamer.biz/google-and-epic-withdraw-settlement-as-play-store-overhaul-moves-ahead/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-07-16",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "구글(Google)과 에픽게임즈(Epic Games)가 미국 내 안드로이드 앱 배포 방식 변경을 위한 기존 합의를 철회했습니다.",
+      "이번 결정으로 2026년 7월 22일부터 구글 플레이(Google Play) 내 타사 앱스토어 입점이 본격화될 예정입니다.",
+      "게임사들은 향후 안드로이드 생태계의 폐쇄성 완화에 따른 배포 채널 다변화와 수수료 정책 변화를 대비해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Google",
+        "Epic Games",
+        "US District Court"
+      ],
+      "object": "Android app distribution and Play Store marketplace policies",
+      "action": "withdrawal of settlement to facilitate court-ordered platform interoperability",
+      "game_mechanic": "in-app payments and store distribution",
+      "time_hint": "July 2026"
+    },
+    "event_key": "us_google_play_antitrust_settlement_2026",
+    "is_primary": true,
+    "title_ko": "구글(Google)과 에픽게임즈(Epic Games), 플레이 스토어 개편 앞두고 합의 철회"
+  },
+  {
+    "title": "YouTube更新頻道營利政策打擊AI Slop 假專家影片不得獲利",
+    "url": "https://www.4gamers.com.tw/news/detail/80706/youtube-updates-monetization-policy-ai-slop-fake-experts",
+    "source": "4gamers",
+    "pub_date": "2026-07-17",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "유튜브(YouTube)가 파트너 프로그램(YPP) 정책을 개정하여 저품질, 대량 생산, 오도성 AI 생성 콘텐츠의 수익 창출을 제한합니다.",
+      "이번 조치는 플랫폼 내 생성형 AI 영상 범람에 대응해 건전한 생태계를 조성하고 시청자의 신뢰도를 보호하기 위한 결정입니다.",
+      "게임사들은 마케팅 및 콘텐츠 제작 시 AI 활용에 있어 단순 양산보다는 독창적이고 고품질의 가이드라인을 준수해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "YouTube",
+        "Google"
+      ],
+      "object": "generative AI content monetization",
+      "action": "updating partner program guidelines to restrict low-quality AI content",
+      "game_mechanic": "null",
+      "time_hint": ""
+    },
+    "event_key": "global_youtube_ai_monetization_policy_2024",
+    "is_primary": true,
+    "title_ko": "유튜브(YouTube), AI 생성 저품질 영상에 대한 수익 창출 정책 강화"
+  },
+  {
+    "title": "ToBid: Helping global mobile games unlock growth opportunities in China",
+    "url": "https://www.pocketgamer.biz/tobid-helping-global-mobile-games-unlock-growth-opportunities-in-china/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-07-13",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "중국 모바일 시장은 거대한 이용자층과 성숙한 광고 및 인앱 결제(IAP) 생태계를 기반으로 글로벌 개발사들에게 높은 성장 잠재력을 제공하고 있습니다.",
+      "중국 이용자들의 눈높이가 높아짐에 따라 수익화와 사용자 경험 사이의 균형을 맞추는 것이 지속 가능한 성장을 위한 필수 과제로 부상했습니다.",
+      "중국 시장 진출 시 AI 기반 운영 효율화와 더불어 하이브리드 수익화 전략을 체계적으로 수립하여 현지 시장의 요구사항에 대응해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "CN",
+      "event_type": "policy",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Chinese regulatory authorities",
+        "Global mobile game developers"
+      ],
+      "object": "mobile game monetization strategies",
+      "action": "balancing monetization with user experience and regulatory compliance",
+      "game_mechanic": "in-app purchases and ad monetization",
+      "time_hint": ""
+    },
+    "event_key": "cn_monetization_compliance_policy_ongoing",
+    "is_primary": true,
+    "title_ko": "투비드(ToBid): 글로벌 모바일 게임의 중국 시장 성장 기회 발굴 지원"
+  },
+  {
+    "title": "Netflix證實今年300部作品導入生成式AI 製作速度翻倍成本減半",
+    "url": "https://www.4gamers.com.tw/news/detail/80705/netflix-used-generative-ai-in-300-titles-in-2026-q2",
+    "source": "4gamers",
+    "pub_date": "2026-07-17",
+    "category": "AI_EMERGING",
+    "summary_ko": [
+      "넷플릭스(Netflix)가 올해 자사 콘텐츠 제작 과정에 생성형 AI를 본격 도입하여 300편 이상의 작품을 제작하고 있다고 밝혔습니다.",
+      "이번 조치는 콘텐츠 제작 속도를 2배 높이고 비용을 절반으로 줄이는 등 엔터테인먼트 산업의 생산성 혁신을 가속화하고 있습니다.",
+      "게임 업계 역시 생성형 AI를 활용한 리소스 제작 및 개발 공정 효율화가 필수적인 경쟁력으로 부상하고 있으며, 관련 워크플로우 도입을 적극 검토해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Netflix"
+      ],
+      "object": "Generative AI in content production",
+      "action": "Integration of generative AI to accelerate production and reduce costs",
+      "game_mechanic": "N/A",
+      "time_hint": "2024"
+    },
+    "event_key": "global_ai_production_integration_2024",
+    "is_primary": true,
+    "title_ko": "넷플릭스(Netflix), 올해 300편의 작품에 생성형 AI 도입… 제작 속도 2배 향상 및 비용 절감"
+  }
+]
