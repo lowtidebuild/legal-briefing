@@ -80,3 +80,21 @@ def test_config_exposes_env_vars(monkeypatch):
         assert cfg.llm.concurrency == 4
     finally:
         os.unlink(path)
+
+
+def test_config_supports_new_signals_and_legacy_keywords():
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".yaml", delete=False) as handle:
+        yaml.safe_dump(
+            {"pipeline": {"game_signals": ["game"], "legal_signals": ["court"]}},
+            handle,
+        )
+        new_path = handle.name
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".yaml", delete=False) as handle:
+        yaml.safe_dump({"pipeline": {"keywords": ["legacy"]}}, handle)
+        legacy_path = handle.name
+    try:
+        assert load_config(new_path).pipeline.candidate_signals == ["game", "court"]
+        assert load_config(legacy_path).pipeline.candidate_signals == ["legacy"]
+    finally:
+        os.unlink(new_path)
+        os.unlink(legacy_path)

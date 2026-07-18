@@ -78,3 +78,10 @@ def test_quality_blocks_etc_heavy_batch():
 
     assert not report.ok
     assert "etc_rate" in [issue.code for issue in report.issues]
+
+
+def test_quality_blocks_selected_item_without_legal_hook():
+    report = validate_briefing_quality([_node()], legal_hooks=[""])
+
+    assert not report.ok
+    assert "missing_legal_hook" in [issue.code for issue in report.issues]

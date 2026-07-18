@@ -15,6 +15,14 @@ class LLMResponse:
     text: str
 
 
+@dataclass
+class LLMCallMetrics:
+    attempts: int = 0
+    successes: int = 0
+    failures: int = 0
+    rate_limits: int = 0
+
+
 def extract_json_from_text(text: str) -> dict | list | None:
     """Extract a JSON object or array from plain text or a fenced code block."""
     fence_match = re.search(r"```(?:json)?\s*([\s\S]*?)```", text)
@@ -42,6 +50,11 @@ class LLMProvider(ABC):
     def __init__(self, max_retries: int = 2, request_timeout_seconds: int = 30):
         self.max_retries = max_retries
         self.request_timeout_seconds = request_timeout_seconds
+        self.metrics = LLMCallMetrics()
+
+    @property
+    def model_name(self) -> str:
+        return getattr(self, "_model_name", self.__class__.__name__)
 
     @abstractmethod
     def _call_api(self, prompt: str, system: str | None = None) -> str:

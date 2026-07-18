@@ -28,9 +28,10 @@ def render_existing(
     """Render one saved briefing as the latest page, without LLM, email, or Sheets."""
     cfg = load_config(config_path)
     data_dir = os.path.join(output_dir, "data", "daily")
-    nodes = load_daily(date, data_dir=data_dir)
-    if not nodes:
+    daily_path = os.path.join(data_dir, f"{date}.json")
+    if not os.path.isfile(daily_path):
         raise SystemExit(f"No saved briefing data found for {date}")
+    nodes = load_daily(date, data_dir=data_dir)
 
     quality_report = validate_briefing_quality(nodes)
     if not quality_report.ok:

@@ -1,7 +1,7 @@
 import os
 from unittest.mock import MagicMock, patch
 
-from pipeline.admin.sheets import format_row, read_event_keys_from_sheets, sync_to_sheets
+from pipeline.admin.sheets import SHEET_HEADERS, format_row, read_event_keys_from_sheets, sync_to_sheets
 from pipeline.deliver.mailer import send_briefing_email
 from pipeline.models import BriefingNode, EventType, Jurisdiction, LegalEvent, RegulatoryPhase
 from pipeline.render.email import render_email, write_email_preview
@@ -125,9 +125,28 @@ def test_send_email_uses_smtp_for_real_recipients():
 
 def test_sync_to_sheets_appends_rows():
     sheet = MagicMock()
+    sheet.get_all_values.return_value = []
     with patch("pipeline.admin.sheets._get_worksheet", return_value=sheet):
         sync_to_sheets([_node()], credentials_json="{}", spreadsheet_id="test-id")
         sheet.append_rows.assert_called_once()
+
+
+def test_sync_to_sheets_propagates_configured_failure():
+    with patch("pipeline.admin.sheets._get_worksheet", side_effect=RuntimeError("down")):
+        try:
+            sync_to_sheets([_node()], credentials_json="{}", spreadsheet_id="test-id")
+        except RuntimeError as exc:
+            assert str(exc) == "down"
+        else:
+            raise AssertionError("configured Sheets failure must propagate")
+
+
+def test_sync_to_sheets_skips_existing_event_keys():
+    sheet = MagicMock()
+    sheet.get_all_values.return_value = [SHEET_HEADERS, format_row(_node())]
+    with patch("pipeline.admin.sheets._get_worksheet", return_value=sheet):
+        sync_to_sheets([_node()], credentials_json="{}", spreadsheet_id="test-id")
+    sheet.append_rows.assert_not_called()
 
 
 def test_format_row_includes_time_hint():

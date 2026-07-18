@@ -22,6 +22,7 @@ class QualityReport:
     etc_count: int
     duplicate_event_key_count: int
     duplicate_event_keys: list[str]
+    missing_legal_hook_count: int
     issues: list[QualityIssue]
 
     @property
@@ -61,6 +62,7 @@ def validate_briefing_quality(
     nodes: list[BriefingNode],
     max_fallback_summary_ratio: float = 0.3,
     max_etc_ratio: float = 0.8,
+    legal_hooks: list[str] | None = None,
 ) -> QualityReport:
     """Catch degraded LLM output before it is published or emailed."""
     total = len(nodes)
@@ -72,8 +74,22 @@ def validate_briefing_quality(
             etc_count=0,
             duplicate_event_key_count=0,
             duplicate_event_keys=[],
+            missing_legal_hook_count=0,
             issues=issues,
         )
+
+    missing_legal_hook_count = 0
+    if legal_hooks is not None:
+        missing_legal_hook_count = max(0, total - len(legal_hooks)) + sum(
+            1 for hook in legal_hooks[:total] if not hook
+        )
+        if missing_legal_hook_count:
+            issues.append(
+                QualityIssue(
+                    code="missing_legal_hook",
+                    message=f"{missing_legal_hook_count}/{total} selected items lack a legal_hook",
+                )
+            )
 
     fallback_summary_count = sum(1 for node in nodes if _looks_like_summary_fallback(node))
     if fallback_summary_count and (
@@ -119,5 +135,6 @@ def validate_briefing_quality(
         etc_count=etc_count,
         duplicate_event_key_count=duplicate_event_key_count,
         duplicate_event_keys=duplicate_event_keys,
+        missing_legal_hook_count=missing_legal_hook_count,
         issues=issues,
     )

@@ -1,8 +1,14 @@
+import json
 import os
 import tempfile
 import time
+from pathlib import Path
 
+import pytest
+
+from pipeline.intelligence.dedup import is_safe_event_key
 from pipeline.models import BriefingNode, EventType, Jurisdiction, LegalEvent, RegulatoryPhase
+from pipeline.models import dict_to_briefing_node
 from pipeline.render.site import render_archive, render_article_pages, render_index
 
 
@@ -69,3 +75,59 @@ def test_render_article_pages_skips_unchanged_file():
         time.sleep(0.01)
         render_article_pages(nodes=[_node()], output_dir=tmpdir, template_dir=template_dir, base_url="")
         assert os.path.getmtime(path) == first_mtime
+
+
+@pytest.mark.parametrize("unsafe_key", ["../escape", "/tmp/escape", r"C:\tmp\escape", "bad\x00key"])
+def test_render_article_pages_rejects_unsafe_event_key(tmp_path, unsafe_key):
+    node = _node()
+    node.event_key = unsafe_key
+    template_dir = os.path.join(os.path.dirname(__file__), "..", "templates")
+
+    with pytest.raises(ValueError, match="Unsafe event_key"):
+        render_article_pages(
+            nodes=[node],
+            output_dir=str(tmp_path),
+            template_dir=template_dir,
+            base_url="",
+        )
+
+    assert not (tmp_path / "escape.html").exists()
+
+
+def test_render_article_pages_rejects_symlink_escape(tmp_path):
+    article_dir = tmp_path / "article"
+    article_dir.mkdir()
+    outside_file = tmp_path / "outside.html"
+    outside_file.write_text("do not overwrite", encoding="utf-8")
+    (article_dir / "key1.html").symlink_to(outside_file)
+
+    with pytest.raises(ValueError, match="escaped output/article"):
+        render_article_pages(
+            nodes=[_node()],
+            output_dir=str(tmp_path),
+            template_dir=os.path.join(os.path.dirname(__file__), "..", "templates"),
+            base_url="",
+        )
+
+    assert outside_file.read_text(encoding="utf-8") == "do not overwrite"
+
+
+def test_existing_daily_archive_event_keys_remain_renderable(tmp_path):
+    repo_root = Path(__file__).resolve().parents[1]
+    daily_files = sorted((repo_root / "output" / "data" / "daily").glob("*.json"))
+    nodes = []
+    for daily_file in daily_files:
+        payload = json.loads(daily_file.read_text(encoding="utf-8"))
+        nodes.extend(dict_to_briefing_node(item) for item in payload)
+
+    assert len(nodes) >= 500
+    assert all(is_safe_event_key(node.event_key) for node in nodes)
+
+    render_article_pages(
+        nodes=nodes,
+        output_dir=str(tmp_path),
+        template_dir=str(repo_root / "templates"),
+        base_url="",
+    )
+
+    assert all((tmp_path / "article" / f"{node.event_key}.html").exists() for node in nodes)

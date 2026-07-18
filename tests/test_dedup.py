@@ -1,6 +1,7 @@
 from pipeline.intelligence.dedup import (
     DedupEntry,
     DedupIndex,
+    canonicalize_event_key,
     compute_event_key,
     compute_event_fingerprint,
     deduplicate_articles,
@@ -27,6 +28,25 @@ def test_hashes_are_stable():
 
 def test_compute_event_key_shape():
     assert len(compute_event_key("EU", ["EU Commission"], "loot box", "regulation")) == 16
+
+
+def test_canonicalize_event_key_uses_pub_date_quarter():
+    result = canonicalize_event_key(
+        "ＥＵ Loot-Box Update_2024",
+        pub_date="2026-07-15",
+        fallback_event_key="0123456789abcdef",
+    )
+    assert result == "eu_loot_box_update_2026q3"
+
+
+def test_canonicalize_event_key_preserves_bucket_on_long_fallback():
+    result = canonicalize_event_key(
+        "../escape",
+        pub_date="2026-07-15",
+        fallback_event_key="f" * 120,
+    )
+    assert len(result) == 23
+    assert result.endswith("_2026q3")
 
 
 def test_compute_event_fingerprint_normalizes_inputs():

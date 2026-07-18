@@ -21,7 +21,7 @@
 
 ## What This Does
 
-Collects articles from 54 RSS feeds across game industry media, tech policy outlets, Korean press, and BigLaw blogs. Filters for legal and regulatory relevance, deduplicates by URL and EventKey, classifies each article with structured metadata via AI (Gemini), summarizes in Korean, and publishes as a static briefing site with email delivery.
+Collects articles from 54 RSS feeds across game industry media, tech policy outlets, Korean press, and BigLaw blogs. It selects up to 10 articles with a verified game-law nexus, classifies and summarizes them in Korean, deploys a static archive, and only then performs optional email and Sheets delivery.
 
 > [!IMPORTANT]
 > This is not legal advice. It is an open-source tool for structured regulatory monitoring.
@@ -49,11 +49,11 @@ Want to fork this project and run your own briefing pipeline? Follow the steps b
 ### 1. Install
 
 ```bash
-git clone https://github.com/lowtidebuild/game-legal-briefing.git
-cd game-legal-briefing
+git clone https://github.com/lowtidebuild/legal-briefing.git
+cd legal-briefing
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+python3 -m pip install --require-hashes -r requirements.lock
 ```
 
 ### 2. Try with sample data first
@@ -61,7 +61,7 @@ pip install -r requirements.txt
 No API keys needed:
 
 ```bash
-python main.py --dry-run --sample-data
+python3 main.py --dry-run --sample-data --delivery none
 open output/index.html
 ```
 
@@ -84,20 +84,26 @@ Edit `.env` and fill in the values:
 | `GOOGLE_SHEETS_CREDENTIALS` | Sheets service account JSON | For Sheets |
 | `GOOGLE_SHEETS_ID` | Spreadsheet ID | For Sheets |
 
-> **Only `GOOGLE_API_KEY` is required for the current LLM configuration.** The pipeline uses Gemini 3.5 Flash (`low` for selection/classification, `minimal` for summaries) and falls back to Gemini 3.1 Flash-Lite. Gemini free-tier limits still apply. Email and Sheets are skipped automatically when not configured.
+> **Only `GOOGLE_API_KEY` is required for the current LLM configuration.** The pipeline uses Gemini 3.5 Flash (`low` for selection/classification, `minimal` for summaries) and falls back to Gemini 3.1 Flash-Lite. Calls are batched to stay within free-tier limits. Email and Sheets are separate post-deploy stages and are skipped when not configured.
 
 ### 4. Run
 
+Generation never sends email or writes Sheets:
+
 ```bash
-python main.py --dry-run   # Generate site only (skip email/Sheets)
-python main.py              # Full run (email + Sheets included)
+python3 main.py --delivery none
 ```
+
+After the generated run has been committed and GitHub Pages has succeeded, the workflow runs the immutable delivery command. Manual delivery is an operator recovery action; see [the operations runbook](docs/operations-runbook.md).
 
 Output:
 - `output/index.html` — Latest briefing
 - `output/archive/` — Date-based archive
 - `output/article/` — Article detail pages
 - `output/data/daily/*.json` — Structured data
+- `output/data/run_manifests/*.json` — Immutable content hashes used for delivery
+- `output/data/runs/*.json` — Sanitized source, LLM, quality, and stage reports
+- `output/data/delivery_receipts/*.json` — Idempotent post-deploy delivery state
 
 ### 5. Set up GitHub Actions
 
@@ -106,6 +112,12 @@ To automate delivery from your fork:
 1. **Add GitHub Secrets:** repo Settings → Secrets and variables → Actions → add each env var as a Secret
 2. **Enable GitHub Pages:** repo Settings → Pages → Source → "GitHub Actions"
 3. **Automatic schedule:** Mon/Wed/Fri at 10:07 AM KST (manual: Actions tab → Run workflow)
+
+Manual workflow modes are deliberately separate:
+
+- `web_only=true`: generate and deploy, with no email or Sheets write.
+- `render_date=YYYY-MM-DD`: render existing saved data only, with no feeds, LLM, or delivery.
+- `force_delivery=true`: resume a known partial delivery; completed stages are not repeated.
 
 ### Google Sheets setup (optional)
 
@@ -138,16 +150,27 @@ flowchart LR
     A["54 RSS feeds"] --> B["Keyword filter"]
     B --> B2["Recency filter (7 days)"]
     B2 --> C["URL dedup"]
-    C --> D["LLM selection (top 10)"]
-    D --> E["Classification + EventKey"]
-    E --> F["Korean title + summary"]
-    F --> G["EventKey dedup (Sheets)"]
-    G --> H["BriefingNode JSON"]
+    C --> D["LLM selection (0–10)"]
+    D --> E["Batch classification + EventKey"]
+    E --> F["Batch Korean title + summary"]
+    F --> G["Event dedup"]
+    G --> H["Daily JSON + content hash"]
     H --> I["Static site"]
-    H --> J["Email"]
-    H --> K["Google Sheets"]
     I --> L["GitHub Pages"]
+    L --> J["Idempotent email"]
+    J --> K["Idempotent Google Sheets"]
 ```
+
+## Run Status
+
+| Status | Meaning |
+|---|---|
+| `SUCCESS` | Generation completed within normal source and primary-model thresholds. |
+| `DEGRADED` | Content was produced, but source health, rate limits, or a safe selector fallback needs review. |
+| `NO_UPDATES` | Sources and selector ran normally, but no item met the legal relevance threshold. No delivery occurs. |
+| `FAIL` | A mandatory phase failed; the run must not be delivered. |
+
+The GitHub Step Summary shows source status names, stage counts, LLM counters, delivery state, and required operator actions without prompts, article bodies, recipients, credentials, Sheet IDs, or raw exceptions.
 
 ## Dedup Strategy
 
@@ -165,7 +188,7 @@ EventKey can be reviewed and edited by humans in Sheets, so LLM inconsistencies 
 
 ```text
 game-legal-briefing/
-├── main.py                 # Pipeline entry point
+├── main.py                 # Side-effect-free generation entry point
 ├── config.yaml             # Non-secret config (54 RSS sources)
 ├── pipeline/
 │   ├── sources/            # RSS collection, keyword/recency filter
@@ -177,7 +200,7 @@ game-legal-briefing/
 │   └── admin/              # Google Sheets sync + EventKey read
 ├── templates/              # Web + email Jinja2 templates
 ├── static/                 # CSS (Pretendard + Noto Serif KR)
-├── scripts/                # Utilities (backfill_sheets.py)
+├── scripts/                # Existing-run delivery, render, and backfill utilities
 ├── tests/                  # pytest test suite
 └── output/                 # Generated site + data (GitHub Pages)
 ```
@@ -185,8 +208,8 @@ game-legal-briefing/
 ## Tests
 
 ```bash
-python -m pytest tests -q                  # Unit tests
-python main.py --dry-run --sample-data     # Integration check (no API keys needed)
+python3 -m pytest -q
+python3 main.py --dry-run --sample-data --delivery none --output /tmp/legal-briefing-sample
 ```
 
 ## Roadmap

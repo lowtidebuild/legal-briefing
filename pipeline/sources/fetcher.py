@@ -5,7 +5,7 @@ import urllib.request
 
 from bs4 import BeautifulSoup
 
-USER_AGENT = "game-legal-briefing/1.0 (+https://github.com/lowtidebuild/game-legal-briefing)"
+USER_AGENT = "game-legal-briefing/1.0 (+https://github.com/lowtidebuild/legal-briefing)"
 
 logger = logging.getLogger(__name__)
 

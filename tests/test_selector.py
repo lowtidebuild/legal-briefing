@@ -1,133 +1,177 @@
+import json
 from unittest.mock import MagicMock
 
-from pipeline.intelligence.selector import select_top_articles
+import pytest
+
+from pipeline.intelligence.dedup import url_hash
+from pipeline.intelligence.selector import select_articles, select_top_articles
 from pipeline.sources.rss import RawArticle
 
 
-def _article(title: str, idx: int = 0, url: str | None = None) -> RawArticle:
+def _article(
+    title: str,
+    idx: int = 0,
+    url: str | None = None,
+    description: str | None = None,
+) -> RawArticle:
     return RawArticle(
         title=title,
         url=url or f"https://example.com/{idx}",
         source="Test",
-        description=f"Description for {title}",
+        description=description or f"Description for {title}",
         pub_date="2026-04-01",
     )
 
 
-def test_returns_all_when_within_top_n():
-    articles = [_article("A", 0), _article("B", 1)]
+def _selected(articles: list[RawArticle], count: int, hook: str = "regulation") -> dict:
+    return {
+        "selected": [
+            {
+                "item_id": url_hash(article.url),
+                "is_legally_relevant": True,
+                "legal_hook": hook,
+            }
+            for article in articles[:count]
+        ]
+    }
+
+
+def test_selector_runs_even_when_candidates_are_below_top_n():
+    articles = [_article("Game privacy regulation", 0), _article("Game labor ruling", 1)]
     llm = MagicMock()
+    llm.generate_json_schema.return_value = _selected(articles, 1)
+
     result = select_top_articles(articles, llm, top_n=5)
-    assert result == articles
-    llm.generate_json.assert_not_called()
+
+    assert result == articles[:1]
+    llm.generate_json_schema.assert_called_once()
 
 
-def test_selects_by_llm_indices():
-    articles = [_article(f"Art{i}", i) for i in range(20)]
+@pytest.mark.parametrize("selected_count", [0, 3, 7, 10])
+def test_selector_returns_zero_to_top_n_without_backfill(selected_count):
+    articles = [_article(f"Game regulation {index}", index) for index in range(10)]
     llm = MagicMock()
-    llm.generate_json.return_value = {"selected_indices": [0, 5, 10]}
-    result = select_top_articles(articles, llm, top_n=3)
-    assert len(result) == 3
-    assert result[0].title == "Art0"
-    assert result[1].title == "Art5"
+    llm.generate_json_schema.return_value = _selected(articles, selected_count)
+
+    result = select_articles(articles, llm, top_n=10, max_per_domain=10)
+
+    assert len(result.articles) == selected_count
+    assert len(result.legal_hooks) == selected_count
+    assert result.degraded is False
 
 
-def test_handles_out_of_range_indices():
-    articles = [_article(f"Art{i}", i) for i in range(5)]
-    llm = MagicMock()
-    llm.generate_json.return_value = {"selected_indices": [0, 99, -1, 2]}
-    result = select_top_articles(articles, llm, top_n=3)
-    # LLM returned 2 valid indices, fill adds 1 more to reach top_n=3
-    assert len(result) == 3
-    assert result[0].title == "Art0"
-    assert result[1].title == "Art2"
-
-
-def test_falls_back_on_llm_failure():
-    articles = [_article(f"Art{i}", i) for i in range(20)]
-    llm = MagicMock()
-    llm.generate_json.side_effect = RuntimeError("API down")
-    result = select_top_articles(articles, llm, top_n=3)
-    assert len(result) == 3
-    assert result[0].title == "Art0"
-
-
-def test_respects_max_input_chars():
-    articles = [_article(f"Article with a long title number {i}", i) for i in range(100)]
-    llm = MagicMock()
-    llm.generate_json.return_value = {"selected_indices": [0, 1]}
-    result = select_top_articles(articles, llm, top_n=5, max_input_chars=500)
-    # LLM returned 2, fill adds 3 more to reach top_n=5
-    assert len(result) == 5
-    # Verify the prompt was truncated (not all 100 articles included)
-    call_args = llm.generate_json.call_args[0][0]
-    assert "[99]" not in call_args
-
-
-def test_prompt_removes_specific_law_firm_bias():
-    articles = [_article(f"Art{i}", i) for i in range(5)]
-    llm = MagicMock()
-    llm.generate_json.return_value = {"selected_indices": [0]}
-
-    select_top_articles(articles, llm, top_n=2)
-
-    prompt = llm.generate_json.call_args[0][0]
-    assert "Cooley" not in prompt
-    assert "DLA Piper" not in prompt
-    assert "Norton Rose" not in prompt
-
-
-def test_enforces_domain_cap_with_alternative_sources():
+def test_selector_domain_cap_drops_excess_without_backfill_or_relaxation():
     articles = [
-        _article("A0", 0, "https://same.example/a0"),
-        _article("A1", 1, "https://same.example/a1"),
-        _article("A2", 2, "https://same.example/a2"),
-        _article("A3", 3, "https://same.example/a3"),
-        _article("B0", 4, "https://other.example/b0"),
-        _article("B1", 5, "https://other.example/b1"),
-        _article("C0", 6, "https://third.example/c0"),
+        _article("A0 game regulation", 0, "https://same.example/a0"),
+        _article("A1 game regulation", 1, "https://same.example/a1"),
+        _article("A2 game regulation", 2, "https://same.example/a2"),
+        _article("B0 game regulation", 3, "https://other.example/b0"),
     ]
     llm = MagicMock()
-    llm.generate_json.return_value = {"selected_indices": [0, 1, 2, 3, 4]}
-
-    result = select_top_articles(articles, llm, top_n=5, max_per_domain=2)
-
-    domains = [article.url.split("/")[2] for article in result]
-    assert len(result) == 5
-    assert domains.count("same.example") == 2
-    assert domains.count("other.example") == 2
-    assert domains.count("third.example") == 1
-
-
-def test_domain_cap_relaxes_when_no_alternatives_are_available():
-    articles = [_article(f"Art{i}", i, f"https://same.example/{i}") for i in range(8)]
-    llm = MagicMock()
-    llm.generate_json.return_value = {"selected_indices": [0, 1, 2, 3]}
+    llm.generate_json_schema.return_value = _selected(articles, 4)
 
     result = select_top_articles(articles, llm, top_n=4, max_per_domain=2)
 
-    assert len(result) == 4
-    assert [article.title for article in result] == ["Art0", "Art1", "Art2", "Art3"]
+    assert [article.title for article in result] == [
+        "A0 game regulation",
+        "A1 game regulation",
+        "B0 game regulation",
+    ]
 
 
-def test_selector_ranks_keyword_matches_before_truncation():
+def test_selector_failure_excludes_ai_only_and_keeps_game_ai_ip_dispute():
     articles = [
-        _article("General one", 0, "https://a.example/0"),
-        _article("General two", 1, "https://b.example/1"),
+        _article(
+            "Roblox lets users make games with AI on mobile",
+            0,
+            description="New creation tools improve mobile production workflows.",
+        ),
+        _article(
+            "Game studio faces AI copyright lawsuit",
+            1,
+            description="A court will hear copyright infringement claims over generated game art.",
+        ),
+    ]
+    llm = MagicMock()
+    llm.generate_json_schema.side_effect = RuntimeError("API down")
+
+    result = select_articles(articles, llm, top_n=10)
+
+    assert [article.title for article in result.articles] == [
+        "Game studio faces AI copyright lawsuit"
+    ]
+    assert result.legal_hooks[result.articles[0].url] == "ip_dispute"
+    assert result.degraded is True
+
+
+def test_selector_empty_response_is_valid_no_updates_not_fallback():
+    articles = [_article("Roblox AI creation tools", 0)]
+    llm = MagicMock()
+    llm.generate_json_schema.return_value = {"selected": []}
+
+    result = select_articles(articles, llm)
+
+    assert result.articles == []
+    assert result.degraded is False
+
+
+def test_selector_rejects_unknown_id_and_uses_strict_fallback():
+    articles = [
+        _article(
+            "FTC gaming privacy enforcement",
+            0,
+            description="FTC enforcement action concerns player privacy in a game.",
+        ),
+        _article("Generic AI market forecast", 1),
+    ]
+    llm = MagicMock()
+    llm.generate_json_schema.return_value = {
+        "selected": [
+            {
+                "item_id": "unknown",
+                "is_legally_relevant": True,
+                "legal_hook": "enforcement",
+            }
+        ]
+    }
+
+    result = select_articles(articles, llm)
+
+    assert [article.title for article in result.articles] == ["FTC gaming privacy enforcement"]
+    assert result.degraded is True
+
+
+def test_selector_respects_max_input_chars_and_ranks_signals_first():
+    articles = [
+        _article("General update", 0, "https://a.example/0"),
+        _article("Another general update", 1, "https://b.example/1"),
         _article("FTC gaming enforcement", 2, "https://c.example/2"),
         _article("General three", 3, "https://d.example/3"),
     ]
     llm = MagicMock()
-    llm.generate_json.return_value = {"selected_indices": [0]}
+
+    def response(prompt, schema, system=None):
+        items = json.loads(prompt.split("Items JSON:\n", 1)[1].split("\n\n", 1)[0])
+        return {
+            "selected": [
+                {
+                    "item_id": items[0]["item_id"],
+                    "is_legally_relevant": True,
+                    "legal_hook": "enforcement",
+                }
+            ]
+        }
+
+    llm.generate_json_schema.side_effect = response
 
     result = select_top_articles(
         articles,
         llm,
         top_n=2,
-        max_input_chars=120,
-        keywords=["FTC", "enforcement"],
+        max_input_chars=180,
+        keywords=["FTC", "enforcement", "gaming"],
     )
 
-    prompt = llm.generate_json.call_args[0][0]
-    assert "[0] FTC gaming enforcement" in prompt
+    prompt = llm.generate_json_schema.call_args.args[0]
+    assert "FTC gaming enforcement" in prompt
     assert result[0].title == "FTC gaming enforcement"

@@ -4,17 +4,24 @@ import logging
 import os
 import re
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
 from pipeline.config import SourceEntry
-from pipeline.sources.rss import FEED_TIMEOUT_SECONDS, RawArticle
+from pipeline.sources.rss import (
+    FEED_TIMEOUT_SECONDS,
+    RawArticle,
+    SourceFetchResult,
+    SourceStatus,
+    _source_error_status,
+)
 
 logger = logging.getLogger(__name__)
 
 MAX_ITEMS_PER_SOURCE = 20
-USER_AGENT = "game-legal-briefing/1.0 (+https://github.com/lowtidebuild/game-legal-briefing)"
+USER_AGENT = "game-legal-briefing/1.0 (+https://github.com/lowtidebuild/legal-briefing)"
 
 
 def _clean_text(text: str) -> str:
@@ -61,18 +68,14 @@ def _decode_html(response, payload: bytes) -> str:
     return payload.decode("utf-8", errors="replace")
 
 
-def _fetch_html(source: SourceEntry) -> str | None:
+def _fetch_html(source: SourceEntry) -> str:
     """Fetch one HTML source with a stable user agent."""
     request = urllib.request.Request(
         source.url,
         headers={"User-Agent": USER_AGENT},
     )
-    try:
-        with urllib.request.urlopen(request, timeout=FEED_TIMEOUT_SECONDS) as response:
-            return _decode_html(response, response.read())
-    except Exception as exc:
-        logger.warning("Tier C fetch failed for %s: %s", source.name, exc)
-        return None
+    with urllib.request.urlopen(request, timeout=FEED_TIMEOUT_SECONDS) as response:
+        return _decode_html(response, response.read())
 
 
 def _article_from_row(
@@ -180,22 +183,65 @@ SCRAPER_REGISTRY = {
 }
 
 
-def fetch_tier_c(sources: list[SourceEntry]) -> list[RawArticle]:
-    """Fetch all configured Tier C sources with per-source graceful failure."""
-    collected: list[RawArticle] = []
+def _scrape_result(source: SourceEntry) -> SourceFetchResult:
+    scraper = SCRAPER_REGISTRY[source.name]
+    try:
+        articles = scraper(source)
+    except Exception as exc:
+        status = _source_error_status(exc)
+        logger.warning("Tier C scrape failed for %s [%s]", source.name, status.value)
+        return SourceFetchResult(source.name, "tier_c", status, 0, [])
+
+    status = SourceStatus.OK if articles else SourceStatus.EMPTY
+    logger.info("Tier C scraped %d articles from %s [%s]", len(articles), source.name, status.value)
+    return SourceFetchResult(source.name, "tier_c", status, len(articles), articles)
+
+
+def fetch_tier_c_with_report(
+    sources: list[SourceEntry],
+    max_workers: int = 3,
+) -> list[SourceFetchResult]:
+    """Fetch implemented Tier C sources with bounded, isolated workers."""
+    implemented: list[SourceEntry] = []
     for source in sources:
-        scraper = SCRAPER_REGISTRY.get(source.name)
-        if scraper is None:
+        if source.name not in SCRAPER_REGISTRY:
             logger.info("Tier C scraper not implemented for %s - skipping", source.name)
             continue
+        implemented.append(source)
 
-        try:
-            articles = scraper(source)
-            logger.info("Tier C scraped %d articles from %s", len(articles), source.name)
-            collected.extend(articles)
-        except Exception as exc:
-            logger.warning("Tier C scrape failed for %s: %s", source.name, exc)
-    return collected
+    if max_workers <= 1 or len(implemented) <= 1:
+        return [_scrape_result(source) for source in implemented]
+
+    results: list[SourceFetchResult | None] = [None for _ in implemented]
+    with ThreadPoolExecutor(max_workers=min(max_workers, 3)) as executor:
+        futures = {
+            executor.submit(_scrape_result, source): index
+            for index, source in enumerate(implemented)
+        }
+        for future in as_completed(futures):
+            index = futures[future]
+            source = implemented[index]
+            try:
+                results[index] = future.result()
+            except Exception:  # pragma: no cover - _scrape_result is defensive
+                logger.warning("Tier C worker failed for %s [WORKER_ERROR]", source.name)
+                results[index] = SourceFetchResult(
+                    source.name,
+                    "tier_c",
+                    SourceStatus.WORKER_ERROR,
+                    0,
+                    [],
+                )
+    return [result for result in results if result is not None]
+
+
+def fetch_tier_c(sources: list[SourceEntry]) -> list[RawArticle]:
+    """Compatibility wrapper returning only Tier C articles."""
+    return [
+        article
+        for result in fetch_tier_c_with_report(sources)
+        for article in result.articles
+    ]
 
 
 def unimplemented_sources(sources: list[SourceEntry]) -> list[SourceEntry]:

@@ -63,7 +63,8 @@ def test_fetch_tier_c_handles_scraper_exception(monkeypatch, caplog):
         [SourceEntry(name="문화체육관광부", url="https://www.mcst.go.kr/kor/s_notice/press/pressList.jsp")]
     )
     assert result == []
-    assert "Tier C scrape failed for 문화체육관광부: boom" in caplog.text
+    assert "Tier C scrape failed for 문화체육관광부 [worker_error]" in caplog.text
+    assert "boom" not in caplog.text
 
 
 def test_scrape_mcst_parses_fixture(monkeypatch):

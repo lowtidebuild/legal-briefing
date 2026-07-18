@@ -94,7 +94,7 @@ def sync_to_sheets(
     credentials_json: str | None,
     spreadsheet_id: str | None,
 ) -> None:
-    """Append briefing rows to the admin spreadsheet when configured."""
+    """Append missing briefing rows and propagate configured delivery failures."""
     if not credentials_json or not spreadsheet_id:
         logger.info("Google Sheets not configured, skipping sync")
         return
@@ -103,15 +103,25 @@ def sync_to_sheets(
         logger.info("No briefing nodes to sync")
         return
 
-    try:
-        worksheet = _get_worksheet(credentials_json, spreadsheet_id)
+    worksheet = _get_worksheet(credentials_json, spreadsheet_id)
+    existing = worksheet.get_all_values()
+    if not existing:
+        worksheet.append_row(SHEET_HEADERS)
+        existing_keys: set[str] = set()
+    else:
+        headers = [header.strip().lower() for header in existing[0]]
+        if "event_key" not in headers:
+            raise RuntimeError("Google Sheets is missing the event_key column")
+        event_key_column = headers.index("event_key")
+        existing_keys = {
+            row[event_key_column].strip()
+            for row in existing[1:]
+            if len(row) > event_key_column and row[event_key_column].strip()
+        }
 
-        # Ensure headers exist
-        existing = worksheet.get_all_values()
-        if not existing:
-            worksheet.append_row(SHEET_HEADERS)
-
-        worksheet.append_rows([format_row(node) for node in nodes])
-        logger.info("Synced %d rows to Google Sheets", len(nodes))
-    except Exception as exc:  # pragma: no cover - integration boundary
-        logger.error("Google Sheets sync failed: %s", exc)
+    missing_nodes = [node for node in nodes if node.event_key not in existing_keys]
+    if not missing_nodes:
+        logger.info("Google Sheets already contains all %d event keys", len(nodes))
+        return
+    worksheet.append_rows([format_row(node) for node in missing_nodes])
+    logger.info("Synced %d rows to Google Sheets", len(missing_nodes))

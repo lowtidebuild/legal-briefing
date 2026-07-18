@@ -16,6 +16,11 @@ on:
         required: false
         default: ""
         type: string
+      force_delivery:
+        description: "Resume a known partial delivery; completed stages are not repeated"
+        required: false
+        default: false
+        type: boolean
 
 concurrency:
   group: briefing
@@ -44,30 +49,27 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          python -m pip install --require-hashes -r requirements.lock
+
+      - name: Run test gate
+        run: python -m pytest -q
+
+      - name: Set briefing date
+        run: echo "BRIEFING_DATE=$(TZ=Asia/Seoul date +%Y-%m-%d)" >> "$GITHUB_ENV"
 
       - name: Run pipeline
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASS: ${{ secrets.SMTP_PASS }}
-          RECIPIENTS: ${{ secrets.RECIPIENTS }}
           GOOGLE_SHEETS_CREDENTIALS: ${{ secrets.GOOGLE_SHEETS_CREDENTIALS }}
           GOOGLE_SHEETS_ID: ${{ secrets.GOOGLE_SHEETS_ID }}
-          WEB_ONLY: ${{ inputs.web_only || 'false' }}
           RENDER_DATE: ${{ inputs.render_date || '' }}
         run: |
           if [ -n "$RENDER_DATE" ]; then
             python scripts/render_existing.py --date "$RENDER_DATE"
           else
-            args=()
-            if [ "$WEB_ONLY" = "true" ]; then
-              args+=(--dry-run)
-            fi
-            python main.py "${args[@]}"
+            python main.py --delivery none
           fi
 
       - name: Commit data files
@@ -93,3 +95,48 @@ jobs:
         if: github.ref == 'refs/heads/main'
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Record successful Pages deployment
+        if: ${{ success() && github.ref == 'refs/heads/main' && (inputs.render_date == '' || inputs.render_date == null) }}
+        run: |
+          python scripts/update_run_report.py \
+            --date "$BRIEFING_DATE" \
+            --stage git=completed \
+            --stage pages=completed
+
+      - name: Deliver generated run
+        id: delivery
+        if: ${{ success() && github.ref == 'refs/heads/main' && inputs.web_only != true && (inputs.render_date == '' || inputs.render_date == null) }}
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          RECIPIENTS: ${{ secrets.RECIPIENTS }}
+          GOOGLE_SHEETS_CREDENTIALS: ${{ secrets.GOOGLE_SHEETS_CREDENTIALS }}
+          GOOGLE_SHEETS_ID: ${{ secrets.GOOGLE_SHEETS_ID }}
+          FORCE_DELIVERY: ${{ inputs.force_delivery || 'false' }}
+        run: |
+          args=(--date "$BRIEFING_DATE")
+          if [ "$FORCE_DELIVERY" = "true" ]; then
+            args+=(--force-delivery)
+          fi
+          python scripts/deliver_existing.py "${args[@]}"
+
+      - name: Record failed Pages deployment
+        if: ${{ failure() && github.ref == 'refs/heads/main' && steps.deployment.outcome == 'failure' && (inputs.render_date == '' || inputs.render_date == null) }}
+        run: |
+          python scripts/update_run_report.py \
+            --date "$BRIEFING_DATE" \
+            --stage git=completed \
+            --stage pages=failed \
+            --status FAIL \
+            --action "pages: failed"
+
+      - name: Commit final run state
+        if: ${{ always() && github.ref == 'refs/heads/main' && steps.deployment.outcome != 'skipped' && (inputs.render_date == '' || inputs.render_date == null) }}
+        run: |
+          git add -f output/data/runs/
+          if [ -d output/data/delivery_receipts ]; then
+            git add -f output/data/delivery_receipts/
+          fi
+          git diff --cached --quiet || git commit -m "data: final run state $BRIEFING_DATE"
+          git push

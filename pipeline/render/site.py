@@ -6,6 +6,7 @@ import shutil
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+from pipeline.intelligence.dedup import is_safe_event_key
 from pipeline.models import BriefingNode
 
 logger = logging.getLogger(__name__)
@@ -34,6 +35,22 @@ def _write_if_changed(path: str, html: str) -> bool:
     with open(path, "w", encoding="utf-8") as handle:
         handle.write(html)
     return True
+
+
+def _article_output_path(article_dir: str, event_key: str) -> str:
+    """Resolve a safe article path contained by the article output directory."""
+    if not is_safe_event_key(event_key):
+        raise ValueError("Unsafe event_key for article output")
+
+    article_dir_real = os.path.realpath(article_dir)
+    candidate = os.path.realpath(os.path.join(article_dir_real, f"{event_key}.html"))
+    try:
+        is_contained = os.path.commonpath([article_dir_real, candidate]) == article_dir_real
+    except ValueError as exc:
+        raise ValueError("Article path escaped output/article") from exc
+    if not is_contained:
+        raise ValueError("Article path escaped output/article")
+    return candidate
 
 
 def render_index(
@@ -106,8 +123,8 @@ def render_article_pages(
     article_dir = os.path.join(output_dir, "article")
     os.makedirs(article_dir, exist_ok=True)
     for node in nodes:
+        path = _article_output_path(article_dir, node.event_key)
         html = template.render(node=node, base_url=normalized_base_url)
-        path = os.path.join(article_dir, f"{node.event_key}.html")
         _write_if_changed(path, html)
 
     logger.info("Rendered %d article pages", len(nodes))

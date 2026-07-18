@@ -91,7 +91,7 @@ def render_email(
     try:  # pragma: no cover - depends on optional package availability
         from premailer import transform
 
-        return transform(html, strip_important=False)
+        return transform(html, strip_important=False, allow_network=False)
     except ImportError:
         return html
 

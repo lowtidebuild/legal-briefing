@@ -197,7 +197,20 @@ pipeline:
     - ESPORTS_MARKETING
     - LABOR_EMPLOYMENT
     - ETC
-  keywords:
+  game_signals:
+    - game
+    - gaming
+    - esports
+    - app store
+    - loot box
+    - virtual goods
+    - in-game purchase
+    - Steam
+    - Roblox
+    - PlayStation
+    - Xbox
+    - Nintendo
+  legal_signals:
     - lawsuit
     - sue
     - court
@@ -218,10 +231,6 @@ pipeline:
     - data breach
     - policy
     - legislation
-    - AI
-    - artificial intelligence
-    - esports
-    - loot box
     - gambling
     - FTC
     - EU

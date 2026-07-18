@@ -4,6 +4,7 @@ import logging
 
 from pipeline.config import LLMConfig
 from pipeline.llm.base import LLMProvider
+from pipeline.llm.rate_limit import RateLimitGate
 
 logger = logging.getLogger(__name__)
 
@@ -15,10 +16,17 @@ def create_provider(
     groq_api_key: str | None = None,
     offline_fallback: bool = False,
     offline_context: str = "offline fallback",
+    rate_limit_gate: RateLimitGate | None = None,
 ) -> LLMProvider:
     """Create an LLM provider from config, with automatic fallback when both keys are available."""
     try:
-        primary = _create_single_provider(cfg, google_api_key, anthropic_api_key, groq_api_key)
+        primary = _create_single_provider(
+            cfg,
+            google_api_key,
+            anthropic_api_key,
+            groq_api_key,
+            rate_limit_gate,
+        )
     except Exception as exc:
         if offline_fallback:
             from pipeline.llm.offline import OfflineLLMProvider
@@ -28,7 +36,13 @@ def create_provider(
         raise
 
     # If both keys are available, wrap with fallback
-    secondary = _try_create_secondary(cfg, google_api_key, anthropic_api_key, groq_api_key)
+    secondary = _try_create_secondary(
+        cfg,
+        google_api_key,
+        anthropic_api_key,
+        groq_api_key,
+        rate_limit_gate,
+    )
     if secondary is not None:
         from pipeline.llm.fallback import FallbackProvider
         logger.info("Fallback provider configured: %s -> %s", cfg.provider, _secondary_provider_name(cfg))
@@ -42,6 +56,7 @@ def _create_single_provider(
     google_api_key: str | None,
     anthropic_api_key: str | None,
     groq_api_key: str | None,
+    rate_limit_gate: RateLimitGate | None,
 ) -> LLMProvider:
     if cfg.provider == "gemini":
         if not google_api_key:
@@ -53,6 +68,7 @@ def _create_single_provider(
             reasoning_effort=cfg.reasoning_effort,
             max_retries=cfg.max_retries,
             request_timeout_seconds=cfg.request_timeout_seconds,
+            rate_limit_gate=rate_limit_gate,
         )
 
     if cfg.provider == "claude":
@@ -92,6 +108,7 @@ def _try_create_secondary(
     google_api_key: str | None,
     anthropic_api_key: str | None,
     groq_api_key: str | None,
+    rate_limit_gate: RateLimitGate | None,
 ) -> LLMProvider | None:
     """Try to create a secondary provider for fallback. Returns None if not possible."""
     try:
@@ -108,6 +125,7 @@ def _try_create_secondary(
                 reasoning_effort=cfg.fallback_reasoning_effort,
                 max_retries=cfg.max_retries,
                 request_timeout_seconds=cfg.request_timeout_seconds,
+                rate_limit_gate=rate_limit_gate,
             )
         if cfg.provider == "gemini" and anthropic_api_key:
             from pipeline.llm.claude import ClaudeProvider
@@ -125,6 +143,7 @@ def _try_create_secondary(
                 reasoning_effort="minimal",
                 max_retries=cfg.max_retries,
                 request_timeout_seconds=cfg.request_timeout_seconds,
+                rate_limit_gate=rate_limit_gate,
             )
         if (
             cfg.provider == "groq"

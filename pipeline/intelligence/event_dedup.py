@@ -2,10 +2,13 @@ from __future__ import annotations
 
 import logging
 from dataclasses import dataclass
-from datetime import datetime
 
 from pipeline.intelligence.classifier import ClassificationResult
-from pipeline.intelligence.dedup import compute_event_fingerprint, topic_tokens_hash
+from pipeline.intelligence.dedup import (
+    compute_event_fingerprint,
+    event_year_bucket,
+    topic_tokens_hash,
+)
 from pipeline.sources.rss import RawArticle
 
 logger = logging.getLogger(__name__)
@@ -18,15 +21,6 @@ class ClassifiedArticle:
     event_fingerprint: str
 
 
-def _year_bucket(pub_date: str) -> str:
-    try:
-        parsed = datetime.strptime(pub_date, "%Y-%m-%d")
-    except (TypeError, ValueError):
-        return ""
-    quarter = ((parsed.month - 1) // 3) + 1
-    return f"{parsed.year}q{quarter}"
-
-
 def _normalized_event_key(classification: ClassificationResult) -> str:
     return classification.event_key.strip().lower()
 
@@ -37,14 +31,14 @@ def build_classified_article(
 ) -> ClassifiedArticle:
     event = classification.event
     if not event.actors and not event.object and not event.action:
-        fingerprint = f"title:{topic_tokens_hash(article.title)}:{_year_bucket(article.pub_date)}"
+        fingerprint = f"title:{topic_tokens_hash(article.title)}:{event_year_bucket(article.pub_date)}"
     else:
         fingerprint = compute_event_fingerprint(
             jurisdiction=event.jurisdiction.value,
             actors=event.actors,
             object_=event.object,
             action=event.action,
-            year_bucket=_year_bucket(article.pub_date),
+            year_bucket=event_year_bucket(article.pub_date),
         )
     return ClassifiedArticle(
         article=article,

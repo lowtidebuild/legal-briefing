@@ -1,6 +1,7 @@
 """Lightweight offline LLM provider for sample-mode runs without API keys."""
 from __future__ import annotations
 
+import json
 import re
 
 from pipeline.llm.base import LLMProvider
@@ -14,6 +15,43 @@ class OfflineLLMProvider(LLMProvider):
 
     def _call_api(self, prompt: str, system: str | None = None) -> str:
         raise RuntimeError("Offline fallback provider does not make remote calls")
+
+    def generate_json_schema(
+        self,
+        prompt: str,
+        schema: dict,
+        system: str | None = None,
+    ) -> dict | list:
+        if "selected" not in schema.get("properties", {}):
+            return self.generate_json(prompt, system=system)
+
+        from pipeline.intelligence.selector import (
+            DEFAULT_GAME_SIGNALS,
+            DEFAULT_LEGAL_SIGNALS,
+            _legal_hook_for,
+        )
+        from pipeline.sources.rss import RawArticle
+
+        items = json.loads(prompt.split("Items JSON:\n", 1)[1].split("\n\n", 1)[0])
+        selected = []
+        for item in items:
+            article = RawArticle(
+                title=item.get("title", ""),
+                url=f"offline://{item['item_id']}",
+                source=item.get("source", ""),
+                description=item.get("description", ""),
+                pub_date="",
+            )
+            hook = _legal_hook_for(article, DEFAULT_GAME_SIGNALS, DEFAULT_LEGAL_SIGNALS)
+            if hook:
+                selected.append(
+                    {
+                        "item_id": item["item_id"],
+                        "is_legally_relevant": True,
+                        "legal_hook": hook,
+                    }
+                )
+        return {"selected": selected}
 
     def generate_json(self, prompt: str, system: str | None = None) -> dict | list:
         if "selected_indices" in prompt:

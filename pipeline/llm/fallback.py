@@ -15,11 +15,24 @@ class FallbackProvider(LLMProvider):
         super().__init__(max_retries=0, request_timeout_seconds=0)
         self._primary = primary
         self._secondary = secondary
+        self.fallback_calls = 0
+
+    @property
+    def primary(self) -> LLMProvider:
+        return self._primary
+
+    @property
+    def secondary(self) -> LLMProvider:
+        return self._secondary
+
+    def record_fallback(self) -> None:
+        self.fallback_calls += 1
 
     def _call_api(self, prompt: str, system: str | None = None) -> str:
         try:
             return self._primary._call_api(prompt, system)
         except Exception as exc:
+            self.record_fallback()
             logger.warning("Primary LLM failed, falling back to secondary: %s", exc)
             return self._secondary._call_api(prompt, system)
 
@@ -27,6 +40,7 @@ class FallbackProvider(LLMProvider):
         try:
             return self._primary.generate(prompt, system)
         except Exception as exc:
+            self.record_fallback()
             logger.warning("Primary LLM generate failed, falling back: %s", exc)
             return self._secondary.generate(prompt, system)
 
@@ -34,6 +48,7 @@ class FallbackProvider(LLMProvider):
         try:
             return self._primary.generate_json(prompt, system)
         except Exception as exc:
+            self.record_fallback()
             logger.warning("Primary LLM generate_json failed, falling back: %s", exc)
             return self._secondary.generate_json(prompt, system)
 
@@ -46,5 +61,6 @@ class FallbackProvider(LLMProvider):
         try:
             return self._primary.generate_json_schema(prompt, schema, system)
         except Exception as exc:
+            self.record_fallback()
             logger.warning("Primary LLM generate_json_schema failed, falling back: %s", exc)
             return self._secondary.generate_json_schema(prompt, schema, system)

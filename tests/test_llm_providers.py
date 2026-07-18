@@ -1,8 +1,11 @@
 from unittest.mock import MagicMock, patch
 
+import pytest
+
 from pipeline.llm.claude import ClaudeProvider
 from pipeline.llm.gemini import GeminiProvider
 from pipeline.llm.groq import GroqProvider
+from pipeline.llm.rate_limit import ModelCircuitOpen, RateLimitGate
 
 
 def test_gemini_provider_calls_model():
@@ -15,6 +18,67 @@ def test_gemini_provider_calls_model():
 
         provider = GeminiProvider(api_key="test-key", model="gemini-3.1-flash-lite")
         assert provider._call_api("test prompt") == '{"result": "ok"}'
+
+
+def test_gemini_provider_applies_timeout_in_milliseconds():
+    with patch("pipeline.llm.gemini.genai") as mock_genai, patch("pipeline.llm.gemini.types") as mock_types:
+        mock_types.HttpOptions.side_effect = lambda **kwargs: kwargs
+        mock_genai.Client.return_value = MagicMock()
+
+        GeminiProvider(api_key="test-key", request_timeout_seconds=45)
+
+    assert mock_genai.Client.call_args.kwargs["http_options"] == {"timeout": 45000}
+
+
+def test_gemini_rate_limit_uses_retry_info_delay_once():
+    class RateLimitError(RuntimeError):
+        code = 429
+
+    sleeps = []
+    gate = RateLimitGate(clock=lambda: 100.0, sleep=sleeps.append)
+    with patch("pipeline.llm.gemini.genai") as mock_genai:
+        response = MagicMock(text='{"result": "ok"}', parsed={"result": "ok"})
+        client = MagicMock()
+        client.models.generate_content.side_effect = [
+            RateLimitError("429 RESOURCE_EXHAUSTED: retry in 45s"),
+            response,
+        ]
+        mock_genai.Client.return_value = client
+        provider = GeminiProvider(
+            api_key="test-key",
+            model="gemini-3.5-flash",
+            rate_limit_gate=gate,
+        )
+
+        assert provider.generate_json("test") == {"result": "ok"}
+
+    assert sleeps == [45.0]
+    assert provider.metrics.rate_limits == 1
+    assert client.models.generate_content.call_count == 2
+
+
+def test_gemini_shared_gate_opens_circuit_after_second_rate_limit():
+    class RateLimitError(RuntimeError):
+        code = 429
+
+    gate = RateLimitGate(clock=lambda: 100.0, sleep=lambda _seconds: None)
+    with patch("pipeline.llm.gemini.genai") as mock_genai:
+        first_client = MagicMock()
+        first_client.models.generate_content.side_effect = RateLimitError(
+            "429 RESOURCE_EXHAUSTED: retry in 1s"
+        )
+        second_client = MagicMock()
+        mock_genai.Client.side_effect = [first_client, second_client]
+        first = GeminiProvider(api_key="key", model="gemini-3.5-flash", rate_limit_gate=gate)
+        second = GeminiProvider(api_key="key", model="gemini-3.5-flash", rate_limit_gate=gate)
+
+        with pytest.raises(RateLimitError):
+            first.generate_json("test")
+        with pytest.raises(ModelCircuitOpen):
+            second.generate_json("test")
+
+    assert first_client.models.generate_content.call_count == 2
+    second_client.models.generate_content.assert_not_called()
 
 
 def test_gemini_provider_uses_response_schema():

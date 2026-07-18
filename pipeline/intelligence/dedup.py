@@ -2,12 +2,18 @@ from __future__ import annotations
 
 import hashlib
 import logging
+import ntpath
 import re
+import unicodedata
 from dataclasses import dataclass, field
+from datetime import datetime
 
 from pipeline.sources.rss import RawArticle
 
 logger = logging.getLogger(__name__)
+
+EVENT_KEY_PATTERN = re.compile(r"\A[a-z0-9_]{1,120}\Z")
+_EVENT_TIME_SUFFIX = re.compile(r"_(?:20\d{2}(?:q[1-4])?|ongoing)\Z")
 
 STOP_WORDS = {
     "the",
@@ -73,6 +79,67 @@ def compute_event_key(jurisdiction: str, actors: list[str], object_: str, action
         ]
     )
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()[:16]
+
+
+def event_year_bucket(pub_date: str) -> str:
+    """Return the publication quarter used in newly generated event keys."""
+    try:
+        parsed = datetime.strptime(pub_date, "%Y-%m-%d")
+    except (TypeError, ValueError):
+        return ""
+    quarter = ((parsed.month - 1) // 3) + 1
+    return f"{parsed.year}q{quarter}"
+
+
+def is_safe_event_key(event_key: object) -> bool:
+    """Return whether a stored key is safe to use as a single filename stem."""
+    return isinstance(event_key, str) and EVENT_KEY_PATTERN.fullmatch(event_key) is not None
+
+
+def _has_path_control(value: str) -> bool:
+    return (
+        "/" in value
+        or "\\" in value
+        or "\x00" in value
+        or ".." in value
+        or ntpath.isabs(value)
+    )
+
+
+def canonicalize_event_key(
+    raw_event_key: object,
+    pub_date: str,
+    fallback_event_key: str,
+) -> str:
+    """Convert an LLM event key into a bounded, path-safe canonical key.
+
+    The LLM-provided time suffix is discarded. A publication quarter is added
+    from trusted article metadata so the model cannot invent the key's date.
+    Path-control input and malformed values use the deterministic hash fallback.
+    """
+    bucket = event_year_bucket(pub_date)
+    suffix = f"_{bucket}" if bucket else ""
+
+    fallback = str(fallback_event_key).strip().lower()
+    if not is_safe_event_key(fallback) or len(fallback) + len(suffix) > 120:
+        fallback = hashlib.sha256(fallback.encode("utf-8")).hexdigest()[:16]
+    fallback_candidate = f"{fallback}{suffix}"
+    if not is_safe_event_key(fallback_candidate):
+        raise ValueError("Unable to construct a safe fallback event_key")
+
+    raw = "" if raw_event_key is None else str(raw_event_key).strip()
+    normalized = unicodedata.normalize("NFKC", raw)
+    if not raw or _has_path_control(raw) or _has_path_control(normalized):
+        return fallback_candidate
+
+    base = normalized.lower()
+    base = re.sub(r"[^a-z0-9_]+", "_", base)
+    base = re.sub(r"_+", "_", base).strip("_")
+    base = _EVENT_TIME_SUFFIX.sub("", base).strip("_")
+    candidate = f"{base}{suffix}"
+    if not base or not is_safe_event_key(candidate):
+        return fallback_candidate
+    return candidate
 
 
 def compute_event_fingerprint(

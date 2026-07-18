@@ -43,6 +43,13 @@ class PipelineConfig:
     body_fetch_max_chars: int = 8000
     categories: list[str] = field(default_factory=lambda: ["ETC"])
     keywords: list[str] = field(default_factory=list)
+    game_signals: list[str] = field(default_factory=list)
+    legal_signals: list[str] = field(default_factory=list)
+
+    @property
+    def candidate_signals(self) -> list[str]:
+        signals = [*self.game_signals, *self.legal_signals]
+        return list(dict.fromkeys(signals or self.keywords))
 
 
 @dataclass
@@ -155,6 +162,8 @@ def load_config(path: str) -> Config:
             body_fetch_max_chars=pipeline_raw.get("body_fetch_max_chars", 8000),
             categories=pipeline_raw.get("categories", ["ETC"]),
             keywords=pipeline_raw.get("keywords", []),
+            game_signals=pipeline_raw.get("game_signals", []),
+            legal_signals=pipeline_raw.get("legal_signals", []),
         ),
         dedup=DedupConfig(
             retention_days=dedup_raw.get("retention_days", 30),

@@ -21,6 +21,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from pipeline.intelligence.dedup import is_safe_event_key
+
 logger = logging.getLogger(__name__)
 
 SITE_URL = "https://lowtidebuild.github.io/legal-briefing/"
@@ -44,7 +46,7 @@ def _published_at(pub_date: str | None) -> str:
 
 def _article_url(event_key: str | None) -> str:
     """Per-article briefing page URL on the live site."""
-    if event_key and isinstance(event_key, str):
+    if is_safe_event_key(event_key):
         return f"{SITE_URL}article/{event_key}.html"
     return SITE_URL
 

@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import logging
 import os
+import time
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import replace
 from datetime import datetime
@@ -15,21 +16,38 @@ except ImportError:  # pragma: no cover - graceful fallback
     def load_dotenv() -> None:
         return None
 
-from pipeline.admin.sheets import read_event_keys_from_sheets, sync_to_sheets
+from pipeline.admin.sheets import read_event_keys_from_sheets
 from pipeline.config import load_config
-from pipeline.deliver.mailer import send_briefing_email
-from pipeline.intelligence.classifier import classify_article
+from pipeline.intelligence.classifier import classify_articles
 from pipeline.intelligence.dedup import DedupEntry, DedupIndex, deduplicate_articles, url_hash
 from pipeline.intelligence.event_dedup import build_classified_article, dedup_classified_articles
-from pipeline.intelligence.selector import select_top_articles
-from pipeline.intelligence.summarizer import summarize_article
+from pipeline.intelligence.selector import select_articles
+from pipeline.intelligence.summarizer import summarize_articles
 from pipeline.llm import create_provider
+from pipeline.llm.rate_limit import RateLimitGate
 from pipeline.quality import validate_briefing_quality
+from pipeline.run_report import (
+    RunReport,
+    RunStatus,
+    collect_llm_metrics,
+    determine_run_status,
+    llm_was_degraded,
+    make_run_id,
+    source_actions,
+    summarize_sources,
+    write_run_report,
+)
+from pipeline.run_manifest import create_run_manifest
 from pipeline.render.email import render_email, write_email_preview
 from pipeline.render.site import copy_static, render_archive, render_article_pages, render_index
 from pipeline.sources.fetcher import fetch_article_body
 from pipeline.sources.filters import keyword_filter, normalize_pub_dates, recency_filter
-from pipeline.sources.rss import fetch_all_feeds_with_report, sample_articles
+from pipeline.sources.rss import (
+    SourceFetchResult,
+    SourceStatus,
+    fetch_all_feeds_with_report,
+    sample_articles,
+)
 from pipeline.store.daily import load_daily, save_daily
 from pipeline.store.dedup_index import load_dedup_index, prune_old_entries, save_dedup_index
 from pipeline.store.nodes import assemble_node
@@ -68,22 +86,52 @@ def run_pipeline(
     static_dir: str = "static",
     dry_run: bool = False,
     use_sample_data: bool = False,
+    delivery: str = "none",
 ) -> None:
-    """Run the full Game Legal Briefing pipeline."""
+    """Generate briefing artifacts without external delivery side effects."""
+    if delivery != "none":
+        raise ValueError("main.py only supports generation; use scripts/deliver_existing.py")
     load_dotenv()
     cfg = load_config(config_path)
-    today = datetime.now().strftime("%Y-%m-%d")
+    today = os.getenv("BRIEFING_DATE") or datetime.now().strftime("%Y-%m-%d")
+    started_at = time.monotonic()
+    run_id = make_run_id(today)
+    source_results: list[SourceFetchResult] = []
+    source_article_count = 0
+    tier_a_total = 0
+    tier_a_unhealthy = 0
+    selector_completed = False
+    selector_degraded = False
+    quality_gate: dict[str, object] = {"status": "not_run", "issue_codes": []}
+    counts = {
+        "raw": 0,
+        "keyword": 0,
+        "recent": 0,
+        "url_dedup": 0,
+        "selected": 0,
+        "event_dedup": 0,
+        "published": 0,
+    }
+    stages = {
+        "generate": "in_progress",
+        "git": "not_run",
+        "pages": "not_run",
+        "email": "not_run",
+        "sheets": "not_run",
+    }
 
     output_data_dir = os.path.join(output_dir, "data", "daily")
     dedup_path = os.path.join(output_dir, "data", "dedup_index.json")
+    rate_limit_gate = RateLimitGate()
 
     analysis_llm = create_provider(
         cfg.llm,
-        google_api_key=cfg.google_api_key,
-        anthropic_api_key=cfg.anthropic_api_key,
-        groq_api_key=cfg.groq_api_key,
+        google_api_key=None if use_sample_data else cfg.google_api_key,
+        anthropic_api_key=None if use_sample_data else cfg.anthropic_api_key,
+        groq_api_key=None if use_sample_data else cfg.groq_api_key,
         offline_fallback=use_sample_data or dry_run,
         offline_context="sample mode" if use_sample_data else "dry-run mode",
+        rate_limit_gate=rate_limit_gate,
     )
     summary_llm = analysis_llm
     if cfg.llm.summary_model and (
@@ -97,20 +145,64 @@ def run_pipeline(
         )
         summary_llm = create_provider(
             summary_cfg,
-            google_api_key=cfg.google_api_key,
-            anthropic_api_key=cfg.anthropic_api_key,
-            groq_api_key=cfg.groq_api_key,
+            google_api_key=None if use_sample_data else cfg.google_api_key,
+            anthropic_api_key=None if use_sample_data else cfg.anthropic_api_key,
+            groq_api_key=None if use_sample_data else cfg.groq_api_key,
             offline_fallback=use_sample_data or dry_run,
             offline_context="sample mode" if use_sample_data else "dry-run mode",
+            rate_limit_gate=rate_limit_gate,
         )
+
+    def emit_run_report(forced_status: RunStatus | None = None) -> str:
+        llm_models, fallback_batches = collect_llm_metrics([analysis_llm, summary_llm])
+        status = forced_status or determine_run_status(
+            source_has_data=source_article_count > 0,
+            selector_completed=selector_completed,
+            published_count=counts["published"],
+            tier_a_total=tier_a_total,
+            tier_a_unhealthy=tier_a_unhealthy,
+            llm_degraded=llm_was_degraded(llm_models, fallback_batches),
+            selector_degraded=selector_degraded,
+            quality_ok=quality_gate["status"] != "failed",
+        )
+        actions = source_actions(source_results)
+        if quality_gate["status"] == "failed":
+            actions.append("quality_gate: failed")
+        report = RunReport(
+            run_id=run_id,
+            briefing_date=today,
+            status=status,
+            source_statuses=summarize_sources(source_results),
+            counts=counts.copy(),
+            llm_models=llm_models,
+            fallback_batches=fallback_batches,
+            quality_gate=quality_gate.copy(),
+            stages=stages.copy(),
+            duration_seconds=time.monotonic() - started_at,
+            action_required=actions,
+        )
+        return write_run_report(report, output_dir=output_dir)
 
     if use_sample_data:
         articles = sample_articles()
+        source_article_count = len(articles)
+        source_results = [
+            SourceFetchResult(
+                source_name="sample_data",
+                tier="sample",
+                status=SourceStatus.OK,
+                article_count=len(articles),
+                articles=articles,
+            )
+        ]
     else:
         feed_report = fetch_all_feeds_with_report(
             tier_a=cfg.sources.tier_a,
             tier_b=cfg.sources.tier_b,
         )
+        tier_a_total = feed_report.tier_a_total
+        tier_a_unhealthy = feed_report.tier_a_empty
+        source_results.extend(feed_report.source_results)
         if feed_report.tier_a_failure_rate >= 0.5:
             logger.warning(
                 "Tier A feed health degraded: %s/%s sources returned no articles; "
@@ -119,19 +211,33 @@ def run_pipeline(
                 feed_report.tier_a_total,
             )
         articles = feed_report.articles
-        from pipeline.sources.tier_c import fetch_tier_c, write_sources_backlog
+        from pipeline.sources.tier_c import fetch_tier_c_with_report, write_sources_backlog
 
         write_sources_backlog(cfg.sources.tier_c)
-        articles.extend(fetch_tier_c(cfg.sources.tier_c))
-    articles = keyword_filter(articles, keywords=cfg.pipeline.keywords)
-    if not use_sample_data and len(articles) < 10:
+        tier_c_results = fetch_tier_c_with_report(cfg.sources.tier_c)
+        source_results.extend(tier_c_results)
+        articles.extend(article for result in tier_c_results for article in result.articles)
+        source_article_count = len(articles)
+    counts["raw"] = source_article_count
+    if not use_sample_data and source_article_count == 0:
+        if not dry_run:
+            stages["generate"] = "failed"
+            emit_run_report(RunStatus.FAIL)
         _handle_operational_issue(
-            f"Pipeline health check failed: only {len(articles)} articles after keyword filter",
+            "Pipeline health check failed: all configured sources returned 0 articles",
             dry_run=dry_run,
             exit_code=2,
         )
+    game_signals = getattr(cfg.pipeline, "game_signals", [])
+    legal_signals = getattr(cfg.pipeline, "legal_signals", [])
+    candidate_signals = list(dict.fromkeys([*game_signals, *legal_signals]))
+    if not candidate_signals:
+        candidate_signals = cfg.pipeline.keywords
+    articles = keyword_filter(articles, keywords=candidate_signals)
+    counts["keyword"] = len(articles)
     if not use_sample_data:
         articles = recency_filter(articles, max_age_days=7)
+    counts["recent"] = len(articles)
     articles = normalize_pub_dates(articles, default_date=today)
 
     dedup_index = DedupIndex() if use_sample_data else prune_old_entries(
@@ -139,6 +245,9 @@ def run_pipeline(
     )
     sheets_event_keys = read_event_keys_from_sheets(cfg.google_sheets_credentials, cfg.google_sheets_id)
     if sheets_event_keys is None:
+        if not dry_run:
+            stages["generate"] = "failed"
+            emit_run_report(RunStatus.FAIL)
         _handle_operational_issue(
             "Google Sheets unavailable or missing event_key column; aborting to avoid duplicate publication",
             dry_run=dry_run,
@@ -147,20 +256,27 @@ def run_pipeline(
         sheets_event_keys = set()
 
     articles = deduplicate_articles(articles, dedup_index)
-    articles = select_top_articles(
+    counts["url_dedup"] = len(articles)
+    selection_result = select_articles(
         articles,
         analysis_llm,
         top_n=cfg.pipeline.top_n,
         max_input_chars=cfg.llm.max_input_chars,
         max_per_domain=cfg.pipeline.max_per_domain,
-        keywords=cfg.pipeline.keywords,
+        keywords=candidate_signals,
+        game_signals=game_signals or None,
+        legal_signals=legal_signals or None,
     )
+    selector_completed = True
+    selector_degraded = selection_result.degraded
+    articles = selection_result.articles
+    counts["selected"] = len(articles)
 
-    classifications = _map_ordered(
-        lambda article: build_classified_article(article, classify_article(article, analysis_llm)),
-        articles,
-        max_workers=cfg.llm.concurrency,
-    )
+    classification_results = classify_articles(articles, analysis_llm)
+    classifications = [
+        build_classified_article(article, classification)
+        for article, classification in zip(articles, classification_results)
+    ]
 
     # Event dedup before summarization: Sheets event_key remains authoritative,
     # while JSON event_fingerprint catches cross-source duplicates from this point on.
@@ -174,8 +290,9 @@ def run_pipeline(
         existing_event_keys=existing_event_keys,
         existing_event_fingerprints=json_event_fingerprints,
     )
+    counts["event_dedup"] = len(classified_articles)
 
-    def summarize_classified(item):
+    def article_for_summary(item):
         article_for_summary = item.article
         if cfg.pipeline.fetch_body_for_selected and not use_sample_data:
             body = fetch_article_body(
@@ -185,34 +302,41 @@ def run_pipeline(
             )
             if body:
                 article_for_summary = replace(item.article, description=body)
-        return item, summarize_article(article_for_summary, summary_llm)
+        return article_for_summary
 
-    summarized = _map_ordered(
-        summarize_classified,
+    summary_articles = _map_ordered(
+        article_for_summary,
         classified_articles,
         max_workers=cfg.llm.concurrency,
     )
+    summaries = summarize_articles(summary_articles, summary_llm)
     nodes = [
         assemble_node(item.article, item.classification, summary)
-        for item, summary in summarized
+        for item, summary in zip(classified_articles, summaries)
     ]
     for node in nodes:
         if not _useful_time_hint(node.event.time_hint):
             node.event.time_hint = ""
 
-    if not use_sample_data and not nodes:
-        _handle_operational_issue(
-            "Pipeline health check failed: produced 0 briefing nodes",
-            dry_run=dry_run,
-            exit_code=2,
-        )
     if not use_sample_data:
-        quality_report = validate_briefing_quality(nodes)
+        quality_report = validate_briefing_quality(
+            nodes,
+            legal_hooks=[selection_result.legal_hooks.get(node.url, "") for node in nodes],
+        )
+        quality_gate = {
+            "status": "passed" if quality_report.ok else "failed",
+            "issue_codes": [issue.code for issue in quality_report.issues],
+        }
         if not quality_report.ok:
             logger.error("Pipeline quality check failed: %s", quality_report.describe())
+            stages["generate"] = "failed"
+            emit_run_report(RunStatus.FAIL)
             raise SystemExit(4)
+    else:
+        quality_gate = {"status": "skipped_sample", "issue_codes": []}
 
     save_daily(nodes, today, data_dir=output_data_dir)
+    counts["published"] = len(nodes)
 
     if not use_sample_data:
         for node, item in zip(nodes, classified_articles):
@@ -265,27 +389,35 @@ def run_pipeline(
     except Exception as exc:  # pragma: no cover - defensive
         logger.warning("Briefing-hub manifest write failed: %s", exc)
 
-    email_html = None
-    if nodes and (dry_run or (not dry_run and cfg.smtp_user and cfg.smtp_pass and cfg.recipients)):
-        email_html = render_email(nodes, today, template_dir=template_dir, web_url=cfg.email.web_url)
+    create_run_manifest(
+        date=today,
+        run_id=run_id,
+        item_count=len(nodes),
+        output_dir=output_dir,
+    )
 
-    if dry_run and nodes and email_html:
+    if dry_run and nodes:
+        email_html = render_email(
+            nodes,
+            today,
+            template_dir=template_dir,
+            web_url=cfg.email.web_url,
+        )
         write_email_preview(email_html, output_dir=output_dir)
 
-    if not dry_run and nodes and cfg.smtp_user and cfg.smtp_pass and cfg.recipients:
-        send_briefing_email(
-            html_body=email_html or render_email(nodes, today, template_dir=template_dir, web_url=cfg.email.web_url),
-            subject=f"{cfg.email.subject_prefix} {today}",
-            smtp_user=cfg.smtp_user,
-            smtp_pass=cfg.smtp_pass,
-            recipients=cfg.recipients,
-        )
-    elif not nodes:
+    if not nodes:
         logger.info("No articles to report, skipping email delivery")
+        stages["email"] = "skipped_no_updates"
+    else:
+        stages["email"] = "skipped_generation_only"
 
-    if not dry_run and nodes:
-        sync_to_sheets(nodes, cfg.google_sheets_credentials, cfg.google_sheets_id)
+    if not nodes:
+        stages["sheets"] = "skipped_no_updates"
+    else:
+        stages["sheets"] = "skipped_generation_only"
 
+    stages["generate"] = "completed"
+    emit_run_report()
     logger.info("Pipeline complete with %d published nodes", len(nodes))
 
 
@@ -295,7 +427,17 @@ def main() -> None:
     parser.add_argument("--output", default="output", help="Directory for generated output")
     parser.add_argument("--templates", default="templates", help="Template directory")
     parser.add_argument("--static", default="static", help="Static asset directory")
-    parser.add_argument("--dry-run", action="store_true", help="Skip email and Sheets delivery")
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Use the offline provider and write an email preview",
+    )
+    parser.add_argument(
+        "--delivery",
+        choices=["none"],
+        default="none",
+        help="Generation is side-effect free; delivery is a separate command",
+    )
     parser.add_argument(
         "--sample-data",
         action="store_true",
@@ -310,6 +452,7 @@ def main() -> None:
         static_dir=args.static,
         dry_run=args.dry_run,
         use_sample_data=args.sample_data,
+        delivery=args.delivery,
     )
 
 

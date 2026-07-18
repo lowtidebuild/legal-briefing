@@ -86,18 +86,50 @@ class _HealthyLLM:
         }
 
     def generate_json_schema(self, prompt: str, schema: dict, system: str | None = None):
-        self._classification_count += 1
+        items = json.loads(prompt.split("Items JSON:\n", 1)[1].split("\n\n", 1)[0])
+        if "selected" in schema["properties"]:
+            return {
+                "selected": [
+                    {
+                        "item_id": item["item_id"],
+                        "is_legally_relevant": True,
+                        "legal_hook": "official_guidance",
+                    }
+                    for item in items[:10]
+                ]
+            }
+        item_properties = schema["properties"]["results"]["items"]["properties"]
+        if "category" in item_properties:
+            results = []
+            for item in items:
+                self._classification_count += 1
+                results.append({
+                    "item_id": item["item_id"],
+                    "category": "PRIVACY_SECURITY",
+                    "jurisdiction": "US",
+                    "event_type": "policy",
+                    "regulatory_phase": "proposed",
+                    "actors": ["FTC"],
+                    "object": f"gaming policy {self._classification_count}",
+                    "action": "updated guidance",
+                    "game_mechanic": "none",
+                    "time_hint": "2026",
+                    "event_key": f"us_ftc_gaming_policy_{self._classification_count}_2026",
+                })
+            return {"results": results}
         return {
-            "category": "PRIVACY_SECURITY",
-            "jurisdiction": "US",
-            "event_type": "policy",
-            "regulatory_phase": "proposed",
-            "actors": ["FTC"],
-            "object": f"gaming policy {self._classification_count}",
-            "action": "updated guidance",
-            "game_mechanic": "none",
-            "time_hint": "2026",
-            "event_key": f"us_ftc_gaming_policy_{self._classification_count}_2026",
+            "results": [
+                {
+                    "item_id": item["item_id"],
+                    "title_ko": "FTC, 게임 정책 업데이트",
+                    "summary_ko": [
+                        "FTC가 게임 플랫폼 정책 업데이트를 검토하고 있습니다.",
+                        "소비자 보호와 플랫폼 운영 기준에 영향이 있을 수 있습니다.",
+                        "게임사는 고지와 내부 정책을 점검해야 합니다.",
+                    ],
+                }
+                for item in items
+            ]
         }
 
 
@@ -108,18 +140,50 @@ class _DegradedLLM:
         return {"title_ko": "", "summary_ko": ["English fallback summary"]}
 
     def generate_json_schema(self, prompt: str, schema: dict, system: str | None = None):
+        items = json.loads(prompt.split("Items JSON:\n", 1)[1].split("\n\n", 1)[0])
+        if "selected" in schema["properties"]:
+            return {
+                "selected": [
+                    {
+                        "item_id": item["item_id"],
+                        "is_legally_relevant": True,
+                        "legal_hook": "official_guidance",
+                    }
+                    for item in items[:10]
+                ]
+            }
+        item_properties = schema["properties"]["results"]["items"]["properties"]
+        if "category" in item_properties:
+            return {
+                "results": [
+                    {
+                        "item_id": item["item_id"],
+                        "category": "ETC",
+                        "jurisdiction": "Global",
+                        "event_type": "other",
+                        "regulatory_phase": "proposed",
+                        "actors": [],
+                        "object": "",
+                        "action": "",
+                        "game_mechanic": None,
+                        "time_hint": "",
+                        "event_key": "global_llm_failure_fallback",
+                    }
+                    for item in items
+                ]
+            }
         return {
-            "category": "ETC",
-            "jurisdiction": "Global",
-            "event_type": "other",
-            "regulatory_phase": "proposed",
-            "actors": [],
-            "object": "",
-            "action": "",
-            "game_mechanic": None,
-            "time_hint": "",
-            "event_key": "global_llm_failure_fallback",
+            "results": [
+                {"item_id": item["item_id"], "title_ko": "", "summary_ko": ["English fallback summary"]}
+                for item in items
+            ]
         }
+
+
+class _NoUpdatesLLM:
+    def generate_json_schema(self, prompt: str, schema: dict, system: str | None = None):
+        assert "selected" in schema["properties"]
+        return {"selected": []}
 
 
 def test_main_runs_with_sample_mode_and_offline_provider():
@@ -263,10 +327,10 @@ def test_dry_run_without_api_key_uses_offline_provider_for_live_pipeline():
     cfg = _make_config()
     today = datetime.now().strftime("%Y-%m-%d")
     article = RawArticle(
-        title="FTC issues new gaming policy",
+        title="FTC issues gaming privacy enforcement order",
         url="https://example.com/ftc",
         source="Test Feed",
-        description="FTC policy update for gaming platforms",
+        description="FTC enforcement action addresses player privacy on gaming platforms",
         pub_date=today,
     )
 
@@ -387,6 +451,10 @@ def test_live_pipeline_continues_on_degraded_tier_a_feed_health(caplog):
         json_files = [name for name in os.listdir(data_dir) if name.endswith(".json")]
         assert len(json_files) == 1
         assert "Tier A feed health degraded: 24/44" in caplog.text
+        run_report = json.loads(
+            open(os.path.join(tmpdir, "data", "runs", f"{today}.json"), encoding="utf-8").read()
+        )
+        assert run_report["status"] == "DEGRADED"
 
 
 def test_live_pipeline_drops_missing_date_articles_before_rendering():
@@ -446,7 +514,7 @@ def test_live_pipeline_drops_missing_date_articles_before_rendering():
         assert "FTC gaming policy update 0" in payload
 
 
-def test_live_pipeline_aborts_on_low_article_health():
+def test_live_pipeline_allows_one_legally_relevant_article():
     cfg = _make_config()
     cfg.google_api_key = "test-key"
     today = datetime.now().strftime("%Y-%m-%d")
@@ -470,6 +538,126 @@ def test_live_pipeline_aborts_on_low_article_health():
         ):
             from main import run_pipeline
 
+            run_pipeline(
+                config_path="config.yaml",
+                output_dir=tmpdir,
+                template_dir=_template_dir(),
+                static_dir=_static_dir(),
+                dry_run=False,
+                use_sample_data=False,
+            )
+
+        daily_files = os.listdir(os.path.join(tmpdir, "data", "daily"))
+        assert len([name for name in daily_files if name.endswith(".json")]) == 1
+
+
+def test_generation_never_calls_email_or_sheets_writes():
+    cfg = _make_config()
+    cfg.google_api_key = "test-key"
+    cfg.smtp_user = "sender@example.com"
+    cfg.smtp_pass = "password"
+    cfg.recipients = ["recipient@example.com"]
+    cfg.google_sheets_credentials = "{}"
+    cfg.google_sheets_id = "sheet-id"
+    today = datetime.now().strftime("%Y-%m-%d")
+    article = RawArticle(
+        title="FTC gaming policy update",
+        url="https://example.com/ftc",
+        source="Test Feed",
+        description="FTC policy update for gaming platforms",
+        pub_date=today,
+    )
+
+    with tempfile.TemporaryDirectory() as tmpdir:
+        with (
+            patch("main.load_config", return_value=cfg),
+            patch("main.create_provider", return_value=_HealthyLLM()),
+            patch(
+                "main.fetch_all_feeds_with_report",
+                return_value=FeedFetchReport(articles=[article], tier_a_total=1, tier_a_empty=0),
+            ),
+            patch("pipeline.sources.tier_c.write_sources_backlog"),
+            patch("main.read_event_keys_from_sheets", return_value=set()),
+            patch("pipeline.deliver.mailer.send_briefing_email") as email_mock,
+            patch("pipeline.admin.sheets.sync_to_sheets") as sheets_mock,
+        ):
+            from main import run_pipeline
+
+            run_pipeline(
+                config_path="config.yaml",
+                output_dir=tmpdir,
+                template_dir=_template_dir(),
+                static_dir=_static_dir(),
+                dry_run=False,
+                use_sample_data=False,
+                delivery="none",
+            )
+
+    email_mock.assert_not_called()
+    sheets_mock.assert_not_called()
+
+
+def test_live_pipeline_writes_empty_briefing_and_skips_delivery_for_no_updates():
+    cfg = _make_config()
+    cfg.google_api_key = "test-key"
+    today = datetime.now().strftime("%Y-%m-%d")
+    article = RawArticle(
+        title="Roblox adds AI creation tools",
+        url="https://example.com/roblox-ai",
+        source="Test Feed",
+        description="New mobile creation features improve production efficiency.",
+        pub_date=today,
+    )
+
+    with tempfile.TemporaryDirectory() as tmpdir:
+        with (
+            patch("main.load_config", return_value=cfg),
+            patch("main.create_provider", return_value=_NoUpdatesLLM()),
+            patch(
+                "main.fetch_all_feeds_with_report",
+                return_value=FeedFetchReport(articles=[article], tier_a_total=1, tier_a_empty=0),
+            ),
+            patch("pipeline.sources.tier_c.write_sources_backlog"),
+            patch("pipeline.deliver.mailer.send_briefing_email") as send_mock,
+            patch("pipeline.admin.sheets.sync_to_sheets") as sheets_mock,
+        ):
+            from main import run_pipeline
+
+            run_pipeline(
+                config_path="config.yaml",
+                output_dir=tmpdir,
+                template_dir=_template_dir(),
+                static_dir=_static_dir(),
+                dry_run=False,
+                use_sample_data=False,
+            )
+
+        daily_path = os.path.join(tmpdir, "data", "daily", f"{today}.json")
+        assert json.loads(open(daily_path, encoding="utf-8").read()) == []
+        run_report = json.loads(
+            open(os.path.join(tmpdir, "data", "runs", f"{today}.json"), encoding="utf-8").read()
+        )
+        assert run_report["status"] == "NO_UPDATES"
+        send_mock.assert_not_called()
+        sheets_mock.assert_not_called()
+
+
+def test_live_pipeline_fails_when_all_sources_return_zero_articles():
+    cfg = _make_config()
+    cfg.google_api_key = "test-key"
+
+    with tempfile.TemporaryDirectory() as tmpdir:
+        with (
+            patch("main.load_config", return_value=cfg),
+            patch("main.create_provider", return_value=_NoUpdatesLLM()),
+            patch(
+                "main.fetch_all_feeds_with_report",
+                return_value=FeedFetchReport(articles=[], tier_a_total=1, tier_a_empty=1),
+            ),
+            patch("pipeline.sources.tier_c.write_sources_backlog"),
+        ):
+            from main import run_pipeline
+
             with pytest.raises(SystemExit) as exc:
                 run_pipeline(
                     config_path="config.yaml",
@@ -481,6 +669,10 @@ def test_live_pipeline_aborts_on_low_article_health():
                 )
 
         assert exc.value.code == 2
+        run_report = json.loads(
+            open(os.path.join(tmpdir, "data", "runs", f"{datetime.now().strftime('%Y-%m-%d')}.json"), encoding="utf-8").read()
+        )
+        assert run_report["status"] == "FAIL"
 
 
 def test_live_pipeline_aborts_on_degraded_llm_output():

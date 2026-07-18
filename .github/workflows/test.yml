@@ -1,0 +1,32 @@
+name: Test
+
+on:
+  pull_request:
+    paths-ignore:
+      - "output/data/**"
+  push:
+    paths-ignore:
+      - "output/data/**"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install locked dependencies
+        run: python -m pip install --require-hashes -r requirements.lock
+
+      - name: Run tests
+        run: python -m pytest -q
+
+      - name: Run sample integration
+        run: python main.py --dry-run --sample-data --output /tmp/game-legal-briefing-sample
