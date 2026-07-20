@@ -27,6 +27,7 @@ def test_web_repair_preserves_existing_data_and_is_excluded_from_delivery():
     workflow = (Path(__file__).parents[1] / ".github" / "workflows" / "briefing.yml").read_text(
         encoding="utf-8"
     )
+    assert "cp output/data/dedup_index.json /tmp/briefing-repair/data/dedup_index.json" in workflow
     assert "python main.py --delivery none --output /tmp/briefing-repair" in workflow
     assert "python scripts/merge_daily_for_web.py" in workflow
     delivery_position = workflow.index("name: Deliver generated run")

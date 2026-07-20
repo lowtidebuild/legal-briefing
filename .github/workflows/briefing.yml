@@ -89,6 +89,8 @@ jobs:
           elif [ -n "$RENDER_DATE" ]; then
             python scripts/render_existing.py --date "$RENDER_DATE"
           elif [ -n "$REPAIR_DATE" ]; then
+            mkdir -p /tmp/briefing-repair/data
+            cp output/data/dedup_index.json /tmp/briefing-repair/data/dedup_index.json
             python main.py --delivery none --output /tmp/briefing-repair
             python scripts/merge_daily_for_web.py \
               --date "$REPAIR_DATE" \
