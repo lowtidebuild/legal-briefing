@@ -139,5 +139,89 @@
     "event_key": "wggb_game_writing_contracts_guide_2026q3",
     "is_primary": true,
     "title_ko": "영국 작가조합, 비디오 게임 시나리오 계약서 해독을 위한 무료 가이드 출시"
+  },
+  {
+    "title": "IWGB Game Workers union forms 'redundancy taskforce' to defend workers' rights",
+    "url": "https://www.gamedeveloper.com/business/iwgb-game-workers-union-forms-redundancy-taskforce-to-defend-workers-rights",
+    "source": "GameDeveloper",
+    "pub_date": "2026-07-15",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "영국 독립노동자연맹(IWGB) 게임 지부가 최근 게임 업계의 대규모 감원에 맞서 노동자의 권리를 지키기 위한 감원 대응 태스크포스(Redundancy Taskforce)를 출범했습니다.",
+      "경영진의 실책으로 인한 피해가 노동자에게 전가되는 것을 막고, 고용 불안정에 직면한 업계 종사자들에게 법적 권리 교육과 단체 행동을 지원한다는 점에서 중요합니다.",
+      "글로벌 게임사들은 구조조정 진행 시 현지 노동법 및 노동조합과의 갈등 예방을 위해 엄격한 적법 절차 준수와 리스크 관리가 필요합니다."
+    ],
+    "event": {
+      "jurisdiction": "UK",
+      "event_type": "other",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "IWGB Game Workers Union"
+      ],
+      "object": "game workers rights",
+      "action": "formation of redundancy taskforce",
+      "game_mechanic": "N/A",
+      "time_hint": "July 2026"
+    },
+    "event_key": "iwgb_redundancy_taskforce_2026q3",
+    "is_primary": true,
+    "title_ko": "IWGB 게임 지부, 노동자 권리 옹호를 위한 '감원 대응 태스크포스' 구성"
+  },
+  {
+    "title": "European Union set to approve Saudi PIF acquisition of Electronic Arts, according to report",
+    "url": "https://www.videogameschronicle.com/news/european-union-set-to-approve-saudi-pif-acquisition-of-electronic-arts-according-to-report/",
+    "source": "VGC",
+    "pub_date": "2026-07-17",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "유럽연합(EU) 반독점 규제 당국이 사우디아라비아 국부펀드(PIF)의 일렉트로닉 아츠(EA, Electronic Arts) 지분 인수 및 지배력 획득 거래를 승인할 예정인 것으로 보고되었습니다.",
+      "사우디아라비아가 막강한 자본력을 바탕으로 글로벌 메이저 게임사에 대한 지배력을 대폭 확대하며 게임 산업 내 영향력을 더욱 강화하는 계기가 될 것입니다.",
+      "게임 산업에 대한 국가 펀드의 대규모 투자는 규제 기관의 반독점 심사 대상이 되므로, 글로벌 M&A 진행 시 각국 규제 당국의 승인 가능성 및 요건을 선제적으로 검토해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "business",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "European Union",
+        "Saudi Arabia Public Investment Fund",
+        "Electronic Arts"
+      ],
+      "object": "corporate acquisition",
+      "action": "approval process of acquisition",
+      "game_mechanic": "N/A",
+      "time_hint": "July 2026"
+    },
+    "event_key": "eu_saudi_pif_ea_acquisition_2026q3",
+    "is_primary": true,
+    "title_ko": "유럽연합, 사우디아라비아 국부펀드(PIF)의 일렉트로닉 아츠(EA) 인수 승인 예정"
+  },
+  {
+    "title": "ZeniMax Online Studios leadership included in Xbox mass layoffs",
+    "url": "https://www.gamedeveloper.com/business/zenimax-online-studios-leadership-is-part-of-the-379-laid-off-workers",
+    "source": "GameDeveloper",
+    "pub_date": "2026-07-16",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "마이크로소프트 엑스박스(Xbox)의 대규모 구조조정 여파로 제니맥스 온라인 스튜디오(ZeniMax Online Studios)의 스튜디오 총괄, 운영 이사, 게임 디렉터 등 고위 경영진이 대거 해고되었습니다.",
+      "개발 실무자뿐만 아니라 핵심 프로젝트를 이끌던 고위 리더십까지 감원 대상에 포함되면서 글로벌 빅테크 기업의 게임 부문 비용 절감 압박이 한층 거세졌음을 보여줍니다.",
+      "인수합병(M&A) 이후 진행되는 대규모 조직 개편과 리더십 공백은 개발 중인 프로젝트의 연속성 저해 및 법적 고용 분쟁을 야기할 수 있으므로 이에 대한 대비책 마련이 요구됩니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Xbox",
+        "ZeniMax Online Studios"
+      ],
+      "object": "employee termination",
+      "action": "mass layoffs",
+      "game_mechanic": "N/A",
+      "time_hint": "July 2026"
+    },
+    "event_key": "xbox_zenimax_layoffs_2026q3",
+    "is_primary": true,
+    "title_ko": "제니맥스 온라인 스튜디오 경영진, 엑스박스 대규모 정리해고 대상에 포함"
   }
 ]

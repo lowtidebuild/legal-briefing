@@ -2,12 +2,13 @@
   "schema_version": 1,
   "briefing_date": "2026-07-20",
   "delivery": "not_run",
-  "previous_count": 3,
+  "previous_count": 5,
   "incoming_count": 3,
-  "added_count": 2,
-  "final_count": 5,
+  "added_count": 3,
+  "final_count": 8,
   "added_event_keys": [
-    "cwa_microsoft_xbox_layoffs_litigation_2026q3",
-    "wggb_game_writing_contracts_guide_2026q3"
+    "iwgb_redundancy_taskforce_2026q3",
+    "eu_saudi_pif_ea_acquisition_2026q3",
+    "xbox_zenimax_layoffs_2026q3"
   ]
 }

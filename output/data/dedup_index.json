@@ -781,6 +781,24 @@
       "url_hash": "e88a56f6bea4d61c",
       "date": "2026-07-20",
       "event_fingerprint": "7ded58c4e399a8cc"
+    },
+    {
+      "event_key": "iwgb_redundancy_taskforce_2026q3",
+      "url_hash": "14cf88481d087a1f",
+      "date": "2026-07-20",
+      "event_fingerprint": "bb145a097c54f6a0"
+    },
+    {
+      "event_key": "eu_saudi_pif_ea_acquisition_2026q3",
+      "url_hash": "c4e96689216e685b",
+      "date": "2026-07-20",
+      "event_fingerprint": "0e2a52967eb03e16"
+    },
+    {
+      "event_key": "xbox_zenimax_layoffs_2026q3",
+      "url_hash": "9588dc4d5f105ee3",
+      "date": "2026-07-20",
+      "event_fingerprint": "cd901b666d432b49"
     }
   ]
 }
