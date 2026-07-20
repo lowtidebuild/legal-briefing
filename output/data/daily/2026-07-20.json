@@ -84,5 +84,60 @@
     "event_key": "bethesda_xbox_layoffs_union_backlash_2026q3",
     "is_primary": true,
     "title_ko": "베데스다 노조, 신작 소식 뒤에 숨겨진 대규모 정리해고 폭로 및 비판"
+  },
+  {
+    "title": "Unions take legal action against Microsoft for allegedly mishandling Xbox layoffs",
+    "url": "https://www.gamedeveloper.com/production/unions-take-legal-action-against-microsoft-for-allegedly-mishandling-xbox-layoffs",
+    "source": "GameDeveloper",
+    "pub_date": "2026-07-16",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "캐나다 미디어노조(CWA Canada)가 마이크로소프트(Microsoft)의 엑스박스(Xbox) 부문 정리해고 과정에서 노조 협의 및 사전 통보 의무를 위반했다며 법적 소송을 제기했습니다.",
+      "최근 게임 업계에 전방위적인 구조조정이 불어닥친 가운데, 기업의 일방적인 해고 처분에 대해 노조가 본격적인 법적 단체 행동으로 맞서며 노동 리스크가 극대화되는 시점입니다.",
+      "해외 스튜디오를 운영하거나 구조조정을 단행해야 하는 게임사들은 현지 노동법 및 노조와의 단체협약(CBA)상 사전 협의 의무를 철저히 준수하여 법적 분쟁을 사전에 예방해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "CWA Canada",
+        "Microsoft"
+      ],
+      "object": "Xbox studio employees",
+      "action": "union-related legal challenge regarding layoffs",
+      "game_mechanic": "",
+      "time_hint": "July 2026"
+    },
+    "event_key": "cwa_microsoft_xbox_layoffs_litigation_2026q3",
+    "is_primary": true,
+    "title_ko": "노조, 엑스박스 정리해고 절차 위반 혐의로 마이크로소프트에 법적 대응 착수"
+  },
+  {
+    "title": "UK union launches free resource to decode video game writing contracts",
+    "url": "https://www.gamedeveloper.com/production/uk-union-launches-free-resource-to-decode-video-game-writing-contracts",
+    "source": "GameDeveloper",
+    "pub_date": "2026-07-15",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "영국 작가조합(WGGB, Writers' Guild of Great Britain)이 최근 급증하는 게임 시나리오 계약서상의 불공정 관행에 대응하기 위해 무료 분석 리소스를 공개했습니다.",
+      "게임 서사 및 시나리오 작가들의 권익 보호와 지식재산권(IP) 배분, 불공정 조항에 대한 인식이 업계 내에서 전례 없이 대두되고 있음을 보여줍니다.",
+      "글로벌 프로젝트를 진행하는 게임 개발사들은 프리랜서나 작가 계약 시 표준 계약 기준을 준수하고, 향후 발생할 수 있는 저작권 분쟁 및 평판 리스크를 방지하기 위해 계약서 독소조항을 사전 점검해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "UK",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Writers' Guild of Great Britain"
+      ],
+      "object": "video game writers",
+      "action": "launch of contract decoding resource",
+      "game_mechanic": "",
+      "time_hint": "July 2026"
+    },
+    "event_key": "wggb_game_writing_contracts_guide_2026q3",
+    "is_primary": true,
+    "title_ko": "영국 작가조합, 비디오 게임 시나리오 계약서 해독을 위한 무료 가이드 출시"
   }
 ]

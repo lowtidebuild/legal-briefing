@@ -769,6 +769,18 @@
       "url_hash": "e5ea41eea3a89b05",
       "date": "2026-07-20",
       "event_fingerprint": "916ae687ec63e622"
+    },
+    {
+      "event_key": "cwa_microsoft_xbox_layoffs_litigation_2026q3",
+      "url_hash": "3cf8b6e579b4d4a6",
+      "date": "2026-07-20",
+      "event_fingerprint": "4e86227bea76a87c"
+    },
+    {
+      "event_key": "wggb_game_writing_contracts_guide_2026q3",
+      "url_hash": "e88a56f6bea4d61c",
+      "date": "2026-07-20",
+      "event_fingerprint": "7ded58c4e399a8cc"
     }
   ]
 }
