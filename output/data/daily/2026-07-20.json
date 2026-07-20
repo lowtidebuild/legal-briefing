@@ -29,34 +29,6 @@
     "title_ko": "사우디아라비아의 EA 인수, EU 규제 장벽 넘어설 전망"
   },
   {
-    "title": "Labor unions challenge Xbox, GameStop CEO says physical game sales are 'irrelevant,' and Glen Schofield retires - Patch Notes #61",
-    "url": "https://www.gamedeveloper.com/business/labor-unions-challenge-xbox-gamestop-ceo-says-physical-game-sales-are-irrelevant-and-glen-schofield-retires-patch-notes-61",
-    "source": "GameDeveloper",
-    "pub_date": "2026-07-17",
-    "category": "LABOR_EMPLOYMENT",
-    "summary_ko": [
-      "엑스박스(Xbox) 노조가 사측에 맞서 행동에 나서고 게임스톱(GameStop) CEO가 패키지 게임 판매를 '무의미하다'고 선언한 가운데, 영국에서는 게임 작가 계약 가이드가 발간되었습니다.",
-      "게임 업계 내 노동권 보장 요구가 거세지고 실물 패키지 시장의 종말이 가속화되는 동시에 창작자 권리 보호를 위한 표준화 움직임이 일고 있음을 보여줍니다.",
-      "실무진은 디지털 다운로드 중심의 유통 전략을 재정비하고, 글로벌 인력 관리 시 노조 리스크 대응 및 영국 등 현지 창작자 계약 가이드라인을 준수해야 합니다."
-    ],
-    "event": {
-      "jurisdiction": "UK",
-      "event_type": "policy",
-      "regulatory_phase": "enacted",
-      "actors": [
-        "Xbox",
-        "GameStop"
-      ],
-      "object": "video game writing contracts",
-      "action": "good practice guide release",
-      "game_mechanic": "game writing and development",
-      "time_hint": "July 2026"
-    },
-    "event_key": "uk_game_writing_contract_guide_2026q3",
-    "is_primary": true,
-    "title_ko": "엑스박스 노동조합의 분투, 패키지 게임 시장의 쇠퇴, 그리고 영국 시나리오 계약 가이드"
-  },
-  {
     "title": "\"Don't fall for it\": Union says Fallout 5 and Elder Scrolls 6 news shouldn't distract you from huge Bethesda layoffs as Xbox CEO praises the series' \"remarkable\" achievements",
     "url": "https://www.gamesradar.com/games/fallout/dont-fall-for-it-union-says-fallout-5-and-elder-scrolls-6-news-shouldnt-distract-you-from-huge-bethesda-layoffs-as-xbox-ceo-praises-the-series-remarkable-achievements/",
     "source": "gamesradar+",
@@ -166,35 +138,6 @@
     "event_key": "iwgb_redundancy_taskforce_2026q3",
     "is_primary": true,
     "title_ko": "IWGB 게임 지부, 노동자 권리 옹호를 위한 '감원 대응 태스크포스' 구성"
-  },
-  {
-    "title": "European Union set to approve Saudi PIF acquisition of Electronic Arts, according to report",
-    "url": "https://www.videogameschronicle.com/news/european-union-set-to-approve-saudi-pif-acquisition-of-electronic-arts-according-to-report/",
-    "source": "VGC",
-    "pub_date": "2026-07-17",
-    "category": "MA_CORP_ANTITRUST",
-    "summary_ko": [
-      "유럽연합(EU) 반독점 규제 당국이 사우디아라비아 국부펀드(PIF)의 일렉트로닉 아츠(EA, Electronic Arts) 지분 인수 및 지배력 획득 거래를 승인할 예정인 것으로 보고되었습니다.",
-      "사우디아라비아가 막강한 자본력을 바탕으로 글로벌 메이저 게임사에 대한 지배력을 대폭 확대하며 게임 산업 내 영향력을 더욱 강화하는 계기가 될 것입니다.",
-      "게임 산업에 대한 국가 펀드의 대규모 투자는 규제 기관의 반독점 심사 대상이 되므로, 글로벌 M&A 진행 시 각국 규제 당국의 승인 가능성 및 요건을 선제적으로 검토해야 합니다."
-    ],
-    "event": {
-      "jurisdiction": "EU",
-      "event_type": "business",
-      "regulatory_phase": "proposed",
-      "actors": [
-        "European Union",
-        "Saudi Arabia Public Investment Fund",
-        "Electronic Arts"
-      ],
-      "object": "corporate acquisition",
-      "action": "approval process of acquisition",
-      "game_mechanic": "N/A",
-      "time_hint": "July 2026"
-    },
-    "event_key": "eu_saudi_pif_ea_acquisition_2026q3",
-    "is_primary": true,
-    "title_ko": "유럽연합, 사우디아라비아 국부펀드(PIF)의 일렉트로닉 아츠(EA) 인수 승인 예정"
   },
   {
     "title": "ZeniMax Online Studios leadership included in Xbox mass layoffs",

@@ -5,10 +5,15 @@
   "previous_count": 5,
   "incoming_count": 3,
   "added_count": 3,
-  "final_count": 8,
+  "duplicate_removed_count": 2,
+  "final_count": 6,
   "added_event_keys": [
     "iwgb_redundancy_taskforce_2026q3",
     "eu_saudi_pif_ea_acquisition_2026q3",
     "xbox_zenimax_layoffs_2026q3"
+  ],
+  "removed_duplicate_event_keys": [
+    "uk_game_writing_contract_guide_2026q3",
+    "eu_saudi_pif_ea_acquisition_2026q3"
   ]
 }
