@@ -113,6 +113,7 @@ def test_selector_empty_response_is_valid_no_updates_not_fallback():
 
     assert result.articles == []
     assert result.degraded is False
+    llm.generate_json_schema.assert_called_once()
 
 
 def test_selector_rejects_unknown_id_and_uses_strict_fallback():
@@ -172,7 +173,7 @@ def test_selector_respects_max_input_chars_and_ranks_signals_first():
         keywords=["FTC", "enforcement", "gaming"],
     )
 
-    prompt = llm.generate_json_schema.call_args.args[0]
+    prompt = llm.generate_json_schema.call_args_list[0].args[0]
     assert "FTC gaming enforcement" in prompt
     assert result[0].title == "FTC gaming enforcement"
 
@@ -213,10 +214,49 @@ def test_selector_prioritizes_legal_nexus_before_many_broad_matches():
     result = select_articles(
         [*broad, legal],
         llm,
-        top_n=10,
+        top_n=1,
         max_input_chars=350,
     )
 
     assert result.articles == [legal]
     assert result.candidate_count == 31
     assert 0 < result.evaluated_count < result.candidate_count
+
+
+def test_selector_runs_second_validation_pass_when_truncated_and_underfilled():
+    articles = [
+        _article(
+            f"Game privacy enforcement {index}",
+            index,
+            f"https://source-{index}.example/story",
+        )
+        for index in range(12)
+    ]
+    llm = MagicMock()
+
+    def response(prompt, schema, system=None):
+        items = json.loads(prompt.split("Items JSON:\n", 1)[1].split("\n\n", 1)[0])
+        return {
+            "selected": [
+                {
+                    "item_id": items[0]["item_id"],
+                    "is_legally_relevant": True,
+                    "legal_hook": "enforcement",
+                }
+            ]
+        }
+
+    llm.generate_json_schema.side_effect = response
+
+    result = select_articles(
+        articles,
+        llm,
+        top_n=3,
+        max_input_chars=400,
+        max_per_domain=3,
+    )
+
+    assert len(result.articles) == 2
+    assert result.articles[0].url != result.articles[1].url
+    assert llm.generate_json_schema.call_count == 2
+    assert result.evaluated_count > 1

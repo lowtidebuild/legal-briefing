@@ -87,6 +87,8 @@ efficiency, market forecasts, and marketing are not legal hooks by themselves.
 For every selected item, set is_legally_relevant=true and choose exactly one
 allowed legal_hook. Do not select an item merely to fill the quota. Prefer source
 diversity; code will enforce at most {max_per_domain} items per domain.
+Review every supplied item and select every qualifying item, not only the three
+most important items.
 
 Allowed legal_hook values: {legal_hooks}
 
@@ -279,82 +281,119 @@ def select_articles(
         legal_signals,
     )
 
-    visible: list[RawArticle] = []
-    items: list[dict] = []
-    total_chars = 0
-    for article in selector_pool:
-        item = {
-            "item_id": url_hash(article.url),
-            "title": article.title,
-            "source": article.source,
-            "description": article.description[:240],
-        }
-        encoded = json.dumps(item, ensure_ascii=False)
-        if visible and total_chars + len(encoded) > max_input_chars:
+    selected: list[RawArticle] = []
+    hooks: dict[str, str] = {}
+    evaluated_urls: set[str] = set()
+    pending = selector_pool
+    max_passes = 2
+
+    for pass_number in range(1, max_passes + 1):
+        visible: list[RawArticle] = []
+        items: list[dict] = []
+        total_chars = 0
+        for article in pending:
+            item = {
+                "item_id": url_hash(article.url),
+                "title": article.title,
+                "source": article.source,
+                "description": article.description[:240],
+            }
+            encoded = json.dumps(item, ensure_ascii=False)
+            if visible and total_chars + len(encoded) > max_input_chars:
+                break
+            visible.append(article)
+            items.append(item)
+            total_chars += len(encoded)
+
+        if not visible:
             break
-        visible.append(article)
-        items.append(item)
-        total_chars += len(encoded)
+        evaluated_urls.update(article.url for article in visible)
+        if pass_number == 1 and len(visible) < len(selector_pool):
+            logger.info(
+                "Selector input truncated: %d -> %d articles",
+                len(selector_pool),
+                len(visible),
+            )
 
-    if len(visible) < len(selector_pool):
-        logger.info("Selector input truncated: %d -> %d articles", len(selector_pool), len(visible))
+        capped_so_far = _enforce_domain_cap(selected, top_n, max_per_domain)
+        remaining_slots = top_n - len(capped_so_far)
+        prompt = SELECTOR_PROMPT.format(
+            top_n=remaining_slots,
+            max_per_domain=max_per_domain,
+            legal_hooks=", ".join(sorted(LEGAL_HOOKS)),
+            items_json=json.dumps(items, ensure_ascii=False),
+        )
+        by_id = {url_hash(article.url): article for article in visible}
 
-    prompt = SELECTOR_PROMPT.format(
-        top_n=top_n,
-        max_per_domain=max_per_domain,
-        legal_hooks=", ".join(sorted(LEGAL_HOOKS)),
-        items_json=json.dumps(items, ensure_ascii=False),
+        try:
+            payload = llm.generate_json_schema(prompt, SELECTOR_SCHEMA)
+            if not isinstance(payload, dict) or not isinstance(payload.get("selected"), list):
+                raise ValueError("Selector response must contain a selected array")
+
+            pass_selected: list[RawArticle] = []
+            seen_ids: set[str] = set()
+            for entry in payload["selected"]:
+                if not isinstance(entry, dict):
+                    raise ValueError("Selector entry must be an object")
+                item_id = entry.get("item_id")
+                hook = entry.get("legal_hook")
+                if item_id not in by_id or item_id in seen_ids:
+                    raise ValueError("Selector returned an unknown or duplicate item_id")
+                seen_ids.add(item_id)
+                if entry.get("is_legally_relevant") is not True:
+                    continue
+                if hook not in LEGAL_HOOKS:
+                    raise ValueError("Selector returned an invalid legal_hook")
+                article = by_id[item_id]
+                pass_selected.append(article)
+                hooks[article.url] = hook
+
+            selected.extend(pass_selected)
+            capped = _enforce_domain_cap(selected, top_n, max_per_domain)
+            if (
+                not pass_selected
+                or len(capped) >= top_n
+                or len(visible) == len(pending)
+                or pass_number == max_passes
+            ):
+                break
+            selected_urls = {article.url for article in selected}
+            pending = [article for article in selector_pool if article.url not in selected_urls]
+        except Exception as exc:
+            if selected:
+                logger.warning("Selector follow-up pass failed; keeping validated items: %s", exc)
+                capped = _enforce_domain_cap(selected, top_n, max_per_domain)
+                return SelectionResult(
+                    articles=capped,
+                    legal_hooks={article.url: hooks[article.url] for article in capped},
+                    degraded=True,
+                    candidate_count=len(selector_pool),
+                    evaluated_count=len(evaluated_urls),
+                )
+            logger.warning("Selector failed; using strict deterministic legal fallback: %s", exc)
+            return _deterministic_selection(
+                selector_pool,
+                top_n,
+                max_per_domain,
+                game_signals,
+                legal_signals,
+                candidate_count=len(selector_pool),
+                evaluated_count=len(evaluated_urls),
+            )
+
+    capped = _enforce_domain_cap(selected, top_n, max_per_domain)
+    logger.info(
+        "Selector kept %d of %d candidate articles after evaluating %d unique candidates",
+        len(capped),
+        len(selector_pool),
+        len(evaluated_urls),
     )
-    by_id = {url_hash(article.url): article for article in visible}
-
-    try:
-        payload = llm.generate_json_schema(prompt, SELECTOR_SCHEMA)
-        if not isinstance(payload, dict) or not isinstance(payload.get("selected"), list):
-            raise ValueError("Selector response must contain a selected array")
-
-        selected: list[RawArticle] = []
-        hooks: dict[str, str] = {}
-        seen_ids: set[str] = set()
-        for entry in payload["selected"]:
-            if not isinstance(entry, dict):
-                raise ValueError("Selector entry must be an object")
-            item_id = entry.get("item_id")
-            hook = entry.get("legal_hook")
-            if item_id not in by_id or item_id in seen_ids:
-                raise ValueError("Selector returned an unknown or duplicate item_id")
-            seen_ids.add(item_id)
-            if entry.get("is_legally_relevant") is not True:
-                continue
-            if hook not in LEGAL_HOOKS:
-                raise ValueError("Selector returned an invalid legal_hook")
-            article = by_id[item_id]
-            selected.append(article)
-            hooks[article.url] = hook
-
-        capped = _enforce_domain_cap(selected, top_n, max_per_domain)
-        logger.info(
-            "Selector kept %d of %d candidate articles after evaluating %d",
-            len(capped),
-            len(selector_pool),
-            len(visible),
-        )
-        return SelectionResult(
-            articles=capped,
-            legal_hooks={article.url: hooks[article.url] for article in capped},
-            candidate_count=len(selector_pool),
-            evaluated_count=len(visible),
-        )
-    except Exception as exc:
-        logger.warning("Selector failed; using strict deterministic legal fallback: %s", exc)
-        return _deterministic_selection(
-            selector_pool,
-            top_n,
-            max_per_domain,
-            game_signals,
-            legal_signals,
-            candidate_count=len(selector_pool),
-            evaluated_count=len(visible),
-        )
+    return SelectionResult(
+        articles=capped,
+        legal_hooks={article.url: hooks[article.url] for article in capped},
+        candidate_count=len(selector_pool),
+        evaluated_count=len(evaluated_urls),
+    )
 
 
 def select_top_articles(
