@@ -1,0 +1,88 @@
+[
+  {
+    "title": "Saudi Arabia’s EA Takeover Reportedly Set To Clear EU Hurdle",
+    "url": "https://www.gamespot.com/articles/saudi-arabias-ea-takeover-reportedly-set-to-clear-eu-hurdle/",
+    "source": "GameSpot",
+    "pub_date": "2026-07-17",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "사우디아라비아 국부펀드(PIF)가 추진 중인 550억 달러 규모의 일렉트로닉 아츠(EA) 인수가 유럽연합(EU)의 역외보조금규정(FSR) 심사를 통과해 무조건부 승인을 받을 것으로 보입니다.",
+      "해외 정부 보조금으로 인한 경쟁 왜곡을 막으려는 EU의 엄격한 규제 장벽을 넘었다는 점에서 이번 대규모 빅테크·게임 M&A의 중대한 이정표가 마련되었습니다.",
+      "글로벌 거대 자본의 게임사 인수합병 시 국가별 반독점 규제 및 보조금 심사 흐름을 선제적으로 파악하고, 인수 후 크리에이티브 통제권 및 여론 관리에 대비해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "policy",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "European Commission",
+        "Public Investment Fund",
+        "Electronic Arts"
+      ],
+      "object": "Acquisition of EA by Saudi Arabia's PIF under Foreign Subsidies Regulation",
+      "action": "regulatory clearance review",
+      "game_mechanic": "M&A",
+      "time_hint": "July 2026"
+    },
+    "event_key": "saudi_pif_ea_acquisition_eu_clearance_2026q3",
+    "is_primary": true,
+    "title_ko": "사우디아라비아의 EA 인수, EU 규제 장벽 넘어설 전망"
+  },
+  {
+    "title": "Labor unions challenge Xbox, GameStop CEO says physical game sales are 'irrelevant,' and Glen Schofield retires - Patch Notes #61",
+    "url": "https://www.gamedeveloper.com/business/labor-unions-challenge-xbox-gamestop-ceo-says-physical-game-sales-are-irrelevant-and-glen-schofield-retires-patch-notes-61",
+    "source": "GameDeveloper",
+    "pub_date": "2026-07-17",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "엑스박스(Xbox) 노조가 사측에 맞서 행동에 나서고 게임스톱(GameStop) CEO가 패키지 게임 판매를 '무의미하다'고 선언한 가운데, 영국에서는 게임 작가 계약 가이드가 발간되었습니다.",
+      "게임 업계 내 노동권 보장 요구가 거세지고 실물 패키지 시장의 종말이 가속화되는 동시에 창작자 권리 보호를 위한 표준화 움직임이 일고 있음을 보여줍니다.",
+      "실무진은 디지털 다운로드 중심의 유통 전략을 재정비하고, 글로벌 인력 관리 시 노조 리스크 대응 및 영국 등 현지 창작자 계약 가이드라인을 준수해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "UK",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "Xbox",
+        "GameStop"
+      ],
+      "object": "video game writing contracts",
+      "action": "good practice guide release",
+      "game_mechanic": "game writing and development",
+      "time_hint": "July 2026"
+    },
+    "event_key": "uk_game_writing_contract_guide_2026q3",
+    "is_primary": true,
+    "title_ko": "엑스박스 노동조합의 분투, 패키지 게임 시장의 쇠퇴, 그리고 영국 시나리오 계약 가이드"
+  },
+  {
+    "title": "\"Don't fall for it\": Union says Fallout 5 and Elder Scrolls 6 news shouldn't distract you from huge Bethesda layoffs as Xbox CEO praises the series' \"remarkable\" achievements",
+    "url": "https://www.gamesradar.com/games/fallout/dont-fall-for-it-union-says-fallout-5-and-elder-scrolls-6-news-shouldnt-distract-you-from-huge-bethesda-layoffs-as-xbox-ceo-praises-the-series-remarkable-achievements/",
+    "source": "gamesradar+",
+    "pub_date": "2026-07-17",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "엑스박스(Xbox) CEO가 베데스다(Bethesda)의 성과를 극찬하며 '폴아웃 5'와 '엘더스크롤 6' 소식을 전하자, 노조는 이것이 최근 단행된 대규모 정리해고를 가리기 위한 의도적 언론 플레이라고 비판했습니다.",
+      "흥행작과 차기작 홍보를 이용해 구조조정이라는 부정적 이슈를 덮으려는 경영진의 전략에 노조가 정면으로 반발하면서 기업 이미지와 노사 관계가 악화되고 있습니다.",
+      "글로벌 프로젝트 홍보 및 IR 진행 시, 내부 구조조정 및 인력 감축 이슈와 맞물려 심각한 노사 갈등 및 브랜드 리스크가 발생하지 않도록 정교한 커뮤니케이션 조율이 필요합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "business",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "CWA",
+        "Bethesda",
+        "Xbox"
+      ],
+      "object": "workforce reduction and studio layoffs",
+      "action": "layoffs",
+      "game_mechanic": "labor relations",
+      "time_hint": "July 2026"
+    },
+    "event_key": "bethesda_xbox_layoffs_union_backlash_2026q3",
+    "is_primary": true,
+    "title_ko": "베데스다 노조, 신작 소식 뒤에 숨겨진 대규모 정리해고 폭로 및 비판"
+  }
+]

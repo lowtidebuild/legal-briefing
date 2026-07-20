@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "run_id": "briefing-2026-07-20",
+  "briefing_date": "2026-07-20",
+  "item_count": 3,
+  "daily_data_path": "output/data/daily/2026-07-20.json",
+  "content_sha256": "a2af6132b608336ed2376706ad136c0a76291953c931076246256d9aa5b842d4",
+  "generation_status": "ready",
+  "created_at": "2026-07-20T04:43:21.631721Z"
+}

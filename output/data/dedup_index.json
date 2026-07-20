@@ -3,90 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "eu_stop_killing_games_petition_denial_2024",
-      "url_hash": "bd29d4311bc05ce1",
-      "date": "2026-06-17",
-      "event_fingerprint": "9c4db91f12f6e198"
-    },
-    {
-      "event_key": "global_ai_integration_strategy_2024",
-      "url_hash": "1458a3897d2789c6",
-      "date": "2026-06-17",
-      "event_fingerprint": "83f0de95a275a206"
-    },
-    {
-      "event_key": "us_ai_export_control_enforcement_2024",
-      "url_hash": "d432605b3cd1123d",
-      "date": "2026-06-17",
-      "event_fingerprint": "ac644a8c733010a2"
-    },
-    {
-      "event_key": "global_ai_startup_funding_2026q2",
-      "url_hash": "8b3eca3fe46263ca",
-      "date": "2026-06-17",
-      "event_fingerprint": "bac5f0959b4475dd"
-    },
-    {
-      "event_key": "us_ai_export_restriction_2024",
-      "url_hash": "c8120a3f312c3589",
-      "date": "2026-06-17",
-      "event_fingerprint": "6329643da9d5a03f"
-    },
-    {
-      "event_key": "us_ai_trademark_litigation_2025",
-      "url_hash": "b7a37cab5d6218c8",
-      "date": "2026-06-17",
-      "event_fingerprint": "6d83bcc120e53c33"
-    },
-    {
-      "event_key": "global_niantic_spatial_data_usage_2025q4",
-      "url_hash": "4f6c2a2c67d7fc84",
-      "date": "2026-06-17",
-      "event_fingerprint": "adc39ea48ef6c405"
-    },
-    {
-      "event_key": "us_wow_private_server_infringement_litigation_2024",
-      "url_hash": "0de875b445173138",
-      "date": "2026-06-19",
-      "event_fingerprint": "637022f3dbbf9f76"
-    },
-    {
-      "event_key": "global_ai_asset_creation_policy_2025",
-      "url_hash": "1a8cc36c9e40416f",
-      "date": "2026-06-19",
-      "event_fingerprint": "436df7a02d577cca"
-    },
-    {
-      "event_key": "uk_rockstar_labor_litigation_2024",
-      "url_hash": "610e7e25d1879e05",
-      "date": "2026-06-19",
-      "event_fingerprint": "8fc42190f1cc491e"
-    },
-    {
-      "event_key": "sa_roblox_chat_restriction_2025",
-      "url_hash": "ce11192ba2d8fb6a",
-      "date": "2026-06-19",
-      "event_fingerprint": "8207f11630c5a28f"
-    },
-    {
-      "event_key": "us_datacenter_policy_expiration_2024",
-      "url_hash": "09bd415ddfbd4d2d",
-      "date": "2026-06-19",
-      "event_fingerprint": "4457d64cb6615dc7"
-    },
-    {
-      "event_key": "eu_esports_partnership_growth_2024",
-      "url_hash": "cfa765d7a6f59187",
-      "date": "2026-06-19",
-      "event_fingerprint": "084000f74ef49e5f"
-    },
-    {
-      "event_key": "us_voter_data_security_policy_2026",
-      "url_hash": "401e848fd98aec6e",
-      "date": "2026-06-19",
-      "event_fingerprint": "0fce33a3a815b7da"
-    },
-    {
       "event_key": "85bec5fd8069efe5",
       "url_hash": "b509d16999957138",
       "date": "2026-06-22",
@@ -835,6 +751,24 @@
       "url_hash": "a983f6bf8e3f6e29",
       "date": "2026-07-17",
       "event_fingerprint": "66a402c37c82c328"
+    },
+    {
+      "event_key": "saudi_pif_ea_acquisition_eu_clearance_2026q3",
+      "url_hash": "5ed3c288fcdddb0f",
+      "date": "2026-07-20",
+      "event_fingerprint": "a59cf222da3c19a9"
+    },
+    {
+      "event_key": "uk_game_writing_contract_guide_2026q3",
+      "url_hash": "df84a9fb2f769e42",
+      "date": "2026-07-20",
+      "event_fingerprint": "8e7a37285268f64b"
+    },
+    {
+      "event_key": "bethesda_xbox_layoffs_union_backlash_2026q3",
+      "url_hash": "e5ea41eea3a89b05",
+      "date": "2026-07-20",
+      "event_fingerprint": "916ae687ec63e622"
     }
   ]
 }
