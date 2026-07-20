@@ -143,10 +143,10 @@
   },
   "stages": {
     "generate": "completed",
-    "git": "not_run",
-    "pages": "not_run",
-    "email": "skipped_generation_only",
-    "sheets": "skipped_generation_only"
+    "git": "completed",
+    "pages": "completed",
+    "email": "completed",
+    "sheets": "completed"
   },
   "duration_seconds": 21.041,
   "action_required": [
