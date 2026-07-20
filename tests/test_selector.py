@@ -175,3 +175,48 @@ def test_selector_respects_max_input_chars_and_ranks_signals_first():
     prompt = llm.generate_json_schema.call_args.args[0]
     assert "FTC gaming enforcement" in prompt
     assert result[0].title == "FTC gaming enforcement"
+
+
+def test_selector_prioritizes_legal_nexus_before_many_broad_matches():
+    broad = [
+        _article(
+            f"Gaming product update {index}",
+            index,
+            f"https://broad-{index}.example/story",
+            description="A game studio announced a new product feature.",
+        )
+        for index in range(30)
+    ]
+    legal = _article(
+        "FTC brings gaming privacy enforcement action",
+        99,
+        "https://legal.example/privacy",
+        description="The regulator alleges a game violated children's privacy law.",
+    )
+    llm = MagicMock()
+
+    def response(prompt, schema, system=None):
+        items = json.loads(prompt.split("Items JSON:\n", 1)[1].split("\n\n", 1)[0])
+        assert items[0]["title"] == legal.title
+        return {
+            "selected": [
+                {
+                    "item_id": items[0]["item_id"],
+                    "is_legally_relevant": True,
+                    "legal_hook": "enforcement",
+                }
+            ]
+        }
+
+    llm.generate_json_schema.side_effect = response
+
+    result = select_articles(
+        [*broad, legal],
+        llm,
+        top_n=10,
+        max_input_chars=350,
+    )
+
+    assert result.articles == [legal]
+    assert result.candidate_count == 31
+    assert 0 < result.evaluated_count < result.candidate_count

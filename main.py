@@ -108,6 +108,7 @@ def run_pipeline(
         "keyword": 0,
         "recent": 0,
         "url_dedup": 0,
+        "selector_evaluated": 0,
         "selected": 0,
         "event_dedup": 0,
         "published": 0,
@@ -269,6 +270,7 @@ def run_pipeline(
     )
     selector_completed = True
     selector_degraded = selection_result.degraded
+    counts["selector_evaluated"] = selection_result.evaluated_count
     articles = selection_result.articles
     counts["selected"] = len(articles)
 

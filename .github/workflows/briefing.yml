@@ -16,6 +16,11 @@ on:
         required: false
         default: ""
         type: string
+      repair_date:
+        description: "Generate missing entries, merge into an existing YYYY-MM-DD page, and skip delivery"
+        required: false
+        default: ""
+        type: string
       force_delivery:
         description: "Resume a known partial delivery; completed stages are not repeated"
         required: false
@@ -55,7 +60,18 @@ jobs:
         run: python -m pytest -q
 
       - name: Set briefing date
-        run: echo "BRIEFING_DATE=$(TZ=Asia/Seoul date +%Y-%m-%d)" >> "$GITHUB_ENV"
+        env:
+          REPAIR_DATE: ${{ inputs.repair_date || '' }}
+        run: |
+          if [ -n "$REPAIR_DATE" ]; then
+            if [[ ! "$REPAIR_DATE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+              echo "repair_date must use YYYY-MM-DD format" >&2
+              exit 1
+            fi
+            echo "BRIEFING_DATE=$REPAIR_DATE" >> "$GITHUB_ENV"
+          else
+            echo "BRIEFING_DATE=$(TZ=Asia/Seoul date +%Y-%m-%d)" >> "$GITHUB_ENV"
+          fi
 
       - name: Run pipeline
         env:
@@ -65,9 +81,19 @@ jobs:
           GOOGLE_SHEETS_CREDENTIALS: ${{ secrets.GOOGLE_SHEETS_CREDENTIALS }}
           GOOGLE_SHEETS_ID: ${{ secrets.GOOGLE_SHEETS_ID }}
           RENDER_DATE: ${{ inputs.render_date || '' }}
+          REPAIR_DATE: ${{ inputs.repair_date || '' }}
         run: |
-          if [ -n "$RENDER_DATE" ]; then
+          if [ -n "$RENDER_DATE" ] && [ -n "$REPAIR_DATE" ]; then
+            echo "render_date and repair_date cannot be used together" >&2
+            exit 1
+          elif [ -n "$RENDER_DATE" ]; then
             python scripts/render_existing.py --date "$RENDER_DATE"
+          elif [ -n "$REPAIR_DATE" ]; then
+            python main.py --delivery none --output /tmp/briefing-repair
+            python scripts/merge_daily_for_web.py \
+              --date "$REPAIR_DATE" \
+              --source-output /tmp/briefing-repair
+            python scripts/render_existing.py --date "$REPAIR_DATE"
           else
             python main.py --delivery none
           fi
@@ -97,7 +123,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
       - name: Record successful Pages deployment
-        if: ${{ success() && github.ref == 'refs/heads/main' && (inputs.render_date == '' || inputs.render_date == null) }}
+        if: ${{ success() && github.ref == 'refs/heads/main' && (inputs.render_date == '' || inputs.render_date == null) && (inputs.repair_date == '' || inputs.repair_date == null) }}
         run: |
           python scripts/update_run_report.py \
             --date "$BRIEFING_DATE" \
@@ -106,7 +132,7 @@ jobs:
 
       - name: Deliver generated run
         id: delivery
-        if: ${{ success() && github.ref == 'refs/heads/main' && inputs.web_only != true && (inputs.render_date == '' || inputs.render_date == null) }}
+        if: ${{ success() && github.ref == 'refs/heads/main' && inputs.web_only != true && (inputs.render_date == '' || inputs.render_date == null) && (inputs.repair_date == '' || inputs.repair_date == null) }}
         env:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
@@ -122,7 +148,7 @@ jobs:
           python scripts/deliver_existing.py "${args[@]}"
 
       - name: Record failed Pages deployment
-        if: ${{ failure() && github.ref == 'refs/heads/main' && steps.deployment.outcome == 'failure' && (inputs.render_date == '' || inputs.render_date == null) }}
+        if: ${{ failure() && github.ref == 'refs/heads/main' && steps.deployment.outcome == 'failure' && (inputs.render_date == '' || inputs.render_date == null) && (inputs.repair_date == '' || inputs.repair_date == null) }}
         run: |
           python scripts/update_run_report.py \
             --date "$BRIEFING_DATE" \
@@ -132,7 +158,7 @@ jobs:
             --action "pages: failed"
 
       - name: Commit final run state
-        if: ${{ always() && github.ref == 'refs/heads/main' && steps.deployment.outcome != 'skipped' && (inputs.render_date == '' || inputs.render_date == null) }}
+        if: ${{ always() && github.ref == 'refs/heads/main' && steps.deployment.outcome != 'skipped' && (inputs.render_date == '' || inputs.render_date == null) && (inputs.repair_date == '' || inputs.repair_date == null) }}
         run: |
           git add -f output/data/runs/
           if [ -d output/data/delivery_receipts ]; then

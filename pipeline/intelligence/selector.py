@@ -101,6 +101,8 @@ class SelectionResult:
     articles: list[RawArticle]
     legal_hooks: dict[str, str]
     degraded: bool = False
+    candidate_count: int = 0
+    evaluated_count: int = 0
 
 
 def _domain_of(url: str) -> str:
@@ -203,12 +205,32 @@ def _diversify_for_selector(
     return ranked
 
 
+def _prioritize_legal_nexus(
+    articles: list[RawArticle],
+    ranking_signals: list[str],
+    game_signals: list[str],
+    legal_signals: list[str],
+) -> list[RawArticle]:
+    """Rank explicit game-and-legal candidates before broad keyword matches."""
+    strong: list[RawArticle] = []
+    broad: list[RawArticle] = []
+    for article in articles:
+        target = strong if _legal_hook_for(article, game_signals, legal_signals) else broad
+        target.append(article)
+    return [
+        *_diversify_for_selector(strong, ranking_signals),
+        *_diversify_for_selector(broad, ranking_signals),
+    ]
+
+
 def _deterministic_selection(
     articles: list[RawArticle],
     top_n: int,
     max_per_domain: int,
     game_signals: list[str],
     legal_signals: list[str],
+    candidate_count: int,
+    evaluated_count: int,
 ) -> SelectionResult:
     hooks = {
         article.url: hook
@@ -224,6 +246,8 @@ def _deterministic_selection(
         articles=selected,
         legal_hooks={article.url: hooks[article.url] for article in selected},
         degraded=True,
+        candidate_count=candidate_count,
+        evaluated_count=evaluated_count,
     )
 
 
@@ -239,12 +263,21 @@ def select_articles(
 ) -> SelectionResult:
     """Select zero to top_n articles with validated legal hooks."""
     if not articles or top_n <= 0:
-        return SelectionResult(articles=[], legal_hooks={})
+        return SelectionResult(
+            articles=[],
+            legal_hooks={},
+            candidate_count=len(articles),
+        )
 
     game_signals = game_signals or DEFAULT_GAME_SIGNALS
     legal_signals = legal_signals or DEFAULT_LEGAL_SIGNALS
     ranking_signals = keywords or [*game_signals, *legal_signals]
-    selector_pool = _diversify_for_selector(articles, ranking_signals)
+    selector_pool = _prioritize_legal_nexus(
+        articles,
+        ranking_signals,
+        game_signals,
+        legal_signals,
+    )
 
     visible: list[RawArticle] = []
     items: list[dict] = []
@@ -299,10 +332,17 @@ def select_articles(
             hooks[article.url] = hook
 
         capped = _enforce_domain_cap(selected, top_n, max_per_domain)
-        logger.info("Selector kept %d of %d candidate articles", len(capped), len(selector_pool))
+        logger.info(
+            "Selector kept %d of %d candidate articles after evaluating %d",
+            len(capped),
+            len(selector_pool),
+            len(visible),
+        )
         return SelectionResult(
             articles=capped,
             legal_hooks={article.url: hooks[article.url] for article in capped},
+            candidate_count=len(selector_pool),
+            evaluated_count=len(visible),
         )
     except Exception as exc:
         logger.warning("Selector failed; using strict deterministic legal fallback: %s", exc)
@@ -312,6 +352,8 @@ def select_articles(
             max_per_domain,
             game_signals,
             legal_signals,
+            candidate_count=len(selector_pool),
+            evaluated_count=len(visible),
         )
 
 

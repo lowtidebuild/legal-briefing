@@ -8,7 +8,7 @@ llm:
   fallback_reasoning_effort: minimal
   max_retries: 2
   request_timeout_seconds: 30
-  max_input_chars: 8000
+  max_input_chars: 16000
   concurrency: 2
 
 sources:
