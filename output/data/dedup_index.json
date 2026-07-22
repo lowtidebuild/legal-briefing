@@ -799,6 +799,36 @@
       "url_hash": "9588dc4d5f105ee3",
       "date": "2026-07-20",
       "event_fingerprint": "cd901b666d432b49"
+    },
+    {
+      "event_key": "nintendo_tariff_refunds_lawsuit_2026q3",
+      "url_hash": "291cf985a48839e9",
+      "date": "2026-07-22",
+      "event_fingerprint": "7a2b12f458b99bde"
+    },
+    {
+      "event_key": "xbox_unlawful_layoffs_union_claim_2026q3",
+      "url_hash": "2f4bd28d698ea889",
+      "date": "2026-07-22",
+      "event_fingerprint": "33e961418471cb8d"
+    },
+    {
+      "event_key": "eu_dma_google_android_search_compliance_2026q3",
+      "url_hash": "080d2eafe97ac938",
+      "date": "2026-07-22",
+      "event_fingerprint": "499514b38bce83b8"
+    },
+    {
+      "event_key": "saudi_pif_ea_acquisition_eu_subsidy_clearance_2026q3",
+      "url_hash": "da734a71f1b0c7af",
+      "date": "2026-07-22",
+      "event_fingerprint": "c06e383d75b4922d"
+    },
+    {
+      "event_key": "cover_hololive_harassment_policy_2026q3",
+      "url_hash": "59ff798775360906",
+      "date": "2026-07-22",
+      "event_fingerprint": "0f0d761c15c760c1"
     }
   ]
 }

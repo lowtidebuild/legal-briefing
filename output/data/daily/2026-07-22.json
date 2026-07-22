@@ -1,0 +1,143 @@
+[
+  {
+    "title": "Nintendo files motion to dismiss consumer lawsuit over tariff refunds",
+    "url": "https://www.gamesindustry.biz/nintendo-files-motion-to-dismiss-consumer-lawsuit-over-tariff-refunds",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-07-21",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "닌텐도(Nintendo)가 중국산 콘솔 수입 관세 인하로 돌려받은 환급금을 소비자에게 전가하지 않았다며 제기된 집단소송에 대해 법원에 기각을 신청했습니다.",
+      "정부의 관세 완화 조치로 인한 이익을 소비자와 공유해야 하는지에 대한 법적 책임 경계를 다루는 소송이라는 점에서 중요합니다.",
+      "글로벌 하드웨어 제조사 및 유통사는 국가별 관세 변동에 따른 가격 책정 및 소비자 환불 정책 수립 시 법적 분쟁 가능성을 사전 검토해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Nintendo",
+        "Consumers"
+      ],
+      "object": "tariff refunds",
+      "action": "filed motion to dismiss consumer lawsuit",
+      "game_mechanic": "pricing",
+      "time_hint": "2026-07-21"
+    },
+    "event_key": "nintendo_tariff_refunds_lawsuit_2026q3",
+    "is_primary": true,
+    "title_ko": "닌텐도, 관세 환급금 미지급 관련 소비자 집단소송 기각 신청"
+  },
+  {
+    "title": "Union slams Microsoft for \"unfair labor practice\", alleging Xbox \"unlawfully\" laid off staff",
+    "url": "https://www.gamesindustry.biz/union-slams-microsoft-for-unfair-labor-practice-alleging-xbox-unlawfully-laid-off-staff",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-07-20",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "미국 통신근로자협회(CWA)가 마이크로소프트(Microsoft)가 사전 협의나 고지 없이 엑스박스(Xbox) 직원을 해고하여 노동법을 위반했다며 전국노동관계위원회(NLRB)에 제소했습니다.",
+      "인수합병 이후 대규모 구조조정 과정에서 노조와의 사전 협의 의무를 위반했는지를 다루는 중요한 노동 분쟁 사례입니다.",
+      "해외에 스튜디오를 운영하거나 인수합병을 진행하는 게임사는 현지 노동조합과의 단체협약 및 구조조정 절차를 준수하여 법적 리스크를 예방해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Microsoft",
+        "Xbox",
+        "Communications Workers of America"
+      ],
+      "object": "unfair labor practices",
+      "action": "alleged unlawful staff layoffs without union consultation",
+      "game_mechanic": "none",
+      "time_hint": "2026-07-20"
+    },
+    "event_key": "xbox_unlawful_layoffs_union_claim_2026q3",
+    "is_primary": true,
+    "title_ko": "노조, 마이크로소프트의 엑스박스 직원 '불법 해고' 및 부당 노동 행위 규탄"
+  },
+  {
+    "title": "EU orders Google to open Android and Search to rivals",
+    "url": "https://www.pocketgamer.biz/eu-orders-google-to-open-android-and-search-to-rivals/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-07-20",
+    "category": "PLATFORM_PUBLISHING",
+    "summary_ko": [
+      "유럽연합(EU)이 디지털시장법(DMA)에 따라 구글(Google)에 핵심 플랫폼인 안드로이드와 검색 엔진에 경쟁사 AI 비서 및 검색 서비스의 접근 권한을 더 많이 보장하라고 명령했습니다.",
+      "빅테크 기업의 독점적 플랫폼 통제력을 약화시키고, 모바일 생태계 내 타사 서비스의 진입 장벽을 낮추는 이정표적 조치입니다.",
+      "모바일 게임 개발사들은 구글 플레이스토어 외에 대체 앱스토어 및 검색 채널을 활용한 다변화된 마케팅과 유통 전략을 구상할 수 있게 되었습니다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "enforcement",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "European Union",
+        "Google"
+      ],
+      "object": "Android and Google Search ecosystem",
+      "action": "ordered opening of Android and Search to rival AI assistants and search engines under DMA",
+      "game_mechanic": "none",
+      "time_hint": "2026-07-20"
+    },
+    "event_key": "eu_dma_google_android_search_compliance_2026q3",
+    "is_primary": true,
+    "title_ko": "EU, 구글에 안드로이드 및 검색 서비스 경쟁사 개방 명령"
+  },
+  {
+    "title": "Saudi PIF-led $55bn Electronic Arts deal set for EU approval",
+    "url": "https://www.pocketgamer.biz/saudi-pif-led-55bn-electronic-arts-deal-set-for-eu-subsidy-approval/",
+    "source": "PocketGamer.biz",
+    "pub_date": "2026-07-20",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "사우디아라비아 국부펀드(PIF)가 주도하는 투자 컨소시엄의 일렉트로닉 아츠(EA) 인수 계획이 유럽연합(EU)의 역외보조금규정(FSR) 예비 심사를 통과해 승인을 앞두고 있습니다.",
+      "외국 정부의 보조금을 받는 펀드가 글로벌 대형 게임사를 인수할 때 유럽 규제 당국이 경쟁 제한성을 어떻게 평가하는지 보여주는 주요 선례입니다.",
+      "글로벌 게임 시장에서 중동 자본의 영향력이 더욱 확대될 것이며, 대형 M&A 추진 시 EU의 새로운 보조금 규제 조항에 대한 철저한 대비가 요구됩니다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "business",
+      "regulatory_phase": "proposed",
+      "actors": [
+        "Saudi Public Investment Fund",
+        "Electronic Arts",
+        "European Commission"
+      ],
+      "object": "EA acquisition",
+      "action": "set to secure EU foreign subsidy approval",
+      "game_mechanic": "none",
+      "time_hint": "2026-07-20"
+    },
+    "event_key": "saudi_pif_ea_acquisition_eu_subsidy_clearance_2026q3",
+    "is_primary": true,
+    "title_ko": "사우디 PIF 주도 550억 달러 규모 EA 인수안, EU 승인 전망"
+  },
+  {
+    "title": "COVER公布反騷擾新政策 惡意中傷hololive、逼取消合作都可能挨告",
+    "url": "https://www.4gamers.com.tw/news/detail/80798/cover-customer-harassment-policy-legal-action-hololive",
+    "source": "4gamers",
+    "pub_date": "2026-07-21",
+    "category": "ETC",
+    "summary_ko": [
+      "홀로라이브(hololive)를 운영하는 일본 VTuber 기업 커버(COVER)가 악성 루머 유포, 악의적 중상모략 및 불합리한 요구를 일삼는 악성 고객에 대응하기 위한 가이드라인을 수립했습니다.",
+      "소속 아티스트와 임직원의 정신적 피해를 예방하고 건전한 커뮤니티 문화를 정착시키기 위한 선제적인 법적·제도적 보호 조치입니다.",
+      "라이브 서비스 및 버추얼 IP 비즈니스를 영위하는 게임사들은 팬덤 및 유저의 악성 갑질이나 괴롭힘 행위에 대한 강력한 서비스 제한 및 민형사상 대응 기준을 마련해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "JP",
+      "event_type": "policy",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "COVER Corporation"
+      ],
+      "object": "Customer Harassment Policy",
+      "action": "published basic policy outlining civil and criminal legal actions against user harassment",
+      "game_mechanic": "none",
+      "time_hint": "2026-07-21"
+    },
+    "event_key": "cover_hololive_harassment_policy_2026q3",
+    "is_primary": true,
+    "title_ko": "커버, 악성 비방 및 협박 대응 위한 새로운 ‘고객 괴롭힘 방지 방침’ 발표"
+  }
+]

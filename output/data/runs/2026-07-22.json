@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "run_id": "briefing-2026-07-22",
+  "briefing_date": "2026-07-22",
+  "status": "SUCCESS",
+  "source_statuses": {
+    "ok": {
+      "count": 35,
+      "sources": [
+        "4gamers",
+        "Baker McKenzie - Antitrust & Competition",
+        "Baker McKenzie - Intellectual Property",
+        "Clifford Chance - Publications & News",
+        "EDPB - News",
+        "Eurogamer",
+        "Game Rant",
+        "GameChosun",
+        "GameDeveloper",
+        "GameDiscoverCo newsletter (Substack)",
+        "GameSpot",
+        "GamesIndustry.biz",
+        "IGN",
+        "IPWatchdog",
+        "Kotaku",
+        "Norton Rose Fulbright - Regulation Tomorrow",
+        "PC Gamer",
+        "Pillsbury - Internet & Technology Law",
+        "PocketGamer.biz",
+        "TechCrunch - Policy",
+        "The Game Business (Substack)",
+        "The Verge - CyberSecurity",
+        "The Verge - Policy",
+        "VGC",
+        "VentureBeat - GamesBeat",
+        "WIRED - AI",
+        "WIRED - Business",
+        "WIRED - Security",
+        "Wiggin",
+        "dtf",
+        "gamesradar+",
+        "게임물관리위원회",
+        "공정거래위원회",
+        "문화체육관광부",
+        "바하무트"
+      ]
+    },
+    "empty": {
+      "count": 3,
+      "sources": [
+        "JD Supra - Antitrust & Trade Regulation",
+        "JD Supra - Intellectual Property",
+        "JD Supra - Privacy"
+      ]
+    },
+    "http_403": {
+      "count": 4,
+      "sources": [
+        "IT Chosun",
+        "The mobilegamer.biz newsletter (Substack)",
+        "fieldfisher",
+        "게임톡"
+      ]
+    },
+    "http_404": {
+      "count": 7,
+      "sources": [
+        "Baker McKenzie - Employment & Compensation",
+        "Osborne Clarke",
+        "The Register - Policy",
+        "ZDNet Korea",
+        "디스이즈게임",
+        "인벤",
+        "파미통"
+      ]
+    },
+    "http_other": {
+      "count": 1,
+      "sources": [
+        "DLA Piper"
+      ]
+    },
+    "timeout": {
+      "count": 1,
+      "sources": [
+        "Baker McKenzie - IT & Communications"
+      ]
+    },
+    "parse_error": {
+      "count": 11,
+      "sources": [
+        "DDaily",
+        "ETNews",
+        "Gamma Law - Insights",
+        "Hogan Lovells - Antitrust & Competition",
+        "Hogan Lovells - Consumer",
+        "Hogan Lovells - Employment",
+        "Hogan Lovells - Privacy & Cybersecurity",
+        "Hogan Lovells - Technology & Telecoms",
+        "The Register - Legal",
+        "The Register - Security",
+        "게임메카"
+      ]
+    }
+  },
+  "counts": {
+    "raw": 945,
+    "keyword": 400,
+    "recent": 227,
+    "url_dedup": 220,
+    "selector_evaluated": 53,
+    "selected": 7,
+    "event_dedup": 5,
+    "published": 5
+  },
+  "llm_models": [
+    {
+      "model": "gemini-3.5-flash",
+      "attempts": 3,
+      "successes": 3,
+      "rate_limits": 0,
+      "failures": 0
+    },
+    {
+      "model": "gemini-3.1-flash-lite",
+      "attempts": 0,
+      "successes": 0,
+      "rate_limits": 0,
+      "failures": 0
+    },
+    {
+      "model": "gemini-3.5-flash",
+      "attempts": 1,
+      "successes": 1,
+      "rate_limits": 0,
+      "failures": 0
+    },
+    {
+      "model": "gemini-3.1-flash-lite",
+      "attempts": 0,
+      "successes": 0,
+      "rate_limits": 0,
+      "failures": 0
+    }
+  ],
+  "fallback_batches": 0,
+  "quality_gate": {
+    "status": "passed",
+    "issue_codes": []
+  },
+  "stages": {
+    "generate": "completed",
+    "git": "not_run",
+    "pages": "not_run",
+    "email": "skipped_generation_only",
+    "sheets": "skipped_generation_only"
+  },
+  "duration_seconds": 62.974,
+  "action_required": [
+    "Baker McKenzie - Employment & Compensation: http_404",
+    "Baker McKenzie - IT & Communications: timeout",
+    "DDaily: parse_error",
+    "DLA Piper: http_other",
+    "ETNews: parse_error",
+    "Gamma Law - Insights: parse_error",
+    "Hogan Lovells - Antitrust & Competition: parse_error",
+    "Hogan Lovells - Consumer: parse_error",
+    "Hogan Lovells - Employment: parse_error",
+    "Hogan Lovells - Privacy & Cybersecurity: parse_error",
+    "Hogan Lovells - Technology & Telecoms: parse_error",
+    "IT Chosun: http_403",
+    "Osborne Clarke: http_404",
+    "The Register - Legal: parse_error",
+    "The Register - Policy: http_404",
+    "The Register - Security: parse_error",
+    "The mobilegamer.biz newsletter (Substack): http_403",
+    "ZDNet Korea: http_404",
+    "fieldfisher: http_403",
+    "게임메카: parse_error",
+    "게임톡: http_403",
+    "디스이즈게임: http_404",
+    "인벤: http_404",
+    "파미통: http_404"
+  ]
+}
