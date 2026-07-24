@@ -3,120 +3,6 @@
   "retention_days": 30,
   "entries": [
     {
-      "event_key": "85bec5fd8069efe5",
-      "url_hash": "b509d16999957138",
-      "date": "2026-06-22",
-      "event_fingerprint": "title:db92f9318f6f3130:2026q2"
-    },
-    {
-      "event_key": "85bec5fd8069efe5",
-      "url_hash": "7b66ffa034217d40",
-      "date": "2026-06-22",
-      "event_fingerprint": "title:85342f3ecbc9334e:2026q2"
-    },
-    {
-      "event_key": "85bec5fd8069efe5",
-      "url_hash": "1caf2ce6a677849a",
-      "date": "2026-06-22",
-      "event_fingerprint": "title:f274ba6325acf1f8:2026q2"
-    },
-    {
-      "event_key": "85bec5fd8069efe5",
-      "url_hash": "5b4f9a22b566e4c9",
-      "date": "2026-06-22",
-      "event_fingerprint": "title:02854a374c1808e2:2026q2"
-    },
-    {
-      "event_key": "85bec5fd8069efe5",
-      "url_hash": "8121dd940d1d1022",
-      "date": "2026-06-22",
-      "event_fingerprint": "title:18eaa09bd8f05cc9:2026q2"
-    },
-    {
-      "event_key": "85bec5fd8069efe5",
-      "url_hash": "45740d32509bc144",
-      "date": "2026-06-22",
-      "event_fingerprint": "title:2c698aec37d36279:2026q2"
-    },
-    {
-      "event_key": "85bec5fd8069efe5",
-      "url_hash": "19d8ac182db82ccf",
-      "date": "2026-06-22",
-      "event_fingerprint": "title:c9b9b6eb5ed92e7a:2026q2"
-    },
-    {
-      "event_key": "85bec5fd8069efe5",
-      "url_hash": "4b31f5d9987068e4",
-      "date": "2026-06-22",
-      "event_fingerprint": "title:711d440e30620083:2026q2"
-    },
-    {
-      "event_key": "85bec5fd8069efe5",
-      "url_hash": "03e2a31ac2dcbf3d",
-      "date": "2026-06-22",
-      "event_fingerprint": "title:9d1a5b79b3fd6c26:2026q2"
-    },
-    {
-      "event_key": "85bec5fd8069efe5",
-      "url_hash": "619d9d74cb0a25ff",
-      "date": "2026-06-22",
-      "event_fingerprint": "title:3f3c25d5450927a6:2026q2"
-    },
-    {
-      "event_key": "global_ai_generated_art_replacement_2024",
-      "url_hash": "91ac746d1c503d38",
-      "date": "2026-06-22",
-      "event_fingerprint": "93a9b3108eac00a3"
-    },
-    {
-      "event_key": "us_sony_digital_content_shutdown_litigation_2024",
-      "url_hash": "fc8c5dd16203caa6",
-      "date": "2026-06-22",
-      "event_fingerprint": "416a7f7dfa8416e7"
-    },
-    {
-      "event_key": "global_steam_ai_content_policy_2024",
-      "url_hash": "eb379287610af356",
-      "date": "2026-06-22",
-      "event_fingerprint": "1d85f6394156b66e"
-    },
-    {
-      "event_key": "global_sony_ai_strategy_report_2024",
-      "url_hash": "46c5bb8f80c6e63c",
-      "date": "2026-06-22",
-      "event_fingerprint": "57d6ba53b2bcd8c6"
-    },
-    {
-      "event_key": "us_labor_wage_lawsuit_2025",
-      "url_hash": "07c8a180bcac30fd",
-      "date": "2026-06-22",
-      "event_fingerprint": "11acb00032eb1eed"
-    },
-    {
-      "event_key": "global_ai_ethics_dev_partnership_2025q1",
-      "url_hash": "a4ec463731483606",
-      "date": "2026-06-22",
-      "event_fingerprint": "3708ec6aad71d18e"
-    },
-    {
-      "event_key": "eu_edpb_website_redesign_2024",
-      "url_hash": "faaab60c2f0f9814",
-      "date": "2026-06-22",
-      "event_fingerprint": "2a240097ba16d4d7"
-    },
-    {
-      "event_key": "global_ai_marketing_automation_launch_2024",
-      "url_hash": "872056cb8a9d15ac",
-      "date": "2026-06-22",
-      "event_fingerprint": "fbfc091f1ab561ac"
-    },
-    {
-      "event_key": "cn_ai_generation_usage_policy_2024",
-      "url_hash": "50cfafcc8d8fd3d8",
-      "date": "2026-06-22",
-      "event_fingerprint": "94dbcc2958578082"
-    },
-    {
       "event_key": "global_steam_ai_labeling_policy",
       "url_hash": "e3c308e78a829f88",
       "date": "2026-06-24",
@@ -829,6 +715,48 @@
       "url_hash": "59ff798775360906",
       "date": "2026-07-22",
       "event_fingerprint": "0f0d761c15c760c1"
+    },
+    {
+      "event_key": "savvy_ea_buyout_eu_approval_2026q3",
+      "url_hash": "efddaf756291100b",
+      "date": "2026-07-24",
+      "event_fingerprint": "71c77ce6ef9d86a5"
+    },
+    {
+      "event_key": "bethesda_canada_union_complaint_2026q3",
+      "url_hash": "8a27d97f1e677f40",
+      "date": "2026-07-24",
+      "event_fingerprint": "74110672d95084d2"
+    },
+    {
+      "event_key": "bethesda_termination_dispute_2026q3",
+      "url_hash": "93a081e3e4c1a01e",
+      "date": "2026-07-24",
+      "event_fingerprint": "edbc47dfcc8dec7c"
+    },
+    {
+      "event_key": "midgar_studio_liquidation_2026q3",
+      "url_hash": "ae544828b7400a42",
+      "date": "2026-07-24",
+      "event_fingerprint": "0c51b8ab786c3633"
+    },
+    {
+      "event_key": "nintendo_tariff_refund_class_action_2026q3",
+      "url_hash": "2e6e03ba47d6ced9",
+      "date": "2026-07-24",
+      "event_fingerprint": "f5e32d6615bb105d"
+    },
+    {
+      "event_key": "bethesda_montreal_severance_dispute_2026q3",
+      "url_hash": "bc59de6e43a251c4",
+      "date": "2026-07-24",
+      "event_fingerprint": "3b6ed0b8c78aa68c"
+    },
+    {
+      "event_key": "rockstar_union_recognition_2026q3",
+      "url_hash": "fefdcc6017f5d717",
+      "date": "2026-07-24",
+      "event_fingerprint": "87afb66c764e7dc8"
     }
   ]
 }

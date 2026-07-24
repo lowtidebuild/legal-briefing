@@ -1,0 +1,201 @@
+[
+  {
+    "title": "Saudi Arabia's divisive EA buyout approved under EU merger rules",
+    "url": "https://www.gamedeveloper.com/business/saudi-arabia-s-polarising-ea-buyout-approved-under-eu-merger-rules",
+    "source": "GameDeveloper",
+    "pub_date": "2026-07-23",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "유럽연합(EU) 집행위원회가 사우디아라비아 국부펀드(PIF)의 일렉트로닉 아츠(Electronic Arts, EA) 인수가 시장 경쟁을 저해하지 않는다고 판단하여 이를 최종 승인했습니다.",
+      "논란이 많은 국가 자본의 대형 게임사 인수가 반독점 규제 기관의 법적 심사를 통과함으로써 글로벌 게임 산업 내 자본 유입의 합법성을 확보했습니다.",
+      "해외 정부 자본의 국내외 게임사 투자 및 인수합병 시 국가적 논란이 있더라도 실무적으로는 시장 점유율과 경쟁 제한성 위주의 반독점 기준을 충족하는 것이 핵심임을 시사합니다."
+    ],
+    "event": {
+      "jurisdiction": "EU",
+      "event_type": "business",
+      "regulatory_phase": "enacted",
+      "actors": [
+        "European Commission",
+        "Savvy Games Group",
+        "Electronic Arts"
+      ],
+      "object": "Electronic Arts buyout",
+      "action": "Merger clearance approved under EU competition rules",
+      "game_mechanic": "",
+      "time_hint": "2026-07-23"
+    },
+    "event_key": "savvy_ea_buyout_eu_approval_2026q3",
+    "is_primary": true,
+    "title_ko": "사우디아라비아의 EA 인수안, EU 합병 규정에 따라 최종 승인"
+  },
+  {
+    "title": "Union accuses Bethesda of violating labour laws in Canada following layoffs at Montreal studio",
+    "url": "https://www.gamesindustry.biz/union-accuses-bethesda-of-violating-labour-laws-in-canada-following-layoffs-at-montreal-studio",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-07-23",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "베데스다(Bethesda) 개발사 노조인 원비지에스(OneBGS)가 캐나다 몬트리올 스튜디오의 정리해고 이후 사측이 지속적으로 현지 노동법을 위반했다며 법적 제소를 제기했습니다.",
+      "해외 지사 정리해고 시 현지 노동조합 및 노동 관계법의 절차적 정당성을 준수하지 않을 경우 법적 분쟁과 브랜드 이미지 타격이 발생할 수 있음을 보여줍니다.",
+      "글로벌 게임 기업은 다국적 스튜디오의 구조조정이나 인력 감축을 단행할 때 각 국가의 노동법 규정 및 노조와의 합의 절차를 사전에 철저히 검토해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "OneBGS",
+        "Bethesda Game Studios"
+      ],
+      "object": "Montreal studio layoffs",
+      "action": "Filing of legal complaint for violating Canadian labor laws",
+      "game_mechanic": "",
+      "time_hint": "2026-07-23"
+    },
+    "event_key": "bethesda_canada_union_complaint_2026q3",
+    "is_primary": true,
+    "title_ko": "베데스다 노조, 몬트리올 스튜디오 감원 이후 캐나다 노동법 위반 혐의로 제소"
+  },
+  {
+    "title": "Union claims Bethesda developers were terminated the day Xbox announced new Fallouts—after being told they would still have jobs until September",
+    "url": "https://www.pcgamer.com/gaming-industry/union-claims-bethesda-developers-were-laid-off-the-day-xbox-announced-new-fallouts-after-being-told-they-would-still-have-jobs-until-september/",
+    "source": "PC Gamer",
+    "pub_date": "2026-07-22",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "원비지에스(OneBGS) 노조는 사측으로부터 9월까지 고용이 보장된다는 고지를 받았음에도 엑스박스(Xbox)가 신작 폴아웃(Fallout) 프로젝트를 발표한 당일에 전격 해고된 직원들을 위해 새로운 법적 조치를 취했습니다.",
+      "고용 안정에 대한 사전 약속을 번복한 급작스러운 해고 절차는 근로계약 및 노동법상 신의성실의 원칙을 위배해 노사 갈등을 극대화할 위험이 큽니다.",
+      "인력 감축을 동반한 프로젝트 조정 시 퇴직 시점과 처우에 대해 서면화된 명확한 합의를 제공하여 예측 가능한 법적 리스크를 선제적으로 관리해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "OneBGS",
+        "Bethesda Game Studios",
+        "Xbox"
+      ],
+      "object": "Developer terminations and layoffs",
+      "action": "Filing of legal action over developer dismissal timeline violations",
+      "game_mechanic": "",
+      "time_hint": "2026-07-22"
+    },
+    "event_key": "bethesda_termination_dispute_2026q3",
+    "is_primary": true,
+    "title_ko": "베데스다 노조, 엑스박스의 '폴아웃' 신작 발표 당일 해고된 개발자들을 위한 법적 대응 개시"
+  },
+  {
+    "title": "Court orders Edge of Eternity dev Midgar Studio to liquidate after failing to secure a buyer",
+    "url": "https://www.gamesindustry.biz/court-orders-midgar-studio-to-liquidate-after-failing-to-secure-a-buyer",
+    "source": "GamesIndustry.biz",
+    "pub_date": "2026-07-20",
+    "category": "MA_CORP_ANTITRUST",
+    "summary_ko": [
+      "프랑스 법원이 '엣지 오브 이터니티(Edge of Eternity)'를 개발한 미드가르 스튜디오(Midgar Studio)가 끝내 새로운 인수자를 찾지 못하자 회사 청산 명령을 내렸습니다.",
+      "중소규모 게임 개발사의 경영난과 투자 유치 실패가 구조조정을 넘어 기업 파산 및 스튜디오 소멸로 이어지는 엄혹한 업계 현실을 대변합니다.",
+      "개발 스튜디오는 재정적 위기 발생 시 M&A 시기를 실무적으로 조율해야 하며 법적 파산 절차 돌입에 따른 지식재산권(IP) 및 자산 처리 규정을 면밀히 대비해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "other",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Midgar Studio",
+        "Court"
+      ],
+      "object": "Midgar Studio assets and business",
+      "action": "Court order to liquidate Midgar Studio after failing to secure buyer",
+      "game_mechanic": "",
+      "time_hint": "2026-07-20"
+    },
+    "event_key": "midgar_studio_liquidation_2026q3",
+    "is_primary": true,
+    "title_ko": "프랑스 법원, 인수자 확보 실패한 '엣지 오브 이터니티' 개발사 미드가르 스튜디오에 청산 명령"
+  },
+  {
+    "title": "Nintendo has no obligation to pass tariff refunds onto customers, the company says, because Switch buyers received \"what they bargained and paid for\"",
+    "url": "https://www.eurogamer.net/nintendo-us-tariffs-no-switch-refunds-class-action-lawsuit",
+    "source": "Eurogamer",
+    "pub_date": "2026-07-21",
+    "category": "CONSUMER_MONETIZATION",
+    "summary_ko": [
+      "닌텐도(Nintendo)는 미국 관세 인상에 대응해 스위치(Switch) 가격을 올린 후, 향후 정부로부터 관세를 환급받더라도 소비자는 합의된 가격에 제품을 구매했으므로 환급금을 나눠줄 의무가 없다며 집단소송의 기각을 법원에 신청했습니다.",
+      "과세 정책 변화에 따른 기업의 가격 책정 권한과 사후 세금 환급금의 귀속 주체를 둘러싼 중대한 소비자 법적 분쟁입니다.",
+      "게임 하드웨어 및 패키지 유통 기업은 글로벌 관세율 변동과 판매가 책정 시 발생할 수 있는 소비자 집단소송 리스크와 약관 조항의 방어 논리를 점검해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "US",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Nintendo",
+        "Class Action Plaintiffs"
+      ],
+      "object": "Tariff refund pass-through on Nintendo Switch console purchases",
+      "action": "Nintendo files motion to dismiss class action lawsuit regarding tariff refund obligations",
+      "game_mechanic": "pricing",
+      "time_hint": "2026-07-21"
+    },
+    "event_key": "nintendo_tariff_refund_class_action_2026q3",
+    "is_primary": true,
+    "title_ko": "닌텐도, 관세 환급금을 고객에게 반환할 법적 의무가 없다며 집단소송 기각 요구"
+  },
+  {
+    "title": "Bethesda union slams Xbox for offering the 'bare legal minimum in terms of severance'",
+    "url": "https://www.gamedeveloper.com/production/canadian-union-workers-slam-xbox-for-offering-the-bare-legal-minimum-in-terms-of-severance-",
+    "source": "GameDeveloper",
+    "pub_date": "2026-07-23",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "베데스다(Bethesda) 몬트리올 스튜디오의 노조원들은 모회사 마이크로소프트(MS)/엑스박스(Xbox)가 정리해고 대상자들에게 단체 건강보험 혜택을 즉각 중단하고 법적 최저 기준의 퇴직금만을 제공했다며 강하게 비판했습니다.",
+      "IT 및 게임 대기업이 구조조정 과정에서 인도적 처우 대신 비용 절감을 위해 법적 최소 기준만을 강요할 때 발생하는 노사 갈등과 여론 악화를 보여줍니다.",
+      "해고 대상 직원에 대한 복리후생 중단 시점과 퇴직 패키지 산정은 현지 노동 관행과 대외 평판 리스크를 종합적으로 고려하여 실무적인 가이드라인을 수립해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "Global",
+      "event_type": "litigation",
+      "regulatory_phase": "litigation",
+      "actors": [
+        "Bethesda Montreal Employees",
+        "Microsoft",
+        "OneBGS"
+      ],
+      "object": "Severance terms and group health benefits",
+      "action": "Union accusations of offering minimum legal severance and cutting health benefits",
+      "game_mechanic": "",
+      "time_hint": "2026-07-23"
+    },
+    "event_key": "bethesda_montreal_severance_dispute_2026q3",
+    "is_primary": true,
+    "title_ko": "베데스다 노조, 엑스박스의 '법적 최소 기준' 퇴직금 지급 처우 강력 규탄"
+  },
+  {
+    "title": "As layoff controversy continues, Rockstar union has 'more members than ever before', meaning it could force mandatory recognition",
+    "url": "https://www.eurogamer.net/rockstar-developer-union-more-members-layoffs",
+    "source": "Eurogamer",
+    "pub_date": "2026-07-23",
+    "category": "LABOR_EMPLOYMENT",
+    "summary_ko": [
+      "락스타 게임즈(Rockstar Games) 노동조합(RGWU)이 대규모 정리해고 논란 이후 사상 최대 수준으로 조합원을 확보하면서 사측에 노조의 공식 인정을 강제할 수 있는 법적 요건에 근접했습니다.",
+      "개발사 내 불만이 조직적인 노동운동 세력 확대로 이어져 향후 단체교섭권 등 노사 관계 주도권이 노조 측으로 크게 기울 수 있음을 시사합니다.",
+      "스튜디오 경영진은 강압적인 구조조정이 노조 결성 및 세력 확장을 촉발할 수 있음을 인지하고 노사 소통 채널 다각화와 상생 협력 방안을 실무에 도입해야 합니다."
+    ],
+    "event": {
+      "jurisdiction": "UK",
+      "event_type": "other",
+      "regulatory_phase": "enforced",
+      "actors": [
+        "Rockstar Game Workers Union",
+        "Rockstar Games"
+      ],
+      "object": "Union recognition and labor organization",
+      "action": "Union membership growth aiming for mandatory recognition following layoffs",
+      "game_mechanic": "",
+      "time_hint": "2026-07-23"
+    },
+    "event_key": "rockstar_union_recognition_2026q3",
+    "is_primary": true,
+    "title_ko": "락스타 게임즈 노조 세력 확장, 법적 '의무 인정' 요구 가능한 수준 도달"
+  }
+]
